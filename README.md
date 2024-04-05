@@ -44,6 +44,63 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
   - [Ethics](#ethics)
 
 
+# Taxonomy
+## Social interaction types
+*The objectives of different agents*
+### Pure collaboration
+*The objectives are shared among agents*
+
+### Pure Competition
+*The objectives are zero-sum*
+
+### Mixed Objectives
+*Agents’ have different goals, but they are not zero-sum*
+
+### Implicit Objectives
+*Goals are not expressed explicitly*
+
+## Number  of agents
+### Two agents
+### More than three agents
+
+## Social interaction environments
+### Closed simulation
+*A fixed hand-crafted world*
+
+### Open simulation
+*Procedurally expanded or naturally large env*
+
+### Real physical world
+* Indoor scenes
+* Outdoor scenes
+
+
+## Communication protocol
+### Non-human-like (?) communication
+*Centralized control instead of modeling each agent on their own*
+
+### Text Communication
+### Voice Communication
+### Non-verbal communication
+
+## Modeling Techniques
+### Prompting
+### In-context learning
+### Fine-tuning
+### Reinforcement learning
+
+## Human involvement
+### No human involvement
+### Simulated humans
+### Human-in-loop
+
+## Evaluation Protocol
+### Rule-based evaluation
+### Human evaluation
+### Model-based evaluation
+
+## Smaller categories
+### Non-turn-based social interaction
 
 ## Papers
 
