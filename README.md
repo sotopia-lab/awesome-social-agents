@@ -45,62 +45,63 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 
 
 # Taxonomy
-## Social interaction types
+## 1 Social interaction types
 *The objectives of different agents*
-### Pure collaboration
+### 1.1 Pure collaboration
 *The objectives are shared among agents*
 
-### Pure Competition
+### 1.2 Pure Competition
 *The objectives are zero-sum*
 
-### Mixed Objectives
+### 1.3 Mixed Objectives
 *Agents’ have different goals, but they are not zero-sum*
 
-### Implicit Objectives
+### 1.4 Implicit Objectives
 *Goals are not expressed explicitly*
 
-## Number  of agents
-### Two agents
-### More than three agents
+## 2 Number  of agents
+### 2.1 Two agents
+### 2.2 More than three agents
+### 2.3 Multiple teams of agents
 
-## Social interaction environments
-### Closed simulation
+## 3 Social interaction environments
+### 3.1 Closed simulation
 *A fixed hand-crafted world*
 
-### Open simulation
+### 3.2 Open simulation
 *Procedurally expanded or naturally large env*
 
-### Real physical world
+### 3.3 Real physical world
 * Indoor scenes
 * Outdoor scenes
 
 
-## Communication protocol
-### Non-human-like (?) communication
+## 4 Communication protocol
+### 4.1 Non-human-like (?) communication
 *Centralized control instead of modeling each agent on their own*
 
-### Text Communication
-### Voice Communication
-### Non-verbal communication
+### 4.2 Text Communication
+### 4.3 Speech Communication
+### 4.4 Non-verbal communication
 
-## Modeling Techniques
-### Prompting
-### In-context learning
-### Fine-tuning
-### Reinforcement learning
+## 5 Modeling Techniques
+### 5.1 Prompting
+### 5.2 In-context learning
+### 5.3 Fine-tuning
+### 5.4 Reinforcement learning
 
-## Human involvement
-### No human involvement
-### Simulated humans
-### Human-in-loop
+## 6 Human involvement
+### 6.1 No human involvement
+### 6.2 Simulated humans
+### 6.3 Human-in-loop
 
-## Evaluation Protocol
-### Rule-based evaluation
-### Human evaluation
-### Model-based evaluation
+## 7 Evaluation Protocol
+### 7.1 Rule-based evaluation
+### 7.2 Human evaluation
+### 7.3 Model-based evaluation
 
-## Smaller categories
-### Non-turn-based social interaction
+## 8 Smaller categories
+### 8.1 Non-turn-based social interaction
 
 ## Papers
 
