@@ -1,5 +1,5 @@
 <div align="center">
-  <h1><i class="fa-solid fa-people-arrows" style="color: Mediumslateblue;"></i> Awesome Social Agents</h1>
+  <h1>🗣️👥 Awesome Social Agents</h1>
   <a href="https://awesome.re">
     <img src="https://awesome.re/badge.svg" alt="Awesome">
   </a>
@@ -16,7 +16,7 @@ The rise of Large Language Models (LLMs)/foundational models presents new opport
 
 Ultimately, our goal is to illuminate the dawn of a new era characterized by socially intelligent automated agents, offering insights crucial for understanding and harnessing their potential impact on society. We strive to keep these updated regularly and continuously. **We greatly appreciate any contributions via PRs, issues, emails, or other methods.** 
 
-<i class="fa-solid fa-pen"></i> *We are currently working on a survey paper related to content of this repository. Stay tuned for updates!*
+📝 *We are currently working on a survey paper related to content of this repository. Stay tuned for updates!*
 
 ## Table of Contents
 
@@ -29,17 +29,14 @@ Ultimately, our goal is to illuminate the dawn of a new era characterized by soc
     - [Exchange](#exchange)
     - [Persuasion](#persuasion)
     - [Negotiation](#negotiation)
-
   - [Text Simulation](#text-simulation)
     - [Environments](#environments)
     - [Agents](#agents)
     - [Applications](#applications)
-
   - [Embodied and Virtual Simulation](#embodied-and-virtual-simulation)
     - [Environments](#environments)
     - [Agents](#agents)
     - [Applications](#applications)
-
   - [Human-X Interaction](#human-x-interaction)
     - [Human-chatbot Interaction](#human-chatbot-interaction)
     - [Human-embodied-agent Interaction](#human-embodied-agent-interaction)
