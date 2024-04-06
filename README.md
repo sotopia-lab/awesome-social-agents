@@ -6,7 +6,7 @@
   <a href="https://img.shields.io/badge/PRs-Welcome-red">
     <img src="https://img.shields.io/badge/PRs-Welcome-blue" alt="PRs Welcome">
   </a>
-  <a href="https://img.shields.io/badge/arXiv-2403.15452-b31b1b.svg">
+  <a href="https://img.shields.io/badge/arXiv-coming-b31b1b.svg">
     <img src="https://img.shields.io/badge/arXiv-Coming soon-b31b1b.svg" alt="arXiv">
   </a>
 </div>
@@ -14,7 +14,7 @@
 <!-- The integration of AI systems into our daily lives has become increasingly ubiquitous, with these systems now capable of interacting with humans in more human-like behaviors than ever before. Specifically, t -->
 The rise of Large Language Models (LLMs)/foundational models presents new opportunities for simulating complex human **social behaviors**. As a result, there is a rapidly growing body of work emerging in this domain. We hope to categorize and synergize recent efforts to provide a comprehensive guidebook of **social agents** weaving together multiple domains, including language, embodiment, and robotics. 
 
-Our goal is to offer insights crucial for understanding and harnessing **social agents'** potential impact on society. We strive to keep these updated regularly and continuously. **We greatly appreciate any contributions via PRs, issues, emails, or other methods.** 
+Our goal is to offer insights crucial for understanding and harnessing **social agents'** potential impact on society. We strive to keep these updated regularly and continuously. **We greatly appreciate any contributions via PRs, issues, emails, or other methods.**
 
 📝 *We are currently working on a survey paper related to content of this repository. Stay tuned for updates!*
 
