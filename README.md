@@ -32,7 +32,7 @@
 
 > [!Note]
 > * **Agent** and **Environment** (Sutton and Barto 2018): An agent is a goal-driven decision-maker that sense and act upon the state of the environment. An environment comprises the state outside the agent, including the other agents if any. 
-> * **Social Agent**: An agent that interact with other agent(s) in the environment. 
+> * **Social Agent**: An agent that interact with a multi-agent environment.
 > * **Socially Intelligent Agent**: A social agent that can interact and communicate in a human-interpretable way.
 > <details><summary>more notes</summary><ol>
 > <li>The social intelligence that we are focusing on is human-like, excluding the collective intelligence in a lot of social animals like ants, bees, fishes. </li> 
