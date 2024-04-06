@@ -31,9 +31,6 @@
     *All the examples here are assuming humans are part of the environment.
 </details>
 
-
-
-
 > [!Note]
 > * **Agent** and **Environment** (Sutton and Barto 2018): An agent is a goal-driven decision-maker that sense and act upon the state of the environment. An environment comprises the state outside the agent, including the other agents if any. 
 > * **Social Agent**: An agent that interacts with a multi-agent environment.
