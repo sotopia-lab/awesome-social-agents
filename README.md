@@ -29,9 +29,9 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 > <li>To understand whether an entity is a (social) agent, we have to situate it in an environment. It is not possible to discuss an agent outside of an environment. </li>
 > </ol></details>
 
-<details><summary><i>Examples:</i></summary>
+<details><summary><i>Social Agent Examples:</i></summary>
 
-| Examples*    | Social agent | Socially intelligent agent |
+| Examples    | Social agent | Socially intelligent agent |
 | -------- | ------- |  ------- |
 | Agent outputing only yes or no | ✔, if the yes or no is somewhat meaningful  | ✔, if the yes or no is interpretable by a certain group of people. But the communication bandwidth is quite limited, so its social intelligence level could be low. |
 | Agent outputting only yes | ❌, the agent could not perceive environment and act accordingly    | ❌ |
@@ -44,9 +44,6 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 | A lightbulb with motion sensor that turns on when you walk by | ? | ? |
 | Self-driving cars on the real road | ✔, they interact |?|
 
-
-
-*All the examples here are assuming humans are part of the environment.
 </details>
 
 📝 *We are currently working on a survey paper related to content of this repository. Stay tuned for updates!*
