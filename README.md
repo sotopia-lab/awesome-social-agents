@@ -20,7 +20,7 @@ The rise of Large Language Models (LLMs)/foundational models presents new opport
 
 Our goal is to offer insights crucial for understanding and harnessing **social agents'** potential impact on society. We strive to keep these updated regularly and continuously. **We greatly appreciate any contributions via PRs, issues, emails, or other methods.**
 
- [!Note]
+> [!Note]
 > * **Agent** and **Environment** (Sutton and Barto 2018): An agent is a goal-driven decision-maker that sense and act upon the state of the environment. An environment comprises the state outside the agent, including the other agents if any. 
 > * **Social Agent**: An agent that interacts with a multi-agent environment.
 > * **Socially Intelligent Agent**: A social agent that interacts and communicates with other agents in a human-interpretable way.
