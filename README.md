@@ -13,36 +13,41 @@
 
 <!-- The integration of AI systems into our daily lives has become increasingly ubiquitous, with these systems now capable of interacting with humans in more human-like behaviors than ever before. Specifically, t -->
 <!-- 🎯 What is a **social agent**: A social agent is a human communicative agent that perceive environment, either social or physical, and act upon it with language, action, or non-verbal communication. -->
-<details>
-  <summary><i>Examples:</i></summary>
-    | Examples*    | Social agent | Socially intelligent agent |
-    | -------- | ------- |  ------- |
-    | Agent outputing only yes or no | ✔, if the yes or no is somewhat meaningful  | ✔, if the yes or no is interpretable by a certain group of people. But the communication bandwidth is quite limited, so its social intelligence level could be low. |
-    | Agent outputting only yes | ❌, the agent could not perceive environment and act accordingly    | ❌ |
-    | [StarCraft](https://www.nature.com/articles/s41586-019-1724-z) Agents    |  ✔, they interact  |❌, humans cannot understand their internal signals |
-    | Agents speak an artificial code language that only few people understand | ✔, they interact | ✔, they interact and communicate in a human-interpretable way |
-    | [Trisolarans](https://aliens.fandom.com/wiki/Trisolaran) | ✔, they interact | ❌, their way of interaction is different from how humans communicate. They are essentially mind readers, and they don't need theory of mind |
-    | A newspaper, or a bot that only responds you with today's weather in Pittsburgh | ❌, they don't interact | ❌ |
-    | A [Webareana](https://webarena.dev/) agent | ❌, they only interact the browser environment | ❌ |
-    | A tree | ❌, they don't interact | ❌ |
-    | A lightbulb with motion sensor that turns on when you walk by | ? | ? |
-    | Self-driving cars on the real road | ✔, they interact |?|
 
-    *All the examples here are assuming humans are part of the environment.
-</details>
+
+
+The rise of Large Language Models (LLMs)/foundational models presents new opportunities for simulating complex human **social behaviors**. As a result, there is a rapidly growing body of work emerging in this domain. We hope to categorize and synergize recent efforts to provide a comprehensive guidebook of **social agents** weaving together multiple domains, including language, embodiment, and robotics. 
+
+Our goal is to offer insights crucial for understanding and harnessing **social agents'** potential impact on society. We strive to keep these updated regularly and continuously. **We greatly appreciate any contributions via PRs, issues, emails, or other methods.**
 
 > [!Note]
-> * **Agent** and **Environment** (Sutton and Barto 2018): An agent is a goal-driven decision-maker that sense and act upon the state of the environment. An environment comprises the state outside the agent, including the other agents if any. 
-> * **Social Agent**: An agent that interacts with a multi-agent environment.
-> * **Socially Intelligent Agent**: A social agent that interacts and communicates with other agents in a human-interpretable way.
+> * **Agent** and **Environment**: An agent is an entity driven by a goal-oriented policy that can perceive its environment through sensors and act upon that environment through actuators.
+> * **Social Agent**: An agent that interact with other agent(s) in the environment. 
+> * **Socially Intelligent Agent**: A social agent that can interact and communicate in a human-interpretable way.
 > <details><summary>more notes</summary><ol>
 > <li>The social intelligence that we are focusing on is human-like, excluding the collective intelligence in a lot of social animals like ants, bees, fishes. </li> 
 > <li>To understand whether an entity is a (social) agent, we have to situate it in an environment. It is not possible to discuss an agent outside of an environment. </li>
 > </ol></details>
 
-The rise of Large Language Models (LLMs)/foundational models presents new opportunities for simulating complex human **social behaviors**. As a result, there is a rapidly growing body of work emerging in this domain. We hope to categorize and synergize recent efforts to provide a comprehensive guidebook of **social agents** weaving together multiple domains, including language, embodiment, and robotics. 
+<details><summary><i>Examples:</i></summary>
 
-Our goal is to offer insights crucial for understanding and harnessing **social agents'** potential impact on society. We strive to keep these updated regularly and continuously. **We greatly appreciate any contributions via PRs, issues, emails, or other methods.**
+| Examples*    | Social agent | Socially intelligent agent |
+| -------- | ------- |  ------- |
+| Agent outputing only yes or no | ✔, if the yes or no is somewhat meaningful  | ✔, if the yes or no is interpretable by a certain group of people. But the communication bandwidth is quite limited, so its social intelligence level could be low. |
+| Agent outputting only yes | ❌, the agent could not perceive environment and act accordingly    | ❌ |
+| [StarCraft](https://www.nature.com/articles/s41586-019-1724-z) Agents    |  ✔, they interact  |❌, humans cannot understand their internal signals |
+| Agents speak an artificial code language that only few people understand | ✔, they interact | ✔, they interact and communicate in a human-interpretable way |
+| [Trisolarans](https://aliens.fandom.com/wiki/Trisolaran) | ✔, they interact | ❌, their way of interaction is different from how humans communicate. They are essentially mind readers, and they don't need theory of mind |
+| A newspaper, or a bot that only responds you with today's weather in Pittsburgh | ❌, they don't interact | ❌ |
+| A [Webareana](https://webarena.dev/) agent | ❌, they only interact the browser environment | ❌ |
+| A tree | ❌, they don't interact | ❌ |
+| A lightbulb with motion sensor that turns on when you walk by | ? | ? |
+| Self-driving cars on the real road | ✔, they interact |?|
+
+
+
+*All the examples here are assuming humans are part of the environment.
+</details>
 
 📝 *We are currently working on a survey paper related to content of this repository. Stay tuned for updates!*
 
