@@ -14,6 +14,10 @@
 <!-- The integration of AI systems into our daily lives has become increasingly ubiquitous, with these systems now capable of interacting with humans in more human-like behaviors than ever before. Specifically, t -->
 🎯 What is a **social agent**: A social agent is a human communicative agent that perceive environment, either social or physical, and act upon it with language, action, or non-verbal communication.
 
+**Agent** and **Environment**: An agent is an entity driven by a goal-oriented policy that can perceive its environment through sensors and act upon that environment through actuators.
+**Social Agent**: An agent that interact with other agent(s) in the environment. 
+**Socially Intelligent Agent**: A social agent that can interact and communicate in a human-interpretable way.
+
 The rise of Large Language Models (LLMs)/foundational models presents new opportunities for simulating complex human **social behaviors**. As a result, there is a rapidly growing body of work emerging in this domain. We hope to categorize and synergize recent efforts to provide a comprehensive guidebook of **social agents** weaving together multiple domains, including language, embodiment, and robotics. 
 
 Our goal is to offer insights crucial for understanding and harnessing **social agents'** potential impact on society. We strive to keep these updated regularly and continuously. **We greatly appreciate any contributions via PRs, issues, emails, or other methods.**
