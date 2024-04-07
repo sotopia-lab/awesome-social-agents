@@ -36,6 +36,9 @@ extra:
     provider: mike
   generator: false
 
+repo_name:  awesome-social-agents
+repo_url: https://github.com/sotopia-lab/awesome-social-agents
+
 markdown_extensions:
   - toc:
       permalink: 
@@ -47,9 +50,8 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - callouts
-  - mdx_gh_links:
-      user: mkdocs
-      repo: mkdocs
+  - admonition
+  - pymdownx.details
   - mkdocs-click
 
 plugins:
@@ -59,3 +61,4 @@ plugins:
       css_dir: css
       javascript_dir: js
   - search:
+  - callouts

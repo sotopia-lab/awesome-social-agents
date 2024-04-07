@@ -14,36 +14,22 @@
 <!-- The integration of AI systems into our daily lives has become increasingly ubiquitous, with these systems now capable of interacting with humans in more human-like behaviors than ever before. Specifically, t -->
 <!-- 🎯 What is a **social agent**: A social agent is a human communicative agent that perceive environment, either social or physical, and act upon it with language, action, or non-verbal communication. -->
 
-
+<sup><sub>*For the best experience, we recommend reading this document on the [website](https://sotopia-lab.github.io/awesome-social-agents/).*</sub></sup>
 
 The rise of Large Language Models (LLMs)/foundational models presents new opportunities for simulating complex human **social behaviors**. As a result, there is a rapidly growing body of work emerging in this domain. We hope to categorize and synergize recent efforts to provide a comprehensive guidebook of **social agents** weaving together multiple domains, including language, embodiment, and robotics. 
 
 Our goal is to offer insights crucial for understanding and harnessing **social agents'** potential impact on society. We strive to keep these updated regularly and continuously. **We greatly appreciate any contributions via PRs, issues, emails, or other methods.**
 
-> [!Note]
+> [!NOTE]
 > * **Agent** and **Environment** (Sutton and Barto 2018): An agent is a goal-driven decision-maker that sense and act upon the state of the environment. An environment comprises the state outside the agent, including the other agents if any. 
 > * **Social Agent**: An agent that interacts with a multi-agent environment.
 > * **Socially Intelligent Agent**: A social agent that interacts and communicates with other agents in a human-interpretable way.
 > <details><summary>more notes</summary><ol>
 > <li>The social intelligence that we are focusing on is human-like, excluding the collective intelligence in a lot of social animals like ants, bees, fishes. </li> 
 > <li>To understand whether an entity is a (social) agent, we have to situate it in an environment. It is not possible to discuss an agent outside of an environment. </li>
+> <li>We acknowledge there are many types of definitions for social agents. Our defitions here help narrow down the scope of our survey.</li>
 
-<details><summary><i>Social Agent Examples:</i></summary>
-
-| Examples    | Social agent | Socially intelligent agent |
-| -------- | ------- |  ------- |
-| Agent outputing only yes or no | ✔, if the yes or no is somewhat meaningful  | ✔, if the yes or no is interpretable by a certain group of people. But the communication bandwidth is quite limited, so its social intelligence level could be low. |
-| Agent outputting only yes | ❌, the agent could not perceive environment and act accordingly    | ❌ |
-| [StarCraft](https://www.nature.com/articles/s41586-019-1724-z) Agents    |  ✔, they interact  |❌, humans cannot understand their internal signals |
-| Agents speak an artificial code language that only few people understand | ✔, they interact | ✔, they interact and communicate in a human-interpretable way |
-| [Trisolarans](https://aliens.fandom.com/wiki/Trisolaran) | ✔, they interact | ❌, their way of interaction is different from how humans communicate. They are essentially mind readers, and they don't need theory of mind |
-| A newspaper, or a bot that only responds you with today's weather in Pittsburgh | ❌, it doesn't interact | ❌ |
-| A [Webareana](https://webarena.dev/) agent | ❌, it only interacts with the browser environment | ❌ |
-| A tree | ❌, it doesn't interact | ❌ |
-| A lightbulb with motion sensor that turns on when you walk by | ? | ? |
-| Self-driving cars on the real road | ✔, they interact |?|
-
-</details>
+🇪 *Check out the [examples](examples.md) of social agents.*
 
 📝 *We are currently working on a survey paper related to content of this repository. Stay tuned for updates!*
 
@@ -73,64 +59,7 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
   - [Ethics](#ethics)
 
 
-# Taxonomy
-## 1 Social interaction types
-*The objectives of different agents*
-### 1.1 Pure collaboration
-*The objectives are shared among agents*
 
-### 1.2 Pure Competition
-*The objectives are zero-sum*
-
-### 1.3 Mixed Objectives
-*Agents’ have different goals, but they are not zero-sum*
-
-### 1.4 Implicit Objectives
-*Goals are not expressed explicitly*
-
-## 2 Number  of agents
-### 2.1 Two agents
-### 2.2 More than three agents
-### 2.3 Multiple teams of agents
-
-## 3 Social interaction environments
-### 3.1 Closed simulation
-*A fixed hand-crafted world*
-
-### 3.2 Open simulation
-*Procedurally expanded or naturally large env*
-
-### 3.3 Real physical world
-* Indoor scenes
-* Outdoor scenes
-
-
-## 4 Communication protocol
-### 4.1 Non-human-like (?) communication
-*Centralized control instead of modeling each agent on their own*
-
-### 4.2 Text Communication
-### 4.3 Speech Communication
-### 4.4 Non-verbal communication
-
-## 5 Modeling Techniques
-### 5.1 Prompting
-### 5.2 In-context learning
-### 5.3 Fine-tuning
-### 5.4 Reinforcement learning
-
-## 6 Human involvement
-### 6.1 No human involvement
-### 6.2 Simulated humans
-### 6.3 Human-in-loop
-
-## 7 Evaluation Protocol
-### 7.1 Rule-based evaluation
-### 7.2 Human evaluation
-### 7.3 Model-based evaluation
-
-## 8 Smaller categories
-### 8.1 Non-turn-based social interaction
 
 ## Papers
 

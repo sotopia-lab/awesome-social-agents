@@ -20,5 +20,8 @@ jobs:
           path: .cache
       - run: pip install mkdocs-material
       - run: pip install mike
+      - run: pip install markdown-callouts
+      - run: pip install mkdocs-callouts
+      - run: pip install mkdocs-click
       - run: pip install pillow cairosvg
       - run: mkdocs gh-deploy --force
