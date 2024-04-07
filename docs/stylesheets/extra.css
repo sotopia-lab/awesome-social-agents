@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'Clash Display';
+    src: url('../fonts/ClashDisplay-Semibold.otf') format('opentype');
+}
+
+
+header {
+    font-family: 'Clash Display', serif;
+}
+
+.md-nav__title {
+    font-family: 'Clash Display', serif;
+}
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}

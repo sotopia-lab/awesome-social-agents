@@ -1,4 +1,5 @@
 site_name: awesome-social-agents
+docs_dir: '.'
 
 theme:
   name: material
