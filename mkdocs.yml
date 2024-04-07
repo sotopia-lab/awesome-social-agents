@@ -1,0 +1,45 @@
+site_name: awesome-social-agents
+
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
+  features:
+      - header.autohide
+      - navigation.tabs
+      - navigation.footer
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  version:
+    default: latest
+    provider: mike
+  generator: false
+
+plugins:
+  - mike:
+      version_selector: true
+      canonical_version: null
+      css_dir: css
+      javascript_dir: js
+  - search:
