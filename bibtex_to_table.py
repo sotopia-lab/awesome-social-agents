@@ -1,7 +1,6 @@
 import datetime
 import bibtexparser # type: ignore
 from tabulate import tabulate # type: ignore
-from pytablewriter import MarkdownTableWriter # type: ignore
 import pandas as pd # type: ignore
 import re
 
