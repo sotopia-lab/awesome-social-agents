@@ -1,0 +1,2 @@
+bibtexparser>=2.0
+tabulate

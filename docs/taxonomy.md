@@ -13,7 +13,7 @@
 ### 1.4 Implicit Objectives
 *Goals are not expressed explicitly*
 
-## 2 Number  of agents
+## 2 Number of agents
 ### 2.1 Two agents
 ### 2.2 More than three agents
 ### 2.3 Multiple teams of agents
@@ -28,15 +28,6 @@
 ### 3.3 Real physical world
 * Indoor scenes
 * Outdoor scenes
-
-
-## 4 Communication protocol
-### 4.1 Non-human-like (?) communication
-*Centralized control instead of modeling each agent on their own*
-
-### 4.2 Text Communication
-### 4.3 Speech Communication
-### 4.4 Non-verbal communication
 
 ## 5 Modeling Techniques
 ### 5.1 Prompting
@@ -53,6 +44,3 @@
 ### 7.1 Rule-based evaluation
 ### 7.2 Human evaluation
 ### 7.3 Model-based evaluation
-
-## 8 Smaller categories
-### 8.1 Non-turn-based social interaction
