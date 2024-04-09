@@ -1,46 +1,92 @@
 # Taxonomy
-## 1 Social interaction types
+## 1 Environment
 *The objectives of different agents*
-### 1.1 Pure collaboration
+### Social interaction types 
+
+#### Collaboration
 *The objectives are shared among agents*
 
-### 1.2 Pure Competition
+#### Pure Competition
 *The objectives are zero-sum*
 
-### 1.3 Mixed Objectives
+#### Mixed Objectives
 *Agents’ have different goals, but they are not zero-sum*
 
-### 1.4 Implicit Objectives
+#### Implicit Objectives
 *Goals are not expressed explicitly*
 
-## 2 Number of agents
-### 2.1 Two agents
-### 2.2 More than three agents
-### 2.3 Multiple teams of agents
+### Domains
 
-## 3 Social interaction environments
-### 3.1 Closed simulation
+#### Text and Speech
+
+#### Embodied AI
+
+#### Virtual Environments
+
+#### Robotics
+
+### Simulation Types
+### Closed simulation
 *A fixed hand-crafted world*
 
-### 3.2 Open simulation
+### Open simulation
 *Procedurally expanded or naturally large env*
 
-### 3.3 Real physical world
+### Real physical world
 * Indoor scenes
 * Outdoor scenes
 
-## 5 Modeling Techniques
-### 5.1 Prompting
-### 5.2 In-context learning
-### 5.3 Fine-tuning
-### 5.4 Reinforcement learning
+## 2 Agents
+*The types of agents involved in the simulation*
 
-## 6 Human involvement
-### 6.1 No human involvement
-### 6.2 Simulated humans
-### 6.3 Human-in-loop
+### Modeling
+*The techniques used to model the agents*
 
-## 7 Evaluation Protocol
-### 7.1 Rule-based evaluation
-### 7.2 Human evaluation
-### 7.3 Model-based evaluation
+#### Prompting
+*The agents are given explicit instructions*
+
+#### In-context learning
+
+#### Fine-tuning
+
+#### Reinforcement Learning
+
+### Number of agents
+#### Two agents
+#### More than three agents
+#### Multiple teams of agents
+
+### Other features
+
+#### Memory module
+
+## 3 Evaluation
+
+#### Only qualitative evaluation
+*You should definitely add this tag if a work is only based on qualitative evaluation*
+
+#### Rule-based evaluation
+*The evaluation is based on a set of rules*
+
+#### Human evaluation
+*Quantitative evaluation based on human judgment*
+
+#### Model-based evaluation
+
+
+## 4 Other
+
+### Human involvement
+#### No human involvement
+#### Simulated humans
+#### Human-in-loop
+*You should definitely add this tag if a work involves human-in-the-loop*
+
+### Applications
+#### Health
+#### Education
+#### Training
+#### Entertainment
+#### Policy
+#### Inter personal communication
+

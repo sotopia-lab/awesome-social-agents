@@ -16,8 +16,8 @@ def parse_markdown_file(file_path: str) -> dict[str, list[str]]:
             category = line.replace("##", "").strip()
             category = "_".join(category.lower().split(" ")[1:])
             taxonomy[category] = []
-        elif line.startswith("###"):
-            subcategory = line.replace("###", "").strip()
+        elif line.startswith("####"):
+            subcategory = line.replace("####", "").strip()
             if subcategory:
                 taxonomy[category].append(subcategory)
     return taxonomy
@@ -26,12 +26,19 @@ def parse_markdown_file(file_path: str) -> dict[str, list[str]]:
 def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> dict:
     entry["ID"] = entry.get("ID", "")
     
-    entry["title"] = entry.get("title", "")
-    if not entry["title"]:
+    if not entry.get("title", ""):
         raise ValueError("Title field is missing")
+
+    if not entry.get("author", ""):
+        raise ValueError("Author field is missing")
+
+    if not entry.get("year", ""):
+        raise ValueError("Year field is missing")
     
-    authors = entry.get("author", "")
-    authors_list = authors.split(" and ")
+    if not entry.get("url", ""):
+        raise ValueError("URL field is missing")
+    
+    authors_list = entry["author"].split(" and ")
     authors_processed = []
     for author in authors_list:
         author_parts = author.split(", ")
@@ -42,23 +49,15 @@ def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> dict:
             authors_processed.append(author)
     authors = ", ".join(authors_processed)
     entry["author"] = authors
-
-    if not entry["author"]:
-        raise ValueError("Author field is missing")
     
-    entry["year"] = entry.get("year", "")
-    if not entry["year"]:
-        raise ValueError("Year field is missing")
-
-    entry["url"] = entry.get("url", "")
-    if not entry["url"]:
-        raise ValueError("URL field is missing")
-
     if "eprint" in entry:
         entry["month"] = entry["eprint"].split(".")[0][2:]
-        print(entry["month"])
+    
+    if entry.get("month", ""):
         month_name = datetime.date(1900, int(entry["month"]), 1).strftime('%B').lower()
         entry["month"] = month_name.capitalize()
+    else:
+        raise ValueError("Month field is missing")
 
     entry["title_w_url"] = f"[{entry['title']}]({entry['url']})"
     entry["date"] = f"{entry['month']}, {entry['year']}" if "month" in entry else entry["year"]
@@ -66,10 +65,12 @@ def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> dict:
     # Add taxonomy tags
     for category, subcategories in taxonomy.items():
         subcategory = entry.get(category, "")
-        if not subcategory:
+        subcategory_list = subcategory.split(", ")
+        if not subcategory_list:
             raise ValueError(f"{category} field is missing")
-        elif subcategory not in subcategories and subcategory != "Irrelevant":
-            raise ValueError(f"{subcategory} is not a valid {category}, please choose from {subcategories}")
+        for subcategory in subcategory_list:
+            if subcategory not in subcategories:
+                raise ValueError(f"{subcategory} is not a valid {category}, please choose from {subcategories}")
     return entry
 
 def bibtex_to_table(bibtex: str, taxonomy: dict[str, list[str]]) -> str:
