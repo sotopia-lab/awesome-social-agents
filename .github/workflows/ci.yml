@@ -26,5 +26,6 @@ jobs:
       - run: pip install pillow cairosvg
       - run: pip install bibtexparser>=2.0
       - run: pip install tabulate
+      - run: pip install pandas
       - run: python bibtex_to_table.py
       - run: mkdocs gh-deploy --force
