@@ -26,13 +26,13 @@
 #### Robotics
 
 ### Simulation Types
-### Closed simulation
+#### Closed simulation
 *A fixed hand-crafted world*
 
-### Open simulation
+#### Open simulation
 *Procedurally expanded or naturally large env*
 
-### Real physical world
+#### Real physical world
 * Indoor scenes
 * Outdoor scenes
 

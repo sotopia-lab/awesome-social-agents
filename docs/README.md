@@ -14,7 +14,7 @@
 <!-- The integration of AI systems into our daily lives has become increasingly ubiquitous, with these systems now capable of interacting with humans in more human-like behaviors than ever before. Specifically, t -->
 <!-- 🎯 What is a **social agent**: A social agent is a human communicative agent that perceive environment, either social or physical, and act upon it with language, action, or non-verbal communication. -->
 
-<sup><sub>*For the best experience, we recommend reading this document on the [website](https://sotopia-lab.github.io/awesome-social-agents/).*</sub></sup>
+*For the best experience, we recommend reading this document on the [website](https://sotopia-lab.github.io/awesome-social-agents/).*
 
 The rise of Large Language Models (LLMs)/foundational models presents new opportunities for simulating complex human **social behaviors**. As a result, there is a rapidly growing body of work emerging in this domain. We hope to categorize and synergize recent efforts to provide a comprehensive guidebook of **social agents** weaving together multiple domains, including language, embodiment, and robotics. 
 
@@ -29,7 +29,8 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 > <li>To understand whether an entity is a (social) agent, we have to situate it in an environment. It is not possible to discuss an agent outside of an environment. </li>
 > <li>We acknowledge there are many types of definitions for social agents. Our defitions here help narrow down the scope of our survey.</li>
 
-🇪 *Check out the [examples](examples.md) of social agents.*
+🗂️ *Check out the [examples](examples.md) of social agents.*
+📚 *Check out the table format of the collected papers [here](paper_table.md).*
 
 📝 *We are currently working on a survey paper related to content of this repository. Stay tuned for updates!*
 
