@@ -7,7 +7,7 @@ Hi everyone! Thanks for the help!! Your expertise is invaluable to the community
 3. Add your papers to the `main.bib` file to the corresponding section (you should pick one section that fits the paper the most). This file will sync with the Overleaf project `main.bib` file.
     1. Please double check if the paper is already in the `main.bib` file. If it is, you can skip this step.
 4. Tag your papers in the `main.bib` file with the required properties. Please check out the example paper entry at the very top of the `main.bib` file.
-    1. Please read the `./docs/taxonomy.md` file **carefully** to understand the tags we use.
+    1. Please read the [`taxonomy.md`](./docs/taxonomy.md) file **carefully** to understand the tags we use.
     2. You have to use the exact verbim of the tags in the `main.bib` file. This is important for the `bibtex_to_table.py` script to work correctly.
     3. `TBD` is a special tag that you can use if you are not sure about the tag for now. We will review it later. We encourage you to use the tag sparingly.
     4. Wanna add a new tag? Please create an issue in the repository and we will discuss it. Or post in the Slack channel.
