@@ -134,66 +134,6 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 
 
 
-## Papers
-
-### Surveys and Overview
-
-
-
-
-### Social Interaction Types
-
-#### Collaboration
-
-- [July, 2023] **[Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924)**, Qian et al., arXiv, 2023.
-
-#### Cooperation
-
-- [March, 2024] **[Embodied LLM Agents Learn to Cooperate in Organized Teams](https://arxiv.org/abs/2403.12482)**, Guo et al., arXiv, 2024.
-
-#### Competition
-- [October, 2023] **[CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents](https://arxiv.org/abs/2310.17512)**, Zhao et al., arXiv, 2023.
-
-
-#### Exchange
-?
-
-#### Persuasion
-
-- [December, 2023] **[The Persuasive Power of Large Language Models](https://arxiv.org/abs/2312.15523)**, Breum et al., arXiv, 2023.
-
-
-#### Negotiation
-
-- [February, 2024] **[How Well Can LLMs Negotiate? NegotiationArena Platform and Analysis](https://arxiv.org/abs/2402.05863)**, Bianchi et al., arXiv, 2024.
-
-
-### Text Simulation
-
-#### Environments
-
-##### Games
-
-- [March, 2023] **[TextWorld: A Learning Environment for Text-based Games](https://arxiv.org/abs/2303.12345)**, Cote et al., arXiv, 2023.
-
-
-##### Game theory-inspired
-
-- [April, 2023] **[Text-based Game Theory: A Survey](https://arxiv.org/abs/2304.12345)**, Smith et al., arXiv, 2023.
-
-
-##### Task-solving
-
-- [March, 2023] **[CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society](https://arxiv.org/abs/2303.17760)**, Li et al., arXiv, 2023.
-
-
-##### Daily life
-
-- [Oct, 2024] **[SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents](https://openreview.net/forum?id=mM7VurbA4r)**, Zhou et al., ICLR, 2024.
-
-
-
-
 
 
 
