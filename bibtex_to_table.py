@@ -117,9 +117,10 @@ bibtex_file = "./main.bib"
 with open(bibtex_file, "r") as f:
     bibtex_string = f.read()
 
+print("taxonomy:")
+print(taxonomy)
 output_file = "./docs/paper_table.md"
 markdown_table = bibtex_to_table(bibtex_string, taxonomy=taxonomy)
-print(markdown_table)
 
 # Write the Markdown table to the output file
 with open(output_file, "w") as f:
