@@ -14,7 +14,7 @@
 <!-- The integration of AI systems into our daily lives has become increasingly ubiquitous, with these systems now capable of interacting with humans in more human-like behaviors than ever before. Specifically, t -->
 <!-- 🎯 What is a **social agent**: A social agent is a human communicative agent that perceive environment, either social or physical, and act upon it with language, action, or non-verbal communication. -->
 
-<sup><sub>*For the best experience, we recommend reading this document on the [website](https://sotopia-lab.github.io/awesome-social-agents/).*</sub></sup>
+*For the best experience, we recommend reading this document on the [website](https://sotopia-lab.github.io/awesome-social-agents/).*
 
 The rise of Large Language Models (LLMs)/foundational models presents new opportunities for simulating complex human **social behaviors**. As a result, there is a rapidly growing body of work emerging in this domain. We hope to categorize and synergize recent efforts to provide a comprehensive guidebook of **social agents** weaving together multiple domains, including language, embodiment, and robotics. 
 
@@ -29,95 +29,115 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 > <li>To understand whether an entity is a (social) agent, we have to situate it in an environment. It is not possible to discuss an agent outside of an environment. </li>
 > <li>We acknowledge there are many types of definitions for social agents. Our defitions here help narrow down the scope of our survey.</li>
 
-🇪 *Check out the [examples](examples.md) of social agents.*
+🗂️ *Check out the [examples](examples.md) of social agents.*
+📚 *Check out the table format of the collected papers [here](paper_table.md).*
 
 📝 *We are currently working on a survey paper related to content of this repository. Stay tuned for updates!*
 
 ## Table of Contents
-
 - [Papers](#papers)
   - [Surveys and Overview](#surveys-and-overview)
-  - [Social Interaction Types](#social-interaction-types)
-    - [Collaboration](#language-models)
-    - [Cooperation](#cooperation)
-    - [Competition](#competition)
-    - [Exchange](#exchange)
-    - [Persuasion](#persuasion)
-    - [Negotiation](#negotiation)
-  - [Text Simulation](#text-simulation)
-    - [Environments](#environments)
-    - [Agents](#agents)
-    - [Applications](#applications)
-  - [Embodied and Virtual Simulation](#embodied-and-virtual-simulation)
-    - [Environments](#environments)
-    - [Agents](#agents)
-    - [Applications](#applications)
-  - [Human-X Interaction](#human-x-interaction)
-    - [Human-chatbot Interaction](#human-chatbot-interaction)
-    - [Human-embodied-agent Interaction](#human-embodied-agent-interaction)
-    - [Human-robot Interaction](#human-robot-interaction)
-  - [Ethics](#ethics)
-
-
-
+  - [Environments](#environments)
+    - [Text and Speech Environments](#text-and-speech-environments)
+    - [Embodied Environments](#embodied-environments)
+    - [Virtual Environments](#virtual-environments)
+    - [Robotics](#robotics)
+  - [Modeling](#modeling)
+    - [In-context Learning](#in-context-learning)
+    - [Finetuning](#finetuning)
+    - [Reinforcement learning](#reinforcement-learning)
+  - [Evaluating social agents](#evaluating-social-agents)
+    - [Evaluating text social agents](#evaluating-text-social-agents)
+    - [Evaluating embodied social agents](#evaluating-embodied-social-agents)
+    - [Evaluating virtual social agents](#evaluating-virtual-social-agents)
+    - [Evaluating robotics in social contexts](#evaluating-robotics-in-social-contexts)
+  - [Interactions with humans](#interactions-with-humans)
+    - [Human-Chatbot Interaction](#human-chatbot-interaction)
+    - [Human-Embodied Agent Interaction](#human-embodied-agent-interaction)
+    - [Human Robot Interaction](#human-robot-interaction)
+    - [Human-Human Interaction](#human-human-interaction)
+  - [Challenges](#challenges)
+    - [Theory of Mind](#theory-of-mind)
+    - [Social Learning](#social-learning)
+    - [Simultaneous Interaction](#simultaneous-interaction)
+  - [Applications](#applications)
+    - [Health](#health)
+    - [Policy](#policy)
+    - [Education](#education)
+  - [Concerns](#concerns)
+    - [Risks](#risks)
+    - [Safety](#safety)
 
 ## Papers
-
 ### Surveys and Overview
-
 - [June, 2023] **[Socially intelligent machines that learn from humans and help humans learn](https://royalsocietypublishing.org/doi/10.1098/rsta.2022.0048)**, Gweon et al., arXiv, 2023.
 
+### Environments
 
-### Social Interaction Types
+#### Text and Speech Environments
+[October, 2024] [SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents](https://openreview.net/forum?id=mM7VurbA4r), Xuhui Zhou et al., ICLR
 
-#### Collaboration
+[October, 2023] [CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents](https://arxiv.org/abs/2310.17512), Qinlin Zhao et al., arXiv
 
-- [July, 2023] **[Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924)**, Qian et al., arXiv, 2023.
+#### Embodied Environments
 
-#### Cooperation
+#### Virtual Environments
 
-- [March, 2024] **[Embodied LLM Agents Learn to Cooperate in Organized Teams](https://arxiv.org/abs/2403.12482)**, Guo et al., arXiv, 2024.
+#### Robotics
 
-#### Competition
-- [October, 2023] **[CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents](https://arxiv.org/abs/2310.17512)**, Zhao et al., arXiv, 2023.
+### Modeling
 
+#### In-context Learning
 
-#### Exchange
-?
+#### Finetuning
 
-#### Persuasion
+#### Reinforcement learning
 
-- [December, 2023] **[The Persuasive Power of Large Language Models](https://arxiv.org/abs/2312.15523)**, Breum et al., arXiv, 2023.
+### Evaluating social agents
 
+#### Evaluating text social agents
+[October, 2024] [SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents](https://openreview.net/forum?id=mM7VurbA4r), Xuhui Zhou et al., ICLR
 
-#### Negotiation
+[October, 2023] [CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents](https://arxiv.org/abs/2310.17512), Qinlin Zhao et al., arXiv
 
-- [February, 2024] **[How Well Can LLMs Negotiate? NegotiationArena Platform and Analysis](https://arxiv.org/abs/2402.05863)**, Bianchi et al., arXiv, 2024.
+#### Evaluating embodied social agents
+[March, 2024] [Embodied LLM Agents Learn to Cooperate in Organized Teams](https://arxiv.org/abs/2403.12482), Xudong Guo et al., arXiv
 
+#### Evaluating virtual social agents
 
-### Text Simulation
+#### Evaluating robotics in social contexts
 
-#### Environments
+### Interactions with humans
 
-##### Games
+#### Human-Chatbot Interaction
 
-- [March, 2023] **[TextWorld: A Learning Environment for Text-based Games](https://arxiv.org/abs/2303.12345)**, Cote et al., arXiv, 2023.
+#### Human-Embodied Agent Interaction
 
+#### Human Robot Interaction
 
-##### Game theory-inspired
+#### Human-Human Interaction
 
-- [April, 2023] **[Text-based Game Theory: A Survey](https://arxiv.org/abs/2304.12345)**, Smith et al., arXiv, 2023.
+### Challenges
 
+#### Theory of Mind
 
-##### Task-solving
+#### Social Learning
 
-- [March, 2023] **[CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society](https://arxiv.org/abs/2303.17760)**, Li et al., arXiv, 2023.
+#### Simultaneous Interaction
 
+### Applications
 
-##### Daily life
+#### Health
 
-- [Oct, 2024] **[SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents](https://openreview.net/forum?id=mM7VurbA4r)**, Zhou et al., ICLR, 2024.
+#### Policy
 
+#### Education
+
+### Concerns
+
+#### Risks
+
+#### Safety
 
 
 
