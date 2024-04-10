@@ -35,30 +35,102 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 📝 *We are currently working on a survey paper related to content of this repository. Stay tuned for updates!*
 
 ## Table of Contents
-
 - [Papers](#papers)
   - [Surveys and Overview](#surveys-and-overview)
-  - [Social Interaction Types](#social-interaction-types)
-    - [Collaboration](#language-models)
-    - [Cooperation](#cooperation)
-    - [Competition](#competition)
-    - [Exchange](#exchange)
-    - [Persuasion](#persuasion)
-    - [Negotiation](#negotiation)
-  - [Text Simulation](#text-simulation)
-    - [Environments](#environments)
-    - [Agents](#agents)
-    - [Applications](#applications)
-  - [Embodied and Virtual Simulation](#embodied-and-virtual-simulation)
-    - [Environments](#environments)
-    - [Agents](#agents)
-    - [Applications](#applications)
-  - [Human-X Interaction](#human-x-interaction)
-    - [Human-chatbot Interaction](#human-chatbot-interaction)
-    - [Human-embodied-agent Interaction](#human-embodied-agent-interaction)
-    - [Human-robot Interaction](#human-robot-interaction)
-  - [Ethics](#ethics)
+  - [Environments](#environments)
+    - [Text and Speech Environments](#text-and-speech-environments)
+    - [Embodied Environments](#embodied-environments)
+    - [Virtual Environments](#virtual-environments)
+    - [Robotics](#robotics)
+  - [Modeling](#modeling)
+    - [In-context Learning](#in-context-learning)
+    - [Finetuning](#finetuning)
+    - [Reinforcement learning](#reinforcement-learning)
+  - [Evaluating social agents](#evaluating-social-agents)
+    - [Evaluating text social agents](#evaluating-text-social-agents)
+    - [Evaluating embodied social agents](#evaluating-embodied-social-agents)
+    - [Evaluating virtual social agents](#evaluating-virtual-social-agents)
+    - [Evaluating robotics in social contexts](#evaluating-robotics-in-social-contexts)
+  - [Interactions with humans](#interactions-with-humans)
+    - [Human-Chatbot Interaction](#human-chatbot-interaction)
+    - [Human-Embodied Agent Interaction](#human-embodied-agent-interaction)
+    - [Human Robot Interaction](#human-robot-interaction)
+    - [Human-Human Interaction](#human-human-interaction)
+  - [Challenges](#challenges)
+    - [Theory of Mind](#theory-of-mind)
+    - [Social Learning](#social-learning)
+    - [Simultaneous Interaction](#simultaneous-interaction)
+  - [Applications](#applications)
+    - [Health](#health)
+    - [Policy](#policy)
+    - [Education](#education)
+  - [Concerns](#concerns)
+    - [Risks](#risks)
+    - [Safety](#safety)
 
+## Papers
+### Surveys and Overview
+- [June, 2023] **[Socially intelligent machines that learn from humans and help humans learn](https://royalsocietypublishing.org/doi/10.1098/rsta.2022.0048)**, Gweon et al., arXiv, 2023.
+
+### Environments
+
+#### Text and Speech Environments
+
+#### Embodied Environments
+
+#### Virtual Environments
+
+#### Robotics
+
+### Modeling
+
+#### In-context Learning
+
+#### Finetuning
+
+#### Reinforcement learning
+
+### Evaluating social agents
+
+#### Evaluating text social agents
+
+#### Evaluating embodied social agents
+
+#### Evaluating virtual social agents
+
+#### Evaluating robotics in social contexts
+
+### Interactions with humans
+
+#### Human-Chatbot Interaction
+
+#### Human-Embodied Agent Interaction
+
+#### Human Robot Interaction
+
+#### Human-Human Interaction
+
+### Challenges
+
+#### Theory of Mind
+
+#### Social Learning
+
+#### Simultaneous Interaction
+
+### Applications
+
+#### Health
+
+#### Policy
+
+#### Education
+
+### Concerns
+
+#### Risks
+
+#### Safety
 
 
 
@@ -66,7 +138,7 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 
 ### Surveys and Overview
 
-- [June, 2023] **[Socially intelligent machines that learn from humans and help humans learn](https://royalsocietypublishing.org/doi/10.1098/rsta.2022.0048)**, Gweon et al., arXiv, 2023.
+
 
 
 ### Social Interaction Types

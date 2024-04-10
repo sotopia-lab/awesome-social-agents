@@ -1,5 +1,6 @@
 # Taxonomy
 ## 1 Environment
+#### TBD
 *The objectives of different agents*
 ### Social interaction types 
 
@@ -38,7 +39,7 @@
 
 ## 2 Agents
 *The types of agents involved in the simulation*
-
+#### TBD
 ### Modeling
 *The techniques used to model the agents*
 
@@ -62,6 +63,7 @@
 
 ## 3 Evaluation
 
+#### TBD
 #### Only qualitative evaluation
 *You should definitely add this tag if a work is only based on qualitative evaluation*
 
@@ -75,6 +77,7 @@
 
 
 ## 4 Other
+#### N/A
 
 ### Human involvement
 #### No human involvement
@@ -88,5 +91,3 @@
 #### Training
 #### Entertainment
 #### Policy
-#### Inter personal communication
-

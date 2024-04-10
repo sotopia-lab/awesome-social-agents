@@ -48,6 +48,7 @@ def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> dict:
             authors_processed.append(author)
     authors = ", ".join(authors_processed)
     entry["author"] = authors
+    entry["author_et_al"] = authors.split(",")[0] + " et al."
     
     if "eprint" in entry:
         entry["month"] = entry["eprint"].split(".")[0][2:]
@@ -57,6 +58,16 @@ def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> dict:
         entry["month"] = month_name.capitalize()
     else:
         raise ValueError("Month field is missing")
+
+    # get the venue of the paper
+    if "journal" in entry:
+        entry["venue"] = entry["journal"]
+    elif "booktitle" in entry:
+        entry["venue"] = entry["booktitle"]
+    elif "eprint" in entry:
+        entry["venue"] = "arXiv"
+    else:
+        raise ValueError("Venue field is missing")
 
     entry["title_w_url"] = f"[{entry['title']}]({entry['url']})"
     entry["date"] = f"{entry['month']}, {entry['year']}" if "month" in entry else entry["year"]
@@ -86,10 +97,11 @@ def bibtex_to_table(bibtex: str, taxonomy: dict[str, list[str]]) -> str:
         entries.append(entry_dict)
     
     # Create a Markdown table
-    headers = ["Title", "Date"] + list(taxonomy.keys())
+    headers = ["Title", "Date"] + list(taxonomy.keys()) + ["helper"]
     rows = []
     for entry in entries:
         row = [entry["title_w_url"], entry["date"]]+[entry[category] for category in taxonomy.keys()]
+        row += [f"[{row[1]}] {row[0]}, {entry['author_et_al']}, {entry['venue']}"]
         rows.append(row)
     
     df = pd.DataFrame(rows, columns=headers)
@@ -101,7 +113,7 @@ def bibtex_to_table(bibtex: str, taxonomy: dict[str, list[str]]) -> str:
 taxonomy = parse_markdown_file('./docs/taxonomy.md')
 
 # Read the BibTeX file
-bibtex_file = "./bibtex/social_agents.bib"
+bibtex_file = "./main.bib"
 with open(bibtex_file, "r") as f:
     bibtex_string = f.read()
 
