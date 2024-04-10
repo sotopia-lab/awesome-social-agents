@@ -75,6 +75,9 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 ### Environments
 
 #### Text and Speech Environments
+[October, 2024] [SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents](https://openreview.net/forum?id=mM7VurbA4r), Xuhui Zhou et al., ICLR
+
+[October, 2023] [CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents](https://arxiv.org/abs/2310.17512), Qinlin Zhao et al., arXiv
 
 #### Embodied Environments
 
@@ -93,8 +96,12 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 ### Evaluating social agents
 
 #### Evaluating text social agents
+[October, 2024] [SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents](https://openreview.net/forum?id=mM7VurbA4r), Xuhui Zhou et al., ICLR
+
+[October, 2023] [CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents](https://arxiv.org/abs/2310.17512), Qinlin Zhao et al., arXiv
 
 #### Evaluating embodied social agents
+[March, 2024] [Embodied LLM Agents Learn to Cooperate in Organized Teams](https://arxiv.org/abs/2403.12482), Xudong Guo et al., arXiv
 
 #### Evaluating virtual social agents
 
