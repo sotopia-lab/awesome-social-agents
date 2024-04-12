@@ -95,7 +95,11 @@ def bibtex_to_table(bibtex: str, taxonomy: dict[str, list[str]]) -> str:
             entry_dict[field] = value
         entry_dict_processed = preprocess_entry(entry_dict, taxonomy)
         entries.append(entry_dict)
-    
+    # check if there are repeated entries and give exact repeated entries
+    ids = [entry["title"] for entry in entries] 
+    if len(ids) != len(set(ids)):
+        repeated_entries = [entry for entry in entries if ids.count(entry["title"]) > 1]
+        raise ValueError(f"Repeated entries found: {repeated_entries}")
     # Create a Markdown table
     headers = ["Title", "Date"] + list(taxonomy.keys()) + ["helper"]
     rows = []
