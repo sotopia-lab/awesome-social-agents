@@ -1,93 +1,75 @@
-# Taxonomy
-## 1 Environment
-#### TBD
-*The objectives of different agents*
+# Tags that you can add to each field
+We ask you to add four additional fields to each bibtex entry. The format of a bibtex you should add to `main.bib` is as follows
+
+```bibtex
+@misc{Nobody37,
+    author = "Nobody Jr",
+    title = "The last missing piece of AGI",
+    year = "2037",
+    url = "https://pdf.agi.org",
+    environments = {mixed_objectives, implicit_objectives, robotics},
+    agents = {agent_teams, more_than_three_agents, agents_with_memory, agents_with_personas},
+    evaluation = {model_based},
+    other = {human_involvement}
+}
+```
+
+## 1 Environments and Tasks
+Here are acceptable tags for `environments` field:
+```
+collaboration, competition, mixed_objectives, implicit_objectives,
+text, virtual, embodied, robotics,
+n/a
+```
+Please find the explanations to each of these tags below:
+
 ### Social interaction types 
-
-#### Collaboration
-*The objectives are shared among agents*
-
-#### Pure Competition
-*The objectives are zero-sum*
-
-#### Mixed Objectives
-*Agents’ have different goals, but they are not zero-sum*
-
-#### Implicit Objectives
-*Goals are not expressed explicitly*
+1. Collaboration (`collaboration`): *The objectives are shared among agents*
+2. Competition (`competition`): *The objectives are zero-sum*
+3. Mixed Objectives (`mixed_objectives`): *Agents’ have different goals, but they are not zero-sum*
+4. Implicit Objectives (`implicit_objectives`): *Goals are not expressed explicitly*
 
 ### Domains
+1. Text (`text`): *non-embodied environments with text-based observation spaces and action spaces, e.g. chatbots environment*
+2. Virtual (`virtual`): *non-embodied environments with multimodal observation spaces and/or actions spaces, e.g. web browser environment*
+3. Embodied (`embodied`): *environments where policies interact with the world through the observation and actions of "bodies" (which also implies ego-centric view). A body typically takes up space and has the ability to influence the environment, e.g. Minecraft, Habitat, AI2THOR* 
+4. Robotics (`robotics`): *real physical world environment*
 
-#### Text and Speech
+Embodied environments in principle include robotics environments, but here we consider only the non-real physical world ones as embodied environments. 
 
-#### Embodied AI
+`n/a` means there is no environment in the paper, or the environment is not covered in the above categorization. Please use `n/a` sparingly.
 
-#### Virtual Environments
-
-#### Robotics
-
-### Simulation Types
-#### Closed simulation
-*A fixed hand-crafted world*
-
-#### Open simulation
-*Procedurally expanded or naturally large env*
-
-#### Real physical world
-* Indoor scenes
-* Outdoor scenes
-
-## 2 Agents
-*The types of agents involved in the simulation*
-#### TBD
-### Modeling
-*The techniques used to model the agents*
-
-#### Prompting
-*The agents are given explicit instructions*
-
-#### In-context learning
-
-#### Fine-tuning
-
-#### Reinforcement Learning
-
-### Number of agents
-#### Two agents
-#### More than three agents
-#### Multiple teams of agents
-
-### Other features
-
-#### Memory module
+## 2 Agents and Modeling
+Here are acceptable tags for `agents` field:
+```
+prompting_and_in_context_learning, finetuning, reinforcement_learning,
+two_agents, more_than_three_agents, agent_teams,
+agents_with_memory, agents_with_personas,
+n/a
+```
+These tags are straight-forward. Please note that we do count humans as agents here. `n/a` is similar to above. 
 
 ## 3 Evaluation
+Here are acceptable tags for `agents` field:
+```
+qualitative, human, rule_based, model_based,
+n/a
+```
 
-#### TBD
-#### Only qualitative evaluation
-*You should definitely add this tag if a work is only based on qualitative evaluation*
-
-#### Rule-based evaluation
-*The evaluation is based on a set of rules*
-
-#### Human evaluation
-*Quantitative evaluation based on human judgment*
-
-#### Model-based evaluation
+1. Only qualitative evaluation (`qualitative`): *You should definitely add this tag if a work is only based on qualitative evaluation*
+2. Human evaluation (`human`): *Quantitative evaluation based on human judgment*
+3. Rule-based evaluation (`rule_based`): *The evaluation is based on a set of rules*
+4. Model-based evaluation (`model_based`): *Using machine learning model to judge*
 
 
 ## 4 Other
-#### N/A
+Here are acceptable tags for `other` field:
+```
+human_agent, simulated_humans, 
+health, education, policy,
+n/a
+```
 
-### Human involvement
-#### No human involvement
-#### Simulated humans
-#### Human-in-loop
-*You should definitely add this tag if a work involves human-in-the-loop*
+`human_agent` means at least one of the agent is a human. 
 
-### Applications
-#### Health
-#### Education
-#### Training
-#### Entertainment
-#### Policy
+Here you can use `n/a` if none of the above tags fits the paper.
