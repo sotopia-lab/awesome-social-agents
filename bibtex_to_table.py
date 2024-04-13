@@ -4,22 +4,35 @@ from tabulate import tabulate # type: ignore
 import pandas as pd # type: ignore
 import re
 
+# environments:
+# collaboration, competition, mixed_objectives, implicit_objectives,
+# text, virtual, embodied, robotics,
+# n/a
+
+# agents:
+# prompting_and_in_context_learning, finetuning, reinforcement_learning,
+# two_agents, more_than_three_agents, agent_teams,
+# agents_with_memory, agents_with_personas,
+# n/a
+
+# evaluation:
+# qualitative, human, rule_based, model_based,
+# n/a
+
+# other:
+# human_agent, simulated_humans, 
+# health, education, policy,
+# n/a
+
+TAXONOMY  = {
+    "environments": ["collaboration", "competition", "mixed_objectives", "implicit_objectives", "text", "virtual", "embodied", "robotics", "n/a"],
+    "agents": ["prompting_and_in_context_learning", "finetuning", "reinforcement_learning", "two_agents", "more_than_three_agents", "agent_teams", "agents_with_memory", "agents_with_personas", "n/a"],
+    "evaluation": ["qualitative", "human", "rule_based", "model_based", "n/a"],
+    "other": ["human_agent", "simulated_humans", "health", "education", "policy", "n/a"]
+}
+
 def parse_markdown_file(file_path: str) -> dict[str, list[str]]:
-    with open(file_path, 'r') as file:
-        markdown_text = file.read()
-
-    taxonomy: dict[str, list[str]] = {}
-
-    for line in markdown_text.split("\n"):
-        if line.startswith("##") and not line.startswith("###"):
-            category = line.replace("##", "").strip()
-            category = "_".join(category.lower().split(" ")[1:])
-            taxonomy[category] = []
-        elif line.startswith("####"):
-            subcategory = line.replace("####", "").strip()
-            if subcategory:
-                taxonomy[category].append(subcategory)
-    return taxonomy
+    return TAXONOMY
 
 
 def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> dict:
