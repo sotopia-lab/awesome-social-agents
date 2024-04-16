@@ -3,6 +3,7 @@ import bibtexparser # type: ignore
 from tabulate import tabulate # type: ignore
 import pandas as pd # type: ignore
 import re
+from pprint import pprint
 
 # environments:
 # collaboration, competition, mixed_objectives, implicit_objectives,
@@ -114,7 +115,7 @@ def bibtex_to_table(bibtex: str, taxonomy: dict[str, list[str]]) -> tuple[str, s
         repeated_entries = [entry['title'] for entry in entries if ids.count(entry["title"]) > 1]
         raise ValueError(f"Repeated entries found: {repeated_entries}")
     # Create a Markdown and helper table
-    headers = ["Title", "Date"] + list(taxonomy.keys()) + ["helper"]
+    headers = ["Title", "Date"] + list(taxonomy.keys())
     helper_headers = ["helper"]
     rows = []
     helper_rows = []
@@ -139,8 +140,6 @@ bibtex_file = "./main.bib"
 with open(bibtex_file, "r") as f:
     bibtex_string = f.read()
 
-print("taxonomy:")
-print(taxonomy)
 output_file = "./docs/paper_table.md"
 helper_file = "./docs/helper.md"
 markdown_table, helper_table = bibtex_to_table(bibtex_string, taxonomy=taxonomy)
@@ -152,6 +151,9 @@ with open(output_file, "w") as f:
 # Write the helper table to the helper file
 with open(helper_file, "w") as f:
     f.write(helper_table)
+
+print("🎉 Successfully written the Markdown table to", output_file)
+print("🎉 Successfully written the helper table to", helper_file)
 
     
 
