@@ -34,6 +34,11 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 
 📝 *We are currently working on a survey paper related to content of this repository. Stay tuned for updates!*
 
+## Installation
+This repo supports Python 3.9 and above. In one line, to use a virtual environment, e.g. with anaconda3: 
+
+`conda create -n awsome-social-agents python=3.9; conda activate awsome-social-agents; python -m install requirements.txt`
+
 ## Table of Contents
 - [Papers](#papers)
   - [Surveys and Overview](#surveys-and-overview)
