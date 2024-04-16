@@ -94,7 +94,7 @@ def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> dict:
             raise ValueError(f"{category} field is missing")
         for subcategory in subcategory_list:
             if subcategory not in subcategories:
-                raise ValueError(f"{subcategory} is not a valid {category}, please choose from {subcategories}")
+                raise ValueError(f"For paper {entry['title']}, {subcategory} is not a valid {category}, please choose from {subcategories}")
     return entry
 
 def bibtex_to_table(bibtex: str, taxonomy: dict[str, list[str]]) -> tuple[str, str]:
