@@ -37,6 +37,208 @@
 #### Virtual Environments
 
 #### Robotics
+@InProceedings{pmlr-v205-xiong23a,
+    title = {RoboTube: Learning Household Manipulation from Human Videos with Simulated Twin Environments},
+    author = {Xiong, Haoyu and Fu, Haoyuan and Zhang, Jieyi and Bao, Chen and Zhang, Qiang and Huang, Yongxi and Xu, Wenqiang and Garg, Animesh and Lu, Cewu},
+    booktitle = {Proceedings of The 6th Conference on Robot Learning},
+    pages = {1--10},
+    year = {2023},
+    editor = {Liu, Karen and Kulic, Dana and Ichnowski, Jeff},
+    volume = {205},
+    series = {Proceedings of Machine Learning Research},
+    month = {12},
+    publisher =  {PMLR},
+    pdf = {https://proceedings.mlr.press/v205/xiong23a/xiong23a.pdf},
+    url = {https://proceedings.mlr.press/v205/xiong23a.html},
+    environments = {implicit_objectives, robotics},
+    agents = {reinforcement_learning, agents_with_memory},
+    evaluation = {human, rule_based},
+    other = {simulated_humans}
+}
+
+
+@inproceedings{saycan2022arxiv,
+    title={Do As I Can and Not As I Say: Grounding Language in Robotic Affordances},
+    author={Michael Ahn and Anthony Brohan and Noah Brown and Yevgen Chebotar and Omar Cortes and Byron David and Chelsea Finn and Chuyuan Fu and Keerthana Gopalakrishnan and Karol Hausman and Alex Herzog and Daniel Ho and Jasmine Hsu and Julian Ibarz and Brian Ichter and Alex Irpan and Eric Jang and Rosario Jauregui Ruano and Kyle Jeffrey and Sally Jesmonth and Nikhil Joshi and Ryan Julian and Dmitry Kalashnikov and Yuheng Kuang and Kuang-Huei Lee and Sergey Levine and Yao Lu and Linda Luu and Carolina Parada and Peter Pastor and Jornell Quiambao and Kanishka Rao and Jarek Rettinghouse and Diego Reyes and Pierre Sermanet and Nicolas Sievers and Clayton Tan and Alexander Toshev and Vincent Vanhoucke and Fei Xia and Ted Xiao and Peng Xu and Sichun Xu and Mengyuan Yan and Andy Zeng},
+    booktitle={arXiv preprint arXiv:2204.01691},
+    year={2022},
+    month={8},
+    url = {https://say-can.github.io/},
+    environments = {mixed_objectives, implicit_objectives, robotics},
+    agents = {finetuning, reinforcement_learning, agents_with_memory},
+    evaluation = {human, rule_based, model_based},
+    other = {simulated_humans}
+}
+
+@inproceedings{huang2022inner,
+    title={Inner Monologue: Embodied Reasoning through Planning with Language Models},
+    author={Wenlong Huang and Fei Xia and Ted Xiao and Harris Chan and Jacky Liang and Pete Florence and Andy Zeng and Jonathan Tompson and Igor Mordatch and Yevgen Chebotar and Pierre Sermanet and Noah Brown and Tomas Jackson and Linda Luu and Sergey Levine and Karol Hausman and Brian Ichter},
+    booktitle={arXiv preprint arXiv:2207.05608},
+    year={2022},
+    month={6},
+    url = {https://arxiv.org/abs/2207.05608},
+    environments = {mixed_objectives, implicit_objectives, robotics},
+    agents = {finetuning, reinforcement_learning, agents_with_memory},
+    evaluation = {human, rule_based, model_based},
+    other = {simulated_humans}
+}
+
+@inproceedings{Wang2023One,
+    title={One Policy to Dress Them All: Learning to Dress People with Diverse Poses and Garments},
+    author={Wang, Yufei and Sun, Zhanyi and Erickson, Zackory and Held, David},
+    booktitle={Robotics: Science and Systems (RSS)},
+    year={2023},
+    month={6},
+    url = {https://arxiv.org/abs/2306.12372},
+    environments = {robotics},
+    agents = {reinforcement_learning},
+    evaluation = {human, rule_based},
+    other = {human_agent}
+}     
+
+@misc{wang2023cogail,
+    title={Co-GAIL: Learning Diverse Strategies for Human-Robot Collaboration}, 
+    author={Chen Wang and Claudia Pérez-D'Arpino and Danfei Xu and Li Fei-Fei and C. Karen Liu and Silvio Savarese},
+    year={2023},
+    month={9},
+    url = {https://arxiv.org/abs/2108.06038},
+    eprint={2108.06038},
+    archivePrefix={arXiv},
+    primaryClass={cs.RO},
+    environments = {collaboration, mixed_objectives, robotics},
+    agents = {two_agents, reinforcement_learning},
+    evaluation = {human},
+    other = {human_agent, simulated_humans}
+}
+
+@misc{shi2024yell,
+    title={Yell At Your Robot: Improving On-the-Fly from Language Corrections}, 
+    author={Lucy Xiaoyang Shi and Zheyuan Hu and Tony Z. Zhao and Archit Sharma and Karl Pertsch and Jianlan Luo and Sergey Levine and Chelsea Finn},
+    year={2024},
+    month={3},
+    url={https://arxiv.org/abs/2403.12910},
+    eprint={2403.12910},
+    archivePrefix={arXiv},
+    primaryClass={cs.RO},
+    environments = {collaboration, mixed_objectives, robotics},
+    agents = {two_agents, finetuning, reinforcement_learning, agents_with_memory},
+    evaluation = {human},
+    other = {human_agent}
+}
+
+@article{sheridan2016human,
+    title={Human--robot interaction: status and challenges},
+    author={Sheridan, Thomas B},
+    journal={Human factors},
+    month={4},
+    url={https://journals.sagepub.com/doi/10.1177/0018720816644364},
+    volume={58},
+    number={4},
+    pages={525--532},
+    year={2016},
+    publisher={SAGE Publications Sage CA: Los Angeles, CA},
+    environments = {collaboration, mixed_objectives, robotics},
+    agents = {two_agents, finetuning, reinforcement_learning},
+    evaluation = {human},
+    other = {human_agent}
+}
+
+
+@article{onnasch2021taxonomy,
+    title={A taxonomy to structure and analyze human--robot interaction},
+    author={Onnasch, Linda and Roesler, Eileen},
+    journal={International Journal of Social Robotics},
+    volume={13},
+    number={4},
+    pages={833--849},
+    year={2021},
+    publisher={Springer},
+    month={6},
+    url={https://link.springer.com/article/10.1007/s12369-020-00666-5},
+    environments = {collaboration, mixed_objectives, robotics},
+    agents = {two_agents},
+    evaluation = {human},
+    other = {human_agent}
+}
+
+@article{robinson2023robotic,
+    title={Robotic vision for human-robot interaction and collaboration: A survey and systematic review},
+    author={Robinson, Nicole and Tidd, Brendan and Campbell, Dylan and Kuli{\'c}, Dana and Corke, Peter},
+    journal={ACM Transactions on Human-Robot Interaction},
+    volume={12},
+    number={1},
+    pages={1--66},
+    year={2023},
+    month={7},
+    url={https://arxiv.org/abs/2307.15363},
+    publisher={ACM New York, NY},
+    environments = {collaboration, mixed_objectives, implicit_objectives, robotics},
+    agents = {two_agents, agent_teams, agents_with_personas},
+    evaluation = {human, rule_based},
+    other = {human_agent, simulated_humans}
+}
+
+@article{dahiya2023survey,
+    title={A survey of multi-agent Human--Robot Interaction systems},
+    author={Dahiya, Abhinav and Aroyo, Alexander M and Dautenhahn, Kerstin and Smith, Stephen L},
+    journal={Robotics and Autonomous Systems},
+    volume={161},
+    pages={104335},
+    year={2022},
+    month={10},
+    url={https://arxiv.org/abs/2212.05286},
+    publisher={Elsevier},
+    environments = {collaboration, mixed_objectives, robotics},
+    agents = {two_agents, more_than_three_agents, agent_teams},
+    evaluation = {human},
+    other = {human_agent}
+}
+
+@article{10.1145/3570169,
+    author = {Urakami, Jacqueline and Seaborn, Katie},
+    title = {Nonverbal Cues in Human Robot Interaction: A Communication Studies Perspective},
+    year = {2023},
+    issue_date = {June 2023},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    volume = {12},
+    number = {2},
+    url = {https://doi.org/10.1145/3570169},
+    doi = {10.1145/3570169},
+    abstract = {Communication between people is characterized by a broad range of nonverbal cues. Transferring these cues into the design of robots and other artificial agents that interact with people may foster more natural, inviting, and accessible experiences. In this article, we offer a series of definitive nonverbal codes for human–robot interaction (HRI) that address the five human sensory systems (visual, auditory, haptic, olfactory, and gustatory) drawn from the field of communication studies. We discuss how these codes can be translated into design patterns for HRI using a curated sample of the communication studies and HRI literatures. As nonverbal codes are an essential mode in human communication, we argue that integrating robotic nonverbal codes in HRI will afford robots a feeling of “aliveness” or “social agency” that would otherwise be missing. We end with suggestions for research directions to stimulate work on nonverbal communication within the field of HRI and improve communication between people and robots.},
+    journal = {J. Hum.-Robot Interact.},
+    month = {3},
+    articleno = {22},
+    numpages = {21},
+    keywords = {nonverbal codes, communication studies, human robot interaction, nonverbal communication, Robotics},
+    environments = {collaboration, mixed_objectives, implicit_objectives, robotics},
+    agents = {two_agents},
+    evaluation = {human},
+    other = {human_agent}
+}
+
+@article{10.1145/3571718,
+    author = {Winkle, Katie and Lagerstedt, Erik and Torre, Ilaria and Offenwanger, Anna},
+    title = {15 Years of (Who)man Robot Interaction: Reviewing the H in Human-Robot Interaction},
+    year = {2023},
+    issue_date = {September 2023},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    volume = {12},
+    number = {3},
+    url = {https://doi.org/10.1145/3571718},
+    doi = {10.1145/3571718},
+    abstract = {Recent work identified a concerning trend of disproportional gender representation in research participants in Human–Computer Interaction (HCI). Motivated by the fact that Human–Robot Interaction (HRI) shares many participant practices with HCI, we explored whether this trend is mirrored in our field. By producing a dataset covering participant gender representation in all 684 full papers published at the HRI conference from 2006–2021, we identify current trends in HRI research participation. We find an over-representation of men in research participants to date, as well as inconsistent and/or incomplete gender reporting, which typically engages in a binary treatment of gender at odds with published best practice guidelines. We further examine if and how participant gender has been considered in user studies to date, in-line with current discourse surrounding the importance and/or potential risks of gender based analyses. Finally, we complement this with a survey of HRI researchers to examine correlations between who is doing with the who is taking part, to further reflect on factors which seemingly influence gender bias in research participation across different sub-fields of HRI. Through our analysis, we identify areas for improvement, but also reason for optimism, and derive some practical suggestions for HRI researchers going forward.},
+    journal = {J. Hum.-Robot Interact.},
+    month = {4},
+    articleno = {28},
+    numpages = {28},
+    keywords = {Gender, systematic review, user study methodologies, participant recruitment, inclusivity},
+    environments = {robotics},
+    agents = {two_agents},
+    evaluation = {human},
+    other = {human_agent}
+}
 
 ### Modeling
 
