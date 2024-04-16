@@ -96,7 +96,7 @@ def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> dict:
                 raise ValueError(f"{subcategory} is not a valid {category}, please choose from {subcategories}")
     return entry
 
-def bibtex_to_table(bibtex: str, taxonomy: dict[str, list[str]]) -> str:
+def bibtex_to_table(bibtex: str, taxonomy: dict[str, list[str]]) -> tuple[str, str]:
     # Parse the BibTeX string
     bib_database = bibtexparser.parse_string(bibtex)
     
@@ -113,18 +113,23 @@ def bibtex_to_table(bibtex: str, taxonomy: dict[str, list[str]]) -> str:
     if len(ids) != len(set(ids)):
         repeated_entries = [entry['title'] for entry in entries if ids.count(entry["title"]) > 1]
         raise ValueError(f"Repeated entries found: {repeated_entries}")
-    # Create a Markdown table
+    # Create a Markdown and helper table
     headers = ["Title", "Date"] + list(taxonomy.keys()) + ["helper"]
+    helper_headers = ["helper"]
     rows = []
+    helper_rows = []
     for entry in entries:
         row = [entry["title_w_url"], entry["date"]]+[entry[category] for category in taxonomy.keys()]
-        row += [f"[{row[1]}] {row[0]}, {entry['author_et_al']}, {entry['venue']}"]
+        helper_rows.append(f"[{row[1]}] {row[0]}, {entry['author_et_al']}, {entry['venue']}")
         rows.append(row)
     
     df = pd.DataFrame(rows, columns=headers)
+
+    # Create a helper table
+    df_helper = pd.DataFrame(helper_rows, columns=helper_headers)
     markdown = df.to_markdown(index=False)
-    
-    return markdown
+    helper_markdown = df_helper.to_markdown(index=False)
+    return markdown, helper_markdown
 
 # Example usage:
 taxonomy = parse_markdown_file('./docs/taxonomy.md')
@@ -137,11 +142,16 @@ with open(bibtex_file, "r") as f:
 print("taxonomy:")
 print(taxonomy)
 output_file = "./docs/paper_table.md"
-markdown_table = bibtex_to_table(bibtex_string, taxonomy=taxonomy)
+helper_file = "./docs/helper.md"
+markdown_table, helper_table = bibtex_to_table(bibtex_string, taxonomy=taxonomy)
 
 # Write the Markdown table to the output file
 with open(output_file, "w") as f:
     f.write(markdown_table)
+
+# Write the helper table to the helper file
+with open(helper_file, "w") as f:
+    f.write(helper_table)
 
     
 
