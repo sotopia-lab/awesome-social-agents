@@ -34,11 +34,39 @@ TAXONOMY  = {
     "other": ["human_agent", "simulated_humans", "health", "education", "policy", "fully_omniscient", "more_omniscient", "more_information_asymmetrical", "n/a"]
 }
 
+def check_repeat_entries(entries: list[dict]) -> None:
+    titles = [entry["title"] for entry in entries] 
+    ids = [entry["ID"] for entry in entries]
+    if len(ids) != len(set(ids)) or len(titles) != len(set(titles)):
+        repeated_entries = set([title for title in titles if titles.count(title) > 1])
+        if repeated_entries:
+            raise ValueError(f"Repeated titles found: {repeated_entries}")
+        repeated_ids = set([id for id in ids if ids.count(id) > 1])
+        if repeated_ids:
+            raise ValueError(f"Repeated ids found: {repeated_ids}")
+
+
+def extract_bibtex_entries(bibtex: str) -> list[dict[str, str]]:
+    layers = [
+        m.MonthIntMiddleware(), # Months should be represented as int (0-12)
+    ]
+    bib_database = bibtexparser.parse_string(bibtex, append_middleware=layers)
+    
+    # Convert BibTeX entries to a list of dictionaries
+    entries = []
+    for entry in bib_database.entries:
+        entry_dict = {}
+        for field, value in entry.items():
+            entry_dict[field] = value
+        entries.append(entry_dict)
+    return entries
+
+
 def parse_markdown_file(file_path: str) -> dict[str, list[str]]:
     return TAXONOMY
 
 
-def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> dict:
+def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> None:
     entry["ID"] = entry.get("ID", "")
     
     if not entry.get("title", ""):
@@ -97,29 +125,11 @@ def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> dict:
         for subcategory in subcategory_list:
             if subcategory not in subcategories:
                 raise ValueError(f"For paper {entry['title']}, {subcategory} is not a valid {category}, please choose from {subcategories}")
-    return entry
 
 def bibtex_to_table(bibtex: str, taxonomy: dict[str, list[str]]) -> tuple[str, str]:
-    # Parse the BibTeX string
-
-    layers = [
-        m.MonthIntMiddleware(), # Months should be represented as int (0-12)
-    ]
-    bib_database = bibtexparser.parse_string(bibtex, append_middleware=layers)
-    
-    # Convert BibTeX entries to a list of dictionaries
-    entries = []
-    for entry in bib_database.entries:
-        entry_dict = {}
-        for field, value in entry.items():
-            entry_dict[field] = value
-        entry_dict_processed = preprocess_entry(entry_dict, taxonomy)
-        entries.append(entry_dict)
-    # check if there are repeated entries and give exact repeated entries
-    ids = [entry["title"] for entry in entries] 
-    if len(ids) != len(set(ids)):
-        repeated_entries = [entry['title'] for entry in entries if ids.count(entry["title"]) > 1]
-        raise ValueError(f"Repeated entries found: {repeated_entries}")
+    entries = extract_bibtex_entries(bibtex)
+    for entry in entries:
+        preprocess_entry(entry, taxonomy)
     # Create a Markdown and helper table
     headers = ["Title", "Date"] + list(taxonomy.keys())
     helper_headers = ["helper"]
@@ -143,8 +153,15 @@ taxonomy = parse_markdown_file('./docs/taxonomy.md')
 
 # Read the BibTeX file
 bibtex_file = "./main.bib"
+untagged_bibtex_file = "./untagged.bib"
+
 with open(bibtex_file, "r") as f:
     bibtex_string = f.read()
+
+with open(untagged_bibtex_file, "r") as f:
+    untagged_bibtex_string = f.read()
+
+check_repeat_entries(extract_bibtex_entries(bibtex_string)+extract_bibtex_entries(untagged_bibtex_string))
 
 output_file = "./docs/paper_table.md"
 helper_file = "./docs/helper.md"
