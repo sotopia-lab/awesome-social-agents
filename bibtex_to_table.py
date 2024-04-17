@@ -98,7 +98,7 @@ def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> dict:
 
 def bibtex_to_table(bibtex: str, taxonomy: dict[str, list[str]]) -> str:
     # Parse the BibTeX string
-    bib_database = bibtexparser.loads(bibtex)
+    bib_database = bibtexparser.parse_string(bibtex)
     
     # Convert BibTeX entries to a list of dictionaries
     entries = []

@@ -62,6 +62,105 @@ month = {10},
 url={https://openreview.net/forum?id=mM7VurbA4r}
 }
 
+@misc{chen2024roleinteract,
+      title={RoleInteract: Evaluating the Social Interaction of Role-Playing Agents}, 
+      author={Hongzhan Chen and Hehong Chen and Ming Yan and Wenshen Xu and Xing Gao and Weizhou Shen and Xiaojun Quan and Chenliang Li and Ji Zhang and Fei Huang and Jingren Zhou},
+      year={2024},
+      environments = {implicit_objectives, text},
+      agents = {prompting_and_in_context_learning, more_than_three_agents, agents_with_memory, agents_with_personas},
+      evaluation = {rule_based},
+      other = {simulated_humans},
+      url = {https://arxiv.org/abs/2403.13679},
+      eprint={2403.13679},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@inproceedings{svikhnushina-pu-2023-approximating,
+      title = "Approximating Online Human Evaluation of Social Chatbots with Prompting",
+      author = "Svikhnushina, Ekaterina  and
+            Pu, Pearl",
+      editor = "Stoyanchev, Svetlana  and
+            Joty, Shafiq  and
+            Schlangen, David  and
+            Dusek, Ondrej  and
+            Kennington, Casey  and
+            Alikhani, Malihe",
+      booktitle = "Proceedings of the 24th Annual Meeting of the Special Interest Group on Discourse and Dialogue",
+      month = {09},
+      year = "2023",
+      address = "Prague, Czechia",
+      publisher = "Association for Computational Linguistics",
+      url = "https://aclanthology.org/2023.sigdial-1.25",
+      doi = "10.18653/v1/2023.sigdial-1.25",
+      pages = "268--281",
+      abstract = "With conversational models becoming increasingly available to the general public, developing scalable and robust evaluation metrics is crucial to minimize potential social and psychological risks for the users. Existing evaluation metrics aim to automate offline user evaluation and approximate human judgment of pre-curated dialogs. However, they are limited in their ability to capture subjective perceptions of users who actually interact with the chatbots and might not generalize to real-world settings. To address this limitation, we propose an approach to approximate online human evaluation, leveraging large language models (LLMs) from the GPT-family. We introduce a new Dialog system Evaluation framework based on Prompting (DEP), which enables a fully automatic evaluation pipeline that replicates live user studies and achieves an impressive correlation with human judgment (up to Pearson r=0.95 on a system level). The DEP approach involves collecting synthetic chat logs of evaluated bots with an LLM in the other-play setting, where the LLM is carefully conditioned to follow a specific scenario. We further explore different prompting approaches to produce evaluation scores with the same LLM. The best-performing prompts, which contain few-shot demonstrations and instructions, show outstanding performance on the tested dataset and demonstrate the ability to generalize to other dialog corpora.",
+      environments = {mixed_objectives, text},
+      agents = {prompting_and_in_context_learning, two_agents},
+      evaluation = {model_based},
+      other = {n/a}
+}
+
+@inproceedings{NEURIPS2023_a3621ee9,
+      author = {Li, Guohao and Hammoud, Hasan and Itani, Hani and Khizbullin, Dmitrii and Ghanem, Bernard},
+      booktitle = {Advances in Neural Information Processing Systems},
+      editor = {A. Oh and T. Neumann and A. Globerson and K. Saenko and M. Hardt and S. Levine},
+      pages = {51991--52008},
+      publisher = {Curran Associates, Inc.},
+      title = {CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society},
+      url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/a3621ee907def47c1b952ade25c67698-Paper-Conference.pdf},
+      volume = {36},
+      year = {2023},
+      month = {12},
+      environments = {mixed_objectives, text},
+      agents = {prompting_and_in_context_learning, agent_teams},
+      evaluation = {human, model_based},
+      other = {human_agent}
+}
+
+@article{lan2023llm,
+      title={Llm-based agent society investigation: Collaboration and confrontation in avalon gameplay},
+      author={Lan, Yihuai and Hu, Zhiqiang and Wang, Lei and Wang, Yang and Ye, Deheng and Zhao, Peilin and Lim, Ee-Peng and Xiong, Hui and Wang, Hao},
+      journal={arXiv preprint arXiv:2310.14985},
+      eprint={2310.14985},
+      year={2023},
+      month={10},
+      environments = {mixed_objectives, text},
+      agents = {prompting_and_in_context_learning, more_than_three_agents, agents_with_memory, agents_with_personas},
+      evaluation = {model_based, rule_based},
+      other = {simulated_humans},
+      url = {https://arxiv.org/pdf/2310.14985.pdf}
+}
+
+@misc{tu2023characterchat,
+      title={CharacterChat: Learning towards Conversational AI with Personalized Social Support}, 
+      author={Quan Tu and Chuanqi Chen and Jinpeng Li and Yanran Li and Shuo Shang and Dongyan Zhao and Ran Wang and Rui Yan},
+      year={2023},
+      month={08},
+      environments = {implicit_objectives, text},
+      agents = {prompting_and_in_context_learning, two_agents, agents_with_memory, agents_with_personas},
+      evaluation = {model_based, human},
+      other = {simulated_humans},
+      url = {https://arxiv.org/abs/2308.10278},
+      eprint={2308.10278},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{zhang2023agentcf,
+      title={AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems}, 
+      author={Junjie Zhang and Yupeng Hou and Ruobing Xie and Wenqi Sun and Julian McAuley and Wayne Xin Zhao and Leyu Lin and Ji-Rong Wen},
+      year={2023},
+      environments = {mixed_objectives, text},
+      agents = {prompting_and_in_context_learning, more_than_three_agents, agents_with_memory, agents_with_personas},
+      evaluation = {rule_based},
+      other = {simulated_humans},
+      url = {https://arxiv.org/abs/2310.09233},
+      eprint={2310.09233},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR}
+}
+
 
 #### Evaluating embodied social agents
 @misc{guo2024embodied,
@@ -111,7 +210,7 @@ url={https://openreview.net/forum?id=mM7VurbA4r}
       agents = {prompting_and_in_context_learning, finetuning, reinforcement_learning, agent_teams},
       evaluation = {human, rule_based},
       url={https://arxiv.org/abs/2403.13313},
-      other = {health},
+      other = {human_agent, health},
       eprint={2403.13313},
       archivePrefix={arXiv},
       primaryClass={cs.AI}
@@ -125,7 +224,7 @@ url={https://openreview.net/forum?id=mM7VurbA4r}
       agents = {prompting_and_in_context_learning, agent_teams, agents_with_personas},
       evaluation = {human},
       url={https://arxiv.org/abs/2401.14589},
-      other = {health},
+      other = {simulated_humans, health},
       eprint={2401.14589},
       archivePrefix={arXiv},
       primaryClass={cs.CL}
@@ -139,7 +238,7 @@ url={https://openreview.net/forum?id=mM7VurbA4r}
       agents = {prompting_and_in_context_learning, finetuning, agent_teams},
       evaluation = {human, rule_based},
       url={https://arxiv.org/abs/2402.05547},
-      other = {health},
+      other = {human_agent, health},
       eprint={2402.05547},
       archivePrefix={arXiv},
       primaryClass={cs.CL}
@@ -153,7 +252,7 @@ url={https://openreview.net/forum?id=mM7VurbA4r}
       agents = {prompting_and_in_context_learning, agent_teams, agents_with_personas},
       evaluation = {human},
       url={https://arxiv.org/abs/2402.09742},
-      other = {health},
+      other = {simulated_humans, health},
       eprint={2402.09742},
       archivePrefix={arXiv},
       primaryClass={cs.CL}
@@ -181,7 +280,7 @@ url={https://openreview.net/forum?id=mM7VurbA4r}
       agents = {prompting_and_in_context_learning, more_than_three_agents},
       evaluation = {human},
       url={https://arxiv.org/abs/2305.08982},
-      other = {health},
+      other = {human_agent, health},
       eprint={2305.08982},
       archivePrefix={arXiv},
       primaryClass={cs.HC}
@@ -195,7 +294,7 @@ url={https://openreview.net/forum?id=mM7VurbA4r}
       agents = {prompting_and_in_context_learning, two_agents},
       evaluation = {n/a},
       url={https://arxiv.org/abs/2305.05138},
-      other = {health},
+      other = {human_agent, health},
       eprint={2305.05138},
       archivePrefix={arXiv},
       primaryClass={cs.CL}
@@ -211,7 +310,7 @@ url={https://openreview.net/forum?id=mM7VurbA4r}
       environments = {text},
       agents = {finetuning, two_agents},
       evaluation = {qualitative},
-      other = {health},
+      other = {human_agent, health},
       month={05},
       year={2023}, 
       pages={20552076231173304} 
@@ -225,7 +324,7 @@ url={https://openreview.net/forum?id=mM7VurbA4r}
       agents = {prompting_and_in_context_learning, more_than_three_agents},
       evaluation = {rule_based},
       url={https://arxiv.org/abs/2310.02374},
-      other = {health},
+      other = {human_agent, health},
       eprint={2310.02374},
       archivePrefix={arXiv},
       primaryClass={cs.CL}
