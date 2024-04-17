@@ -1,5 +1,6 @@
 import datetime
 import bibtexparser # type: ignore
+import bibtexparser.middlewares as m
 from tabulate import tabulate # type: ignore
 import pandas as pd # type: ignore
 import re
@@ -100,7 +101,11 @@ def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> dict:
 
 def bibtex_to_table(bibtex: str, taxonomy: dict[str, list[str]]) -> tuple[str, str]:
     # Parse the BibTeX string
-    bib_database = bibtexparser.parse_string(bibtex)
+
+    layers = [
+        m.MonthIntMiddleware(), # Months should be represented as int (0-12)
+    ]
+    bib_database = bibtexparser.parse_string(bibtex, append_middleware=layers)
     
     # Convert BibTeX entries to a list of dictionaries
     entries = []
