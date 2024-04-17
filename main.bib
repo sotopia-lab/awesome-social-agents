@@ -97,6 +97,219 @@
     other={human_agent}
 }
 
+@inproceedings{wang-etal-2019-persuasion,
+    title = "Persuasion for Good: Towards a Personalized Persuasive Dialogue System for Social Good",
+    author = "Wang, Xuewei  and
+      Shi, Weiyan  and
+      Kim, Richard  and
+      Oh, Yoojung  and
+      Yang, Sijia  and
+      Zhang, Jingwen  and
+      Yu, Zhou",
+    editor = "Korhonen, Anna  and
+      Traum, David  and
+      M{\`a}rquez, Llu{\'\i}s",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P19-1566",
+    doi = "10.18653/v1/P19-1566",
+    pages = "5635--5649",
+    abstract = "Developing intelligent persuasive conversational agents to change people{'}s opinions and actions for social good is the frontier in advancing the ethical development of automated dialogue systems. To do so, the first step is to understand the intricate organization of strategic disclosures and appeals employed in human persuasion conversations. We designed an online persuasion task where one participant was asked to persuade the other to donate to a specific charity. We collected a large dataset with 1,017 dialogues and annotated emerging persuasion strategies from a subset. Based on the annotation, we built a baseline classifier with context information and sentence-level features to predict the 10 persuasion strategies used in the corpus. Furthermore, to develop an understanding of personalized persuasion processes, we analyzed the relationships between individuals{'} demographic and psychological backgrounds including personality, morality, value systems, and their willingness for donation. Then, we analyzed which types of persuasion strategies led to a greater amount of donation depending on the individuals{'} personal backgrounds. This work lays the ground for developing a personalized persuasive dialogue system.",
+    environments={text, mixed_objectives},
+    agents={two_agents, finetuning},
+    evaluation={human, rule_based},
+    other={human_agent}
+}
+
+@inproceedings{peskov-etal-2020-takes,
+    title = "It Takes Two to Lie: One to Lie, and One to Listen",
+    author = "Peskov, Denis  and
+      Cheng, Benny  and
+      Elgohary, Ahmed  and
+      Barrow, Joe  and
+      Danescu-Niculescu-Mizil, Cristian  and
+      Boyd-Graber, Jordan",
+    editor = "Jurafsky, Dan  and
+      Chai, Joyce  and
+      Schluter, Natalie  and
+      Tetreault, Joel",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.acl-main.353",
+    doi = "10.18653/v1/2020.acl-main.353",
+    pages = "3811--3854",
+    abstract = "Trust is implicit in many online text conversations{---}striking up new friendships, or asking for tech support. But trust can be betrayed through deception. We study the language and dynamics of deception in the negotiation-based game Diplomacy, where seven players compete for world domination by forging and breaking alliances with each other. Our study with players from the Diplomacy community gathers 17,289 messages annotated by the sender for their intended truthfulness and by the receiver for their perceived truthfulness. Unlike existing datasets, this captures deception in long-lasting relationships, where the interlocutors strategically combine truth with lies to advance objectives. A model that uses power dynamics and conversational contexts can predict when a lie occurs nearly as well as human players.",
+    environments={text, mixed_objectives},
+    agents={more_than_three_agents},
+    evaluation={model_based},
+    other={human_agent}
+}
+
+@article{LanctotEtAl2019OpenSpiel,
+  title     = {{OpenSpiel}: A Framework for Reinforcement Learning in Games},
+  author    = {Marc Lanctot and Edward Lockhart and Jean-Baptiste Lespiau and
+               Vinicius Zambaldi and Satyaki Upadhyay and Julien P\'{e}rolat and
+               Sriram Srinivasan and Finbarr Timbers and Karl Tuyls and
+               Shayegan Omidshafiei and Daniel Hennes and Dustin Morrill and
+               Paul Muller and Timo Ewalds and Ryan Faulkner and J\'{a}nos Kram\'{a}r
+               and Bart De Vylder and Brennan Saeta and James Bradbury and David Ding
+               and Sebastian Borgeaud and Matthew Lai and Julian Schrittwieser and
+               Thomas Anthony and Edward Hughes and Ivo Danihelka and Jonah Ryan-Davis},
+  month     = {8},
+  year      = {2019},
+  eprint    = {1908.09453},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.LG},
+  journal   = {CoRR},
+  volume    = {abs/1908.09453},
+  url       = {http://arxiv.org/abs/1908.09453},
+  environments={collaboration, competition, mixed_objectives, text},
+  agents={two_agents, more_than_three_agents, reinforcement_learning},
+  evaluation={rule_based},
+  other={n/a}
+}
+
+@article{zha2019rlcard,
+  title={RLCard: A Toolkit for Reinforcement Learning in Card Games},
+  author={Zha, Daochen and Lai, Kwei-Herng and Cao, Yuanpu and Huang, Songyi and Wei, Ruzhe and Guo, Junyu and Hu, Xia},
+  journal={arXiv preprint arXiv:1910.04376},
+  month = {7},
+  year={2019},
+  environments={collaboration, competition, mixed_objectives, text},
+  agents={two_agents, more_than_three_agents, reinforcement_learning},
+  evaluation={rule_based},
+  other={n/a},
+  url={https://github.com/datamllab/rlcard}
+}
+
+@article{meta2022human,
+  title={Human-level play in the game of Diplomacy by combining language models with strategic reasoning},
+  author={Meta Fundamental AI Research Diplomacy Team (FAIR)† and Bakhtin, Anton and Brown, Noam and Dinan, Emily and Farina, Gabriele and Flaherty, Colin and Fried, Daniel and Goff, Andrew and Gray, Jonathan and Hu, Hengyuan and others},
+  journal={Science},
+  volume={378},
+  number={6624},
+  pages={1067--1074},
+  month={11},
+  year={2022},
+  publisher={American Association for the Advancement of Science},
+  url={https://www.science.org/doi/full/10.1126/science.ade9097},
+  environments={competition, text},
+  agents={more_than_three_agents, reinforcement_learning, finetuning},
+  evaluation={rule_based},
+  other={human_agent}
+}
+
+@software{multigrid,
+  author = {Oguntola, Ini},
+  title = {Fast Multi-Agent Gridworld Environments for Gymnasium},
+  url = {https://github.com/ini/multigrid},
+  month = {3},
+  year = {2023},
+  journal = {GitHub},
+  environments={collaboration, competition, text},
+  agents={two_agents, more_than_three_agents, reinforcement_learning},
+  evaluation={rule_based},
+  other={n/a}
+}
+
+@inproceedings{callison-burch-etal-2022-dungeons,
+    title = "Dungeons and Dragons as a Dialog Challenge for Artificial Intelligence",
+    author = "Callison-Burch, Chris  and
+      Tomar, Gaurav Singh  and
+      Martin, Lara  and
+      Ippolito, Daphne  and
+      Bailis, Suma  and
+      Reitter, David",
+    editor = "Goldberg, Yoav  and
+      Kozareva, Zornitsa  and
+      Zhang, Yue",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.637",
+    doi = "10.18653/v1/2022.emnlp-main.637",
+    pages = "9379--9393",
+    abstract = "AI researchers have posited Dungeons and Dragons (D{\&}D) as a challenge problem to test systems on various language-related capabilities. In this paper, we frame D{\&}D specifically as a dialogue system challenge, where the tasks are to both generate the next conversational turn in the game and predict the state of the game given the dialogue history. We create a gameplay dataset consisting of nearly 900 games, with a total of 7,000 players, 800,000 dialogue turns, 500,000 dice rolls, and 58 million words. We automatically annotate the data with partial state information about the game play. We train a large language model (LM) to generate the next game turn, conditioning it on different information. The LM can respond as a particular character or as the player who runs the game{---}i.e., the Dungeon Master (DM). It is trained to produce dialogue that is either in-character (roleplaying in the fictional world) or out-of-character (discussing rules or strategy). We perform a human evaluation to determine what factors make the generated output plausible and interesting. We further perform an automatic evaluation to determine how well the model can predict the game state given the history and examine how well tracking the game state improves its ability to produce plausible conversational output.",
+    environments={text, implicit_objectives},
+    agents={more_than_three_agents, pretraining, finetuning},
+    evaluation={human, rule_based},
+    other={human_agent}
+}
+
+@inproceedings{zhou-etal-2023-cast,
+    title = "{I} Cast Detect Thoughts: Learning to Converse and Guide with Intents and Theory-of-Mind in Dungeons and Dragons",
+    author = "Zhou, Pei  and
+      Zhu, Andrew  and
+      Hu, Jennifer  and
+      Pujara, Jay  and
+      Ren, Xiang  and
+      Callison-Burch, Chris  and
+      Choi, Yejin  and
+      Ammanabrolu, Prithviraj",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.624",
+    doi = "10.18653/v1/2023.acl-long.624",
+    pages = "11136--11155",
+    abstract = "We propose a novel task, G4C, to study teacher-student natural language interactions in a goal-driven and grounded environment. Dungeons and Dragons (D{\&}D), a role-playing game, provides an ideal setting to investigate such interactions. Here, the Dungeon Master (DM), i.e., the teacher, guides the actions of several players{---}students, each with their own personas and abilities{---}to achieve shared goals grounded in a fantasy world. Our approach is to decompose and model these interactions into (1) the DM{'}s intent to guide players toward a given goal; (2) the DM{'}s guidance utterance to the players expressing this intent; and (3) a theory-of-mind (ToM) model that anticipates the players{'} reaction to the guidance one turn into the future. We develop a novel reinforcement learning (RL) method for training a DM that generates guidance for players by rewarding utterances where the intent matches the ToM-anticipated player actions. Human and automated evaluations show that a DM trained to explicitly model intents and incorporate ToM of the players using RL generates better-quality guidance that is 3x more likely to fulfill the DM{'}s intent than a vanilla natural language generation (NLG) approach.",
+    environments={text, implicit_objectives},
+    agents={more_than_three_agents, reinforcement_learning},
+    evaluation={human, rule_based},
+    other={human_agent}
+}
+
+@inproceedings{zhu-etal-2023-fireball,
+    title = "{FIREBALL}: A Dataset of Dungeons and Dragons Actual-Play with Structured Game State Information",
+    author = "Zhu, Andrew  and
+      Aggarwal, Karmanya  and
+      Feng, Alexander  and
+      Martin, Lara  and
+      Callison-Burch, Chris",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.229",
+    doi = "10.18653/v1/2023.acl-long.229",
+    pages = "4171--4193",
+    abstract = "Dungeons {\&} Dragons (D{\&}D) is a tabletop roleplaying game with complex natural language interactions between players and hidden state information. Recent work has shown that large language models (LLMs) that have access to state information can generate higher quality game turns than LLMs that use dialog history alone. However, previous work used game state information that was heuristically created and was not a true gold standard game state. We present FIREBALL, a large dataset containing nearly 25,000 unique sessions from real D{\&}D gameplay on Discord with true game state info. We recorded game play sessions of players who used the Avrae bot, which was developed to aid people in playing D{\&}D online, capturing language, game commands and underlying game state information. We demonstrate that FIREBALL can improve natural language generation (NLG) by using Avrae state information, improving both automated metrics and human judgments of quality. Additionally, we show that LLMs can generate executable Avrae commands, particularly after finetuning.",
+    environments={text, implicit_objectives},
+    agents={more_than_three_agents, finetuning},
+    evaluation={human, rule_based},
+    other={human_agent}
+}
+
+@inproceedings{zhu2023calypso,
+   title={{CALYPSO}: {LLMs} as Dungeon Masters' Assistants},
+   author={Zhu, Andrew and Martin, Lara J. and Head, Andrew and Callison-Burch, Chris},
+   booktitle={The 19th AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE 2023)},
+   month={8},
+   year={2023},
+   environments={text, implicit_objectives},
+   agents={more_than_three_agents, finetuning},
+   evaluation={human},
+   other={human_agent},
+   url={https://arxiv.org/abs/2308.07540}
+}
+
 
 #### Virtual Environments
 #### Embodied Environments
