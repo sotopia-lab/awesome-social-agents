@@ -5,6 +5,7 @@ from tabulate import tabulate # type: ignore
 import pandas as pd # type: ignore
 import re
 from pprint import pprint
+from collections import Counter
 
 # environments:
 # collaboration, competition, mixed_objectives, implicit_objectives,
@@ -64,6 +65,31 @@ def extract_bibtex_entries(bibtex: str) -> list[dict[str, str]]:
 
 def parse_markdown_file(file_path: str) -> dict[str, list[str]]:
     return TAXONOMY
+
+
+def basic_stats(entries: list[dict]) -> str:
+    print(f"Total number of papers: {len(entries)}")
+    environments_list = ['text', 'virtual', 'embodied', 'robotics']
+    agents_list = ['prompting_and_in_context_learning', 'finetuning', 'reinforcement_learning']
+    environment_tag_list = [entry["environments"] for entry in entries]
+    environment_tag_list = ['text' if 'text' in tags else 'virtual' if 'virtual' in tags else 'embodied' if 'embodied' in tags else 'robotics' if 'robotics' in tags else 'n/a' for tags in environment_tag_list]
+    agent_tag_list = [entry["agents"] for entry in entries]
+    agent_tag_list = ['prompting_and_in_context_learning' if 'prompting_and_in_context_learning' in tags else 'finetuning' if 'finetuning' in tags else 'reinforcement_learning' if 'reinforcement_learning' in tags else 'n/a' for tags in agent_tag_list]
+    counter_based_on_env = Counter(environment_tag_list)
+    counter_based_on_agents = Counter(agent_tag_list)
+
+    markdown_string = f"### Basic Stats\n"
+    markdown_string += f"Total number of papers: {len(entries)}\n"
+    markdown_string += f"#### Environments\n"
+
+    for env in environments_list:
+        markdown_string += f"{env}: {counter_based_on_env.get(env, 0)}\n"
+    markdown_string += f"#### Agents\n"
+
+    for agent in agents_list:
+        markdown_string += f"{agent}: {counter_based_on_agents.get(agent, 0)}\n"
+
+    return markdown_string
 
 
 def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> None:
@@ -130,6 +156,8 @@ def bibtex_to_table(bibtex: str, taxonomy: dict[str, list[str]]) -> tuple[str, s
     entries = extract_bibtex_entries(bibtex)
     for entry in entries:
         preprocess_entry(entry, taxonomy)
+    
+    stats = basic_stats(entries)
     # Create a Markdown and helper table
     headers = ["Title", "Date"] + list(taxonomy.keys())
     helper_headers = ["helper"]
@@ -146,7 +174,7 @@ def bibtex_to_table(bibtex: str, taxonomy: dict[str, list[str]]) -> tuple[str, s
     df_helper = pd.DataFrame(helper_rows, columns=helper_headers)
     markdown = df.to_markdown(index=False)
     helper_markdown = df_helper.to_markdown(index=False)
-    return markdown, helper_markdown
+    return markdown+'\n\n'+stats, helper_markdown
 
 # Example usage:
 taxonomy = parse_markdown_file('./docs/taxonomy.md')

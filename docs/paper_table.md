@@ -28,3 +28,15 @@
 | [A Comprehensive Assessment of Dialog Evaluation Metrics](https://aclanthology.org/2021.eancs-1.3)                                                 | November, 2021  | text                                                           | n/a                                                                | human, model_based, rule_based | n/a                           |
 | [{C}onvo{K}it: A Toolkit for the Analysis of Conversations](https://aclanthology.org/2020.sigdial-1.8)                                             | July, 2020      | text                                                           | n/a                                                                | human, model_based, rule_based | n/a                           |
 | [Embodied LLM Agents Learn to Cooperate in Organized Teams](https://arxiv.org/abs/2403.12482)                                                      | March, 2024     | collaboration, embodied                                        | prompting_and_in_context_learning, more_than_three_agents          | model_based, human             | education                     |
+
+### Basic Stats
+Total number of papers: 28
+#### Environments
+text: 14
+virtual: 0
+embodied: 2
+robotics: 12
+#### Agents
+prompting_and_in_context_learning: 11
+finetuning: 5
+reinforcement_learning: 4
