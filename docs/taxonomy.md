@@ -42,7 +42,7 @@ Embodied environments in principle include robotics environments, but here we co
 ## 2 Agents and Modeling
 Here are acceptable tags for `agents` field:
 ```
-prompting_and_in_context_learning, finetuning, reinforcement_learning,
+prompting_and_in_context_learning, finetuning, reinforcement_learning, pretraining,
 two_agents, more_than_three_agents, agent_teams,
 agents_with_memory, agents_with_personas,
 n/a
