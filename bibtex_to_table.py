@@ -23,13 +23,14 @@ from pprint import pprint
 # other:
 # human_agent, simulated_humans, 
 # health, education, policy,
+# fully_omniscient, more_omniscient, more_information_asymmetrical
 # n/a
 
 TAXONOMY  = {
     "environments": ["collaboration", "competition", "mixed_objectives", "implicit_objectives", "text", "virtual", "embodied", "robotics", "n/a"],
     "agents": ["prompting_and_in_context_learning", "finetuning", "reinforcement_learning", "two_agents", "more_than_three_agents", "agent_teams", "agents_with_memory", "agents_with_personas", "n/a"],
     "evaluation": ["qualitative", "human", "rule_based", "model_based", "n/a"],
-    "other": ["human_agent", "simulated_humans", "health", "education", "policy", "n/a"]
+    "other": ["human_agent", "simulated_humans", "health", "education", "policy", "fully_omniscient", "more_omniscient", "more_information_asymmetrical", "n/a"]
 }
 
 def parse_markdown_file(file_path: str) -> dict[str, list[str]]:

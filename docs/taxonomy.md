@@ -67,9 +67,20 @@ Here are acceptable tags for `other` field:
 ```
 human_agent, simulated_humans, 
 health, education, policy,
+fully omniscient, more omniscient, more information asymmetrical
 n/a
 ```
+### Human involvement
+`human_agent` means at least one of the agent is a human.
+`simulated_humans` means the agents are simulated humans.
 
-`human_agent` means at least one of the agent is a human. 
+### Application domains
+`health` and `education` are self-explanatory.
+`policy` means the simulation is related to policy-making.
+
+### Information asymmetry levels
+`fully_omniscient` means all agents have full information about the environment and other agents.
+`more_omniscient` means agents have only one or two sources of information that other agents do not have (in the prompts for LLM-powered agents). This includes but not limited to roles, output format, occupation, partial overview of the environment, etc.
+`more_information_asymmetrical` means agents have various of different information sources that other agents do not have.
 
 Here you can use `n/a` if none of the above tags fits the paper.
