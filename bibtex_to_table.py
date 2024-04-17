@@ -1,6 +1,6 @@
 import datetime
 import bibtexparser # type: ignore
-import bibtexparser.middlewares as m
+import bibtexparser.middlewares as m # type: ignore
 from tabulate import tabulate # type: ignore
 import pandas as pd # type: ignore
 import re
@@ -83,7 +83,7 @@ def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> dict:
     elif "eprint" in entry:
         entry["venue"] = "arXiv"
     else:
-        raise ValueError("Venue field is missing")
+        raise ValueError(f"Venue field is missing for the paper: {entry['title']}")
 
     entry["title_w_url"] = f"[{entry['title']}]({entry['url']})"
     entry["date"] = f"{entry['month']}, {entry['year']}" if "month" in entry else entry["year"]
