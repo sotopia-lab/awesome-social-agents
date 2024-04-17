@@ -79,8 +79,8 @@ n/a
 `policy` means the simulation is related to policy-making.
 
 ### Information asymmetry levels
-`fully omniscient` means all agents have full information about the environment and other agents.
-`more omniscient` means agents have only one or two sources of information that other agents do not have (in the prompts for LLM-powered agents). This includes but not limited to roles, output format, occupation, partial overview of the environment, etc.
-`more information asymmetrical` means agents have various of different information sources that other agents do not have.
+`fully_omniscient` means all agents have full information about the environment and other agents.
+`more_omniscient` means agents have only one or two sources of information that other agents do not have (in the prompts for LLM-powered agents). This includes but not limited to roles, output format, occupation, partial overview of the environment, etc.
+`more_information_asymmetrical` means agents have various of different information sources that other agents do not have.
 
 Here you can use `n/a` if none of the above tags fits the paper.
