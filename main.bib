@@ -65,7 +65,6 @@
     url = "https://aclanthology.org/D18-1256",
     doi = "10.18653/v1/D18-1256",
     pages = "2333--2343",
-    abstract = "We consider negotiation settings in which two agents use natural language to bargain on goods. Agents need to decide on both high-level strategy (e.g., proposing {\$}50) and the execution of that strategy (e.g., generating {``}The bike is brand new. Selling for just {\$}50!{''}). Recent work on negotiation trains neural models, but their end-to-end nature makes it hard to control their strategy, and reinforcement learning tends to lead to degenerate solutions. In this paper, we propose a modular approach based on coarse dialogue acts (e.g., propose(price=50)) that decouples strategy and generation. We show that we can flexibly set the strategy using supervised learning, reinforcement learning, or domain-specific knowledge without degeneracy, while our retrieval-based generation can maintain context-awareness and produce diverse utterances. We test our approach on the recently proposed DEALORNODEAL game, and we also collect a richer dataset based on real items on Craigslist. Human evaluation shows that our systems achieve higher task success rate and more human-like negotiation behavior than previous approaches.",
     environments={text, mixed_objectives},
     agents={finetuning, reinforcement_learning, two_agents, agents_with_memory},
     evaluation={human},
@@ -90,7 +89,6 @@
     url = "https://aclanthology.org/D17-1259",
     doi = "10.18653/v1/D17-1259",
     pages = "2443--2453",
-    abstract = "Much of human dialogue occurs in semi-cooperative settings, where agents with different goals attempt to agree on common decisions. Negotiations require complex communication and reasoning skills, but success is easy to measure, making this an interesting task for AI. We gather a large dataset of human-human negotiations on a multi-issue bargaining task, where agents who cannot observe each other{'}s reward functions must reach an agreement (or a deal) via natural language dialogue. For the first time, we show it is possible to train end-to-end models for negotiation, which must learn both linguistic and reasoning skills with no annotated dialogue states. We also introduce dialogue rollouts, in which the model plans ahead by simulating possible complete continuations of the conversation, and find that this technique dramatically improves performance. Our code and dataset are publicly available.",
     environments={text, mixed_objectives},
     agents={reinforcement_learning, two_agents, agents_with_memory},
     evaluation={rule_based},
@@ -310,10 +308,161 @@
    url={https://arxiv.org/abs/2308.07540}
 }
 
+@article{eliza1966weizenbaum,
+  author = {Weizenbaum, Joseph},
+  title = {ELIZA—a computer program for the study of natural language communication between man and machine},
+  year = {1966},
+  issue_date = {Jan. 1966},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/365153.365168},
+  doi = {10.1145/365153.365168},
+  journal = {Commun. ACM},
+  month = {jan},
+  pages = {36–45},
+  environments={text, mixed_objectives},
+}
+
+@article{shuster2022blenderbot,
+  title={Blenderbot 3: a deployed conversational agent that continually learns to responsibly engage},
+  author={Shuster, Kurt and Xu, Jing and Komeili, Mojtaba and Ju, Da and Smith, Eric Michael and Roller, Stephen and Ung, Megan and Chen, Moya and Arora, Kushal and Lane, Joshua and others},
+  journal={arXiv preprint arXiv:2208.03188},
+  year={2022},
+  environments={text, mixed_objectives},
+}
+
+@misc{introducing2022,
+  title={Introducing ChatGPT},
+  author={OpenAI},
+  year={2022},
+  url={https://openai.com/blog/chatgpt},
+  environments={text, mixed_objectives},
+}
+
+@article{chiang2024chatbot,
+  title={Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference},
+  author={Chiang, Wei-Lin and Zheng, Lianmin and Sheng, Ying and Angelopoulos, Anastasios Nikolas and Li, Tianle and Li, Dacheng and Zhang, Hao and Zhu, Banghua and Jordan, Michael and Gonzalez, Joseph E and others},
+  journal={arXiv preprint arXiv:2403.04132},
+  year={2024},
+  environments={text, mixed_objectives},
+}
+
+@article{zhang2022opt,
+  title={Opt: Open pre-trained transformer language models},
+  author={Zhang, Susan and Roller, Stephen and Goyal, Naman and Artetxe, Mikel and Chen, Moya and Chen, Shuohui and Dewan, Christopher and Diab, Mona and Li, Xian and Lin, Xi Victoria and others},
+  journal={arXiv preprint arXiv:2205.01068},
+  year={2022},
+ environments={text, mixed_objectives},
+}
+
+@article{zhou2020design,
+  title = "The Design and Implementation of {X}iao{I}ce, an Empathetic Social Chatbot",
+  author = "Zhou, Li  and
+      Gao, Jianfeng  and
+      Li, Di  and
+      Shum, Heung-Yeung",
+  journal = "Computational Linguistics",
+  volume = "46",
+  number = "1",
+  year = "2020",
+  address = "Cambridge, MA",
+  publisher = "MIT Press",
+  url = "https://aclanthology.org/2020.cl-1.2",
+  doi = "10.1162/coli_a_00368",
+  pages = "53--93",
+  environments={text, mixed_objectives},
+}
+
+@incollection{cai2006empathic,
+  title={Empathic computing},
+  author={Cai, Yang},
+  booktitle={Ambient intelligence in everyday life: Foreword by Emile Aarts},
+  pages={67--85},
+  year={2006},
+  publisher={Springer},
+  environments={text, mixed_objectives},
+}
+
+@inproceedings{dinan2018wizard,
+  title={Wizard of Wikipedia: Knowledge-Powered Conversational Agents},
+  author={Emily Dinan and Stephen Roller and Kurt Shuster and Angela Fan and Michael Auli and Jason Weston},
+  booktitle={International Conference on Learning Representations},
+  year={2019},
+  url={https://openreview.net/forum?id=r1l73iRqKm},
+  environments={text, mixed_objectives, implicit_objectives},
+}
+
+@inproceedings{ghazvininejad2018knowledge,
+  title={A knowledge-grounded neural conversation model},
+  author={Ghazvininejad, Marjan and Brockett, Chris and Chang, Ming-Wei and Dolan, Bill and Gao, Jianfeng and Yih, Wen-tau and Galley, Michel},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={32},
+  number={1},
+  year={2018},
+  environments={text, mixed_objectives, implicit_objectives},
+}
+
+@article{li2016persona,
+  title={A persona-based neural conversation model},
+  author={Li, Jiwei and Galley, Michel and Brockett, Chris and Spithourakis, Georgios P and Gao, Jianfeng and Dolan, Bill},
+  journal={arXiv preprint arXiv:1603.06155},
+  year={2016},
+  environments={text, mixed_objectives},
+}
+
+@book{wallace2009anatomy,
+  title={The anatomy of ALICE},
+  author={Wallace, Richard S},
+  year={2009},
+  publisher={Springer},
+  environments={text, mixed_objectives},
+}
+
+@inproceedings{fung2018towards,
+  title={Towards empathetic human-robot interactions},
+  author={Fung, Pascale and Bertero, Dario and Wan, Yan and Dey, Anik and Chan, Ricky Ho Yin and Bin Siddique, Farhad and Yang, Yang and Wu, Chien-Sheng and Lin, Ruixi},
+  booktitle={Computational Linguistics and Intelligent Text Processing: 17th International Conference, CICLing 2016, Konya, Turkey, April 3--9, 2016, Revised Selected Papers, Part II 17},
+  pages={173--193},
+  year={2018},
+  organization={Springer},
+  environments={text, mixed_objectives},
+}
+
+
 
 #### Virtual Environments
+
+@article{pan2024autonomous,
+  title={Autonomous Evaluation and Refinement of Digital Agents},
+  author={Pan, Jiayi and Zhang, Yichi and Tomlin, Nicholas and Zhou, Yifei and Levine, Sergey and Suhr, Alane},
+  journal={arXiv preprint arXiv:2404.06474},
+  year={2024},
+  environments={virtual},
+}
+
 #### Embodied Environments
 
+@article{team2024scaling,
+  title={Scaling Instructable Agents Across Many Simulated Worlds},
+  author={Team, SIMA and Abi Raad, Maria and Ahuja, Arun and Barros, Catarina and Besse, Frederic and Bolt, Andrew and Bolton, Adrian and Brownfield, Bethanie and Buttimore, Gavin and Cant, Max and others},
+  year={2024},
+  environments={embodied}
+}
+
+@article{ma2023large,
+  title={Large language models play starcraft ii: Benchmarks and a chain of summarization approach},
+  author={Ma, Weiyu and Mi, Qirui and Yan, Xue and Wu, Yuqiao and Lin, Runji and Zhang, Haifeng and Wang, Jun},
+  journal={arXiv preprint arXiv:2312.11865},
+  year={2023},
+  environments={embodied}
+}
+
+@misc{opengenerativeai2024evaluate,
+  title={Evaluate LLMs in real time with Street Fighter III},
+  author={OpenGenerativeAI team},
+  url={https://github.com/OpenGenerativeAI/llm-colosseum},
+  environments={embodied}
+}
 
 
 #### Robotics
