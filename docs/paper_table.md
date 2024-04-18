@@ -47,6 +47,8 @@
 ### Basic Stats
 Total number of papers: 43
 #### Subsections
-: 1
 environments/language: 14
-environments/virtual: 28
+environments/robotics: 12
+evaluation/language: 10
+evaluation/embodied: 1
+applications/policy: 5
