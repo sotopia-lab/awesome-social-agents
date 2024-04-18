@@ -11,7 +11,7 @@ Hi everyone! Thanks for the help!! Your expertise is invaluable to the community
     - Double-check the output Markdown file and ensure the table is updated correctly.
 
 6. **Update the `./docs/README.md` file with the paper entry:**
-    - Copy and paste the content from the `helper` column of the `./docs/paper_table.md` file to the corresponding section(s) in the `./docs/README.md` file.
+    - Copy and paste the content from the `helper` column of the `./docs/helper.md` file to the corresponding section(s) in the `./docs/README.md` file.
     - Note: If the paper fits multiple sections, you can paste the entry into multiple sections in the `./docs/README.md` file.
 
 7. **Create a Pull Request:**
