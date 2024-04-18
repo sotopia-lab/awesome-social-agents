@@ -1,7 +1,6 @@
 | Title                                                                                                                                                          | Date            | environments                                                   | agents                                                             | evaluation                     | other                         |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------|:---------------------------------------------------------------|:-------------------------------------------------------------------|:-------------------------------|:------------------------------|
 | [Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924)                                                                              | July, 2023      | collaboration, embodied                                        | prompting_and_in_context_learning, more_than_three_agents          | rule_based                     | n/a                           |
-| [CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents](https://arxiv.org/abs/2310.17512)                                    | October, 2023   | competition, text                                              | prompting_and_in_context_learning, two_agents                      | rule_based                     | n/a                           |
 | [The Hanabi challenge: A new frontier for AI research](http://dx.doi.org/10.1016/j.artint.2019.103216)                                                         | March, 2020     | collaboration, text                                            | more_than_three_agents                                             | rule_based                     | n/a                           |
 | [Decoupling Strategy and Generation in Negotiation Dialogues](https://aclanthology.org/D18-1256)                                                               | October, 2018   | text, mixed_objectives                                         | finetuning, reinforcement_learning, two_agents, agents_with_memory | human                          | n/a                           |
 | [Deal or No Deal? End-to-End Learning of Negotiation Dialogues](https://aclanthology.org/D17-1259)                                                             | September, 2017 | text, mixed_objectives                                         | reinforcement_learning, two_agents, agents_with_memory             | rule_based                     | human_agent                   |
@@ -15,6 +14,7 @@
 | [{I} Cast Detect Thoughts: Learning to Converse and Guide with Intents and Theory-of-Mind in Dungeons and Dragons](https://aclanthology.org/2023.acl-long.624) | July, 2023      | text, implicit_objectives                                      | more_than_three_agents, reinforcement_learning                     | human, rule_based              | human_agent                   |
 | [{FIREBALL}: A Dataset of Dungeons and Dragons Actual-Play with Structured Game State Information](https://aclanthology.org/2023.acl-long.229)                 | July, 2023      | text, implicit_objectives                                      | more_than_three_agents, finetuning                                 | human, rule_based              | human_agent                   |
 | [{CALYPSO}: {LLMs} as Dungeon Masters' Assistants](https://arxiv.org/abs/2308.07540)                                                                           | August, 2023    | text, implicit_objectives                                      | more_than_three_agents, finetuning                                 | human                          | human_agent                   |
+| [CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents](https://arxiv.org/abs/2310.17512)                                    | October, 2023   | competition, text                                              | prompting_and_in_context_learning, two_agents                      | rule_based                     | n/a                           |
 | [RoboTube: Learning Household Manipulation from Human Videos with Simulated Twin Environments](https://proceedings.mlr.press/v205/xiong23a.html)               | December, 2023  | implicit_objectives, robotics                                  | reinforcement_learning, agents_with_memory                         | human, rule_based              | simulated_humans              |
 | [Do As I Can and Not As I Say: Grounding Language in Robotic Affordances](https://say-can.github.io/)                                                          | August, 2022    | mixed_objectives, implicit_objectives, robotics                | finetuning, reinforcement_learning, agents_with_memory             | human, rule_based, model_based | simulated_humans              |
 | [Inner Monologue: Embodied Reasoning through Planning with Language Models](https://arxiv.org/abs/2207.05608)                                                  | June, 2022      | mixed_objectives, implicit_objectives, robotics                | finetuning, reinforcement_learning, agents_with_memory             | human, rule_based, model_based | simulated_humans              |
@@ -46,12 +46,7 @@
 
 ### Basic Stats
 Total number of papers: 43
-#### Environments
-text: 29
-virtual: 0
-embodied: 2
-robotics: 12
-#### Agents
-prompting_and_in_context_learning: 12
-finetuning: 10
-reinforcement_learning: 8
+#### Subsections
+: 1
+environments/language: 14
+environments/virtual: 28

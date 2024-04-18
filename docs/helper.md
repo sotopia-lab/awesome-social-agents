@@ -1,7 +1,5 @@
 [July, 2023] [Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924), Chen Qian et al., arXiv
 
-[October, 2023] [CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents](https://arxiv.org/abs/2310.17512), Qinlin Zhao et al., arXiv
-
 [March, 2020] [The Hanabi challenge: A new frontier for AI research](http://dx.doi.org/10.1016/j.artint.2019.103216), Nolan Bard et al., Artificial Intelligence
 
 [October, 2018] [Decoupling Strategy and Generation in Negotiation Dialogues](https://aclanthology.org/D18-1256), He et al., Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing
@@ -27,6 +25,8 @@
 [July, 2023] [{FIREBALL}: A Dataset of Dungeons and Dragons Actual-Play with Structured Game State Information](https://aclanthology.org/2023.acl-long.229), Zhu et al., Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
 
 [August, 2023] [{CALYPSO}: {LLMs} as Dungeon Masters' Assistants](https://arxiv.org/abs/2308.07540), Andrew Zhu et al., The 19th AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE 2023)
+
+[October, 2023] [CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents](https://arxiv.org/abs/2310.17512), Qinlin Zhao et al., arXiv
 
 [December, 2023] [RoboTube: Learning Household Manipulation from Human Videos with Simulated Twin Environments](https://proceedings.mlr.press/v205/xiong23a.html), Haoyu Xiong et al., Proceedings of The 6th Conference on Robot Learning
 
