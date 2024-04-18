@@ -75,7 +75,7 @@ This repo supports Python 3.9 and above. In one line, to use a virtual environme
 
 ## Papers
 ### Surveys and Overview
-- [June, 2023] **[Socially intelligent machines that learn from humans and help humans learn](https://royalsocietypublishing.org/doi/10.1098/rsta.2022.0048)**, Gweon et al., arXiv, 2023.
+[June, 2023] **[Socially intelligent machines that learn from humans and help humans learn](https://royalsocietypublishing.org/doi/10.1098/rsta.2022.0048)**, Gweon et al., arXiv
 
 ### Environments
 
