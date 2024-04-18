@@ -243,8 +243,221 @@
 ### Modeling
 
 #### In-context Learning
+@misc{wang2023voyager,
+    title={Voyager: An Open-Ended Embodied Agent with Large Language Models}, 
+    author={Guanzhi Wang and Yuqi Xie and Yunfan Jiang and Ajay Mandlekar and Chaowei Xiao and Yuke Zhu and Linxi Fan and Anima Anandkumar},
+    year={2023},
+    month={5},
+    url={https://arxiv.org/abs/2305.16291},
+    eprint={2305.16291},
+    archivePrefix={arXiv},
+    primaryClass={cs.AI},
+    environments = {mixed_objectives, implicit_objectives, embodied},
+    agents = {prompting_and_in_context_learning, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
 
+@misc{kim2023language,
+    title={Language Models can Solve Computer Tasks}, 
+    author={Geunwoo Kim and Pierre Baldi and Stephen McAleer},
+    year={2023},
+    month={11},
+    url={https://arxiv.org/abs/2303.17491},
+    eprint={2303.17491},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    environments = {mixed_objectives, implicit_objectives, virtual},
+    agents = {prompting_and_in_context_learning},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@misc{ma2024laser,
+    title={LASER: LLM Agent with State-Space Exploration for Web Navigation}, 
+    author={Kaixin Ma and Hongming Zhang and Hongwei Wang and Xiaoman Pan and Wenhao Yu and Dong Yu},
+    year={2024},
+    month={2},
+    url={https://arxiv.org/abs/2309.08172},
+    eprint={2309.08172},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    environments = {mixed_objectives, implicit_objectives, virtual},
+    agents = {prompting_and_in_context_learning, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@misc{sridhar2023hierarchical,
+    title={Hierarchical Prompting Assists Large Language Model on Web Navigation}, 
+    author={Abishek Sridhar and Robert Lo and Frank F. Xu and Hao Zhu and Shuyan Zhou},
+    year={2023},
+    month={10},
+    url={https://arxiv.org/abs/2305.14257},
+    eprint={2305.14257},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    environments = {mixed_objectives, implicit_objectives, virtual},
+    agents = {prompting_and_in_context_learning, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@inproceedings{zheng2024synapse,
+    title={Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control},
+    author={Longtao Zheng and Rundong Wang and Xinrun Wang and Bo An},
+    booktitle={The Twelfth International Conference on Learning Representations},
+    year={2024},
+    month={1},
+    url={https://openreview.net/forum?id=Pc8AU1aF5e},
+    environments = {mixed_objectives, implicit_objectives, virtual},
+    agents = {prompting_and_in_context_learning, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@inproceedings{sun2023adaplanner,
+    title={AdaPlanner: Adaptive Planning from Feedback with Language Models},
+    author={Haotian Sun and Yuchen Zhuang and Lingkai Kong and Bo Dai and Chao Zhang},
+    booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+    year={2023},
+    month={11},
+    url={https://openreview.net/forum?id=rnKgbKmelt},
+    environments = {mixed_objectives, implicit_objectives, text},
+    agents = {prompting_and_in_context_learning, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@misc{wu2023spring,
+    title={SPRING: Studying the Paper and Reasoning to Play Games}, 
+    author={Yue Wu and Shrimai Prabhumoye and So Yeon Min and Yonatan Bisk and Ruslan Salakhutdinov and Amos Azaria and Tom Mitchell and Yuanzhi Li},
+    year={2023},
+    month={5},
+    url={https://arxiv.org/abs/2305.15486},
+    eprint={2305.15486},
+    archivePrefix={arXiv},
+    primaryClass={cs.AI},
+    environments = {mixed_objectives, implicit_objectives, text},
+    agents = {prompting_and_in_context_learning, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@misc{nair2023dera,
+    title={DERA: Enhancing Large Language Model Completions with Dialog-Enabled Resolving Agents}, 
+    author={Varun Nair and Elliot Schumacher and Geoffrey Tso and Anitha Kannan},
+    year={2023},
+    month={3},
+    url={https://arxiv.org/abs/2303.17071},
+    eprint={2303.17071},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    environments = {collaboration, mixed_objectives, implicit_objectives, text},
+    agents = {prompting_and_in_context_learning, agent_teams, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
 #### Finetuning
+@misc{gur2023understanding,
+    title={Understanding HTML with Large Language Models}, 
+    author={Izzeddin Gur and Ofir Nachum and Yingjie Miao and Mustafa Safdari and Austin Huang and Aakanksha Chowdhery and Sharan Narang and Noah Fiedel and Aleksandra Faust},
+    year={2023},
+    month={5},
+    url={https://arxiv.org/abs/2210.03945},
+    eprint={2210.03945},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG},
+    environments = {mixed_objectives, implicit_objectives, virtual},
+    agents = {prompting_and_in_context_learning, finetuning},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@inproceedings{
+    furuta2023instructionfinetuned,
+    title={Instruction-Finetuned Foundation Models for Multimodal Web Navigation},
+    author={Hiroki Furuta and Ofir Nachum and Kuang-Huei Lee and Yutaka Matsuo and Shixiang Shane Gu and Izzeddin Gur},
+    booktitle={ICLR 2023 Workshop on Mathematical and Empirical Understanding of Foundation Models},
+    year={2023},
+    month={5},
+    url={https://openreview.net/forum?id=oLc9sGOBbc},
+    environments = {mixed_objectives, implicit_objectives, virtual},
+    agents = {prompting_and_in_context_learning, finetuning, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@misc{yao2023react,
+    title={ReAct: Synergizing Reasoning and Acting in Language Models}, 
+    author={Shunyu Yao and Jeffrey Zhao and Dian Yu and Nan Du and Izhak Shafran and Karthik Narasimhan and Yuan Cao},
+    year={2023},
+    month={10},
+    eprint={2210.03629},
+    url={https://arxiv.org/abs/2210.03629},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    environments = {mixed_objectives, implicit_objectives, virtual},
+    agents = {prompting_and_in_context_learning, finetuning, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@inproceedings{gur2024a,
+    title={A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis},
+    author={Izzeddin Gur and Hiroki Furuta and Austin V Huang and Mustafa Safdari and Yutaka Matsuo and Douglas Eck and Aleksandra Faust},
+    booktitle={The Twelfth International Conference on Learning Representations},
+    year={2024},
+    month={1},
+    url={https://openreview.net/forum?id=9JQtrumvg8},
+    environments = {mixed_objectives, implicit_objectives, virtual},
+    agents = {prompting_and_in_context_learning, finetuning, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@inproceedings{shaw2023from,
+    title={From Pixels to {UI} Actions: Learning to Follow Instructions via Graphical User Interfaces},
+    author={Peter Shaw and Mandar Joshi and James Cohan and Jonathan Berant and Panupong Pasupat and Hexiang Hu and Urvashi Khandelwal and Kenton Lee and Kristina Toutanova},
+    booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+    year={2023},
+    month={11},
+    url={https://openreview.net/forum?id=3PjCt4kmRx},
+    environments = {mixed_objectives, implicit_objectives, virtual},
+    agents = {prompting_and_in_context_learning, finetuning, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@misc{zheng2024gpt4vision,
+    title={GPT-4V(ision) is a Generalist Web Agent, if Grounded}, 
+    author={Boyuan Zheng and Boyu Gou and Jihyung Kil and Huan Sun and Yu Su},
+    year={2024},
+    month={1},
+    url={https://arxiv.org/abs/2401.01614},
+    eprint={2401.01614},
+    archivePrefix={arXiv},
+    primaryClass={cs.IR},
+    environments = {mixed_objectives, implicit_objectives, virtual},
+    agents = {prompting_and_in_context_learning, finetuning, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@misc{kil2024dualview,
+    title={Dual-View Visual Contextualization for Web Navigation}, 
+    author={Jihyung Kil and Chan Hee Song and Boyuan Zheng and Xiang Deng and Yu Su and Wei-Lun Chao},
+    year={2024},
+    month={2},
+    url={https://arxiv.org/abs/2402.04476},
+    eprint={2402.04476},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV},
+    environments = {mixed_objectives, implicit_objectives, virtual},
+    agents = {prompting_and_in_context_learning, finetuning, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
 
 #### Reinforcement learning
 
