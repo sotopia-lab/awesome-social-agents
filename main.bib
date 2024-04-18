@@ -30,13 +30,495 @@
       primaryClass={cs.AI}
 }
 
-#### Text and Speech Environments
+#### Text Environments
+@article{Bard_2020,
+   title={The Hanabi challenge: A new frontier for AI research},
+   volume={280},
+   ISSN={0004-3702},
+   url={http://dx.doi.org/10.1016/j.artint.2019.103216},
+   DOI={10.1016/j.artint.2019.103216},
+   journal={Artificial Intelligence},
+   publisher={Elsevier BV},
+   author={Bard, Nolan and Foerster, Jakob N. and Chandar, Sarath and Burch, Neil and Lanctot, Marc and Song, H. Francis and Parisotto, Emilio and Dumoulin, Vincent and Moitra, Subhodeep and Hughes, Edward and Dunning, Iain and Mourad, Shibl and Larochelle, Hugo and Bellemare, Marc G. and Bowling, Michael},
+   year={2020},
+   environments={collaboration, text},
+   agents={more_than_three_agents},
+   evaluation={rule_based},
+   other={n/a},
+   month=mar, pages={103216} }
 
-#### Embodied Environments
+@inproceedings{he-etal-2018-decoupling,
+    title = "Decoupling Strategy and Generation in Negotiation Dialogues",
+    author = "He, He  and
+      Chen, Derek  and
+      Balakrishnan, Anusha  and
+      Liang, Percy",
+    editor = "Riloff, Ellen  and
+      Chiang, David  and
+      Hockenmaier, Julia  and
+      Tsujii, Jun{'}ichi",
+    booktitle = "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+    month = "oct",
+    year = "2018",
+    address = "Brussels, Belgium",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D18-1256",
+    doi = "10.18653/v1/D18-1256",
+    pages = "2333--2343",
+    abstract = "We consider negotiation settings in which two agents use natural language to bargain on goods. Agents need to decide on both high-level strategy (e.g., proposing {\$}50) and the execution of that strategy (e.g., generating {``}The bike is brand new. Selling for just {\$}50!{''}). Recent work on negotiation trains neural models, but their end-to-end nature makes it hard to control their strategy, and reinforcement learning tends to lead to degenerate solutions. In this paper, we propose a modular approach based on coarse dialogue acts (e.g., propose(price=50)) that decouples strategy and generation. We show that we can flexibly set the strategy using supervised learning, reinforcement learning, or domain-specific knowledge without degeneracy, while our retrieval-based generation can maintain context-awareness and produce diverse utterances. We test our approach on the recently proposed DEALORNODEAL game, and we also collect a richer dataset based on real items on Craigslist. Human evaluation shows that our systems achieve higher task success rate and more human-like negotiation behavior than previous approaches.",
+    environments={text, mixed_objectives},
+    agents={finetuning, reinforcement_learning, two_agents, agents_with_memory},
+    evaluation={human},
+    other={n/a}
+}
+
+@inproceedings{lewis-etal-2017-deal,
+    title = "Deal or No Deal? End-to-End Learning of Negotiation Dialogues",
+    author = "Lewis, Mike  and
+      Yarats, Denis  and
+      Dauphin, Yann  and
+      Parikh, Devi  and
+      Batra, Dhruv",
+    editor = "Palmer, Martha  and
+      Hwa, Rebecca  and
+      Riedel, Sebastian",
+    booktitle = "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing",
+    month = {9},
+    year = "2017",
+    address = "Copenhagen, Denmark",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D17-1259",
+    doi = "10.18653/v1/D17-1259",
+    pages = "2443--2453",
+    abstract = "Much of human dialogue occurs in semi-cooperative settings, where agents with different goals attempt to agree on common decisions. Negotiations require complex communication and reasoning skills, but success is easy to measure, making this an interesting task for AI. We gather a large dataset of human-human negotiations on a multi-issue bargaining task, where agents who cannot observe each other{'}s reward functions must reach an agreement (or a deal) via natural language dialogue. For the first time, we show it is possible to train end-to-end models for negotiation, which must learn both linguistic and reasoning skills with no annotated dialogue states. We also introduce dialogue rollouts, in which the model plans ahead by simulating possible complete continuations of the conversation, and find that this technique dramatically improves performance. Our code and dataset are publicly available.",
+    environments={text, mixed_objectives},
+    agents={reinforcement_learning, two_agents, agents_with_memory},
+    evaluation={rule_based},
+    other={human_agent}
+}
+
+@inproceedings{wang-etal-2019-persuasion,
+    title = "Persuasion for Good: Towards a Personalized Persuasive Dialogue System for Social Good",
+    author = "Wang, Xuewei  and
+      Shi, Weiyan  and
+      Kim, Richard  and
+      Oh, Yoojung  and
+      Yang, Sijia  and
+      Zhang, Jingwen  and
+      Yu, Zhou",
+    editor = "Korhonen, Anna  and
+      Traum, David  and
+      M{\`a}rquez, Llu{\'\i}s",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P19-1566",
+    doi = "10.18653/v1/P19-1566",
+    pages = "5635--5649",
+    abstract = "Developing intelligent persuasive conversational agents to change people{'}s opinions and actions for social good is the frontier in advancing the ethical development of automated dialogue systems. To do so, the first step is to understand the intricate organization of strategic disclosures and appeals employed in human persuasion conversations. We designed an online persuasion task where one participant was asked to persuade the other to donate to a specific charity. We collected a large dataset with 1,017 dialogues and annotated emerging persuasion strategies from a subset. Based on the annotation, we built a baseline classifier with context information and sentence-level features to predict the 10 persuasion strategies used in the corpus. Furthermore, to develop an understanding of personalized persuasion processes, we analyzed the relationships between individuals{'} demographic and psychological backgrounds including personality, morality, value systems, and their willingness for donation. Then, we analyzed which types of persuasion strategies led to a greater amount of donation depending on the individuals{'} personal backgrounds. This work lays the ground for developing a personalized persuasive dialogue system.",
+    environments={text, mixed_objectives},
+    agents={two_agents, finetuning},
+    evaluation={human, rule_based},
+    other={human_agent}
+}
+
+@inproceedings{peskov-etal-2020-takes,
+    title = "It Takes Two to Lie: One to Lie, and One to Listen",
+    author = "Peskov, Denis  and
+      Cheng, Benny  and
+      Elgohary, Ahmed  and
+      Barrow, Joe  and
+      Danescu-Niculescu-Mizil, Cristian  and
+      Boyd-Graber, Jordan",
+    editor = "Jurafsky, Dan  and
+      Chai, Joyce  and
+      Schluter, Natalie  and
+      Tetreault, Joel",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.acl-main.353",
+    doi = "10.18653/v1/2020.acl-main.353",
+    pages = "3811--3854",
+    abstract = "Trust is implicit in many online text conversations{---}striking up new friendships, or asking for tech support. But trust can be betrayed through deception. We study the language and dynamics of deception in the negotiation-based game Diplomacy, where seven players compete for world domination by forging and breaking alliances with each other. Our study with players from the Diplomacy community gathers 17,289 messages annotated by the sender for their intended truthfulness and by the receiver for their perceived truthfulness. Unlike existing datasets, this captures deception in long-lasting relationships, where the interlocutors strategically combine truth with lies to advance objectives. A model that uses power dynamics and conversational contexts can predict when a lie occurs nearly as well as human players.",
+    environments={text, mixed_objectives},
+    agents={more_than_three_agents},
+    evaluation={model_based},
+    other={human_agent}
+}
+
+@article{LanctotEtAl2019OpenSpiel,
+  title     = {{OpenSpiel}: A Framework for Reinforcement Learning in Games},
+  author    = {Marc Lanctot and Edward Lockhart and Jean-Baptiste Lespiau and
+               Vinicius Zambaldi and Satyaki Upadhyay and Julien P\'{e}rolat and
+               Sriram Srinivasan and Finbarr Timbers and Karl Tuyls and
+               Shayegan Omidshafiei and Daniel Hennes and Dustin Morrill and
+               Paul Muller and Timo Ewalds and Ryan Faulkner and J\'{a}nos Kram\'{a}r
+               and Bart De Vylder and Brennan Saeta and James Bradbury and David Ding
+               and Sebastian Borgeaud and Matthew Lai and Julian Schrittwieser and
+               Thomas Anthony and Edward Hughes and Ivo Danihelka and Jonah Ryan-Davis},
+  month     = {8},
+  year      = {2019},
+  eprint    = {1908.09453},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.LG},
+  journal   = {CoRR},
+  volume    = {abs/1908.09453},
+  url       = {http://arxiv.org/abs/1908.09453},
+  environments={collaboration, competition, mixed_objectives, text},
+  agents={two_agents, more_than_three_agents, reinforcement_learning},
+  evaluation={rule_based},
+  other={n/a}
+}
+
+@article{zha2019rlcard,
+  title={RLCard: A Toolkit for Reinforcement Learning in Card Games},
+  author={Zha, Daochen and Lai, Kwei-Herng and Cao, Yuanpu and Huang, Songyi and Wei, Ruzhe and Guo, Junyu and Hu, Xia},
+  journal={arXiv preprint arXiv:1910.04376},
+  month = {7},
+  year={2019},
+  environments={collaboration, competition, mixed_objectives, text},
+  agents={two_agents, more_than_three_agents, reinforcement_learning},
+  evaluation={rule_based},
+  other={n/a},
+  url={https://github.com/datamllab/rlcard}
+}
+
+@article{meta2022human,
+  title={Human-level play in the game of Diplomacy by combining language models with strategic reasoning},
+  author={Meta Fundamental AI Research Diplomacy Team (FAIR)† and Bakhtin, Anton and Brown, Noam and Dinan, Emily and Farina, Gabriele and Flaherty, Colin and Fried, Daniel and Goff, Andrew and Gray, Jonathan and Hu, Hengyuan and others},
+  journal={Science},
+  volume={378},
+  number={6624},
+  pages={1067--1074},
+  month={11},
+  year={2022},
+  publisher={American Association for the Advancement of Science},
+  url={https://www.science.org/doi/full/10.1126/science.ade9097},
+  environments={competition, text},
+  agents={more_than_three_agents, reinforcement_learning, finetuning},
+  evaluation={rule_based},
+  other={human_agent}
+}
+
+@software{multigrid,
+  author = {Oguntola, Ini},
+  title = {Fast Multi-Agent Gridworld Environments for Gymnasium},
+  url = {https://github.com/ini/multigrid},
+  month = {3},
+  year = {2023},
+  journal = {GitHub},
+  environments={collaboration, competition, text},
+  agents={two_agents, more_than_three_agents, reinforcement_learning},
+  evaluation={rule_based},
+  other={n/a}
+}
+
+@inproceedings{callison-burch-etal-2022-dungeons,
+    title = "Dungeons and Dragons as a Dialog Challenge for Artificial Intelligence",
+    author = "Callison-Burch, Chris  and
+      Tomar, Gaurav Singh  and
+      Martin, Lara  and
+      Ippolito, Daphne  and
+      Bailis, Suma  and
+      Reitter, David",
+    editor = "Goldberg, Yoav  and
+      Kozareva, Zornitsa  and
+      Zhang, Yue",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.637",
+    doi = "10.18653/v1/2022.emnlp-main.637",
+    pages = "9379--9393",
+    abstract = "AI researchers have posited Dungeons and Dragons (D{\&}D) as a challenge problem to test systems on various language-related capabilities. In this paper, we frame D{\&}D specifically as a dialogue system challenge, where the tasks are to both generate the next conversational turn in the game and predict the state of the game given the dialogue history. We create a gameplay dataset consisting of nearly 900 games, with a total of 7,000 players, 800,000 dialogue turns, 500,000 dice rolls, and 58 million words. We automatically annotate the data with partial state information about the game play. We train a large language model (LM) to generate the next game turn, conditioning it on different information. The LM can respond as a particular character or as the player who runs the game{---}i.e., the Dungeon Master (DM). It is trained to produce dialogue that is either in-character (roleplaying in the fictional world) or out-of-character (discussing rules or strategy). We perform a human evaluation to determine what factors make the generated output plausible and interesting. We further perform an automatic evaluation to determine how well the model can predict the game state given the history and examine how well tracking the game state improves its ability to produce plausible conversational output.",
+    environments={text, implicit_objectives},
+    agents={more_than_three_agents, pretraining, finetuning},
+    evaluation={human, rule_based},
+    other={human_agent}
+}
+
+@inproceedings{zhou-etal-2023-cast,
+    title = "{I} Cast Detect Thoughts: Learning to Converse and Guide with Intents and Theory-of-Mind in Dungeons and Dragons",
+    author = "Zhou, Pei  and
+      Zhu, Andrew  and
+      Hu, Jennifer  and
+      Pujara, Jay  and
+      Ren, Xiang  and
+      Callison-Burch, Chris  and
+      Choi, Yejin  and
+      Ammanabrolu, Prithviraj",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.624",
+    doi = "10.18653/v1/2023.acl-long.624",
+    pages = "11136--11155",
+    abstract = "We propose a novel task, G4C, to study teacher-student natural language interactions in a goal-driven and grounded environment. Dungeons and Dragons (D{\&}D), a role-playing game, provides an ideal setting to investigate such interactions. Here, the Dungeon Master (DM), i.e., the teacher, guides the actions of several players{---}students, each with their own personas and abilities{---}to achieve shared goals grounded in a fantasy world. Our approach is to decompose and model these interactions into (1) the DM{'}s intent to guide players toward a given goal; (2) the DM{'}s guidance utterance to the players expressing this intent; and (3) a theory-of-mind (ToM) model that anticipates the players{'} reaction to the guidance one turn into the future. We develop a novel reinforcement learning (RL) method for training a DM that generates guidance for players by rewarding utterances where the intent matches the ToM-anticipated player actions. Human and automated evaluations show that a DM trained to explicitly model intents and incorporate ToM of the players using RL generates better-quality guidance that is 3x more likely to fulfill the DM{'}s intent than a vanilla natural language generation (NLG) approach.",
+    environments={text, implicit_objectives},
+    agents={more_than_three_agents, reinforcement_learning},
+    evaluation={human, rule_based},
+    other={human_agent}
+}
+
+@inproceedings{zhu-etal-2023-fireball,
+    title = "{FIREBALL}: A Dataset of Dungeons and Dragons Actual-Play with Structured Game State Information",
+    author = "Zhu, Andrew  and
+      Aggarwal, Karmanya  and
+      Feng, Alexander  and
+      Martin, Lara  and
+      Callison-Burch, Chris",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.229",
+    doi = "10.18653/v1/2023.acl-long.229",
+    pages = "4171--4193",
+    abstract = "Dungeons {\&} Dragons (D{\&}D) is a tabletop roleplaying game with complex natural language interactions between players and hidden state information. Recent work has shown that large language models (LLMs) that have access to state information can generate higher quality game turns than LLMs that use dialog history alone. However, previous work used game state information that was heuristically created and was not a true gold standard game state. We present FIREBALL, a large dataset containing nearly 25,000 unique sessions from real D{\&}D gameplay on Discord with true game state info. We recorded game play sessions of players who used the Avrae bot, which was developed to aid people in playing D{\&}D online, capturing language, game commands and underlying game state information. We demonstrate that FIREBALL can improve natural language generation (NLG) by using Avrae state information, improving both automated metrics and human judgments of quality. Additionally, we show that LLMs can generate executable Avrae commands, particularly after finetuning.",
+    environments={text, implicit_objectives},
+    agents={more_than_three_agents, finetuning},
+    evaluation={human, rule_based},
+    other={human_agent}
+}
+
+@inproceedings{zhu2023calypso,
+   title={{CALYPSO}: {LLMs} as Dungeon Masters' Assistants},
+   author={Zhu, Andrew and Martin, Lara J. and Head, Andrew and Callison-Burch, Chris},
+   booktitle={The 19th AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE 2023)},
+   month={8},
+   year={2023},
+   environments={text, implicit_objectives},
+   agents={more_than_three_agents, finetuning},
+   evaluation={human},
+   other={human_agent},
+   url={https://arxiv.org/abs/2308.07540}
+}
+
 
 #### Virtual Environments
+#### Embodied Environments
+
+
 
 #### Robotics
+@InProceedings{pmlr-v205-xiong23a,
+    title = {RoboTube: Learning Household Manipulation from Human Videos with Simulated Twin Environments},
+    author = {Xiong, Haoyu and Fu, Haoyuan and Zhang, Jieyi and Bao, Chen and Zhang, Qiang and Huang, Yongxi and Xu, Wenqiang and Garg, Animesh and Lu, Cewu},
+    booktitle = {Proceedings of The 6th Conference on Robot Learning},
+    pages = {1--10},
+    year = {2023},
+    editor = {Liu, Karen and Kulic, Dana and Ichnowski, Jeff},
+    volume = {205},
+    series = {Proceedings of Machine Learning Research},
+    month = {12},
+    publisher =  {PMLR},
+    pdf = {https://proceedings.mlr.press/v205/xiong23a/xiong23a.pdf},
+    url = {https://proceedings.mlr.press/v205/xiong23a.html},
+    environments = {implicit_objectives, robotics},
+    agents = {reinforcement_learning, agents_with_memory},
+    evaluation = {human, rule_based},
+    other = {simulated_humans}
+}
+
+
+@inproceedings{saycan2022arxiv,
+    title={Do As I Can and Not As I Say: Grounding Language in Robotic Affordances},
+    author={Michael Ahn and Anthony Brohan and Noah Brown and Yevgen Chebotar and Omar Cortes and Byron David and Chelsea Finn and Chuyuan Fu and Keerthana Gopalakrishnan and Karol Hausman and Alex Herzog and Daniel Ho and Jasmine Hsu and Julian Ibarz and Brian Ichter and Alex Irpan and Eric Jang and Rosario Jauregui Ruano and Kyle Jeffrey and Sally Jesmonth and Nikhil Joshi and Ryan Julian and Dmitry Kalashnikov and Yuheng Kuang and Kuang-Huei Lee and Sergey Levine and Yao Lu and Linda Luu and Carolina Parada and Peter Pastor and Jornell Quiambao and Kanishka Rao and Jarek Rettinghouse and Diego Reyes and Pierre Sermanet and Nicolas Sievers and Clayton Tan and Alexander Toshev and Vincent Vanhoucke and Fei Xia and Ted Xiao and Peng Xu and Sichun Xu and Mengyuan Yan and Andy Zeng},
+    booktitle={arXiv preprint arXiv:2204.01691},
+    year={2022},
+    month={8},
+    url = {https://say-can.github.io/},
+    environments = {mixed_objectives, implicit_objectives, robotics},
+    agents = {finetuning, reinforcement_learning, agents_with_memory},
+    evaluation = {human, rule_based, model_based},
+    other = {simulated_humans}
+}
+
+@inproceedings{huang2022inner,
+    title={Inner Monologue: Embodied Reasoning through Planning with Language Models},
+    author={Wenlong Huang and Fei Xia and Ted Xiao and Harris Chan and Jacky Liang and Pete Florence and Andy Zeng and Jonathan Tompson and Igor Mordatch and Yevgen Chebotar and Pierre Sermanet and Noah Brown and Tomas Jackson and Linda Luu and Sergey Levine and Karol Hausman and Brian Ichter},
+    booktitle={arXiv preprint arXiv:2207.05608},
+    year={2022},
+    month={6},
+    url = {https://arxiv.org/abs/2207.05608},
+    environments = {mixed_objectives, implicit_objectives, robotics},
+    agents = {finetuning, reinforcement_learning, agents_with_memory},
+    evaluation = {human, rule_based, model_based},
+    other = {simulated_humans}
+}
+
+@inproceedings{Wang2023One,
+    title={One Policy to Dress Them All: Learning to Dress People with Diverse Poses and Garments},
+    author={Wang, Yufei and Sun, Zhanyi and Erickson, Zackory and Held, David},
+    booktitle={Robotics: Science and Systems (RSS)},
+    year={2023},
+    month={6},
+    url = {https://arxiv.org/abs/2306.12372},
+    environments = {robotics},
+    agents = {reinforcement_learning},
+    evaluation = {human, rule_based},
+    other = {human_agent}
+}     
+
+@misc{wang2023cogail,
+    title={Co-GAIL: Learning Diverse Strategies for Human-Robot Collaboration}, 
+    author={Chen Wang and Claudia Pérez-D'Arpino and Danfei Xu and Li Fei-Fei and C. Karen Liu and Silvio Savarese},
+    year={2023},
+    month={9},
+    url = {https://arxiv.org/abs/2108.06038},
+    eprint={2108.06038},
+    archivePrefix={arXiv},
+    primaryClass={cs.RO},
+    environments = {collaboration, mixed_objectives, robotics},
+    agents = {two_agents, reinforcement_learning},
+    evaluation = {human},
+    other = {human_agent, simulated_humans}
+}
+
+@misc{shi2024yell,
+    title={Yell At Your Robot: Improving On-the-Fly from Language Corrections}, 
+    author={Lucy Xiaoyang Shi and Zheyuan Hu and Tony Z. Zhao and Archit Sharma and Karl Pertsch and Jianlan Luo and Sergey Levine and Chelsea Finn},
+    year={2024},
+    month={3},
+    url={https://arxiv.org/abs/2403.12910},
+    eprint={2403.12910},
+    archivePrefix={arXiv},
+    primaryClass={cs.RO},
+    environments = {collaboration, mixed_objectives, robotics},
+    agents = {two_agents, finetuning, reinforcement_learning, agents_with_memory},
+    evaluation = {human},
+    other = {human_agent}
+}
+
+@article{sheridan2016human,
+    title={Human--robot interaction: status and challenges},
+    author={Sheridan, Thomas B},
+    journal={Human factors},
+    month={4},
+    url={https://journals.sagepub.com/doi/10.1177/0018720816644364},
+    volume={58},
+    number={4},
+    pages={525--532},
+    year={2016},
+    publisher={SAGE Publications Sage CA: Los Angeles, CA},
+    environments = {collaboration, mixed_objectives, robotics},
+    agents = {two_agents, finetuning, reinforcement_learning},
+    evaluation = {human},
+    other = {human_agent}
+}
+
+
+@article{onnasch2021taxonomy,
+    title={A taxonomy to structure and analyze human--robot interaction},
+    author={Onnasch, Linda and Roesler, Eileen},
+    journal={International Journal of Social Robotics},
+    volume={13},
+    number={4},
+    pages={833--849},
+    year={2021},
+    publisher={Springer},
+    month={6},
+    url={https://link.springer.com/article/10.1007/s12369-020-00666-5},
+    environments = {collaboration, mixed_objectives, robotics},
+    agents = {two_agents},
+    evaluation = {human},
+    other = {human_agent}
+}
+
+@article{robinson2023robotic,
+    title={Robotic vision for human-robot interaction and collaboration: A survey and systematic review},
+    author={Robinson, Nicole and Tidd, Brendan and Campbell, Dylan and Kuli{\'c}, Dana and Corke, Peter},
+    journal={ACM Transactions on Human-Robot Interaction},
+    volume={12},
+    number={1},
+    pages={1--66},
+    year={2023},
+    month={7},
+    url={https://arxiv.org/abs/2307.15363},
+    publisher={ACM New York, NY},
+    environments = {collaboration, mixed_objectives, implicit_objectives, robotics},
+    agents = {two_agents, agent_teams, agents_with_personas},
+    evaluation = {human, rule_based},
+    other = {human_agent, simulated_humans}
+}
+
+@article{dahiya2023survey,
+    title={A survey of multi-agent Human--Robot Interaction systems},
+    author={Dahiya, Abhinav and Aroyo, Alexander M and Dautenhahn, Kerstin and Smith, Stephen L},
+    journal={Robotics and Autonomous Systems},
+    volume={161},
+    pages={104335},
+    year={2022},
+    month={10},
+    url={https://arxiv.org/abs/2212.05286},
+    publisher={Elsevier},
+    environments = {collaboration, mixed_objectives, robotics},
+    agents = {two_agents, more_than_three_agents, agent_teams},
+    evaluation = {human},
+    other = {human_agent}
+}
+
+@article{10.1145/3570169,
+    author = {Urakami, Jacqueline and Seaborn, Katie},
+    title = {Nonverbal Cues in Human Robot Interaction: A Communication Studies Perspective},
+    year = {2023},
+    issue_date = {June 2023},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    volume = {12},
+    number = {2},
+    url = {https://doi.org/10.1145/3570169},
+    doi = {10.1145/3570169},
+    abstract = {Communication between people is characterized by a broad range of nonverbal cues. Transferring these cues into the design of robots and other artificial agents that interact with people may foster more natural, inviting, and accessible experiences. In this article, we offer a series of definitive nonverbal codes for human–robot interaction (HRI) that address the five human sensory systems (visual, auditory, haptic, olfactory, and gustatory) drawn from the field of communication studies. We discuss how these codes can be translated into design patterns for HRI using a curated sample of the communication studies and HRI literatures. As nonverbal codes are an essential mode in human communication, we argue that integrating robotic nonverbal codes in HRI will afford robots a feeling of “aliveness” or “social agency” that would otherwise be missing. We end with suggestions for research directions to stimulate work on nonverbal communication within the field of HRI and improve communication between people and robots.},
+    journal = {J. Hum.-Robot Interact.},
+    month = {3},
+    articleno = {22},
+    numpages = {21},
+    keywords = {nonverbal codes, communication studies, human robot interaction, nonverbal communication, Robotics},
+    environments = {collaboration, mixed_objectives, implicit_objectives, robotics},
+    agents = {two_agents},
+    evaluation = {human},
+    other = {human_agent}
+}
+
+@article{10.1145/3571718,
+    author = {Winkle, Katie and Lagerstedt, Erik and Torre, Ilaria and Offenwanger, Anna},
+    title = {15 Years of (Who)man Robot Interaction: Reviewing the H in Human-Robot Interaction},
+    year = {2023},
+    issue_date = {September 2023},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    volume = {12},
+    number = {3},
+    url = {https://doi.org/10.1145/3571718},
+    doi = {10.1145/3571718},
+    abstract = {Recent work identified a concerning trend of disproportional gender representation in research participants in Human–Computer Interaction (HCI). Motivated by the fact that Human–Robot Interaction (HRI) shares many participant practices with HCI, we explored whether this trend is mirrored in our field. By producing a dataset covering participant gender representation in all 684 full papers published at the HRI conference from 2006–2021, we identify current trends in HRI research participation. We find an over-representation of men in research participants to date, as well as inconsistent and/or incomplete gender reporting, which typically engages in a binary treatment of gender at odds with published best practice guidelines. We further examine if and how participant gender has been considered in user studies to date, in-line with current discourse surrounding the importance and/or potential risks of gender based analyses. Finally, we complement this with a survey of HRI researchers to examine correlations between who is doing with the who is taking part, to further reflect on factors which seemingly influence gender bias in research participation across different sub-fields of HRI. Through our analysis, we identify areas for improvement, but also reason for optimism, and derive some practical suggestions for HRI researchers going forward.},
+    journal = {J. Hum.-Robot Interact.},
+    month = {4},
+    articleno = {28},
+    numpages = {28},
+    keywords = {Gender, systematic review, user study methodologies, participant recruitment, inclusivity},
+    environments = {robotics},
+    agents = {two_agents},
+    evaluation = {human},
+    other = {human_agent}
+}
 
 ### Modeling
 
@@ -160,6 +642,163 @@ url={https://openreview.net/forum?id=mM7VurbA4r}
       archivePrefix={arXiv},
       primaryClass={cs.IR}
 }
+
+@misc{huang2024far,
+      title={How Far Are We on the Decision-Making of LLMs? Evaluating LLMs' Gaming Ability in Multi-Agent Environments}, 
+      author={Jen-tse Huang and Eric John Li and Man Ho Lam and Tian Liang and Wenxuan Wang and Youliang Yuan and Wenxiang Jiao and Xing Wang and Zhaopeng Tu and Michael R. Lyu},
+      year={2024},
+      eprint={2403.11807},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2403.11807},
+      environments = {mixed_objectives, text},
+      agents = {prompting_and_in_context_learning, more_than_three_agents},
+      evaluation = {rule_based},
+      other = {more_omniscient}
+}
+
+@misc{chan2023chateval,
+      title={ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate}, 
+      author={Chi-Min Chan and Weize Chen and Yusheng Su and Jianxuan Yu and Wei Xue and Shanghang Zhang and Jie Fu and Zhiyuan Liu},
+      year={2023},
+      eprint={2308.07201},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2308.07201},
+      environments = {collaboration, text},
+      agents = {prompting_and_in_context_learning, more_than_three_agents},
+      evaluation = {rule_based},
+      other = {n/a}
+}
+
+@misc{li2024automatic,
+      title={Automatic Evaluation for Mental Health Counseling using LLMs}, 
+      author={Anqi Li and Yu Lu and Nirui Song and Shuai Zhang and Lizhi Ma and Zhenzhong Lan},
+      year={2024},
+      eprint={2402.11958},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+        url={https://arxiv.org/abs/2402.11958},
+        environments = {collaboration, text},
+        agents = {prompting_and_in_context_learning, two_agents},
+        evaluation = {model_based},
+        other = {n/a}
+}
+
+@misc{bianchi2024llms,
+      title={How Well Can LLMs Negotiate? NegotiationArena Platform and Analysis}, 
+      author={Federico Bianchi and Patrick John Chia and Mert Yuksekgonul and Jacopo Tagliabue and Dan Jurafsky and James Zou},
+      year={2024},
+      eprint={2402.05863},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+        url={https://arxiv.org/abs/2402.05863},
+        environments = {mixed_objectives, text},
+        agents = {prompting_and_in_context_learning, two_agents},
+        evaluation = {rule_based},
+        other = {more_information_asymmetrical}
+}
+
+@inproceedings{Jiang2023PersonaLLMIT,
+  title={PersonaLLM: Investigating the Ability of Large Language Models to Express Personality Traits},
+  author={Hang Jiang and Xiajie Zhang and Xubo Cao and Cynthia Breazeal and Deb Roy and Jad Kabbara},
+  year={2023},
+  booktitle={NAACL Findings},
+  url={https://api.semanticscholar.org/CorpusID:268032940},
+  environments = {text},
+  agents = {prompting_and_in_context_learning},
+  evaluation = {human, model_based},
+  other = {n/a}, 
+  month={5}
+}
+
+@article{Xie2024CanLL,
+  title={Can Large Language Model Agents Simulate Human Trust Behaviors?},
+  author={Chengxing Xie and Canyu Chen and Feiran Jia and Ziyu Ye and Kai Shu and Adel Bibi and Ziniu Hu and Philip H.S. Torr and Bernard Ghanem and G. Li},
+  journal={ArXiv},
+  year={2024},
+  volume={abs/2402.04559},
+  url={https://api.semanticscholar.org/CorpusID:267523076},
+    environments = {text},
+    agents = {prompting_and_in_context_learning},
+    evaluation = {human, model_based},
+    other = {n/a},
+    month={2}
+}
+
+@article{Rasal2024LLMHM,
+  title={LLM Harmony: Multi-Agent Communication for Problem Solving},
+  author={Sumedh Rasal},
+  journal={ArXiv},
+  year={2024},
+  volume={abs/2401.01312},
+  url={https://api.semanticscholar.org/CorpusID:266725580},
+    environments = {text},
+    agents = {prompting_and_in_context_learning},
+    evaluation = {human, model_based},
+    other = {n/a},
+    month={1}
+}
+
+@inproceedings{yeh-etal-2021-comprehensive,
+    title = "A Comprehensive Assessment of Dialog Evaluation Metrics",
+    author = "Yeh, Yi-Ting  and
+      Eskenazi, Maxine  and
+      Mehri, Shikib",
+    editor = "Wei, Wei  and
+      Dai, Bo  and
+      Zhao, Tuo  and
+      Li, Lihong  and
+      Yang, Diyi  and
+      Chen, Yun-Nung  and
+      Boureau, Y-Lan  and
+      Celikyilmaz, Asli  and
+      Geramifard, Alborz  and
+      Ahuja, Aman  and
+      Jiang, Haoming",
+    booktitle = "The First Workshop on Evaluations and Assessments of Neural Conversation Systems",
+    month = nov,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.eancs-1.3",
+    environments = {text},
+    agents = {n/a},
+    evaluation = {human, model_based, rule_based},
+    other = {n/a}
+}
+
+@inproceedings{chang-etal-2020-convokit,
+    title = "{C}onvo{K}it: A Toolkit for the Analysis of Conversations",
+    author = "Chang, Jonathan P.  and
+      Chiam, Caleb  and
+      Fu, Liye  and
+      Wang, Andrew  and
+      Zhang, Justine  and
+      Danescu-Niculescu-Mizil, Cristian",
+    editor = "Pietquin, Olivier  and
+      Muresan, Smaranda  and
+      Chen, Vivian  and
+      Kennington, Casey  and
+      Vandyke, David  and
+      Dethlefs, Nina  and
+      Inoue, Koji  and
+      Ekstedt, Erik  and
+      Ultes, Stefan",
+    booktitle = "Proceedings of the 21th Annual Meeting of the Special Interest Group on Discourse and Dialogue",
+    month = jul,
+    year = "2020",
+    address = "1st virtual meeting",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.sigdial-1.8",
+    doi = "10.18653/v1/2020.sigdial-1.8",
+    pages = "57--60",
+    environments = {text},
+    agents = {n/a},
+    evaluation = {human, model_based, rule_based},
+    other = {n/a}
+}
+
 
 
 #### Evaluating embodied social agents
@@ -331,6 +970,85 @@ url={https://openreview.net/forum?id=mM7VurbA4r}
 }
 
 #### Policy
+@inproceedings{10.1145/3526113.3545616,
+author = {Park, Joon Sung and Popowski, Lindsay and Cai, Carrie and Morris, Meredith Ringel and Liang, Percy and Bernstein, Michael S.},
+title = {Social Simulacra: Creating Populated Prototypes for Social Computing Systems},
+year = {2022},
+isbn = {9781450393201},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3526113.3545616},
+doi = {10.1145/3526113.3545616},
+booktitle = {Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology},
+articleno = {74},
+numpages = {18},
+keywords = {social computing, prototyping},
+location = {Bend, OR, USA},
+series = {UIST '22},
+environments = {text, implicit_objectives},
+agents = {more_than_three_agents},
+evaluation = {human},
+other = {policy},
+month = {8}
+}
+
+@misc{tjuatja2024llms,
+      title={Do LLMs exhibit human-like response biases? A case study in survey design}, 
+      author={Lindia Tjuatja and Valerie Chen and Sherry Tongshuang Wu and Ameet Talwalkar and Graham Neubig},
+      year={2024},
+      eprint={2311.04076},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+        url={https://arxiv.org/abs/2311.04076},
+        environments = {text},
+        agents = {prompting_and_in_context_learning},
+        evaluation = {human, model_based},
+        other = {policy},
+}
+
+@misc{wang2024large,
+      title={Large language models cannot replace human participants because they cannot portray identity groups}, 
+      author={Angelina Wang and Jamie Morgenstern and John P. Dickerson},
+      year={2024},
+      eprint={2402.01908},
+      archivePrefix={arXiv},
+      primaryClass={cs.CY},
+        url={https://arxiv.org/abs/2402.01908},
+        environments = {text},
+        agents = {n/a},
+        evaluation = {n/a},
+        other = {policy},
+}
+
+@misc{mou2024unveiling,
+      title={Unveiling the Truth and Facilitating Change: Towards Agent-based Large-scale Social Movement Simulation}, 
+      author={Xinyi Mou and Zhongyu Wei and Xuanjing Huang},
+      year={2024},
+      eprint={2402.16333},
+      archivePrefix={arXiv},
+      primaryClass={cs.CY},
+      url={https://arxiv.org/abs/2402.16333},
+      environments = {text},
+      agents = {more_than_three_agents},
+      evaluation = {model_based},
+      other = {policy},
+}
+
+@misc{liu2024skepticism,
+      title={From Skepticism to Acceptance: Simulating the Attitude Dynamics Toward Fake News}, 
+      author={Yuhan Liu and Xiuying Chen and Xiaoqing Zhang and Xing Gao and Ji Zhang and Rui Yan},
+      year={2024},
+      eprint={2403.09498},
+      archivePrefix={arXiv},
+      primaryClass={cs.SI},
+        url={https://arxiv.org/abs/2403.09498},
+        environments = {text},
+        agents = {more_than_three_agents},
+        evaluation = {model_based},
+        other = {policy},
+}
+
+
 
 #### Education
 
