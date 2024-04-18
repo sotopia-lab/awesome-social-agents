@@ -38,15 +38,20 @@
 | [A Comprehensive Assessment of Dialog Evaluation Metrics](https://aclanthology.org/2021.eancs-1.3)                                                             | November, 2021  | text                                                           | n/a                                                                | human, model_based, rule_based | n/a                           |
 | [{C}onvo{K}it: A Toolkit for the Analysis of Conversations](https://aclanthology.org/2020.sigdial-1.8)                                                         | July, 2020      | text                                                           | n/a                                                                | human, model_based, rule_based | n/a                           |
 | [Embodied LLM Agents Learn to Cooperate in Organized Teams](https://arxiv.org/abs/2403.12482)                                                                  | March, 2024     | collaboration, embodied                                        | prompting_and_in_context_learning, more_than_three_agents          | model_based, human             | education                     |
+| [Social Simulacra: Creating Populated Prototypes for Social Computing Systems](https://doi.org/10.1145/3526113.3545616)                                        | August, 2022    | text, implicit_objectives                                      | more_than_three_agents                                             | human                          | policy                        |
+| [Do LLMs exhibit human-like response biases? A case study in survey design](https://arxiv.org/abs/2311.04076)                                                  | November, 2024  | text                                                           | prompting_and_in_context_learning                                  | human, model_based             | policy                        |
+| [Large language models cannot replace human participants because they cannot portray identity groups](https://arxiv.org/abs/2402.01908)                        | February, 2024  | text                                                           | n/a                                                                | n/a                            | policy                        |
+| [Unveiling the Truth and Facilitating Change: Towards Agent-based Large-scale Social Movement Simulation](https://arxiv.org/abs/2402.16333)                    | February, 2024  | text                                                           | more_than_three_agents                                             | model_based                    | policy                        |
+| [From Skepticism to Acceptance: Simulating the Attitude Dynamics Toward Fake News](https://arxiv.org/abs/2403.09498)                                           | March, 2024     | text                                                           | more_than_three_agents                                             | model_based                    | policy                        |
 
 ### Basic Stats
-Total number of papers: 38
+Total number of papers: 43
 #### Environments
-text: 24
+text: 29
 virtual: 0
 embodied: 2
 robotics: 12
 #### Agents
-prompting_and_in_context_learning: 11
+prompting_and_in_context_learning: 12
 finetuning: 10
 reinforcement_learning: 8

@@ -127,7 +127,7 @@ def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> None:
         month_name = datetime.date(1900, int(entry["month"]), 1).strftime('%B').lower()
         entry["month"] = month_name.capitalize()
     else:
-        raise ValueError("Month field is missing")
+        raise ValueError(f"Month field is missing for paper {entry['title']}")
 
     # get the venue of the paper
     if "journal" in entry:
