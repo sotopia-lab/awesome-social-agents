@@ -171,9 +171,8 @@ def bibtex_to_table(bibtex: str, taxonomy: dict[str, list[str]]) -> tuple[str, s
     df = pd.DataFrame(rows, columns=headers)
 
     # Create a helper table
-    df_helper = pd.DataFrame(helper_rows, columns=helper_headers)
     markdown = df.to_markdown(index=False)
-    helper_markdown = df_helper.to_markdown(index=False)
+    helper_markdown = "\n\n".join(helper_rows)
     return markdown+'\n\n'+stats, helper_markdown
 
 # Example usage:
@@ -193,7 +192,7 @@ check_repeat_entries(extract_bibtex_entries(bibtex_string)+extract_bibtex_entrie
 
 output_file = "./docs/paper_table.md"
 helper_file = "./docs/helper.md"
-markdown_table, helper_table = bibtex_to_table(bibtex_string, taxonomy=taxonomy)
+markdown_table, helper_string = bibtex_to_table(bibtex_string, taxonomy=taxonomy)
 
 # Write the Markdown table to the output file
 with open(output_file, "w") as f:
@@ -201,10 +200,10 @@ with open(output_file, "w") as f:
 
 # Write the helper table to the helper file
 with open(helper_file, "w") as f:
-    f.write(helper_table)
+    f.write(helper_string)
 
 print("🎉 Successfully written the Markdown table to", output_file)
-print("🎉 Successfully written the helper table to", helper_file)
+print("🎉 Successfully written the helpers to", helper_file)
 
     
 
