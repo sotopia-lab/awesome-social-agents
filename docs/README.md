@@ -117,8 +117,37 @@ This repo supports Python 3.9 and above. In one line, to use a virtual environme
 ### Modeling
 
 #### In-context Learning
+[May, 2023] [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291), Guanzhi Wang et al., arXiv
+                                                                                                                                        
+ [March, 2023] [Language Models can Solve Computer Tasks](https://arxiv.org/abs/2303.17491), Geunwoo Kim et al., arXiv                                                                                                                                                               
+
+[September, 2024] [LASER: LLM Agent with State-Space Exploration for Web Navigation](https://arxiv.org/abs/2309.08172), Kaixin Ma et al., arXiv                                                                                                                                      
+
+[May, 2023] [Hierarchical Prompting Assists Large Language Model on Web Navigation](https://arxiv.org/abs/2305.14257), Abishek Sridhar et al., arXiv                                                                                                                                
+
+[January, 2024] [Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control](https://openreview.net/forum?id=Pc8AU1aF5e), Longtao Zheng et al., The Twelfth International Conference on Learning Representations                                                    
+
+[November, 2023] [AdaPlanner: Adaptive Planning from Feedback with Language Models](https://openreview.net/forum?id=rnKgbKmelt), Haotian Sun et al., Thirty-seventh Conference on Neural Information Processing Systems                                                             
+
+[May, 2023] [SPRING: Studying the Paper and Reasoning to Play Games](https://arxiv.org/abs/2305.15486), Yue Wu et al., arXiv                                                                                                                                                        
+
+[March, 2023] [DERA: Enhancing Large Language Model Completions with Dialog-Enabled Resolving Agents](https://arxiv.org/abs/2303.17071), Varun Nair et al., arXiv                                                                                                                   
 
 #### Finetuning
+
+[October, 2023] [Understanding HTML with Large Language Models](https://arxiv.org/abs/2210.03945), Izzeddin Gur et al., arXiv                                                                                                                                                       
+[
+May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigation](https://openreview.net/forum?id=oLc9sGOBbc), Hiroki Furuta et al., ICLR 2023 Workshop on Mathematical and Empirical Understanding of Foundation Models                                          
+
+[October, 2023] [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629), Shunyu Yao et al., arXiv                                                                                                                                            
+
+[January, 2024] [A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis](https://openreview.net/forum?id=9JQtrumvg8), Izzeddin Gur et al., The Twelfth International Conference on Learning Representations                                         
+
+[November, 2023] [From Pixels to {UI} Actions: Learning to Follow Instructions via Graphical User Interfaces](https://openreview.net/forum?id=3PjCt4kmRx), Peter Shaw et al., Thirty-seventh Conference on Neural Information Processing Systems                       
+
+ [January, 2024] [GPT-4V(ision) is a Generalist Web Agent, if Grounded](https://arxiv.org/abs/2401.01614), Boyuan Zheng et al., arXiv                                                                                                                                                
+
+[February, 2024] [Dual-View Visual Contextualization for Web Navigation](https://arxiv.org/abs/2402.04476), Jihyung Kil et al., arXiv           
 
 #### Reinforcement learning
 
@@ -153,6 +182,8 @@ This repo supports Python 3.9 and above. In one line, to use a virtual environme
 #### Evaluating virtual social agents
 
 #### Evaluating robotics in social contexts
+[March, 2024] [Embodied LLM Agents Learn to Cooperate in Organized Teams](https://arxiv.org/abs/2403.12482), Xudong Guo et al., arXiv                                                                                                                                               |
+[March, 2024] [HumanoidBench: Simulated Humanoid Benchmark for Whole-Body Locomotion and Manipulation](https://arxiv.org/abs/2403.10506), Carmelo Sferrazza et al., arXiv                                                                                                            [January, 2003] [Theory and evaluation of human robot interactions](https://ieeexplore.ieee.org/document/1174284), J. Scholtz et al., 36th Annual Hawaii International Conference on System Sciences, 2003. Proceedings of the                                                      [March, 2006] [Common metrics for human-robot interaction](https://doi.org/10.1145/1121241.1121249), Aaron Steinfeld et al., Proceedings of the 1st ACM SIGCHI/SIGART Conference on Human-Robot Interaction                                                                         [July, 2020] [Safety bounds in human robot interaction: A survey](https://www.sciencedirect.com/science/article/pii/S0925753520300643), Angeliki Zacharaki et al., Safety science                                                                                                   [October, 2011] [A meta-analysis of factors affecting trust in human-robot interaction](https://journals.sagepub.com/doi/10.1177/0018720811417254), Peter A Hancock et al., Human factors                                                                                           [November, 2009] [Measurement instruments for the anthropomorphism, animacy, likeability, perceived intelligence, and perceived safety of robots](https://link.springer.com/article/10.1007/s12369-008-0001-3), Christoph Bartneck et al.,  [December, 2015] [RoboCup@ Home: Analysis and results of evolving competitions for domestic and service robots](https://www.sciencedirect.com/science/article/pii/S0004370215001174), Luca Iocchi et al., Artificial Intelligence                                                   [December, 2020] [Optimization of criterion for objective evaluation of HRI performance that approximates subjective evaluation: a case study in robot competition](https://doi.org/10.1080/01691864.2019.1698462), Y. Mizuchi et al., Advanced Robotics  
 
 ### Interactions with humans
 
