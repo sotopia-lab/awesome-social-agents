@@ -4,6 +4,7 @@
 | [Autonomous Evaluation and Refinement of Digital Agents](https://arxiv.org/abs/2404.06474v2)                                                                                                           | April, 2024     | virtual                                                        | prompting_and_in_context_learning, finetuning                                                       | qualitative                    | human_agent                   |
 | [Scaling Instructable Agents Across Many Simulated Worlds](https://arxiv.org/abs/2404.10179v2)                                                                                                         | April, 2024     | embodied                                                       | prompting_and_in_context_learning, finetuning                                                       | qualitative                    | human_agent                   |
 | [Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference](https://arxiv.org/abs/2403.04132)                                                                                            | March, 2024     | text, mixed_objectives                                         | prompting_and_in_context_learning                                                                   | qualitative, human             | human_agent                   |
+| [Evaluate LLMs in real time with Street Fighter III](https://github.com/OpenGenerativeAI/llm-colosseum)                                                                                                | March, 2024     | embodied                                                       | prompting_and_in_context_learning                                                                   | qualitative                    | human_agent                   |
 | [Large language models play starcraft ii: Benchmarks and a chain of summarization approach](https://arxiv.org/abs/2312.11865)                                                                          | December, 2023  | embodied                                                       | prompting_and_in_context_learning, finetuning                                                       | qualitative                    | human_agent                   |
 | [CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents](https://arxiv.org/abs/2310.17512)                                                                            | October, 2023   | competition, text                                              | prompting_and_in_context_learning, two_agents                                                       | rule_based                     | n/a                           |
 | [{CALYPSO}: {LLMs} as Dungeon Masters' Assistants](https://arxiv.org/abs/2308.07540)                                                                                                                   | August, 2023    | text, implicit_objectives                                      | more_than_three_agents, finetuning                                                                  | human                          | human_agent                   |
@@ -102,9 +103,9 @@
 | [Social Simulacra: Creating Populated Prototypes for Social Computing Systems](https://doi.org/10.1145/3526113.3545616)                                                                                | August, 2022    | text, implicit_objectives                                      | more_than_three_agents                                                                              | human                          | policy                        |
 
 ### Basic Stats
-Total number of papers: 100
+Total number of papers: 101
 #### Subsections
-environments/language: 29
+environments/language: 30
 environments/robotics: 12
 modeling/in-context-learning: 8
 modeling/finetuning: 7

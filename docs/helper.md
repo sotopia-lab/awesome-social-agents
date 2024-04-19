@@ -8,6 +8,8 @@
 
 [March, 2024] [Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference](https://arxiv.org/abs/2403.04132), Wei-Lin Chiang et al., arXiv preprint arXiv:2403.04132
 
+[March, 2024] [Evaluate LLMs in real time with Street Fighter III](https://github.com/OpenGenerativeAI/llm-colosseum), OpenGenerativeAI team et al., n/a
+
 [December, 2023] [Large language models play starcraft ii: Benchmarks and a chain of summarization approach](https://arxiv.org/abs/2312.11865), Weiyu Ma et al., arXiv preprint arXiv:2312.11865
 
 [October, 2023] [CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents](https://arxiv.org/abs/2310.17512), Qinlin Zhao et al., arXiv
