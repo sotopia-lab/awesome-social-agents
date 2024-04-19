@@ -221,21 +221,21 @@ May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigatio
 ### Interactions with humans
 
 #### Human-Chatbot Interaction
-[May, 2024] [" It's the only thing I can trust": Envisioning Large Language Model Use by Autistic Workers for Communication Assistance](https://arxiv.org/pdf/2403.03297.pdf), JiWoong Jang et al., arXiv preprint arXiv:2403.03297
+[April, 2023] [Collaborating with a Text-Based Chatbot: An Exploration of Real-World Collaboration Strategies Enacted during Human-Chatbot Interactions](https://dl.acm.org/doi/pdf/10.1145/3544548.3580995), Amon Rapp et al., Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
 
 [March, 2024] [AI Comes Out of the Closet: Using AI-Generated Virtual Characters to Help Individuals Practice LGBTQIA+ Advocacy](https://dl.acm.org/doi/pdf/10.1145/3640543.3645213), Daniel Pillis et al., Proceedings of the 29th International Conference on Intelligent User Interfaces
 
-[March, 2024] [Take It, Leave It, or Fix It: Measuring Productivity and Trust in Human-AI Collaboration](https://dl.acm.org/doi/pdf/10.1145/3640543.3645198), Crystal Qian et al., Proceedings of the 29th International Conference on Intelligent User Interfaces
-
-[May, 2023] [The Effects of Engaging and Affective Behaviors of Virtual Agents in Group Decision-Making](https://arxiv.org/pdf/2308.10385.pdf), Hanseob Kim et al., Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
-
-[April, 2023] [Collaborating with a Text-Based Chatbot: An Exploration of Real-World Collaboration Strategies Enacted during Human-Chatbot Interactions](https://dl.acm.org/doi/pdf/10.1145/3544548.3580995), Amon Rapp et al., Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
-
 [April, 2023] [Exploring effects of chatbot-based social contact on reducing mental illness stigma](https://dl.acm.org/doi/pdf/10.1145/3544548.3581384), Yi-Chieh Lee et al., Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+
+[May, 2024] [" It's the only thing I can trust": Envisioning Large Language Model Use by Autistic Workers for Communication Assistance](https://arxiv.org/pdf/2403.03297.pdf), JiWoong Jang et al., Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+
+[April, 2022] [User perceptions of extraversion in chatbots after repeated use](https://dl.acm.org/doi/pdf/10.1145/3491102.3502058), Sarah Theres V{\"o}lkel et al., Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
 
 [September, 2022] [Interacting with a chatbot-based advising system: Understanding the effect of chatbot personality and user gender on behavior](https://www.mdpi.com/2227-9709/9/4/81), Mohammad Amin Kuhail et al., Informatics
 
-[April, 2022] [User perceptions of extraversion in chatbots after repeated use](https://dl.acm.org/doi/pdf/10.1145/3491102.3502058), Sarah Theres V{\"o}lkel et al., Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+[May, 2023] [The Effects of Engaging and Affective Behaviors of Virtual Agents in Group Decision-Making](https://arxiv.org/pdf/2308.10385.pdf), Hanseob Kim et al., Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+
+[March, 2024] [Take It, Leave It, or Fix It: Measuring Productivity and Trust in Human-AI Collaboration](https://dl.acm.org/doi/pdf/10.1145/3640543.3645198), Crystal Qian et al., Proceedings of the 29th International Conference on Intelligent User Interfaces
 
 #### Human-Embodied Agent Interaction
 
