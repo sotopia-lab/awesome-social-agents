@@ -128,6 +128,28 @@
 
 [May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigation](https://openreview.net/forum?id=oLc9sGOBbc), Hiroki Furuta et al., ICLR 2023 Workshop on Mathematical and Empirical Understanding of Foundation Models
 
+### modeling/reinforcement-learning
+
+[March, 2024] [SOTOPIA-$\pi$: Interactive Learning of Socially Intelligent Language Agents](https://arxiv.org/abs/2403.08715), Ruiyi Wang et al., arXiv
+
+[March, 2024] [TacticAI: an AI assistant for football tactics](https://doi.org/10.1038/s41467-024-45965-x), Zhe Wang et al., Nature Communications
+
+[March, 2023] [Computational Language Acquisition with Theory of Mind](https://arxiv.org/abs/2303.01502), Andy Liu et al., arXiv
+
+[July, 2022] [Language Learning from Communicative Goals and Linguistic Input](https://escholarship.org/uc/item/7p65n371), Hao Zhu et al., Proceedings of the Annual Meeting of the Cognitive Science Society
+
+[April, 2022] [Language games meet multi-agent reinforcement learning: A case study for the naming game](https://academic.oup.com/jole/article/7/2/213/7128304), Paul Van Eecke et al., Journal of Language Evolution
+
+[November, 2019] [{EGG}: a toolkit for research on Emergence of lan{G}uage in Games](https://aclanthology.org/D19-3010), Kharitonov et al., Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP): System Demonstrations
+
+[October, 2018] [Real-Time Bidding with Multi-Agent Reinforcement Learning in Display Advertising](https://doi.org/10.1145/3269206.3272021), Junqi Jin et al., Proceedings of the 27th ACM International Conference on Information and Knowledge Management
+
+[February, 2018] [Emergent Communication through Negotiation](https://openreview.net/forum?id=Hk6WhagRW), Kris Cao et al., International Conference on Learning Representations
+
+[April, 2017] [Mastering the game of go without human knowledge](https://www.nature.com/articles/nature24270), David Silver et al., nature
+
+[January, 2016] [Mastering the game of Go with deep neural networks and tree search](https://www.nature.com/articles/nature16961), David Silver et al., nature
+
 ### evaluation/language
 
 [October, 2024] [SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents](https://openreview.net/forum?id=mM7VurbA4r), Xuhui Zhou et al., ICLR
@@ -172,11 +194,32 @@
 
 ### evaluation/embodied
 
+[December, 2024] [How much can change in a year? Revisiting Evaluation in Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2312.08463), Siddarth Singh et al., arXiv
+
 [March, 2024] [Embodied LLM Agents Learn to Cooperate in Organized Teams](https://arxiv.org/abs/2403.12482), Xudong Guo et al., arXiv
 
 [December, 2022] [Don{'}t Copy the Teacher: Data and Model Challenges in Embodied Dialogue](https://aclanthology.org/2022.emnlp-main.635), Min et al., Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing
 
 [January, 2021] [Evaluating the Robustness of Collaborative Agents](https://dl.acm.org/doi/abs/10.5555/3463952.3464159), Paul Knott et al., Proceedings of the 20th International Conference on Autonomous Agents and MultiAgent Systems
+
+[September, 2022] [{Dialog Acts for Task-Driven Embodied Agents}](https://aclanthology.org/2022.sigdial-1.13), Spandana Gella et al., Proceedings of the 23nd Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDial)
+
+[June, 2022] [Analysis of Dialogue in Human-Human Collaboration in {M}inecraft](https://aclanthology.org/2022.lrec-1.431), Ichikawa et al., Proceedings of the Thirteenth Language Resources and Evaluation Conference
+
+[February, 2022] [{TEACh: Task-driven Embodied Agents that Chat}](https://arxiv.org/abs/2110.00534), Aishwarya Padmakumar et al., Proceedings of the AAAI Conference on Artificial Intelligence
+
+[November, 2021] [{M}ind{C}raft: Theory of Mind Modeling for Situated Dialogue in Collaborative Tasks](https://aclanthology.org/2021.emnlp-main.85), Bara et al., Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing
+
+[July, 2021] [Scalable evaluation of multi-agent reinforcement learning with melting pot](https://proceedings.mlr.press/v139/leibo21a.html), Joel Z Leibo et al., International conference on machine learning
+
+[November, 2020] [A Cordial Sync: Going Beyond Marginal Policies For Multi-Agent Embodied Tasks](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500460.pdf), Unnat Jain et al., ECCV
+
+[July, 2019] [Collaborative Dialogue in {M}inecraft](https://aclanthology.org/P19-1537), Narayan-Chen et al., Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics
+
+[June, 2019] [Two Body Problem: Collaborative Visual Task Completion](https://openaccess.thecvf.com/content_CVPR_2019/papers/Jain_Two_Body_Problem_Collaborative_Visual_Task_Completion_CVPR_2019_paper.pdf), Unnat Jain et al., CVPR
+
+[May, 2016] [Evaluation of starcraft artificial intelligence competition bots by experienced human players](https://dl.acm.org/doi/pdf/10.1145/2851581.2892305), Man-Je Kim et al., Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems
+
 
 ### evaluation/robotics
 

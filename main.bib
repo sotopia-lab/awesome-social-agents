@@ -1050,6 +1050,185 @@ url={https://openreview.net/forum?id=4znwzG92CE},
   author = {specical entry},
 }
 
+@article{van2022language,
+  title={Language games meet multi-agent reinforcement learning: A case study for the naming game},
+  author={Van Eecke, Paul and Beuls, Katrien and Botoko Ekila, J{\'e}r{\^o}me and R{\u{a}}dulescu, Roxana},
+  journal={Journal of Language Evolution},
+  volume={7},
+  number={2},
+  pages={213--223},
+  month={4},
+  year={2022},
+  url={https://academic.oup.com/jole/article/7/2/213/7128304},
+  publisher={Oxford University Press UK},
+  environments={collaboration, competition, mixed_objectives},
+  agents={reinforcement_learning, two_agents},
+  evaluation={rule_based},
+  other={n/a}
+}
+
+@inproceedings{zhu2022language,
+  title={Language Learning from Communicative Goals and Linguistic Input},
+  author={Zhu, Hao and Bisk, Yonatan and Neubig, Graham},
+  booktitle={Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={44},
+  number={44},
+  year={2022},
+  month={7},
+  url={https://escholarship.org/uc/item/7p65n371},
+  environments={collaboration, virtual},
+  agents={reinforcement_learning, two_agents},
+  evaluation={rule_based},
+  other={simulated_humans}
+}
+
+@misc{wang2024sotopiapi,
+      title={SOTOPIA-$\pi$: Interactive Learning of Socially Intelligent Language Agents}, 
+      author={Ruiyi Wang and Haofei Yu and Wenxin Zhang and Zhengyang Qi and Maarten Sap and Graham Neubig and Yonatan Bisk and Hao Zhu},
+      year={2024},
+      eprint={2403.08715},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      environments = {collaboration, competition, mixed_objectives, text},
+      agents = {reinforcement_learning, two_agents},
+      evaluation = {rule_based, human, model_based},
+      other = {simulated_humans},
+      url = {https://arxiv.org/abs/2403.08715}
+}
+
+@misc{liu2023computational,
+      title={Computational Language Acquisition with Theory of Mind}, 
+      author={Andy Liu and Hao Zhu and Emmy Liu and Yonatan Bisk and Graham Neubig},
+      year={2023},
+      eprint={2303.01502},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      environments = {collaboration, virtual},
+      agents = {reinforcement_learning, two_agents},
+      evaluation = {rule_based},
+      other = {simulated_humans},
+      url = {https://arxiv.org/abs/2303.01502}
+}
+
+
+@article{zhe2024indentifying,
+	abstract = {Identifying key patterns of tactics implemented by rival teams, and developing effective responses, lies at the heart of modern football. However, doing so algorithmically remains an open research challenge. To address this unmet need, we propose TacticAI, an AI football tactics assistant developed and evaluated in close collaboration with domain experts from Liverpool FC. We focus on analysing corner kicks, as they offer coaches the most direct opportunities for interventions and improvements. TacticAI incorporates both a predictive and a generative component, allowing the coaches to effectively sample and explore alternative player setups for each corner kick routine and to select those with the highest predicted likelihood of success. We validate TacticAI on a number of relevant benchmark tasks: predicting receivers and shot attempts and recommending player position adjustments. The utility of TacticAI is validated by a qualitative study conducted with football domain experts at Liverpool FC. We show that TacticAI's model suggestions are not only indistinguishable from real tactics, but also favoured over existing tactics 90{\%} of the time, and that TacticAI offers an effective corner kick retrieval system. TacticAI achieves these results despite the limited availability of gold-standard data, achieving data efficiency through geometric deep learning.},
+	author = {Wang, Zhe and Veli{\v c}kovi{\'c}, Petar and Hennes, Daniel and Toma{\v s}ev, Nenad and Prince, Laurel and Kaisers, Michael and Bachrach, Yoram and Elie, Romuald and Wenliang, Li Kevin and Piccinini, Federico and Spearman, William and Graham, Ian and Connor, Jerome and Yang, Yi and Recasens, Adri{\`a} and Khan, Mina and Beauguerlange, Nathalie and Sprechmann, Pablo and Moreno, Pol and Heess, Nicolas and Bowling, Michael and Hassabis, Demis and Tuyls, Karl},
+	date = {2024/03/19},
+	date-added = {2024-04-19 16:43:21 -0400},
+	date-modified = {2024-04-19 16:43:21 -0400},
+	doi = {10.1038/s41467-024-45965-x},
+	id = {Wang2024},
+	isbn = {2041-1723},
+	journal = {Nature Communications},
+	number = {1},
+	pages = {1906},
+	title = {TacticAI: an AI assistant for football tactics},
+	url = {https://doi.org/10.1038/s41467-024-45965-x},
+	volume = {15},
+	year = {2024},
+  month={3},
+  environments = {virtual, collaboration, competition, mixed_objectives},
+  agents = {reinforcement_learning, agent_teams},
+  evaluation = {rule_based},
+  other = {n/a},
+	bdsk-url-1 = {https://doi.org/10.1038/s41467-024-45965-x}
+}
+
+@article{silver2017mastering,
+  title={Mastering the game of go without human knowledge},
+  author={Silver, David and Schrittwieser, Julian and Simonyan, Karen and Antonoglou, Ioannis and Huang, Aja and Guez, Arthur and Hubert, Thomas and Baker, Lucas and Lai, Matthew and Bolton, Adrian and others},
+  journal={nature},
+  volume={550},
+  number={7676},
+  pages={354--359},
+  year={2017},
+  publisher={Nature Publishing Group},
+  month={4},
+  url={https://www.nature.com/articles/nature24270},
+  environments = {competition, virtual},
+  agents = {reinforcement_learning},
+  evaluation = {rule_based},
+  other = {human_agent},
+}
+
+@article{silver2016mastering,
+  title={Mastering the game of Go with deep neural networks and tree search},
+  author={Silver, David and Huang, Aja and Maddison, Chris J and Guez, Arthur and Sifre, Laurent and Van Den Driessche, George and Schrittwieser, Julian and Antonoglou, Ioannis and Panneershelvam, Veda and Lanctot, Marc and others},
+  journal={nature},
+  volume={529},
+  number={7587},
+  pages={484--489},
+  year={2016},
+  publisher={Nature Publishing Group},
+  month={1},
+  url={https://www.nature.com/articles/nature16961},
+  environments = {competition, virtual},
+  agents = {reinforcement_learning},
+  evaluation = {rule_based},
+  other = {human_agent},
+}
+
+@inproceedings{kharitonov-etal-2019-egg,
+    title = "{EGG}: a toolkit for research on Emergence of lan{G}uage in Games",
+    author = "Kharitonov, Eugene  and
+      Chaabouni, Rahma  and
+      Bouchacourt, Diane  and
+      Baroni, Marco",
+    editor = "Pad{\'o}, Sebastian  and
+      Huang, Ruihong",
+    booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP): System Demonstrations",
+    month = nov,
+    year = "2019",
+    address = "Hong Kong, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/D19-3010",
+    doi = "10.18653/v1/D19-3010",
+    pages = "55--60",
+    abstract = "There is renewed interest in simulating language emergence among deep neural agents that communicate to jointly solve a task, spurred by the practical aim to develop language-enabled interactive AIs, as well as by theoretical questions about the evolution of human language. However, optimizing deep architectures connected by a discrete communication channel (such as that in which language emerges) is technically challenging. We introduce EGG, a toolkit that greatly simplifies the implementation of emergent-language communication games. EGG{'}s modular design provides a set of building blocks that the user can combine to create new games, easily navigating the optimization and architecture space. We hope that the tool will lower the technical barrier, and encourage researchers from various backgrounds to do original work in this exciting area.",
+    environments = {collaboration, text},
+    agents = {reinforcement_learning, two_agents},
+    evaluation = {rule_based},
+    other = {n/a}
+}
+
+@inproceedings{ cao2018emergent,
+  title={Emergent Communication through Negotiation},
+  author={Kris Cao and Angeliki Lazaridou and Marc Lanctot and Joel Z Leibo and Karl Tuyls and Stephen Clark},
+  booktitle={International Conference on Learning Representations},
+  year={2018},
+  url={https://openreview.net/forum?id=Hk6WhagRW},
+  month={2},
+  environments = {mixed_objectives, text},
+  agents = {reinforcement_learning, two_agents},
+  evaluation = {rule_based},
+  other = {n/a}
+}
+
+@inproceedings{10.1145/3269206.3272021,
+  author = {Jin, Junqi and Song, Chengru and Li, Han and Gai, Kun and Wang, Jun and Zhang, Weinan},
+  title = {Real-Time Bidding with Multi-Agent Reinforcement Learning in Display Advertising},
+  year = {2018},
+  isbn = {9781450360142},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3269206.3272021},
+  doi = {10.1145/3269206.3272021},
+  abstract = {Real-time advertising allows advertisers to bid for each impression for a visiting user. To optimize specific goals such as maximizing revenue and return on investment (ROI) led by ad placements, advertisers not only need to estimate the relevance between the ads and user's interests, but most importantly require a strategic response with respect to other advertisers bidding in the market. In this paper, we formulate bidding optimization with multi-agent reinforcement learning. To deal with a large number of advertisers, we propose a clustering method and assign each cluster with a strategic bidding agent. A practical Distributed Coordinated Multi-Agent Bidding (DCMAB) has been proposed and implemented to balance the tradeoff between the competition and cooperation among advertisers. The empirical study on our industry-scaled real-world data has demonstrated the effectiveness of our methods. Our results show cluster-based bidding would largely outperform single-agent and bandit approaches, and the coordinated bidding achieves better overall objectives than purely self-interested bidding agents.},
+  booktitle = {Proceedings of the 27th ACM International Conference on Information and Knowledge Management},
+  pages = {2193–2201},
+  numpages = {9},
+  keywords = {real-time bidding, multi-agent reinforcement learning, display advertising, bid optimization},
+  location = {Torino, Italy},
+  series = {CIKM '18},
+  month = oct,
+  environments = {competition, virtual},
+  agents = {reinforcement_learning, more_than_three_agents},
+  evaluation = {rule_based},
+  other = {n/a}
+}
+
+
 ### Evaluating social agents
 
 #### Evaluating text social agents
@@ -1059,16 +1238,16 @@ url={https://openreview.net/forum?id=4znwzG92CE},
 }
 
 @inproceedings{zhou2024sotopia,
-title={SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents},
-author={Xuhui Zhou and Hao Zhu and Leena Mathur and Ruohong Zhang and Haofei Yu and Zhengyang Qi and Louis-Philippe Morency and Yonatan Bisk and Daniel Fried and Graham Neubig and Maarten Sap},
-booktitle={ICLR},
-environments = {mixed_objectives, text},
-agents = {prompting_and_in_context_learning, two_agents},
-evaluation = {model_based, human},
-other = {human_agent},
-year={2024},
-month = {10},
-url={https://openreview.net/forum?id=mM7VurbA4r}
+  title={SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents},
+  author={Xuhui Zhou and Hao Zhu and Leena Mathur and Ruohong Zhang and Haofei Yu and Zhengyang Qi and Louis-Philippe Morency and Yonatan Bisk and Daniel Fried and Graham Neubig and Maarten Sap},
+  booktitle={ICLR},
+  environments = {mixed_objectives, text},
+  agents = {prompting_and_in_context_learning, two_agents},
+  evaluation = {model_based, human},
+  other = {human_agent},
+  year={2024},
+  month = {10},
+  url={https://openreview.net/forum?id=mM7VurbA4r}
 }
 
 @misc{chen2024roleinteract,
@@ -1455,6 +1634,7 @@ url={https://openreview.net/forum?id=mM7VurbA4r}
 }
 
 
+
 @article{10.1145/3476413,
 author = {Biswas, Abhijat and Wang, Allan and Silvera, Gustavo and Steinfeld, Aaron and Admoni, Henny},
 title = {SocNavBench: A Grounded Simulation Testing Framework for Evaluating Social Navigation},
@@ -1505,6 +1685,181 @@ series = {AAMAS '21},
 
 
 
+
+=======
+@misc{singh2024change,
+      title={How much can change in a year? Revisiting Evaluation in Multi-Agent Reinforcement Learning}, 
+      author={Siddarth Singh and Omayma Mahjoub and Ruan de Kock and Wiem Khlifi and Abidine Vall and Kale-ab Tessera and Arnu Pretorius},
+      year={2024},
+      eprint={2312.08463},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      environments = {collaboration, embodied},
+      agents = {reinforcement_learning, more_than_three_agents},
+      evaluation = {rule_based},
+      other = {n/a},
+      url = {https://arxiv.org/abs/2312.08463}
+}
+
+@inproceedings{leibo2021scalable,
+  title={Scalable evaluation of multi-agent reinforcement learning with melting pot},
+  author={Leibo, Joel Z and Due{\~n}ez-Guzman, Edgar A and Vezhnevets, Alexander and Agapiou, John P and Sunehag, Peter and Koster, Raphael and Matyas, Jayd and Beattie, Charlie and Mordatch, Igor and Graepel, Thore},
+  booktitle={International conference on machine learning},
+  pages={6187--6199},
+  year={2021},
+  organization={PMLR},
+  environments = {collaboration, competition, mixed_objectives, embodied},
+  agents = {reinforcement_learning, more_than_three_agents},
+  evaluation = {rule_based},
+  other = {n/a},
+  month = {7},
+  url={https://proceedings.mlr.press/v139/leibo21a.html}
+}
+
+@inproceedings{bara-etal-2021-mindcraft,
+    title = "{M}ind{C}raft: Theory of Mind Modeling for Situated Dialogue in Collaborative Tasks",
+    author = "Bara, Cristian-Paul  and
+      CH-Wang, Sky  and
+      Chai, Joyce",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.85",
+    pages = "1112--1125",
+    abstract = "An ideal integration of autonomous agents in a human world implies that they are able to collaborate on human terms. In particular, theory of mind plays an important role in maintaining common ground during human collaboration and communication. To enable theory of mind modeling in situated interactions, we introduce a fine-grained dataset of collaborative tasks performed by pairs of human subjects in the 3D virtual blocks world of Minecraft. It provides information that captures partners{'} beliefs of the world and of each other as an interaction unfolds, bringing abundant opportunities to study human collaborative behaviors in situated language communication. As a first step towards our goal of developing embodied AI agents able to infer belief states of collaborative partners in situ, we build and present results on computational models for several theory of mind tasks.",
+    environments = {collaboration, embodied},
+    agents = {finetuning, two_agents},
+    evaluation = {human, rule_based},
+    other = {human_agent}
+}
+
+@inproceedings{narayan-chen-etal-2019-collaborative,
+    title = "Collaborative Dialogue in {M}inecraft",
+    author = "Narayan-Chen, Anjali  and
+      Jayannavar, Prashant  and
+      Hockenmaier, Julia",
+    editor = "Korhonen, Anna  and
+      Traum, David  and
+      M{\`a}rquez, Llu{\'\i}s",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P19-1537",
+    doi = "10.18653/v1/P19-1537",
+    pages = "5405--5415",
+    abstract = "We wish to develop interactive agents that can communicate with humans to collaboratively solve tasks in grounded scenarios. Since computer games allow us to simulate such tasks without the need for physical robots, we define a Minecraft-based collaborative building task in which one player (A, the Architect) is shown a target structure and needs to instruct the other player (B, the Builder) to build this structure. Both players interact via a chat interface. A can observe B but cannot place blocks. We present the Minecraft Dialogue Corpus, a collection of 509 conversations and game logs. As a first step towards our goal of developing fully interactive agents for this task, we consider the subtask of Architect utterance generation, and show how challenging it is.",
+    environments = {collaboration, embodied},
+    agents = {two_agents},
+    evaluation = {human, rule_based},
+    other = {human_agent}
+}
+
+@inproceedings{ichikawa-higashinaka-2022-analysis,
+    title = "Analysis of Dialogue in Human-Human Collaboration in {M}inecraft",
+    author = "Ichikawa, Takuma  and
+      Higashinaka, Ryuichiro",
+    editor = "Calzolari, Nicoletta  and
+      B{\'e}chet, Fr{\'e}d{\'e}ric  and
+      Blache, Philippe  and
+      Choukri, Khalid  and
+      Cieri, Christopher  and
+      Declerck, Thierry  and
+      Goggi, Sara  and
+      Isahara, Hitoshi  and
+      Maegaard, Bente  and
+      Mariani, Joseph  and
+      Mazo, H{\'e}l{\`e}ne  and
+      Odijk, Jan  and
+      Piperidis, Stelios",
+    booktitle = "Proceedings of the Thirteenth Language Resources and Evaluation Conference",
+    month = jun,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2022.lrec-1.431",
+    pages = "4051--4059",
+    abstract = "Recently, many studies have focused on developing dialogue systems that enable collaborative work; however, they rarely focus on creative tasks. Collaboration for creative work, in which humans and systems collaborate to create new value, will be essential for future dialogue systems. In this study, we collected 500 dialogues of human-human collaboration in Minecraft as a basis for developing a dialogue system that enables creative collaborative work. We conceived the Collaborative Garden Task, where two workers interact and collaborate in Minecraft to create a garden, and we collected dialogue, action logs, and subjective evaluations. We also collected third-person evaluations of the gardens and analyzed the relationship between dialogue and collaborative work that received high scores on the subjective and third-person evaluations in order to identify dialogic factors for high-quality collaborative work. We found that two essential aspects in creative collaborative work are performing more processes to ask for and agree on suggestions between workers and agreeing on a particular image of the final product in the early phase of work and then discussing changes and details.",
+    environments = {collaboration, embodied},
+    agents = {two_agents},
+    evaluation = {human, rule_based},
+    other = {human_agent}
+}
+
+@InProceedings{CordialSync,
+  author = {Jain, Unnat and Weihs, Luca and Kolve, Eric and Farhadi, Ali and Lazebnik, Svetlana and Kembhavi, Aniruddha and Schwing, Alexander G.},
+  title = {A Cordial Sync: Going Beyond Marginal Policies For Multi-Agent Embodied Tasks},
+  booktitle = {ECCV},
+  year = {2020},
+  month={11},
+  note = {first two authors contributed equally},
+  environments = {collaboration, embodied},
+  agents = {finetuning, reinforcement_learning, two_agents},
+  evaluation = {rule_based},
+  other = {n/a},
+  url = {https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500460.pdf},
+}
+
+@InProceedings{TwoBody,
+  author = {Jain, Unnat and Weihs, Luca and Kolve, Eric and Rastegari, Mohammad and Lazebnik, Svetlana and Farhadi, Ali and Schwing, Alexander G. and Kembhavi, Aniruddha},
+  title = {Two Body Problem: Collaborative Visual Task Completion},
+  booktitle = {CVPR},
+  year = {2019},
+  month = {6},
+  note = {first two authors contributed equally},
+  environments = {collaboration, embodied},
+  agents = {finetuning, reinforcement_learning, two_agents},
+  evaluation = {rule_based},
+  other = {n/a},
+  url = {https://openaccess.thecvf.com/content_CVPR_2019/papers/Jain_Two_Body_Problem_Collaborative_Visual_Task_Completion_CVPR_2019_paper.pdf},
+}
+
+@inproceedings{teach,
+  title={{TEACh: Task-driven Embodied Agents that Chat}},
+  author={Padmakumar, Aishwarya and Thomason, Jesse and Shrivastava, Ayush and Lange, Patrick and Narayan-Chen, Anjali and Gella, Spandana and Piramuthu, Robinson and Tur, Gokhan and Hakkani-Tur, Dilek},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={36},
+  number={2},
+  pages={2017--2025},
+  year={2022},
+  month={2},
+  environments = {collaboration, embodied},
+  agents = {finetuning, two_agents},
+  evaluation = {rule_based},
+  other = {human_agent},
+  url = {https://arxiv.org/abs/2110.00534}
+}
+
+@inproceedings{teachda,
+  title={{Dialog Acts for Task-Driven Embodied Agents}},
+  author={Gella, Spandana and Padmakumar, Aishwarya and Lange, Patrick and Hakkani-Tur, Dilek},
+  booktitle={Proceedings of the 23nd Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDial)},
+  year={2022},
+  pages={111-123},
+  month={9},
+  environments = {collaboration, embodied},
+  agents = {finetuning, two_agents},
+  evaluation = {rule_based},
+  other = {human_agent},
+  url = {https://aclanthology.org/2022.sigdial-1.13},
+}
+
+@inproceedings{kim2016evaluation,
+  title={Evaluation of starcraft artificial intelligence competition bots by experienced human players},
+  author={Kim, Man-Je and Kim, Kyung-Joong and Kim, SeungJun and Dey, Anind K},
+  booktitle={Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems},
+  pages={1915--1921},
+  year={2016},
+  month={5},
+  environments = {collaboration, competition, mixed_objectives, embodied},
+  agents = {more_than_three_agents},
+  evaluation = {human, rule_based},
+  other = {human_agent},
+  url = {https://dl.acm.org/doi/pdf/10.1145/2851581.2892305},
+}
 
 
 #### Evaluating virtual social agents
