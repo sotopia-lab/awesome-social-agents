@@ -200,8 +200,6 @@
 
 [December, 2022] [Don{'}t Copy the Teacher: Data and Model Challenges in Embodied Dialogue](https://aclanthology.org/2022.emnlp-main.635), Min et al., Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing
 
-[January, 2021] [Evaluating the Robustness of Collaborative Agents](https://dl.acm.org/doi/abs/10.5555/3463952.3464159), Paul Knott et al., Proceedings of the 20th International Conference on Autonomous Agents and MultiAgent Systems
-
 [September, 2022] [{Dialog Acts for Task-Driven Embodied Agents}](https://aclanthology.org/2022.sigdial-1.13), Spandana Gella et al., Proceedings of the 23nd Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDial)
 
 [June, 2022] [Analysis of Dialogue in Human-Human Collaboration in {M}inecraft](https://aclanthology.org/2022.lrec-1.431), Ichikawa et al., Proceedings of the Thirteenth Language Resources and Evaluation Conference
@@ -212,6 +210,8 @@
 
 [July, 2021] [Scalable evaluation of multi-agent reinforcement learning with melting pot](https://proceedings.mlr.press/v139/leibo21a.html), Joel Z Leibo et al., International conference on machine learning
 
+[January, 2021] [Evaluating the Robustness of Collaborative Agents](https://dl.acm.org/doi/abs/10.5555/3463952.3464159), Paul Knott et al., Proceedings of the 20th International Conference on Autonomous Agents and MultiAgent Systems
+
 [November, 2020] [A Cordial Sync: Going Beyond Marginal Policies For Multi-Agent Embodied Tasks](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500460.pdf), Unnat Jain et al., ECCV
 
 [July, 2019] [Collaborative Dialogue in {M}inecraft](https://aclanthology.org/P19-1537), Narayan-Chen et al., Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics
@@ -219,7 +219,6 @@
 [June, 2019] [Two Body Problem: Collaborative Visual Task Completion](https://openaccess.thecvf.com/content_CVPR_2019/papers/Jain_Two_Body_Problem_Collaborative_Visual_Task_Completion_CVPR_2019_paper.pdf), Unnat Jain et al., CVPR
 
 [May, 2016] [Evaluation of starcraft artificial intelligence competition bots by experienced human players](https://dl.acm.org/doi/pdf/10.1145/2851581.2892305), Man-Je Kim et al., Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems
-
 
 ### evaluation/robotics
 
