@@ -6,6 +6,7 @@ import pandas as pd # type: ignore
 import re
 from pprint import pprint
 from collections import Counter
+from itertools import groupby
 
 # environments:
 # collaboration, competition, mixed_objectives, implicit_objectives,
@@ -157,7 +158,7 @@ def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> None:
         raise ValueError(f"Venue field is missing for the paper: {entry['title']}")
 
     entry["title_w_url"] = f"[{entry['title']}]({entry['url']})"
-    entry["date"] = f"{entry['month']}, {entry['year']}" if "month" in entry else entry["year"]
+    entry["date"] = f"{entry['month']}, {entry['year']}"
 
     # Add taxonomy tags
     for category, subcategories in taxonomy.items():
@@ -168,6 +169,14 @@ def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> None:
         for subcategory in subcategory_list:
             if subcategory not in subcategories:
                 raise ValueError(f"For paper {entry['title']}, {subcategory} is not a valid {category}, please choose from {subcategories}")
+
+def order_entries_by_date(entries: list[dict]) -> list[dict]:
+    """Sort the entries by date within the same subsection."""
+    sorted_entries = []
+    for _, group in groupby(entries, key=lambda x: x["subsection"]):
+        group_sorted = sorted(group, key=lambda x: datetime.datetime.strptime(x["date"], "%B, %Y"), reverse=True)
+        sorted_entries.extend(group_sorted)
+    return sorted_entries
 
 def bibtex_to_table(bibtex: str, taxonomy: dict[str, list[str]]) -> tuple[str, str]:
     entries = extract_bibtex_entries(bibtex)
@@ -180,8 +189,13 @@ def bibtex_to_table(bibtex: str, taxonomy: dict[str, list[str]]) -> tuple[str, s
     helper_headers = ["helper"]
     rows = []
     helper_rows = []
-    for entry in entries:
+    ordered_entries = order_entries_by_date(entries)
+    subsection_name = ""
+    for entry in ordered_entries:
         row = [entry["title_w_url"], entry["date"]]+[entry[category] for category in taxonomy.keys()]
+        if entry["subsection"] != subsection_name:
+            subsection_name = entry["subsection"]
+            helper_rows.append(f"### {subsection_name}")
         helper_rows.append(f"[{row[1]}] {row[0]}, {entry['author_et_al']}, {entry['venue']}")
         rows.append(row)
     
