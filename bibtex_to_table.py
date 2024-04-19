@@ -6,6 +6,7 @@ import pandas as pd # type: ignore
 import re
 from pprint import pprint
 from collections import Counter
+from itertools import groupby
 
 # environments:
 # collaboration, competition, mixed_objectives, implicit_objectives,
@@ -55,10 +56,15 @@ def extract_bibtex_entries(bibtex: str) -> list[dict[str, str]]:
     
     # Convert BibTeX entries to a list of dictionaries
     entries = []
+    subsection = ""
     for entry in bib_database.entries:
+        if entry['author'] == 'specical entry':
+            subsection = entry['ID']
+            continue
         entry_dict = {}
         for field, value in entry.items():
             entry_dict[field] = value
+        entry_dict["subsection"] = subsection
         entries.append(entry_dict)
     return entries
 
@@ -67,7 +73,7 @@ def parse_markdown_file(file_path: str) -> dict[str, list[str]]:
     return TAXONOMY
 
 
-def basic_stats(entries: list[dict]) -> str:
+def basic_stats_for_tags(entries: list[dict]) -> str:
     print(f"Total number of papers: {len(entries)}")
     environments_list = ['text', 'virtual', 'embodied', 'robotics']
     agents_list = ['prompting_and_in_context_learning', 'finetuning', 'reinforcement_learning']
@@ -89,6 +95,18 @@ def basic_stats(entries: list[dict]) -> str:
     for agent in agents_list:
         markdown_string += f"{agent}: {counter_based_on_agents.get(agent, 0)}\n"
 
+    return markdown_string
+
+
+def basic_stats(entries: list[dict]) -> str:
+    markdown_string = f"### Basic Stats\n"
+    markdown_string += f"Total number of papers: {len(entries)}\n"
+    subsections = [entry["subsection"] for entry in entries]
+    subsection_counter = Counter(subsections)
+    markdown_string += f"#### Subsections\n"
+    for subsection, count in subsection_counter.items():
+        if subsection:
+            markdown_string += f"{subsection}: {count}\n"
     return markdown_string
 
 
@@ -140,7 +158,7 @@ def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> None:
         raise ValueError(f"Venue field is missing for the paper: {entry['title']}")
 
     entry["title_w_url"] = f"[{entry['title']}]({entry['url']})"
-    entry["date"] = f"{entry['month']}, {entry['year']}" if "month" in entry else entry["year"]
+    entry["date"] = f"{entry['month']}, {entry['year']}"
 
     # Add taxonomy tags
     for category, subcategories in taxonomy.items():
@@ -151,6 +169,14 @@ def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> None:
         for subcategory in subcategory_list:
             if subcategory not in subcategories:
                 raise ValueError(f"For paper {entry['title']}, {subcategory} is not a valid {category}, please choose from {subcategories}")
+
+def order_entries_by_date(entries: list[dict]) -> list[dict]:
+    """Sort the entries by date within the same subsection."""
+    sorted_entries = []
+    for _, group in groupby(entries, key=lambda x: x["subsection"]):
+        group_sorted = sorted(group, key=lambda x: datetime.datetime.strptime(x["date"], "%B, %Y"), reverse=True)
+        sorted_entries.extend(group_sorted)
+    return sorted_entries
 
 def bibtex_to_table(bibtex: str, taxonomy: dict[str, list[str]]) -> tuple[str, str]:
     entries = extract_bibtex_entries(bibtex)
@@ -163,8 +189,13 @@ def bibtex_to_table(bibtex: str, taxonomy: dict[str, list[str]]) -> tuple[str, s
     helper_headers = ["helper"]
     rows = []
     helper_rows = []
-    for entry in entries:
+    ordered_entries = order_entries_by_date(entries)
+    subsection_name = ""
+    for entry in ordered_entries:
         row = [entry["title_w_url"], entry["date"]]+[entry[category] for category in taxonomy.keys()]
+        if entry["subsection"] != subsection_name:
+            subsection_name = entry["subsection"]
+            helper_rows.append(f"### {subsection_name}")
         helper_rows.append(f"[{row[1]}] {row[0]}, {entry['author_et_al']}, {entry['venue']}")
         rows.append(row)
     
@@ -206,4 +237,3 @@ print("🎉 Successfully written the Markdown table to", output_file)
 print("🎉 Successfully written the helpers to", helper_file)
 
     
-
