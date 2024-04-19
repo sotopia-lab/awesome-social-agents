@@ -1,13 +1,10 @@
-name: ci 
+name: deploy
 on:
   push:
     branches:
       - master 
       - main
-  pull_request:
-    branches:
-      - "*"
-  
+
 permissions:
   contents: write
 jobs:
@@ -31,4 +28,4 @@ jobs:
       - run: pip install --pre bibtexparser 
       - run: pip install tabulate
       - run: pip install pandas
-      - run: python bibtex_to_table.py
+      - run: mkdocs gh-deploy --force
