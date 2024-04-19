@@ -4,10 +4,7 @@ on:
     branches:
       - master 
       - main
-  pull_request:
-    branches:
-      - "*"
-  
+
 permissions:
   contents: write
 jobs:
