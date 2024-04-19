@@ -86,6 +86,11 @@ This repo supports Python 3.9 and above. In one line, to use a virtual environme
 
 #### Embodied Environments
 
+[October, 2023] [Habitat 3.0: A Co-Habitat for Humans, Avatars and Robots](https://arxiv.org/abs/2310.13724), Puig et al., ICLR
+
+[September, 2020] [SEAN: Social Environment for Autonomous Navigation](https://arxiv.org/pdf/2009.04300.pdf), Tsoi et al., HAI
+
+
 #### Virtual Environments
 
 #### Robotics
@@ -197,7 +202,15 @@ May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigatio
 [July, 2020] [Unsupervised Evaluation of Interactive Dialog with {D}ialo{GPT}](https://aclanthology.org/2020.sigdial-1.28), Mehri et al., Proceedings of the 21th Annual Meeting of the Special Interest Group on Discourse and Dialogue
  
 #### Evaluating embodied social agents
+
 [March, 2024] [Embodied LLM Agents Learn to Cooperate in Organized Teams](https://arxiv.org/abs/2403.12482), Xudong Guo et al., arXiv
+
+[Februrary, 2021] [SocNavBench: A Grounded Simulation Testing Framework for Evaluating Social Navigation](https://arxiv.org/abs/2103.00047) Biswas et al., ACM Transactions on Human-Robot Interaction
+
+[January, 2021] [Evaluating the Robustness of Collaborative Agents](https://arxiv.org/abs/2101.05507) Knott et al., AAMAS '21: Proceedings of the 20th International Conference on Autonomous Agents and MultiAgent Systems
+
+
+
 
 #### Evaluating virtual social agents
 
@@ -223,6 +236,21 @@ May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigatio
 #### Human-Chatbot Interaction
 
 #### Human-Embodied Agent Interaction
+
+[January, 2023] [NOPA: Neurally-guided Online Probabilistic Assistance for Building Socially Intelligent Home Assistants](https://arxiv.org/pdf/2301.05223.pdf), Puig et al.,  ICRA 
+
+[October, 2020] [WATCH-AND-HELP: A CHALLENGE FOR SOCIAL PERCEPTION AND HUMAN-AI COLLABORATION](https://arxiv.org/pdf/2010.09890.pdf), Puig et al., ICLR
+
+[October, 2019] [On the utility of learning about humans for human-ai coordination](https://arxiv.org/pdf/1910.05789.pdf), Carroll et al., Neurips
+
+[May, 2021] [Interaction Flexibility in Artificial Agents Teaming with Human](https://escholarship.org/uc/item/9ks6n70q), Nalepka et al., Proceedings of the Annual Meeting of the Cognitive Science Society
+
+[December, 2023] [LLM-Powered Hierarchical Language Agent for Real-time Human-AI Coordination](https://arxiv.org/abs/2312.15224), Liu et al., arxiv 
+
+[May, 2023] [Adaptive coordination in social embodied rearrangement](https://arxiv.org/abs/2306.00087), Szot et al., ICML
+
+[April, 2023] [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442), Park et al., UIST
+
 
 #### Human Robot Interaction
 
