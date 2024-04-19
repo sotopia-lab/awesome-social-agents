@@ -10,27 +10,20 @@
       other = {n/a},
       eprint={2307.07924},
       archivePrefix={arXiv},
-      primaryClass={cs.SE}
+      primaryClass={cs.SE},
 }
 ## Papers
 ### Surveys and Overview
 
 ### Environments
-@misc{zhao2023competeai,
-      title={CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents}, 
-      author={Qinlin Zhao and Jindong Wang and Yixuan Zhang and Yiqiao Jin and Kaijie Zhu and Hao Chen and Xing Xie},
-      environments = {competition, text},
-      agents = {prompting_and_in_context_learning, two_agents},
-      evaluation = {rule_based},
-      url = {https://arxiv.org/abs/2310.17512},
-      other = {n/a},
-      year={2023},
-      eprint={2310.17512},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI}
-}
 
 #### Text Environments
+
+@article{environments/language,
+  title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
+  author = {specical entry},
+}
+
 @article{Bard_2020,
    title={The Hanabi challenge: A new frontier for AI research},
    volume={280},
@@ -310,13 +303,39 @@
    url={https://arxiv.org/abs/2308.07540}
 }
 
+@misc{zhao2023competeai,
+      title={CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents}, 
+      author={Qinlin Zhao and Jindong Wang and Yixuan Zhang and Yiqiao Jin and Kaijie Zhu and Hao Chen and Xing Xie},
+      environments = {competition, text},
+      agents = {prompting_and_in_context_learning, two_agents},
+      evaluation = {rule_based},
+      url = {https://arxiv.org/abs/2310.17512},
+      other = {n/a},
+      year={2023},
+      eprint={2310.17512},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
 
 #### Virtual Environments
-#### Embodied Environments
+@article{environments/embodied,
+  title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
+  author = {specical entry},
+}
 
+#### Embodied Environments
+@article{environments/virtual,
+  title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
+  author = {specical entry},
+}
 
 
 #### Robotics
+@article{environments/robotics,
+  title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
+  author = {specical entry},
+}
+
 @InProceedings{pmlr-v205-xiong23a,
     title = {RoboTube: Learning Household Manipulation from Human Videos with Simulated Twin Environments},
     author = {Xiong, Haoyu and Fu, Haoyuan and Zhang, Jieyi and Bao, Chen and Zhang, Qiang and Huang, Yongxi and Xu, Wenqiang and Garg, Animesh and Lu, Cewu},
@@ -485,7 +504,6 @@
     number = {2},
     url = {https://doi.org/10.1145/3570169},
     doi = {10.1145/3570169},
-    abstract = {Communication between people is characterized by a broad range of nonverbal cues. Transferring these cues into the design of robots and other artificial agents that interact with people may foster more natural, inviting, and accessible experiences. In this article, we offer a series of definitive nonverbal codes for human–robot interaction (HRI) that address the five human sensory systems (visual, auditory, haptic, olfactory, and gustatory) drawn from the field of communication studies. We discuss how these codes can be translated into design patterns for HRI using a curated sample of the communication studies and HRI literatures. As nonverbal codes are an essential mode in human communication, we argue that integrating robotic nonverbal codes in HRI will afford robots a feeling of “aliveness” or “social agency” that would otherwise be missing. We end with suggestions for research directions to stimulate work on nonverbal communication within the field of HRI and improve communication between people and robots.},
     journal = {J. Hum.-Robot Interact.},
     month = {3},
     articleno = {22},
@@ -523,14 +541,246 @@
 ### Modeling
 
 #### In-context Learning
+@article{modeling/in-context-learning,
+  title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
+  author = {specical entry},
+}
 
+@misc{wang2023voyager,
+    title={Voyager: An Open-Ended Embodied Agent with Large Language Models}, 
+    author={Guanzhi Wang and Yuqi Xie and Yunfan Jiang and Ajay Mandlekar and Chaowei Xiao and Yuke Zhu and Linxi Fan and Anima Anandkumar},
+    year={2023},
+    month={5},
+    url={https://arxiv.org/abs/2305.16291},
+    eprint={2305.16291},
+    archivePrefix={arXiv},
+    primaryClass={cs.AI},
+    environments = {mixed_objectives, implicit_objectives, embodied},
+    agents = {prompting_and_in_context_learning, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@misc{kim2023language,
+    title={Language Models can Solve Computer Tasks}, 
+    author={Geunwoo Kim and Pierre Baldi and Stephen McAleer},
+    year={2023},
+    month={11},
+    url={https://arxiv.org/abs/2303.17491},
+    eprint={2303.17491},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    environments = {mixed_objectives, implicit_objectives, virtual},
+    agents = {prompting_and_in_context_learning},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@misc{ma2024laser,
+    title={LASER: LLM Agent with State-Space Exploration for Web Navigation}, 
+    author={Kaixin Ma and Hongming Zhang and Hongwei Wang and Xiaoman Pan and Wenhao Yu and Dong Yu},
+    year={2024},
+    month={2},
+    url={https://arxiv.org/abs/2309.08172},
+    eprint={2309.08172},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    environments = {mixed_objectives, implicit_objectives, virtual},
+    agents = {prompting_and_in_context_learning, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@misc{sridhar2023hierarchical,
+    title={Hierarchical Prompting Assists Large Language Model on Web Navigation}, 
+    author={Abishek Sridhar and Robert Lo and Frank F. Xu and Hao Zhu and Shuyan Zhou},
+    year={2023},
+    month={10},
+    url={https://arxiv.org/abs/2305.14257},
+    eprint={2305.14257},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    environments = {mixed_objectives, implicit_objectives, virtual},
+    agents = {prompting_and_in_context_learning, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@inproceedings{zheng2024synapse,
+    title={Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control},
+    author={Longtao Zheng and Rundong Wang and Xinrun Wang and Bo An},
+    booktitle={The Twelfth International Conference on Learning Representations},
+    year={2024},
+    month={1},
+    url={https://openreview.net/forum?id=Pc8AU1aF5e},
+    environments = {mixed_objectives, implicit_objectives, virtual},
+    agents = {prompting_and_in_context_learning, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@inproceedings{sun2023adaplanner,
+    title={AdaPlanner: Adaptive Planning from Feedback with Language Models},
+    author={Haotian Sun and Yuchen Zhuang and Lingkai Kong and Bo Dai and Chao Zhang},
+    booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+    year={2023},
+    month={11},
+    url={https://openreview.net/forum?id=rnKgbKmelt},
+    environments = {mixed_objectives, implicit_objectives, text},
+    agents = {prompting_and_in_context_learning, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@misc{wu2023spring,
+    title={SPRING: Studying the Paper and Reasoning to Play Games}, 
+    author={Yue Wu and Shrimai Prabhumoye and So Yeon Min and Yonatan Bisk and Ruslan Salakhutdinov and Amos Azaria and Tom Mitchell and Yuanzhi Li},
+    year={2023},
+    month={5},
+    url={https://arxiv.org/abs/2305.15486},
+    eprint={2305.15486},
+    archivePrefix={arXiv},
+    primaryClass={cs.AI},
+    environments = {mixed_objectives, implicit_objectives, text},
+    agents = {prompting_and_in_context_learning, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@misc{nair2023dera,
+    title={DERA: Enhancing Large Language Model Completions with Dialog-Enabled Resolving Agents}, 
+    author={Varun Nair and Elliot Schumacher and Geoffrey Tso and Anitha Kannan},
+    year={2023},
+    month={3},
+    url={https://arxiv.org/abs/2303.17071},
+    eprint={2303.17071},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    environments = {collaboration, mixed_objectives, implicit_objectives, text},
+    agents = {prompting_and_in_context_learning, agent_teams, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
 #### Finetuning
+@article{modeling/finetuning,
+  title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
+  author = {specical entry},
+}
+
+@misc{gur2023understanding,
+    title={Understanding HTML with Large Language Models}, 
+    author={Izzeddin Gur and Ofir Nachum and Yingjie Miao and Mustafa Safdari and Austin Huang and Aakanksha Chowdhery and Sharan Narang and Noah Fiedel and Aleksandra Faust},
+    year={2023},
+    month={5},
+    url={https://arxiv.org/abs/2210.03945},
+    eprint={2210.03945},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG},
+    environments = {mixed_objectives, implicit_objectives, virtual},
+    agents = {prompting_and_in_context_learning, finetuning},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@inproceedings{
+    furuta2023instructionfinetuned,
+    title={Instruction-Finetuned Foundation Models for Multimodal Web Navigation},
+    author={Hiroki Furuta and Ofir Nachum and Kuang-Huei Lee and Yutaka Matsuo and Shixiang Shane Gu and Izzeddin Gur},
+    booktitle={ICLR 2023 Workshop on Mathematical and Empirical Understanding of Foundation Models},
+    year={2023},
+    month={5},
+    url={https://openreview.net/forum?id=oLc9sGOBbc},
+    environments = {mixed_objectives, implicit_objectives, virtual},
+    agents = {prompting_and_in_context_learning, finetuning, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@misc{yao2023react,
+    title={ReAct: Synergizing Reasoning and Acting in Language Models}, 
+    author={Shunyu Yao and Jeffrey Zhao and Dian Yu and Nan Du and Izhak Shafran and Karthik Narasimhan and Yuan Cao},
+    year={2023},
+    month={10},
+    eprint={2210.03629},
+    url={https://arxiv.org/abs/2210.03629},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    environments = {mixed_objectives, implicit_objectives, virtual},
+    agents = {prompting_and_in_context_learning, finetuning, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@inproceedings{gur2024a,
+    title={A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis},
+    author={Izzeddin Gur and Hiroki Furuta and Austin V Huang and Mustafa Safdari and Yutaka Matsuo and Douglas Eck and Aleksandra Faust},
+    booktitle={The Twelfth International Conference on Learning Representations},
+    year={2024},
+    month={1},
+    url={https://openreview.net/forum?id=9JQtrumvg8},
+    environments = {mixed_objectives, implicit_objectives, virtual},
+    agents = {prompting_and_in_context_learning, finetuning, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@inproceedings{shaw2023from,
+    title={From Pixels to {UI} Actions: Learning to Follow Instructions via Graphical User Interfaces},
+    author={Peter Shaw and Mandar Joshi and James Cohan and Jonathan Berant and Panupong Pasupat and Hexiang Hu and Urvashi Khandelwal and Kenton Lee and Kristina Toutanova},
+    booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+    year={2023},
+    month={11},
+    url={https://openreview.net/forum?id=3PjCt4kmRx},
+    environments = {mixed_objectives, implicit_objectives, virtual},
+    agents = {prompting_and_in_context_learning, finetuning, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@misc{zheng2024gpt4vision,
+    title={GPT-4V(ision) is a Generalist Web Agent, if Grounded}, 
+    author={Boyuan Zheng and Boyu Gou and Jihyung Kil and Huan Sun and Yu Su},
+    year={2024},
+    month={1},
+    url={https://arxiv.org/abs/2401.01614},
+    eprint={2401.01614},
+    archivePrefix={arXiv},
+    primaryClass={cs.IR},
+    environments = {mixed_objectives, implicit_objectives, virtual},
+    agents = {prompting_and_in_context_learning, finetuning, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
+
+@misc{kil2024dualview,
+    title={Dual-View Visual Contextualization for Web Navigation}, 
+    author={Jihyung Kil and Chan Hee Song and Boyuan Zheng and Xiang Deng and Yu Su and Wei-Lun Chao},
+    year={2024},
+    month={2},
+    url={https://arxiv.org/abs/2402.04476},
+    eprint={2402.04476},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV},
+    environments = {mixed_objectives, implicit_objectives, virtual},
+    agents = {prompting_and_in_context_learning, finetuning, agents_with_memory},
+    evaluation = {rule_based},
+    other = {simulated_humans}
+}
 
 #### Reinforcement learning
+@article{modeling/reinforcement-learning,
+  title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
+  author = {specical entry},
+}
 
 ### Evaluating social agents
 
 #### Evaluating text social agents
+@article{evaluation/language,
+  title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
+  author = {specical entry},
+}
+
 @inproceedings{zhou2024sotopia,
 title={SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents},
 author={Xuhui Zhou and Hao Zhu and Leena Mathur and Ruohong Zhang and Haofei Yu and Zhengyang Qi and Louis-Philippe Morency and Yonatan Bisk and Daniel Fried and Graham Neubig and Maarten Sap},
@@ -883,6 +1133,11 @@ url={https://openreview.net/forum?id=mM7VurbA4r}
 }
 
 #### Evaluating embodied social agents
+@article{evaluation/embodied,
+  title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
+  author = {specical entry},
+}
+
 @misc{guo2024embodied,
       title={Embodied LLM Agents Learn to Cooperate in Organized Teams}, 
       author={Xudong Guo and Kaixuan Huang and Jiale Liu and Wenhui Fan and Natalia Vélez and Qingyun Wu and Huazheng Wang and Thomas L. Griffiths and Mengdi Wang},
@@ -898,18 +1153,181 @@ url={https://openreview.net/forum?id=mM7VurbA4r}
 }
 
 #### Evaluating virtual social agents
+@article{evaluation/virtual,
+  title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
+  author = {specical entry},
+}
 
 #### Evaluating robotics in social contexts
+@article{evaluation/robotics,
+  title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
+  author = {specical entry},
+}
 
+@misc{sferrazza2024humanoidbench,
+    title={HumanoidBench: Simulated Humanoid Benchmark for Whole-Body Locomotion and Manipulation}, 
+    author={Carmelo Sferrazza and Dun-Ming Huang and Xingyu Lin and Youngwoon Lee and Pieter Abbeel},
+    year={2024},
+    month={3},
+    url={https://arxiv.org/abs/2403.10506},
+    eprint={2403.10506},
+    archivePrefix={arXiv},
+    primaryClass={cs.RO},
+    environments = {collaboration, mixed_objectives, robotics},
+    agents = {reinforcement_learning},
+    evaluation = {human, model_based},
+    other = {human_agent, simulated_humans}
+}
+
+@INPROCEEDINGS{1174284,
+    author={Scholtz, J.},
+    booktitle={36th Annual Hawaii International Conference on System Sciences, 2003. Proceedings of the}, 
+    title={Theory and evaluation of human robot interactions}, 
+    year={2003},
+    month={1},
+    url={https://ieeexplore.ieee.org/document/1174284},
+    volume={},
+    number={},
+    pages={10 pp.-},
+    keywords={Human robot interaction;Robot sensing systems;Mobile robots;Software architecture;NIST;Feeds;User interfaces;Computer architecture;Human computer interaction;Man machine systems},
+    doi={10.1109/HICSS.2003.1174284},
+    environments = {collaboration, mixed_objectives, robotics},
+    agents = {reinforcement_learning},
+    evaluation = {human},
+    other = {human_agent}
+  
+}
+  
+@inproceedings{10.1145/1121241.1121249,
+    author = {Steinfeld, Aaron and Fong, Terrence and Kaber, David and Lewis, Michael and Scholtz, Jean and Schultz, Alan and Goodrich, Michael},
+    title = {Common metrics for human-robot interaction},
+    year = {2006},
+    month = {3},
+    isbn = {1595932941},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/1121241.1121249},
+    doi = {10.1145/1121241.1121249},
+    abstract = {This paper describes an effort to identify common metrics for task-oriented human-robot interaction (HRI). We begin by discussing the need for a toolkit of HRI metrics. We then describe the framework of our work and identify important biasing factors that must be taken into consideration. Finally, we present suggested common metrics for standardization and a case study. Preparation of a larger, more detailed toolkit is in progress.},
+    booktitle = {Proceedings of the 1st ACM SIGCHI/SIGART Conference on Human-Robot Interaction},
+    pages = {33–40},
+    numpages = {8},
+    keywords = {unmanned ground vehicles, metrics, human-robot interaction},
+    location = {Salt Lake City, Utah, USA},
+    series = {HRI '06},
+    environments = {collaboration, mixed_objectives, robotics},
+    agents = {reinforcement_learning},
+    evaluation = {human, rule_based, model_based},
+    other = {human_agent}
+}
+
+@article{zacharaki2020safety,
+    title={Safety bounds in human robot interaction: A survey},
+    author={Zacharaki, Angeliki and Kostavelis, Ioannis and Gasteratos, Antonios and Dokas, Ioannis},
+    journal={Safety science},
+    volume={127},
+    pages={104667},
+    year={2020},
+    month = {7},
+    publisher={Elsevier},
+    url = {https://www.sciencedirect.com/science/article/pii/S0925753520300643},
+    environments = {collaboration, mixed_objectives, robotics},
+    agents = {reinforcement_learning},
+    evaluation = {human, rule_based},
+    other = {human_agent}
+}
+
+@article{hancock2011meta,
+    title={A meta-analysis of factors affecting trust in human-robot interaction},
+    author={Hancock, Peter A and Billings, Deborah R and Schaefer, Kristin E and Chen, Jessie YC and De Visser, Ewart J and Parasuraman, Raja},
+    journal={Human factors},
+    volume={53},
+    number={5},
+    pages={517--527},
+    year={2011},
+    month={10},
+    url={https://journals.sagepub.com/doi/10.1177/0018720811417254},
+    publisher={Sage Publications Sage CA: Los Angeles, CA},
+    environments = {collaboration, mixed_objectives, robotics},
+    agents = {reinforcement_learning},
+    evaluation = {human, rule_based},
+    other = {human_agent}
+}
+
+@article{bartneck2009measurement,
+    title={Measurement instruments for the anthropomorphism, animacy, likeability, perceived intelligence, and perceived safety of robots},
+    author={Bartneck, Christoph and Kuli{\'c}, Dana and Croft, Elizabeth and Zoghbi, Susana},
+    journal={International journal of social robotics},
+    volume={1},
+    pages={71--81},
+    year={2009},
+    month={11},
+    publisher={Springer},
+    url={https://link.springer.com/article/10.1007/s12369-008-0001-3},
+    environments = {collaboration, mixed_objectives, robotics},
+    agents = {reinforcement_learning},
+    evaluation = {human, rule_based},
+    other = {human_agent}
+}
+
+@article{iocchi2015robocup,
+    title={RoboCup@ Home: Analysis and results of evolving competitions for domestic and service robots},
+    author={Iocchi, Luca and Holz, Dirk and Ruiz-del-Solar, Javier and Sugiura, Komei and Van Der Zant, Tijn},
+    journal={Artificial Intelligence},
+    volume={229},
+    pages={258--281},
+    year={2015},
+    month={12},
+    url={https://www.sciencedirect.com/science/article/pii/S0004370215001174},
+    publisher={Elsevier},
+    environments = {collaboration, mixed_objectives, robotics},
+    agents = {reinforcement_learning},
+    evaluation = {human, rule_based},
+    other = {human_agent}
+}
+
+@article{doi:10.1080/01691864.2019.1698462,
+    author = {Y. Mizuchi and T. Inamura},
+    title = {Optimization of criterion for objective evaluation of HRI performance that approximates subjective evaluation: a case study in robot competition},
+    journal = {Advanced Robotics},
+    volume = {34},
+    number = {3-4},
+    pages = {142--156},
+    year = {2020},
+    month = {12},
+    publisher = {Taylor \& Francis},
+    doi = {10.1080/01691864.2019.1698462},
+    url = {https://doi.org/10.1080/01691864.2019.1698462},
+    environments = {competition, mixed_objectives, robotics},
+    agents = {reinforcement_learning},
+    evaluation = {human, rule_based},
+    other = {human_agent}
+}
 ### Interactions with humans
 
 #### Human-Chatbot Interaction
+@article{interactions/text,
+  title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
+  author = {specical entry},
+}
 
 #### Human-Embodied Agent Interaction
+@article{interactions/embodied,
+  title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
+  author = {specical entry},
+}
 
 #### Human Robot Interaction
+@article{interactions/robot,
+  title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
+  author = {specical entry},
+}
 
 #### Human-Human Interaction
+@article{interactions/human,
+  title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
+  author = {specical entry},
+}
 
 ### Challenges
 
@@ -922,6 +1340,11 @@ url={https://openreview.net/forum?id=mM7VurbA4r}
 ### Applications
 
 #### Health
+@article{applications/health,
+  title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
+  author = {specical entry},
+}
+
 @misc{mukherjee2024polaris,
       title={Polaris: A Safety-focused LLM Constellation Architecture for Healthcare}, 
       author={Subhabrata Mukherjee and Paul Gamble and Markel Sanz Ausin and Neel Kant and Kriti Aggarwal and Neha Manjunath and Debajyoti Datta and Zhengliang Liu and Jiayuan Ding and Sophia Busacca and Cezanne Bianco and Swapnil Sharma and Rae Lasko and Michelle Voisard and Sanchay Harneja and Darya Filippova and Gerry Meixiong and Kevin Cha and Amir Youssefi and Meyhaa Buvanesh and Howard Weingram and Sebastian Bierman-Lytle and Harpreet Singh Mangat and Kim Parikh and Saad Godil and Alex Miller},
@@ -1048,9 +1471,15 @@ url={https://openreview.net/forum?id=mM7VurbA4r}
       eprint={2310.02374},
       archivePrefix={arXiv},
       primaryClass={cs.CL}
-}
+ }
+
 
 #### Policy
+@article{applications/policy,
+  title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
+  author = {specical entry},
+}
+
 @inproceedings{10.1145/3526113.3545616,
 author = {Park, Joon Sung and Popowski, Lindsay and Cai, Carrie and Morris, Meredith Ringel and Liang, Percy and Bernstein, Michael S.},
 title = {Social Simulacra: Creating Populated Prototypes for Social Computing Systems},
@@ -1132,12 +1561,24 @@ month = {8}
 
 
 #### Education
+@article{applications/education,
+  title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
+  author = {specical entry},
+}
 
 ### Concerns
 
 #### Risks
+@article{concerns/risks,
+  title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
+  author = {specical entry},
+}
 
 #### Safety
+@article{concerns/safety,
+  title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
+  author = {specical entry},
+}
 
 
 
