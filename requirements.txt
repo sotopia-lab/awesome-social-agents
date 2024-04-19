@@ -1,3 +1,10 @@
---pre
-bibtexparser
-tabulate
+bibtexparser @ git+https://github.com/sciunto-org/python-bibtexparser@cf0079daccbe5c1da0721dcbb6b863098d70c28d
+numpy==1.26.4
+pandas==2.2.2
+pylatexenc==2.10
+pyparsing==3.1.2
+python-dateutil==2.9.0.post0
+pytz==2024.1
+six==1.16.0
+tabulate==0.9.0
+tzdata==2024.1
