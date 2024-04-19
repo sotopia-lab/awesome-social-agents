@@ -122,6 +122,28 @@
 
 [May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigation](https://openreview.net/forum?id=oLc9sGOBbc), Hiroki Furuta et al., ICLR 2023 Workshop on Mathematical and Empirical Understanding of Foundation Models
 
+### modeling/reinforcement-learning
+
+[March, 2024] [SOTOPIA-$\pi$: Interactive Learning of Socially Intelligent Language Agents](https://arxiv.org/abs/2403.08715), Ruiyi Wang et al., arXiv
+
+[March, 2024] [TacticAI: an AI assistant for football tactics](https://doi.org/10.1038/s41467-024-45965-x), Zhe Wang et al., Nature Communications
+
+[March, 2023] [Computational Language Acquisition with Theory of Mind](https://arxiv.org/abs/2303.01502), Andy Liu et al., arXiv
+
+[July, 2022] [Language Learning from Communicative Goals and Linguistic Input](https://escholarship.org/uc/item/7p65n371), Hao Zhu et al., Proceedings of the Annual Meeting of the Cognitive Science Society
+
+[April, 2022] [Language games meet multi-agent reinforcement learning: A case study for the naming game](https://academic.oup.com/jole/article/7/2/213/7128304), Paul Van Eecke et al., Journal of Language Evolution
+
+[November, 2019] [{EGG}: a toolkit for research on Emergence of lan{G}uage in Games](https://aclanthology.org/D19-3010), Kharitonov et al., Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP): System Demonstrations
+
+[October, 2018] [Real-Time Bidding with Multi-Agent Reinforcement Learning in Display Advertising](https://doi.org/10.1145/3269206.3272021), Junqi Jin et al., Proceedings of the 27th ACM International Conference on Information and Knowledge Management
+
+[February, 2018] [Emergent Communication through Negotiation](https://openreview.net/forum?id=Hk6WhagRW), Kris Cao et al., International Conference on Learning Representations
+
+[April, 2017] [Mastering the game of go without human knowledge](https://www.nature.com/articles/nature24270), David Silver et al., nature
+
+[January, 2016] [Mastering the game of Go with deep neural networks and tree search](https://www.nature.com/articles/nature16961), David Silver et al., nature
+
 ### evaluation/language
 
 [October, 2024] [SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents](https://openreview.net/forum?id=mM7VurbA4r), Xuhui Zhou et al., ICLR
@@ -188,7 +210,7 @@
 
 ### interactions/text
 
-[May, 2024] [" It's the only thing I can trust": Envisioning Large Language Model Use by Autistic Workers for Communication Assistance](https://arxiv.org/pdf/2403.03297.pdf), JiWoong Jang et al., Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
+[May, 2024] [" It's the only thing I can trust": Envisioning Large Language Model Use by Autistic Workers for Communication Assistance](https://arxiv.org/pdf/2403.03297.pdf), JiWoong Jang et al., arXiv preprint arXiv:2403.03297
 
 [March, 2024] [AI Comes Out of the Closet: Using AI-Generated Virtual Characters to Help Individuals Practice LGBTQIA+ Advocacy](https://dl.acm.org/doi/pdf/10.1145/3640543.3645213), Daniel Pillis et al., Proceedings of the 29th International Conference on Intelligent User Interfaces
 
