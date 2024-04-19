@@ -28,6 +28,38 @@
 
 [August, 2023] [{CALYPSO}: {LLMs} as Dungeon Masters' Assistants](https://arxiv.org/abs/2308.07540), Andrew Zhu et al., The 19th AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE 2023)
 
+[January, 1966] [ELIZA—a computer program for the study of natural language communication between man and machine](https://doi.org/10.1145/365153.365168), Joseph Weizenbaum et al., Commun. ACM
+
+[August, 2022] [Blenderbot 3: a deployed conversational agent that continually learns to responsibly engage](https://arxiv.org/abs/2208.03188), Kurt Shuster et al., arXiv preprint arXiv:2208.03188
+
+[November, 2022] [Introducing ChatGPT](https://openai.com/blog/chatgpt), OpenAI et al., n/a
+
+[March, 2024] [Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference](https://arxiv.org/abs/2403.04132), Wei-Lin Chiang et al., arXiv preprint arXiv:2403.04132
+
+[May, 2022] [Opt: Open pre-trained transformer language models](https://arxiv.org/abs/2205.01068), Susan Zhang et al., arXiv preprint arXiv:2205.01068
+
+[March, 2020] [The Design and Implementation of {X}iao{I}ce, an Empathetic Social Chatbot](https://aclanthology.org/2020.cl-1.2), Zhou et al., Computational Linguistics
+
+[January, 2006] [Empathic computing](https://link.springer.com/chapter/10.1007/11825890_3), Yang Cai et al., Ambient intelligence in everyday life: Foreword by Emile Aarts
+
+[April, 2019] [Wizard of Wikipedia: Knowledge-Powered Conversational Agents](https://openreview.net/forum?id=r1l73iRqKm), Emily Dinan et al., International Conference on Learning Representations
+
+[April, 2018] [A knowledge-grounded neural conversation model](https://ojs.aaai.org/index.php/AAAI/article/view/11977), Marjan Ghazvininejad et al., Proceedings of the AAAI Conference on Artificial Intelligence
+
+[August, 2016] [A persona-based neural conversation model](https://aclanthology.org/P16-1094/), Jiwei Li et al., arXiv preprint arXiv:1603.06155
+
+[November, 2009] [The anatomy of ALICE](https://link.springer.com/chapter/10.1007/978-1-4020-6710-5_13), Richard S Wallace et al., n/a
+
+[March, 2018] [Towards empathetic human-robot interactions](https://link.springer.com/chapter/10.1007/978-3-319-75487-1_14), Pascale Fung et al., Computational Linguistics and Intelligent Text Processing: 17th International Conference, CICLing 2016, Konya, Turkey, April 3--9, 2016, Revised Selected Papers, Part II 17
+
+[April, 2024] [Autonomous Evaluation and Refinement of Digital Agents](https://arxiv.org/abs/2404.06474v2), Jiayi Pan et al., arXiv preprint arXiv:2404.06474
+
+[April, 2024] [Scaling Instructable Agents Across Many Simulated Worlds](https://arxiv.org/abs/2404.10179v2), SIMA Team et al., arXiv preprint arXiv:2404.10179
+
+[December, 2023] [Large language models play starcraft ii: Benchmarks and a chain of summarization approach](https://arxiv.org/abs/2312.11865), Weiyu Ma et al., arXiv preprint arXiv:2312.11865
+
+[March, 2024] [Evaluate LLMs in real time with Street Fighter III](https://github.com/OpenGenerativeAI/llm-colosseum), OpenGenerativeAI team et al., n/a
+
 [December, 2023] [RoboTube: Learning Household Manipulation from Human Videos with Simulated Twin Environments](https://proceedings.mlr.press/v205/xiong23a.html), Haoyu Xiong et al., Proceedings of The 6th Conference on Robot Learning
 
 [August, 2022] [Do As I Can and Not As I Say: Grounding Language in Robotic Affordances](https://say-can.github.io/), Michael Ahn et al., arXiv preprint arXiv:2204.01691
