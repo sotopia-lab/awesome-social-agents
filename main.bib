@@ -301,7 +301,6 @@
    url={https://arxiv.org/abs/2308.07540}
 }
 
-<<<<<<< HEAD
 @article{eliza1966weizenbaum,
   author = {Weizenbaum, Joseph},
   title = {ELIZA—a computer program for the study of natural language communication between man and machine},
@@ -551,6 +550,8 @@
       primaryClass={cs.AI}
 }
 
+
+
 #### Virtual Environments
 @article{environments/embodied,
   title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
@@ -561,8 +562,33 @@
 @article{environments/virtual,
   title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
   author = {specical entry},
->>>>>>> origin/main
 }
+
+
+
+@inproceedings{tsoi2020sean,
+  title={Sean: Social environment for autonomous navigation},
+  author={Tsoi, Nathan and Hussein, Mohamed and Espinoza, Jeacy and Ruiz, Xavier and V{\'a}zquez, Marynel},
+  booktitle={Proceedings of the 8th international conference on human-agent interaction},
+  pages={281--283},
+  year={2020},
+  environments={mixed_objectives, embodied},
+  agents={reinforcement_learning},
+  evaluation={rule_based},
+  other={human_agent, simulated_humans}
+}
+
+@article{puig2023habitat,
+  title={Habitat 3.0: A co-habitat for humans, avatars and robots},
+  author={Puig, Xavier and Undersander, Eric and Szot, Andrew and Cote, Mikael Dallaire and Yang, Tsung-Yen and Partsey, Ruslan and Desai, Ruta and Clegg, Alexander William and Hlavac, Michal and Min, So Yeon and others},
+  journal={arXiv preprint arXiv:2310.13724},
+  year={2023},
+  environments={mixed_objectives, embodied},
+  agents={reinforcement_learning},
+  evaluation={rule_based},
+  other={human_agent, simulated_humans}
+}
+
 
 
 #### Robotics
@@ -1387,6 +1413,33 @@ url={https://openreview.net/forum?id=mM7VurbA4r}
       primaryClass={cs.AI}
 }
 
+@misc{biswas2021socnavbench,
+      title={SocNavBench: A Grounded Simulation Testing Framework for Evaluating Social Navigation}, 
+      author={Abhijat Biswas and Allan Wang and Gustavo Silvera and Aaron Steinfeld and Henny Admoni},
+      year={2021},
+      eprint={2103.00047},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      environments={implicit_objectives, embodied},
+      agents={reinforcement_learning},
+      evaluation={rule_based},
+      other={simulated_humans}
+}
+
+@misc{knott2021evaluating,
+      title={Evaluating the Robustness of Collaborative Agents}, 
+      author={Paul Knott and Micah Carroll and Sam Devlin and Kamil Ciosek and Katja Hofmann and A. D. Dragan and Rohin Shah},
+      year={2021},
+      eprint={2101.05507},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      environments={collaboration, embodied},
+      agents={reinforcement_learning},
+      evaluation={rule_based},
+      other={n/a}
+}
+
+
 #### Evaluating virtual social agents
 @article{evaluation/virtual,
   title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
@@ -1551,6 +1604,92 @@ url={https://openreview.net/forum?id=mM7VurbA4r}
   title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
   author = {specical entry},
 }
+
+@inproceedings{puig2023nopa,
+  title={Nopa: Neurally-guided online probabilistic assistance for building socially intelligent home assistants},
+  author={Puig, Xavier and Shu, Tianmin and Tenenbaum, Joshua B and Torralba, Antonio},
+  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={7628--7634},
+  year={2023},
+  organization={IEEE},
+  environments={collaboration, embodied},
+  agents={reinforcement_learning},
+  evaluation={rule_based},
+  other={n/a}
+}
+
+@article{puig2020watch,
+  title={Watch-and-help: A challenge for social perception and human-ai collaboration},
+  author={Puig, Xavier and Shu, Tianmin and Li, Shuang and Wang, Zilin and Liao, Yuan-Hong and Tenenbaum, Joshua B and Fidler, Sanja and Torralba, Antonio},
+  journal={arXiv preprint arXiv:2010.09890},
+  year={2020},
+  environments={collaboration, embodied},
+  agents={reinforcement_learning},
+  evaluation={rule_based},
+  other={n/a}
+}
+
+@article{carroll2019utility,
+  title={On the utility of learning about humans for human-ai coordination},
+  author={Carroll, Micah and Shah, Rohin and Ho, Mark K and Griffiths, Tom and Seshia, Sanjit and Abbeel, Pieter and Dragan, Anca},
+  journal={Advances in neural information processing systems},
+  volume={32},
+  year={2019},
+  environments={collaboration, embodied},
+  agents={reinforcement_learning},
+  evaluation={rule_based},
+  other={n/a}
+}
+
+@inproceedings{nalepka2021interaction,
+  title={Interaction flexibility in artificial agents teaming with humans},
+  author={Nalepka, Patrick and Gregory-Dunsmore, Jordan P and Simpson, James and Patil, Gaurav and Richardson, Michael J},
+  booktitle={Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={43},
+  number={43},
+  year={2021},
+  environments={collaboration, embodied},
+  agents={reinforcement_learning},
+  evaluation={rule_based},
+  other={n/a}
+}
+
+@article{liu2023llm,
+  title={Llm-powered hierarchical language agent for real-time human-ai coordination},
+  author={Liu, Jijia and Yu, Chao and Gao, Jiaxuan and Xie, Yuqing and Liao, Qingmin and Wu, Yi and Wang, Yu},
+  journal={arXiv preprint arXiv:2312.15224},
+  year={2023},
+  environments={collaboration, embodied},
+  agents={reinforcement_learning},
+  evaluation={rule_based},
+  other={n/a}
+}
+
+@inproceedings{szot2023adaptive,
+  title={Adaptive coordination in social embodied rearrangement},
+  author={Szot, Andrew and Jain, Unnat and Batra, Dhruv and Kira, Zsolt and Desai, Ruta and Rai, Akshara},
+  booktitle={International Conference on Machine Learning},
+  pages={33365--33380},
+  year={2023},
+  organization={PMLR},
+  environments={collaboration, embodied},
+  agents={prompting_and_in_context_learning},
+  evaluation={rule_based},
+  other={n/a}
+}
+
+@inproceedings{park2023generative,
+  title={Generative agents: Interactive simulacra of human behavior},
+  author={Park, Joon Sung and O'Brien, Joseph and Cai, Carrie Jun and Morris, Meredith Ringel and Liang, Percy and Bernstein, Michael S},
+  booktitle={Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology},
+  pages={1--22},
+  year={2023},
+  environments={mixed_objectives, embodied},
+  agents={prompting_and_in_context_learning},
+  evaluation={rule_based},
+  other={n/a}
+}
+
 
 #### Human Robot Interaction
 @article{interactions/robot,
