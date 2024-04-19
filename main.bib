@@ -1564,6 +1564,180 @@
       primaryClass={cs.AI}
 }
 
+@misc{singh2024change,
+      title={How much can change in a year? Revisiting Evaluation in Multi-Agent Reinforcement Learning}, 
+      author={Siddarth Singh and Omayma Mahjoub and Ruan de Kock and Wiem Khlifi and Abidine Vall and Kale-ab Tessera and Arnu Pretorius},
+      year={2024},
+      eprint={2312.08463},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      environments = {collaboration, embodied},
+      agents = {reinforcement_learning, more_than_three_agents},
+      evaluation = {rule_based},
+      other = {n/a},
+      url = {https://arxiv.org/abs/2312.08463}
+}
+
+@inproceedings{leibo2021scalable,
+  title={Scalable evaluation of multi-agent reinforcement learning with melting pot},
+  author={Leibo, Joel Z and Due{\~n}ez-Guzman, Edgar A and Vezhnevets, Alexander and Agapiou, John P and Sunehag, Peter and Koster, Raphael and Matyas, Jayd and Beattie, Charlie and Mordatch, Igor and Graepel, Thore},
+  booktitle={International conference on machine learning},
+  pages={6187--6199},
+  year={2021},
+  organization={PMLR},
+  environments = {collaboration, competition, mixed_objectives, embodied},
+  agents = {reinforcement_learning, more_than_three_agents},
+  evaluation = {rule_based},
+  other = {n/a},
+  month = {7},
+  url={https://proceedings.mlr.press/v139/leibo21a.html}
+}
+
+@inproceedings{bara-etal-2021-mindcraft,
+    title = "{M}ind{C}raft: Theory of Mind Modeling for Situated Dialogue in Collaborative Tasks",
+    author = "Bara, Cristian-Paul  and
+      CH-Wang, Sky  and
+      Chai, Joyce",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.85",
+    pages = "1112--1125",
+    abstract = "An ideal integration of autonomous agents in a human world implies that they are able to collaborate on human terms. In particular, theory of mind plays an important role in maintaining common ground during human collaboration and communication. To enable theory of mind modeling in situated interactions, we introduce a fine-grained dataset of collaborative tasks performed by pairs of human subjects in the 3D virtual blocks world of Minecraft. It provides information that captures partners{'} beliefs of the world and of each other as an interaction unfolds, bringing abundant opportunities to study human collaborative behaviors in situated language communication. As a first step towards our goal of developing embodied AI agents able to infer belief states of collaborative partners in situ, we build and present results on computational models for several theory of mind tasks.",
+    environments = {collaboration, embodied},
+    agents = {finetuning, two_agents},
+    evaluation = {human, rule_based},
+    other = {human_agent}
+}
+
+@inproceedings{narayan-chen-etal-2019-collaborative,
+    title = "Collaborative Dialogue in {M}inecraft",
+    author = "Narayan-Chen, Anjali  and
+      Jayannavar, Prashant  and
+      Hockenmaier, Julia",
+    editor = "Korhonen, Anna  and
+      Traum, David  and
+      M{\`a}rquez, Llu{\'\i}s",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P19-1537",
+    doi = "10.18653/v1/P19-1537",
+    pages = "5405--5415",
+    abstract = "We wish to develop interactive agents that can communicate with humans to collaboratively solve tasks in grounded scenarios. Since computer games allow us to simulate such tasks without the need for physical robots, we define a Minecraft-based collaborative building task in which one player (A, the Architect) is shown a target structure and needs to instruct the other player (B, the Builder) to build this structure. Both players interact via a chat interface. A can observe B but cannot place blocks. We present the Minecraft Dialogue Corpus, a collection of 509 conversations and game logs. As a first step towards our goal of developing fully interactive agents for this task, we consider the subtask of Architect utterance generation, and show how challenging it is.",
+    environments = {collaboration, embodied},
+    agents = {two_agents},
+    evaluation = {human, rule_based},
+    other = {human_agent}
+}
+
+@inproceedings{ichikawa-higashinaka-2022-analysis,
+    title = "Analysis of Dialogue in Human-Human Collaboration in {M}inecraft",
+    author = "Ichikawa, Takuma  and
+      Higashinaka, Ryuichiro",
+    editor = "Calzolari, Nicoletta  and
+      B{\'e}chet, Fr{\'e}d{\'e}ric  and
+      Blache, Philippe  and
+      Choukri, Khalid  and
+      Cieri, Christopher  and
+      Declerck, Thierry  and
+      Goggi, Sara  and
+      Isahara, Hitoshi  and
+      Maegaard, Bente  and
+      Mariani, Joseph  and
+      Mazo, H{\'e}l{\`e}ne  and
+      Odijk, Jan  and
+      Piperidis, Stelios",
+    booktitle = "Proceedings of the Thirteenth Language Resources and Evaluation Conference",
+    month = jun,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2022.lrec-1.431",
+    pages = "4051--4059",
+    abstract = "Recently, many studies have focused on developing dialogue systems that enable collaborative work; however, they rarely focus on creative tasks. Collaboration for creative work, in which humans and systems collaborate to create new value, will be essential for future dialogue systems. In this study, we collected 500 dialogues of human-human collaboration in Minecraft as a basis for developing a dialogue system that enables creative collaborative work. We conceived the Collaborative Garden Task, where two workers interact and collaborate in Minecraft to create a garden, and we collected dialogue, action logs, and subjective evaluations. We also collected third-person evaluations of the gardens and analyzed the relationship between dialogue and collaborative work that received high scores on the subjective and third-person evaluations in order to identify dialogic factors for high-quality collaborative work. We found that two essential aspects in creative collaborative work are performing more processes to ask for and agree on suggestions between workers and agreeing on a particular image of the final product in the early phase of work and then discussing changes and details.",
+    environments = {collaboration, embodied},
+    agents = {two_agents},
+    evaluation = {human, rule_based},
+    other = {human_agent}
+}
+
+@InProceedings{CordialSync,
+  author = {Jain, Unnat and Weihs, Luca and Kolve, Eric and Farhadi, Ali and Lazebnik, Svetlana and Kembhavi, Aniruddha and Schwing, Alexander G.},
+  title = {A Cordial Sync: Going Beyond Marginal Policies For Multi-Agent Embodied Tasks},
+  booktitle = {ECCV},
+  year = {2020},
+  month={11},
+  note = {first two authors contributed equally},
+  environments = {collaboration, embodied},
+  agents = {finetuning, reinforcement_learning, two_agents},
+  evaluation = {rule_based},
+  other = {n/a},
+  url = {https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500460.pdf},
+}
+
+@InProceedings{TwoBody,
+  author = {Jain, Unnat and Weihs, Luca and Kolve, Eric and Rastegari, Mohammad and Lazebnik, Svetlana and Farhadi, Ali and Schwing, Alexander G. and Kembhavi, Aniruddha},
+  title = {Two Body Problem: Collaborative Visual Task Completion},
+  booktitle = {CVPR},
+  year = {2019},
+  month = {6},
+  note = {first two authors contributed equally},
+  environments = {collaboration, embodied},
+  agents = {finetuning, reinforcement_learning, two_agents},
+  evaluation = {rule_based},
+  other = {n/a},
+  url = {https://openaccess.thecvf.com/content_CVPR_2019/papers/Jain_Two_Body_Problem_Collaborative_Visual_Task_Completion_CVPR_2019_paper.pdf},
+}
+
+@inproceedings{teach,
+  title={{TEACh: Task-driven Embodied Agents that Chat}},
+  author={Padmakumar, Aishwarya and Thomason, Jesse and Shrivastava, Ayush and Lange, Patrick and Narayan-Chen, Anjali and Gella, Spandana and Piramuthu, Robinson and Tur, Gokhan and Hakkani-Tur, Dilek},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={36},
+  number={2},
+  pages={2017--2025},
+  year={2022},
+  month={2},
+  environments = {collaboration, embodied},
+  agents = {finetuning, two_agents},
+  evaluation = {rule_based},
+  other = {human_agent},
+  url = {https://arxiv.org/abs/2110.00534}
+}
+
+@inproceedings{teachda,
+  title={{Dialog Acts for Task-Driven Embodied Agents}},
+  author={Gella, Spandana and Padmakumar, Aishwarya and Lange, Patrick and Hakkani-Tur, Dilek},
+  booktitle={Proceedings of the 23nd Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDial)},
+  year={2022},
+  pages={111-123},
+  month={9},
+  environments = {collaboration, embodied},
+  agents = {finetuning, two_agents},
+  evaluation = {rule_based},
+  other = {human_agent},
+  url = {https://aclanthology.org/2022.sigdial-1.13},
+}
+
+@inproceedings{kim2016evaluation,
+  title={Evaluation of starcraft artificial intelligence competition bots by experienced human players},
+  author={Kim, Man-Je and Kim, Kyung-Joong and Kim, SeungJun and Dey, Anind K},
+  booktitle={Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems},
+  pages={1915--1921},
+  year={2016},
+  month={5},
+  environments = {collaboration, competition, mixed_objectives, embodied},
+  agents = {more_than_three_agents},
+  evaluation = {human, rule_based},
+  other = {human_agent},
+  url = {https://dl.acm.org/doi/pdf/10.1145/2851581.2892305},
+}
+
 #### Evaluating virtual social agents
 @article{evaluation/virtual,
   title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
