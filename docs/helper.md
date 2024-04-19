@@ -188,7 +188,27 @@
 
 ### evaluation/embodied
 
+[December, 2024] [How much can change in a year? Revisiting Evaluation in Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2312.08463), Siddarth Singh et al., arXiv
+
 [March, 2024] [Embodied LLM Agents Learn to Cooperate in Organized Teams](https://arxiv.org/abs/2403.12482), Xudong Guo et al., arXiv
+
+[September, 2022] [{Dialog Acts for Task-Driven Embodied Agents}](https://aclanthology.org/2022.sigdial-1.13), Spandana Gella et al., Proceedings of the 23nd Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDial)
+
+[June, 2022] [Analysis of Dialogue in Human-Human Collaboration in {M}inecraft](https://aclanthology.org/2022.lrec-1.431), Ichikawa et al., Proceedings of the Thirteenth Language Resources and Evaluation Conference
+
+[February, 2022] [{TEACh: Task-driven Embodied Agents that Chat}](https://arxiv.org/abs/2110.00534), Aishwarya Padmakumar et al., Proceedings of the AAAI Conference on Artificial Intelligence
+
+[November, 2021] [{M}ind{C}raft: Theory of Mind Modeling for Situated Dialogue in Collaborative Tasks](https://aclanthology.org/2021.emnlp-main.85), Bara et al., Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing
+
+[July, 2021] [Scalable evaluation of multi-agent reinforcement learning with melting pot](https://proceedings.mlr.press/v139/leibo21a.html), Joel Z Leibo et al., International conference on machine learning
+
+[November, 2020] [A Cordial Sync: Going Beyond Marginal Policies For Multi-Agent Embodied Tasks](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500460.pdf), Unnat Jain et al., ECCV
+
+[July, 2019] [Collaborative Dialogue in {M}inecraft](https://aclanthology.org/P19-1537), Narayan-Chen et al., Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics
+
+[June, 2019] [Two Body Problem: Collaborative Visual Task Completion](https://openaccess.thecvf.com/content_CVPR_2019/papers/Jain_Two_Body_Problem_Collaborative_Visual_Task_Completion_CVPR_2019_paper.pdf), Unnat Jain et al., CVPR
+
+[May, 2016] [Evaluation of starcraft artificial intelligence competition bots by experienced human players](https://dl.acm.org/doi/pdf/10.1145/2851581.2892305), Man-Je Kim et al., Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems
 
 ### evaluation/robotics
 
