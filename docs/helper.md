@@ -114,6 +114,10 @@
 
 ### modeling/finetuning
 
+[August, 2024] [Context-Aware Planning and Environment-Aware Memory for Instruction Following Embodied Agents](https://arxiv.org/abs/2308.07241), Byeonghwi Kim et al., arXiv
+
+[April, 2024] [Learning Social Navigation from Demonstrations with Deep Neural Networks](https://arxiv.org/abs/2404.11246), Yigit Yildirim et al., arXiv
+
 [February, 2024] [Dual-View Visual Contextualization for Web Navigation](https://arxiv.org/abs/2402.04476), Jihyung Kil et al., arXiv
 
 [January, 2024] [A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis](https://openreview.net/forum?id=9JQtrumvg8), Izzeddin Gur et al., The Twelfth International Conference on Learning Representations
@@ -126,7 +130,23 @@
 
 [October, 2023] [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629), Shunyu Yao et al., arXiv
 
+[October, 2023] [HandMeThat: Human-Robot Communication in Physical and Social Environments](https://arxiv.org/abs/2310.03779), Yanming Wan et al., arXiv
+
 [May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigation](https://openreview.net/forum?id=oLc9sGOBbc), Hiroki Furuta et al., ICLR 2023 Workshop on Mathematical and Empirical Understanding of Foundation Models
+
+[March, 2023] [Offline pre-trained multi-agent decision transformer](https://link.springer.com/article/10.1007/s11633-022-1383-7), Linghui Meng et al., Machine Intelligence Research
+
+[October, 2022] [Socially CompliAnt Navigation Dataset (SCAND): A Large-Scale Dataset Of Demonstrations For Social Navigation](https://www.cs.utexas.edu/~xiao/SCAND/SCAND.html), Haresh Karnan et al., IEEE Robotics and Automation Letters
+
+[October, 2022] [DANLI: Deliberative Agent for Following Natural Language Instructions](https://arxiv.org/abs/2210.12485), Yichi Zhang et al., arXiv
+
+[July, 2022] [Dialfred: Dialogue-enabled agents for embodied instruction following](https://ieeexplore.ieee.org/abstract/document/9837390/citations#citations), Xiaofeng Gao et al., IEEE Robotics and Automation Letters
+
+[May, 2021] [Learning World Transition Model for Socially Aware Robot Navigation](https://ieeexplore.ieee.org/document/9561973), Yuxiang Cui et al., 2021 IEEE International Conference on Robotics and Automation (ICRA)
+
+[December, 2018] [Multi-agent generative adversarial imitation learning](https://proceedings.neurips.cc/paper/2018/hash/240c945bb72980130446fc2b40fbb8e0-Abstract.html), Jiaming Song et al., Advances in neural information processing systems
+
+[March, 2018] [Generative multi-agent behavioral cloning](https://arxiv.org/abs/1803.07612), Eric Zhan et al., arXiv preprint arXiv:1803.07612
 
 ### modeling/reinforcement-learning
 
