@@ -1,4 +1,5 @@
 import datetime
+import json
 import bibtexparser # type: ignore
 import bibtexparser.middlewares as m # type: ignore
 from tabulate import tabulate # type: ignore
@@ -100,6 +101,7 @@ def extract_bibtex_entries(bibtex: str) -> list[dict[str, str]]:
         for field, value in entry.items():
             entry_dict[field] = value
         entry_dict["subsection"] = subsection
+        entry_dict["bibtex"] = entry.raw
         entries.append(entry_dict)
     return entries
 
@@ -213,10 +215,42 @@ def order_entries_by_date(entries: list[dict]) -> list[dict]:
         sorted_entries.extend(group_sorted)
     return sorted_entries
 
+output_paper_tsx = "./pages/papers.tsx"
+
 def bibtex_to_table(bibtex: str, taxonomy: dict[str, list[str]]) -> tuple[str, str]:
     entries = extract_bibtex_entries(bibtex)
+    file = open(output_paper_tsx, "w")
+    print("""
+export type Paper = {
+    title: string
+    date: Date
+    environments: string
+    agents: string
+    evaluation: string
+    other: string
+    url: string
+    bibtex: string
+}
+
+export const data: Paper[] = [""", file=file)
+    
     for entry in entries:
         preprocess_entry(entry, taxonomy)
+        paper_entry = f""" 
+{"{"} title: {json.dumps(entry['title'])},
+    date: new Date("{entry['year']}, {entry['month']}"),
+    environments: "{entry['environments']}",
+    agents: "{entry['agents']}",
+    evaluation: "{entry['evaluation']}",
+    other: "{entry['other']}",
+    url: "{entry['url']}",
+    bibtex: {json.dumps(entry['bibtex'])},
+{"},"}
+        """
+        print(paper_entry, file=file)
+    print("]", file=file)
+    file.close()
+        
     
     stats = basic_stats(entries)
     # Create a Markdown and helper table
