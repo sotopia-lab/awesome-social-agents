@@ -1209,18 +1209,12 @@ url={https://openreview.net/forum?id=4znwzG92CE},
   author = {Jin, Junqi and Song, Chengru and Li, Han and Gai, Kun and Wang, Jun and Zhang, Weinan},
   title = {Real-Time Bidding with Multi-Agent Reinforcement Learning in Display Advertising},
   year = {2018},
-  isbn = {9781450360142},
   publisher = {Association for Computing Machinery},
-  address = {New York, NY, USA},
   url = {https://doi.org/10.1145/3269206.3272021},
-  doi = {10.1145/3269206.3272021},
   abstract = {Real-time advertising allows advertisers to bid for each impression for a visiting user. To optimize specific goals such as maximizing revenue and return on investment (ROI) led by ad placements, advertisers not only need to estimate the relevance between the ads and user's interests, but most importantly require a strategic response with respect to other advertisers bidding in the market. In this paper, we formulate bidding optimization with multi-agent reinforcement learning. To deal with a large number of advertisers, we propose a clustering method and assign each cluster with a strategic bidding agent. A practical Distributed Coordinated Multi-Agent Bidding (DCMAB) has been proposed and implemented to balance the tradeoff between the competition and cooperation among advertisers. The empirical study on our industry-scaled real-world data has demonstrated the effectiveness of our methods. Our results show cluster-based bidding would largely outperform single-agent and bandit approaches, and the coordinated bidding achieves better overall objectives than purely self-interested bidding agents.},
   booktitle = {Proceedings of the 27th ACM International Conference on Information and Knowledge Management},
   pages = {2193–2201},
   numpages = {9},
-  keywords = {real-time bidding, multi-agent reinforcement learning, display advertising, bid optimization},
-  location = {Torino, Italy},
-  series = {CIKM '18},
   month = oct,
   environments = {competition, virtual},
   agents = {reinforcement_learning, more_than_three_agents},
@@ -1640,19 +1634,9 @@ author = {Biswas, Abhijat and Wang, Allan and Silvera, Gustavo and Steinfeld, Aa
 title = {SocNavBench: A Grounded Simulation Testing Framework for Evaluating Social Navigation},
 year = {2022},
 month={2},
-issue_date = {September 2022},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-volume = {11},
-number = {3},
 url = {https://doi.org/10.1145/3476413},
-doi = {10.1145/3476413},
 abstract = {The human-robot interaction community has developed many methods for robots to navigate safely and socially alongside humans. However, experimental procedures to evaluate these works are usually constructed on a per-method basis. Such disparate evaluations make it difficult to compare the performance of such methods across the literature. To bridge this gap, we introduce SocNavBench, a simulation framework for evaluating social navigation algorithms. SocNavBench comprises a simulator with photo-realistic capabilities and curated social navigation scenarios grounded in real-world pedestrian data. We also provide an implementation of a suite of metrics to quantify the performance of navigation algorithms on these scenarios. Altogether, SocNavBench provides a test framework for evaluating disparate social navigation methods in a consistent and interpretable manner. To illustrate its use, we demonstrate testing three existing social navigation methods and a baseline method on SocNavBench, showing how the suite of metrics helps infer their performance trade-offs. Our code is open-source, allowing the addition of new scenarios and metrics by the community to help evolve SocNavBench to reflect advancements in our understanding of social navigation.},
 journal = {J. Hum.-Robot Interact.},
-month = {jul},
-articleno = {26},
-numpages = {24},
-keywords = {Benchmark, social navigation, pedestrian, human robot interaction},
       environments={implicit_objectives, embodied},
       agents={reinforcement_learning},
       evaluation={rule_based},
@@ -2254,6 +2238,57 @@ url={https://openreview.net/forum?id=w_7JMpGZRh0},
   title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
   author = {specical entry},
 }
+
+@article{shaikh2023rehearsal,
+  title={Rehearsal: Simulating conflict to teach conflict resolution},
+  author={Shaikh, Omar and Chai, Valentino and Gelfand, Michele J and Yang, Diyi and Bernstein, Michael S},
+  journal={arXiv preprint arXiv:2309.12309},
+  year={2023},
+  month={9},
+  url={https://arxiv.org/pdf/2309.12309.pdf},
+  environments = {implicit_objectives, text},
+  agents = {prompting_and_in_context_learning, two_agents},
+  evaluation = {human, rule_based},
+  other = {human_agent}
+}
+
+@article{STERGIOU2019102799,
+  title = {Analyzing human–human interactions: A survey},
+  journal = {Computer Vision and Image Understanding},
+  volume = {188},
+  pages = {102799},
+  year = {2019},
+  issn = {1077-3142},
+  doi = {https://doi.org/10.1016/j.cviu.2019.102799},
+  url = {https://www.sciencedirect.com/science/article/pii/S1077314219301158},
+  author = {Alexandros Stergiou and Ronald Poppe},
+  keywords = {Human-human interaction, Human interaction recognition, Human activity},
+  abstract = {Many videos depict people, and it is their interactions that inform us of their activities, relation to one another and the cultural and social setting. With advances in human action recognition, researchers have begun to address the automated recognition of these human–human interactions from video. The main challenges stem from dealing with the considerable variation in recording setting, the appearance of the people depicted and the coordinated performance of their interaction. This survey provides a summary of these challenges and datasets to address these, followed by an in-depth discussion of relevant vision-based recognition and detection methods. We focus on recent, promising work based on deep learning and convolutional neural networks (CNNs). Finally, we outline directions to overcome the limitations of the current state-of-the-art to analyze and, eventually, understand social human actions.},
+  month = {11},
+  environments = {collaboration, competition, mixed_objectives, implicit_objectives, embodied},
+  agents = {two_agents, more_than_three_agents, agent_teams},
+  evaluation = {human, rule_based, model_based},
+  other = {human_agent}
+}
+
+@INPROCEEDINGS{Ego4D2022CVPR,
+  author={Grauman, Kristen and Westbury, Andrew and Byrne, Eugene and Chavis, Zachary and Furnari, Antonino and Girdhar, Rohit and Hamburger, Jackson and Jiang, Hao and Liu, Miao and Liu, Xingyu and Martin, Miguel and Nagarajan, Tushar and Radosavovic, Ilija and Ramakrishnan, Santhosh Kumar and Ryan, Fiona and Sharma, Jayant and Wray, Michael and Xu, Mengmeng and Xu, Eric Zhongcong and Zhao, Chen and Bansal, Siddhant and Batra, Dhruv and Cartillier, Vincent and Crane, Sean and Do, Tien and Doulaty, Morrie and Erapalli, Akshay and Feichtenhofer, Christoph and Fragomeni, Adriano and Fu, Qichen and Fuegen, Christian and Gebreselasie, Abrham and Gonzalez, Cristina and Hillis, James and Huang, Xuhua and Huang, Yifei and Jia, Wenqi and Khoo, Weslie and Kolar, Jachym and Kottur, Satwik and Kumar, Anurag and Landini, Federico and Li, Chao and Li, Yanghao and Li, Zhenqiang and Mangalam, Karttikeya and Modhugu, Raghava and Munro, Jonathan and Murrell, Tullie and Nishiyasu, Takumi and Price, Will and Puentes, Paola Ruiz and Ramazanova, Merey and Sari, Leda and Somasundaram, Kiran and Southerland, Audrey and Sugano, Yusuke and Tao, Ruijie and Vo, Minh and Wang, Yuchen and Wu, Xindi and Yagi, Takuma and Zhu, Yunyi and Arbelaez, Pablo and Crandall, David and Damen, Dima and Farinella, Giovanni Maria and Ghanem, Bernard and Ithapu, Vamsi Krishna and Jawahar, C. V. and Joo, Hanbyul and Kitani, Kris and Li, Haizhou and Newcombe, Richard and Oliva, Aude and Park, Hyun Soo and Rehg, James M. and Sato, Yoichi and Shi, Jianbo and Shou, Mike Zheng and Torralba, Antonio and Torresani, Lorenzo and Yan, Mingfei and Malik, Jitendra},
+  title     = {Ego4D: Around the {W}orld in 3,000 {H}ours of {E}gocentric {V}ideo},
+  booktitle   = {IEEE/CVF Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2022},
+  month = {6},
+  url = {https://ego4d-data.org/},
+  environments = {collaboration, competition, mixed_objectives, implicit_objectives, embodied},
+  agents = {two_agents, more_than_three_agents, agent_teams},
+  evaluation = {human, rule_based, model_based},
+  other = {human_agent}
+}
+
+
+
+
+
+
 
 ### Challenges
 

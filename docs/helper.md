@@ -204,6 +204,8 @@
 
 [June, 2022] [Analysis of Dialogue in Human-Human Collaboration in {M}inecraft](https://aclanthology.org/2022.lrec-1.431), Ichikawa et al., Proceedings of the Thirteenth Language Resources and Evaluation Conference
 
+[February, 2022] [SocNavBench: A Grounded Simulation Testing Framework for Evaluating Social Navigation](https://doi.org/10.1145/3476413), Abhijat Biswas et al., J. Hum.-Robot Interact.
+
 [February, 2022] [{TEACh: Task-driven Embodied Agents that Chat}](https://arxiv.org/abs/2110.00534), Aishwarya Padmakumar et al., Proceedings of the AAAI Conference on Artificial Intelligence
 
 [November, 2021] [{M}ind{C}raft: Theory of Mind Modeling for Situated Dialogue in Collaborative Tasks](https://aclanthology.org/2021.emnlp-main.85), Bara et al., Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing
@@ -271,6 +273,14 @@
 [January, 2021] [Watch-And-Help: A Challenge for Social Perception and Human-{\{}AI{\}} Collaboration](https://openreview.net/forum?id=w_7JMpGZRh0), Xavier Puig et al., International Conference on Learning Representations
 
 [October, 2019] [On the utility of learning about humans for human-ai coordination](https://proceedings.neurips.cc/paper_files/paper/2019/file/f5b1b89d98b7286673128a5fb112cb9a-Paper.pdf), Micah Carroll et al., Advances in neural information processing systems
+
+### interactions/human
+
+[September, 2023] [Rehearsal: Simulating conflict to teach conflict resolution](https://arxiv.org/pdf/2309.12309.pdf), Omar Shaikh et al., arXiv preprint arXiv:2309.12309
+
+[June, 2022] [Ego4D: Around the {W}orld in 3,000 {H}ours of {E}gocentric {V}ideo](https://ego4d-data.org/), Kristen Grauman et al., IEEE/CVF Computer Vision and Pattern Recognition (CVPR)
+
+[November, 2019] [Analyzing human–human interactions: A survey](https://www.sciencedirect.com/science/article/pii/S1077314219301158), Alexandros Stergiou et al., Computer Vision and Image Understanding
 
 ### applications/health
 
