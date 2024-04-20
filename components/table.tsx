@@ -16,9 +16,9 @@ import {
   getSortedRowModel,
   useReactTable,
 } from "@tanstack/react-table"
-import { Input } from "../components/ui/input"
-import { Button } from "../components/ui/button"
-import { Checkbox } from "../components/ui/checkbox"
+import { Input } from "./ui/input"
+import { Button } from "./ui/button"
+import { Checkbox } from "./ui/checkbox"
 import {
   DropdownMenu,
   DropdownMenuCheckboxItem,
@@ -27,7 +27,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "../components/ui/dropdown-menu"
+} from "./ui/dropdown-menu"
 import {
   Table,
   TableBody,
@@ -35,7 +35,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "../components/ui/table"
+} from "./ui/table"
 
 import {
   data, Paper
