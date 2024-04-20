@@ -328,6 +328,28 @@
 
 [August, 2022] [Social Simulacra: Creating Populated Prototypes for Social Computing Systems](https://doi.org/10.1145/3526113.3545616), Joon Sung Park et al., Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology
 
+### concerns/risks
+
+[February, 2024] [The potential of generative AI for personalized persuasion at scale](https://www.nature.com/articles/s41598-024-53755-0), SC Matz et al., Scientific Reports
+
+[January, 2024] [Two Types of AI Existential Risk: Decisive and Accumulative](https://arxiv.org/abs/2401.07836), Atoosa Kasirzadeh et al., arXiv
+
+[March, 2023] [Artificial Influence: An Analysis Of AI-Driven Persuasion](https://arxiv.org/abs/2303.08721), Matthew Burtell et al., arXiv
+
+[October, 2022] ["Playing God": How the Metaverse Will Challenge Our Very Notion of Free Will](https://bigthink.com/the-future/playing-god-metaverse-mind-control-free-will/), Louis Rosenberg et al., Big Think
+
+[September, 2022] [Risk and Exposure of XAI in Persuasion and Argumentation: The case of Manipulation](https://link.springer.com/chapter/10.1007/978-3-031-15565-9_13), Rachele Carli et al., International Workshop on Explainable, Transparent Autonomous Agents and Multi-Agent Systems
+
+[December, 2021] [Risks from AI Persuasion](https://www.alignmentforum.org/posts/5cWtwATHL6KyzChck/risks-from-ai-persuasion), Beth Barnes et al., AI Alignment Forum
+
+[June, 2021] [Bad machines corrupt good morals](https://www.nature.com/articles/s41562-021-01128-2), Nils K{\"o}bis et al., Nature Human Behaviour
+
+[February, 2021] [The corruptive force of AI-generated advice](https://arxiv.org/abs/2102.07536), Margarita Leib et al., arXiv
+
+[November, 2020] [Persuasion Tools: AI Takeover Without AGI or Agency?](https://www.alignmentforum.org/posts/qKvn7rxP2mzJbKfcA/persuasion-tools-ai-takeover-without-agi-or-agency), Daniel Kokotajlo et al., AI Alignment Forum
+
+[February, 2020] [Artificial intelligence crime: An interdisciplinary analysis of foreseeable threats and solutions](https://link.springer.com/article/10.1007/s11948-018-00081-0), Thomas C King et al., Science and engineering ethics
+
 ### concerns/safety
 
 [April, 2024] [Frontier AI Ethics: Anticipating and Evaluating the Societal Impacts of Generative Agents](https://api.semanticscholar.org/CorpusID:269033095), Seth Lazar et al., arXiv
