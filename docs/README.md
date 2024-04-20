@@ -268,8 +268,29 @@ May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigatio
 
 [April, 2023] [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442), Park et al., UIST
 
+[December, 2023] [Diverse Conventions for Human-AI Collaboration](https://proceedings.neurips.cc/paper_files/paper/2023/file/4818263715b25dc137d393af8af6d2fc-Paper-Conference.pdf), Bidipta Sarkar et al., Advances in Neural Information Processing Systems
 
 #### Human Robot Interaction
+
+[March, 2024] [Generative expressive robot behaviors using large language models](https://arxiv.org/abs/2401.14673), Karthik Mahadevan et al., Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction
+
+[October, 2023] [Eureka: Human-level reward design via coding large language models](https://arxiv.org/abs/2310.12931), Yecheng Jason Ma et al., arXiv preprint arXiv:2310.12931
+
+[August, 2023] [Gesture-informed robot assistance via foundation models](https://arxiv.org/abs/2309.02721), Li-Heng Lin et al., 7th Annual Conference on Robot Learning
+
+[July, 2023] [Open problems and fundamental limitations of reinforcement learning from human feedback](https://arxiv.org/abs/2307.15217), Stephen Casper et al., arXiv preprint arXiv:2307.15217
+
+[July, 2023] [Robots that ask for help: Uncertainty alignment for large language model planners](https://arxiv.org/abs/2307.01928), Allen Z Ren et al., arXiv preprint arXiv:2307.01928
+
+[June, 2023] [Language to rewards for robotic skill synthesis](https://arxiv.org/abs/2306.08647), Wenhao Yu et al., arXiv preprint arXiv:2306.08647
+
+[March, 2023] [No, to the right: Online language corrections for robotic manipulation via shared autonomy](https://arxiv.org/abs/2301.02555), Yuchen Cui et al., Proceedings of the 2023 ACM/IEEE International Conference on Human-Robot Interaction
+
+[March, 2023] [In-Mouth Robotic Bite Transfer with Visual and Haptic Sensing](https://arxiv.org/abs/2211.12705), Lorenzo Shaikewitz et al., International Conference on Robotics and Automation (ICRA)
+
+[March, 2023] [Few-shot preference learning for human-in-the-loop rl](https://arxiv.org/abs/2212.03363), Donald Joseph Hejna III et al., Conference on Robot Learning
+
+[August, 2021] [Formalizing and guaranteeing human-robot interaction](https://arxiv.org/abs/2006.16732), Hadas Kress-Gazit et al., Communications of the ACM
 
 #### Human-Human Interaction
 
