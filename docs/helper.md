@@ -276,11 +276,25 @@
 
 ### interactions/human
 
+[April, 2024] [NegotiAge](https://www.negotiage.com/), Lee Lindquist et al., NegotiAge
+
 [September, 2023] [Rehearsal: Simulating conflict to teach conflict resolution](https://arxiv.org/pdf/2309.12309.pdf), Omar Shaikh et al., arXiv preprint arXiv:2309.12309
 
 [June, 2022] [Ego4D: Around the {W}orld in 3,000 {H}ours of {E}gocentric {V}ideo](https://ego4d-data.org/), Kristen Grauman et al., IEEE/CVF Computer Vision and Pattern Recognition (CVPR)
 
+[December, 2021] [Agent reasoning in AI-powered negotiation](https://link.springer.com/referenceworkentry/10.1007/978-3-030-49629-6_26), Tinglong Dai et al., Handbook of Group Decision and Negotiation
+
+[December, 2021] [Negotiation, Online Dispute Resolution, and Artificial Intelligence](https://link.springer.com/referenceworkentry/10.1007/978-3-030-49629-6_38), John Zeleznikow et al., Handbook of Group Decision and Negotiation
+
+[October, 2021] [Artificial intelligence coaches for sales agents: Caveats and solutions](https://journals.sagepub.com/doi/full/10.1177/0022242920956676), Xueming Luo et al., Journal of Marketing
+
+[May, 2021] [Towards an AI Coach to Infer Team Mental Model Alignment in Healthcare](https://ieeexplore.ieee.org/document/9475925), Sangwon Seo et al., 2021 IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA)
+
+[October, 2020] [A chatbot-based coaching intervention for adolescents to promote life skills: pilot study](https://humanfactors.jmir.org/2020/1/e16762), Silvia Gabrielli et al., JMIR human factors
+
 [November, 2019] [Analyzing human–human interactions: A survey](https://www.sciencedirect.com/science/article/pii/S1077314219301158), Alexandros Stergiou et al., Computer Vision and Image Understanding
+
+[December, 2018] [Blending human and artificial intelligence to support autistic children’s social communication skills](https://dl.acm.org/doi/abs/10.1145/3271484), Ka{\'s}ka Porayska-Pomsta et al., ACM Transactions on Computer-Human Interaction (TOCHI)
 
 ### applications/health
 
