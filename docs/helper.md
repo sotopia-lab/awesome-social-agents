@@ -256,6 +256,20 @@
 
 [May, 2016] [Evaluation of starcraft artificial intelligence competition bots by experienced human players](https://dl.acm.org/doi/pdf/10.1145/2851581.2892305), Man-Je Kim et al., Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems
 
+### evaluation/virtual
+
+[November, 2023] [GAIA: a benchmark for General AI Assistants](https://arxiv.org/abs/2311.12983), Grégoire Mialon et al., arXiv
+
+[November, 2023] [MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework](https://api.semanticscholar.org/CorpusID:265301950), Sirui Hong et al., ArXiv
+
+[October, 2023] [OpenAgents: An Open Platform for Language Agents in the Wild](https://api.semanticscholar.org/CorpusID:264172893), Tianbao Xie et al., ArXiv
+
+[September, 2023] [Cognitive Architectures for Language Agents](https://api.semanticscholar.org/CorpusID:261556862), Theodore R. Sumers et al., ArXiv
+
+[February, 2020] [Embedding Conversational Agents into AR: Invisible or with a Realistic Human Body?](https://doi.org/10.1145/3374920.3374956), Jens Reinhardt et al., Proceedings of the Fourteenth International Conference on Tangible, Embedded, and Embodied Interaction
+
+[May, 2019] [Exploring Virtual Agents for Augmented Reality](https://doi.org/10.1145/3290605.3300511), Isaac Wang et al., CHI
+
 ### evaluation/robotics
 
 [March, 2024] [HumanoidBench: Simulated Humanoid Benchmark for Whole-Body Locomotion and Manipulation](https://arxiv.org/abs/2403.10506), Carmelo Sferrazza et al., arXiv
