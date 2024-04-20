@@ -550,6 +550,8 @@
       primaryClass={cs.AI}
 }
 
+
+
 #### Virtual Environments
 @article{environments/embodied,
   title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
@@ -561,6 +563,48 @@
   title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
   author = {specical entry},
 }
+
+
+
+@inproceedings{10.1145/3406499.3418760,
+author = {Tsoi, Nathan and Hussein, Mohamed and Espinoza, Jeacy and Ruiz, Xavier and V\'{a}zquez, Marynel},
+title = {SEAN: Social Environment for Autonomous Navigation},
+year = {2020},
+month={9},
+isbn = {9781450380546},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3406499.3418760},
+doi = {10.1145/3406499.3418760},
+abstract = {Social navigation research is performed on a variety of robotic platforms, scenarios, and environments. Making comparisons between navigation algorithms is challenging because of the effort involved in building these systems and the diversity of platforms used by the community; nonetheless, evaluation is critical to understanding progress in the field. In a step towards reproducible evaluation of social navigation algorithms, we propose the Social Environment for Autonomous Navigation (SEAN). SEAN is a high visual fidelity, open source, and extensible social navigation simulation platform which includes a toolkit for evaluation of navigation algorithms. We demonstrate SEAN and its evaluation toolkit in two environments with dynamic pedestrians and using two different robots.},
+booktitle = {Proceedings of the 8th International Conference on Human-Agent Interaction},
+pages = {281–283},
+numpages = {3},
+keywords = {social robot navigation, human-robot interaction},
+location = {Virtual Event, USA},
+series = {HAI '20},
+environments={mixed_objectives, embodied},
+agents={reinforcement_learning},
+evaluation={rule_based},
+other={human_agent, simulated_humans}
+}
+
+@inproceedings{puig2024habitat,
+title={Habitat 3.0: A Co-Habitat for Humans, Avatars, and Robots},
+author={Xavier Puig and Eric Undersander and Andrew Szot and Mikael Dallaire Cote and Tsung-Yen Yang and Ruslan Partsey and Ruta Desai and Alexander Clegg and Michal Hlavac and So Yeon Min and Vladim{\'\i}r Vondru{\v{s}} and Theophile Gervet and Vincent-Pierre Berges and John M Turner and Oleksandr Maksymets and Zsolt Kira and Mrinal Kalakrishnan and Jitendra Malik and Devendra Singh Chaplot and Unnat Jain and Dhruv Batra and Akshara Rai and Roozbeh Mottaghi},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+month={10},
+url={https://openreview.net/forum?id=4znwzG92CE},
+  environments={mixed_objectives, embodied},
+  agents={reinforcement_learning},
+  evaluation={rule_based},
+  other={human_agent, simulated_humans}
+}
+
+
+
+
 
 
 #### Robotics
@@ -1550,10 +1594,35 @@
   author = {specical entry},
 }
 
+@inproceedings{min-etal-2022-dont,
+    title = "Don{'}t Copy the Teacher: Data and Model Challenges in Embodied Dialogue",
+    author = "Min, So Yeon  and
+      Zhu, Hao  and
+      Salakhutdinov, Ruslan  and
+      Bisk, Yonatan",
+    editor = "Goldberg, Yoav  and
+      Kozareva, Zornitsa  and
+      Zhang, Yue",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.635",
+    doi = "10.18653/v1/2022.emnlp-main.635",
+    pages = "9361--9368",
+    abstract = "Embodied dialogue instruction following requires an agent to complete a complex sequence of tasks from a natural language exchange. The recent introduction of benchmarks raises the question of how best to train and evaluate models for this multi-turn, multi-agent, long-horizon task. This paper contributes to that conversation, by arguing that imitation learning (IL) and related low-level metrics are actually misleading and do not align with the goals of embodied dialogue research and may hinder progress. We provide empirical comparisons of metrics, analysis of three models, and make suggestions for how the field might best progress. First, we observe that models trained with IL take spurious actions during evaluation. Second, we find that existing models fail to ground query utterances, which are essential for task completion. Third, we argue evaluation should focus on higher-level semantic goals. We will release code to additionally filter the data and benchmark models for improved evaluation.",
+  environments={mixed_objectives, collaboration, embodied},
+  agents={agents_with_memory},
+  evaluation={qualitative, human, rule_based},
+  other={n/a}
+}
+
 @misc{guo2024embodied,
       title={Embodied LLM Agents Learn to Cooperate in Organized Teams}, 
       author={Xudong Guo and Kaixuan Huang and Jiale Liu and Wenhui Fan and Natalia Vélez and Qingyun Wu and Huazheng Wang and Thomas L. Griffiths and Mengdi Wang},
       year={2024},
+      month={3},
       environments = {collaboration, embodied},
       agents = {prompting_and_in_context_learning, more_than_three_agents},
       evaluation = {model_based, human},
@@ -1564,6 +1633,60 @@
       primaryClass={cs.AI}
 }
 
+
+
+@article{10.1145/3476413,
+author = {Biswas, Abhijat and Wang, Allan and Silvera, Gustavo and Steinfeld, Aaron and Admoni, Henny},
+title = {SocNavBench: A Grounded Simulation Testing Framework for Evaluating Social Navigation},
+year = {2022},
+month={2},
+issue_date = {September 2022},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {11},
+number = {3},
+url = {https://doi.org/10.1145/3476413},
+doi = {10.1145/3476413},
+abstract = {The human-robot interaction community has developed many methods for robots to navigate safely and socially alongside humans. However, experimental procedures to evaluate these works are usually constructed on a per-method basis. Such disparate evaluations make it difficult to compare the performance of such methods across the literature. To bridge this gap, we introduce SocNavBench, a simulation framework for evaluating social navigation algorithms. SocNavBench comprises a simulator with photo-realistic capabilities and curated social navigation scenarios grounded in real-world pedestrian data. We also provide an implementation of a suite of metrics to quantify the performance of navigation algorithms on these scenarios. Altogether, SocNavBench provides a test framework for evaluating disparate social navigation methods in a consistent and interpretable manner. To illustrate its use, we demonstrate testing three existing social navigation methods and a baseline method on SocNavBench, showing how the suite of metrics helps infer their performance trade-offs. Our code is open-source, allowing the addition of new scenarios and metrics by the community to help evolve SocNavBench to reflect advancements in our understanding of social navigation.},
+journal = {J. Hum.-Robot Interact.},
+month = {jul},
+articleno = {26},
+numpages = {24},
+keywords = {Benchmark, social navigation, pedestrian, human robot interaction},
+      environments={implicit_objectives, embodied},
+      agents={reinforcement_learning},
+      evaluation={rule_based},
+      other={simulated_humans}
+}
+
+
+@inproceedings{10.5555/3463952.3464159,
+author = {Knott, Paul and Carroll, Micah and Devlin, Sam and Ciosek, Kamil and Hofmann, Katja and Dragan, Anca and Shah, Rohin},
+title = {Evaluating the Robustness of Collaborative Agents},
+year = {2021},
+month={1},
+url={https://dl.acm.org/doi/abs/10.5555/3463952.3464159},
+isbn = {9781450383073},
+publisher = {International Foundation for Autonomous Agents and Multiagent Systems},
+address = {Richland, SC},
+abstract = {Artificial agents trained by deep reinforcement learning will likely encounter novel situations after deployment that were never seen during training. Our agent must be robust to handle such situations well. However, if we cannot rely on the average training or validation reward as a metric, then how can we effectively evaluate robustness? We take inspiration from the practice of unit testing in software engineering. Specifically, we suggest that when designing AI agents that collaborate with humans, designers should search for potential edge cases in possible partner behavior and possible states encountered, and write tests which check that the behavior of the agent in these edge cases is reasonable. We apply this methodology to build a suite of unit tests for the Overcooked-AI environment, and use this test suite to evaluate three proposals for improving robustness. We find that the test suite provides significant insight into the effects of these proposals that were generally not revealed by looking solely at the average validation reward. For our full paper, see https://arxiv.org/abs/2101.05507 arxiv.org/abs/2101.05507},
+booktitle = {Proceedings of the 20th International Conference on Autonomous Agents and MultiAgent Systems},
+pages = {1560–1562},
+numpages = {3},
+keywords = {human-AI collaboration, multi-agent RL, robustness},
+location = {Virtual Event, United Kingdom},
+series = {AAMAS '21},
+      environments={collaboration, embodied},
+      agents={reinforcement_learning},
+      evaluation={rule_based},
+      other={n/a}
+}
+
+
+
+
+
+=======
 @misc{singh2024change,
       title={How much can change in a year? Revisiting Evaluation in Multi-Agent Reinforcement Learning}, 
       author={Siddarth Singh and Omayma Mahjoub and Ruan de Kock and Wiem Khlifi and Abidine Vall and Kale-ab Tessera and Arnu Pretorius},
@@ -1737,6 +1860,7 @@
   other = {human_agent},
   url = {https://dl.acm.org/doi/pdf/10.1145/2851581.2892305},
 }
+
 
 #### Evaluating virtual social agents
 @article{evaluation/virtual,
@@ -2016,6 +2140,108 @@
   title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
   author = {specical entry},
 }
+
+
+@inproceedings{puig2023nopa,
+  title={Nopa: Neurally-guided online probabilistic assistance for building socially intelligent home assistants},
+  author={Puig, Xavier and Shu, Tianmin and Tenenbaum, Joshua B and Torralba, Antonio},
+  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={7628--7634},
+  year={2023},
+  month = {1},
+  organization={IEEE},
+  url={https://ieeexplore.ieee.org/document/10161352},
+  environments={collaboration, embodied},
+  agents={reinforcement_learning},
+  evaluation={rule_based},
+  other={n/a}
+}
+
+@inproceedings{puig2021watchandhelp,
+title={Watch-And-Help: A Challenge for Social Perception and Human-{\{}AI{\}} Collaboration},
+author={Xavier Puig and Tianmin Shu and Shuang Li and Zilin Wang and Yuan-Hong Liao and Joshua B. Tenenbaum and Sanja Fidler and Antonio Torralba},
+booktitle={International Conference on Learning Representations},
+year={2021},
+month={1},
+url={https://openreview.net/forum?id=w_7JMpGZRh0},
+  environments={collaboration, embodied},
+  agents={reinforcement_learning},
+  evaluation={rule_based},
+  other={n/a}
+}
+
+
+@article{carroll2019utility,
+  title={On the utility of learning about humans for human-ai coordination},
+  author={Carroll, Micah and Shah, Rohin and Ho, Mark K and Griffiths, Tom and Seshia, Sanjit and Abbeel, Pieter and Dragan, Anca},
+  journal={Advances in neural information processing systems},
+  volume={32},
+  year={2019},
+  month={10},
+  url={https://proceedings.neurips.cc/paper_files/paper/2019/file/f5b1b89d98b7286673128a5fb112cb9a-Paper.pdf},
+  environments={collaboration, embodied},
+  agents={reinforcement_learning},
+  evaluation={rule_based},
+  other={n/a}
+}
+
+@inproceedings{nalepka2021interaction,
+  title={Interaction flexibility in artificial agents teaming with humans},
+  author={Nalepka, Patrick and Gregory-Dunsmore, Jordan P and Simpson, James and Patil, Gaurav and Richardson, Michael J},
+  booktitle={Proceedings of the Annual Meeting of the Cognitive Science Society},
+  volume={43},
+  number={43},
+  year={2021},
+  month={5},
+  url={https://escholarship.org/uc/item/9ks6n70q},
+  environments={collaboration, embodied},
+  agents={reinforcement_learning},
+  evaluation={rule_based},
+  other={n/a}
+}
+
+@article{liu2023llm,
+  title={Llm-powered hierarchical language agent for real-time human-ai coordination},
+  author={Liu, Jijia and Yu, Chao and Gao, Jiaxuan and Xie, Yuqing and Liao, Qingmin and Wu, Yi and Wang, Yu},
+  journal={arXiv preprint arXiv:2312.15224},
+  year={2023},
+  month={12},
+  url={https://arxiv.org/abs/2312.15224},
+  environments={collaboration, embodied},
+  agents={reinforcement_learning},
+  evaluation={rule_based},
+  other={n/a}
+}
+
+@inproceedings{szot2023adaptive,
+  title={Adaptive coordination in social embodied rearrangement},
+  author={Szot, Andrew and Jain, Unnat and Batra, Dhruv and Kira, Zsolt and Desai, Ruta and Rai, Akshara},
+  booktitle={International Conference on Machine Learning},
+  pages={33365--33380},
+  year={2023},
+  month={5},
+  organization={PMLR},
+  url={https://proceedings.mlr.press/v202/szot23a/szot23a.pdf},
+  environments={collaboration, embodied},
+  agents={prompting_and_in_context_learning},
+  evaluation={rule_based},
+  other={n/a}
+}
+
+@inproceedings{park2023generative,
+  title={Generative agents: Interactive simulacra of human behavior},
+  author={Park, Joon Sung and O'Brien, Joseph and Cai, Carrie Jun and Morris, Meredith Ringel and Liang, Percy and Bernstein, Michael S},
+  booktitle={Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology},
+  pages={1--22},
+  year={2023},
+  month={4},
+  url={https://dl.acm.org/doi/abs/10.1145/3586183.3606763},
+  environments={mixed_objectives, embodied},
+  agents={prompting_and_in_context_learning},
+  evaluation={rule_based},
+  other={n/a}
+}
+
 
 #### Human Robot Interaction
 @article{interactions/robot,

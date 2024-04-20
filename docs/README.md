@@ -203,6 +203,8 @@ May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigatio
  
 #### Evaluating embodied social agents
 
+[December, 2022] [Don't Copy the Teacher: Data and Model Challenges in Embodied Dialogue](https://aclanthology.org/2022.emnlp-main.635/), Min et al., EMNLP
+
 [March, 2024] [Embodied LLM Agents Learn to Cooperate in Organized Teams](https://arxiv.org/abs/2403.12482), Xudong Guo et al., arXiv
 
 [Februrary, 2021] [SocNavBench: A Grounded Simulation Testing Framework for Evaluating Social Navigation](https://arxiv.org/abs/2103.00047) Biswas et al., ACM Transactions on Human-Robot Interaction
@@ -254,7 +256,7 @@ May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigatio
 
 [January, 2023] [NOPA: Neurally-guided Online Probabilistic Assistance for Building Socially Intelligent Home Assistants](https://arxiv.org/pdf/2301.05223.pdf), Puig et al.,  ICRA 
 
-[October, 2020] [WATCH-AND-HELP: A CHALLENGE FOR SOCIAL PERCEPTION AND HUMAN-AI COLLABORATION](https://arxiv.org/pdf/2010.09890.pdf), Puig et al., ICLR
+[Januaray, 2021] [WATCH-AND-HELP: A CHALLENGE FOR SOCIAL PERCEPTION AND HUMAN-AI COLLABORATION](https://arxiv.org/pdf/2010.09890.pdf), Puig et al., ICLR
 
 [October, 2019] [On the utility of learning about humans for human-ai coordination](https://arxiv.org/pdf/1910.05789.pdf), Carroll et al., Neurips
 
