@@ -277,3 +277,25 @@
 [February, 2024] [Unveiling the Truth and Facilitating Change: Towards Agent-based Large-scale Social Movement Simulation](https://arxiv.org/abs/2402.16333), Xinyi Mou et al., arXiv
 
 [August, 2022] [Social Simulacra: Creating Populated Prototypes for Social Computing Systems](https://doi.org/10.1145/3526113.3545616), Joon Sung Park et al., Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology
+
+### concerns/safety
+
+[April, 2024] [Frontier AI Ethics: Anticipating and Evaluating the Societal Impacts of Generative Agents](https://api.semanticscholar.org/CorpusID:269033095), Seth Lazar et al., arXiv
+
+[January, 2024] [Deception and Manipulation in Generative AI](https://api.semanticscholar.org/CorpusID:267068787), Christian Tarsney et al., ArXiv
+
+[October, 2023] [Towards Understanding Sycophancy in Language Models](https://api.semanticscholar.org/CorpusID:264405698), Mrinank Sharma et al., ArXiv
+
+[September, 2023] [Identifying the Risks of LM Agents with an LM-Emulated Sandbox](https://arxiv.org/abs/2309.15817), Yangjun Ruan et al., arXiv
+
+[August, 2023] [AI Deception: A Survey of Examples, Risks, and Potential Solutions](https://api.semanticscholar.org/CorpusID:261276587), Peter S. Park et al., ArXiv
+
+[June, 2023] [An Overview of Catastrophic AI Risks](https://arxiv.org/abs/2306.12001), Dan Hendrycks et al., arXiv
+
+[May, 2023] [Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting](https://api.semanticscholar.org/CorpusID:258556812), Miles Turpin et al., ArXiv
+
+[December, 2022] [Understanding Stereotypes in Language Models: Towards Robust Measurement and Zero-Shot Debiasing](https://api.semanticscholar.org/CorpusID:254926728), Justus Mattern et al., ArXiv
+
+[December, 2022] [Constitutional AI: Harmlessness from AI Feedback](https://api.semanticscholar.org/CorpusID:254823489), Yuntao Bai et al., ArXiv
+
+[June, 2021] [Towards Understanding and Mitigating Social Biases in Language Models](https://api.semanticscholar.org/CorpusID:235623756), Paul Pu Liang et al., International Conference on Machine Learning
