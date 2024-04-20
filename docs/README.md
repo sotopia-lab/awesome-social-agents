@@ -200,6 +200,20 @@ May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigatio
 [November, 2020] [{GRADE}: Automatic Graph-Enhanced Coherence Metric for Evaluating Open-Domain Dialogue Systems](https://aclanthology.org/2020.emnlp-main.742), Huang et al., Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)
 
 [July, 2020] [Unsupervised Evaluation of Interactive Dialog with {D}ialo{GPT}](https://aclanthology.org/2020.sigdial-1.28), Mehri et al., Proceedings of the 21th Annual Meeting of the Special Interest Group on Discourse and Dialogue
+
+[December, 2023] [x{D}ial-Eval: A Multilingual Open-Domain Dialogue Evaluation Benchmark](https://aclanthology.org/2023.findings-emnlp.371), Zhang et al., Findings of the Association for Computational Linguistics: EMNLP 2023
+
+[July, 2023] [Don{'}t Forget Your {ABC}{'}s: Evaluating the State-of-the-Art in Chat-Oriented Dialogue Systems](https://aclanthology.org/2023.acl-long.839), Finch et al., Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+
+[May, 2022] [Human Evaluation of Conversations is an Open Problem: comparing the sensitivity of various methods for evaluating dialogue agents](https://aclanthology.org/2022.nlp4convai-1.8), Smith et al., Proceedings of the 4th Workshop on NLP for Conversational AI
+
+[August, 2021] [{D}yna{E}val: Unifying Turn and Dialogue Level Evaluation](https://aclanthology.org/2021.acl-long.441), Zhang et al., Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+
+[January, 2021] [Survey on evaluation methods for dialogue systems](https://link.springer.com/article/10.1007/s10462-020-09866-x), Jan Deriu et al., Artificial Intelligence Review
+
+[July, 2020] [Towards Unified Dialogue System Evaluation: A Comprehensive Analysis of Current Evaluation Protocols](https://aclanthology.org/2020.sigdial-1.29), Finch et al., Proceedings of the 21th Annual Meeting of the Special Interest Group on Discourse and Dialogue
+
+[July, 2020] [u{BLEU}: Uncertainty-Aware Automatic Evaluation Method for Open-Domain Dialogue Systems](https://aclanthology.org/2020.acl-srw.27), Tsuta et al., Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop
  
 #### Evaluating embodied social agents
 
