@@ -8,6 +8,38 @@ from pprint import pprint
 from collections import Counter
 from itertools import groupby
 
+
+# Patch bibtextparser to exit with when the keys are repeated
+from copy import deepcopy
+import logging
+
+from bibtexparser.model import Entry # type: ignore
+from bibtexparser.model import ExplicitComment
+from bibtexparser.model import ImplicitComment
+from bibtexparser.model import Preamble
+from bibtexparser.model import String
+from bibtexparser.model import DuplicateBlockKeyBlock
+from bibtexparser.middlewares.middleware import BlockMiddleware # type: ignore
+def _transform_block(self, block, library):
+    block = block if self.allow_inplace_modification else deepcopy(block)
+    if isinstance(block, Entry):
+        return self.transform_entry(block, library)
+    elif isinstance(block, String):
+        return self.transform_string(block, library)
+    elif isinstance(block, Preamble):
+        return self.transform_preamble(block, library)
+    elif isinstance(block, ExplicitComment):
+        return self.transform_explicit_comment(block, library)
+    elif isinstance(block, ImplicitComment):
+        return self.transform_implicit_comment(block, library)
+
+    if isinstance(block, DuplicateBlockKeyBlock):
+        raise ValueError("Repeated keys found in the BibTeX file: {}".format(block.raw))
+    logging.warning("Unknown block type: %s", block)
+    return block
+
+BlockMiddleware.transform_block = _transform_block 
+
 # environments:
 # collaboration, competition, mixed_objectives, implicit_objectives,
 # text, virtual, embodied, robotics,
