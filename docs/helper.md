@@ -250,8 +250,6 @@
 
 [September, 2023] [Rehearsal: Simulating conflict to teach conflict resolution](https://arxiv.org/pdf/2309.12309.pdf), Omar Shaikh et al., arXiv preprint arXiv:2309.12309
 
-[May, 2023] [Helping the Helper: Supporting Peer Counselors via AI-Empowered Practice and Feedback](https://arxiv.org/abs/2305.08982), Shang-Ling Hsu et al., arXiv
-
 [June, 2022] [Ego4D: Around the {W}orld in 3,000 {H}ours of {E}gocentric {V}ideo](https://ego4d-data.org/), Kristen Grauman et al., IEEE/CVF Computer Vision and Pattern Recognition (CVPR)
 
 [November, 2019] [Analyzing human–human interactions: A survey](https://www.sciencedirect.com/science/article/pii/S1077314219301158), Alexandros Stergiou et al., Computer Vision and Image Understanding
@@ -269,6 +267,8 @@
 [February, 2024] [COCOA: CBT-based Conversational Counseling Agent using Memory Specialized in Cognitive Distortions and Dynamic Prompt](https://arxiv.org/abs/2402.17546), Suyeon Lee et al., arXiv
 
 [January, 2024] [Enhancing Diagnostic Accuracy through Multi-Agent Conversations: Using Large Language Models to Mitigate Cognitive Bias](https://arxiv.org/abs/2401.14589), Yu He Ke et al., arXiv
+
+[May, 2023] [Helping the Helper: Supporting Peer Counselors via AI-Empowered Practice and Feedback](https://arxiv.org/abs/2305.08982), Shang-Ling Hsu et al., arXiv
 
 [May, 2023] [Read, Diagnose and Chat: Towards Explainable and Interactive LLMs-Augmented Depression Detection in Social Media](https://arxiv.org/abs/2305.05138), Wei Qin et al., arXiv
 
