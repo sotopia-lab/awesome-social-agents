@@ -312,6 +312,8 @@
 
 ### evaluation/virtual
 
+[February, 2024] [WebLINX: Real-World Website Navigation with Multi-Turn Dialogue](https://arxiv.org/abs/2402.05930), Xing Han Lù et al., ArXiv
+
 [November, 2023] [GAIA: a benchmark for General AI Assistants](https://arxiv.org/abs/2311.12983), Grégoire Mialon et al., arXiv
 
 [November, 2023] [MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework](https://api.semanticscholar.org/CorpusID:265301950), Sirui Hong et al., ArXiv
@@ -323,10 +325,6 @@
 [February, 2020] [Embedding Conversational Agents into AR: Invisible or with a Realistic Human Body?](https://doi.org/10.1145/3374920.3374956), Jens Reinhardt et al., Proceedings of the Fourteenth International Conference on Tangible, Embedded, and Embodied Interaction
 
 [May, 2019] [Exploring Virtual Agents for Augmented Reality](https://doi.org/10.1145/3290605.3300511), Isaac Wang et al., CHI
-
-### evaluation/virtual
-
-[February, 2024] [WebLINX: Real-World Website Navigation with Multi-Turn Dialogue](https://arxiv.org/abs/2402.05930), Xing Han Lù et al., ArXiv
 
 ### evaluation/robotics
 

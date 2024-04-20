@@ -147,6 +147,13 @@
 | [Collaborative Dialogue in {M}inecraft](https://aclanthology.org/P19-1537)                                                                                                                             | July, 2019      | collaboration, embodied                                                     | two_agents                                                                                          | human, rule_based              | human_agent                   |
 | [Two Body Problem: Collaborative Visual Task Completion](https://openaccess.thecvf.com/content_CVPR_2019/papers/Jain_Two_Body_Problem_Collaborative_Visual_Task_Completion_CVPR_2019_paper.pdf)        | June, 2019      | collaboration, embodied                                                     | finetuning, reinforcement_learning, two_agents                                                      | rule_based                     | n/a                           |
 | [Evaluation of starcraft artificial intelligence competition bots by experienced human players](https://dl.acm.org/doi/pdf/10.1145/2851581.2892305)                                                    | May, 2016       | collaboration, competition, mixed_objectives, embodied                      | more_than_three_agents                                                                              | human, rule_based              | human_agent                   |
+| [WebLINX: Real-World Website Navigation with Multi-Turn Dialogue](https://arxiv.org/abs/2402.05930)                                                                                                    | February, 2024  | virtual                                                                     | prompting_and_in_context_learning, finetuning                                                       | rule_based                     | human_agent                   |
+| [GAIA: a benchmark for General AI Assistants](https://arxiv.org/abs/2311.12983)                                                                                                                        | November, 2023  | virtual, collaboration                                                      | n/a                                                                                                 | rule_based                     | fully_omniscient              |
+| [MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework](https://api.semanticscholar.org/CorpusID:265301950)                                                                              | November, 2023  | virtual, collaboration                                                      | prompting_and_in_context_learning                                                                   | rule_based                     | more_omniscient               |
+| [OpenAgents: An Open Platform for Language Agents in the Wild](https://api.semanticscholar.org/CorpusID:264172893)                                                                                     | October, 2023   | virtual, collaboration                                                      | n/a                                                                                                 | qualitative                    | n/a                           |
+| [Cognitive Architectures for Language Agents](https://api.semanticscholar.org/CorpusID:261556862)                                                                                                      | September, 2023 | n/a                                                                         | n/a                                                                                                 | n/a                            | n/a                           |
+| [Embedding Conversational Agents into AR: Invisible or with a Realistic Human Body?](https://doi.org/10.1145/3374920.3374956)                                                                          | February, 2020  | virtual, collaboration                                                      | two_agents                                                                                          | human                          | human_agent                   |
+| [Exploring Virtual Agents for Augmented Reality](https://doi.org/10.1145/3290605.3300511)                                                                                                              | May, 2019       | virtual, collaboration                                                      | n/a                                                                                                 | human, rule_based              | human_agent                   |
 | [HumanoidBench: Simulated Humanoid Benchmark for Whole-Body Locomotion and Manipulation](https://arxiv.org/abs/2403.10506)                                                                             | March, 2024     | collaboration, mixed_objectives, robotics                                   | reinforcement_learning                                                                              | human, model_based             | human_agent, simulated_humans |
 | [Optimization of criterion for objective evaluation of HRI performance that approximates subjective evaluation: a case study in robot competition](https://doi.org/10.1080/01691864.2019.1698462)      | December, 2020  | competition, mixed_objectives, robotics                                     | reinforcement_learning                                                                              | human, rule_based              | human_agent                   |
 | [Safety bounds in human robot interaction: A survey](https://www.sciencedirect.com/science/article/pii/S0925753520300643)                                                                              | July, 2020      | collaboration, mixed_objectives, robotics                                   | reinforcement_learning                                                                              | human, rule_based              | human_agent                   |
@@ -227,17 +234,18 @@
 | [Towards Understanding and Mitigating Social Biases in Language Models](https://api.semanticscholar.org/CorpusID:235623756)                                                                            | June, 2021      | text                                                                        | n/a                                                                                                 | n/a                            | n/a                           |
 
 ### Basic Stats
-Total number of papers: 181
+Total number of papers: 232
 #### Subsections
 environments/language: 25
 environments/embodied: 6
 environments/virtual: 21
 environments/robotics: 12
-modeling/in-context-learning: 8
-modeling/finetuning: 17
-modeling/reinforcement-learning: 10
-evaluation/language: 20
+modeling/in-context-learning: 9
+modeling/finetuning: 20
+modeling/reinforcement-learning: 12
+evaluation/language: 27
 evaluation/embodied: 14
+evaluation/virtual: 7
 evaluation/robotics: 8
 interactions/text: 8
 interactions/embodied: 8
