@@ -19,6 +19,7 @@ from bibtexparser.model import ImplicitComment
 from bibtexparser.model import Preamble
 from bibtexparser.model import String
 from bibtexparser.model import DuplicateBlockKeyBlock
+from bibtexparser.model import DuplicateFieldKeyBlock
 from bibtexparser.middlewares.middleware import BlockMiddleware # type: ignore
 def _transform_block(self, block, library):
     block = block if self.allow_inplace_modification else deepcopy(block)
@@ -35,6 +36,8 @@ def _transform_block(self, block, library):
 
     if isinstance(block, DuplicateBlockKeyBlock):
         raise ValueError("Repeated keys found in the BibTeX file: {}".format(block.raw))
+    if isinstance(block, DuplicateFieldKeyBlock):
+        raise ValueError("Repeated field key found in the BibTeX file: {}".format(block.raw))
     logging.warning("Unknown block type: %s", block)
     return block
 
