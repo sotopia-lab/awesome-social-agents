@@ -460,7 +460,15 @@
 
 [February, 2024] [The potential of generative AI for personalized persuasion at scale](https://www.nature.com/articles/s41598-024-53755-0), SC Matz et al., Scientific Reports
 
+[February, 2024] [Jailbroken: How does llm safety training fail?](https://proceedings.neurips.cc/paper_files/paper/2023/file/fd6613131889a4b656206c50a8bd7790-Paper-Conference.pdf), Alexander Wei et al., Advances in Neural Information Processing Systems
+
 [January, 2024] [Two Types of AI Existential Risk: Decisive and Accumulative](https://arxiv.org/abs/2401.07836), Atoosa Kasirzadeh et al., arXiv
+
+[December, 2023] [Llama guard: Llm-based input-output safeguard for human-ai conversations](https://arxiv.org/abs/2312.06674), Hakan Inan et al., arXiv preprint arXiv:2312.06674
+
+[September, 2023] [The rise and potential of large language model based agents: A survey](https://arxiv.org/abs/2309.07864), Zhiheng Xi et al., arXiv preprint arXiv:2309.07864
+
+[July, 2023] [Voice in the machine: Ethical considerations for language-capable robots](https://dl.acm.org/doi/fullHtml/10.1145/3604632), Tom Williams et al., Communications of the ACM
 
 [March, 2023] [Artificial Influence: An Analysis Of AI-Driven Persuasion](https://arxiv.org/abs/2303.08721), Matthew Burtell et al., arXiv
 
@@ -470,13 +478,25 @@
 
 [December, 2021] [Risks from AI Persuasion](https://www.alignmentforum.org/posts/5cWtwATHL6KyzChck/risks-from-ai-persuasion), Beth Barnes et al., AI Alignment Forum
 
+[December, 2021] [Good robots, bad robots: Morally valenced behavior effects on perceived mind, morality, and trust](https://link.springer.com/article/10.1007/s12369-020-00692-3), Jaime Banks et al., International Journal of Social Robotics
+
 [June, 2021] [Bad machines corrupt good morals](https://www.nature.com/articles/s41562-021-01128-2), Nils K{\"o}bis et al., Nature Human Behaviour
+
+[March, 2021] [On the dangers of stochastic parrots: Can language models be too big?🦜](https://dl.acm.org/doi/pdf/10.1145/3442188.3445922?utm_source=miragenews&utm_medium=miragenews&utm_campaign=news), Emily M Bender et al., Proceedings of the 2021 ACM conference on fairness, accountability, and transparency
 
 [February, 2021] [The corruptive force of AI-generated advice](https://arxiv.org/abs/2102.07536), Margarita Leib et al., arXiv
 
 [November, 2020] [Persuasion Tools: AI Takeover Without AGI or Agency?](https://www.alignmentforum.org/posts/qKvn7rxP2mzJbKfcA/persuasion-tools-ai-takeover-without-agi-or-agency), Daniel Kokotajlo et al., AI Alignment Forum
 
+[September, 2020] [Realtoxicityprompts: Evaluating neural toxic degeneration in language models](https://aclanthology.org/2020.findings-emnlp.301.pdf), Samuel Gehman et al., arXiv preprint arXiv:2009.11462
+
 [February, 2020] [Artificial intelligence crime: An interdisciplinary analysis of foreseeable threats and solutions](https://link.springer.com/article/10.1007/s11948-018-00081-0), Thomas C King et al., Science and engineering ethics
+
+[March, 2019] [Language-capable robots may inadvertently weaken human moral norms](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8673123), Ryan Blake Jackson et al., 2019 14th ACM/IEEE International Conference on Human-Robot Interaction (HRI)
+
+[December, 2011] [13 The inherent dangers of unidirectional emotional bonds between humans and social robots](https://www.researchgate.net/profile/Matthias-Scheutz/publication/255701465_The_Inherent_Dangers_of_Unidirectional_Emotional_Bonds_between_Humans_and_Social_Robots/links/5832333408ae102f0733881e/The-Inherent-Dangers-of-Unidirectional-Emotional-Bonds-between-Humans-and-Social-Robots.pdf), Matthias Scheutz et al., Robot ethics: The ethical and social implications of robotics
+
+[August, 2004] [On the morality of artificial agents](https://link.springer.com/content/pdf/10.1023/B:MIND.0000035461.63578.9d.pdf), Luciano Floridi et al., Minds and machines
 
 ### concerns/safety
 
@@ -498,4 +518,22 @@
 
 [December, 2022] [Constitutional AI: Harmlessness from AI Feedback](https://api.semanticscholar.org/CorpusID:254823489), Yuntao Bai et al., ArXiv
 
+[June, 2022] [Predictability and surprise in large generative models](https://dl.acm.org/doi/pdf/10.1145/3531146.3533229), Deep Ganguli et al., Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency
+
+[March, 2022] [Teaching language models to support answers with verified quotes](https://arxiv.org/pdf/2203.11147.pdf), Jacob Menick et al., arXiv preprint arXiv:2203.11147
+
+[December, 2021] [Ethical and social risks of harm from language models](https://arxiv.org/abs/2112.04359), Laura Weidinger et al., arXiv preprint arXiv:2112.04359
+
+[October, 2021] [Can machines learn morality? the delphi experiment](https://arxiv.org/pdf/2110.07574.pdf), Liwei Jiang et al., arXiv preprint arXiv:2110.07574
+
+[September, 2021] [Truthfulqa: Measuring how models mimic human falsehoods](https://arxiv.org/pdf/2109.07958.pdf), Stephanie Lin et al., arXiv preprint arXiv:2109.07958
+
 [June, 2021] [Towards Understanding and Mitigating Social Biases in Language Models](https://api.semanticscholar.org/CorpusID:235623756), Paul Pu Liang et al., International Conference on Machine Learning
+
+[October, 2020] [Aligning ai with shared human values](https://arxiv.org/pdf/2008.02275.pdf), Dan Hendrycks et al., arXiv preprint arXiv:2008.02275
+
+[October, 2020] [Recipes for safety in open-domain chatbots](https://arxiv.org/pdf/2010.07079.pdf), Jing Xu et al., arXiv preprint arXiv:2010.07079
+
+[September, 2020] [Measuring massive multitask language understanding](https://arxiv.org/pdf/2009.03300.pdf?trk=public_post_comment-text), Dan Hendrycks et al., arXiv preprint arXiv:2009.03300
+
+[December, 2018] [Ethical challenges in data-driven dialogue systems](https://dl.acm.org/doi/10.1145/3278721.3278723), Peter Henderson et al., Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, and Society
