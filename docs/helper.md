@@ -186,6 +186,8 @@
 
 [January, 2024] [LLM Harmony: Multi-Agent Communication for Problem Solving](https://api.semanticscholar.org/CorpusID:266725580), Sumedh Rasal et al., ArXiv
 
+[December, 2023] [x{D}ial-Eval: A Multilingual Open-Domain Dialogue Evaluation Benchmark](https://aclanthology.org/2023.findings-emnlp.371), Zhang et al., Findings of the Association for Computational Linguistics: EMNLP 2023
+
 [December, 2023] [CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society](https://proceedings.neurips.cc/paper_files/paper/2023/file/a3621ee907def47c1b952ade25c67698-Paper-Conference.pdf), Guohao Li et al., Advances in Neural Information Processing Systems
 
 [October, 2023] [Llm-based agent society investigation: Collaboration and confrontation in avalon gameplay](https://arxiv.org/pdf/2310.14985.pdf), Yihuai Lan et al., arXiv preprint arXiv:2310.14985
@@ -198,15 +200,27 @@
 
 [August, 2023] [ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate](https://arxiv.org/abs/2308.07201), Chi-Min Chan et al., arXiv
 
+[July, 2023] [Don{'}t Forget Your {ABC}{'}s: Evaluating the State-of-the-Art in Chat-Oriented Dialogue Systems](https://aclanthology.org/2023.acl-long.839), Finch et al., Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+
 [May, 2023] [PersonaLLM: Investigating the Ability of Large Language Models to Express Personality Traits](https://api.semanticscholar.org/CorpusID:268032940), Hang Jiang et al., NAACL Findings
 
 [May, 2023] [Psychological Metrics for Dialog System Evaluation](https://arxiv.org/abs/2305.14757), Salvatore Giorgi et al., arXiv
 
 [May, 2023] [ACCENT: An Automatic Event Commonsense Evaluation Metric for Open-Domain Dialogue Systems](https://arxiv.org/pdf/2305.07797), Sarik Ghazarian et al., arXiv
 
+[May, 2022] [Human Evaluation of Conversations is an Open Problem: comparing the sensitivity of various methods for evaluating dialogue agents](https://aclanthology.org/2022.nlp4convai-1.8), Smith et al., Proceedings of the 4th Workshop on NLP for Conversational AI
+
 [November, 2021] [A Comprehensive Assessment of Dialog Evaluation Metrics](https://aclanthology.org/2021.eancs-1.3), Yeh et al., The First Workshop on Evaluations and Assessments of Neural Conversation Systems
 
+[August, 2021] [{D}yna{E}val: Unifying Turn and Dialogue Level Evaluation](https://aclanthology.org/2021.acl-long.441), Zhang et al., Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+
+[January, 2021] [Survey on evaluation methods for dialogue systems](https://link.springer.com/article/10.1007/s10462-020-09866-x), Jan Deriu et al., Artificial Intelligence Review
+
 [November, 2020] [{GRADE}: Automatic Graph-Enhanced Coherence Metric for Evaluating Open-Domain Dialogue Systems](https://aclanthology.org/2020.emnlp-main.742), Huang et al., Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)
+
+[July, 2020] [Towards Unified Dialogue System Evaluation: A Comprehensive Analysis of Current Evaluation Protocols](https://aclanthology.org/2020.sigdial-1.29), Finch et al., Proceedings of the 21th Annual Meeting of the Special Interest Group on Discourse and Dialogue
+
+[July, 2020] [u{BLEU}: Uncertainty-Aware Automatic Evaluation Method for Open-Domain Dialogue Systems](https://aclanthology.org/2020.acl-srw.27), Tsuta et al., Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop
 
 [July, 2020] [{C}onvo{K}it: A Toolkit for the Analysis of Conversations](https://aclanthology.org/2020.sigdial-1.8), Chang et al., Proceedings of the 21th Annual Meeting of the Special Interest Group on Discourse and Dialogue
 
