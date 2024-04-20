@@ -240,6 +240,8 @@
 
 [January, 2024] [LLM Harmony: Multi-Agent Communication for Problem Solving](https://api.semanticscholar.org/CorpusID:266725580), Sumedh Rasal et al., ArXiv
 
+[December, 2023] [x{D}ial-Eval: A Multilingual Open-Domain Dialogue Evaluation Benchmark](https://aclanthology.org/2023.findings-emnlp.371), Zhang et al., Findings of the Association for Computational Linguistics: EMNLP 2023
+
 [December, 2023] [CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society](https://proceedings.neurips.cc/paper_files/paper/2023/file/a3621ee907def47c1b952ade25c67698-Paper-Conference.pdf), Guohao Li et al., Advances in Neural Information Processing Systems
 
 [October, 2023] [Llm-based agent society investigation: Collaboration and confrontation in avalon gameplay](https://arxiv.org/pdf/2310.14985.pdf), Yihuai Lan et al., arXiv preprint arXiv:2310.14985
@@ -252,15 +254,27 @@
 
 [August, 2023] [ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate](https://arxiv.org/abs/2308.07201), Chi-Min Chan et al., arXiv
 
+[July, 2023] [Don{'}t Forget Your {ABC}{'}s: Evaluating the State-of-the-Art in Chat-Oriented Dialogue Systems](https://aclanthology.org/2023.acl-long.839), Finch et al., Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
+
 [May, 2023] [PersonaLLM: Investigating the Ability of Large Language Models to Express Personality Traits](https://api.semanticscholar.org/CorpusID:268032940), Hang Jiang et al., NAACL Findings
 
 [May, 2023] [Psychological Metrics for Dialog System Evaluation](https://arxiv.org/abs/2305.14757), Salvatore Giorgi et al., arXiv
 
 [May, 2023] [ACCENT: An Automatic Event Commonsense Evaluation Metric for Open-Domain Dialogue Systems](https://arxiv.org/pdf/2305.07797), Sarik Ghazarian et al., arXiv
 
+[May, 2022] [Human Evaluation of Conversations is an Open Problem: comparing the sensitivity of various methods for evaluating dialogue agents](https://aclanthology.org/2022.nlp4convai-1.8), Smith et al., Proceedings of the 4th Workshop on NLP for Conversational AI
+
 [November, 2021] [A Comprehensive Assessment of Dialog Evaluation Metrics](https://aclanthology.org/2021.eancs-1.3), Yeh et al., The First Workshop on Evaluations and Assessments of Neural Conversation Systems
 
+[August, 2021] [{D}yna{E}val: Unifying Turn and Dialogue Level Evaluation](https://aclanthology.org/2021.acl-long.441), Zhang et al., Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)
+
+[January, 2021] [Survey on evaluation methods for dialogue systems](https://link.springer.com/article/10.1007/s10462-020-09866-x), Jan Deriu et al., Artificial Intelligence Review
+
 [November, 2020] [{GRADE}: Automatic Graph-Enhanced Coherence Metric for Evaluating Open-Domain Dialogue Systems](https://aclanthology.org/2020.emnlp-main.742), Huang et al., Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)
+
+[July, 2020] [Towards Unified Dialogue System Evaluation: A Comprehensive Analysis of Current Evaluation Protocols](https://aclanthology.org/2020.sigdial-1.29), Finch et al., Proceedings of the 21th Annual Meeting of the Special Interest Group on Discourse and Dialogue
+
+[July, 2020] [u{BLEU}: Uncertainty-Aware Automatic Evaluation Method for Open-Domain Dialogue Systems](https://aclanthology.org/2020.acl-srw.27), Tsuta et al., Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop
 
 [July, 2020] [{C}onvo{K}it: A Toolkit for the Analysis of Conversations](https://aclanthology.org/2020.sigdial-1.8), Chang et al., Proceedings of the 21th Annual Meeting of the Special Interest Group on Discourse and Dialogue
 
@@ -295,6 +309,20 @@
 [June, 2019] [Two Body Problem: Collaborative Visual Task Completion](https://openaccess.thecvf.com/content_CVPR_2019/papers/Jain_Two_Body_Problem_Collaborative_Visual_Task_Completion_CVPR_2019_paper.pdf), Unnat Jain et al., CVPR
 
 [May, 2016] [Evaluation of starcraft artificial intelligence competition bots by experienced human players](https://dl.acm.org/doi/pdf/10.1145/2851581.2892305), Man-Je Kim et al., Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems
+
+### evaluation/virtual
+
+[November, 2023] [GAIA: a benchmark for General AI Assistants](https://arxiv.org/abs/2311.12983), Grégoire Mialon et al., arXiv
+
+[November, 2023] [MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework](https://api.semanticscholar.org/CorpusID:265301950), Sirui Hong et al., ArXiv
+
+[October, 2023] [OpenAgents: An Open Platform for Language Agents in the Wild](https://api.semanticscholar.org/CorpusID:264172893), Tianbao Xie et al., ArXiv
+
+[September, 2023] [Cognitive Architectures for Language Agents](https://api.semanticscholar.org/CorpusID:261556862), Theodore R. Sumers et al., ArXiv
+
+[February, 2020] [Embedding Conversational Agents into AR: Invisible or with a Realistic Human Body?](https://doi.org/10.1145/3374920.3374956), Jens Reinhardt et al., Proceedings of the Fourteenth International Conference on Tangible, Embedded, and Embodied Interaction
+
+[May, 2019] [Exploring Virtual Agents for Augmented Reality](https://doi.org/10.1145/3290605.3300511), Isaac Wang et al., CHI
 
 ### evaluation/virtual
 
@@ -340,6 +368,8 @@
 
 [December, 2023] [Llm-powered hierarchical language agent for real-time human-ai coordination](https://arxiv.org/abs/2312.15224), Jijia Liu et al., arXiv preprint arXiv:2312.15224
 
+[December, 2023] [Diverse Conventions for Human-AI Collaboration](https://proceedings.neurips.cc/paper_files/paper/2023/file/4818263715b25dc137d393af8af6d2fc-Paper-Conference.pdf), Bidipta Sarkar et al., Advances in Neural Information Processing Systems
+
 [May, 2023] [Adaptive coordination in social embodied rearrangement](https://proceedings.mlr.press/v202/szot23a/szot23a.pdf), Andrew Szot et al., International Conference on Machine Learning
 
 [April, 2023] [Generative agents: Interactive simulacra of human behavior](https://dl.acm.org/doi/abs/10.1145/3586183.3606763), Joon Sung Park et al., Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology
@@ -351,6 +381,28 @@
 [January, 2021] [Watch-And-Help: A Challenge for Social Perception and Human-{\{}AI{\}} Collaboration](https://openreview.net/forum?id=w_7JMpGZRh0), Xavier Puig et al., International Conference on Learning Representations
 
 [October, 2019] [On the utility of learning about humans for human-ai coordination](https://proceedings.neurips.cc/paper_files/paper/2019/file/f5b1b89d98b7286673128a5fb112cb9a-Paper.pdf), Micah Carroll et al., Advances in neural information processing systems
+
+### interactions/robot
+
+[March, 2024] [Generative expressive robot behaviors using large language models](https://arxiv.org/abs/2401.14673), Karthik Mahadevan et al., Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction
+
+[October, 2023] [Eureka: Human-level reward design via coding large language models](https://arxiv.org/abs/2310.12931), Yecheng Jason Ma et al., arXiv preprint arXiv:2310.12931
+
+[August, 2023] [Gesture-informed robot assistance via foundation models](https://arxiv.org/abs/2309.02721), Li-Heng Lin et al., 7th Annual Conference on Robot Learning
+
+[July, 2023] [Open problems and fundamental limitations of reinforcement learning from human feedback](https://arxiv.org/abs/2307.15217), Stephen Casper et al., arXiv preprint arXiv:2307.15217
+
+[July, 2023] [Robots that ask for help: Uncertainty alignment for large language model planners](https://arxiv.org/abs/2307.01928), Allen Z Ren et al., arXiv preprint arXiv:2307.01928
+
+[June, 2023] [Language to rewards for robotic skill synthesis](https://arxiv.org/abs/2306.08647), Wenhao Yu et al., arXiv preprint arXiv:2306.08647
+
+[March, 2023] [No, to the right: Online language corrections for robotic manipulation via shared autonomy](https://arxiv.org/abs/2301.02555), Yuchen Cui et al., Proceedings of the 2023 ACM/IEEE International Conference on Human-Robot Interaction
+
+[March, 2023] [In-Mouth Robotic Bite Transfer with Visual and Haptic Sensing](https://arxiv.org/abs/2211.12705), Lorenzo Shaikewitz et al., International Conference on Robotics and Automation (ICRA)
+
+[March, 2023] [Few-shot preference learning for human-in-the-loop rl](https://arxiv.org/abs/2212.03363), Donald Joseph Hejna III et al., Conference on Robot Learning
+
+[August, 2021] [Formalizing and guaranteeing human-robot interaction](https://arxiv.org/abs/2006.16732), Hadas Kress-Gazit et al., Communications of the ACM
 
 ### interactions/human
 
