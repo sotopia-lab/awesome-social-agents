@@ -62,6 +62,12 @@
 
 [January, 1966] [ELIZA—a computer program for the study of natural language communication between man and machine](https://doi.org/10.1145/365153.365168), Joseph Weizenbaum et al., Commun. ACM
 
+### environments/virtual
+
+[October, 2024] [Habitat 3.0: A Co-Habitat for Humans, Avatars, and Robots](https://openreview.net/forum?id=4znwzG92CE), Xavier Puig et al., The Twelfth International Conference on Learning Representations
+
+[September, 2020] [SEAN: Social Environment for Autonomous Navigation](https://doi.org/10.1145/3406499.3418760), Nathan Tsoi et al., Proceedings of the 8th International Conference on Human-Agent Interaction
+
 ### environments/robotics
 
 [March, 2024] [Yell At Your Robot: Improving On-the-Fly from Language Corrections](https://arxiv.org/abs/2403.12910), Lucy Xiaoyang Shi et al., arXiv
@@ -192,6 +198,8 @@
 
 [March, 2024] [Embodied LLM Agents Learn to Cooperate in Organized Teams](https://arxiv.org/abs/2403.12482), Xudong Guo et al., arXiv
 
+[December, 2022] [Don{'}t Copy the Teacher: Data and Model Challenges in Embodied Dialogue](https://aclanthology.org/2022.emnlp-main.635), Min et al., Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing
+
 [September, 2022] [{Dialog Acts for Task-Driven Embodied Agents}](https://aclanthology.org/2022.sigdial-1.13), Spandana Gella et al., Proceedings of the 23nd Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDial)
 
 [June, 2022] [Analysis of Dialogue in Human-Human Collaboration in {M}inecraft](https://aclanthology.org/2022.lrec-1.431), Ichikawa et al., Proceedings of the Thirteenth Language Resources and Evaluation Conference
@@ -201,6 +209,8 @@
 [November, 2021] [{M}ind{C}raft: Theory of Mind Modeling for Situated Dialogue in Collaborative Tasks](https://aclanthology.org/2021.emnlp-main.85), Bara et al., Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing
 
 [July, 2021] [Scalable evaluation of multi-agent reinforcement learning with melting pot](https://proceedings.mlr.press/v139/leibo21a.html), Joel Z Leibo et al., International conference on machine learning
+
+[January, 2021] [Evaluating the Robustness of Collaborative Agents](https://dl.acm.org/doi/abs/10.5555/3463952.3464159), Paul Knott et al., Proceedings of the 20th International Conference on Autonomous Agents and MultiAgent Systems
 
 [November, 2020] [A Cordial Sync: Going Beyond Marginal Policies For Multi-Agent Embodied Tasks](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500460.pdf), Unnat Jain et al., ECCV
 
@@ -245,6 +255,22 @@
 [September, 2022] [Interacting with a chatbot-based advising system: Understanding the effect of chatbot personality and user gender on behavior](https://www.mdpi.com/2227-9709/9/4/81), Mohammad Amin Kuhail et al., Informatics
 
 [April, 2022] [User perceptions of extraversion in chatbots after repeated use](https://dl.acm.org/doi/pdf/10.1145/3491102.3502058), Sarah Theres V{\"o}lkel et al., Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+
+### interactions/embodied
+
+[December, 2023] [Llm-powered hierarchical language agent for real-time human-ai coordination](https://arxiv.org/abs/2312.15224), Jijia Liu et al., arXiv preprint arXiv:2312.15224
+
+[May, 2023] [Adaptive coordination in social embodied rearrangement](https://proceedings.mlr.press/v202/szot23a/szot23a.pdf), Andrew Szot et al., International Conference on Machine Learning
+
+[April, 2023] [Generative agents: Interactive simulacra of human behavior](https://dl.acm.org/doi/abs/10.1145/3586183.3606763), Joon Sung Park et al., Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology
+
+[January, 2023] [Nopa: Neurally-guided online probabilistic assistance for building socially intelligent home assistants](https://ieeexplore.ieee.org/document/10161352), Xavier Puig et al., 2023 IEEE International Conference on Robotics and Automation (ICRA)
+
+[May, 2021] [Interaction flexibility in artificial agents teaming with humans](https://escholarship.org/uc/item/9ks6n70q), Patrick Nalepka et al., Proceedings of the Annual Meeting of the Cognitive Science Society
+
+[January, 2021] [Watch-And-Help: A Challenge for Social Perception and Human-{\{}AI{\}} Collaboration](https://openreview.net/forum?id=w_7JMpGZRh0), Xavier Puig et al., International Conference on Learning Representations
+
+[October, 2019] [On the utility of learning about humans for human-ai coordination](https://proceedings.neurips.cc/paper_files/paper/2019/file/f5b1b89d98b7286673128a5fb112cb9a-Paper.pdf), Micah Carroll et al., Advances in neural information processing systems
 
 ### applications/health
 
