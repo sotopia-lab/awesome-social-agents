@@ -7,7 +7,7 @@ name: Deploy Next.js site to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches: ["main", "dev"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -25,6 +25,27 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  bibtex2table:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      - uses: actions/cache@v2
+        with:
+          key: ${{ github.ref }}
+          path: .cache
+      - run: pip install mkdocs-material
+      - run: pip install mike
+      - run: pip install markdown-callouts
+      - run: pip install mkdocs-callouts
+      - run: pip install mkdocs-click
+      - run: pip install pillow cairosvg
+      - run: pip install --pre bibtexparser 
+      - run: pip install tabulate
+      - run: pip install pandas
+      - run: python bibtex_to_table.py
   # Build job
   build:
     runs-on: ubuntu-latest

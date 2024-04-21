@@ -215,7 +215,7 @@ def order_entries_by_date(entries: list[dict]) -> list[dict]:
         sorted_entries.extend(group_sorted)
     return sorted_entries
 
-output_paper_tsx = "./pages/papers.tsx"
+output_paper_tsx = "./components/papers.tsx"
 
 def bibtex_to_table(bibtex: str, taxonomy: dict[str, list[str]]) -> tuple[str, str]:
     entries = extract_bibtex_entries(bibtex)
