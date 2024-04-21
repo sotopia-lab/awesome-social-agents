@@ -1,0 +1,2744 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../helper/">
+      
+      
+        <link rel="next" href="../taxonomy/">
+      
+      
+      <link rel="icon" href="../assets/logo.svg">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.18">
+    
+    
+      
+        <title>Paper table - awesome-social-agents</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.66ac8b77.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#basic-stats" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="awesome-social-agents" class="md-header__button md-logo" aria-label="awesome-social-agents" data-md-component="logo">
+      
+  <img src="../assets/logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            awesome-social-agents
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Paper table
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/sotopia-lab/awesome-social-agents" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    awesome-social-agents
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../contribution/" class="md-tabs__link">
+        
+  
+    
+  
+  Contribution
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../examples/" class="md-tabs__link">
+        
+  
+    
+  
+  Examples
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../helper/" class="md-tabs__link">
+        
+  
+    
+  
+  Helper
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  Paper table
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../taxonomy/" class="md-tabs__link">
+        
+  
+    
+  
+  Tags that you can add to each field
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="awesome-social-agents" class="md-nav__button md-logo" aria-label="awesome-social-agents" data-md-component="logo">
+      
+  <img src="../assets/logo.svg" alt="logo">
+
+    </a>
+    awesome-social-agents
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/sotopia-lab/awesome-social-agents" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    awesome-social-agents
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contribution/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contribution
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../examples/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Examples
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../helper/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Helper
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Paper table
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Paper table
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic-stats" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Stats
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Basic Stats">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#subsections" class="md-nav__link">
+    <span class="md-ellipsis">
+      Subsections
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../taxonomy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tags that you can add to each field
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic-stats" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Stats
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Basic Stats">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#subsections" class="md-nav__link">
+    <span class="md-ellipsis">
+      Subsections
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+  <h1>Paper table</h1>
+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Title</th>
+<th style="text-align: left;">Date</th>
+<th style="text-align: left;">environments</th>
+<th style="text-align: left;">agents</th>
+<th style="text-align: left;">evaluation</th>
+<th style="text-align: left;">other</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2307.07924">Communicative Agents for Software Development</a></td>
+<td style="text-align: left;">July, 2023</td>
+<td style="text-align: left;">collaboration, embodied</td>
+<td style="text-align: left;">prompting_and_in_context_learning, more_than_three_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2403.04132">Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference</a></td>
+<td style="text-align: left;">March, 2024</td>
+<td style="text-align: left;">text, mixed_objectives</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">qualitative, human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2308.07540">{CALYPSO}: {LLMs} as Dungeon Masters' Assistants</a></td>
+<td style="text-align: left;">August, 2023</td>
+<td style="text-align: left;">text, implicit_objectives</td>
+<td style="text-align: left;">more_than_three_agents, finetuning</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/2023.acl-long.624">{I} Cast Detect Thoughts: Learning to Converse and Guide with Intents and Theory-of-Mind in Dungeons and Dragons</a></td>
+<td style="text-align: left;">July, 2023</td>
+<td style="text-align: left;">text, implicit_objectives</td>
+<td style="text-align: left;">more_than_three_agents, reinforcement_learning</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/2023.acl-long.229">{FIREBALL}: A Dataset of Dungeons and Dragons Actual-Play with Structured Game State Information</a></td>
+<td style="text-align: left;">July, 2023</td>
+<td style="text-align: left;">text, implicit_objectives</td>
+<td style="text-align: left;">more_than_three_agents, finetuning</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/ini/multigrid">Fast Multi-Agent Gridworld Environments for Gymnasium</a></td>
+<td style="text-align: left;">March, 2023</td>
+<td style="text-align: left;">collaboration, competition, text</td>
+<td style="text-align: left;">two_agents, more_than_three_agents, reinforcement_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/2022.emnlp-main.637">Dungeons and Dragons as a Dialog Challenge for Artificial Intelligence</a></td>
+<td style="text-align: left;">December, 2022</td>
+<td style="text-align: left;">text, implicit_objectives</td>
+<td style="text-align: left;">more_than_three_agents, pretraining, finetuning</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://www.science.org/doi/full/10.1126/science.ade9097">Human-level play in the game of Diplomacy by combining language models with strategic reasoning</a></td>
+<td style="text-align: left;">November, 2022</td>
+<td style="text-align: left;">competition, text</td>
+<td style="text-align: left;">more_than_three_agents, reinforcement_learning, finetuning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://openai.com/blog/chatgpt">Introducing ChatGPT</a></td>
+<td style="text-align: left;">November, 2022</td>
+<td style="text-align: left;">text, mixed_objectives</td>
+<td style="text-align: left;">prompting_and_in_context_learning, agents_with_memory</td>
+<td style="text-align: left;">qualitative, human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2208.03188">Blenderbot 3: a deployed conversational agent that continually learns to responsibly engage</a></td>
+<td style="text-align: left;">August, 2022</td>
+<td style="text-align: left;">text, mixed_objectives</td>
+<td style="text-align: left;">finetuning</td>
+<td style="text-align: left;">qualitative, human</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2205.01068">Opt: Open pre-trained transformer language models</a></td>
+<td style="text-align: left;">May, 2022</td>
+<td style="text-align: left;">text, mixed_objectives</td>
+<td style="text-align: left;">finetuning, agents_with_personas</td>
+<td style="text-align: left;">qualitative, human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/2020.acl-main.353">It Takes Two to Lie: One to Lie, and One to Listen</a></td>
+<td style="text-align: left;">July, 2020</td>
+<td style="text-align: left;">text, mixed_objectives</td>
+<td style="text-align: left;">more_than_three_agents</td>
+<td style="text-align: left;">model_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="http://dx.doi.org/10.1016/j.artint.2019.103216">The Hanabi challenge: A new frontier for AI research</a></td>
+<td style="text-align: left;">March, 2020</td>
+<td style="text-align: left;">collaboration, text</td>
+<td style="text-align: left;">more_than_three_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/2020.cl-1.2">The Design and Implementation of {X}iao{I}ce, an Empathetic Social Chatbot</a></td>
+<td style="text-align: left;">March, 2020</td>
+<td style="text-align: left;">text, mixed_objectives</td>
+<td style="text-align: left;">finetuning, agents_with_personas</td>
+<td style="text-align: left;">qualitative, human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="http://arxiv.org/abs/1908.09453">{OpenSpiel}: A Framework for Reinforcement Learning in Games</a></td>
+<td style="text-align: left;">August, 2019</td>
+<td style="text-align: left;">collaboration, competition, mixed_objectives, text</td>
+<td style="text-align: left;">two_agents, more_than_three_agents, reinforcement_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/P19-1566">Persuasion for Good: Towards a Personalized Persuasive Dialogue System for Social Good</a></td>
+<td style="text-align: left;">July, 2019</td>
+<td style="text-align: left;">text, mixed_objectives</td>
+<td style="text-align: left;">two_agents, finetuning</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/datamllab/rlcard">RLCard: A Toolkit for Reinforcement Learning in Card Games</a></td>
+<td style="text-align: left;">July, 2019</td>
+<td style="text-align: left;">collaboration, competition, mixed_objectives, text</td>
+<td style="text-align: left;">two_agents, more_than_three_agents, reinforcement_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://openreview.net/forum?id=r1l73iRqKm">Wizard of Wikipedia: Knowledge-Powered Conversational Agents</a></td>
+<td style="text-align: left;">April, 2019</td>
+<td style="text-align: left;">text, mixed_objectives, implicit_objectives</td>
+<td style="text-align: left;">finetuning, agents_with_personas</td>
+<td style="text-align: left;">qualitative, human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/D18-1256">Decoupling Strategy and Generation in Negotiation Dialogues</a></td>
+<td style="text-align: left;">October, 2018</td>
+<td style="text-align: left;">text, mixed_objectives</td>
+<td style="text-align: left;">finetuning, reinforcement_learning, two_agents, agents_with_memory</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/11977">A knowledge-grounded neural conversation model</a></td>
+<td style="text-align: left;">April, 2018</td>
+<td style="text-align: left;">text, mixed_objectives, implicit_objectives</td>
+<td style="text-align: left;">finetuning</td>
+<td style="text-align: left;">qualitative, human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://link.springer.com/chapter/10.1007/978-3-319-75487-1_14">Towards empathetic human-robot interactions</a></td>
+<td style="text-align: left;">March, 2018</td>
+<td style="text-align: left;">text, mixed_objectives</td>
+<td style="text-align: left;">agents_with_personas</td>
+<td style="text-align: left;">qualitative, human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/D17-1259">Deal or No Deal? End-to-End Learning of Negotiation Dialogues</a></td>
+<td style="text-align: left;">September, 2017</td>
+<td style="text-align: left;">text, mixed_objectives</td>
+<td style="text-align: left;">reinforcement_learning, two_agents, agents_with_memory</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/P16-1094/">A persona-based neural conversation model</a></td>
+<td style="text-align: left;">August, 2016</td>
+<td style="text-align: left;">text, mixed_objectives</td>
+<td style="text-align: left;">finetuning, agents_with_personas</td>
+<td style="text-align: left;">qualitative, human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://link.springer.com/chapter/10.1007/978-1-4020-6710-5_13">The anatomy of ALICE</a></td>
+<td style="text-align: left;">November, 2009</td>
+<td style="text-align: left;">text, mixed_objectives</td>
+<td style="text-align: left;">agents_with_personas</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://link.springer.com/chapter/10.1007/11825890_3">Empathic computing</a></td>
+<td style="text-align: left;">January, 2006</td>
+<td style="text-align: left;">text, mixed_objectives</td>
+<td style="text-align: left;">agents_with_personas</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://doi.org/10.1145/365153.365168">ELIZA—a computer program for the study of natural language communication between man and machine</a></td>
+<td style="text-align: left;">January, 1966</td>
+<td style="text-align: left;">text, mixed_objectives</td>
+<td style="text-align: left;">agents_with_personas</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://openreview.net/forum?id=4znwzG92CE">Habitat 3.0: A Co-Habitat for Humans, Avatars, and Robots</a></td>
+<td style="text-align: left;">October, 2024</td>
+<td style="text-align: left;">mixed_objectives, embodied</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">human_agent, simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2404.10179v2">Scaling Instructable Agents Across Many Simulated Worlds</a></td>
+<td style="text-align: left;">April, 2024</td>
+<td style="text-align: left;">embodied</td>
+<td style="text-align: left;">prompting_and_in_context_learning, finetuning</td>
+<td style="text-align: left;">qualitative</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://github.com/OpenGenerativeAI/llm-colosseum">Evaluate LLMs in real time with Street Fighter III</a></td>
+<td style="text-align: left;">March, 2024</td>
+<td style="text-align: left;">embodied</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">qualitative</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2312.11865">Large language models play starcraft ii: Benchmarks and a chain of summarization approach</a></td>
+<td style="text-align: left;">December, 2023</td>
+<td style="text-align: left;">embodied</td>
+<td style="text-align: left;">prompting_and_in_context_learning, finetuning</td>
+<td style="text-align: left;">qualitative</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2310.17512">CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents</a></td>
+<td style="text-align: left;">October, 2023</td>
+<td style="text-align: left;">competition, text</td>
+<td style="text-align: left;">prompting_and_in_context_learning, two_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://doi.org/10.1145/3406499.3418760">SEAN: Social Environment for Autonomous Navigation</a></td>
+<td style="text-align: left;">September, 2020</td>
+<td style="text-align: left;">mixed_objectives, embodied</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">human_agent, simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2402.07939">UFO: A UI-Focused Agent for Windows OS Interaction</a></td>
+<td style="text-align: left;">February, 2024</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2402.07456">Os-copilot: Towards generalist computer agents with self-improvement</a></td>
+<td style="text-align: left;">February, 2024</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2401.16158">Mobile-Agent: Autonomous multi-modal mobile device agent with visual perception</a></td>
+<td style="text-align: left;">January, 2024</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2401.13649">Visualwebarena: Evaluating multimodal agents on realistic visual web tasks</a></td>
+<td style="text-align: left;">January, 2024</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2306.06070">Mind2web: Towards a generalist agent for the web</a></td>
+<td style="text-align: left;">January, 2024</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2312.13771">Appagent: Multimodal agents as smartphone users</a></td>
+<td style="text-align: left;">December, 2023</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2307.13854">Webarena: A realistic web environment for building autonomous agents</a></td>
+<td style="text-align: left;">July, 2023</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2307.10088">Android in the wild: A large-scale dataset for android device control</a></td>
+<td style="text-align: left;">July, 2023</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">finetuning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/82ad13ec01f9fe44c01cb91814fd7b8c-Paper-Conference.pdf">Webshop: Towards scalable real-world web interaction with grounded language agents</a></td>
+<td style="text-align: left;">December, 2022</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning, finetuning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2202.08137">A data-driven approach for learning to control computers</a></td>
+<td style="text-align: left;">July, 2022</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">finetuning, reinforcement_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2202.02312">A dataset for interactive vision-language navigation with unknown command feasibility</a></td>
+<td style="text-align: left;">February, 2022</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">finetuning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2105.13231">Androidenv: A reinforcement learning platform for android</a></td>
+<td style="text-align: left;">May, 2021</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2103.16057">Grounding open-domain instructions to automate web support tasks</a></td>
+<td style="text-align: left;">March, 2021</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">finetuning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/1909.00031">Interactive task learning from GUI-grounded natural language instructions and demonstrations</a></td>
+<td style="text-align: left;">September, 2020</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">human, qualitative</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2005.03776">Mapping natural language instructions to mobile UI action sequences</a></td>
+<td style="text-align: left;">May, 2020</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">finetuning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://dl.acm.org/doi/10.1145/3332165.3347899">Pumice: A multi-modal agent that learns concepts and conditionals from natural language and demonstrations</a></td>
+<td style="text-align: left;">March, 2019</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">human, qualitative</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://ieeexplore.ieee.org/document/8506506">Appinite: A multi-modal interface for specifying data descriptions in programming by demonstration using natural language instructions</a></td>
+<td style="text-align: left;">March, 2018</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">human, qualitative</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/1802.08802">Reinforcement learning on web interfaces using workflow-guided exploration</a></td>
+<td style="text-align: left;">February, 2018</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://proceedings.mlr.press/v70/shi17a/shi17a.pdf">World of bits: An open-domain platform for web-based agents</a></td>
+<td style="text-align: left;">August, 2017</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/P09-1010/">Reinforcement learning for mapping instructions to actions</a></td>
+<td style="text-align: left;">August, 2009</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://cdn.aaai.org/AAAI/2007/AAAI07-240.pdf">Plow: A collaborative task learning agent</a></td>
+<td style="text-align: left;">July, 2007</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2403.12910">Yell At Your Robot: Improving On-the-Fly from Language Corrections</a></td>
+<td style="text-align: left;">March, 2024</td>
+<td style="text-align: left;">collaboration, mixed_objectives, robotics</td>
+<td style="text-align: left;">two_agents, finetuning, reinforcement_learning, agents_with_memory</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://proceedings.mlr.press/v205/xiong23a.html">RoboTube: Learning Household Manipulation from Human Videos with Simulated Twin Environments</a></td>
+<td style="text-align: left;">December, 2023</td>
+<td style="text-align: left;">implicit_objectives, robotics</td>
+<td style="text-align: left;">reinforcement_learning, agents_with_memory</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2108.06038">Co-GAIL: Learning Diverse Strategies for Human-Robot Collaboration</a></td>
+<td style="text-align: left;">August, 2023</td>
+<td style="text-align: left;">collaboration, mixed_objectives, robotics</td>
+<td style="text-align: left;">two_agents, reinforcement_learning</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">human_agent, simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2307.15363">Robotic vision for human-robot interaction and collaboration: A survey and systematic review</a></td>
+<td style="text-align: left;">July, 2023</td>
+<td style="text-align: left;">collaboration, mixed_objectives, implicit_objectives, robotics</td>
+<td style="text-align: left;">two_agents, agent_teams, agents_with_personas</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">human_agent, simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2306.12372">One Policy to Dress Them All: Learning to Dress People with Diverse Poses and Garments</a></td>
+<td style="text-align: left;">June, 2023</td>
+<td style="text-align: left;">robotics</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://doi.org/10.1145/3571718">15 Years of (Who)man Robot Interaction: Reviewing the H in Human-Robot Interaction</a></td>
+<td style="text-align: left;">April, 2023</td>
+<td style="text-align: left;">robotics</td>
+<td style="text-align: left;">two_agents</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://doi.org/10.1145/3570169">Nonverbal Cues in Human Robot Interaction: A Communication Studies Perspective</a></td>
+<td style="text-align: left;">March, 2023</td>
+<td style="text-align: left;">collaboration, mixed_objectives, implicit_objectives, robotics</td>
+<td style="text-align: left;">two_agents</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2212.05286">A survey of multi-agent Human--Robot Interaction systems</a></td>
+<td style="text-align: left;">October, 2022</td>
+<td style="text-align: left;">collaboration, mixed_objectives, robotics</td>
+<td style="text-align: left;">two_agents, more_than_three_agents, agent_teams</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://say-can.github.io/">Do As I Can and Not As I Say: Grounding Language in Robotic Affordances</a></td>
+<td style="text-align: left;">August, 2022</td>
+<td style="text-align: left;">mixed_objectives, implicit_objectives, robotics</td>
+<td style="text-align: left;">finetuning, reinforcement_learning, agents_with_memory</td>
+<td style="text-align: left;">human, rule_based, model_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2207.05608">Inner Monologue: Embodied Reasoning through Planning with Language Models</a></td>
+<td style="text-align: left;">June, 2022</td>
+<td style="text-align: left;">mixed_objectives, implicit_objectives, robotics</td>
+<td style="text-align: left;">finetuning, reinforcement_learning, agents_with_memory</td>
+<td style="text-align: left;">human, rule_based, model_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://link.springer.com/article/10.1007/s12369-020-00666-5">A taxonomy to structure and analyze human--robot interaction</a></td>
+<td style="text-align: left;">June, 2021</td>
+<td style="text-align: left;">collaboration, mixed_objectives, robotics</td>
+<td style="text-align: left;">two_agents</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://journals.sagepub.com/doi/10.1177/0018720816644364">Human--robot interaction: status and challenges</a></td>
+<td style="text-align: left;">April, 2016</td>
+<td style="text-align: left;">collaboration, mixed_objectives, robotics</td>
+<td style="text-align: left;">two_agents, finetuning, reinforcement_learning</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2309.08172">LASER: LLM Agent with State-Space Exploration for Web Navigation</a></td>
+<td style="text-align: left;">September, 2024</td>
+<td style="text-align: left;">mixed_objectives, implicit_objectives, virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning, agents_with_memory</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2403.08978">AutoGuide: Automated Generation and Selection of State-Aware Guidelines for Large Language Model Agents</a></td>
+<td style="text-align: left;">March, 2024</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://openreview.net/forum?id=Pc8AU1aF5e">Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control</a></td>
+<td style="text-align: left;">January, 2024</td>
+<td style="text-align: left;">mixed_objectives, implicit_objectives, virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning, agents_with_memory</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://openreview.net/forum?id=rnKgbKmelt">AdaPlanner: Adaptive Planning from Feedback with Language Models</a></td>
+<td style="text-align: left;">November, 2023</td>
+<td style="text-align: left;">mixed_objectives, implicit_objectives, text</td>
+<td style="text-align: left;">prompting_and_in_context_learning, agents_with_memory</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2305.16291">Voyager: An Open-Ended Embodied Agent with Large Language Models</a></td>
+<td style="text-align: left;">May, 2023</td>
+<td style="text-align: left;">mixed_objectives, implicit_objectives, embodied</td>
+<td style="text-align: left;">prompting_and_in_context_learning, agents_with_memory</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2305.14257">Hierarchical Prompting Assists Large Language Model on Web Navigation</a></td>
+<td style="text-align: left;">May, 2023</td>
+<td style="text-align: left;">mixed_objectives, implicit_objectives, virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning, agents_with_memory</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2305.15486">SPRING: Studying the Paper and Reasoning to Play Games</a></td>
+<td style="text-align: left;">May, 2023</td>
+<td style="text-align: left;">mixed_objectives, implicit_objectives, text</td>
+<td style="text-align: left;">prompting_and_in_context_learning, agents_with_memory</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2303.17491">Language Models can Solve Computer Tasks</a></td>
+<td style="text-align: left;">March, 2023</td>
+<td style="text-align: left;">mixed_objectives, implicit_objectives, virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2303.17071">DERA: Enhancing Large Language Model Completions with Dialog-Enabled Resolving Agents</a></td>
+<td style="text-align: left;">March, 2023</td>
+<td style="text-align: left;">collaboration, mixed_objectives, implicit_objectives, text</td>
+<td style="text-align: left;">prompting_and_in_context_learning, agent_teams, agents_with_memory</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2308.07241">Context-Aware Planning and Environment-Aware Memory for Instruction Following Embodied Agents</a></td>
+<td style="text-align: left;">August, 2024</td>
+<td style="text-align: left;">collaboration, embodied</td>
+<td style="text-align: left;">finetuning, two_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2404.03648">AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent</a></td>
+<td style="text-align: left;">April, 2024</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning, pretraining, finetuning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2404.11246">Learning Social Navigation from Demonstrations with Deep Neural Networks</a></td>
+<td style="text-align: left;">April, 2024</td>
+<td style="text-align: left;">collaboration, robotics</td>
+<td style="text-align: left;">finetuning, two_agents, more_than_three_agents</td>
+<td style="text-align: left;">rule_based, human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2403.02502">Trial and Error: Exploration-Based Trajectory Optimization for LLM Agents</a></td>
+<td style="text-align: left;">March, 2024</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">finetuning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2403.12881">Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models</a></td>
+<td style="text-align: left;">March, 2024</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">finetuning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2402.04476">Dual-View Visual Contextualization for Web Navigation</a></td>
+<td style="text-align: left;">February, 2024</td>
+<td style="text-align: left;">mixed_objectives, implicit_objectives, virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning, finetuning, agents_with_memory</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://openreview.net/forum?id=9JQtrumvg8">A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis</a></td>
+<td style="text-align: left;">January, 2024</td>
+<td style="text-align: left;">mixed_objectives, implicit_objectives, virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning, finetuning, agents_with_memory</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2401.01614">GPT-4V(ision) is a Generalist Web Agent, if Grounded</a></td>
+<td style="text-align: left;">January, 2024</td>
+<td style="text-align: left;">mixed_objectives, implicit_objectives, virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning, finetuning, agents_with_memory</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://openreview.net/forum?id=3PjCt4kmRx">From Pixels to {UI} Actions: Learning to Follow Instructions via Graphical User Interfaces</a></td>
+<td style="text-align: left;">November, 2023</td>
+<td style="text-align: left;">mixed_objectives, implicit_objectives, virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning, finetuning, agents_with_memory</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2210.03945">Understanding HTML with Large Language Models</a></td>
+<td style="text-align: left;">October, 2023</td>
+<td style="text-align: left;">mixed_objectives, implicit_objectives, virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning, finetuning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2210.03629">ReAct: Synergizing Reasoning and Acting in Language Models</a></td>
+<td style="text-align: left;">October, 2023</td>
+<td style="text-align: left;">mixed_objectives, implicit_objectives, virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning, finetuning, agents_with_memory</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2310.03779">HandMeThat: Human-Robot Communication in Physical and Social Environments</a></td>
+<td style="text-align: left;">October, 2023</td>
+<td style="text-align: left;">collaboration, embodied</td>
+<td style="text-align: left;">finetuning, two_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://openreview.net/forum?id=oLc9sGOBbc">Instruction-Finetuned Foundation Models for Multimodal Web Navigation</a></td>
+<td style="text-align: left;">May, 2023</td>
+<td style="text-align: left;">mixed_objectives, implicit_objectives, virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning, finetuning, agents_with_memory</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://link.springer.com/article/10.1007/s11633-022-1383-7">Offline pre-trained multi-agent decision transformer</a></td>
+<td style="text-align: left;">March, 2023</td>
+<td style="text-align: left;">collaboration, competition, mixed_objectives, embodied</td>
+<td style="text-align: left;">finetuning, more_than_three_agents, agent_teams</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://www.cs.utexas.edu/~xiao/SCAND/SCAND.html">Socially CompliAnt Navigation Dataset (SCAND): A Large-Scale Dataset Of Demonstrations For Social Navigation</a></td>
+<td style="text-align: left;">October, 2022</td>
+<td style="text-align: left;">collaboration, robotics</td>
+<td style="text-align: left;">finetuning, two_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2210.12485">DANLI: Deliberative Agent for Following Natural Language Instructions</a></td>
+<td style="text-align: left;">October, 2022</td>
+<td style="text-align: left;">collaboration, embodied</td>
+<td style="text-align: left;">finetuning, two_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://ieeexplore.ieee.org/abstract/document/9837390/citations#citations">Dialfred: Dialogue-enabled agents for embodied instruction following</a></td>
+<td style="text-align: left;">July, 2022</td>
+<td style="text-align: left;">collaboration, embodied</td>
+<td style="text-align: left;">finetuning, two_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://ieeexplore.ieee.org/document/9561973">Learning World Transition Model for Socially Aware Robot Navigation</a></td>
+<td style="text-align: left;">May, 2021</td>
+<td style="text-align: left;">collaboration, embodied</td>
+<td style="text-align: left;">finetuning, two_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://proceedings.neurips.cc/paper/2018/hash/240c945bb72980130446fc2b40fbb8e0-Abstract.html">Multi-agent generative adversarial imitation learning</a></td>
+<td style="text-align: left;">December, 2018</td>
+<td style="text-align: left;">collaboration</td>
+<td style="text-align: left;">finetuning, two_agents, more_than_three_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/1803.07612">Generative multi-agent behavioral cloning</a></td>
+<td style="text-align: left;">March, 2018</td>
+<td style="text-align: left;">collaboration, embodied</td>
+<td style="text-align: left;">finetuning, two_agents, more_than_three_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2404.06474v2">Autonomous Evaluation and Refinement of Digital Agents</a></td>
+<td style="text-align: left;">April, 2024</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning, finetuning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2403.08715">SOTOPIA-$\pi$: Interactive Learning of Socially Intelligent Language Agents</a></td>
+<td style="text-align: left;">March, 2024</td>
+<td style="text-align: left;">collaboration, competition, mixed_objectives, text</td>
+<td style="text-align: left;">reinforcement_learning, two_agents</td>
+<td style="text-align: left;">rule_based, human, model_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://doi.org/10.1038/s41467-024-45965-x">TacticAI: an AI assistant for football tactics</a></td>
+<td style="text-align: left;">March, 2024</td>
+<td style="text-align: left;">virtual, collaboration, competition, mixed_objectives</td>
+<td style="text-align: left;">reinforcement_learning, agent_teams</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2303.01502">Computational Language Acquisition with Theory of Mind</a></td>
+<td style="text-align: left;">March, 2023</td>
+<td style="text-align: left;">collaboration, virtual</td>
+<td style="text-align: left;">reinforcement_learning, two_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://escholarship.org/uc/item/7p65n371">Language Learning from Communicative Goals and Linguistic Input</a></td>
+<td style="text-align: left;">July, 2022</td>
+<td style="text-align: left;">collaboration, virtual</td>
+<td style="text-align: left;">reinforcement_learning, two_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://academic.oup.com/jole/article/7/2/213/7128304">Language games meet multi-agent reinforcement learning: A case study for the naming game</a></td>
+<td style="text-align: left;">April, 2022</td>
+<td style="text-align: left;">collaboration, competition, mixed_objectives</td>
+<td style="text-align: left;">reinforcement_learning, two_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/D19-3010">{EGG}: a toolkit for research on Emergence of lan{G}uage in Games</a></td>
+<td style="text-align: left;">November, 2019</td>
+<td style="text-align: left;">collaboration, text</td>
+<td style="text-align: left;">reinforcement_learning, two_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://doi.org/10.1145/3269206.3272021">Real-Time Bidding with Multi-Agent Reinforcement Learning in Display Advertising</a></td>
+<td style="text-align: left;">October, 2018</td>
+<td style="text-align: left;">competition, virtual</td>
+<td style="text-align: left;">reinforcement_learning, more_than_three_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://openreview.net/forum?id=Hk6WhagRW">Emergent Communication through Negotiation</a></td>
+<td style="text-align: left;">February, 2018</td>
+<td style="text-align: left;">mixed_objectives, text</td>
+<td style="text-align: left;">reinforcement_learning, two_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://www.nature.com/articles/nature24270">Mastering the game of go without human knowledge</a></td>
+<td style="text-align: left;">April, 2017</td>
+<td style="text-align: left;">competition, virtual</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://www.nature.com/articles/nature16961">Mastering the game of Go with deep neural networks and tree search</a></td>
+<td style="text-align: left;">January, 2016</td>
+<td style="text-align: left;">competition, virtual</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://www.aclweb.org/anthology/P10-1129">Reading between the lines: Learning to map high-level instructions to commands</a></td>
+<td style="text-align: left;">July, 2010</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://openreview.net/forum?id=mM7VurbA4r">SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents</a></td>
+<td style="text-align: left;">October, 2024</td>
+<td style="text-align: left;">mixed_objectives, text</td>
+<td style="text-align: left;">prompting_and_in_context_learning, two_agents</td>
+<td style="text-align: left;">model_based, human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2403.13679">RoleInteract: Evaluating the Social Interaction of Role-Playing Agents</a></td>
+<td style="text-align: left;">March, 2024</td>
+<td style="text-align: left;">implicit_objectives, text</td>
+<td style="text-align: left;">prompting_and_in_context_learning, more_than_three_agents, agents_with_memory, agents_with_personas</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2403.11807">How Far Are We on the Decision-Making of LLMs? Evaluating LLMs' Gaming Ability in Multi-Agent Environments</a></td>
+<td style="text-align: left;">March, 2024</td>
+<td style="text-align: left;">mixed_objectives, text</td>
+<td style="text-align: left;">prompting_and_in_context_learning, more_than_three_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">more_omniscient</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2402.11958">Automatic Evaluation for Mental Health Counseling using LLMs</a></td>
+<td style="text-align: left;">February, 2024</td>
+<td style="text-align: left;">collaboration, text</td>
+<td style="text-align: left;">prompting_and_in_context_learning, two_agents</td>
+<td style="text-align: left;">model_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2402.05863">How Well Can LLMs Negotiate? NegotiationArena Platform and Analysis</a></td>
+<td style="text-align: left;">February, 2024</td>
+<td style="text-align: left;">mixed_objectives, text</td>
+<td style="text-align: left;">prompting_and_in_context_learning, two_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">more_information_asymmetrical</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://api.semanticscholar.org/CorpusID:267523076">Can Large Language Model Agents Simulate Human Trust Behaviors?</a></td>
+<td style="text-align: left;">February, 2024</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">human, model_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://api.semanticscholar.org/CorpusID:266725580">LLM Harmony: Multi-Agent Communication for Problem Solving</a></td>
+<td style="text-align: left;">January, 2024</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">human, model_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/2023.findings-emnlp.371">x{D}ial-Eval: A Multilingual Open-Domain Dialogue Evaluation Benchmark</a></td>
+<td style="text-align: left;">December, 2023</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/a3621ee907def47c1b952ade25c67698-Paper-Conference.pdf">CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society</a></td>
+<td style="text-align: left;">December, 2023</td>
+<td style="text-align: left;">mixed_objectives, text</td>
+<td style="text-align: left;">prompting_and_in_context_learning, agent_teams</td>
+<td style="text-align: left;">human, model_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/pdf/2310.14985.pdf">Llm-based agent society investigation: Collaboration and confrontation in avalon gameplay</a></td>
+<td style="text-align: left;">October, 2023</td>
+<td style="text-align: left;">mixed_objectives, text</td>
+<td style="text-align: left;">prompting_and_in_context_learning, more_than_three_agents, agents_with_memory, agents_with_personas</td>
+<td style="text-align: left;">model_based, rule_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2310.09233">AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems</a></td>
+<td style="text-align: left;">October, 2023</td>
+<td style="text-align: left;">mixed_objectives, text</td>
+<td style="text-align: left;">prompting_and_in_context_learning, more_than_three_agents, agents_with_memory, agents_with_personas</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/2023.sigdial-1.25">Approximating Online Human Evaluation of Social Chatbots with Prompting</a></td>
+<td style="text-align: left;">September, 2023</td>
+<td style="text-align: left;">mixed_objectives, text</td>
+<td style="text-align: left;">prompting_and_in_context_learning, two_agents</td>
+<td style="text-align: left;">model_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2308.10278">CharacterChat: Learning towards Conversational AI with Personalized Social Support</a></td>
+<td style="text-align: left;">August, 2023</td>
+<td style="text-align: left;">implicit_objectives, text</td>
+<td style="text-align: left;">prompting_and_in_context_learning, two_agents, agents_with_memory, agents_with_personas</td>
+<td style="text-align: left;">model_based, human</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2308.07201">ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate</a></td>
+<td style="text-align: left;">August, 2023</td>
+<td style="text-align: left;">collaboration, text</td>
+<td style="text-align: left;">prompting_and_in_context_learning, more_than_three_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/2023.acl-long.839">Don{'}t Forget Your {ABC}{'}s: Evaluating the State-of-the-Art in Chat-Oriented Dialogue Systems</a></td>
+<td style="text-align: left;">July, 2023</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://api.semanticscholar.org/CorpusID:268032940">PersonaLLM: Investigating the Ability of Large Language Models to Express Personality Traits</a></td>
+<td style="text-align: left;">May, 2023</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">human, model_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2305.14757">Psychological Metrics for Dialog System Evaluation</a></td>
+<td style="text-align: left;">May, 2023</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">two_agents</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/pdf/2305.07797">ACCENT: An Automatic Event Commonsense Evaluation Metric for Open-Domain Dialogue Systems</a></td>
+<td style="text-align: left;">May, 2023</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">two_agents</td>
+<td style="text-align: left;">human, model_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/2022.nlp4convai-1.8">Human Evaluation of Conversations is an Open Problem: comparing the sensitivity of various methods for evaluating dialogue agents</a></td>
+<td style="text-align: left;">May, 2022</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/2021.eancs-1.3">A Comprehensive Assessment of Dialog Evaluation Metrics</a></td>
+<td style="text-align: left;">November, 2021</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">human, model_based, rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/2021.acl-long.441">{D}yna{E}val: Unifying Turn and Dialogue Level Evaluation</a></td>
+<td style="text-align: left;">August, 2021</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">model_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://link.springer.com/article/10.1007/s10462-020-09866-x">Survey on evaluation methods for dialogue systems</a></td>
+<td style="text-align: left;">January, 2021</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">rule_based, model_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/2020.emnlp-main.742">{GRADE}: Automatic Graph-Enhanced Coherence Metric for Evaluating Open-Domain Dialogue Systems</a></td>
+<td style="text-align: left;">November, 2020</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">two_agents</td>
+<td style="text-align: left;">human, model_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/2020.sigdial-1.29">Towards Unified Dialogue System Evaluation: A Comprehensive Analysis of Current Evaluation Protocols</a></td>
+<td style="text-align: left;">July, 2020</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">human, rule_based, model_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/2020.acl-srw.27">u{BLEU}: Uncertainty-Aware Automatic Evaluation Method for Open-Domain Dialogue Systems</a></td>
+<td style="text-align: left;">July, 2020</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/2020.sigdial-1.8">{C}onvo{K}it: A Toolkit for the Analysis of Conversations</a></td>
+<td style="text-align: left;">July, 2020</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">human, model_based, rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/2020.sigdial-1.28">Unsupervised Evaluation of Interactive Dialog with {D}ialo{GPT}</a></td>
+<td style="text-align: left;">July, 2020</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">two_agents</td>
+<td style="text-align: left;">human, model_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2312.08463">How much can change in a year? Revisiting Evaluation in Multi-Agent Reinforcement Learning</a></td>
+<td style="text-align: left;">December, 2024</td>
+<td style="text-align: left;">collaboration, embodied</td>
+<td style="text-align: left;">reinforcement_learning, more_than_three_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2403.12482">Embodied LLM Agents Learn to Cooperate in Organized Teams</a></td>
+<td style="text-align: left;">March, 2024</td>
+<td style="text-align: left;">collaboration, embodied</td>
+<td style="text-align: left;">prompting_and_in_context_learning, more_than_three_agents</td>
+<td style="text-align: left;">model_based, human</td>
+<td style="text-align: left;">education</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/2022.emnlp-main.635">Don{'}t Copy the Teacher: Data and Model Challenges in Embodied Dialogue</a></td>
+<td style="text-align: left;">December, 2022</td>
+<td style="text-align: left;">mixed_objectives, collaboration, embodied</td>
+<td style="text-align: left;">agents_with_memory</td>
+<td style="text-align: left;">qualitative, human, rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/2022.sigdial-1.13">{Dialog Acts for Task-Driven Embodied Agents}</a></td>
+<td style="text-align: left;">September, 2022</td>
+<td style="text-align: left;">collaboration, embodied</td>
+<td style="text-align: left;">finetuning, two_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/2022.lrec-1.431">Analysis of Dialogue in Human-Human Collaboration in {M}inecraft</a></td>
+<td style="text-align: left;">June, 2022</td>
+<td style="text-align: left;">collaboration, embodied</td>
+<td style="text-align: left;">two_agents</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://doi.org/10.1145/3476413">SocNavBench: A Grounded Simulation Testing Framework for Evaluating Social Navigation</a></td>
+<td style="text-align: left;">February, 2022</td>
+<td style="text-align: left;">implicit_objectives, embodied</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2110.00534">{TEACh: Task-driven Embodied Agents that Chat}</a></td>
+<td style="text-align: left;">February, 2022</td>
+<td style="text-align: left;">collaboration, embodied</td>
+<td style="text-align: left;">finetuning, two_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/2021.emnlp-main.85">{M}ind{C}raft: Theory of Mind Modeling for Situated Dialogue in Collaborative Tasks</a></td>
+<td style="text-align: left;">November, 2021</td>
+<td style="text-align: left;">collaboration, embodied</td>
+<td style="text-align: left;">finetuning, two_agents</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://proceedings.mlr.press/v139/leibo21a.html">Scalable evaluation of multi-agent reinforcement learning with melting pot</a></td>
+<td style="text-align: left;">July, 2021</td>
+<td style="text-align: left;">collaboration, competition, mixed_objectives, embodied</td>
+<td style="text-align: left;">reinforcement_learning, more_than_three_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://dl.acm.org/doi/abs/10.5555/3463952.3464159">Evaluating the Robustness of Collaborative Agents</a></td>
+<td style="text-align: left;">January, 2021</td>
+<td style="text-align: left;">collaboration, embodied</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500460.pdf">A Cordial Sync: Going Beyond Marginal Policies For Multi-Agent Embodied Tasks</a></td>
+<td style="text-align: left;">November, 2020</td>
+<td style="text-align: left;">collaboration, embodied</td>
+<td style="text-align: left;">finetuning, reinforcement_learning, two_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/P19-1537">Collaborative Dialogue in {M}inecraft</a></td>
+<td style="text-align: left;">July, 2019</td>
+<td style="text-align: left;">collaboration, embodied</td>
+<td style="text-align: left;">two_agents</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Jain_Two_Body_Problem_Collaborative_Visual_Task_Completion_CVPR_2019_paper.pdf">Two Body Problem: Collaborative Visual Task Completion</a></td>
+<td style="text-align: left;">June, 2019</td>
+<td style="text-align: left;">collaboration, embodied</td>
+<td style="text-align: left;">finetuning, reinforcement_learning, two_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://dl.acm.org/doi/pdf/10.1145/2851581.2892305">Evaluation of starcraft artificial intelligence competition bots by experienced human players</a></td>
+<td style="text-align: left;">May, 2016</td>
+<td style="text-align: left;">collaboration, competition, mixed_objectives, embodied</td>
+<td style="text-align: left;">more_than_three_agents</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2402.05930">WebLINX: Real-World Website Navigation with Multi-Turn Dialogue</a></td>
+<td style="text-align: left;">February, 2024</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning, finetuning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2311.12983">GAIA: a benchmark for General AI Assistants</a></td>
+<td style="text-align: left;">November, 2023</td>
+<td style="text-align: left;">virtual, collaboration</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">fully_omniscient</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://api.semanticscholar.org/CorpusID:265301950">MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework</a></td>
+<td style="text-align: left;">November, 2023</td>
+<td style="text-align: left;">virtual, collaboration</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">more_omniscient</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://api.semanticscholar.org/CorpusID:264172893">OpenAgents: An Open Platform for Language Agents in the Wild</a></td>
+<td style="text-align: left;">October, 2023</td>
+<td style="text-align: left;">virtual, collaboration</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">qualitative</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://api.semanticscholar.org/CorpusID:261556862">Cognitive Architectures for Language Agents</a></td>
+<td style="text-align: left;">September, 2023</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://doi.org/10.1145/3374920.3374956">Embedding Conversational Agents into AR: Invisible or with a Realistic Human Body?</a></td>
+<td style="text-align: left;">February, 2020</td>
+<td style="text-align: left;">virtual, collaboration</td>
+<td style="text-align: left;">two_agents</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://doi.org/10.1145/3290605.3300511">Exploring Virtual Agents for Augmented Reality</a></td>
+<td style="text-align: left;">May, 2019</td>
+<td style="text-align: left;">virtual, collaboration</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2403.10506">HumanoidBench: Simulated Humanoid Benchmark for Whole-Body Locomotion and Manipulation</a></td>
+<td style="text-align: left;">March, 2024</td>
+<td style="text-align: left;">collaboration, mixed_objectives, robotics</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">human, model_based</td>
+<td style="text-align: left;">human_agent, simulated_humans</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://doi.org/10.1080/01691864.2019.1698462">Optimization of criterion for objective evaluation of HRI performance that approximates subjective evaluation: a case study in robot competition</a></td>
+<td style="text-align: left;">December, 2020</td>
+<td style="text-align: left;">competition, mixed_objectives, robotics</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://www.sciencedirect.com/science/article/pii/S0925753520300643">Safety bounds in human robot interaction: A survey</a></td>
+<td style="text-align: left;">July, 2020</td>
+<td style="text-align: left;">collaboration, mixed_objectives, robotics</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://www.sciencedirect.com/science/article/pii/S0004370215001174">RoboCup@ Home: Analysis and results of evolving competitions for domestic and service robots</a></td>
+<td style="text-align: left;">December, 2015</td>
+<td style="text-align: left;">collaboration, mixed_objectives, robotics</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://journals.sagepub.com/doi/10.1177/0018720811417254">A meta-analysis of factors affecting trust in human-robot interaction</a></td>
+<td style="text-align: left;">October, 2011</td>
+<td style="text-align: left;">collaboration, mixed_objectives, robotics</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://link.springer.com/article/10.1007/s12369-008-0001-3">Measurement instruments for the anthropomorphism, animacy, likeability, perceived intelligence, and perceived safety of robots</a></td>
+<td style="text-align: left;">November, 2009</td>
+<td style="text-align: left;">collaboration, mixed_objectives, robotics</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://doi.org/10.1145/1121241.1121249">Common metrics for human-robot interaction</a></td>
+<td style="text-align: left;">March, 2006</td>
+<td style="text-align: left;">collaboration, mixed_objectives, robotics</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">human, rule_based, model_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://ieeexplore.ieee.org/document/1174284">Theory and evaluation of human robot interactions</a></td>
+<td style="text-align: left;">January, 2003</td>
+<td style="text-align: left;">collaboration, mixed_objectives, robotics</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/pdf/2403.03297.pdf">" It's the only thing I can trust": Envisioning Large Language Model Use by Autistic Workers for Communication Assistance</a></td>
+<td style="text-align: left;">May, 2024</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">qualitative, human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://dl.acm.org/doi/pdf/10.1145/3640543.3645213">AI Comes Out of the Closet: Using AI-Generated Virtual Characters to Help Individuals Practice LGBTQIA+ Advocacy</a></td>
+<td style="text-align: left;">March, 2024</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">qualitative</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://dl.acm.org/doi/pdf/10.1145/3640543.3645198">Take It, Leave It, or Fix It: Measuring Productivity and Trust in Human-AI Collaboration</a></td>
+<td style="text-align: left;">March, 2024</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">human, qualitative</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/pdf/2308.10385.pdf">The Effects of Engaging and Affective Behaviors of Virtual Agents in Group Decision-Making</a></td>
+<td style="text-align: left;">May, 2023</td>
+<td style="text-align: left;">embodied</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://dl.acm.org/doi/pdf/10.1145/3544548.3580995">Collaborating with a Text-Based Chatbot: An Exploration of Real-World Collaboration Strategies Enacted during Human-Chatbot Interactions</a></td>
+<td style="text-align: left;">April, 2023</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">qualitative</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://dl.acm.org/doi/pdf/10.1145/3544548.3581384">Exploring effects of chatbot-based social contact on reducing mental illness stigma</a></td>
+<td style="text-align: left;">April, 2023</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">qualitative, human</td>
+<td style="text-align: left;">human_agent, health</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://www.mdpi.com/2227-9709/9/4/81">Interacting with a chatbot-based advising system: Understanding the effect of chatbot personality and user gender on behavior</a></td>
+<td style="text-align: left;">September, 2022</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">qualitative, human</td>
+<td style="text-align: left;">human_agent, education</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://dl.acm.org/doi/pdf/10.1145/3491102.3502058">User perceptions of extraversion in chatbots after repeated use</a></td>
+<td style="text-align: left;">April, 2022</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2312.15224">Llm-powered hierarchical language agent for real-time human-ai coordination</a></td>
+<td style="text-align: left;">December, 2023</td>
+<td style="text-align: left;">collaboration, embodied</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/4818263715b25dc137d393af8af6d2fc-Paper-Conference.pdf">Diverse Conventions for Human-AI Collaboration</a></td>
+<td style="text-align: left;">December, 2023</td>
+<td style="text-align: left;">collaboration, embodied</td>
+<td style="text-align: left;">reinforcement_learning, two_agents, agent_teams</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://proceedings.mlr.press/v202/szot23a/szot23a.pdf">Adaptive coordination in social embodied rearrangement</a></td>
+<td style="text-align: left;">May, 2023</td>
+<td style="text-align: left;">collaboration, embodied</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://dl.acm.org/doi/abs/10.1145/3586183.3606763">Generative agents: Interactive simulacra of human behavior</a></td>
+<td style="text-align: left;">April, 2023</td>
+<td style="text-align: left;">mixed_objectives, embodied</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://ieeexplore.ieee.org/document/10161352">Nopa: Neurally-guided online probabilistic assistance for building socially intelligent home assistants</a></td>
+<td style="text-align: left;">January, 2023</td>
+<td style="text-align: left;">collaboration, embodied</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://escholarship.org/uc/item/9ks6n70q">Interaction flexibility in artificial agents teaming with humans</a></td>
+<td style="text-align: left;">May, 2021</td>
+<td style="text-align: left;">collaboration, embodied</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://openreview.net/forum?id=w_7JMpGZRh0">Watch-And-Help: A Challenge for Social Perception and Human-{{}AI{}} Collaboration</a></td>
+<td style="text-align: left;">January, 2021</td>
+<td style="text-align: left;">collaboration, embodied</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://proceedings.neurips.cc/paper_files/paper/2019/file/f5b1b89d98b7286673128a5fb112cb9a-Paper.pdf">On the utility of learning about humans for human-ai coordination</a></td>
+<td style="text-align: left;">October, 2019</td>
+<td style="text-align: left;">collaboration, embodied</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2401.14673">Generative expressive robot behaviors using large language models</a></td>
+<td style="text-align: left;">March, 2024</td>
+<td style="text-align: left;">robotics</td>
+<td style="text-align: left;">prompting_and_in_context_learning, two_agents</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2310.12931">Eureka: Human-level reward design via coding large language models</a></td>
+<td style="text-align: left;">October, 2023</td>
+<td style="text-align: left;">embodied</td>
+<td style="text-align: left;">prompting_and_in_context_learning, reinforcement_learning</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2309.02721">Gesture-informed robot assistance via foundation models</a></td>
+<td style="text-align: left;">August, 2023</td>
+<td style="text-align: left;">robotics</td>
+<td style="text-align: left;">prompting_and_in_context_learning, two_agents</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2307.15217">Open problems and fundamental limitations of reinforcement learning from human feedback</a></td>
+<td style="text-align: left;">July, 2023</td>
+<td style="text-align: left;">embodied, robotics</td>
+<td style="text-align: left;">finetuning, reinforcement_learning, two_agents</td>
+<td style="text-align: left;">human, rule_based, model_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2307.01928">Robots that ask for help: Uncertainty alignment for large language model planners</a></td>
+<td style="text-align: left;">July, 2023</td>
+<td style="text-align: left;">embodied, robotics</td>
+<td style="text-align: left;">prompting_and_in_context_learning, two_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2306.08647">Language to rewards for robotic skill synthesis</a></td>
+<td style="text-align: left;">June, 2023</td>
+<td style="text-align: left;">embodied, robotics</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">qualitative</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2301.02555">No, to the right: Online language corrections for robotic manipulation via shared autonomy</a></td>
+<td style="text-align: left;">March, 2023</td>
+<td style="text-align: left;">robotics</td>
+<td style="text-align: left;">two_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2211.12705">In-Mouth Robotic Bite Transfer with Visual and Haptic Sensing</a></td>
+<td style="text-align: left;">March, 2023</td>
+<td style="text-align: left;">robotics</td>
+<td style="text-align: left;">two_agents</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2212.03363">Few-shot preference learning for human-in-the-loop rl</a></td>
+<td style="text-align: left;">March, 2023</td>
+<td style="text-align: left;">embodied, robotics</td>
+<td style="text-align: left;">finetuning, reinforcement_learning, two_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2006.16732">Formalizing and guaranteeing human-robot interaction</a></td>
+<td style="text-align: left;">August, 2021</td>
+<td style="text-align: left;">robotics</td>
+<td style="text-align: left;">two_agents</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://www.negotiage.com/">NegotiAge</a></td>
+<td style="text-align: left;">April, 2024</td>
+<td style="text-align: left;">implicit_objectives, virtual</td>
+<td style="text-align: left;">two_agents</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">human_agent, health</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/pdf/2309.12309.pdf">Rehearsal: Simulating conflict to teach conflict resolution</a></td>
+<td style="text-align: left;">September, 2023</td>
+<td style="text-align: left;">implicit_objectives, text</td>
+<td style="text-align: left;">prompting_and_in_context_learning, two_agents</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://ego4d-data.org/">Ego4D: Around the {W}orld in 3,000 {H}ours of {E}gocentric {V}ideo</a></td>
+<td style="text-align: left;">June, 2022</td>
+<td style="text-align: left;">collaboration, competition, mixed_objectives, implicit_objectives, embodied</td>
+<td style="text-align: left;">two_agents, more_than_three_agents, agent_teams</td>
+<td style="text-align: left;">human, rule_based, model_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://link.springer.com/referenceworkentry/10.1007/978-3-030-49629-6_26">Agent reasoning in AI-powered negotiation</a></td>
+<td style="text-align: left;">December, 2021</td>
+<td style="text-align: left;">mixed_objectives, text</td>
+<td style="text-align: left;">two_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://link.springer.com/referenceworkentry/10.1007/978-3-030-49629-6_38">Negotiation, Online Dispute Resolution, and Artificial Intelligence</a></td>
+<td style="text-align: left;">December, 2021</td>
+<td style="text-align: left;">mixed_objectives, text</td>
+<td style="text-align: left;">two_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://journals.sagepub.com/doi/full/10.1177/0022242920956676">Artificial intelligence coaches for sales agents: Caveats and solutions</a></td>
+<td style="text-align: left;">October, 2021</td>
+<td style="text-align: left;">mixed_objectives, text</td>
+<td style="text-align: left;">two_agents</td>
+<td style="text-align: left;">rule_based, human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://ieeexplore.ieee.org/document/9475925">Towards an AI Coach to Infer Team Mental Model Alignment in Healthcare</a></td>
+<td style="text-align: left;">May, 2021</td>
+<td style="text-align: left;">collaboration, mixed_objectives, implicit_objectives, text</td>
+<td style="text-align: left;">two_agents, more_than_three_agents</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">human_agent, health</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://humanfactors.jmir.org/2020/1/e16762">A chatbot-based coaching intervention for adolescents to promote life skills: pilot study</a></td>
+<td style="text-align: left;">October, 2020</td>
+<td style="text-align: left;">text, implicit_objectives</td>
+<td style="text-align: left;">two_agents, more_than_three_agents</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">human_agent, health</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://www.sciencedirect.com/science/article/pii/S1077314219301158">Analyzing human–human interactions: A survey</a></td>
+<td style="text-align: left;">November, 2019</td>
+<td style="text-align: left;">collaboration, competition, mixed_objectives, implicit_objectives, embodied</td>
+<td style="text-align: left;">two_agents, more_than_three_agents, agent_teams</td>
+<td style="text-align: left;">human, rule_based, model_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://dl.acm.org/doi/abs/10.1145/3271484">Blending human and artificial intelligence to support autistic children’s social communication skills</a></td>
+<td style="text-align: left;">December, 2018</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">two_agents</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">human_agent, health</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2310.02374">Conversational Health Agents: A Personalized LLM-Powered Agent Framework</a></td>
+<td style="text-align: left;">October, 2024</td>
+<td style="text-align: left;">mixed_objectives, text</td>
+<td style="text-align: left;">prompting_and_in_context_learning, more_than_three_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">human_agent, health</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2403.13313">Polaris: A Safety-focused LLM Constellation Architecture for Healthcare</a></td>
+<td style="text-align: left;">March, 2024</td>
+<td style="text-align: left;">mixed_objectives, virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning, finetuning, reinforcement_learning, agent_teams</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">human_agent, health</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2402.05547">Benchmarking Large Language Models on Communicative Medical Coaching: a Novel System and Dataset</a></td>
+<td style="text-align: left;">February, 2024</td>
+<td style="text-align: left;">mixed_objectives, text</td>
+<td style="text-align: left;">prompting_and_in_context_learning, finetuning, agent_teams</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">human_agent, health</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2402.09742">AI Hospital: Interactive Evaluation and Collaboration of LLMs as Intern Doctors for Clinical Diagnosis</a></td>
+<td style="text-align: left;">February, 2024</td>
+<td style="text-align: left;">collaboration, text</td>
+<td style="text-align: left;">prompting_and_in_context_learning, agent_teams, agents_with_personas</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">simulated_humans, health</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2402.17546">COCOA: CBT-based Conversational Counseling Agent using Memory Specialized in Cognitive Distortions and Dynamic Prompt</a></td>
+<td style="text-align: left;">February, 2024</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">prompting_and_in_context_learning, two_agents, agents_with_memory</td>
+<td style="text-align: left;">model_based</td>
+<td style="text-align: left;">health</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2401.14589">Enhancing Diagnostic Accuracy through Multi-Agent Conversations: Using Large Language Models to Mitigate Cognitive Bias</a></td>
+<td style="text-align: left;">January, 2024</td>
+<td style="text-align: left;">mixed_objectives, text</td>
+<td style="text-align: left;">prompting_and_in_context_learning, agent_teams, agents_with_personas</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">simulated_humans, health</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2305.08982">Helping the Helper: Supporting Peer Counselors via AI-Empowered Practice and Feedback</a></td>
+<td style="text-align: left;">May, 2023</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">prompting_and_in_context_learning, more_than_three_agents</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">human_agent, health</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2305.05138">Read, Diagnose and Chat: Towards Explainable and Interactive LLMs-Augmented Depression Detection in Social Media</a></td>
+<td style="text-align: left;">May, 2023</td>
+<td style="text-align: left;">mixed_objectives, text</td>
+<td style="text-align: left;">prompting_and_in_context_learning, two_agents</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">human_agent, health</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://pubmed.ncbi.nlm.nih.gov/37152238/">An artificial intelligence-based chatbot for prostate cancer education: Design and patient evaluation study</a></td>
+<td style="text-align: left;">May, 2023</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">finetuning, two_agents</td>
+<td style="text-align: left;">qualitative</td>
+<td style="text-align: left;">human_agent, health</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2311.04076">Do LLMs exhibit human-like response biases? A case study in survey design</a></td>
+<td style="text-align: left;">November, 2024</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">human, model_based</td>
+<td style="text-align: left;">policy</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2403.09498">From Skepticism to Acceptance: Simulating the Attitude Dynamics Toward Fake News</a></td>
+<td style="text-align: left;">March, 2024</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">more_than_three_agents</td>
+<td style="text-align: left;">model_based</td>
+<td style="text-align: left;">policy</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2402.01908">Large language models cannot replace human participants because they cannot portray identity groups</a></td>
+<td style="text-align: left;">February, 2024</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">policy</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2402.16333">Unveiling the Truth and Facilitating Change: Towards Agent-based Large-scale Social Movement Simulation</a></td>
+<td style="text-align: left;">February, 2024</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">more_than_three_agents</td>
+<td style="text-align: left;">model_based</td>
+<td style="text-align: left;">policy</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://doi.org/10.1145/3526113.3545616">Social Simulacra: Creating Populated Prototypes for Social Computing Systems</a></td>
+<td style="text-align: left;">August, 2022</td>
+<td style="text-align: left;">text, implicit_objectives</td>
+<td style="text-align: left;">more_than_three_agents</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">policy</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://www.nature.com/articles/s41598-024-53755-0">The potential of generative AI for personalized persuasion at scale</a></td>
+<td style="text-align: left;">February, 2024</td>
+<td style="text-align: left;">text, implicit_objectives</td>
+<td style="text-align: left;">two_agents</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/fd6613131889a4b656206c50a8bd7790-Paper-Conference.pdf">Jailbroken: How does llm safety training fail?</a></td>
+<td style="text-align: left;">February, 2024</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">model_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2401.07836">Two Types of AI Existential Risk: Decisive and Accumulative</a></td>
+<td style="text-align: left;">January, 2024</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2312.06674">Llama guard: Llm-based input-output safeguard for human-ai conversations</a></td>
+<td style="text-align: left;">December, 2023</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">finetuning</td>
+<td style="text-align: left;">model_based, rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2309.07864">The rise and potential of large language model based agents: A survey</a></td>
+<td style="text-align: left;">September, 2023</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://dl.acm.org/doi/fullHtml/10.1145/3604632">Voice in the machine: Ethical considerations for language-capable robots</a></td>
+<td style="text-align: left;">July, 2023</td>
+<td style="text-align: left;">embodied</td>
+<td style="text-align: left;">agents_with_personas</td>
+<td style="text-align: left;">human, qualitative</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2303.08721">Artificial Influence: An Analysis Of AI-Driven Persuasion</a></td>
+<td style="text-align: left;">March, 2023</td>
+<td style="text-align: left;">text, implicit_objectives</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://bigthink.com/the-future/playing-god-metaverse-mind-control-free-will/">"Playing God": How the Metaverse Will Challenge Our Very Notion of Free Will</a></td>
+<td style="text-align: left;">October, 2022</td>
+<td style="text-align: left;">mixed_objectives</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://link.springer.com/chapter/10.1007/978-3-031-15565-9_13">Risk and Exposure of XAI in Persuasion and Argumentation: The case of Manipulation</a></td>
+<td style="text-align: left;">September, 2022</td>
+<td style="text-align: left;">text, implicit_objectives</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://www.alignmentforum.org/posts/5cWtwATHL6KyzChck/risks-from-ai-persuasion">Risks from AI Persuasion</a></td>
+<td style="text-align: left;">December, 2021</td>
+<td style="text-align: left;">mixed_objectives</td>
+<td style="text-align: left;">two_agents</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://link.springer.com/article/10.1007/s12369-020-00692-3">Good robots, bad robots: Morally valenced behavior effects on perceived mind, morality, and trust</a></td>
+<td style="text-align: left;">December, 2021</td>
+<td style="text-align: left;">mixed_objectives, embodied</td>
+<td style="text-align: left;">agents_with_personas</td>
+<td style="text-align: left;">human, qualitative</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://www.nature.com/articles/s41562-021-01128-2">Bad machines corrupt good morals</a></td>
+<td style="text-align: left;">June, 2021</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">finetuning</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://dl.acm.org/doi/pdf/10.1145/3442188.3445922?utm_source=miragenews&amp;utm_medium=miragenews&amp;utm_campaign=news">On the dangers of stochastic parrots: Can language models be too big?🦜</a></td>
+<td style="text-align: left;">March, 2021</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">finetuning</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">policy</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2102.07536">The corruptive force of AI-generated advice</a></td>
+<td style="text-align: left;">February, 2021</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">finetuning</td>
+<td style="text-align: left;">human</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://www.alignmentforum.org/posts/qKvn7rxP2mzJbKfcA/persuasion-tools-ai-takeover-without-agi-or-agency">Persuasion Tools: AI Takeover Without AGI or Agency?</a></td>
+<td style="text-align: left;">November, 2020</td>
+<td style="text-align: left;">mixed_objectives</td>
+<td style="text-align: left;">two_agents</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://aclanthology.org/2020.findings-emnlp.301.pdf">Realtoxicityprompts: Evaluating neural toxic degeneration in language models</a></td>
+<td style="text-align: left;">September, 2020</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">pretraining</td>
+<td style="text-align: left;">model_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://link.springer.com/article/10.1007/s11948-018-00081-0">Artificial intelligence crime: An interdisciplinary analysis of foreseeable threats and solutions</a></td>
+<td style="text-align: left;">February, 2020</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">human, rule_based</td>
+<td style="text-align: left;">human_agent</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8673123">Language-capable robots may inadvertently weaken human moral norms</a></td>
+<td style="text-align: left;">March, 2019</td>
+<td style="text-align: left;">embodied</td>
+<td style="text-align: left;">agents_with_personas</td>
+<td style="text-align: left;">human, qualitative</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://www.researchgate.net/profile/Matthias-Scheutz/publication/255701465_The_Inherent_Dangers_of_Unidirectional_Emotional_Bonds_between_Humans_and_Social_Robots/links/5832333408ae102f0733881e/The-Inherent-Dangers-of-Unidirectional-Emotional-Bonds-between-Humans-and-Social-Robots.pdf">13 The inherent dangers of unidirectional emotional bonds between humans and social robots</a></td>
+<td style="text-align: left;">December, 2011</td>
+<td style="text-align: left;">embodied</td>
+<td style="text-align: left;">agents_with_memory, agents_with_personas</td>
+<td style="text-align: left;">qualitative, human</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://link.springer.com/content/pdf/10.1023/B:MIND.0000035461.63578.9d.pdf">On the morality of artificial agents</a></td>
+<td style="text-align: left;">August, 2004</td>
+<td style="text-align: left;">virtual</td>
+<td style="text-align: left;">agents_with_personas</td>
+<td style="text-align: left;">qualitative</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://api.semanticscholar.org/CorpusID:269033095">Frontier AI Ethics: Anticipating and Evaluating the Societal Impacts of Generative Agents</a></td>
+<td style="text-align: left;">April, 2024</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://api.semanticscholar.org/CorpusID:267068787">Deception and Manipulation in Generative AI</a></td>
+<td style="text-align: left;">January, 2024</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://api.semanticscholar.org/CorpusID:264405698">Towards Understanding Sycophancy in Language Models</a></td>
+<td style="text-align: left;">October, 2023</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2309.15817">Identifying the Risks of LM Agents with an LM-Emulated Sandbox</a></td>
+<td style="text-align: left;">September, 2023</td>
+<td style="text-align: left;">text, virtual</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">rule_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://api.semanticscholar.org/CorpusID:261276587">AI Deception: A Survey of Examples, Risks, and Potential Solutions</a></td>
+<td style="text-align: left;">August, 2023</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2306.12001">An Overview of Catastrophic AI Risks</a></td>
+<td style="text-align: left;">June, 2023</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://api.semanticscholar.org/CorpusID:258556812">Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting</a></td>
+<td style="text-align: left;">May, 2023</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://api.semanticscholar.org/CorpusID:254926728">Understanding Stereotypes in Language Models: Towards Robust Measurement and Zero-Shot Debiasing</a></td>
+<td style="text-align: left;">December, 2022</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://api.semanticscholar.org/CorpusID:254823489">Constitutional AI: Harmlessness from AI Feedback</a></td>
+<td style="text-align: left;">December, 2022</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://dl.acm.org/doi/pdf/10.1145/3531146.3533229">Predictability and surprise in large generative models</a></td>
+<td style="text-align: left;">June, 2022</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">policy</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/pdf/2203.11147.pdf">Teaching language models to support answers with verified quotes</a></td>
+<td style="text-align: left;">March, 2022</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">reinforcement_learning</td>
+<td style="text-align: left;">model_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/abs/2112.04359">Ethical and social risks of harm from language models</a></td>
+<td style="text-align: left;">December, 2021</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/pdf/2110.07574.pdf">Can machines learn morality? the delphi experiment</a></td>
+<td style="text-align: left;">October, 2021</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">model_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/pdf/2109.07958.pdf">Truthfulqa: Measuring how models mimic human falsehoods</a></td>
+<td style="text-align: left;">September, 2021</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">prompting_and_in_context_learning</td>
+<td style="text-align: left;">model_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://api.semanticscholar.org/CorpusID:235623756">Towards Understanding and Mitigating Social Biases in Language Models</a></td>
+<td style="text-align: left;">June, 2021</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/pdf/2008.02275.pdf">Aligning ai with shared human values</a></td>
+<td style="text-align: left;">October, 2020</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">pretraining, finetuning</td>
+<td style="text-align: left;">model_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/pdf/2010.07079.pdf">Recipes for safety in open-domain chatbots</a></td>
+<td style="text-align: left;">October, 2020</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">human, model_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://arxiv.org/pdf/2009.03300.pdf?trk=public_post_comment-text">Measuring massive multitask language understanding</a></td>
+<td style="text-align: left;">September, 2020</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">pretraining, finetuning</td>
+<td style="text-align: left;">model_based</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="https://dl.acm.org/doi/10.1145/3278721.3278723">Ethical challenges in data-driven dialogue systems</a></td>
+<td style="text-align: left;">December, 2018</td>
+<td style="text-align: left;">text</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+<td style="text-align: left;">n/a</td>
+</tr>
+</tbody>
+</table>
+<h3 id="basic-stats">Basic Stats<a class="headerlink" href="#basic-stats" title="Permanent link"></a></h3>
+<p>Total number of papers: 251</p>
+<h4 id="subsections">Subsections<a class="headerlink" href="#subsections" title="Permanent link"></a></h4>
+<p>environments/language: 25
+environments/embodied: 6
+environments/virtual: 21
+environments/robotics: 12
+modeling/in-context-learning: 9
+modeling/finetuning: 20
+modeling/reinforcement-learning: 12
+evaluation/language: 27
+evaluation/embodied: 14
+evaluation/virtual: 7
+evaluation/robotics: 8
+interactions/text: 8
+interactions/embodied: 8
+interactions/robot: 10
+interactions/human: 10
+applications/health: 9
+applications/policy: 5
+concerns/risks: 20
+concerns/safety: 19</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../helper/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Helper">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Helper
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../taxonomy/" class="md-footer__link md-footer__link--next" aria-label="Next: Tags that you can add to each field">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Tags that you can add to each field
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["header.autohide", "navigation.tabs", "navigation.footer"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "provider": "mike"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.3220b9d7.min.js"></script>
+      
+    
+  </body>
+</html>
