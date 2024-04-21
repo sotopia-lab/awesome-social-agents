@@ -25,10 +25,13 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  bibtex2table:
+  # Build job
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
+      
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
@@ -46,12 +49,6 @@ jobs:
       - run: pip install tabulate
       - run: pip install pandas
       - run: python bibtex_to_table.py
-  # Build job
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
 
       - name: Detect package manager
         id: detect-package-manager
