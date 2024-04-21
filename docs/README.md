@@ -75,6 +75,7 @@ This repo supports Python 3.9 and above. In one line, to use a virtual environme
 
 ## Papers
 ### Surveys and Overview
+[April, 2024] [Advancing Social Intelligence in AI Agents: Technical Challenges and Open Questions](https://arxiv.org/pdf/2404.11023.pdf), Mathur et al., arXiv
 [June, 2023] [Socially intelligent machines that learn from humans and help humans learn](https://royalsocietypublishing.org/doi/10.1098/rsta.2022.0048), Gweon et al., arXiv
 
 ### Environments
