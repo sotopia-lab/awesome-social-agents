@@ -1,7 +1,7 @@
 export default {
-    logo: <span>My Nextra Documentation</span>,
+    logo: <span>Awesome Social Agents</span>,
     project: {
-      link: 'https://github.com/shuding/nextra'
+      link: 'https://github.com/sotopia-lab/awesome-social-agents',
     }
     // ... other theme options
   }

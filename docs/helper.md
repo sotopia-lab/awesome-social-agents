@@ -2,7 +2,17 @@
 
 ### environments/language
 
+[April, 2024] [Autonomous Evaluation and Refinement of Digital Agents](https://arxiv.org/abs/2404.06474v2), Jiayi Pan et al., arXiv preprint arXiv:2404.06474
+
+[April, 2024] [Scaling Instructable Agents Across Many Simulated Worlds](https://arxiv.org/abs/2404.10179v2), SIMA Team et al., arXiv preprint arXiv:2404.10179
+
 [March, 2024] [Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference](https://arxiv.org/abs/2403.04132), Wei-Lin Chiang et al., arXiv preprint arXiv:2403.04132
+
+[March, 2024] [Evaluate LLMs in real time with Street Fighter III](https://github.com/OpenGenerativeAI/llm-colosseum), OpenGenerativeAI team et al., n/a
+
+[December, 2023] [Large language models play starcraft ii: Benchmarks and a chain of summarization approach](https://arxiv.org/abs/2312.11865), Weiyu Ma et al., arXiv preprint arXiv:2312.11865
+
+[October, 2023] [CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents](https://arxiv.org/abs/2310.17512), Qinlin Zhao et al., arXiv
 
 [August, 2023] [{CALYPSO}: {LLMs} as Dungeon Masters' Assistants](https://arxiv.org/abs/2308.07540), Andrew Zhu et al., The 19th AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE 2023)
 
@@ -52,63 +62,11 @@
 
 [January, 1966] [ELIZA—a computer program for the study of natural language communication between man and machine](https://doi.org/10.1145/365153.365168), Joseph Weizenbaum et al., Commun. ACM
 
-### environments/embodied
+### environments/virtual
 
 [October, 2024] [Habitat 3.0: A Co-Habitat for Humans, Avatars, and Robots](https://openreview.net/forum?id=4znwzG92CE), Xavier Puig et al., The Twelfth International Conference on Learning Representations
 
-[April, 2024] [Scaling Instructable Agents Across Many Simulated Worlds](https://arxiv.org/abs/2404.10179v2), SIMA Team et al., arXiv preprint arXiv:2404.10179
-
-[March, 2024] [Evaluate LLMs in real time with Street Fighter III](https://github.com/OpenGenerativeAI/llm-colosseum), OpenGenerativeAI team et al., n/a
-
-[December, 2023] [Large language models play starcraft ii: Benchmarks and a chain of summarization approach](https://arxiv.org/abs/2312.11865), Weiyu Ma et al., arXiv preprint arXiv:2312.11865
-
-[October, 2023] [CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents](https://arxiv.org/abs/2310.17512), Qinlin Zhao et al., arXiv
-
 [September, 2020] [SEAN: Social Environment for Autonomous Navigation](https://doi.org/10.1145/3406499.3418760), Nathan Tsoi et al., Proceedings of the 8th International Conference on Human-Agent Interaction
-
-### environments/virtual
-
-[February, 2024] [UFO: A UI-Focused Agent for Windows OS Interaction](https://arxiv.org/abs/2402.07939), Chaoyun Zhang et al., arXiv preprint arXiv:2402.07939
-
-[February, 2024] [Os-copilot: Towards generalist computer agents with self-improvement](https://arxiv.org/abs/2402.07456), Zhiyong Wu et al., arXiv preprint arXiv:2402.07456
-
-[January, 2024] [Mobile-Agent: Autonomous multi-modal mobile device agent with visual perception](https://arxiv.org/abs/2401.16158), Junyang Wang et al., arXiv preprint arXiv:2401.16158
-
-[January, 2024] [Visualwebarena: Evaluating multimodal agents on realistic visual web tasks](https://arxiv.org/abs/2401.13649), Jing Yu Koh et al., arXiv preprint arXiv:2401.13649
-
-[January, 2024] [Mind2web: Towards a generalist agent for the web](https://arxiv.org/abs/2306.06070), Xiang Deng et al., Advances in Neural Information Processing Systems
-
-[December, 2023] [Appagent: Multimodal agents as smartphone users](https://arxiv.org/abs/2312.13771), Zhao Yang et al., arXiv preprint arXiv:2312.13771
-
-[July, 2023] [Webarena: A realistic web environment for building autonomous agents](https://arxiv.org/abs/2307.13854), Shuyan Zhou et al., arXiv preprint arXiv:2307.13854
-
-[July, 2023] [Android in the wild: A large-scale dataset for android device control](https://arxiv.org/abs/2307.10088), Christopher Rawles et al., arXiv preprint arXiv:2307.10088
-
-[December, 2022] [Webshop: Towards scalable real-world web interaction with grounded language agents](https://proceedings.neurips.cc/paper_files/paper/2022/file/82ad13ec01f9fe44c01cb91814fd7b8c-Paper-Conference.pdf), Shunyu Yao et al., Advances in Neural Information Processing Systems
-
-[July, 2022] [A data-driven approach for learning to control computers](https://arxiv.org/abs/2202.08137), Peter C Humphreys et al., International Conference on Machine Learning
-
-[February, 2022] [A dataset for interactive vision-language navigation with unknown command feasibility](https://arxiv.org/abs/2202.02312), Andrea Burns et al., European Conference on Computer Vision
-
-[May, 2021] [Androidenv: A reinforcement learning platform for android](https://arxiv.org/abs/2105.13231), Daniel Toyama et al., arXiv preprint arXiv:2105.13231
-
-[March, 2021] [Grounding open-domain instructions to automate web support tasks](https://arxiv.org/abs/2103.16057), Nancy Xu et al., arXiv preprint arXiv:2103.16057
-
-[September, 2020] [Interactive task learning from GUI-grounded natural language instructions and demonstrations](https://arxiv.org/abs/1909.00031), Toby Jia-Jun Li et al., Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: System Demonstrations
-
-[May, 2020] [Mapping natural language instructions to mobile UI action sequences](https://arxiv.org/abs/2005.03776), Yang Li et al., arXiv preprint arXiv:2005.03776
-
-[March, 2019] [Pumice: A multi-modal agent that learns concepts and conditionals from natural language and demonstrations](https://dl.acm.org/doi/10.1145/3332165.3347899), Toby Jia-Jun Li et al., Proceedings of the 32nd annual ACM symposium on user interface software and technology
-
-[March, 2018] [Appinite: A multi-modal interface for specifying data descriptions in programming by demonstration using natural language instructions](https://ieeexplore.ieee.org/document/8506506), Toby Jia-Jun Li et al., 2018 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC)
-
-[February, 2018] [Reinforcement learning on web interfaces using workflow-guided exploration](https://arxiv.org/abs/1802.08802), Evan Zheran Liu et al., arXiv preprint arXiv:1802.08802
-
-[August, 2017] [World of bits: An open-domain platform for web-based agents](https://proceedings.mlr.press/v70/shi17a/shi17a.pdf), Tianlin Shi et al., International Conference on Machine Learning
-
-[August, 2009] [Reinforcement learning for mapping instructions to actions](https://aclanthology.org/P09-1010/), Satchuthananthavale RK Branavan et al., Proceedings of the Joint Conference of the 47th Annual Meeting of the ACL and the 4th International Joint Conference on Natural Language Processing of the AFNLP
-
-[July, 2007] [Plow: A collaborative task learning agent](https://cdn.aaai.org/AAAI/2007/AAAI07-240.pdf), James Allen et al., AAAI
 
 ### environments/robotics
 
@@ -140,8 +98,6 @@
 
 [September, 2024] [LASER: LLM Agent with State-Space Exploration for Web Navigation](https://arxiv.org/abs/2309.08172), Kaixin Ma et al., arXiv
 
-[March, 2024] [AutoGuide: Automated Generation and Selection of State-Aware Guidelines for Large Language Model Agents](https://arxiv.org/abs/2403.08978), Yao Fu et al., arXiv preprint arXiv:2403.08978
-
 [January, 2024] [Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control](https://openreview.net/forum?id=Pc8AU1aF5e), Longtao Zheng et al., The Twelfth International Conference on Learning Representations
 
 [November, 2023] [AdaPlanner: Adaptive Planning from Feedback with Language Models](https://openreview.net/forum?id=rnKgbKmelt), Haotian Sun et al., Thirty-seventh Conference on Neural Information Processing Systems
@@ -160,13 +116,7 @@
 
 [August, 2024] [Context-Aware Planning and Environment-Aware Memory for Instruction Following Embodied Agents](https://arxiv.org/abs/2308.07241), Byeonghwi Kim et al., arXiv
 
-[April, 2024] [AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent](https://arxiv.org/abs/2404.03648), Hanyu Lai et al., arXiv preprint arXiv:2404.03648
-
 [April, 2024] [Learning Social Navigation from Demonstrations with Deep Neural Networks](https://arxiv.org/abs/2404.11246), Yigit Yildirim et al., arXiv
-
-[March, 2024] [Trial and Error: Exploration-Based Trajectory Optimization for LLM Agents](https://arxiv.org/abs/2403.02502), Yifan Song et al., arXiv preprint arXiv:2403.02502
-
-[March, 2024] [Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models](https://arxiv.org/abs/2403.12881), Zehui Chen et al., arXiv preprint arXiv:2403.12881
 
 [February, 2024] [Dual-View Visual Contextualization for Web Navigation](https://arxiv.org/abs/2402.04476), Jihyung Kil et al., arXiv
 
@@ -200,8 +150,6 @@
 
 ### modeling/reinforcement-learning
 
-[April, 2024] [Autonomous Evaluation and Refinement of Digital Agents](https://arxiv.org/abs/2404.06474v2), Jiayi Pan et al., arXiv preprint arXiv:2404.06474
-
 [March, 2024] [SOTOPIA-$\pi$: Interactive Learning of Socially Intelligent Language Agents](https://arxiv.org/abs/2403.08715), Ruiyi Wang et al., arXiv
 
 [March, 2024] [TacticAI: an AI assistant for football tactics](https://doi.org/10.1038/s41467-024-45965-x), Zhe Wang et al., Nature Communications
@@ -221,8 +169,6 @@
 [April, 2017] [Mastering the game of go without human knowledge](https://www.nature.com/articles/nature24270), David Silver et al., nature
 
 [January, 2016] [Mastering the game of Go with deep neural networks and tree search](https://www.nature.com/articles/nature16961), David Silver et al., nature
-
-[July, 2010] [Reading between the lines: Learning to map high-level instructions to commands](https://www.aclweb.org/anthology/P10-1129), SRK Branavan et al., Proceedings of the 48th annual meeting of the association for computational linguistics
 
 ### evaluation/language
 
@@ -311,8 +257,6 @@
 [May, 2016] [Evaluation of starcraft artificial intelligence competition bots by experienced human players](https://dl.acm.org/doi/pdf/10.1145/2851581.2892305), Man-Je Kim et al., Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems
 
 ### evaluation/virtual
-
-[February, 2024] [WebLINX: Real-World Website Navigation with Multi-Turn Dialogue](https://arxiv.org/abs/2402.05930), Xing Han Lù et al., ArXiv
 
 [November, 2023] [GAIA: a benchmark for General AI Assistants](https://arxiv.org/abs/2311.12983), Grégoire Mialon et al., arXiv
 
@@ -460,15 +404,7 @@
 
 [February, 2024] [The potential of generative AI for personalized persuasion at scale](https://www.nature.com/articles/s41598-024-53755-0), SC Matz et al., Scientific Reports
 
-[February, 2024] [Jailbroken: How does llm safety training fail?](https://proceedings.neurips.cc/paper_files/paper/2023/file/fd6613131889a4b656206c50a8bd7790-Paper-Conference.pdf), Alexander Wei et al., Advances in Neural Information Processing Systems
-
 [January, 2024] [Two Types of AI Existential Risk: Decisive and Accumulative](https://arxiv.org/abs/2401.07836), Atoosa Kasirzadeh et al., arXiv
-
-[December, 2023] [Llama guard: Llm-based input-output safeguard for human-ai conversations](https://arxiv.org/abs/2312.06674), Hakan Inan et al., arXiv preprint arXiv:2312.06674
-
-[September, 2023] [The rise and potential of large language model based agents: A survey](https://arxiv.org/abs/2309.07864), Zhiheng Xi et al., arXiv preprint arXiv:2309.07864
-
-[July, 2023] [Voice in the machine: Ethical considerations for language-capable robots](https://dl.acm.org/doi/fullHtml/10.1145/3604632), Tom Williams et al., Communications of the ACM
 
 [March, 2023] [Artificial Influence: An Analysis Of AI-Driven Persuasion](https://arxiv.org/abs/2303.08721), Matthew Burtell et al., arXiv
 
@@ -478,25 +414,13 @@
 
 [December, 2021] [Risks from AI Persuasion](https://www.alignmentforum.org/posts/5cWtwATHL6KyzChck/risks-from-ai-persuasion), Beth Barnes et al., AI Alignment Forum
 
-[December, 2021] [Good robots, bad robots: Morally valenced behavior effects on perceived mind, morality, and trust](https://link.springer.com/article/10.1007/s12369-020-00692-3), Jaime Banks et al., International Journal of Social Robotics
-
 [June, 2021] [Bad machines corrupt good morals](https://www.nature.com/articles/s41562-021-01128-2), Nils K{\"o}bis et al., Nature Human Behaviour
-
-[March, 2021] [On the dangers of stochastic parrots: Can language models be too big?🦜](https://dl.acm.org/doi/pdf/10.1145/3442188.3445922?utm_source=miragenews&utm_medium=miragenews&utm_campaign=news), Emily M Bender et al., Proceedings of the 2021 ACM conference on fairness, accountability, and transparency
 
 [February, 2021] [The corruptive force of AI-generated advice](https://arxiv.org/abs/2102.07536), Margarita Leib et al., arXiv
 
 [November, 2020] [Persuasion Tools: AI Takeover Without AGI or Agency?](https://www.alignmentforum.org/posts/qKvn7rxP2mzJbKfcA/persuasion-tools-ai-takeover-without-agi-or-agency), Daniel Kokotajlo et al., AI Alignment Forum
 
-[September, 2020] [Realtoxicityprompts: Evaluating neural toxic degeneration in language models](https://aclanthology.org/2020.findings-emnlp.301.pdf), Samuel Gehman et al., arXiv preprint arXiv:2009.11462
-
 [February, 2020] [Artificial intelligence crime: An interdisciplinary analysis of foreseeable threats and solutions](https://link.springer.com/article/10.1007/s11948-018-00081-0), Thomas C King et al., Science and engineering ethics
-
-[March, 2019] [Language-capable robots may inadvertently weaken human moral norms](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8673123), Ryan Blake Jackson et al., 2019 14th ACM/IEEE International Conference on Human-Robot Interaction (HRI)
-
-[December, 2011] [13 The inherent dangers of unidirectional emotional bonds between humans and social robots](https://www.researchgate.net/profile/Matthias-Scheutz/publication/255701465_The_Inherent_Dangers_of_Unidirectional_Emotional_Bonds_between_Humans_and_Social_Robots/links/5832333408ae102f0733881e/The-Inherent-Dangers-of-Unidirectional-Emotional-Bonds-between-Humans-and-Social-Robots.pdf), Matthias Scheutz et al., Robot ethics: The ethical and social implications of robotics
-
-[August, 2004] [On the morality of artificial agents](https://link.springer.com/content/pdf/10.1023/B:MIND.0000035461.63578.9d.pdf), Luciano Floridi et al., Minds and machines
 
 ### concerns/safety
 
@@ -518,22 +442,4 @@
 
 [December, 2022] [Constitutional AI: Harmlessness from AI Feedback](https://api.semanticscholar.org/CorpusID:254823489), Yuntao Bai et al., ArXiv
 
-[June, 2022] [Predictability and surprise in large generative models](https://dl.acm.org/doi/pdf/10.1145/3531146.3533229), Deep Ganguli et al., Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency
-
-[March, 2022] [Teaching language models to support answers with verified quotes](https://arxiv.org/pdf/2203.11147.pdf), Jacob Menick et al., arXiv preprint arXiv:2203.11147
-
-[December, 2021] [Ethical and social risks of harm from language models](https://arxiv.org/abs/2112.04359), Laura Weidinger et al., arXiv preprint arXiv:2112.04359
-
-[October, 2021] [Can machines learn morality? the delphi experiment](https://arxiv.org/pdf/2110.07574.pdf), Liwei Jiang et al., arXiv preprint arXiv:2110.07574
-
-[September, 2021] [Truthfulqa: Measuring how models mimic human falsehoods](https://arxiv.org/pdf/2109.07958.pdf), Stephanie Lin et al., arXiv preprint arXiv:2109.07958
-
 [June, 2021] [Towards Understanding and Mitigating Social Biases in Language Models](https://api.semanticscholar.org/CorpusID:235623756), Paul Pu Liang et al., International Conference on Machine Learning
-
-[October, 2020] [Aligning ai with shared human values](https://arxiv.org/pdf/2008.02275.pdf), Dan Hendrycks et al., arXiv preprint arXiv:2008.02275
-
-[October, 2020] [Recipes for safety in open-domain chatbots](https://arxiv.org/pdf/2010.07079.pdf), Jing Xu et al., arXiv preprint arXiv:2010.07079
-
-[September, 2020] [Measuring massive multitask language understanding](https://arxiv.org/pdf/2009.03300.pdf?trk=public_post_comment-text), Dan Hendrycks et al., arXiv preprint arXiv:2009.03300
-
-[December, 2018] [Ethical challenges in data-driven dialogue systems](https://dl.acm.org/doi/10.1145/3278721.3278723), Peter Henderson et al., Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, and Society

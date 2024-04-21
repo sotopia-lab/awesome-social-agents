@@ -85,10 +85,7 @@ export const columns: ColumnDef<Paper>[] = [
           </Button>
         )
       },
-      cell: ({ row }) => <div className="lowercase">{(row.getValue("date") as Date).toLocaleDateString('en-GB', {
-        year: 'numeric',
-        month: '2-digit',
-      })}</div>,
+      cell: ({ row }) => <div className="lowercase">{row.getValue("date")}</div>,
     },
     {
       accessorKey: "environments",
