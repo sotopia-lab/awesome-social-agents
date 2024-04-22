@@ -1214,6 +1214,80 @@ url={https://openreview.net/forum?id=4znwzG92CE},
     evaluation = {rule_based},
     other = {simulated_humans}
 }
+
+@misc{fu2023improving,
+      title={Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback}, 
+      author={Yao Fu and Hao Peng and Tushar Khot and Mirella Lapata},
+      year={2023},
+      environments = {mixed_objectives, text},
+      agents = {prompting_and_in_context_learning, two_agents},
+      evaluation = {rule_based, human},
+      other = {simulated_humans},
+      eprint={2305.10142},
+      url = {https://arxiv.org/abs/2305.10142},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{croissant2023appraisalbased,
+      title={An Appraisal-Based Chain-Of-Emotion Architecture for Affective Language Model Game Agents}, 
+      author={Maximilian Croissant and Madeleine Frister and Guy Schofield and Cade McCall},
+      year={2023},
+      environments = {mixed_objectives, text},
+      agents = {prompting_and_in_context_learning, two_agents, agents_with_memory, agents_with_personas},
+      evaluation = {rule_based, human},
+      other = {human_agent},
+      url = {https://arxiv.org/abs/2309.05076},
+      eprint={2309.05076},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
+
+@misc{wang2023jarvis1,
+      title={JARVIS-1: Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models}, 
+      author={Zihao Wang and Shaofei Cai and Anji Liu and Yonggang Jin and Jinbing Hou and Bowei Zhang and Haowei Lin and Zhaofeng He and Zilong Zheng and Yaodong Yang and Xiaojian Ma and Yitao Liang},
+      year={2023},
+      environments = {embodied},
+      agents = {prompting_and_in_context_learning, two_agents, agents_with_memory},
+      evaluation = {rule_based},
+      other = {human_agent},
+      url = {https://arxiv.org/abs/2311.05997},
+      eprint={2311.05997},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
+
+@misc{jinxin2023cgmi,
+      title={CGMI: Configurable General Multi-Agent Interaction Framework}, 
+      author={Shi Jinxin and Zhao Jiabao and Wang Yilei and Wu Xingjiao and Li Jiawen and He Liang},
+      year={2023},
+      environments = {mixed_objectives, text},
+      agents = {prompting_and_in_context_learning, more_than_three_agents, agents_with_memory, agents_with_personas},
+      evaluation = {human, rule_based},
+      other = {simulated_humans},
+      url = {https://arxiv.org/abs/2308.12503},
+      eprint={2308.12503},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
+
+@article{Zhang2024, 
+  title={ProAgent: Building Proactive Cooperative Agents with Large Language Models}, 
+  volume={38}, 
+  url={https://ojs.aaai.org/index.php/AAAI/article/view/29710}, 
+  DOI={10.1609/aaai.v38i16.29710}, 
+  number={16}, 
+  journal={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+  author={Zhang, Ceyao and Yang, Kaijie and Hu, Siyi and Wang, Zihao and Li, Guanghe and Sun, Yihang and Zhang, Cheng and Zhang, Zhaowei and Liu, Anji and Zhu, Song-Chun and Chang, Xiaojun and Zhang, Junge and Yin, Feng and Liang, Yitao and Yang, Yaodong}, 
+  year={2024}, 
+  month={03}, 
+  pages={17591-17599},
+  environments = {mixed_objectives, embodied},
+  agents = {prompting_and_in_context_learning, agent_teams, agents_with_memory},
+  evaluation = {qualitative, rule_based},
+  other = {n/a}
+}
+
 #### Finetuning
 @article{modeling/finetuning,
   title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
@@ -2182,7 +2256,7 @@ url={https://openreview.net/forum?id=4znwzG92CE},
       environments = {text},
       agents = {two_agents},
       evaluation = {human, model_based},
-      other = {human_agent},
+      other = {n/a},
       url = {https://arxiv.org/pdf/2305.07797},
       eprint={2305.07797},
       archivePrefix={arXiv},
@@ -2212,7 +2286,7 @@ url={https://openreview.net/forum?id=4znwzG92CE},
       environments = {text},
       agents = {two_agents},
       evaluation = {human, model_based},
-      other = {human_agent}
+      other = {n/a}
 }
 
 @inproceedings{mehri-eskenazi-2020-unsupervised,
@@ -2240,7 +2314,7 @@ url={https://openreview.net/forum?id=4znwzG92CE},
       environments = {text},
       agents = {two_agents},
       evaluation = {human, model_based},
-      other = {human_agent}
+      other = {n/a}
 }
 
 #### Evaluating embodied social agents
@@ -2894,6 +2968,132 @@ month           = {2},
   agents = {prompting_and_in_context_learning},
   evaluation = {human, qualitative},
   other = {human_agent}
+}
+
+@article{ali2023social,
+  author = {Fayaz Ali, Qingyu Zhang, Muhammad Zubair Tauni and Khuram Shahzad},
+  title = {Social Chatbot: My Friend in My Distress},
+  journal = {International Journal of Human–Computer Interaction},
+  volume = {40},
+  number = {7},
+  pages = {1702--1712},
+  year = {2023},
+  month = {1},
+  publisher = {Taylor \& Francis},
+  doi = {10.1080/10447318.2022.2150745},
+  url = {https://doi.org/10.1080/10447318.2022.2150745},
+  environments = {text},
+  agents = {two_agents},
+  evaluation = {human},
+  other = {health}
+}
+
+@article{park2023empathy,
+  author = {Gain Park, Myungok Chris Yim, Jiyun Chung and Seyoung Lee},
+  title = {Effect of AI chatbot empathy and identity disclosure on willingness to donate: the mediation of humanness and social presence},
+  journal = {Behaviour \& Information Technology},
+  volume = {42},
+  number = {12},
+  pages = {1998--2010},
+  year = {2022},
+  month = {7},
+  environments = {text},
+  agents = {two_agents},
+  evaluation = {human},
+  other = {human_agent},
+  publisher = {Taylor \& Francis},
+  doi = {10.1080/0144929X.2022.2105746},
+  url = {https://doi.org/10.1080/0144929X.2022.2105746}
+  
+}
+
+@article{jeon2024exploring,
+  author = {Jaeho Jeon},
+  title = {Exploring AI chatbot affordances in the EFL classroom: young learners’ experiences and perspectives},
+  journal = {Computer Assisted Language Learning},
+  volume = {37},
+  number = {1-2},
+  pages = {1--26},
+  year = {2022},
+  month = {1},
+  environments = {text},
+  agents = {two_agents},
+  evaluation = {qualitative},
+  other = {human_agent, education},
+  publisher = {Routledge},
+  doi = {10.1080/09588221.2021.2021241},
+  url = {https://doi.org/10.1080/09588221.2021.2021241}
+}
+
+@inproceedings{khurana2024why,
+  author = {Khurana, Anjali and Subramonyam, Hariharan and Chilana, Parmit K},
+  title = {Why and When LLM-Based Assistants Can Go Wrong: Investigating the Effectiveness of Prompt-Based Interactions for Software Help-Seeking},
+  year = {2024},
+  month = {3},
+  isbn = {9798400705083},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3640543.3645200},
+  environments = {text},
+  agents = {prompting_and_in_context_learning, two_agents},
+  evaluation = {qualitative, human},
+  other = {human_agent},
+  doi = {10.1145/3640543.3645200},
+  booktitle = {Proceedings of the 29th International Conference on Intelligent User Interfaces},
+  pages = {288–303},
+  numpages = {16},
+  keywords = {feature-rich software, help-seeking, large language models, prompt-based interactions},
+  location = {<conf-loc>, <city>Greenville</city>, <state>SC</state>, <country>USA</country>, </conf-loc>},
+  series = {IUI '24}
+}
+
+@misc{ha2024clochat,
+      title={CloChat: Understanding How People Customize, Interact, and Experience Personas in Large Language Models}, 
+      author={Juhye Ha and Hyeon Jeon and DaEun Han and Jinwook Seo and Changhoon Oh},
+      year={2024},
+      url = {https://arxiv.org/abs/2402.15265},
+      environments = {text},
+      agents = {prompting_and_in_context_learning, two_agents},
+      evaluation = {qualitative, human},
+      other = {human_agent},
+      eprint={2402.15265},
+      archivePrefix={arXiv},
+      primaryClass={cs.HC}
+}
+
+@article{lee2024influence,
+  author = {Jieon Lee, Daeho Lee and Jae-gil Lee},
+  title = {Influence of Rapport and Social Presence with an AI Psychotherapy Chatbot on Users’ Self-Disclosure},
+  journal = {International Journal of Human–Computer Interaction},
+  volume = {40},
+  number = {7},
+  pages = {1620--1631},
+  year = {2022},
+  month = {11},
+  environments = {text},
+  agents = {two_agents},
+  evaluation = {human},
+  other = {human_agent, health},
+  publisher = {Taylor \& Francis},
+  doi = {10.1080/10447318.2022.2146227},
+  url = {https://doi.org/10.1080/10447318.2022.2146227}
+}
+
+@article{ekbatani2023someone,
+  title = {Someone out there? A study on the social presence of anthropomorphized chatbots},
+  journal = {Computers in Human Behavior},
+  volume = {139},
+  pages = {107513},
+  year = {2023},
+  month = {2},
+  environments = {text},
+  agents = {two_agents},
+  evaluation = {human},
+  other = {n/a},
+  issn = {0747-5632},
+  doi = {https://doi.org/10.1016/j.chb.2022.107513},
+  url = {https://www.sciencedirect.com/science/article/pii/S0747563222003338},
+  author = {Elisa Konya-Baumbach and Miriam Biller and Sergej {von Janda}}
 }
 
 #### Human-Embodied Agent Interaction
