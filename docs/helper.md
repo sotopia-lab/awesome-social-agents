@@ -112,19 +112,45 @@
 
 ### environments/robotics
 
+[03, 2024] [Vid2Robot: End-to-end Video-conditioned Policy Learning with Cross-Attention Transformers](https://vid2robot.github.io/), Vidhi Jain et al., arXiv
+
+[03, 2024] [BEHAVIOR-1K: A Human-Centered, Embodied AI Benchmark with 1,000 Everyday Activities and Realistic Simulation](https://behavior.stanford.edu/behavior-1k), Chengshu Li et al., arXiv
+
+[03, 2024] [DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset](https://arxiv.org/abs/2403.12945), Alexander Khazatsky et al., arXiv
+
 [03, 2024] [Yell At Your Robot: Improving On-the-Fly from Language Corrections](https://arxiv.org/abs/2403.12910), Lucy Xiaoyang Shi et al., arXiv
+
+[12, 2023] [Toward General-Purpose Robots via Foundation Models: A Survey and Meta-Analysis](https://robotics-fm-survey.github.io/), Yafei Hu et al., arXiv preprint: arXiv:2312.08782 
 
 [12, 2023] [RoboTube: Learning Household Manipulation from Human Videos with Simulated Twin Environments](https://proceedings.mlr.press/v205/xiong23a.html), Haoyu Xiong et al., Proceedings of The 6th Conference on Robot Learning
 
+[11, 2023] [Toward Grounded Commonsense Reasoning](https://arxiv.org/abs/2306.08651), Minae Kwon et al., arXiv preprint arXiv:2306.08651
+
+[10, 2023] [Open {X-E}mbodiment: Robotic Learning Datasets and {RT-X} Models](https://arxiv.org/abs/2310.08864), Open X-Embodiment Collaboration et al., arXiv
+
+[9, 2023] [How to Prompt Your Robot: A PromptBook for Manipulation Skills with Code as Policies](https://openreview.net/forum?id=T8AiZj1QdN), Montserrat Gonzalez Arenas et al., 2nd Workshop on Language and Robot Learning: Language as Grounding
+
 [08, 2023] [Co-GAIL: Learning Diverse Strategies for Human-Robot Collaboration](https://arxiv.org/abs/2108.06038), Chen Wang et al., arXiv
 
+[7, 2023] [MUTEX: Learning Unified Policies from Multimodal Task Specifications](https://openreview.net/forum?id=PwqiqaaEzJ), Rutav Shah et al., 7th Annual Conference on Robot Learning
+
 [7, 2023] [Robotic vision for human-robot interaction and collaboration: A survey and systematic review](https://arxiv.org/abs/2307.15363), Nicole Robinson et al., ACM Transactions on Human-Robot Interaction
+
+[6, 2023] [Gesture-Informed Robot Assistance via Foundation Models](https://openreview.net/forum?id=Ffn8Z4Q-zU), Li-Heng Lin et al., 7th Annual Conference on Robot Learning
+
+[6, 2023] [HomeRobot: Open-Vocabulary Mobile Manipulation](https://openreview.net/forum?id=b-cto-fetlz), Sriram Yenamandra et al., 7th Annual Conference on Robot Learning
 
 [6, 2023] [One Policy to Dress Them All: Learning to Dress People with Diverse Poses and Garments](https://arxiv.org/abs/2306.12372), Yufei Wang et al., Robotics: Science and Systems (RSS)
 
 [4, 2023] [15 Years of (Who)man Robot Interaction: Reviewing the H in Human-Robot Interaction](https://doi.org/10.1145/3571718), Katie Winkle et al., J. Hum.-Robot Interact.
 
 [3, 2023] [Nonverbal Cues in Human Robot Interaction: A Communication Studies Perspective](https://doi.org/10.1145/3570169), Jacqueline Urakami et al., J. Hum.-Robot Interact.
+
+[01, 2023] [Benchmarks and Algorithms for Offline Preference-Based Reward Learning](https://arxiv.org/pdf/2301.01392.pdf), Daniel Shin et al., arXiv
+
+[12, 2022] [See, Hear, and Feel: Smart Sensory Fusion for Robotic Manipulation](https://ai.stanford.edu/~rhgao/see_hear_feel/), Hao Li et al., CoRL
+
+[12, 2022] [Transformers Are Adaptable Task Planners](https://openreview.net/forum?id=Eal_lL08v_l), Vidhi Jain et al., 6th Annual Conference on Robot Learning
 
 [10, 2022] [A survey of multi-agent Human--Robot Interaction systems](https://arxiv.org/abs/2212.05286), Abhinav Dahiya et al., Robotics and Autonomous Systems
 
@@ -133,6 +159,10 @@
 [6, 2022] [Inner Monologue: Embodied Reasoning through Planning with Language Models](https://arxiv.org/abs/2207.05608), Wenlong Huang et al., arXiv preprint arXiv:2207.05608
 
 [6, 2021] [A taxonomy to structure and analyze human--robot interaction](https://link.springer.com/article/10.1007/s12369-020-00666-5), Linda Onnasch et al., International Journal of Social Robotics
+
+[3, 2020] [Threedworld: A platform for interactive multi-modal physical simulation](https://www.threedworld.org/), Chuang Gan et al., arXiv preprint arXiv:2007.04954
+
+[10, 2019] [Vision-and-Dialog Navigation](https://cvdn.dev/), Jesse Thomason et al., Conference on Robot Learning (CoRL)
 
 [4, 2016] [Human--robot interaction: status and challenges](https://journals.sagepub.com/doi/10.1177/0018720816644364), Thomas B Sheridan et al., Human factors
 
