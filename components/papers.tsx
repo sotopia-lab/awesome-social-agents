@@ -831,6 +831,61 @@ export const data: Paper[] = [
 },
         
  
+{ title: "Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback",
+    date: "05/2023",
+    environments: "mixed_objectives, text",
+    agents: "prompting_and_in_context_learning, two_agents",
+    evaluation: "rule_based, human",
+    other: "simulated_humans",
+    url: "https://arxiv.org/abs/2305.10142",
+    bibtex: "@misc{fu2023improving,\n      title={Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback}, \n      author={Yao Fu and Hao Peng and Tushar Khot and Mirella Lapata},\n      year={2023},\n      environments = {mixed_objectives, text},\n      agents = {prompting_and_in_context_learning, two_agents},\n      evaluation = {rule_based, human},\n      other = {simulated_humans},\n      eprint={2305.10142},\n      url = {https://arxiv.org/abs/2305.10142},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}",
+},
+        
+ 
+{ title: "An Appraisal-Based Chain-Of-Emotion Architecture for Affective Language Model Game Agents",
+    date: "09/2023",
+    environments: "mixed_objectives, text",
+    agents: "prompting_and_in_context_learning, two_agents, agents_with_memory, agents_with_personas",
+    evaluation: "rule_based, human",
+    other: "human_agent",
+    url: "https://arxiv.org/abs/2309.05076",
+    bibtex: "@misc{croissant2023appraisalbased,\n      title={An Appraisal-Based Chain-Of-Emotion Architecture for Affective Language Model Game Agents}, \n      author={Maximilian Croissant and Madeleine Frister and Guy Schofield and Cade McCall},\n      year={2023},\n      environments = {mixed_objectives, text},\n      agents = {prompting_and_in_context_learning, two_agents, agents_with_memory, agents_with_personas},\n      evaluation = {rule_based, human},\n      other = {human_agent},\n      url = {https://arxiv.org/abs/2309.05076},\n      eprint={2309.05076},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI}\n}",
+},
+        
+ 
+{ title: "JARVIS-1: Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models",
+    date: "11/2023",
+    environments: "embodied",
+    agents: "prompting_and_in_context_learning, two_agents, agents_with_memory",
+    evaluation: "rule_based",
+    other: "human_agent",
+    url: "https://arxiv.org/abs/2311.05997",
+    bibtex: "@misc{wang2023jarvis1,\n      title={JARVIS-1: Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models}, \n      author={Zihao Wang and Shaofei Cai and Anji Liu and Yonggang Jin and Jinbing Hou and Bowei Zhang and Haowei Lin and Zhaofeng He and Zilong Zheng and Yaodong Yang and Xiaojian Ma and Yitao Liang},\n      year={2023},\n      environments = {embodied},\n      agents = {prompting_and_in_context_learning, two_agents, agents_with_memory},\n      evaluation = {rule_based},\n      other = {human_agent},\n      url = {https://arxiv.org/abs/2311.05997},\n      eprint={2311.05997},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI}\n}",
+},
+        
+ 
+{ title: "CGMI: Configurable General Multi-Agent Interaction Framework",
+    date: "08/2023",
+    environments: "mixed_objectives, text",
+    agents: "prompting_and_in_context_learning, more_than_three_agents, agents_with_memory, agents_with_personas",
+    evaluation: "human, rule_based",
+    other: "simulated_humans",
+    url: "https://arxiv.org/abs/2308.12503",
+    bibtex: "@misc{jinxin2023cgmi,\n      title={CGMI: Configurable General Multi-Agent Interaction Framework}, \n      author={Shi Jinxin and Zhao Jiabao and Wang Yilei and Wu Xingjiao and Li Jiawen and He Liang},\n      year={2023},\n      environments = {mixed_objectives, text},\n      agents = {prompting_and_in_context_learning, more_than_three_agents, agents_with_memory, agents_with_personas},\n      evaluation = {human, rule_based},\n      other = {simulated_humans},\n      url = {https://arxiv.org/abs/2308.12503},\n      eprint={2308.12503},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI}\n}",
+},
+        
+ 
+{ title: "ProAgent: Building Proactive Cooperative Agents with Large Language Models",
+    date: "03/2024",
+    environments: "mixed_objectives, embodied",
+    agents: "prompting_and_in_context_learning, agent_teams, agents_with_memory",
+    evaluation: "qualitative, rule_based",
+    other: "n/a",
+    url: "https://ojs.aaai.org/index.php/AAAI/article/view/29710",
+    bibtex: "@article{Zhang2024, \n  title={ProAgent: Building Proactive Cooperative Agents with Large Language Models}, \n  volume={38}, \n  url={https://ojs.aaai.org/index.php/AAAI/article/view/29710}, \n  DOI={10.1609/aaai.v38i16.29710}, \n  number={16}, \n  journal={Proceedings of the AAAI Conference on Artificial Intelligence}, \n  author={Zhang, Ceyao and Yang, Kaijie and Hu, Siyi and Wang, Zihao and Li, Guanghe and Sun, Yihang and Zhang, Cheng and Zhang, Zhaowei and Liu, Anji and Zhu, Song-Chun and Chang, Xiaojun and Zhang, Junge and Yin, Feng and Liang, Yitao and Yang, Yaodong}, \n  year={2024}, \n  month={03}, \n  pages={17591-17599},\n  environments = {mixed_objectives, embodied},\n  agents = {prompting_and_in_context_learning, agent_teams, agents_with_memory},\n  evaluation = {qualitative, rule_based},\n  other = {n/a}\n}",
+},
+        
+ 
 { title: "Trial and Error: Exploration-Based Trajectory Optimization for LLM Agents",
     date: "03/2024",
     environments: "virtual",
@@ -1450,33 +1505,33 @@ export const data: Paper[] = [
 { title: "ACCENT: An Automatic Event Commonsense Evaluation Metric for Open-Domain Dialogue Systems",
     date: "05/2023",
     environments: "text",
-    agents: "two_agents",
+    agents: "n/a",
     evaluation: "human, model_based",
-    other: "human_agent",
+    other: "n/a",
     url: "https://arxiv.org/pdf/2305.07797",
-    bibtex: "@misc{ghazarian2023accent,\n      title={ACCENT: An Automatic Event Commonsense Evaluation Metric for Open-Domain Dialogue Systems}, \n      author={Sarik Ghazarian and Yijia Shao and Rujun Han and Aram Galstyan and Nanyun Peng},\n      year={2023},\n      environments = {text},\n      agents = {two_agents},\n      evaluation = {human, model_based},\n      other = {human_agent},\n      url = {https://arxiv.org/pdf/2305.07797},\n      eprint={2305.07797},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}",
+    bibtex: "@misc{ghazarian2023accent,\n      title={ACCENT: An Automatic Event Commonsense Evaluation Metric for Open-Domain Dialogue Systems}, \n      author={Sarik Ghazarian and Yijia Shao and Rujun Han and Aram Galstyan and Nanyun Peng},\n      year={2023},\n      environments = {text},\n      agents = {n/a},\n      evaluation = {human, model_based},\n      other = {n/a},\n      url = {https://arxiv.org/pdf/2305.07797},\n      eprint={2305.07797},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}",
 },
         
  
 { title: "{GRADE}: Automatic Graph-Enhanced Coherence Metric for Evaluating Open-Domain Dialogue Systems",
     date: "11/2020",
     environments: "text",
-    agents: "two_agents",
+    agents: "n/a",
     evaluation: "human, model_based",
-    other: "human_agent",
+    other: "n/a",
     url: "https://aclanthology.org/2020.emnlp-main.742",
-    bibtex: "@inproceedings{huang-etal-2020-grade,\n      title = \"{GRADE}: Automatic Graph-Enhanced Coherence Metric for Evaluating Open-Domain Dialogue Systems\",\n      author = \"Huang, Lishan  and\n            Ye, Zheng  and\n            Qin, Jinghui  and\n            Lin, Liang  and\n            Liang, Xiaodan\",\n      editor = \"Webber, Bonnie  and\n            Cohn, Trevor  and\n            He, Yulan  and\n            Liu, Yang\",\n      booktitle = \"Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)\",\n      month = nov,\n      year = \"2020\",\n      address = \"Online\",\n      publisher = \"Association for Computational Linguistics\",\n      url = \"https://aclanthology.org/2020.emnlp-main.742\",\n      doi = \"10.18653/v1/2020.emnlp-main.742\",\n      pages = \"9230--9240\",\n      abstract = \"Automatically evaluating dialogue coherence is a challenging but high-demand ability for developing high-quality open-domain dialogue systems. However, current evaluation metrics consider only surface features or utterance-level semantics, without explicitly considering the fine-grained topic transition dynamics of dialogue flows. Here, we first consider that the graph structure constituted with topics in a dialogue can accurately depict the underlying communication logic, which is a more natural way to produce persuasive metrics. Capitalized on the topic-level dialogue graph, we propose a new evaluation metric GRADE, which stands for Graph-enhanced Representations for Automatic Dialogue Evaluation. Specifically, GRADE incorporates both coarse-grained utterance-level contextualized representations and fine-grained topic-level graph representations to evaluate dialogue coherence. The graph representations are obtained by reasoning over topic-level dialogue graphs enhanced with the evidence from a commonsense graph, including k-hop neighboring representations and hop-attention weights. Experimental results show that our GRADE significantly outperforms other state-of-the-art metrics on measuring diverse dialogue models in terms of the Pearson and Spearman correlations with human judgments. Besides, we release a new large-scale human evaluation benchmark to facilitate future research on automatic metrics.\",\n      environments = {text},\n      agents = {two_agents},\n      evaluation = {human, model_based},\n      other = {human_agent}\n}",
+    bibtex: "@inproceedings{huang-etal-2020-grade,\n      title = \"{GRADE}: Automatic Graph-Enhanced Coherence Metric for Evaluating Open-Domain Dialogue Systems\",\n      author = \"Huang, Lishan  and\n            Ye, Zheng  and\n            Qin, Jinghui  and\n            Lin, Liang  and\n            Liang, Xiaodan\",\n      editor = \"Webber, Bonnie  and\n            Cohn, Trevor  and\n            He, Yulan  and\n            Liu, Yang\",\n      booktitle = \"Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)\",\n      month = nov,\n      year = \"2020\",\n      address = \"Online\",\n      publisher = \"Association for Computational Linguistics\",\n      url = \"https://aclanthology.org/2020.emnlp-main.742\",\n      doi = \"10.18653/v1/2020.emnlp-main.742\",\n      pages = \"9230--9240\",\n      abstract = \"Automatically evaluating dialogue coherence is a challenging but high-demand ability for developing high-quality open-domain dialogue systems. However, current evaluation metrics consider only surface features or utterance-level semantics, without explicitly considering the fine-grained topic transition dynamics of dialogue flows. Here, we first consider that the graph structure constituted with topics in a dialogue can accurately depict the underlying communication logic, which is a more natural way to produce persuasive metrics. Capitalized on the topic-level dialogue graph, we propose a new evaluation metric GRADE, which stands for Graph-enhanced Representations for Automatic Dialogue Evaluation. Specifically, GRADE incorporates both coarse-grained utterance-level contextualized representations and fine-grained topic-level graph representations to evaluate dialogue coherence. The graph representations are obtained by reasoning over topic-level dialogue graphs enhanced with the evidence from a commonsense graph, including k-hop neighboring representations and hop-attention weights. Experimental results show that our GRADE significantly outperforms other state-of-the-art metrics on measuring diverse dialogue models in terms of the Pearson and Spearman correlations with human judgments. Besides, we release a new large-scale human evaluation benchmark to facilitate future research on automatic metrics.\",\n      environments = {text},\n      agents = {n/a},\n      evaluation = {human, model_based},\n      other = {n/a}\n}",
 },
         
  
 { title: "Unsupervised Evaluation of Interactive Dialog with {D}ialo{GPT}",
     date: "07/2020",
     environments: "text",
-    agents: "two_agents",
+    agents: "n/a",
     evaluation: "human, model_based",
-    other: "human_agent",
+    other: "n/a",
     url: "https://aclanthology.org/2020.sigdial-1.28",
-    bibtex: "@inproceedings{mehri-eskenazi-2020-unsupervised,\n      title = \"Unsupervised Evaluation of Interactive Dialog with {D}ialo{GPT}\",\n      author = \"Mehri, Shikib  and\n            Eskenazi, Maxine\",\n      editor = \"Pietquin, Olivier  and\n            Muresan, Smaranda  and\n            Chen, Vivian  and\n            Kennington, Casey  and\n            Vandyke, David  and\n            Dethlefs, Nina  and\n            Inoue, Koji  and\n            Ekstedt, Erik  and\n            Ultes, Stefan\",\n      booktitle = \"Proceedings of the 21th Annual Meeting of the Special Interest Group on Discourse and Dialogue\",\n      month = jul,\n      year = \"2020\",\n      address = \"1st virtual meeting\",\n      publisher = \"Association for Computational Linguistics\",\n      url = \"https://aclanthology.org/2020.sigdial-1.28\",\n      doi = \"10.18653/v1/2020.sigdial-1.28\",\n      pages = \"225--235\",\n      abstract = \"It is important to define meaningful and interpretable automatic evaluation metrics for open-domain dialog research. Standard language generation metrics have been shown to be ineffective for dialog. This paper introduces the FED metric (fine-grained evaluation of dialog), an automatic evaluation metric which uses DialoGPT, without any fine-tuning or supervision. It also introduces the FED dataset which is constructed by annotating a set of human-system and human-human conversations with eighteen fine-grained dialog qualities. The FED metric (1) does not rely on a ground-truth response, (2) does not require training data and (3) measures fine-grained dialog qualities at both the turn and whole dialog levels. FED attains moderate to strong correlation with human judgement at both levels.\",\n      environments = {text},\n      agents = {two_agents},\n      evaluation = {human, model_based},\n      other = {human_agent}\n}",
+    bibtex: "@inproceedings{mehri-eskenazi-2020-unsupervised,\n      title = \"Unsupervised Evaluation of Interactive Dialog with {D}ialo{GPT}\",\n      author = \"Mehri, Shikib  and\n            Eskenazi, Maxine\",\n      editor = \"Pietquin, Olivier  and\n            Muresan, Smaranda  and\n            Chen, Vivian  and\n            Kennington, Casey  and\n            Vandyke, David  and\n            Dethlefs, Nina  and\n            Inoue, Koji  and\n            Ekstedt, Erik  and\n            Ultes, Stefan\",\n      booktitle = \"Proceedings of the 21th Annual Meeting of the Special Interest Group on Discourse and Dialogue\",\n      month = jul,\n      year = \"2020\",\n      address = \"1st virtual meeting\",\n      publisher = \"Association for Computational Linguistics\",\n      url = \"https://aclanthology.org/2020.sigdial-1.28\",\n      doi = \"10.18653/v1/2020.sigdial-1.28\",\n      pages = \"225--235\",\n      abstract = \"It is important to define meaningful and interpretable automatic evaluation metrics for open-domain dialog research. Standard language generation metrics have been shown to be ineffective for dialog. This paper introduces the FED metric (fine-grained evaluation of dialog), an automatic evaluation metric which uses DialoGPT, without any fine-tuning or supervision. It also introduces the FED dataset which is constructed by annotating a set of human-system and human-human conversations with eighteen fine-grained dialog qualities. The FED metric (1) does not rely on a ground-truth response, (2) does not require training data and (3) measures fine-grained dialog qualities at both the turn and whole dialog levels. FED attains moderate to strong correlation with human judgement at both levels.\",\n      environments = {text},\n      agents = {n/a},\n      evaluation = {human, model_based},\n      other = {n/a}\n}",
 },
         
  
@@ -1884,6 +1939,83 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://dl.acm.org/doi/pdf/10.1145/3640543.3645198",
     bibtex: "@inproceedings{qian2024take,\n  title={Take It, Leave It, or Fix It: Measuring Productivity and Trust in Human-AI Collaboration},\n  author={Qian, Crystal and Wexler, James},\n  booktitle={Proceedings of the 29th International Conference on Intelligent User Interfaces},\n  pages={370--384},\n  month={3},\n  year={2024},\n  url={https://dl.acm.org/doi/pdf/10.1145/3640543.3645198},\n  environments = {text},\n  agents = {prompting_and_in_context_learning},\n  evaluation = {human, qualitative},\n  other = {human_agent}\n}",
+},
+        
+ 
+{ title: "Social Chatbot: My Friend in My Distress",
+    date: "01/2023",
+    environments: "text",
+    agents: "n/a",
+    evaluation: "human",
+    other: "health",
+    url: "https://doi.org/10.1080/10447318.2022.2150745",
+    bibtex: "@article{ali2023social,\n  author = {Fayaz Ali, Qingyu Zhang, Muhammad Zubair Tauni and Khuram Shahzad},\n  title = {Social Chatbot: My Friend in My Distress},\n  journal = {International Journal of Human\u2013Computer Interaction},\n  volume = {40},\n  number = {7},\n  pages = {1702--1712},\n  year = {2023},\n  month = {1},\n  publisher = {Taylor \\& Francis},\n  doi = {10.1080/10447318.2022.2150745},\n  url = {https://doi.org/10.1080/10447318.2022.2150745},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {human},\n  other = {health}\n}",
+},
+        
+ 
+{ title: "Effect of AI chatbot empathy and identity disclosure on willingness to donate: the mediation of humanness and social presence",
+    date: "07/2022",
+    environments: "text",
+    agents: "two_agents",
+    evaluation: "human",
+    other: "human_agent",
+    url: "https://doi.org/10.1080/0144929X.2022.2105746",
+    bibtex: "@article{park2023empathy,\n  author = {Gain Park, Myungok Chris Yim, Jiyun Chung and Seyoung Lee},\n  title = {Effect of AI chatbot empathy and identity disclosure on willingness to donate: the mediation of humanness and social presence},\n  journal = {Behaviour \\& Information Technology},\n  volume = {42},\n  number = {12},\n  pages = {1998--2010},\n  year = {2022},\n  month = {7},\n  environments = {text},\n  agents = {two_agents},\n  evaluation = {human},\n  other = {human_agent},\n  publisher = {Taylor \\& Francis},\n  doi = {10.1080/0144929X.2022.2105746},\n  url = {https://doi.org/10.1080/0144929X.2022.2105746}\n  \n}",
+},
+        
+ 
+{ title: "Exploring AI chatbot affordances in the EFL classroom: young learners\u2019 experiences and perspectives",
+    date: "01/2022",
+    environments: "text",
+    agents: "two_agents",
+    evaluation: "qualitative",
+    other: "human_agent, education",
+    url: "https://doi.org/10.1080/09588221.2021.2021241",
+    bibtex: "@article{jeon2024exploring,\n  author = {Jaeho Jeon},\n  title = {Exploring AI chatbot affordances in the EFL classroom: young learners\u2019 experiences and perspectives},\n  journal = {Computer Assisted Language Learning},\n  volume = {37},\n  number = {1-2},\n  pages = {1--26},\n  year = {2022},\n  month = {1},\n  environments = {text},\n  agents = {two_agents},\n  evaluation = {qualitative},\n  other = {human_agent, education},\n  publisher = {Routledge},\n  doi = {10.1080/09588221.2021.2021241},\n  url = {https://doi.org/10.1080/09588221.2021.2021241}\n}",
+},
+        
+ 
+{ title: "Why and When LLM-Based Assistants Can Go Wrong: Investigating the Effectiveness of Prompt-Based Interactions for Software Help-Seeking",
+    date: "03/2024",
+    environments: "text",
+    agents: "prompting_and_in_context_learning, two_agents",
+    evaluation: "qualitative, human",
+    other: "human_agent",
+    url: "https://doi.org/10.1145/3640543.3645200",
+    bibtex: "@inproceedings{khurana2024why,\n  author = {Khurana, Anjali and Subramonyam, Hariharan and Chilana, Parmit K},\n  title = {Why and When LLM-Based Assistants Can Go Wrong: Investigating the Effectiveness of Prompt-Based Interactions for Software Help-Seeking},\n  year = {2024},\n  month = {3},\n  isbn = {9798400705083},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3640543.3645200},\n  environments = {text},\n  agents = {prompting_and_in_context_learning, two_agents},\n  evaluation = {qualitative, human},\n  other = {human_agent},\n  doi = {10.1145/3640543.3645200},\n  booktitle = {Proceedings of the 29th International Conference on Intelligent User Interfaces},\n  pages = {288\u2013303},\n  numpages = {16},\n  keywords = {feature-rich software, help-seeking, large language models, prompt-based interactions},\n  location = {<conf-loc>, <city>Greenville</city>, <state>SC</state>, <country>USA</country>, </conf-loc>},\n  series = {IUI '24}\n}",
+},
+        
+ 
+{ title: "CloChat: Understanding How People Customize, Interact, and Experience Personas in Large Language Models",
+    date: "02/2024",
+    environments: "text",
+    agents: "prompting_and_in_context_learning, two_agents",
+    evaluation: "qualitative, human",
+    other: "human_agent",
+    url: "https://arxiv.org/abs/2402.15265",
+    bibtex: "@misc{ha2024clochat,\n      title={CloChat: Understanding How People Customize, Interact, and Experience Personas in Large Language Models}, \n      author={Juhye Ha and Hyeon Jeon and DaEun Han and Jinwook Seo and Changhoon Oh},\n      year={2024},\n      url = {https://arxiv.org/abs/2402.15265},\n      environments = {text},\n      agents = {prompting_and_in_context_learning, two_agents},\n      evaluation = {qualitative, human},\n      other = {human_agent},\n      eprint={2402.15265},\n      archivePrefix={arXiv},\n      primaryClass={cs.HC}\n}",
+},
+        
+ 
+{ title: "Influence of Rapport and Social Presence with an AI Psychotherapy Chatbot on Users\u2019 Self-Disclosure",
+    date: "11/2022",
+    environments: "text",
+    agents: "two_agents",
+    evaluation: "human",
+    other: "human_agent, health",
+    url: "https://doi.org/10.1080/10447318.2022.2146227",
+    bibtex: "@article{lee2024influence,\n  author = {Jieon Lee, Daeho Lee and Jae-gil Lee},\n  title = {Influence of Rapport and Social Presence with an AI Psychotherapy Chatbot on Users\u2019 Self-Disclosure},\n  journal = {International Journal of Human\u2013Computer Interaction},\n  volume = {40},\n  number = {7},\n  pages = {1620--1631},\n  year = {2022},\n  month = {11},\n  environments = {text},\n  agents = {two_agents},\n  evaluation = {human},\n  other = {human_agent, health},\n  publisher = {Taylor \\& Francis},\n  doi = {10.1080/10447318.2022.2146227},\n  url = {https://doi.org/10.1080/10447318.2022.2146227}\n}",
+},
+        
+ 
+{ title: "Someone out there? A study on the social presence of anthropomorphized chatbots",
+    date: "02/2023",
+    environments: "text",
+    agents: "n/a",
+    evaluation: "human",
+    other: "n/a",
+    url: "https://www.sciencedirect.com/science/article/pii/S0747563222003338",
+    bibtex: "@article{ekbatani2023someone,\n  title = {Someone out there? A study on the social presence of anthropomorphized chatbots},\n  journal = {Computers in Human Behavior},\n  volume = {139},\n  pages = {107513},\n  year = {2023},\n  month = {2},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {human},\n  other = {n/a},\n  issn = {0747-5632},\n  doi = {https://doi.org/10.1016/j.chb.2022.107513},\n  url = {https://www.sciencedirect.com/science/article/pii/S0747563222003338},\n  author = {Elisa Konya-Baumbach and Miriam Biller and Sergej {von Janda}}\n}",
 },
         
  
