@@ -1,12 +1,13 @@
-<div align="center">
-  <h1>🗣️👥 Awesome Social Agents</h1>
+
+<h1>🗣️👥 Awesome Social Agents</h1>
+<div class="flex flex-row">
   <a href="https://awesome.re">
     <img src="https://awesome.re/badge.svg" alt="Awesome">
-  </a>
-  <a href="https://img.shields.io/badge/PRs-Welcome-red">
+  </a>&nbsp;
+  <a href="/contribution">
     <img src="https://img.shields.io/badge/PRs-Welcome-blue" alt="PRs Welcome">
-  </a>
-  <a href="https://img.shields.io/badge/arXiv-coming-b31b1b.svg">
+  </a>&nbsp;
+  <a href="https://arxiv-coming-soon">
     <img src="https://img.shields.io/badge/arXiv-Coming soon-b31b1b.svg" alt="arXiv">
   </a>
 </div>
@@ -31,20 +32,6 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 
 📝 *We are currently working on a survey paper related to content of this repository. Stay tuned for updates!*
 
-## Installation
-This repo supports Python 3.9 and above. In one line, to use a virtual environment, e.g. with anaconda3: 
-
-`conda create -n awsome-social-agents python=3.9; conda activate awsome-social-agents; python -m install requirements.txt`
-
-For developing the website, 
-
-```
-curl -fsSL https://bun.sh/install | bash # install bun
-bun i # install dependencies
-bun run dev # run dev server (auto reload)
-# bun run build # if you wanna build
-```
-In next.config.js. you should set the basepath to "" in your local machine, but make sure not to commit it since github page requires it.
 
 ## Table of Contents
 - [Papers](#papers)

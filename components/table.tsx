@@ -28,6 +28,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu"
+import { DataTableFacetedFilter } from "./ui/data-table-faceted-filter"
 import {
   Table,
   TableBody,
@@ -42,29 +43,9 @@ import {
 } from "./papers"
 import Link from "next/link"
 
+import { agents } from "./data/data"
+
 export const columns: ColumnDef<Paper>[] = [
-    // {
-    //   id: "select",
-    //   header: ({ table }) => (
-    //     <Checkbox
-    //       checked={
-    //         table.getIsAllPageRowsSelected() ||
-    //         (table.getIsSomePageRowsSelected() && "indeterminate")
-    //       }
-    //       onCheckedChange={(value) => table.toggleAllPageRowsSelected(!!value)}
-    //       aria-label="Select all"
-    //     />
-    //   ),
-    //   cell: ({ row }) => (
-    //     <Checkbox
-    //       checked={row.getIsSelected()}
-    //       onCheckedChange={(value) => row.toggleSelected(!!value)}
-    //       aria-label="Select row"
-    //     />
-    //   ),
-    //   enableSorting: false,
-    //   enableHiding: false,
-    // },
     {
       accessorKey: "title",
       header: "Title",
@@ -72,6 +53,7 @@ export const columns: ColumnDef<Paper>[] = [
         <Link href={`${row.getValue("url")}`}><div className="">{row.getValue("title")}</div></Link>
       ),
     },
+    
     {
       accessorKey: "date",
       header: ({ column }) => {
@@ -243,6 +225,13 @@ export function DataTableDemo() {
           }
           className="max-w-sm"
         />
+        {table.getColumn("agents") && (
+          <DataTableFacetedFilter
+            column={table.getColumn("agents")}
+            title="Agents"
+            options={agents}
+          />
+        )}
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="outline" className="ml-auto">
