@@ -510,6 +510,12 @@
 
 [8, 2022] [Social Simulacra: Creating Populated Prototypes for Social Computing Systems](https://doi.org/10.1145/3526113.3545616), Joon Sung Park et al., Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology
 
+[8, 2021] [The ai economist: Optimal economic policy design via two-level deep reinforcement learning](https://arxiv.org/abs/2108.02755), Stephan Zheng et al., arXiv preprint arXiv:2108.02755
+
+[08, 2021] [Building a Foundation for Data-Driven, Interpretable, and Robust Policy Design using the AI Economist](https://arxiv.org/abs/2108.02904), Alexander Trott et al., arXiv
+
+[4, 2020] [The AI Economist: Improving Equality and Productivity with AI-Driven Tax Policies](https://arxiv.org/abs/2004.13332), Stephan Zheng et al., arXiv
+
 ### concerns/risks
 
 [2, 2024] [The potential of generative AI for personalized persuasion at scale](https://www.nature.com/articles/s41598-024-53755-0), SC Matz et al., Scientific Reports
