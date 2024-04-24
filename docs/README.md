@@ -84,6 +84,16 @@ This repo supports Python 3.9 and above. In one line, to use a virtual environme
 
 [October, 2023] [CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents](https://arxiv.org/abs/2310.17512), Qinlin Zhao et al., arXiv
 
+[March, 2022] [Report from the nsf future directions workshop on automatic evaluation of dialog: Research directions and challenges](https://arxiv.org/abs/2203.10012), Shikib Mehri et al., arXiv preprint arXiv:2203.10012
+
+[January, 2022] [Socio-conversational systems: Three challenges at the crossroads of fields](https://pubmed.ncbi.nlm.nih.gov/36591412/), Chlo{\'e} Clavel et al., Frontiers in Robotics and AI
+
+[January, 2022] [The Handbook on Socially Interactive Agents: 20 Years of Research on Embodied Conversational Agents, Intelligent Virtual Agents, and Social Robotics Volume 2: Interactivity, Platforms, Application](https://dl.acm.org/doi/book/10.1145/3477322), Birgit Lugrin et al., ACM
+
+[January, 2022] [Human evaluation of conversations is an open problem: comparing the sensitivity of various methods for evaluating dialogue agents](https://arxiv.org/abs/2201.04723), Eric Michael Smith et al., arXiv preprint arXiv:2201.04723
+
+[November, 2018] [Towards empathetic open-domain conversation models: A new benchmark and dataset](https://arxiv.org/abs/1811.00207), Hannah Rashkin et al., arXiv preprint arXiv:1811.00207
+
 #### Embodied Environments
 
 [October, 2023] [Habitat 3.0: A Co-Habitat for Humans, Avatars and Robots](https://arxiv.org/abs/2310.13724), Puig et al., ICLR
@@ -225,10 +235,21 @@ May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigatio
 
 [January, 2021] [Evaluating the Robustness of Collaborative Agents](https://arxiv.org/abs/2101.05507) Knott et al., AAMAS '21: Proceedings of the 20th International Conference on Autonomous Agents and MultiAgent Systems
 
-
-
-
 #### Evaluating virtual social agents
+
+[January, 2022] [The Artificial-Social-Agent Questionnaire: Establishing the long and short questionnaire versions](https://dl.acm.org/doi/abs/10.1145/3514197.3549612), Siska Fitrianie et al., Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents
+
+[January, 2021] [Empathy and prosociality in social agents](https://dl.acm.org/doi/10.1145/3477322.3477334), Ana Paiva et al., The Handbook on Socially Interactive Agents: 20 Years of Research on Embodied Conversational Agents, Intelligent Virtual Agents, and Social Robotics Volume 1: Methods, Behavior, Cognition
+
+[February, 2020] [Embedding Conversational Agents into AR: Invisible or with a Realistic Human Body?](https://doi.org/10.1145/3374920.3374956), Jens Reinhardt et al., Proceedings of the Fourteenth International Conference on Tangible, Embedded, and Embodied Interaction
+
+[January, 2020] [The 19 unifying questionnaire constructs of artificial social agents: An iva community analysis](https://dl.acm.org/doi/10.1145/3383652.3423873), Siska Fitrianie et al., Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents
+
+[June, 2019] [Social-iq: A question answering benchmark for artificial social intelligence](https://openaccess.thecvf.com/content_CVPR_2019/html/Zadeh_Social-IQ_A_Question_Answering_Benchmark_for_Artificial_Social_Intelligence_CVPR_2019_paper.html), Amir Zadeh et al., Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition
+
+[May, 2019] [Exploring Virtual Agents for Augmented Reality](https://doi.org/10.1145/3290605.3300511), Isaac Wang et al., CHI
+
+[July, 2018] [Multimodal language analysis in the wild: Cmu-mosei dataset and interpretable dynamic fusion graph](https://aclanthology.org/P18-1208/), AmirAli Bagher Zadeh et al., Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
 
 #### Evaluating robotics in social contexts
 [March, 2024] [HumanoidBench: Simulated Humanoid Benchmark for Whole-Body Locomotion and Manipulation](https://arxiv.org/abs/2403.10506), Carmelo Sferrazza et al., arXiv
@@ -306,7 +327,21 @@ May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigatio
 
 [August, 2021] [Formalizing and guaranteeing human-robot interaction](https://arxiv.org/abs/2006.16732), Hadas Kress-Gazit et al., Communications of the ACM
 
+[October, 2021] [Core elements of social interaction for constructive human-robot interaction](https://arxiv.org/abs/2110.04054), Mike EU Ligthart et al., arXiv preprint arXiv:2110.04054
+
+[August, 2021] [Formalizing and guaranteeing human-robot interaction](https://arxiv.org/abs/2006.16732), Hadas Kress-Gazit et al., Communications of the ACM
+
+[January, 2021] [A taxonomy of social errors in human-robot interaction](https://dl.acm.org/doi/abs/10.1145/3439720), Leimin Tian et al., ACM Transactions on Human-Robot Interaction (THRI)
+
+[January, 2021] [Turn-taking in conversational systems and human-robot interaction: a review](https://www.sciencedirect.com/science/article/pii/S088523082030111X), Gabriel Skantze et al., Computer Speech \& Language
+
+[January, 2020] [Measuring the perceived social intelligence of robots](https://dl.acm.org/doi/abs/10.1145/3415139), Kimberly A Barchard et al., ACM Transactions on Human-Robot Interaction (THRI)
+
+[January, 2017] [Enabling robotic social intelligence by engineering human social-cognitive mechanisms](https://www.sciencedirect.com/science/article/abs/pii/S1389041716300493), Travis J Wiltshire et al., Cognitive Systems Research
+
 #### Human-Human Interaction
+
+[January, 2023] [A Comprehensive Review of Data-Driven Co-Speech Gesture Generation](https://arxiv.org/abs/2301.05339), Simbarashe Nyatsanga et al., Computer Graphics Forum
 
 ### Challenges
 
@@ -337,6 +372,18 @@ May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigatio
 
 [October, 2024] [Conversational Health Agents: A Personalized LLM-Powered Agent Framework](https://arxiv.org/abs/2310.02374), Mahyar Abbasian et al., arXiv
 
+[January, 2023] [Foundation models for generalist medical artificial intelligence](https://www.nature.com/articles/s41586-023-05881-4), Michael Moor et al., Nature
+
+[January, 2022] [Health-related applications of socially interactive agents](https://dl.acm.org/doi/abs/10.1145/3563659.3563672), Timothy Bickmore et al., The Handbook on Socially Interactive Agents: 20 years of Research on Embodied Conversational Agents, Intelligent Virtual Agents, and Social Robotics Volume 2: Interactivity, Platforms, Application
+
+[January, 2021] [Intelligent sensing technologies for the diagnosis, monitoring and therapy of alzheimer’s disease: A systematic review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8234801/#B23-sensors-21-04249), Nazia Gillani et al., Sensors
+
+[January, 2021] [Patients’ perceptions toward human--artificial intelligence interaction in health care: experimental study](https://www.jmir.org/2021/11/e25856/), Pouyan Esmaeilzadeh et al., Journal of medical Internet research
+
+[January, 2020] [The effectiveness of artificial intelligence conversational agents in health care: systematic review](https://www.jmir.org/2020/10/e20346/PDF), Madison Milne-Ives et al., Journal of medical Internet research
+
+[January, 2019] [Artificial intelligence in healthcare robots: A social informatics study of knowledge embodiment](https://asistdl.onlinelibrary.wiley.com/doi/pdf/10.1002/asi.24145?casa_token=T2fVrVRwmt0AAAAA:IT7GOCcygCdBuckrO5UqRg0hlWXOU3YUx1UPqi2kVG8XxxQfNxMDY6JBm5Kcz1XuO5Xsjo9H7KzCOOv-), Loo G Pee et al., Journal of the Association for Information Science and Technology
+
 #### Policy
 [August, 2022] [Social Simulacra: Creating Populated Prototypes for Social Computing Systems](https://doi.org/10.1145/3526113.3545616), Joon Sung Park et al., Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology
 
@@ -349,6 +396,8 @@ May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigatio
 [March, 2024] [From Skepticism to Acceptance: Simulating the Attitude Dynamics Toward Fake News](https://arxiv.org/abs/2403.09498), Yuhan Liu et al., arXiv                
 
 #### Education
+
+[January, 2023] [AI for Students with Learning Disabilities: A Systematic Review](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4617715), Xiaoming Zhai et al., n/a
 
 ### Concerns
 
