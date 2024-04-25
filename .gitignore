@@ -1,3 +1,5 @@
 .pytest_cache/*
 ./docs/.DS_Store
 .DS_Store
+node_modules
+node_modules
