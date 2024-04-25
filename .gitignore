@@ -1,9 +1,6 @@
 .pytest_cache/*
 ./docs/.DS_Store
 .DS_Store
-<<<<<<< HEAD
-node_modules
-=======
 
 # dependencies
 /node_modules
@@ -41,4 +38,3 @@ yarn-error.log*
 next-env.d.ts
 
 /.idea/
->>>>>>> main
