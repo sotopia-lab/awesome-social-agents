@@ -2646,6 +2646,39 @@ export const data: Paper[] = [
 },
         
  
+{ title: "The AI Economist: Improving Equality and Productivity with AI-Driven Tax Policies",
+    date: "04/2020",
+    environments: "text, mixed_objectives",
+    agents: "more_than_three_agents",
+    evaluation: "human, rule_based",
+    other: "policy",
+    url: "https://arxiv.org/abs/2004.13332",
+    bibtex: "@misc{2004.13332,\n  author = {Stephan Zheng, Alexander Trott, Sunil Srinivasa, Nikhil Naik, Melvin Gruesbeck, David C. Parkes, Richard Socher},\n  title = {The AI Economist: Improving Equality and Productivity with AI-Driven Tax Policies},\n  year = {2020},\n  month = {4},\n  url = {https://arxiv.org/abs/2004.13332},\n  journal = {arXiv},\n  environments = {text, mixed_objectives},\n  agents = {more_than_three_agents},\n  evaluation = {human, rule_based},\n  other = {policy},\n}",
+},
+        
+ 
+{ title: "The ai economist: Optimal economic policy design via two-level deep reinforcement learning",
+    date: "08/2021",
+    environments: "text, mixed_objectives",
+    agents: "more_than_three_agents, reinforcement_learning",
+    evaluation: "human, rule_based",
+    other: "policy",
+    url: "https://arxiv.org/abs/2108.02755",
+    bibtex: "@article{zheng2021ai,\n  title={The ai economist: Optimal economic policy design via two-level deep reinforcement learning},\n  author={Zheng, Stephan and Trott, Alexander and Srinivasa, Sunil and Parkes, David C and Socher, Richard},\n  journal={arXiv preprint arXiv:2108.02755},\n  year={2021},\n  month={8},\n  url={https://arxiv.org/abs/2108.02755},\n  environments = {text, mixed_objectives},\n  agents = {more_than_three_agents, reinforcement_learning},\n  evaluation = {human, rule_based},\n  other = {policy},\n}",
+},
+        
+ 
+{ title: "Building a Foundation for Data-Driven, Interpretable, and Robust Policy Design using the AI Economist",
+    date: "08/2021",
+    environments: "text, mixed_objectives",
+    agents: "more_than_three_agents, reinforcement_learning",
+    evaluation: "human, rule_based",
+    other: "policy",
+    url: "https://arxiv.org/abs/2108.02904",
+    bibtex: "@misc{trott2021building,\n    title={Building a Foundation for Data-Driven, Interpretable, and Robust Policy Design using the AI Economist}, \n    author={Alexander Trott and Sunil Srinivasa and Douwe van der Wal and Sebastien Haneuse and Stephan Zheng},\n    year={2021},\n    month={8},\n    eprint={2108.02904},\n    archivePrefix={arXiv},\n    primaryClass={cs.LG},\n    url={https://arxiv.org/abs/2108.02904},\n    environments = {text, mixed_objectives},\n    agents = {more_than_three_agents, reinforcement_learning},\n    evaluation = {human, rule_based},\n    other = {policy},\n}",
+},
+        
+ 
 { title: "Two Types of AI Existential Risk: Decisive and Accumulative",
     date: "01/2024",
     environments: "n/a",
