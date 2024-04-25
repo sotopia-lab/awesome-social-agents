@@ -43,7 +43,7 @@ import {
 } from "./papers"
 import Link from "next/link"
 
-import { agents } from "./data/data"
+import { options } from "./data/data"
 
 export const columns: ColumnDef<Paper>[] = [
     {
@@ -229,8 +229,8 @@ export function DataTableDemo() {
           {table.getColumn("agents") && (
             <DataTableFacetedFilter
               column={table.getColumn("agents")}
-              title="Agents"
-              options={agents}
+              title="Filter by tags"
+              options={options}
             />
           )}
         </div>

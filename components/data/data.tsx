@@ -1,22 +1,46 @@
-export const agents = [
+export const options = [
     {
-      value: "backlog",
-      label: "Backlog",
+      value: "text",
+      label: "Text",
     },
     {
-      value: "todo",
-      label: "Todo",
+      value: "virtual",
+      label: "Virtual",
     },
     {
-      value: "in progress",
-      label: "In Progress",
+      value: "embodied",
+      label: "Embodied",
     },
     {
-      value: "done",
-      label: "Done",
+      value: "robotics",
+      label: "Robotics",
     },
     {
-      value: "canceled",
-      label: "Canceled",
+      value: "two_agents",
+      label: "Two Agents",
+    },
+    {
+      value: "more_than_three_agents",
+      label: "Multi-Agent",
+    },
+    {
+      value: "agent_teams",
+      label: "Agent Teams",
+    },
+    {
+      value: "pretraining",
+      label: "Pretraining",
+    },
+    {
+      value: "finetuning",
+      label: "Finetuning",
+    },
+    {
+      value: "reinforcement_learning",
+      label: "Reinforcement Learning",
+    },
+    {
+      value: "prompting_and_in_context_learning",
+      label: "Prompting",
     },
   ]
