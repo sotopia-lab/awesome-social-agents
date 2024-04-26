@@ -322,9 +322,9 @@
 
 ### evaluation/embodied
 
-[12, 2024] [How much can change in a year? Revisiting Evaluation in Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2312.08463), Siddarth Singh et al., arXiv
-
 [03, 2024] [Embodied LLM Agents Learn to Cooperate in Organized Teams](https://arxiv.org/abs/2403.12482), Xudong Guo et al., arXiv
+
+[12, 2023] [How much can change in a year? Revisiting Evaluation in Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2312.08463), Siddarth Singh et al., arXiv
 
 [12, 2022] [Don{'}t Copy the Teacher: Data and Model Challenges in Embodied Dialogue](https://aclanthology.org/2022.emnlp-main.635), Min et al., Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing
 
