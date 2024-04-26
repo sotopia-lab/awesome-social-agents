@@ -221,7 +221,7 @@ export function DataTableDemo() {
       <div className="flex flex-row">
         <div className="flex py-4 space-x-2">
           <Input
-            placeholder="Input keyword to search..."
+            placeholder="Input keywords to search..."
             value={(filterInput as string) ?? ""}
             onChange={(event) => {
                 setFilterInput(event.target.value);
