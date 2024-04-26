@@ -1,6 +1,21 @@
 # Contribution
 Hi everyone! Thanks for the help!! Your expertise is invaluable to the community 💡. Here are some steps to contribute to the repository:
 
+### Installation
+This repo supports Python 3.9 and above. In one line, to use a virtual environment, e.g. with anaconda3: 
+
+`conda create -n awsome-social-agents python=3.9; conda activate awsome-social-agents; python -m install requirements.txt`
+
+For developing the website, 
+
+```
+curl -fsSL https://bun.sh/install | bash # install bun
+bun i # install dependencies
+bun run dev # run dev server (auto reload)
+# bun run build # if you wanna build
+```
+In next.config.js. you should set the basepath to "" in your local machine, but make sure not to commit it since github page requires it.
+
 ### Steps
 
 1. Fork the repository.

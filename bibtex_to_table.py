@@ -9,7 +9,6 @@ from pprint import pprint
 from collections import Counter
 from itertools import groupby
 
-
 # Patch bibtextparser to exit with when the keys are repeated
 from copy import deepcopy
 import logging
@@ -22,6 +21,7 @@ from bibtexparser.model import String
 from bibtexparser.model import DuplicateBlockKeyBlock
 from bibtexparser.model import DuplicateFieldKeyBlock
 from bibtexparser.middlewares.middleware import BlockMiddleware # type: ignore
+
 def _transform_block(self, block, library):
     block = block if self.allow_inplace_modification else deepcopy(block)
     if isinstance(block, Entry):

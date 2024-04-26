@@ -4,9 +4,11 @@ import {
   ChevronDownIcon,
   DotsHorizontalIcon,
 } from "@radix-ui/react-icons"
+import { Badge } from "@/components/ui/badge"
 import {
   ColumnDef,
   ColumnFiltersState,
+  Row,
   SortingState,
   VisibilityState,
   flexRender,
@@ -28,6 +30,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu"
+import { DataTableFacetedFilter } from "./ui/data-table-faceted-filter"
 import {
   Table,
   TableBody,
@@ -42,36 +45,33 @@ import {
 } from "./papers"
 import Link from "next/link"
 
+import { options } from "./data/data"
+
+const renderCell = (row: Row<Paper>, row_name: string, backgroundColor:string) => {
+  const environments:string = row.getValue(row_name);
+  const environmentList = environments.split(",").map(environment => environment.trim()).sort();
+  return (
+    <div className="flex flex-wrap">
+      {environmentList.map((environment, index) => (
+        <div key={index} className={`rounded-full bg-clip-border ${backgroundColor} m-1 px-2 py-1`}>
+          {environment.trim()}
+        </div>
+      ))}
+    </div>
+  );
+};
+
 export const columns: ColumnDef<Paper>[] = [
-    // {
-    //   id: "select",
-    //   header: ({ table }) => (
-    //     <Checkbox
-    //       checked={
-    //         table.getIsAllPageRowsSelected() ||
-    //         (table.getIsSomePageRowsSelected() && "indeterminate")
-    //       }
-    //       onCheckedChange={(value) => table.toggleAllPageRowsSelected(!!value)}
-    //       aria-label="Select all"
-    //     />
-    //   ),
-    //   cell: ({ row }) => (
-    //     <Checkbox
-    //       checked={row.getIsSelected()}
-    //       onCheckedChange={(value) => row.toggleSelected(!!value)}
-    //       aria-label="Select row"
-    //     />
-    //   ),
-    //   enableSorting: false,
-    //   enableHiding: false,
-    // },
     {
       accessorKey: "title",
       header: "Title",
       cell: ({ row }) => (
-        <Link href={`${row.getValue("url")}`}><div className="">{row.getValue("title")}</div></Link>
+        <Link href={`${row.getValue("url")}`} className="text-blue-500 hover:text-blue-700">
+          <div className="">{row.getValue("title")}
+        </div></Link>
       ),
     },
+    
     {
       accessorKey: "date",
       header: ({ column }) => {
@@ -84,6 +84,19 @@ export const columns: ColumnDef<Paper>[] = [
             <CaretSortIcon className="ml-2 h-4 w-4" />
           </Button>
         )
+      },
+      sortingFn: (rowA, rowB) => {
+        const dateA: string = rowA.getValue("date");
+        const dateB: string = rowB.getValue("date");
+        const monthA = parseInt(dateA.split("/")[0], 10);
+        const monthB = parseInt(dateB.split("/")[0], 10);
+        const yearA = parseInt(dateA.split("/")[1], 10);
+        const yearB = parseInt(dateB.split("/")[1], 10);
+    
+        if (yearA === yearB) {
+          return monthA - monthB;
+        }
+        return yearA - yearB;
       },
       cell: ({ row }) => <div className="lowercase">{row.getValue("date")}</div>,
     },
@@ -100,9 +113,9 @@ export const columns: ColumnDef<Paper>[] = [
           </Button>
         )
       },
-      cell: ({ row }) => (
-        <div className="">{row.getValue("environments")}</div>
-      ),
+      cell: ({ row }) => {
+        return renderCell(row, "environments", "bg-lime-200")
+      },
     },
     {
       accessorKey: "agents",
@@ -118,7 +131,7 @@ export const columns: ColumnDef<Paper>[] = [
         )
       },
       cell: ({ row }) => (
-        <div className="">{row.getValue("agents")}</div>
+        renderCell(row, "agents", "bg-violet-200")
       ),
     },
     {
@@ -135,7 +148,7 @@ export const columns: ColumnDef<Paper>[] = [
         )
       },
       cell: ({ row }) => (
-        <div className="">{row.getValue("evaluation")}</div>
+        renderCell(row, "evaluation", "bg-sky-200")
       ),
     },
     {
@@ -152,7 +165,7 @@ export const columns: ColumnDef<Paper>[] = [
         )
       },
       cell: ({ row }) => (
-        <div className="">{row.getValue("other")}</div>
+        renderCell(row, "other", "bg-rose-200")
       ),
     },
     {
@@ -205,6 +218,8 @@ export function DataTableDemo() {
   const [columnVisibility, setColumnVisibility] =
     React.useState<VisibilityState>({})
   const [rowSelection, setRowSelection] = React.useState({})
+
+  const [filterInput, setFilterInput] = React.useState<string>("")
   
   const table = useReactTable({
     data,
@@ -234,41 +249,54 @@ export function DataTableDemo() {
   
   return (
     <div className="w-full">
-      <div className="flex items-center py-4">
-        <Input
-          placeholder="Filter papers by title..."
-          value={(table.getColumn("title")?.getFilterValue() as string) ?? ""}
-          onChange={(event) =>
-            table.getColumn("title")?.setFilterValue(event.target.value)
-          }
-          className="max-w-sm"
-        />
-        <DropdownMenu>
-          <DropdownMenuTrigger asChild>
-            <Button variant="outline" className="ml-auto">
-              Columns <ChevronDownIcon className="ml-2 h-4 w-4" />
-            </Button>
-          </DropdownMenuTrigger>
-          <DropdownMenuContent align="end">
-            {table
-              .getAllColumns()
-              .filter((column) => column.getCanHide())
-              .map((column) => {
-                return (
-                  <DropdownMenuCheckboxItem
-                    key={column.id}
-                    className="capitalize"
-                    checked={column.getIsVisible()}
-                    onCheckedChange={(value) =>
-                      column.toggleVisibility(!!value)
-                    }
-                  >
-                    {column.id}
-                  </DropdownMenuCheckboxItem>
-                )
-              })}
-          </DropdownMenuContent>
-        </DropdownMenu>
+      <div className="flex flex-row">
+        <div className="flex py-4 space-x-2">
+          <Input
+            placeholder="Input keywords to search..."
+            value={(filterInput as string) ?? ""}
+            onChange={(event) => {
+                setFilterInput(event.target.value);
+                table.setGlobalFilter(event.target.value);
+              }
+            }
+            className="max-w-sm"
+          />
+          {/* {table.getColumn("agents") && (
+            <DataTableFacetedFilter
+              column={table.getColumn("agents")}
+              title="Filter by tags"
+              options={options}
+            />
+          )} */}
+        </div>
+        <div className="py-4 ml-auto pl-2">
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button variant="outline" className="ml-auto">
+                Columns <ChevronDownIcon className="ml-2 h-4 w-4" />
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end">
+              {table
+                .getAllColumns()
+                .filter((column) => column.getCanHide())
+                .map((column) => {
+                  return (
+                    <DropdownMenuCheckboxItem
+                      key={column.id}
+                      className="capitalize"
+                      checked={column.getIsVisible()}
+                      onCheckedChange={(value) =>
+                        column.toggleVisibility(!!value)
+                      }
+                    >
+                      {column.id}
+                    </DropdownMenuCheckboxItem>
+                  )
+                })}
+            </DropdownMenuContent>
+          </DropdownMenu>
+        </div>
       </div>
       <div className="rounded-md border">
         <Table>

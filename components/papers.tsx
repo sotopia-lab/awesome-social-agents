@@ -1822,13 +1822,13 @@ export const data: Paper[] = [
         
  
 { title: "How much can change in a year? Revisiting Evaluation in Multi-Agent Reinforcement Learning",
-    date: "12/2024",
+    date: "12/2023",
     environments: "collaboration, embodied",
     agents: "reinforcement_learning, more_than_three_agents",
     evaluation: "rule_based",
     other: "n/a",
     url: "https://arxiv.org/abs/2312.08463",
-    bibtex: "@misc{singh2024change,\n      title={How much can change in a year? Revisiting Evaluation in Multi-Agent Reinforcement Learning}, \n      author={Siddarth Singh and Omayma Mahjoub and Ruan de Kock and Wiem Khlifi and Abidine Vall and Kale-ab Tessera and Arnu Pretorius},\n      year={2024},\n      eprint={2312.08463},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI},\n      environments = {collaboration, embodied},\n      agents = {reinforcement_learning, more_than_three_agents},\n      evaluation = {rule_based},\n      other = {n/a},\n      url = {https://arxiv.org/abs/2312.08463}\n}",
+    bibtex: "@misc{singh2024change,\n      title={How much can change in a year? Revisiting Evaluation in Multi-Agent Reinforcement Learning}, \n      author={Siddarth Singh and Omayma Mahjoub and Ruan de Kock and Wiem Khlifi and Abidine Vall and Kale-ab Tessera and Arnu Pretorius},\n      year={2023},\n      eprint={2312.08463},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI},\n      environments = {collaboration, embodied},\n      agents = {reinforcement_learning, more_than_three_agents},\n      evaluation = {rule_based},\n      other = {n/a},\n      url = {https://arxiv.org/abs/2312.08463}\n}",
 },
         
  
