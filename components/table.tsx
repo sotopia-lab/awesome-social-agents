@@ -4,6 +4,7 @@ import {
   ChevronDownIcon,
   DotsHorizontalIcon,
 } from "@radix-ui/react-icons"
+import { Badge } from "@/components/ui/badge"
 import {
   ColumnDef,
   ColumnFiltersState,
