@@ -221,7 +221,7 @@ export function DataTableDemo() {
       <div className="flex flex-row">
         <div className="flex py-4 space-x-2">
           <Input
-            placeholder="Filter papers by title..."
+            placeholder="Input keyword to search..."
             value={(filterInput as string) ?? ""}
             onChange={(event) => {
                 setFilterInput(event.target.value);
@@ -230,13 +230,13 @@ export function DataTableDemo() {
             }
             className="max-w-sm"
           />
-          {table.getColumn("agents") && (
+          {/* {table.getColumn("agents") && (
             <DataTableFacetedFilter
               column={table.getColumn("agents")}
               title="Filter by tags"
               options={options}
             />
-          )}
+          )} */}
         </div>
         <div className="py-4 ml-auto pl-2">
           <DropdownMenu>
