@@ -187,6 +187,8 @@ export function DataTableDemo() {
   const [columnVisibility, setColumnVisibility] =
     React.useState<VisibilityState>({})
   const [rowSelection, setRowSelection] = React.useState({})
+
+  const [filterInput, setFilterInput] = React.useState<string>("")
   
   const table = useReactTable({
     data,
@@ -220,9 +222,11 @@ export function DataTableDemo() {
         <div className="flex py-4 space-x-2">
           <Input
             placeholder="Filter papers by title..."
-            value={(table.getColumn("title")?.getFilterValue() as string) ?? ""}
-            onChange={(event) =>
-              table.getColumn("title")?.setFilterValue(event.target.value)
+            value={(filterInput as string) ?? ""}
+            onChange={(event) => {
+                setFilterInput(event.target.value);
+                table.setGlobalFilter(event.target.value);
+              }
             }
             className="max-w-sm"
           />
