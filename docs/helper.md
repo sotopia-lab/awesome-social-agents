@@ -12,6 +12,8 @@
 
 [3, 2023] [Fast Multi-Agent Gridworld Environments for Gymnasium](https://github.com/ini/multigrid), Ini Oguntola et al., GitHub
 
+[03, 2023] [Reflexion: Language Agents with Verbal Reinforcement Learning](http://arxiv.org/abs/2303.11366), Noah Shinn et al., arXiv
+
 [12, 2022] [Dungeons and Dragons as a Dialog Challenge for Artificial Intelligence](https://aclanthology.org/2022.emnlp-main.637), Callison-Burch et al., Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing
 
 [11, 2022] [Human-level play in the game of Diplomacy by combining language models with strategic reasoning](https://www.science.org/doi/full/10.1126/science.ade9097), Meta Fundamental AI Research Diplomacy Team (FAIR)† et al., Science
@@ -80,6 +82,8 @@
 
 ### environments/virtual
 
+[4, 2024] [Using an llm to help with code understanding](https://doi.org/10.1145/3597503.3639187), Daye Nam et al., Proceedings of the IEEE/ACM 46th International Conference on Software Engineering
+
 [2, 2024] [UFO: A UI-Focused Agent for Windows OS Interaction](https://arxiv.org/abs/2402.07939), Chaoyun Zhang et al., arXiv preprint arXiv:2402.07939
 
 [2, 2024] [Os-copilot: Towards generalist computer agents with self-improvement](https://arxiv.org/abs/2402.07456), Zhiyong Wu et al., arXiv preprint arXiv:2402.07456
@@ -92,9 +96,13 @@
 
 [12, 2023] [Appagent: Multimodal agents as smartphone users](https://arxiv.org/abs/2312.13771), Zhao Yang et al., arXiv preprint arXiv:2312.13771
 
+[11, 2023] [Simulating Iterative Human-AI Interaction in Programming with LLMs](https://openreview.net/pdf?id=0nRcZeeE5f), Hussein Mozannar et al., NeurIPS 2023 Workshop on Instruction Tuning and Instruction Following
+
 [7, 2023] [Webarena: A realistic web environment for building autonomous agents](https://arxiv.org/abs/2307.13854), Shuyan Zhou et al., arXiv preprint arXiv:2307.13854
 
 [7, 2023] [Android in the wild: A large-scale dataset for android device control](https://arxiv.org/abs/2307.10088), Christopher Rawles et al., arXiv preprint arXiv:2307.10088
+
+[3, 2023] [The Programmer's Assistant: Conversational Interaction with a Large Language Model for Software Development](https://doi.org/10.1145/3581641.3584037), Steven I Ross et al., Proceedings of the 28th International Conference on Intelligent User Interfaces
 
 [12, 2022] [Webshop: Towards scalable real-world web interaction with grounded language agents](https://proceedings.neurips.cc/paper_files/paper/2022/file/82ad13ec01f9fe44c01cb91814fd7b8c-Paper-Conference.pdf), Shunyu Yao et al., Advances in Neural Information Processing Systems
 
@@ -175,6 +183,8 @@
 [3, 2020] [Threedworld: A platform for interactive multi-modal physical simulation](https://www.threedworld.org/), Chuang Gan et al., arXiv preprint arXiv:2007.04954
 
 [10, 2019] [Vision-and-Dialog Navigation](https://cvdn.dev/), Jesse Thomason et al., Conference on Robot Learning (CoRL)
+
+[7, 2018] [Towards a robust interactive and learning social robot](https://www.ifaamas.org/Proceedings/aamas2018/pdfs/p883.pdf), Michiel De Jong et al., Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems
 
 [4, 2016] [Human--robot interaction: status and challenges](https://journals.sagepub.com/doi/10.1177/0018720816644364), Thomas B Sheridan et al., Human factors
 
@@ -566,7 +576,37 @@
 
 ### applications/education
 
+[6, 2024] [How to Teach Programming in the {AI} Era? Using {LLM}s as a Teachable Agent for Debugging](https://arxiv.org/abs/2310.05292), Qianou Ma et al., International Conference on Artificial Intelligence in Education
+
+[6, 2024] [Generating Situated Reflection Triggers About Alternative Solution Paths: A Case Study in Generative {AI} for Computer-Supported Collaborative Learning](http://arxiv.org/), Atharva Naik et al., International Conference on Artificial Intelligence in Education
+
+[01, 2024] [{CodeAid}: Evaluating a Classroom Deployment of an {LLM-based} Programming Assistant that Balances Student and Educator Needs](http://arxiv.org/abs/2401.11314), Majeed Kazemitabaar et al., arXiv
+
+[01, 2024] [Learning Agent-based Modeling with {LLM} Companions: Experiences of Novices and Experts Using {ChatGPT} \& {NetLogo} Chat](http://arxiv.org/abs/2401.17163), John Chen et al., arXiv
+
+[11, 2023] [{AI-TA}: Towards an Intelligent Question-Answer Teaching Assistant using Open-Source {LLMs}](http://arxiv.org/abs/2311.02775), Yann Hicke et al., arXiv
+
+[10, 2023] [{Ruffle\&Riley}: Towards the Automated Induction of Conversational Tutoring Systems](http://arxiv.org/abs/2310.01420), Robin Schmucker et al., arXiv
+
+[09, 2023] [Teach {AI} How to Code: Using Large Language Models as Teachable Agents for Programming Education](http://arxiv.org/abs/2309.14534), Hyoungwook Jin et al., arXiv
+
+[7, 2023] [{GPTeach}: Interactive {TA} Training with {GPT-based} Students](https://doi.org/10.1145/3573051.3593393), Julia M Markel et al., Proceedings of the Tenth {ACM} Conference on Learning @ Scale
+
+[05, 2023] [{CLASS} Meet {SPOCK}: An Education Tutoring Chatbot based on Learning Science Principles](http://arxiv.org/abs/2305.13272), Shashank Sonkar et al., arXiv
+
 [1, 2023] [AI for Students with Learning Disabilities: A Systematic Review](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4617715), Xiaoming Zhai et al., n/a
+
+[5, 2022] [Designing {PairBuddy---A} Conversational Agent for Pair Programming](https://doi.org/10.1145/3498326), Peter Robe et al., ACM Trans. Comput.-Hum. Interact.
+
+[6, 2021] [Going Online: A Simulated Student Approach for Evaluating Knowledge Tracing in the Context of Mastery Learning](http://files.eric.ed.gov/fulltext/ED615518.pdf), Qiao Zhang et al., International Educational Data Mining Society
+
+[6, 2020] [Investigating differential error types between human and simulated learners](https://link.springer.com/chapter/10.1007/978-3-030-52237-7_47), D Weitekamp et al., Artif. Intell.
+
+[11, 2013] [Cognitive anatomy of tutor learning: Lessons learned with {SimStudent}](http://dx.doi.org/10.1037/a0031955), Noboru Matsuda et al., J. Educ. Psychol.
+
+[7, 2013] [How Effective are Pedagogical Agents for Learning? A {Meta-Analytic} Review](https://doi.org/10.2190/EC.49.1.a), Noah L Schroeder et al., Journal of Educational Computing Research
+
+[4, 1985] [Intelligent tutoring systems](http://dx.doi.org/10.1126/science.228.4698.456), J R Anderson et al., Science
 
 ### concerns/risks
 

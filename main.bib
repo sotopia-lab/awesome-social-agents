@@ -547,6 +547,23 @@
 }
 
 
+@ARTICLE{Shinn2023-tt,
+  title         = "Reflexion: Language Agents with Verbal Reinforcement Learning",
+  author        = "Shinn, Noah and Cassano, Federico and Labash, Beck and Gopinath, Ashwin and Narasimhan, Karthik and Yao, Shunyu",
+  month         =  mar,
+  year          =  2023,
+  url           = "http://arxiv.org/abs/2303.11366",
+  archivePrefix = "arXiv",
+  eprint        = "2303.11366",
+  primaryClass  = "cs.AI",
+  arxivid       = "2303.11366",
+  environments = {mixed_objectives, text},
+  agents = {prompting_and_in_context_learning, reinforcement_learning, agents_with_memory},
+  evaluation = {rule_based},
+  other = {more_omniscient},
+}
+
+
 #### Embodied Environments
 @article{environments/embodied,
   title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
@@ -655,6 +672,7 @@ url={https://openreview.net/forum?id=4znwzG92CE},
   evaluation = {qualitative, human},
   other = {n/a},
 }
+
 
 
 #### Virtual Environments
@@ -951,6 +969,60 @@ url={https://openreview.net/forum?id=4znwzG92CE},
   evaluation={rule_based},
   other={n/a}
 }
+
+
+# human-virtual agent interaction, IDE, SE, Programming assistant, or others
+
+@inproceedings{nam2024using,
+  title={Using an llm to help with code understanding},
+  author={Nam, Daye and Macvean, Andrew and Hellendoorn, Vincent and Vasilescu, Bogdan and Myers, Brad},
+  booktitle={Proceedings of the IEEE/ACM 46th International Conference on Software Engineering},
+  pages={1--13},
+  year={2024},
+  month={4},
+  url={https://doi.org/10.1145/3597503.3639187},
+  environments = {mixed_objectives, virtual},
+  agents = {prompting_and_in_context_learning, two_agents},
+  evaluation = {qualitative, human, rule_based},
+  other = {human_agent, more_omniscient},
+}
+
+@inproceedings{mozannar2023simulating,
+  title={Simulating Iterative Human-AI Interaction in Programming with LLMs},
+  author={Mozannar, Hussein and Chen, Valerie and Wei, Dennis and Sattigeri, Prasanna and Nagireddy, Manish and Das, Subhro and Talwalkar, Ameet and Sontag, David},
+  booktitle={NeurIPS 2023 Workshop on Instruction Tuning and Instruction Following},
+  year={2023},
+  month=nov,
+  url="https://openreview.net/pdf?id=0nRcZeeE5f",
+  environments = {mixed_objectives, virtual},
+  agents = {two_agents, prompting_and_in_context_learning},
+  evaluation = {rule_based},
+  other = {simulated_humans, more_omniscient},
+}
+
+
+@INPROCEEDINGS{Ross2023-sb,
+  title     = "The Programmer's Assistant: Conversational Interaction with a Large Language Model for Software Development",
+  booktitle = "Proceedings of the 28th International Conference on Intelligent User Interfaces",
+  author    = "Ross, Steven I and Martinez, Fernando and Houde, Stephanie and Muller, Michael and Weisz, Justin D",
+  publisher = "Association for Computing Machinery",
+  pages     = "491--514",
+  series    = "IUI '23",
+  month     =  mar,
+  year      =  2023,
+  url       = "https://doi.org/10.1145/3581641.3584037",
+  address   = "New York, NY, USA",
+  location  = "<conf-loc>, <city>Sydney</city>, <state>NSW</state>,
+               <country>Australia</country>, </conf-loc>",
+  isbn      = "9798400701061",
+  doi       = "10.1145/3581641.3584037",
+  environments = {mixed_objectives, virtual},
+  agents = {prompting_and_in_context_learning, two_agents},
+  evaluation = {qualitative, human, rule_based},
+  other = {human_agent, more_omniscient},
+}
+
+
 
 
 #### Robotics
@@ -1372,6 +1444,22 @@ url={https://openreview.net/forum?id=4znwzG92CE},
     evaluation = {human},
     other = {human_agent}
 }
+
+
+@inproceedings{de2018towards,
+  title={Towards a robust interactive and learning social robot},
+  author={De Jong, Michiel and Zhang, Kevin and Roth, Aaron M and Rhodes, Travers and Schmucker, Robin and Zhou, Chenghui and Ferreira, Sofia and Cartucho, Jo{\~a}o and Veloso, Manuela},
+  booktitle={Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems},
+  pages={883--891},
+  year={2018},
+  month={7},
+  url="https://www.ifaamas.org/Proceedings/aamas2018/pdfs/p883.pdf",
+  environments = {implicit_objectives, robotics},
+  agents = {two_agents},
+  evaluation = {rule_based},
+  other = {simulated_humans, fully_omniscient},
+}
+
 
 ### Modeling
 
@@ -3079,6 +3167,10 @@ month           = {2},
   other = {n/a},
 }
 
+
+
+
+
 #### Evaluating robotics in social contexts
 @article{evaluation/robotics,
   title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
@@ -4389,6 +4481,280 @@ month = {8}
 }
 
 
+### BEGIN Education papers ###
+
+@INPROCEEDINGS{Ma2024-li,
+  title       = "How to Teach Programming in the {AI} Era? Using {LLM}s as a Teachable Agent for Debugging",
+  booktitle   = "International Conference on Artificial Intelligence in Education",
+  author      = "Ma, Qianou and Shen, Hua and Koedinger, Kenneth and Wu,
+                 Tongshuang",
+  institution = "Springer",
+  year        =  2024,
+  month       =  6,
+  url         = "https://arxiv.org/abs/2310.05292",
+  environments = {mixed_objectives, virtual},
+  agents = {two_agents, prompting_and_in_context_learning},
+  evaluation = {qualitative, human, rule_based},
+  other = {education, human_agent, simulated_humans, more_omniscient},
+}
+
+
+@ARTICLE{Hicke2023-tv,
+  title         = "{AI-TA}: Towards an Intelligent Question-Answer Teaching Assistant using Open-Source {LLMs}",
+  author        = "Hicke, Yann and Agarwal, Anmol and Ma, Qianou and Denny, Paul",
+  month         =  nov,
+  year          =  2023,
+  url           = "http://arxiv.org/abs/2311.02775",
+  archivePrefix = "arXiv",
+  eprint        = "2311.02775",
+  primaryClass  = "cs.LG",
+  arxivid       = "2311.02775",
+  environments = {collaboration, text},
+  agents = {two_agents, agents_with_memory, finetuning, reinforcement_learning, prompting_and_in_context_learning},
+  evaluation = {human, model_based},
+  other = {education, human_agent, simulated_humans, more_omniscient},
+}
+
+
+@INPROCEEDINGS{Naik2024generating,
+  title       = "Generating Situated Reflection Triggers About Alternative Solution Paths: A Case Study in Generative {AI} for Computer-Supported Collaborative Learning",
+  booktitle   = "International Conference on Artificial Intelligence in Education",
+  author      = {Naik, Atharva and Yin, Jessica Ruhan and Kamath, Anusha and Ma, Qianou and Wu, Sherry Tongshuang and Murray, Charles and Bogart, Christopher and Sakr, Majd and Rose, Carolyn P.},
+  institution = "Springer",
+  year        =  2024,
+  month       =  6,
+  url         = "http://arxiv.org/", 
+  environments = {mixed_objectives, virtual},
+  agents = {more_than_three_agents, prompting_and_in_context_learning},
+  evaluation = {qualitative, human, rule_based},
+  other = {education, human_agent, simulated_humans, more_omniscient},
+}
+
+
+@ARTICLE{Jin2023-nf,
+  title         = "Teach {AI} How to Code: Using Large Language Models as Teachable Agents for Programming Education",
+  author        = "Jin, Hyoungwook and Lee, Seonghee and Shin, Hyungyu and Kim, Juho",
+  month         =  sep,
+  year          =  2023,
+  url           = "http://arxiv.org/abs/2309.14534",
+  archivePrefix = "arXiv",
+  eprint        = "2309.14534",
+  primaryClass  = "cs.HC",
+  arxivid       = "2309.14534",
+  doi           = "10.1145/3613904.3642349",
+  environments = {mixed_objectives, virtual},
+  agents = {two_agents, prompting_and_in_context_learning},
+  evaluation = {qualitative, human, rule_based},
+  other = {education, human_agent, simulated_humans, more_omniscient},
+}
+
+
+@ARTICLE{Kazemitabaar2024-mg,
+  title         = "{CodeAid}: Evaluating a Classroom Deployment of an {LLM-based} Programming Assistant that Balances Student and Educator Needs",
+  author        = "Kazemitabaar, Majeed and Ye, Runlong and Wang, Xiaoning and Henley, Austin Z and Denny, Paul and Craig, Michelle and Grossman, Tovi",
+  month         =  jan,
+  year          =  2024,
+  url           = "http://arxiv.org/abs/2401.11314",
+  archivePrefix = "arXiv",
+  eprint        = "2401.11314",
+  primaryClass  = "cs.HC",
+  arxivid       = "2401.11314",
+  doi           = "10.1145/3613904.3642773",
+  environments = {mixed_objectives, virtual},
+  agents = {two_agents, prompting_and_in_context_learning},
+  evaluation = {qualitative, human, rule_based},
+  other = {education, human_agent, more_omniscient},
+}
+
+
+@ARTICLE{Chen2024-du,
+  title         = "Learning Agent-based Modeling with {LLM} Companions: Experiences of Novices and Experts Using {ChatGPT} \& {NetLogo} Chat",
+  author        = "Chen, John and Lu, Xi and Rejtig, Michael and Du, David and Bagley, Ruth and Horn, Michael S and Wilensky, Uri J",
+  month         =  jan,
+  year          =  2024,
+  url           = "http://arxiv.org/abs/2401.17163",
+  archivePrefix = "arXiv",
+  eprint        = "2401.17163",
+  primaryClass  = "cs.HC",
+  arxivid       = "2401.17163",
+  environments = {mixed_objectives, virtual},
+  agents = {two_agents, prompting_and_in_context_learning},
+  evaluation = {qualitative, human, rule_based},
+  other = {education, human_agent, more_omniscient},
+}
+
+
+@INPROCEEDINGS{Markel2023-po,
+  title     = "{GPTeach}: Interactive {TA} Training with {GPT-based} Students",
+  booktitle = "Proceedings of the Tenth {ACM} Conference on Learning @ Scale",
+  author    = "Markel, Julia M and Opferman, Steven G and Landay, James A and Piech, Chris",
+  publisher = "Association for Computing Machinery",
+  pages     = "226--236",
+  series    = "L@S '23",
+  month     =  jul,
+  year      =  2023,
+  url       = "https://doi.org/10.1145/3573051.3593393",
+  address   = "New York, NY, USA",
+  location  = "Copenhagen, Denmark",
+  isbn      = "9798400700255",
+  doi       = "10.1145/3573051.3593393",
+  environments = {mixed_objectives, virtual},
+  agents = {two_agents, prompting_and_in_context_learning},
+  evaluation = {qualitative, human, rule_based},
+  other = {education, human_agent, simulated_humans, more_omniscient},
+}
+
+@ARTICLE{Schmucker2023-fb,
+  title         = "{Ruffle\&Riley}: Towards the Automated Induction of Conversational Tutoring Systems",
+  author        = "Schmucker, Robin and Xia, Meng and Azaria, Amos and Mitchell, Tom",
+  month         =  sep,
+  year          =  2023,
+  url           = "http://arxiv.org/abs/2310.01420",
+  archivePrefix = "arXiv",
+  eprint        = "2310.01420",
+  primaryClass  = "cs.CL",
+  arxivid       = "2310.01420",
+  environments = {mixed_objectives, virtual},
+  agents = {more_than_three_agents, prompting_and_in_context_learning},
+  evaluation = {qualitative, human, rule_based},
+  other = {education, human_agent, simulated_humans, more_omniscient},
+}
+
+
+@ARTICLE{Robe2022-rz,
+  title     = "Designing {PairBuddy---A} Conversational Agent for Pair Programming",
+  author    = "Robe, Peter and Kuttal, Sandeep Kaur",
+  journal   = "ACM Trans. Comput.-Hum. Interact.",
+  publisher = "Association for Computing Machinery",
+  volume    =  29,
+  number    =  4,
+  pages     = "1--44",
+  month     =  may,
+  year      =  2022,
+  url       = "https://doi.org/10.1145/3498326",
+  address   = "New York, NY, USA",
+  issn      = "1073-0516",
+  doi       = "10.1145/3498326",
+  environments = {mixed_objectives, virtual},
+  agents = {two_agents},
+  evaluation = {qualitative, human, rule_based},
+  other = {education, human_agent, simulated_humans, more_omniscient},
+}
+
+
+@ARTICLE{Schroeder2013-ub,
+  title     = "How Effective are Pedagogical Agents for Learning? A {Meta-Analytic} Review",
+  author    = "Schroeder, Noah L and Adesope, Olusola O and Gilbert, Rachel Barouch",
+  journal   = "Journal of Educational Computing Research",
+  publisher = "SAGE Publications Inc",
+  volume    =  49,
+  number    =  1,
+  pages     = "1--39",
+  month     =  jul,
+  year      =  2013,
+  url       = "https://doi.org/10.2190/EC.49.1.a",
+  issn      = "0735-6331",
+  doi       = "10.2190/EC.49.1.a",
+  environments = {mixed_objectives, virtual},
+  agents = {two_agents},
+  evaluation = {qualitative, human, rule_based},
+  other = {education, human_agent, simulated_humans, more_omniscient},
+}
+
+
+@ARTICLE{Matsuda2013-ev,
+  title   = "Cognitive anatomy of tutor learning: Lessons learned with {SimStudent}",
+  author  = "Matsuda, Noboru and Yarzebinski, Evelyn and Keiser, Victoria and Raizada, Rohan and Cohen, William W and Stylianides, Gabriel J and Koedinger, Kenneth R",
+  journal = "J. Educ. Psychol.",
+  volume  =  105,
+  number  =  4,
+  pages   = "1152--1163",
+  month   =  nov,
+  year    =  2013,
+  url     = "http://dx.doi.org/10.1037/a0031955",
+  issn    = "0022-0663, 1939-2176",
+  doi     = "10.1037/a0031955",
+  environments = {mixed_objectives, virtual},
+  agents = {two_agents},
+  evaluation = {qualitative, human, rule_based},
+  other = {education, human_agent, simulated_humans, more_omniscient},
+}
+
+
+@ARTICLE{Anderson1985-wg,
+  title    = "Intelligent tutoring systems",
+  author   = "Anderson, J R and Boyle, C F and Reiser, B J",
+  journal  = "Science",
+  volume   =  228,
+  number   =  4698,
+  pages    = "456--462",
+  month    =  apr,
+  year     =  1985,
+  url      = "http://dx.doi.org/10.1126/science.228.4698.456",
+  language = "en",
+  issn     = "0036-8075",
+  pmid     = "17746875",
+  doi      = "10.1126/science.228.4698.456",
+  environments = {mixed_objectives, virtual},
+  agents = {two_agents},
+  evaluation = {qualitative, human, rule_based},
+  other = {education, human_agent, simulated_humans, more_omniscient},
+}
+
+
+@ARTICLE{Sonkar2023-mr,
+  title         = "{CLASS} Meet {SPOCK}: An Education Tutoring Chatbot based on Learning Science Principles",
+  author        = "Sonkar, Shashank and Liu, Lucy and Mallick, Debshila Basu
+                   and Baraniuk, Richard G",
+  month         =  may,
+  year          =  2023,
+  url           = "http://arxiv.org/abs/2305.13272",
+  archivePrefix = "arXiv",
+  eprint        = "2305.13272",
+  primaryClass  = "cs.CL",
+  arxivid       = "2305.13272",
+  environments = {mixed_objectives, virtual},
+  agents = {two_agents},
+  evaluation = {qualitative, human, rule_based},
+  other = {education, human_agent, simulated_humans, more_omniscient},
+}
+
+
+@ARTICLE{Zhang2021-gz,
+  title     = "Going Online: A Simulated Student Approach for Evaluating Knowledge Tracing in the Context of Mastery Learning",
+  author    = "Zhang, Qiao and Maclellan, Christopher J",
+  journal   = "International Educational Data Mining Society",
+  publisher = "International Educational Data Mining Society. e-mail:
+               admin@educationaldatamining.org; Web site:
+               https://educationaldatamining.org/conferences/",
+  year      =  2021,
+  month     =  jun,
+  url       = "http://files.eric.ed.gov/fulltext/ED615518.pdf",
+  language  = "en",
+  environments = {mixed_objectives, virtual},
+  agents = {more_than_three_agents},
+  evaluation = {human, rule_based},
+  other = {education, simulated_humans, more_omniscient},
+}
+
+
+@ARTICLE{Weitekamp2020-lw,
+  title     = "Investigating differential error types between human and simulated learners",
+  author    = "Weitekamp, D and Ye, Z and Rachatasumrit, N and {others}",
+  journal   = "Artif. Intell.",
+  publisher = "Springer",
+  year      =  2020,
+  month     =  june,
+  url       = "https://link.springer.com/chapter/10.1007/978-3-030-52237-7_47",
+  issn      = "0004-3702",
+  environments = {mixed_objectives, virtual},
+  agents = {more_than_three_agents},
+  evaluation = {human, rule_based},
+  other = {education, simulated_humans, more_omniscient},
+}
+
+### END Education papers ###
+
 
 ### Concerns
 
@@ -4959,393 +5325,3 @@ month = {8}
   evaluation = {model_based},
   other = {n/a},
 }
-
-
-
-# human-virtual agent interaction, IDE, SE, Programming assistant, or others
-
-@inproceedings{nam2024using,
-  title={Using an llm to help with code understanding},
-  author={Nam, Daye and Macvean, Andrew and Hellendoorn, Vincent and Vasilescu, Bogdan and Myers, Brad},
-  booktitle={Proceedings of the IEEE/ACM 46th International Conference on Software Engineering},
-  pages={1--13},
-  year={2024},
-  month={4},
-  url={https://doi.org/10.1145/3597503.3639187},
-  environments = {mixed_objectives, virtual},
-  agents = {prompting_and_in_context_learning, two_agents},
-  evaluation = {qualitative, human, rule_based},
-  other = {human_agent, more_omniscient},
-}
-
-
-@UNPUBLISHED{Mozannar2023-tl,
-  title    = "Simulating Iterative {Human-AI} Interaction in Programming with
-              {LLMs}",
-  author   = "Mozannar, Hussein and Chen, Valerie and Wei, Dennis and
-              Sattigeri, Prasanna and Nagireddy, Manish and Das, Subhro and
-              Talwalkar, Ameet and Sontag, David",
-  month    =  nov,
-  year     =  2023,
-  url      = "https://openreview.net/pdf?id=0nRcZeeE5f",
-  environments = {mixed_objectives, virtual},
-  agents = {two_agents, prompting_and_in_context_learning},
-  evaluation = {rule_based},
-  other = {simulated_humans, more_omniscient},
-}
-
-
-@INPROCEEDINGS{Ross2023-sb,
-  title     = "The Programmer's Assistant: Conversational Interaction with a
-               Large Language Model for Software Development",
-  booktitle = "Proceedings of the 28th International Conference on Intelligent
-               User Interfaces",
-  author    = "Ross, Steven I and Martinez, Fernando and Houde, Stephanie and
-               Muller, Michael and Weisz, Justin D",
-  publisher = "Association for Computing Machinery",
-  pages     = "491--514",
-  series    = "IUI '23",
-  month     =  mar,
-  year      =  2023,
-  url       = "https://doi.org/10.1145/3581641.3584037",
-  address   = "New York, NY, USA",
-  location  = "<conf-loc>, <city>Sydney</city>, <state>NSW</state>,
-               <country>Australia</country>, </conf-loc>",
-  isbn      = "9798400701061",
-  doi       = "10.1145/3581641.3584037",
-  environments = {mixed_objectives, virtual},
-  agents = {prompting_and_in_context_learning, two_agents},
-  evaluation = {qualitative, human, rule_based},
-  other = {human_agent, more_omniscient},
-}
-
-
-@ARTICLE{Shinn2023-tt,
-  title         = "Reflexion: Language Agents with Verbal Reinforcement
-                   Learning",
-  author        = "Shinn, Noah and Cassano, Federico and Labash, Beck and
-                   Gopinath, Ashwin and Narasimhan, Karthik and Yao, Shunyu",
-  month         =  mar,
-  year          =  2023,
-  url           = "http://arxiv.org/abs/2303.11366",
-  archivePrefix = "arXiv",
-  eprint        = "2303.11366",
-  primaryClass  = "cs.AI",
-  arxivid       = "2303.11366",
-  environments = {mixed_objectives, text},
-  agents = {prompting_and_in_context_learning, reinforcement_learning, agents_with_memory},
-  evaluation = {rule_based},
-  other = {more_omniscient},
-}
-
-
-@inproceedings{de2018towards,
-  title={Towards a robust interactive and learning social robot},
-  author={De Jong, Michiel and Zhang, Kevin and Roth, Aaron M and Rhodes, Travers and Schmucker, Robin and Zhou, Chenghui and Ferreira, Sofia and Cartucho, Jo{\~a}o and Veloso, Manuela},
-  booktitle={Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems},
-  pages={883--891},
-  year={2018},
-  url="https://www.ifaamas.org/Proceedings/aamas2018/pdfs/p883.pdf",
-  environments = {implicit_objectives, robotics},
-  agents = {two_agents},
-  evaluation = {rule_based},
-  other = {simulated_humans, fully_omniscient},
-}
-
-
-
-### BEGIN Education papers ###
-
-@INPROCEEDINGS{Ma2024-li,
-  title       = "How to Teach Programming in the {AI} Era? Using {{LLM}s} as a
-                 Teachable Agent for Debugging",
-  booktitle   = "International Conference on Artificial Intelligence in
-                 Education",
-  author      = "Ma, Qianou and Shen, Hua and Koedinger, Kenneth and Wu,
-                 Tongshuang",
-  institution = "Springer",
-  year        =  2024,
-  url         = "https://arxiv.org/abs/2310.05292",
-  environments = {mixed_objectives, virtual},
-  agents = {two_agents, prompting_and_in_context_learning},
-  evaluation = {qualitative, human, rule_based},
-  other = {human_agent, simulated_humans, more_omniscient},
-}
-
-
-@ARTICLE{Hicke2023-tv,
-  title         = "{AI-TA}: Towards an Intelligent {Question-Answer} Teaching
-                   Assistant using {Open-Source} {LLMs}",
-  author        = "Hicke, Yann and Agarwal, Anmol and Ma, Qianou and Denny,
-                   Paul",
-  month         =  nov,
-  year          =  2023,
-  url           = "http://arxiv.org/abs/2311.02775",
-  archivePrefix = "arXiv",
-  eprint        = "2311.02775",
-  primaryClass  = "cs.LG",
-  arxivid       = "2311.02775",
-  environments = {collaboration, text},
-  agents = {two_agents, agents_with_memory, finetuning, reinforcement_learning, prompting_and_in_context_learning},
-  evaluation = {human, model_based},
-  other = {human_agent, simulated_humans, more_omniscient},
-}
-
-
-@INPROCEEDINGS{Naik2024generating,
-  title       = "Generating Situated Reflection Triggers About Alternative Solution Paths: A Case Study in Generative {AI} for Computer-Supported Collaborative Learning",
-  booktitle   = "International Conference on Artificial Intelligence in
-                 Education",
-  author      = {Naik, Atharva and Yin, Jessica Ruhan and Kamath, Anusha and Ma, Qianou and Wu, Sherry Tongshuang and Murray, Charles and Bogart, Christopher and Sakr, Majd and Rose, Carolyn P.},
-  institution = "Springer",
-  year        =  2024,
-  environments = {mixed_objectives, virtual},
-  agents = {more_than_three_agents, prompting_and_in_context_learning},
-  evaluation = {qualitative, human, rule_based},
-  other = {human_agent, simulated_humans, more_omniscient},
-}
-
-
-@ARTICLE{Jin2023-nf,
-  title         = "Teach {AI} How to Code: Using Large Language Models as
-                   Teachable Agents for Programming Education",
-  author        = "Jin, Hyoungwook and Lee, Seonghee and Shin, Hyungyu and Kim,
-                   Juho",
-  month         =  sep,
-  year          =  2023,
-  url           = "http://arxiv.org/abs/2309.14534",
-  archivePrefix = "arXiv",
-  eprint        = "2309.14534",
-  primaryClass  = "cs.HC",
-  arxivid       = "2309.14534",
-  doi           = "10.1145/3613904.3642349",
-  environments = {mixed_objectives, virtual},
-  agents = {two_agents, prompting_and_in_context_learning},
-  evaluation = {qualitative, human, rule_based},
-  other = {human_agent, simulated_humans, more_omniscient},
-}
-
-
-@ARTICLE{Kazemitabaar2024-mg,
-  title         = "{CodeAid}: Evaluating a Classroom Deployment of an
-                   {LLM-based} Programming Assistant that Balances Student and
-                   Educator Needs",
-  author        = "Kazemitabaar, Majeed and Ye, Runlong and Wang, Xiaoning and
-                   Henley, Austin Z and Denny, Paul and Craig, Michelle and
-                   Grossman, Tovi",
-  month         =  jan,
-  year          =  2024,
-  url           = "http://arxiv.org/abs/2401.11314",
-  archivePrefix = "arXiv",
-  eprint        = "2401.11314",
-  primaryClass  = "cs.HC",
-  arxivid       = "2401.11314",
-  doi           = "10.1145/3613904.3642773",
-  environments = {mixed_objectives, virtual},
-  agents = {two_agents, prompting_and_in_context_learning},
-  evaluation = {qualitative, human, rule_based},
-  other = {human_agent, more_omniscient},
-}
-
-
-@ARTICLE{Chen2024-du,
-  title         = "Learning Agent-based Modeling with {LLM} Companions:
-                   Experiences of Novices and Experts Using {ChatGPT} \&
-                   {NetLogo} Chat",
-  author        = "Chen, John and Lu, Xi and Rejtig, Michael and Du, David and
-                   Bagley, Ruth and Horn, Michael S and Wilensky, Uri J",
-  month         =  jan,
-  year          =  2024,
-  url           = "http://arxiv.org/abs/2401.17163",
-  archivePrefix = "arXiv",
-  eprint        = "2401.17163",
-  primaryClass  = "cs.HC",
-  arxivid       = "2401.17163",
-  environments = {mixed_objectives, virtual},
-  agents = {two_agents, prompting_and_in_context_learning},
-  evaluation = {qualitative, human, rule_based},
-  other = {human_agent, more_omniscient},
-}
-
-
-@INPROCEEDINGS{Markel2023-po,
-  title     = "{GPTeach}: Interactive {TA} Training with {GPT-based} Students",
-  booktitle = "Proceedings of the Tenth {ACM} Conference on Learning @ Scale",
-  author    = "Markel, Julia M and Opferman, Steven G and Landay, James A and
-               Piech, Chris",
-  publisher = "Association for Computing Machinery",
-  pages     = "226--236",
-  series    = "L@S '23",
-  month     =  jul,
-  year      =  2023,
-  url       = "https://doi.org/10.1145/3573051.3593393",
-  address   = "New York, NY, USA",
-  location  = "Copenhagen, Denmark",
-  isbn      = "9798400700255",
-  doi       = "10.1145/3573051.3593393",
-  environments = {mixed_objectives, virtual},
-  agents = {two_agents, prompting_and_in_context_learning},
-  evaluation = {qualitative, human, rule_based},
-  other = {human_agent, simulated_humans, more_omniscient},
-}
-
-@ARTICLE{Schmucker2023-fb,
-  title         = "{Ruffle\&Riley}: Towards the Automated Induction of
-                   Conversational Tutoring Systems",
-  author        = "Schmucker, Robin and Xia, Meng and Azaria, Amos and
-                   Mitchell, Tom",
-  month         =  sep,
-  year          =  2023,
-  url           = "http://arxiv.org/abs/2310.01420",
-  archivePrefix = "arXiv",
-  eprint        = "2310.01420",
-  primaryClass  = "cs.CL",
-  arxivid       = "2310.01420",
-  environments = {mixed_objectives, virtual},
-  agents = {more_than_three_agents, prompting_and_in_context_learning},
-  evaluation = {qualitative, human, rule_based},
-  other = {human_agent, simulated_humans, more_omniscient},
-}
-
-
-@ARTICLE{Robe2022-rz,
-  title     = "Designing {PairBuddy---A} Conversational Agent for Pair
-               Programming",
-  author    = "Robe, Peter and Kuttal, Sandeep Kaur",
-  journal   = "ACM Trans. Comput.-Hum. Interact.",
-  publisher = "Association for Computing Machinery",
-  volume    =  29,
-  number    =  4,
-  pages     = "1--44",
-  month     =  may,
-  year      =  2022,
-  url       = "https://doi.org/10.1145/3498326",
-  address   = "New York, NY, USA",
-  issn      = "1073-0516",
-  doi       = "10.1145/3498326",
-  environments = {mixed_objectives, virtual},
-  agents = {two_agents},
-  evaluation = {qualitative, human, rule_based},
-  other = {human_agent, simulated_humans, more_omniscient},
-}
-
-
-@ARTICLE{Schroeder2013-ub,
-  title     = "How Effective are Pedagogical Agents for Learning? A
-               {Meta-Analytic} Review",
-  author    = "Schroeder, Noah L and Adesope, Olusola O and Gilbert, Rachel
-               Barouch",
-  journal   = "Journal of Educational Computing Research",
-  publisher = "SAGE Publications Inc",
-  volume    =  49,
-  number    =  1,
-  pages     = "1--39",
-  month     =  jul,
-  year      =  2013,
-  url       = "https://doi.org/10.2190/EC.49.1.a",
-  issn      = "0735-6331",
-  doi       = "10.2190/EC.49.1.a",
-  environments = {mixed_objectives, virtual},
-  agents = {two_agents},
-  evaluation = {qualitative, human, rule_based},
-  other = {human_agent, simulated_humans, more_omniscient},
-}
-
-
-@ARTICLE{Matsuda2013-ev,
-  title   = "Cognitive anatomy of tutor learning: Lessons learned with
-             {SimStudent}",
-  author  = "Matsuda, Noboru and Yarzebinski, Evelyn and Keiser, Victoria and
-             Raizada, Rohan and Cohen, William W and Stylianides, Gabriel J and
-             Koedinger, Kenneth R",
-  journal = "J. Educ. Psychol.",
-  volume  =  105,
-  number  =  4,
-  pages   = "1152--1163",
-  month   =  nov,
-  year    =  2013,
-  url     = "http://dx.doi.org/10.1037/a0031955",
-  issn    = "0022-0663, 1939-2176",
-  doi     = "10.1037/a0031955",
-  environments = {mixed_objectives, virtual},
-  agents = {two_agents},
-  evaluation = {qualitative, human, rule_based},
-  other = {human_agent, simulated_humans, more_omniscient},
-}
-
-
-@ARTICLE{Anderson1985-wg,
-  title    = "Intelligent tutoring systems",
-  author   = "Anderson, J R and Boyle, C F and Reiser, B J",
-  journal  = "Science",
-  volume   =  228,
-  number   =  4698,
-  pages    = "456--462",
-  month    =  apr,
-  year     =  1985,
-  url      = "http://dx.doi.org/10.1126/science.228.4698.456",
-  language = "en",
-  issn     = "0036-8075",
-  pmid     = "17746875",
-  doi      = "10.1126/science.228.4698.456",
-  environments = {mixed_objectives, virtual},
-  agents = {two_agents},
-  evaluation = {qualitative, human, rule_based},
-  other = {human_agent, simulated_humans, more_omniscient},
-}
-
-
-@ARTICLE{Sonkar2023-mr,
-  title         = "{CLASS} Meet {SPOCK}: An Education Tutoring Chatbot based on
-                   Learning Science Principles",
-  author        = "Sonkar, Shashank and Liu, Lucy and Mallick, Debshila Basu
-                   and Baraniuk, Richard G",
-  month         =  may,
-  year          =  2023,
-  url           = "http://arxiv.org/abs/2305.13272",
-  archivePrefix = "arXiv",
-  eprint        = "2305.13272",
-  primaryClass  = "cs.CL",
-  arxivid       = "2305.13272",
-  environments = {mixed_objectives, virtual},
-  agents = {two_agents},
-  evaluation = {qualitative, human, rule_based},
-  other = {human_agent, simulated_humans, more_omniscient},
-}
-
-
-@ARTICLE{Zhang2021-gz,
-  title     = "Going Online: A Simulated Student Approach for Evaluating
-               Knowledge Tracing in the Context of Mastery Learning",
-  author    = "Zhang, Qiao and Maclellan, Christopher J",
-  journal   = "International Educational Data Mining Society",
-  publisher = "International Educational Data Mining Society. e-mail:
-               admin@educationaldatamining.org; Web site:
-               https://educationaldatamining.org/conferences/",
-  year      =  2021,
-  url       = "http://files.eric.ed.gov/fulltext/ED615518.pdf",
-  language  = "en",
-  environments = {mixed_objectives, virtual},
-  agents = {more_than_three_agents},
-  evaluation = {human, rule_based},
-  other = {simulated_humans, more_omniscient},
-}
-
-
-@ARTICLE{Weitekamp2020-lw,
-  title     = "Investigating differential error types between human and
-               simulated learners",
-  author    = "Weitekamp, D and Ye, Z and Rachatasumrit, N and {others}",
-  journal   = "Artif. Intell.",
-  publisher = "Springer",
-  year      =  2020,
-  url       = "https://link.springer.com/chapter/10.1007/978-3-030-52237-7_47",
-  issn      = "0004-3702",
-  environments = {mixed_objectives, virtual},
-  agents = {more_than_three_agents},
-  evaluation = {human, rule_based},
-  other = {simulated_humans, more_omniscient},
-}
-
-
-### END Education papers ###
