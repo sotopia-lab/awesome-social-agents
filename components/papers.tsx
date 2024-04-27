@@ -3382,4 +3382,14 @@ export const data: Paper[] = [
     bibtex: "@article{menick2022teaching,\n  title={Teaching language models to support answers with verified quotes},\n  author={Menick, Jacob and Trebacz, Maja and Mikulik, Vladimir and Aslanides, John and Song, Francis and Chadwick, Martin and Glaese, Mia and Young, Susannah and Campbell-Gillingham, Lucy and Irving, Geoffrey and others},\n  journal={arXiv preprint arXiv:2203.11147},\n  year={2022},\n  month={3},\n  url={https://arxiv.org/pdf/2203.11147.pdf},\n  environments = {text},\n  agents = {reinforcement_learning},\n  evaluation = {model_based},\n  other = {n/a},\n}",
 },
         
-]
+ 
+{ title: "Using an llm to help with code understanding",
+    date: "04/2024",
+    environments: "mixed_objectives, virtual",
+    agents: "prompting_and_in_context_learning, two_agents",
+    evaluation: "qualitative, human, rule_based",
+    other: "human_agent, more_omniscient",
+    url: "https://doi.org/10.1145/3597503.3639187",
+    bibtex: "@inproceedings{nam2024using,\n  title={Using an llm to help with code understanding},\n  author={Nam, Daye and Macvean, Andrew and Hellendoorn, Vincent and Vasilescu, Bogdan and Myers, Brad},\n  booktitle={Proceedings of the IEEE/ACM 46th International Conference on Software Engineering},\n  pages={1--13},\n  year={2024},\n  month={4},\n  url={https://doi.org/10.1145/3597503.3639187},\n  environments = {mixed_objectives, virtual},\n  agents = {prompting_and_in_context_learning, two_agents},\n  evaluation = {qualitative, human, rule_based},\n  other = {human_agent, more_omniscient},\n}",
+},
+        
