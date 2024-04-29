@@ -18,6 +18,11 @@ export default {
     edit: {
         content: null,
     },
+    head: (
+      <>
+        <link rel="icon" href="/favicon.ico" type="image/ico" />
+      </>
+    ),
     footer: {
       text: (
         <span>
