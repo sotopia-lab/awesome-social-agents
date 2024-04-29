@@ -259,7 +259,7 @@ export function DataTableDemo() {
                 table.setGlobalFilter(event.target.value);
               }
             }
-            className="max-w-sm"
+            className="max-w-lg"
           />
           {/* {table.getColumn("agents") && (
             <DataTableFacetedFilter
