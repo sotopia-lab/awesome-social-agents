@@ -6,7 +6,9 @@ import { Button } from "../components/ui/button"
 import { MoveRight } from "lucide-react"
 import { Separator } from "@/components/ui/separator"
 
-<Lumiflex className="absolute inset-0 h-full opacity-30" />
+<Lumiflex className="absolute inset-0 h-full -z-20 translate-y-10 opacity-30" />
+
+<div className="relative inset-0 flex items-center justify-center h-full text-4xl font-bold">
 
 <div className="flex items-center justify-center h-full text-4xl font-bold">
 <a href="https://www.sotopia.world" className="flex items-center font-display text-4xl">
@@ -22,9 +24,10 @@ import { Separator } from "@/components/ui/separator"
 </svg>
 </a>
 <Separator className="mx-4" orientation="vertical" style={{ height: '200px', width: '4px'}}/>
-<div>
-<div className="font-thin">Welcome to check out our collection of</div>
-<div className="font-bold">awesome social agents.</div>
-<a href="/paper_table"><Button className="group">  <div>Get Started</div>  <MoveRight className="translate-x-1 group-hover:translate-x-2"/></Button></a>
+<div className="flex flex-col items-left">
+  <div className="font-thin mb-2">Welcome to check out our collection of</div>
+  <div className="font-bold mb-4">awesome social agents.</div>
+  <a href="/paper_table"><Button className="group">  <div>Get Started</div>  <MoveRight className="translate-x-1 group-hover:translate-x-2"/></Button></a>
+</div>
 </div>
 </div>
