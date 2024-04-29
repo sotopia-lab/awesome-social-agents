@@ -1,6 +1,22 @@
 {
-    "index": "Check out awesome research on building social agents",
-    "paper_table": "Papers",
+    "index": {
+        "type": "page",
+        "title": "Home",
+        "theme": {
+            "timestamp": false,
+            "layout": "full"
+        }
+    },
+    "readme": {
+        "title": "Readme"
+    },
+    "paper_table": {
+        "type": "page",
+        "title": "Papers",
+        "theme": {
+            "layout": "full"
+        }
+    },
     "contribution": "Wanna contribute? Check out the guidelines",
     "taxonomy": "Taxonomy"
 }
