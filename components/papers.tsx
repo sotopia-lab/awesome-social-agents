@@ -3174,6 +3174,105 @@ export const data: Paper[] = [
 },
         
  
+{ title: "Pedagogical Agents",
+    date: "11/2022",
+    environments: "mixed_objectives, virtual",
+    agents: "two_agents, more_than_three_agents",
+    evaluation: "human, rule_based",
+    other: "education",
+    url: "https://dl.acm.org/doi/10.1145/3563659.3563669",
+    bibtex: "@INCOLLECTION{Lane2022-cw,\n  title     = \"Pedagogical Agents\",\n  booktitle = \"The Handbook on Socially Interactive Agents: 20 years of\n               Research on Embodied Conversational Agents, Intelligent Virtual\n               Agents, and Social Robotics Volume 2: Interactivity, Platforms,\n               Application\",\n  author    = \"Lane, H Chad and Schroeder, Noah L\",\n  publisher = \"Association for Computing Machinery\",\n  volume    =  48,\n  pages     = \"307-330\",\n  edition   =  1,\n  month     =  nov,\n  year      =  2022,\n  address   = \"New York, NY, USA\",\n  url = \"https://dl.acm.org/doi/10.1145/3563659.3563669\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents, more_than_three_agents},\n  evaluation = {human, rule_based},\n  other = {education}\n}",
+},
+        
+ 
+{ title: "Socially Interactive Agents as Peers",
+    date: "11/2022",
+    environments: "mixed_objectives, virtual",
+    agents: "two_agents, more_than_three_agents",
+    evaluation: "human, rule_based",
+    other: "education",
+    url: "https://dl.acm.org/doi/10.1145/3563659.3563670",
+    bibtex: "@INCOLLECTION{Cassell2022-wb,\n  title     = \"Socially Interactive Agents as Peers\",\n  booktitle = \"The Handbook on Socially Interactive Agents: 20 years of\n               Research on Embodied Conversational Agents, Intelligent Virtual\n               Agents, and Social Robotics Volume 2: Interactivity, Platforms,\n               Application\",\n  author    = \"Cassell, Justine\",\n  publisher = \"Association for Computing Machinery\",\n  volume    =  48,\n  pages     = \"331--366\",\n  edition   =  1,\n  month     =  nov,\n  year      =  2022,\n  address   = \"New York, NY, USA\",\n  url = \"https://dl.acm.org/doi/10.1145/3563659.3563670\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents, more_than_three_agents},\n  evaluation = {human, rule_based},\n  other = {education}\n}",
+},
+        
+ 
+{ title: "Generative {AI} and {K}-12 {Education}: An {MIT} {Perspective}",
+    date: "03/2024",
+    environments: "mixed_objectives",
+    agents: "two_agents",
+    evaluation: "human, rule_based",
+    other: "education",
+    url: "https://mit-genai.pubpub.org/pub/4k9msp17/release/1",
+    bibtex: "@article{Klopfer2024Generative,\n  author = {Klopfer, Eric and Reich, Justin and Abelson, Hal and Breazeal, Cynthia},\n  journal = {An MIT Exploration of Generative AI},\n  year = {2024},\n  month = {March},\n  note = {https://mit-genai.pubpub.org/pub/4k9msp17},\n  publisher = {MIT},\n  title = {Generative {AI} and {K}-12 {Education}: An {MIT} {Perspective}},\n  url = \"https://mit-genai.pubpub.org/pub/4k9msp17/release/1\",\n  environments = {mixed_objectives},\n  agents = {two_agents},\n  evaluation = {human, rule_based},\n  other = {education}\n}",
+},
+        
+ 
+{ title: "Architecture for Building Conversational Agents that Support Collaborative Learning",
+    date: "01/2011",
+    environments: "mixed_objectives, virtual",
+    agents: "more_than_three_agents",
+    evaluation: "human, rule_based",
+    other: "education, more_omniscient",
+    url: "https://ieeexplore.ieee.org/document/5669250",
+    bibtex: "@ARTICLE{Kumar2011-ConvAgents,\n  author={Kumar, Rohit and Ros\u00e9, Carolyn P.},\n  journal={IEEE Transactions on Learning Technologies}, \n  title={Architecture for Building Conversational Agents that Support Collaborative Learning}, \n  month={Jan},\n  year={2011},\n  volume={4},\n  number={1},\n  pages={21-34},\n  keywords={Collaborative work;Computer architecture;Buildings;Object oriented modeling;Architecture;Cognition;Collaboration;Collaborative learning;intelligent agents;natural language interfaces;software architectures.},\n  doi={10.1109/TLT.2010.41},\n  url = \"https://ieeexplore.ieee.org/document/5669250\",\n  environments = {mixed_objectives, virtual},\n  agents = {more_than_three_agents},\n  evaluation = {human, rule_based},\n  other = {education, more_omniscient}\n}",
+},
+        
+ 
+{ title: "Using Intelligent Tutor Technology to Implement Adaptive Support\n              for Student Collaboration",
+    date: "03/2010",
+    environments: "mixed_objectives, virtual",
+    agents: "more_than_three_agents",
+    evaluation: "human, rule_based",
+    other: "education, more_omniscient",
+    url: "https://link.springer.com/article/10.1007/s10648-009-9116-9",
+    bibtex: "@ARTICLE{Diziol2010-ua,\n  title    = \"Using Intelligent Tutor Technology to Implement Adaptive Support\n              for Student Collaboration\",\n  author   = \"Diziol, Dejana and Walker, Erin and Rummel, Nikol and Koedinger,\n              Kenneth R\",\n  journal  = \"Educ. Psychol. Rev.\",\n  volume   =  22,\n  number   =  1,\n  pages    = \"89-102\",\n  month    =  mar,\n  year     =  2010,\n  url = \"https://link.springer.com/article/10.1007/s10648-009-9116-9\",\n  environments = {mixed_objectives, virtual},\n  agents = {more_than_three_agents},\n  evaluation = {human, rule_based},\n  other = {education, more_omniscient}\n}",
+},
+        
+ 
+{ title: "Doodlebot: An Educational Robot for Creativity and AI Literacy",
+    date: "03/2024",
+    environments: "mixed_objectives, virtual, robotics",
+    agents: "more_than_three_agents",
+    evaluation: "human, rule_based",
+    other: "education, more_omniscient",
+    url: "https://doi.org/10.1145/3610977.3634950",
+    bibtex: "@inproceedings{Williams2024-doodlebot,\n  author = {Williams, Randi and Ali, Safinah and Alcantara, Ra\\'{u}l and Burghleh, Tasneem and Alghowinem, Sharifa and Breazeal, Cynthia},\n  title = {Doodlebot: An Educational Robot for Creativity and AI Literacy},\n  month = {March},\n  year = {2024},\n  isbn = {9798400703225},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3610977.3634950},\n  doi = {10.1145/3610977.3634950},\n  abstract = {Today, Artificial Intelligence (AI) is prevalent in everyday life, with emerging technologies like AI companions, autonomous vehicles, and AI art tools poised to significantly transform the future. The development of AI curricula that shows people how AI works and what they can do with it is a powerful way to prepare everyone, and especially young learners, for an increasingly AI-driven world. Educators often employ robotic toolkits in the classroom to boost engagement and learning. However, these platforms are generally unsuitable for young learners and learners without programming expertise. Moreover, these platforms often serve as either programmable artifacts or pedagogical agents, rarely capitalizing on the opportunity to support students in both capacities. We designed Doodlebot, a mobile social robot for hands-on AI education to address these gaps. Doodlebot is an effective tool for exploring AI with grade school (K-12) students, promoting their understanding of AI concepts such as perception, representation, reasoning and generation. We begin by elaborating Doodlebot's design, highlighting its reliability, user-friendliness, and versatility. Then, we demonstrate Doodlebot's versatility through example curricula about AI character design, autonomous robotics, and generative AI accessible to young learners. Finally, we share the results of a preliminary user study with elementary school youth where we found that the physical Doodlebot platform was as effective and user-friendly as the virtual version. This work offers insights into designing interactive educational robots that can inform future AI curricula and tools.},\n  booktitle = {Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction},\n  pages = {772\u2013780},\n  numpages = {9},\n  keywords = {collaboration, creativity, education, social robots},\n  location = {<conf-loc>, <city>Boulder</city>, <state>CO</state>, <country>USA</country>, </conf-loc>},\n  series = {HRI '24},\n  environments = {mixed_objectives, virtual, robotics},\n  agents = {more_than_three_agents},\n  evaluation = {human, rule_based},\n  other = {education, more_omniscient}\n}",
+},
+        
+ 
+{ title: "A Social Robot Reading Partner for Explorative Guidance",
+    date: "03/2023",
+    environments: "mixed_objectives, robotics",
+    agents: "two_agents",
+    evaluation: "human, rule_based",
+    other: "education, more_omniscient",
+    url: "https://dl.acm.org/doi/10.1145/3568162.3576968",
+    bibtex: "@INPROCEEDINGS{Zhang2023-wg,\n  title     = \"A Social Robot Reading Partner for Explorative Guidance\",\n  booktitle = \"Proceedings of the 2023 {ACM/IEEE} International Conference on\n               {Human-Robot} Interaction\",\n  author    = \"Zhang, Xiajie and Breazeal, Cynthia and Park, Hae Won\",\n  publisher = \"Association for Computing Machinery\",\n  pages     = \"341-349\",\n  series    = \"HRI '23\",\n  month     =  mar,\n  year      =  2023,\n  address   = \"New York, NY, USA\",\n  keywords  = \"ai-guided education, child-centered pedagogy, child-robot\n               interaction, educational technology, social robot\",\n  url = \"https://dl.acm.org/doi/10.1145/3568162.3576968\",\n  environments = {mixed_objectives, robotics},\n  agents = {two_agents},\n  evaluation = {human, rule_based},\n  other = {education, more_omniscient}\n}",
+},
+        
+ 
+{ title: "Escape!Bot: Social Robots as Creative Problem-Solving Partners",
+    date: "06/2022",
+    environments: "mixed_objectives, robotics",
+    agents: "two_agents",
+    evaluation: "human, rule_based",
+    other: "education, more_omniscient",
+    url: "https://doi.org/10.1145/3527927.3532793",
+    bibtex: "@inproceedings{Ali2022-EscapeBot,\n  author = {Ali, Safinah and Devasia, Nisha Elizabeth and Breazeal, Cynthia},\n  title = {Escape!Bot: Social Robots as Creative Problem-Solving Partners},\n  month = {June},\n  year = {2022},\n  isbn = {9781450393270},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3527927.3532793},\n  doi = {10.1145/3527927.3532793},\n  abstract = {In this work, we explore the effect of a social robot\u2019s embodiment and creativity scaffolding on children\u2019s creative problem solving skills in the context of a digital creative problem-solving game called Escape!Bot. Children aged 5-11 years played the video game, which involved assembling contraptions to escape a digital world, and the robot Jibo acted as a collaborative peer that offered questions, reflective prompts, challenges, and ideas. In order to evaluate the role of the robot\u2019s co-presence and creativity scaffolding, we ran a 2x2 experiment to determine the factorial efficacy of the robot\u2019s embodiment and creativity scaffolding behaviors. We observed mixed results, with the robot\u2019s creativity scaffolding having a positive influence on the time taken to complete the game, but not on the overall use of novel objects or reuse of objects. We present the system design, user study and findings from Escape!Bot to investigate the feasibility of designing social robots to support creative problem solving.},\n  booktitle = {Proceedings of the 14th Conference on Creativity and Cognition},\n  pages = {275\u2013283},\n  numpages = {9},\n  keywords = {social robots, divergent thinking, creativity, collaboration, child-robot interaction},\n  location = {Venice, Italy},\n  series = {C&C '22},\n  environments = {mixed_objectives, robotics},\n  agents = {two_agents},\n  evaluation = {human, rule_based},\n  other = {education, more_omniscient}\n}",
+},
+        
+ 
+{ title: "Automated Pitch Convergence Improves Learning in a Social,\n               Teachable Robot for Middle School Mathematics",
+    date: "06/2018",
+    environments: "mixed_objectives, robotics",
+    agents: "two_agents",
+    evaluation: "human, rule_based",
+    other: "education, more_omniscient",
+    url: "https://link.springer.com/chapter/10.1007/978-3-319-93843-1_21",
+    bibtex: "@INPROCEEDINGS{Lubold2018-em,\n  title     = \"Automated Pitch Convergence Improves Learning in a Social,\n               Teachable Robot for Middle School Mathematics\",\n  booktitle = \"Artificial Intelligence in Education\",\n  author    = \"Lubold, Nichola and Walker, Erin and Pon-Barry, Heather and\n               Ogan, Amy\",\n  publisher = \"Springer International Publishing\",\n  pages     = \"282-296\",\n  month = {June},\n  year      =  2018,\n  url = \"https://link.springer.com/chapter/10.1007/978-3-319-93843-1_21\",\n  environments = {mixed_objectives, robotics},\n  agents = {two_agents},\n  evaluation = {human, rule_based},\n  other = {education, more_omniscient}\n}",
+},
+        
+ 
 { title: "Two Types of AI Existential Risk: Decisive and Accumulative",
     date: "01/2024",
     environments: "n/a",
