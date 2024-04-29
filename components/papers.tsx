@@ -358,6 +358,17 @@ export const data: Paper[] = [
 },
         
  
+{ title: "Reflexion: Language Agents with Verbal Reinforcement Learning",
+    date: "03/2023",
+    environments: "mixed_objectives, text",
+    agents: "prompting_and_in_context_learning, reinforcement_learning, agents_with_memory",
+    evaluation: "rule_based",
+    other: "more_omniscient",
+    url: "http://arxiv.org/abs/2303.11366",
+    bibtex: "@ARTICLE{Shinn2023-tt,\n  title         = \"Reflexion: Language Agents with Verbal Reinforcement Learning\",\n  author        = \"Shinn, Noah and Cassano, Federico and Labash, Beck and Gopinath, Ashwin and Narasimhan, Karthik and Yao, Shunyu\",\n  month         =  mar,\n  year          =  2023,\n  url           = \"http://arxiv.org/abs/2303.11366\",\n  archivePrefix = \"arXiv\",\n  eprint        = \"2303.11366\",\n  primaryClass  = \"cs.AI\",\n  arxivid       = \"2303.11366\",\n  environments = {mixed_objectives, text},\n  agents = {prompting_and_in_context_learning, reinforcement_learning, agents_with_memory},\n  evaluation = {rule_based},\n  other = {more_omniscient},\n}",
+},
+        
+ 
 { title: "SEAN: Social Environment for Autonomous Navigation",
     date: "09/2020",
     environments: "mixed_objectives, embodied",
@@ -666,6 +677,39 @@ export const data: Paper[] = [
 },
         
  
+{ title: "Using an llm to help with code understanding",
+    date: "04/2024",
+    environments: "mixed_objectives, virtual",
+    agents: "prompting_and_in_context_learning, two_agents",
+    evaluation: "qualitative, human, rule_based",
+    other: "human_agent, more_omniscient",
+    url: "https://doi.org/10.1145/3597503.3639187",
+    bibtex: "@inproceedings{nam2024using,\n  title={Using an llm to help with code understanding},\n  author={Nam, Daye and Macvean, Andrew and Hellendoorn, Vincent and Vasilescu, Bogdan and Myers, Brad},\n  booktitle={Proceedings of the IEEE/ACM 46th International Conference on Software Engineering},\n  pages={1--13},\n  year={2024},\n  month={4},\n  url={https://doi.org/10.1145/3597503.3639187},\n  environments = {mixed_objectives, virtual},\n  agents = {prompting_and_in_context_learning, two_agents},\n  evaluation = {qualitative, human, rule_based},\n  other = {human_agent, more_omniscient},\n}",
+},
+        
+ 
+{ title: "Simulating Iterative Human-AI Interaction in Programming with LLMs",
+    date: "11/2023",
+    environments: "mixed_objectives, virtual",
+    agents: "two_agents, prompting_and_in_context_learning",
+    evaluation: "rule_based",
+    other: "simulated_humans, more_omniscient",
+    url: "https://openreview.net/pdf?id=0nRcZeeE5f",
+    bibtex: "@inproceedings{mozannar2023simulating,\n  title={Simulating Iterative Human-AI Interaction in Programming with LLMs},\n  author={Mozannar, Hussein and Chen, Valerie and Wei, Dennis and Sattigeri, Prasanna and Nagireddy, Manish and Das, Subhro and Talwalkar, Ameet and Sontag, David},\n  booktitle={NeurIPS 2023 Workshop on Instruction Tuning and Instruction Following},\n  year={2023},\n  month=nov,\n  url=\"https://openreview.net/pdf?id=0nRcZeeE5f\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents, prompting_and_in_context_learning},\n  evaluation = {rule_based},\n  other = {simulated_humans, more_omniscient},\n}",
+},
+        
+ 
+{ title: "The Programmer's Assistant: Conversational Interaction with a Large Language Model for Software Development",
+    date: "03/2023",
+    environments: "mixed_objectives, virtual",
+    agents: "prompting_and_in_context_learning, two_agents",
+    evaluation: "qualitative, human, rule_based",
+    other: "human_agent, more_omniscient",
+    url: "https://doi.org/10.1145/3581641.3584037",
+    bibtex: "@INPROCEEDINGS{Ross2023-sb,\n  title     = \"The Programmer's Assistant: Conversational Interaction with a Large Language Model for Software Development\",\n  booktitle = \"Proceedings of the 28th International Conference on Intelligent User Interfaces\",\n  author    = \"Ross, Steven I and Martinez, Fernando and Houde, Stephanie and Muller, Michael and Weisz, Justin D\",\n  publisher = \"Association for Computing Machinery\",\n  pages     = \"491--514\",\n  series    = \"IUI '23\",\n  month     =  mar,\n  year      =  2023,\n  url       = \"https://doi.org/10.1145/3581641.3584037\",\n  address   = \"New York, NY, USA\",\n  location  = \"<conf-loc>, <city>Sydney</city>, <state>NSW</state>,\n               <country>Australia</country>, </conf-loc>\",\n  isbn      = \"9798400701061\",\n  doi       = \"10.1145/3581641.3584037\",\n  environments = {mixed_objectives, virtual},\n  agents = {prompting_and_in_context_learning, two_agents},\n  evaluation = {qualitative, human, rule_based},\n  other = {human_agent, more_omniscient},\n}",
+},
+        
+ 
 { title: "See, Hear, and Feel: Smart Sensory Fusion for Robotic Manipulation",
     date: "12/2022",
     environments: "embodied, robotics",
@@ -960,6 +1004,17 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://doi.org/10.1145/3571718",
     bibtex: "@article{10.1145/3571718,\n    author = {Winkle, Katie and Lagerstedt, Erik and Torre, Ilaria and Offenwanger, Anna},\n    title = {15 Years of (Who)man Robot Interaction: Reviewing the H in Human-Robot Interaction},\n    year = {2023},\n    issue_date = {September 2023},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    volume = {12},\n    number = {3},\n    url = {https://doi.org/10.1145/3571718},\n    doi = {10.1145/3571718},\n    abstract = {Recent work identified a concerning trend of disproportional gender representation in research participants in Human\u2013Computer Interaction (HCI). Motivated by the fact that Human\u2013Robot Interaction (HRI) shares many participant practices with HCI, we explored whether this trend is mirrored in our field. By producing a dataset covering participant gender representation in all 684 full papers published at the HRI conference from 2006\u20132021, we identify current trends in HRI research participation. We find an over-representation of men in research participants to date, as well as inconsistent and/or incomplete gender reporting, which typically engages in a binary treatment of gender at odds with published best practice guidelines. We further examine if and how participant gender has been considered in user studies to date, in-line with current discourse surrounding the importance and/or potential risks of gender based analyses. Finally, we complement this with a survey of HRI researchers to examine correlations between who is doing with the who is taking part, to further reflect on factors which seemingly influence gender bias in research participation across different sub-fields of HRI. Through our analysis, we identify areas for improvement, but also reason for optimism, and derive some practical suggestions for HRI researchers going forward.},\n    journal = {J. Hum.-Robot Interact.},\n    month = {4},\n    articleno = {28},\n    numpages = {28},\n    keywords = {Gender, systematic review, user study methodologies, participant recruitment, inclusivity},\n    environments = {robotics},\n    agents = {two_agents},\n    evaluation = {human},\n    other = {human_agent}\n}",
+},
+        
+ 
+{ title: "Towards a robust interactive and learning social robot",
+    date: "07/2018",
+    environments: "implicit_objectives, robotics",
+    agents: "two_agents",
+    evaluation: "rule_based",
+    other: "simulated_humans, fully_omniscient",
+    url: "https://www.ifaamas.org/Proceedings/aamas2018/pdfs/p883.pdf",
+    bibtex: "@inproceedings{de2018towards,\n  title={Towards a robust interactive and learning social robot},\n  author={De Jong, Michiel and Zhang, Kevin and Roth, Aaron M and Rhodes, Travers and Schmucker, Robin and Zhou, Chenghui and Ferreira, Sofia and Cartucho, Jo{\\~a}o and Veloso, Manuela},\n  booktitle={Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems},\n  pages={883--891},\n  year={2018},\n  month={7},\n  url=\"https://www.ifaamas.org/Proceedings/aamas2018/pdfs/p883.pdf\",\n  environments = {implicit_objectives, robotics},\n  agents = {two_agents},\n  evaluation = {rule_based},\n  other = {simulated_humans, fully_omniscient},\n}",
 },
         
  
@@ -2951,6 +3006,171 @@ export const data: Paper[] = [
     other: "education",
     url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4617715",
     bibtex: "@article{zhai2023ai,\n  title={AI for Students with Learning Disabilities: A Systematic Review},\n  author={Zhai, Xiaoming and Panjwani-Charania, Sahrish},\n  year={2023},\n  journal={n/a},\n  publisher={Panjwani-Charani, S. \\& Zhai, X.(in press). AI for Students with Learning},\n  month={1},\n  url={https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4617715},\n  environments = {text, virtual},\n  agents = {two_agents, more_than_three_agents},\n  evaluation = {human},\n  other = {education},\n}",
+},
+        
+ 
+{ title: "How to Teach Programming in the {AI} Era? Using {LLM}s as a Teachable Agent for Debugging",
+    date: "06/2024",
+    environments: "mixed_objectives, virtual",
+    agents: "two_agents, prompting_and_in_context_learning",
+    evaluation: "qualitative, human, rule_based",
+    other: "education, human_agent, simulated_humans, more_omniscient",
+    url: "https://arxiv.org/abs/2310.05292",
+    bibtex: "@INPROCEEDINGS{Ma2024-li,\n  title       = \"How to Teach Programming in the {AI} Era? Using {LLM}s as a Teachable Agent for Debugging\",\n  booktitle   = \"International Conference on Artificial Intelligence in Education\",\n  author      = \"Ma, Qianou and Shen, Hua and Koedinger, Kenneth and Wu,\n                 Tongshuang\",\n  institution = \"Springer\",\n  year        =  2024,\n  month       =  6,\n  url         = \"https://arxiv.org/abs/2310.05292\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents, prompting_and_in_context_learning},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+},
+        
+ 
+{ title: "{AI-TA}: Towards an Intelligent Question-Answer Teaching Assistant using Open-Source {LLMs}",
+    date: "11/2023",
+    environments: "collaboration, text",
+    agents: "two_agents, agents_with_memory, finetuning, reinforcement_learning, prompting_and_in_context_learning",
+    evaluation: "human, model_based",
+    other: "education, human_agent, simulated_humans, more_omniscient",
+    url: "http://arxiv.org/abs/2311.02775",
+    bibtex: "@ARTICLE{Hicke2023-tv,\n  title         = \"{AI-TA}: Towards an Intelligent Question-Answer Teaching Assistant using Open-Source {LLMs}\",\n  author        = \"Hicke, Yann and Agarwal, Anmol and Ma, Qianou and Denny, Paul\",\n  month         =  nov,\n  year          =  2023,\n  url           = \"http://arxiv.org/abs/2311.02775\",\n  archivePrefix = \"arXiv\",\n  eprint        = \"2311.02775\",\n  primaryClass  = \"cs.LG\",\n  arxivid       = \"2311.02775\",\n  environments = {collaboration, text},\n  agents = {two_agents, agents_with_memory, finetuning, reinforcement_learning, prompting_and_in_context_learning},\n  evaluation = {human, model_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+},
+        
+ 
+{ title: "Generating Situated Reflection Triggers About Alternative Solution Paths: A Case Study in Generative {AI} for Computer-Supported Collaborative Learning",
+    date: "06/2024",
+    environments: "mixed_objectives, virtual",
+    agents: "more_than_three_agents, prompting_and_in_context_learning",
+    evaluation: "qualitative, human, rule_based",
+    other: "education, human_agent, simulated_humans, more_omniscient",
+    url: "http://arxiv.org/",
+    bibtex: "@INPROCEEDINGS{Naik2024generating,\n  title       = \"Generating Situated Reflection Triggers About Alternative Solution Paths: A Case Study in Generative {AI} for Computer-Supported Collaborative Learning\",\n  booktitle   = \"International Conference on Artificial Intelligence in Education\",\n  author      = {Naik, Atharva and Yin, Jessica Ruhan and Kamath, Anusha and Ma, Qianou and Wu, Sherry Tongshuang and Murray, Charles and Bogart, Christopher and Sakr, Majd and Rose, Carolyn P.},\n  institution = \"Springer\",\n  year        =  2024,\n  month       =  6,\n  url         = \"http://arxiv.org/\", \n  environments = {mixed_objectives, virtual},\n  agents = {more_than_three_agents, prompting_and_in_context_learning},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+},
+        
+ 
+{ title: "Teach {AI} How to Code: Using Large Language Models as Teachable Agents for Programming Education",
+    date: "09/2023",
+    environments: "mixed_objectives, virtual",
+    agents: "two_agents, prompting_and_in_context_learning",
+    evaluation: "qualitative, human, rule_based",
+    other: "education, human_agent, simulated_humans, more_omniscient",
+    url: "http://arxiv.org/abs/2309.14534",
+    bibtex: "@ARTICLE{Jin2023-nf,\n  title         = \"Teach {AI} How to Code: Using Large Language Models as Teachable Agents for Programming Education\",\n  author        = \"Jin, Hyoungwook and Lee, Seonghee and Shin, Hyungyu and Kim, Juho\",\n  month         =  sep,\n  year          =  2023,\n  url           = \"http://arxiv.org/abs/2309.14534\",\n  archivePrefix = \"arXiv\",\n  eprint        = \"2309.14534\",\n  primaryClass  = \"cs.HC\",\n  arxivid       = \"2309.14534\",\n  doi           = \"10.1145/3613904.3642349\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents, prompting_and_in_context_learning},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+},
+        
+ 
+{ title: "{CodeAid}: Evaluating a Classroom Deployment of an {LLM-based} Programming Assistant that Balances Student and Educator Needs",
+    date: "01/2024",
+    environments: "mixed_objectives, virtual",
+    agents: "two_agents, prompting_and_in_context_learning",
+    evaluation: "qualitative, human, rule_based",
+    other: "education, human_agent, more_omniscient",
+    url: "http://arxiv.org/abs/2401.11314",
+    bibtex: "@ARTICLE{Kazemitabaar2024-mg,\n  title         = \"{CodeAid}: Evaluating a Classroom Deployment of an {LLM-based} Programming Assistant that Balances Student and Educator Needs\",\n  author        = \"Kazemitabaar, Majeed and Ye, Runlong and Wang, Xiaoning and Henley, Austin Z and Denny, Paul and Craig, Michelle and Grossman, Tovi\",\n  month         =  jan,\n  year          =  2024,\n  url           = \"http://arxiv.org/abs/2401.11314\",\n  archivePrefix = \"arXiv\",\n  eprint        = \"2401.11314\",\n  primaryClass  = \"cs.HC\",\n  arxivid       = \"2401.11314\",\n  doi           = \"10.1145/3613904.3642773\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents, prompting_and_in_context_learning},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, more_omniscient},\n}",
+},
+        
+ 
+{ title: "Learning Agent-based Modeling with {LLM} Companions: Experiences of Novices and Experts Using {ChatGPT} \\& {NetLogo} Chat",
+    date: "01/2024",
+    environments: "mixed_objectives, virtual",
+    agents: "two_agents, prompting_and_in_context_learning",
+    evaluation: "qualitative, human, rule_based",
+    other: "education, human_agent, more_omniscient",
+    url: "http://arxiv.org/abs/2401.17163",
+    bibtex: "@ARTICLE{Chen2024-du,\n  title         = \"Learning Agent-based Modeling with {LLM} Companions: Experiences of Novices and Experts Using {ChatGPT} \\& {NetLogo} Chat\",\n  author        = \"Chen, John and Lu, Xi and Rejtig, Michael and Du, David and Bagley, Ruth and Horn, Michael S and Wilensky, Uri J\",\n  month         =  jan,\n  year          =  2024,\n  url           = \"http://arxiv.org/abs/2401.17163\",\n  archivePrefix = \"arXiv\",\n  eprint        = \"2401.17163\",\n  primaryClass  = \"cs.HC\",\n  arxivid       = \"2401.17163\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents, prompting_and_in_context_learning},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, more_omniscient},\n}",
+},
+        
+ 
+{ title: "{GPTeach}: Interactive {TA} Training with {GPT-based} Students",
+    date: "07/2023",
+    environments: "mixed_objectives, virtual",
+    agents: "two_agents, prompting_and_in_context_learning",
+    evaluation: "qualitative, human, rule_based",
+    other: "education, human_agent, simulated_humans, more_omniscient",
+    url: "https://doi.org/10.1145/3573051.3593393",
+    bibtex: "@INPROCEEDINGS{Markel2023-po,\n  title     = \"{GPTeach}: Interactive {TA} Training with {GPT-based} Students\",\n  booktitle = \"Proceedings of the Tenth {ACM} Conference on Learning @ Scale\",\n  author    = \"Markel, Julia M and Opferman, Steven G and Landay, James A and Piech, Chris\",\n  publisher = \"Association for Computing Machinery\",\n  pages     = \"226--236\",\n  series    = \"L@S '23\",\n  month     =  jul,\n  year      =  2023,\n  url       = \"https://doi.org/10.1145/3573051.3593393\",\n  address   = \"New York, NY, USA\",\n  location  = \"Copenhagen, Denmark\",\n  isbn      = \"9798400700255\",\n  doi       = \"10.1145/3573051.3593393\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents, prompting_and_in_context_learning},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+},
+        
+ 
+{ title: "{Ruffle\\&Riley}: Towards the Automated Induction of Conversational Tutoring Systems",
+    date: "10/2023",
+    environments: "mixed_objectives, virtual",
+    agents: "more_than_three_agents, prompting_and_in_context_learning",
+    evaluation: "qualitative, human, rule_based",
+    other: "education, human_agent, simulated_humans, more_omniscient",
+    url: "http://arxiv.org/abs/2310.01420",
+    bibtex: "@ARTICLE{Schmucker2023-fb,\n  title         = \"{Ruffle\\&Riley}: Towards the Automated Induction of Conversational Tutoring Systems\",\n  author        = \"Schmucker, Robin and Xia, Meng and Azaria, Amos and Mitchell, Tom\",\n  month         =  sep,\n  year          =  2023,\n  url           = \"http://arxiv.org/abs/2310.01420\",\n  archivePrefix = \"arXiv\",\n  eprint        = \"2310.01420\",\n  primaryClass  = \"cs.CL\",\n  arxivid       = \"2310.01420\",\n  environments = {mixed_objectives, virtual},\n  agents = {more_than_three_agents, prompting_and_in_context_learning},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+},
+        
+ 
+{ title: "Designing {PairBuddy---A} Conversational Agent for Pair Programming",
+    date: "05/2022",
+    environments: "mixed_objectives, virtual",
+    agents: "two_agents",
+    evaluation: "qualitative, human, rule_based",
+    other: "education, human_agent, simulated_humans, more_omniscient",
+    url: "https://doi.org/10.1145/3498326",
+    bibtex: "@ARTICLE{Robe2022-rz,\n  title     = \"Designing {PairBuddy---A} Conversational Agent for Pair Programming\",\n  author    = \"Robe, Peter and Kuttal, Sandeep Kaur\",\n  journal   = \"ACM Trans. Comput.-Hum. Interact.\",\n  publisher = \"Association for Computing Machinery\",\n  volume    =  29,\n  number    =  4,\n  pages     = \"1--44\",\n  month     =  may,\n  year      =  2022,\n  url       = \"https://doi.org/10.1145/3498326\",\n  address   = \"New York, NY, USA\",\n  issn      = \"1073-0516\",\n  doi       = \"10.1145/3498326\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+},
+        
+ 
+{ title: "How Effective are Pedagogical Agents for Learning? A {Meta-Analytic} Review",
+    date: "07/2013",
+    environments: "mixed_objectives, virtual",
+    agents: "two_agents",
+    evaluation: "qualitative, human, rule_based",
+    other: "education, human_agent, simulated_humans, more_omniscient",
+    url: "https://doi.org/10.2190/EC.49.1.a",
+    bibtex: "@ARTICLE{Schroeder2013-ub,\n  title     = \"How Effective are Pedagogical Agents for Learning? A {Meta-Analytic} Review\",\n  author    = \"Schroeder, Noah L and Adesope, Olusola O and Gilbert, Rachel Barouch\",\n  journal   = \"Journal of Educational Computing Research\",\n  publisher = \"SAGE Publications Inc\",\n  volume    =  49,\n  number    =  1,\n  pages     = \"1--39\",\n  month     =  jul,\n  year      =  2013,\n  url       = \"https://doi.org/10.2190/EC.49.1.a\",\n  issn      = \"0735-6331\",\n  doi       = \"10.2190/EC.49.1.a\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+},
+        
+ 
+{ title: "Cognitive anatomy of tutor learning: Lessons learned with {SimStudent}",
+    date: "11/2013",
+    environments: "mixed_objectives, virtual",
+    agents: "two_agents",
+    evaluation: "qualitative, human, rule_based",
+    other: "education, human_agent, simulated_humans, more_omniscient",
+    url: "http://dx.doi.org/10.1037/a0031955",
+    bibtex: "@ARTICLE{Matsuda2013-ev,\n  title   = \"Cognitive anatomy of tutor learning: Lessons learned with {SimStudent}\",\n  author  = \"Matsuda, Noboru and Yarzebinski, Evelyn and Keiser, Victoria and Raizada, Rohan and Cohen, William W and Stylianides, Gabriel J and Koedinger, Kenneth R\",\n  journal = \"J. Educ. Psychol.\",\n  volume  =  105,\n  number  =  4,\n  pages   = \"1152--1163\",\n  month   =  nov,\n  year    =  2013,\n  url     = \"http://dx.doi.org/10.1037/a0031955\",\n  issn    = \"0022-0663, 1939-2176\",\n  doi     = \"10.1037/a0031955\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+},
+        
+ 
+{ title: "Intelligent tutoring systems",
+    date: "04/1985",
+    environments: "mixed_objectives, virtual",
+    agents: "two_agents",
+    evaluation: "qualitative, human, rule_based",
+    other: "education, human_agent, simulated_humans, more_omniscient",
+    url: "http://dx.doi.org/10.1126/science.228.4698.456",
+    bibtex: "@ARTICLE{Anderson1985-wg,\n  title    = \"Intelligent tutoring systems\",\n  author   = \"Anderson, J R and Boyle, C F and Reiser, B J\",\n  journal  = \"Science\",\n  volume   =  228,\n  number   =  4698,\n  pages    = \"456--462\",\n  month    =  apr,\n  year     =  1985,\n  url      = \"http://dx.doi.org/10.1126/science.228.4698.456\",\n  language = \"en\",\n  issn     = \"0036-8075\",\n  pmid     = \"17746875\",\n  doi      = \"10.1126/science.228.4698.456\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+},
+        
+ 
+{ title: "{CLASS} Meet {SPOCK}: An Education Tutoring Chatbot based on Learning Science Principles",
+    date: "05/2023",
+    environments: "mixed_objectives, virtual",
+    agents: "two_agents",
+    evaluation: "qualitative, human, rule_based",
+    other: "education, human_agent, simulated_humans, more_omniscient",
+    url: "http://arxiv.org/abs/2305.13272",
+    bibtex: "@ARTICLE{Sonkar2023-mr,\n  title         = \"{CLASS} Meet {SPOCK}: An Education Tutoring Chatbot based on Learning Science Principles\",\n  author        = \"Sonkar, Shashank and Liu, Lucy and Mallick, Debshila Basu\n                   and Baraniuk, Richard G\",\n  month         =  may,\n  year          =  2023,\n  url           = \"http://arxiv.org/abs/2305.13272\",\n  archivePrefix = \"arXiv\",\n  eprint        = \"2305.13272\",\n  primaryClass  = \"cs.CL\",\n  arxivid       = \"2305.13272\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+},
+        
+ 
+{ title: "Going Online: A Simulated Student Approach for Evaluating Knowledge Tracing in the Context of Mastery Learning",
+    date: "06/2021",
+    environments: "mixed_objectives, virtual",
+    agents: "more_than_three_agents",
+    evaluation: "human, rule_based",
+    other: "education, simulated_humans, more_omniscient",
+    url: "http://files.eric.ed.gov/fulltext/ED615518.pdf",
+    bibtex: "@ARTICLE{Zhang2021-gz,\n  title     = \"Going Online: A Simulated Student Approach for Evaluating Knowledge Tracing in the Context of Mastery Learning\",\n  author    = \"Zhang, Qiao and Maclellan, Christopher J\",\n  journal   = \"International Educational Data Mining Society\",\n  publisher = \"International Educational Data Mining Society. e-mail:\n               admin@educationaldatamining.org; Web site:\n               https://educationaldatamining.org/conferences/\",\n  year      =  2021,\n  month     =  jun,\n  url       = \"http://files.eric.ed.gov/fulltext/ED615518.pdf\",\n  language  = \"en\",\n  environments = {mixed_objectives, virtual},\n  agents = {more_than_three_agents},\n  evaluation = {human, rule_based},\n  other = {education, simulated_humans, more_omniscient},\n}",
+},
+        
+ 
+{ title: "Investigating differential error types between human and simulated learners",
+    date: "06/2020",
+    environments: "mixed_objectives, virtual",
+    agents: "more_than_three_agents",
+    evaluation: "human, rule_based",
+    other: "education, simulated_humans, more_omniscient",
+    url: "https://link.springer.com/chapter/10.1007/978-3-030-52237-7_47",
+    bibtex: "@ARTICLE{Weitekamp2020-lw,\n  title     = \"Investigating differential error types between human and simulated learners\",\n  author    = \"Weitekamp, D and Ye, Z and Rachatasumrit, N and {others}\",\n  journal   = \"Artif. Intell.\",\n  publisher = \"Springer\",\n  year      =  2020,\n  month     =  june,\n  url       = \"https://link.springer.com/chapter/10.1007/978-3-030-52237-7_47\",\n  issn      = \"0004-3702\",\n  environments = {mixed_objectives, virtual},\n  agents = {more_than_three_agents},\n  evaluation = {human, rule_based},\n  other = {education, simulated_humans, more_omniscient},\n}",
 },
         
  

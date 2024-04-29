@@ -34,6 +34,7 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 
 
 ## Table of Contents
+- [Table of Contents](#table-of-contents)
 - [Papers](#papers)
   - [Surveys and Overview](#surveys-and-overview)
   - [Environments](#environments)
@@ -74,19 +75,69 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 ### Environments
 
 #### Text and Speech Environments
-[October, 2023] [SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents](https://openreview.net/forum?id=mM7VurbA4r), Xuhui Zhou et al., ICLR
 
-[October, 2023] [CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents](https://arxiv.org/abs/2310.17512), Qinlin Zhao et al., arXiv
+[3, 2024] [Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference](https://arxiv.org/abs/2403.04132), Wei-Lin Chiang et al., arXiv preprint arXiv:2403.04132
 
-[March, 2022] [Report from the nsf future directions workshop on automatic evaluation of dialog: Research directions and challenges](https://arxiv.org/abs/2203.10012), Shikib Mehri et al., arXiv preprint arXiv:2203.10012
+[8, 2023] [{CALYPSO}: {LLMs} as Dungeon Masters' Assistants](https://arxiv.org/abs/2308.07540), Andrew Zhu et al., The 19th AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE 2023)
 
-[January, 2022] [Socio-conversational systems: Three challenges at the crossroads of fields](https://pubmed.ncbi.nlm.nih.gov/36591412/), Chlo{\'e} Clavel et al., Frontiers in Robotics and AI
+[7, 2023] [{I} Cast Detect Thoughts: Learning to Converse and Guide with Intents and Theory-of-Mind in Dungeons and Dragons](https://aclanthology.org/2023.acl-long.624), Zhou et al., Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
 
-[January, 2022] [The Handbook on Socially Interactive Agents: 20 Years of Research on Embodied Conversational Agents, Intelligent Virtual Agents, and Social Robotics Volume 2: Interactivity, Platforms, Application](https://dl.acm.org/doi/book/10.1145/3477322), Birgit Lugrin et al., ACM
+[7, 2023] [{FIREBALL}: A Dataset of Dungeons and Dragons Actual-Play with Structured Game State Information](https://aclanthology.org/2023.acl-long.229), Zhu et al., Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
 
-[January, 2022] [Human evaluation of conversations is an open problem: comparing the sensitivity of various methods for evaluating dialogue agents](https://arxiv.org/abs/2201.04723), Eric Michael Smith et al., arXiv preprint arXiv:2201.04723
+[3, 2023] [Fast Multi-Agent Gridworld Environments for Gymnasium](https://github.com/ini/multigrid), Ini Oguntola et al., GitHub
 
-[November, 2018] [Towards empathetic open-domain conversation models: A new benchmark and dataset](https://arxiv.org/abs/1811.00207), Hannah Rashkin et al., arXiv preprint arXiv:1811.00207
+[03, 2023] [Reflexion: Language Agents with Verbal Reinforcement Learning](http://arxiv.org/abs/2303.11366), Noah Shinn et al., arXiv
+
+[12, 2022] [Dungeons and Dragons as a Dialog Challenge for Artificial Intelligence](https://aclanthology.org/2022.emnlp-main.637), Callison-Burch et al., Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing
+
+[11, 2022] [Human-level play in the game of Diplomacy by combining language models with strategic reasoning](https://www.science.org/doi/full/10.1126/science.ade9097), Meta Fundamental AI Research Diplomacy Team (FAIR)† et al., Science
+
+[11, 2022] [Introducing ChatGPT](https://openai.com/blog/chatgpt), OpenAI et al., n/a
+
+[8, 2022] [Blenderbot 3: a deployed conversational agent that continually learns to responsibly engage](https://arxiv.org/abs/2208.03188), Kurt Shuster et al., arXiv preprint arXiv:2208.03188
+
+[5, 2022] [Opt: Open pre-trained transformer language models](https://arxiv.org/abs/2205.01068), Susan Zhang et al., arXiv preprint arXiv:2205.01068
+
+[3, 2022] [Report from the nsf future directions workshop on automatic evaluation of dialog: Research directions and challenges](https://arxiv.org/abs/2203.10012), Shikib Mehri et al., arXiv preprint arXiv:2203.10012
+
+[1, 2022] [Socio-conversational systems: Three challenges at the crossroads of fields](https://pubmed.ncbi.nlm.nih.gov/36591412/), Chlo{\'e} Clavel et al., Frontiers in Robotics and AI
+
+[1, 2022] [The Handbook on Socially Interactive Agents: 20 Years of Research on Embodied Conversational Agents, Intelligent Virtual Agents, and Social Robotics Volume 2: Interactivity, Platforms, Application](https://dl.acm.org/doi/book/10.1145/3477322), Birgit Lugrin et al., ACM
+
+[1, 2022] [Human evaluation of conversations is an open problem: comparing the sensitivity of various methods for evaluating dialogue agents](https://arxiv.org/abs/2201.04723), Eric Michael Smith et al., arXiv preprint arXiv:2201.04723
+
+[7, 2020] [It Takes Two to Lie: One to Lie, and One to Listen](https://aclanthology.org/2020.acl-main.353), Peskov et al., Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics
+
+[3, 2020] [The Hanabi challenge: A new frontier for AI research](http://dx.doi.org/10.1016/j.artint.2019.103216), Nolan Bard et al., Artificial Intelligence
+
+[3, 2020] [The Design and Implementation of {X}iao{I}ce, an Empathetic Social Chatbot](https://aclanthology.org/2020.cl-1.2), Zhou et al., Computational Linguistics
+
+[08, 2019] [{OpenSpiel}: A Framework for Reinforcement Learning in Games](http://arxiv.org/abs/1908.09453), Marc Lanctot et al., CoRR
+
+[7, 2019] [Persuasion for Good: Towards a Personalized Persuasive Dialogue System for Social Good](https://aclanthology.org/P19-1566), Wang et al., Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics
+
+[7, 2019] [RLCard: A Toolkit for Reinforcement Learning in Card Games](https://github.com/datamllab/rlcard), Daochen Zha et al., arXiv preprint arXiv:1910.04376
+
+[4, 2019] [Wizard of Wikipedia: Knowledge-Powered Conversational Agents](https://openreview.net/forum?id=r1l73iRqKm), Emily Dinan et al., International Conference on Learning Representations
+
+[11, 2018] [Towards empathetic open-domain conversation models: A new benchmark and dataset](https://arxiv.org/abs/1811.00207), Hannah Rashkin et al., arXiv preprint arXiv:1811.00207
+
+[10, 2018] [Decoupling Strategy and Generation in Negotiation Dialogues](https://aclanthology.org/D18-1256), He et al., Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing
+
+[4, 2018] [A knowledge-grounded neural conversation model](https://ojs.aaai.org/index.php/AAAI/article/view/11977), Marjan Ghazvininejad et al., Proceedings of the AAAI Conference on Artificial Intelligence
+
+[3, 2018] [Towards empathetic human-robot interactions](https://link.springer.com/chapter/10.1007/978-3-319-75487-1_14), Pascale Fung et al., Computational Linguistics and Intelligent Text Processing: 17th International Conference, CICLing 2016, Konya, Turkey, April 3--9, 2016, Revised Selected Papers, Part II 17
+
+[9, 2017] [Deal or No Deal? End-to-End Learning of Negotiation Dialogues](https://aclanthology.org/D17-1259), Lewis et al., Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing
+
+[8, 2016] [A persona-based neural conversation model](https://aclanthology.org/P16-1094/), Jiwei Li et al., arXiv preprint arXiv:1603.06155
+
+[11, 2009] [The anatomy of ALICE](https://link.springer.com/chapter/10.1007/978-1-4020-6710-5_13), Richard S Wallace et al., n/a
+
+[1, 2006] [Empathic computing](https://link.springer.com/chapter/10.1007/11825890_3), Yang Cai et al., Ambient intelligence in everyday life: Foreword by Emile Aarts
+
+[1, 1966] [ELIZA—a computer program for the study of natural language communication between man and machine](https://doi.org/10.1145/365153.365168), Joseph Weizenbaum et al., Commun. ACM
+
 
 #### Embodied Environments
 
@@ -97,30 +148,113 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 
 #### Virtual Environments
 
-#### Robotics
-[December, 2023] [RoboTube: Learning Household Manipulation from Human Videos with Simulated Twin Environments](https://proceedings.mlr.press/v205/xiong23a.html), Haoyu Xiong et al., Proceedings of The 6th Conference on Robot Learning 
+[4, 2024] [Using an llm to help with code understanding](https://doi.org/10.1145/3597503.3639187), Daye Nam et al., Proceedings of the IEEE/ACM 46th International Conference on Software Engineering
 
-[August, 2022] [Do As I Can and Not As I Say: Grounding Language in Robotic Affordances](https://say-can.github.io/), Michael Ahn et al., arXiv preprint arXiv:2204.01691         
-                                                         
-[June, 2022] [Inner Monologue: Embodied Reasoning through Planning with Language Models](https://arxiv.org/abs/2207.05608), Wenlong Huang et al., arXiv preprint arXiv:2207.05608                    
-                                      
-[June, 2023] [One Policy to Dress Them All: Learning to Dress People with Diverse Poses and Garments](https://arxiv.org/abs/2306.12372), Yufei Wang et al., Robotics: Science and Systems (RSS)        
-                                    
-[August, 2023] [Co-GAIL: Learning Diverse Strategies for Human-Robot Collaboration](https://arxiv.org/abs/2108.06038), Chen Wang et al., arXiv                                                 
-                                            
-[March, 2024] [Yell At Your Robot: Improving On-the-Fly from Language Corrections](https://arxiv.org/abs/2403.12910), Lucy Xiaoyang Shi et al., arXiv                                   
-                                                  
-[April, 2016] [Human--robot interaction: status and challenges](https://journals.sagepub.com/doi/10.1177/0018720816644364), Thomas B Sheridan et al., Human factors             
-                                                           
-[June, 2021] [A taxonomy to structure and analyze human--robot interaction](https://link.springer.com/article/10.1007/s12369-020-00666-5), Linda Onnasch et al., International Journal of Social Robotics         
+[2, 2024] [UFO: A UI-Focused Agent for Windows OS Interaction](https://arxiv.org/abs/2402.07939), Chaoyun Zhang et al., arXiv preprint arXiv:2402.07939
+
+[2, 2024] [Os-copilot: Towards generalist computer agents with self-improvement](https://arxiv.org/abs/2402.07456), Zhiyong Wu et al., arXiv preprint arXiv:2402.07456
+
+[1, 2024] [Mobile-Agent: Autonomous multi-modal mobile device agent with visual perception](https://arxiv.org/abs/2401.16158), Junyang Wang et al., arXiv preprint arXiv:2401.16158
+
+[1, 2024] [Visualwebarena: Evaluating multimodal agents on realistic visual web tasks](https://arxiv.org/abs/2401.13649), Jing Yu Koh et al., arXiv preprint arXiv:2401.13649
+
+[1, 2024] [Mind2web: Towards a generalist agent for the web](https://arxiv.org/abs/2306.06070), Xiang Deng et al., Advances in Neural Information Processing Systems
+
+[12, 2023] [Appagent: Multimodal agents as smartphone users](https://arxiv.org/abs/2312.13771), Zhao Yang et al., arXiv preprint arXiv:2312.13771
+
+[11, 2023] [Simulating Iterative Human-AI Interaction in Programming with LLMs](https://openreview.net/pdf?id=0nRcZeeE5f), Hussein Mozannar et al., NeurIPS 2023 Workshop on Instruction Tuning and Instruction Following
+
+[7, 2023] [Webarena: A realistic web environment for building autonomous agents](https://arxiv.org/abs/2307.13854), Shuyan Zhou et al., arXiv preprint arXiv:2307.13854
+
+[7, 2023] [Android in the wild: A large-scale dataset for android device control](https://arxiv.org/abs/2307.10088), Christopher Rawles et al., arXiv preprint arXiv:2307.10088
+
+[3, 2023] [The Programmer's Assistant: Conversational Interaction with a Large Language Model for Software Development](https://doi.org/10.1145/3581641.3584037), Steven I Ross et al., Proceedings of the 28th International Conference on Intelligent User Interfaces
+
+[12, 2022] [Webshop: Towards scalable real-world web interaction with grounded language agents](https://proceedings.neurips.cc/paper_files/paper/2022/file/82ad13ec01f9fe44c01cb91814fd7b8c-Paper-Conference.pdf), Shunyu Yao et al., Advances in Neural Information Processing Systems
+
+[7, 2022] [A data-driven approach for learning to control computers](https://arxiv.org/abs/2202.08137), Peter C Humphreys et al., International Conference on Machine Learning
+
+[2, 2022] [A dataset for interactive vision-language navigation with unknown command feasibility](https://arxiv.org/abs/2202.02312), Andrea Burns et al., European Conference on Computer Vision
+
+[5, 2021] [Androidenv: A reinforcement learning platform for android](https://arxiv.org/abs/2105.13231), Daniel Toyama et al., arXiv preprint arXiv:2105.13231
+
+[3, 2021] [Grounding open-domain instructions to automate web support tasks](https://arxiv.org/abs/2103.16057), Nancy Xu et al., arXiv preprint arXiv:2103.16057
+
+[9, 2020] [Interactive task learning from GUI-grounded natural language instructions and demonstrations](https://arxiv.org/abs/1909.00031), Toby Jia-Jun Li et al., Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: System Demonstrations
+
+[5, 2020] [Mapping natural language instructions to mobile UI action sequences](https://arxiv.org/abs/2005.03776), Yang Li et al., arXiv preprint arXiv:2005.03776
+
+[3, 2019] [Pumice: A multi-modal agent that learns concepts and conditionals from natural language and demonstrations](https://dl.acm.org/doi/10.1145/3332165.3347899), Toby Jia-Jun Li et al., Proceedings of the 32nd annual ACM symposium on user interface software and technology
+
+[3, 2018] [Appinite: A multi-modal interface for specifying data descriptions in programming by demonstration using natural language instructions](https://ieeexplore.ieee.org/document/8506506), Toby Jia-Jun Li et al., 2018 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC)
+
+[2, 2018] [Reinforcement learning on web interfaces using workflow-guided exploration](https://arxiv.org/abs/1802.08802), Evan Zheran Liu et al., arXiv preprint arXiv:1802.08802
+
+[8, 2017] [World of bits: An open-domain platform for web-based agents](https://proceedings.mlr.press/v70/shi17a/shi17a.pdf), Tianlin Shi et al., International Conference on Machine Learning
+
+[8, 2009] [Reinforcement learning for mapping instructions to actions](https://aclanthology.org/P09-1010/), Satchuthananthavale RK Branavan et al., Proceedings of the Joint Conference of the 47th Annual Meeting of the ACL and the 4th International Joint Conference on Natural Language Processing of the AFNLP
+
+[7, 2007] [Plow: A collaborative task learning agent](https://cdn.aaai.org/AAAI/2007/AAAI07-240.pdf), James Allen et al., AAAI
+
+
+#### Robotics
+
+[03, 2024] [Vid2Robot: End-to-end Video-conditioned Policy Learning with Cross-Attention Transformers](https://vid2robot.github.io/), Vidhi Jain et al., arXiv
+
+[03, 2024] [BEHAVIOR-1K: A Human-Centered, Embodied AI Benchmark with 1,000 Everyday Activities and Realistic Simulation](https://behavior.stanford.edu/behavior-1k), Chengshu Li et al., arXiv
+
+[03, 2024] [DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset](https://arxiv.org/abs/2403.12945), Alexander Khazatsky et al., arXiv
+
+[03, 2024] [Yell At Your Robot: Improving On-the-Fly from Language Corrections](https://arxiv.org/abs/2403.12910), Lucy Xiaoyang Shi et al., arXiv
+
+[12, 2023] [Toward General-Purpose Robots via Foundation Models: A Survey and Meta-Analysis](https://robotics-fm-survey.github.io/), Yafei Hu et al., arXiv preprint: arXiv:2312.08782 
+
+[12, 2023] [RoboTube: Learning Household Manipulation from Human Videos with Simulated Twin Environments](https://proceedings.mlr.press/v205/xiong23a.html), Haoyu Xiong et al., Proceedings of The 6th Conference on Robot Learning
+
+[11, 2023] [Toward Grounded Commonsense Reasoning](https://arxiv.org/abs/2306.08651), Minae Kwon et al., arXiv preprint arXiv:2306.08651
+
+[10, 2023] [Open {X-E}mbodiment: Robotic Learning Datasets and {RT-X} Models](https://arxiv.org/abs/2310.08864), Open X-Embodiment Collaboration et al., arXiv
+
+[9, 2023] [How to Prompt Your Robot: A PromptBook for Manipulation Skills with Code as Policies](https://openreview.net/forum?id=T8AiZj1QdN), Montserrat Gonzalez Arenas et al., 2nd Workshop on Language and Robot Learning: Language as Grounding
+
+[08, 2023] [Co-GAIL: Learning Diverse Strategies for Human-Robot Collaboration](https://arxiv.org/abs/2108.06038), Chen Wang et al., arXiv
+
+[7, 2023] [MUTEX: Learning Unified Policies from Multimodal Task Specifications](https://openreview.net/forum?id=PwqiqaaEzJ), Rutav Shah et al., 7th Annual Conference on Robot Learning
+
+[7, 2023] [Robotic vision for human-robot interaction and collaboration: A survey and systematic review](https://arxiv.org/abs/2307.15363), Nicole Robinson et al., ACM Transactions on Human-Robot Interaction
+
+[6, 2023] [Gesture-Informed Robot Assistance via Foundation Models](https://openreview.net/forum?id=Ffn8Z4Q-zU), Li-Heng Lin et al., 7th Annual Conference on Robot Learning
+
+[6, 2023] [HomeRobot: Open-Vocabulary Mobile Manipulation](https://openreview.net/forum?id=b-cto-fetlz), Sriram Yenamandra et al., 7th Annual Conference on Robot Learning
+
+[6, 2023] [One Policy to Dress Them All: Learning to Dress People with Diverse Poses and Garments](https://arxiv.org/abs/2306.12372), Yufei Wang et al., Robotics: Science and Systems (RSS)
+
+[4, 2023] [15 Years of (Who)man Robot Interaction: Reviewing the H in Human-Robot Interaction](https://doi.org/10.1145/3571718), Katie Winkle et al., J. Hum.-Robot Interact.
+
+[3, 2023] [Nonverbal Cues in Human Robot Interaction: A Communication Studies Perspective](https://doi.org/10.1145/3570169), Jacqueline Urakami et al., J. Hum.-Robot Interact.
+
+[01, 2023] [Benchmarks and Algorithms for Offline Preference-Based Reward Learning](https://arxiv.org/pdf/2301.01392.pdf), Daniel Shin et al., arXiv
+
+[12, 2022] [See, Hear, and Feel: Smart Sensory Fusion for Robotic Manipulation](https://ai.stanford.edu/~rhgao/see_hear_feel/), Hao Li et al., CoRL
+
+[12, 2022] [Transformers Are Adaptable Task Planners](https://openreview.net/forum?id=Eal_lL08v_l), Vidhi Jain et al., 6th Annual Conference on Robot Learning
+
+[10, 2022] [A survey of multi-agent Human--Robot Interaction systems](https://arxiv.org/abs/2212.05286), Abhinav Dahiya et al., Robotics and Autonomous Systems
+
+[8, 2022] [Do As I Can and Not As I Say: Grounding Language in Robotic Affordances](https://say-can.github.io/), Michael Ahn et al., arXiv preprint arXiv:2204.01691
+
+[6, 2022] [Inner Monologue: Embodied Reasoning through Planning with Language Models](https://arxiv.org/abs/2207.05608), Wenlong Huang et al., arXiv preprint arXiv:2207.05608
+
+[6, 2021] [A taxonomy to structure and analyze human--robot interaction](https://link.springer.com/article/10.1007/s12369-020-00666-5), Linda Onnasch et al., International Journal of Social Robotics
+
+[3, 2020] [Threedworld: A platform for interactive multi-modal physical simulation](https://www.threedworld.org/), Chuang Gan et al., arXiv preprint arXiv:2007.04954
+
+[10, 2019] [Vision-and-Dialog Navigation](https://cvdn.dev/), Jesse Thomason et al., Conference on Robot Learning (CoRL)
+
+[7, 2018] [Towards a robust interactive and learning social robot](https://www.ifaamas.org/Proceedings/aamas2018/pdfs/p883.pdf), Michiel De Jong et al., Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems
+
+[4, 2016] [Human--robot interaction: status and challenges](https://journals.sagepub.com/doi/10.1177/0018720816644364), Thomas B Sheridan et al., Human factors
                          
-[July, 2023] [Robotic vision for human-robot interaction and collaboration: A survey and systematic review](https://arxiv.org/abs/2307.15363), Nicole Robinson et al., ACM Transactions on Human-Robot Interaction         
-                
-[October, 2022] [A survey of multi-agent Human--Robot Interaction systems](https://arxiv.org/abs/2212.05286), Abhinav Dahiya et al., Robotics and Autonomous Systems                                             
-                          
-[March, 2023] [Nonverbal Cues in Human Robot Interaction: A Communication Studies Perspective](https://doi.org/10.1145/3570169), Jacqueline Urakami et al., J. Hum.-Robot Interact.               
-                                         
- [April, 2023] [15 Years of (Who)man Robot Interaction: Reviewing the H in Human-Robot Interaction](https://doi.org/10.1145/3571718), Katie Winkle et al., J. Hum.-Robot Interact.                           
                                 
 
 ### Modeling
@@ -391,7 +525,38 @@ May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigatio
 
 #### Education
 
-[January, 2023] [AI for Students with Learning Disabilities: A Systematic Review](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4617715), Xiaoming Zhai et al., n/a
+
+[6, 2024] [How to Teach Programming in the {AI} Era? Using {LLM}s as a Teachable Agent for Debugging](https://arxiv.org/abs/2310.05292), Qianou Ma et al., International Conference on Artificial Intelligence in Education
+
+[6, 2024] [Generating Situated Reflection Triggers About Alternative Solution Paths: A Case Study in Generative {AI} for Computer-Supported Collaborative Learning](http://arxiv.org/), Atharva Naik et al., International Conference on Artificial Intelligence in Education
+
+[01, 2024] [{CodeAid}: Evaluating a Classroom Deployment of an {LLM-based} Programming Assistant that Balances Student and Educator Needs](http://arxiv.org/abs/2401.11314), Majeed Kazemitabaar et al., arXiv
+
+[01, 2024] [Learning Agent-based Modeling with {LLM} Companions: Experiences of Novices and Experts Using {ChatGPT} \& {NetLogo} Chat](http://arxiv.org/abs/2401.17163), John Chen et al., arXiv
+
+[11, 2023] [{AI-TA}: Towards an Intelligent Question-Answer Teaching Assistant using Open-Source {LLMs}](http://arxiv.org/abs/2311.02775), Yann Hicke et al., arXiv
+
+[10, 2023] [{Ruffle\&Riley}: Towards the Automated Induction of Conversational Tutoring Systems](http://arxiv.org/abs/2310.01420), Robin Schmucker et al., arXiv
+
+[09, 2023] [Teach {AI} How to Code: Using Large Language Models as Teachable Agents for Programming Education](http://arxiv.org/abs/2309.14534), Hyoungwook Jin et al., arXiv
+
+[7, 2023] [{GPTeach}: Interactive {TA} Training with {GPT-based} Students](https://doi.org/10.1145/3573051.3593393), Julia M Markel et al., Proceedings of the Tenth {ACM} Conference on Learning @ Scale
+
+[05, 2023] [{CLASS} Meet {SPOCK}: An Education Tutoring Chatbot based on Learning Science Principles](http://arxiv.org/abs/2305.13272), Shashank Sonkar et al., arXiv
+
+[1, 2023] [AI for Students with Learning Disabilities: A Systematic Review](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4617715), Xiaoming Zhai et al., n/a
+
+[5, 2022] [Designing {PairBuddy---A} Conversational Agent for Pair Programming](https://doi.org/10.1145/3498326), Peter Robe et al., ACM Trans. Comput.-Hum. Interact.
+
+[6, 2021] [Going Online: A Simulated Student Approach for Evaluating Knowledge Tracing in the Context of Mastery Learning](http://files.eric.ed.gov/fulltext/ED615518.pdf), Qiao Zhang et al., International Educational Data Mining Society
+
+[6, 2020] [Investigating differential error types between human and simulated learners](https://link.springer.com/chapter/10.1007/978-3-030-52237-7_47), D Weitekamp et al., Artif. Intell.
+
+[11, 2013] [Cognitive anatomy of tutor learning: Lessons learned with {SimStudent}](http://dx.doi.org/10.1037/a0031955), Noboru Matsuda et al., J. Educ. Psychol.
+
+[7, 2013] [How Effective are Pedagogical Agents for Learning? A {Meta-Analytic} Review](https://doi.org/10.2190/EC.49.1.a), Noah L Schroeder et al., Journal of Educational Computing Research
+
+[4, 1985] [Intelligent tutoring systems](http://dx.doi.org/10.1126/science.228.4698.456), J R Anderson et al., Science
 
 ### Concerns
 
