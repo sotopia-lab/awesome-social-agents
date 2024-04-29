@@ -1,5 +1,5 @@
 export default {
-    logo: <span>Awesome Social Agents</span>,
+    logo: <span>🗣️👥 Awesome Social Agents</span>,
     project: {
       link: 'https://github.com/sotopia-lab/awesome-social-agents',
     },

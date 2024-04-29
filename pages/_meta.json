@@ -7,14 +7,37 @@
             "layout": "full"
         }
     },
-    "readme": {
-        "title": "Readme"
-    },
     "paper_table": {
         "type": "page",
         "title": "Papers",
         "theme": {
             "layout": "full"
+        }
+    },
+    "readme": {
+        "title": "Readme"
+    },
+    "contribution_menu": {
+        "title": "Documentation",
+        "type": "menu",
+        "items": {
+            "readme": {
+                "title": "Readme",
+                "href": "/readme"
+            },
+            "guidelines": {
+                "title": "Guidelines",
+                "href": "/contribution"
+            },
+            "taxonomy": {
+                "title": "Taxonomy",
+                "href": "/taxonomy"
+            },
+            "examples": {
+                "title": "Examples",
+                "href": "/examples"
+            
+            }
         }
     },
     "contribution": "Wanna contribute? Check out the guidelines",
