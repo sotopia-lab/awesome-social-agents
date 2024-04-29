@@ -1,12 +1,14 @@
 # Contribution
+
 Hi everyone! Thanks for the help!! Your expertise is invaluable to the community 💡. Here are some steps to contribute to the repository:
 
 ### Installation
-After cloning this repo, we can start install the environment. This repo supports Python 3.9 and above. In one line, to use a virtual environment, e.g. with anaconda3: 
+
+After cloning this repo, we can start the installation. This repo supports Python 3.9 and above. In one line, to use a virtual environment, e.g. with anaconda3:
 
 `conda create -n awesome-social-agents python=3.9; conda activate awesome-social-agents; python -m install requirements.txt`
 
-For developing the website, 
+For developing the website,
 
 ```
 curl -fsSL https://bun.sh/install | bash # install bun
@@ -14,6 +16,7 @@ bun i # install dependencies
 bun run dev # run dev server (auto reload)
 # bun run build # if you wanna build
 ```
+
 In next.config.js. you should set the basepath to "" in your local machine, but make sure not to commit it since github page requires it.
 
 ### Steps
@@ -33,6 +36,6 @@ In next.config.js. you should set the basepath to "" in your local machine, but 
     - Once you've completed the above steps, create a pull request to the main repository.
     - Congratulations! 🎉
 
-
 ### Notes
+
 - If you have any questions, feel free to ask in the Slack channel or create an issue in the repository.
