@@ -28,6 +28,28 @@ export const data: Paper[] = [
 },
         
  
+{ title: "Advancing Social Intelligence in AI Agents: Technical Challenges and Open Questions",
+    date: "04/2024",
+    environments: "n/a",
+    agents: "n/a",
+    evaluation: "n/a",
+    other: "n/a",
+    url: "https://arxiv.org/abs/2404.11023",
+    bibtex: "@article{mathur2024advancing,\n  title   = {Advancing Social Intelligence in AI Agents: Technical Challenges and Open Questions},\n  author  = {Mathur, Leena and Liang, Paul Pu and Morency, Louis-Philippe},\n  url = {https://arxiv.org/abs/2404.11023},\n  journal = {arXiv preprint arXiv:2404.11023},\n  year    = {2024},\n  month = {4},\n  environments={n/a},\n  agents={n/a},\n  evaluation={n/a},\n  other={n/a}\n}",
+},
+        
+ 
+{ title: "Social Skill Training with Large Language Models",
+    date: "04/2024",
+    environments: "n/a",
+    agents: "n/a",
+    evaluation: "n/a",
+    other: "n/a",
+    url: "https://arxiv.org/abs/2404.04204",
+    bibtex: "@article{yang2024social,\n  title   = {Social Skill Training with Large Language Models},\n  author  = {Yang, Diyi and Ziems, Caleb and Held, William and Shaikh, Omar and Bernstein, Michael S and Mitchell, John},\n  journal = {arXiv preprint arXiv:2404.04204},\n  url = {https://arxiv.org/abs/2404.04204},\n  year = {2024},\n  month = {4},\n  environments={n/a},\n  agents={n/a},\n  evaluation={n/a},\n  other={n/a}\n}",
+},
+        
+ 
 { title: "The Hanabi challenge: A new frontier for AI research",
     date: "03/2020",
     environments: "collaboration, text",
