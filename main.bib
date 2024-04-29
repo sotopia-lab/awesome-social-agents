@@ -478,6 +478,74 @@
   other={human_agent}
 }
 
+@article{clavel2022socio,
+  title={Socio-conversational systems: Three challenges at the crossroads of fields},
+  author={Clavel, Chlo{\'e} and Labeau, Matthieu and Cassell, Justine},
+  journal={Frontiers in Robotics and AI},
+  volume={9},
+  pages={937825},
+  year={2022},
+  month={1},
+  url={https://pubmed.ncbi.nlm.nih.gov/36591412/},
+  publisher={Frontiers},
+  environments = {collaboration},
+  agents = {agents_with_personas, two_agents},
+  evaluation = {qualitative, human},
+  other = {n/a}
+}
+
+@article{rashkin2018towards,
+  title={Towards empathetic open-domain conversation models: A new benchmark and dataset},
+  author={Rashkin, Hannah and Smith, Eric Michael and Li, Margaret and Boureau, Y-Lan},
+  journal={arXiv preprint arXiv:1811.00207},
+  year={2018},
+  month={11},
+  url={https://arxiv.org/abs/1811.00207},
+  environments = {collaboration},
+  agents = {agents_with_personas, two_agents},
+  evaluation = {qualitative, human},
+  other = {n/a}
+}
+
+@book{lugrin2022handbook,
+  title={The Handbook on Socially Interactive Agents: 20 Years of Research on Embodied Conversational Agents, Intelligent Virtual Agents, and Social Robotics Volume 2: Interactivity, Platforms, Application},
+  author={Lugrin, Birgit and Pelachaud, Catherine and Traum, David},
+  year={2022},
+  month={1},
+  url={https://dl.acm.org/doi/book/10.1145/3477322},
+  journal={ACM},
+  environments = {collaboration},
+  agents = {agents_with_personas, two_agents},
+  evaluation = {qualitative, human},
+  other = {n/a}
+}
+
+@article{smith2022human,
+  title={Human evaluation of conversations is an open problem: comparing the sensitivity of various methods for evaluating dialogue agents},
+  author={Smith, Eric Michael and Hsu, Orion and Qian, Rebecca and Roller, Stephen and Boureau, Y-Lan and Weston, Jason},
+  journal={arXiv preprint arXiv:2201.04723},
+  year={2022},
+  month={1},
+  url={https://arxiv.org/abs/2201.04723},
+  environments = {collaboration},
+  agents = {agents_with_personas, two_agents},
+  evaluation = {human},
+  other = {n/a}
+}
+
+@article{mehri2022report,
+  title={Report from the nsf future directions workshop on automatic evaluation of dialog: Research directions and challenges},
+  author={Mehri, Shikib and Choi, Jinho and D'Haro, Luis Fernando and Deriu, Jan and Eskenazi, Maxine and Gasic, Milica and Georgila, Kallirroi and Hakkani-Tur, Dilek and Li, Zekang and Rieser, Verena and others},
+  journal={arXiv preprint arXiv:2203.10012},
+  year={2022},
+  month={3},
+  url={https://arxiv.org/abs/2203.10012},
+  environments = {collaboration},
+  agents = {agents_with_personas, two_agents},
+  evaluation = {qualitative, human},
+  other = {n/a}
+}
+
 
 #### Embodied Environments
 @article{environments/embodied,
@@ -574,12 +642,27 @@ url={https://openreview.net/forum?id=4znwzG92CE},
       primaryClass={cs.AI}
 }
 
+@article{liang2023foundations,
+  title={Foundations \& Trends in Multimodal Machine Learning: Principles, Challenges, and Open Questions},
+  author={Liang, Paul Pu and Zadeh, Amir and Morency, Louis-Philippe},
+  journal={ACM Computing Surveys},
+  publisher={ACM New York, NY},
+  year={2023},
+  month={1},
+  url={https://dl.acm.org/doi/abs/10.1145/3656580},
+  environments = {text, virtual, embodied, robotics, collaboration},
+  agents = {prompting_and_in_context_learning, finetuning, pretraining, reinforcement_learning, two_agents},
+  evaluation = {qualitative, human},
+  other = {n/a},
+}
+
 
 #### Virtual Environments
 @article{environments/virtual,
   title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
   author = {specical entry},
 }
+
 @inproceedings{li2018appinite,
   title={Appinite: A multi-modal interface for specifying data descriptions in programming by demonstration using natural language instructions},
   author={Li, Toby Jia-Jun and Labutov, Igor and Li, Xiaohan Nancy and Zhang, Xiaoyi and Shi, Wenze and Ding, Wanling and Mitchell, Tom M and Myers, Brad A},
@@ -2008,6 +2091,19 @@ url={https://openreview.net/forum?id=4znwzG92CE},
   author = {specical entry},
 }
 
+@article{srivastava2022beyond,
+  title={Beyond the imitation game: Quantifying and extrapolating the capabilities of language models},
+  author={Srivastava, Aarohi and Rastogi, Abhinav and Rao, Abhishek and Shoeb, Abu Awal Md and Abid, Abubakar and Fisch, Adam and Brown, Adam R and Santoro, Adam and Gupta, Aditya and Garriga-Alonso, Adri{\`a} and others},
+  journal={arXiv preprint arXiv:2206.04615},
+  year={2022},
+  month={6},
+  url={https://arxiv.org/abs/2206.04615},
+  environments = {text},
+  agents = {prompting_and_in_context_learning, finetuning, pretraining, reinforcement_learning, two_agents},
+  evaluation = {qualitative, human},
+  other = {n/a},
+}
+
 @inproceedings{finch-choi-2020-towards,
     title = "Towards Unified Dialogue System Evaluation: A Comprehensive Analysis of Current Evaluation Protocols",
     author = "Finch, Sarah E.  and
@@ -2280,6 +2376,7 @@ url={https://openreview.net/forum?id=4znwzG92CE},
       title={AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems}, 
       author={Junjie Zhang and Yupeng Hou and Ruobing Xie and Wenqi Sun and Julian McAuley and Wayne Xin Zhao and Leyu Lin and Ji-Rong Wen},
       year={2023},
+      month={10},
       environments = {mixed_objectives, text},
       agents = {prompting_and_in_context_learning, more_than_three_agents, agents_with_memory, agents_with_personas},
       evaluation = {rule_based},
@@ -2294,6 +2391,7 @@ url={https://openreview.net/forum?id=4znwzG92CE},
       title={How Far Are We on the Decision-Making of LLMs? Evaluating LLMs' Gaming Ability in Multi-Agent Environments}, 
       author={Jen-tse Huang and Eric John Li and Man Ho Lam and Tian Liang and Wenxuan Wang and Youliang Yuan and Wenxiang Jiao and Xing Wang and Zhaopeng Tu and Michael R. Lyu},
       year={2024},
+      month={3},
       eprint={2403.11807},
       archivePrefix={arXiv},
       primaryClass={cs.AI},
@@ -2308,6 +2406,7 @@ url={https://openreview.net/forum?id=4znwzG92CE},
       title={ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate}, 
       author={Chi-Min Chan and Weize Chen and Yusheng Su and Jianxuan Yu and Wei Xue and Shanghang Zhang and Jie Fu and Zhiyuan Liu},
       year={2023},
+      month={8},
       eprint={2308.07201},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
@@ -2322,6 +2421,7 @@ url={https://openreview.net/forum?id=4znwzG92CE},
       title={Automatic Evaluation for Mental Health Counseling using LLMs}, 
       author={Anqi Li and Yu Lu and Nirui Song and Shuai Zhang and Lizhi Ma and Zhenzhong Lan},
       year={2024},
+      month={2},
       eprint={2402.11958},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
@@ -2336,6 +2436,7 @@ url={https://openreview.net/forum?id=4znwzG92CE},
       title={How Well Can LLMs Negotiate? NegotiationArena Platform and Analysis}, 
       author={Federico Bianchi and Patrick John Chia and Mert Yuksekgonul and Jacopo Tagliabue and Dan Jurafsky and James Zou},
       year={2024},
+      month={2},
       eprint={2402.05863},
       archivePrefix={arXiv},
       primaryClass={cs.AI},
@@ -2614,13 +2715,10 @@ series = {AAMAS '21},
 }
 
 
-
-
-
 @misc{singh2024change,
       title={How much can change in a year? Revisiting Evaluation in Multi-Agent Reinforcement Learning}, 
       author={Siddarth Singh and Omayma Mahjoub and Ruan de Kock and Wiem Khlifi and Abidine Vall and Kale-ab Tessera and Arnu Pretorius},
-      year={2024},
+      year={2023},
       eprint={2312.08463},
       archivePrefix={arXiv},
       primaryClass={cs.AI},
@@ -2797,6 +2895,47 @@ series = {AAMAS '21},
   author = {specical entry},
 }
 
+@inproceedings{fitrianie2022artificial,
+  title={The Artificial-Social-Agent Questionnaire: Establishing the long and short questionnaire versions},
+  author={Fitrianie, Siska and Bruijnes, Merijn and Li, Fengxiang and Abdulrahman, Amal and Brinkman, Willem-Paul},
+  booktitle={Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents},
+  pages={1--8},
+  year={2022},
+  month={1},
+  url={https://dl.acm.org/doi/abs/10.1145/3514197.3549612},
+  environments = {text, virtual, embodied, robotics},
+  agents = {two_agents},
+  evaluation = {qualitative, human},
+  other = {n/a},
+}
+
+@inproceedings{fitrianie202019,
+  title={The 19 unifying questionnaire constructs of artificial social agents: An iva community analysis},
+  author={Fitrianie, Siska and Bruijnes, Merijn and Richards, Deborah and B{\"o}nsch, Andrea and Brinkman, Willem-Paul},
+  booktitle={Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents},
+  pages={1--8},
+  year={2020},
+  month={1},
+  url={https://dl.acm.org/doi/10.1145/3383652.3423873},
+  environments = {text, virtual, embodied, robotics},
+  agents = {two_agents},
+  evaluation = {qualitative, human},
+  other = {n/a},
+}
+
+@incollection{paiva2021empathy,
+  title={Empathy and prosociality in social agents},
+  author={Paiva, Ana and Correia, Filipa and Oliveira, Raquel and Santos, Fernando and Arriaga, Patr{\'\i}cia},
+  booktitle={The Handbook on Socially Interactive Agents: 20 Years of Research on Embodied Conversational Agents, Intelligent Virtual Agents, and Social Robotics Volume 1: Methods, Behavior, Cognition},
+  pages={385--432},
+  year={2021},
+  month={1},
+  url={https://dl.acm.org/doi/10.1145/3477322.3477334},
+  environments = {text, virtual, embodied, robotics},
+  agents = {two_agents},
+  evaluation = {qualitative, human},
+  other = {n/a},
+}
 
 @Article{Lù2024WebLINXRW,
  author = {Xing Han Lù and Zdeněk Kasner and Siva Reddy},
@@ -2812,7 +2951,6 @@ series = {AAMAS '21},
  evaluation={rule_based},
  other={human_agent}
 }
-
 
 @article{Xie2023OpenAgentsAO,
   title={OpenAgents: An Open Platform for Language Agents in the Wild},
@@ -2832,6 +2970,7 @@ series = {AAMAS '21},
       title={GAIA: a benchmark for General AI Assistants}, 
       author={Grégoire Mialon and Clémentine Fourrier and Craig Swift and Thomas Wolf and Yann LeCun and Thomas Scialom},
       year={2023},
+      month={11},
       eprint={2311.12983},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
@@ -2912,6 +3051,33 @@ other = {human_agent},
 month           = {2},
 }
 
+@inproceedings{zadeh2018multimodal,
+  title={Multimodal language analysis in the wild: Cmu-mosei dataset and interpretable dynamic fusion graph},
+  author={Zadeh, AmirAli Bagher and Liang, Paul Pu and Poria, Soujanya and Cambria, Erik and Morency, Louis-Philippe},
+  booktitle={Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages={2236--2246},
+  year={2018},
+  month={7},
+  url={https://aclanthology.org/P18-1208/},
+  environments = {text, virtual},
+  agents = {two_agents},
+  evaluation = {qualitative, human},
+  other = {n/a},
+}
+
+@inproceedings{zadeh2019social,
+  title={Social-iq: A question answering benchmark for artificial social intelligence},
+  author={Zadeh, Amir and Chan, Michael and Liang, Paul Pu and Tong, Edmund and Morency, Louis-Philippe},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={8807--8817},
+  year={2019},
+  month={6},
+  url={https://openaccess.thecvf.com/content_CVPR_2019/html/Zadeh_Social-IQ_A_Question_Answering_Benchmark_for_Artificial_Social_Intelligence_CVPR_2019_paper.html},
+  environments = {text, virtual},
+  agents = {more_than_three_agents},
+  evaluation = {qualitative, human},
+  other = {n/a},
+}
 
 #### Evaluating robotics in social contexts
 @article{evaluation/robotics,
@@ -3573,6 +3739,86 @@ url={https://openreview.net/forum?id=w_7JMpGZRh0},
   other={n/a}
 }
 
+@article{tian2021taxonomy,
+  title={A taxonomy of social errors in human-robot interaction},
+  author={Tian, Leimin and Oviatt, Sharon},
+  journal={ACM Transactions on Human-Robot Interaction (THRI)},
+  volume={10},
+  number={2},
+  pages={1--32},
+  year={2021},
+  month={1},
+  url={https://dl.acm.org/doi/abs/10.1145/3439720},
+  publisher={ACM New York, NY, USA},
+  environments = {robotics},
+  agents = {two_agents},
+  evaluation = {qualitative, human},
+  other = {n/a},
+}
+
+@article{barchard2020measuring,
+  title={Measuring the perceived social intelligence of robots},
+  author={Barchard, Kimberly A and Lapping-Carr, Leiszle and Westfall, R Shane and Fink-Armold, Andrea and Banisetty, Santosh Balajee and Feil-Seifer, David},
+  journal={ACM Transactions on Human-Robot Interaction (THRI)},
+  volume={9},
+  number={4},
+  pages={1--29},
+  year={2020},
+  month={1},
+  url={https://dl.acm.org/doi/abs/10.1145/3415139},
+  publisher={ACM New York, NY, USA},
+  environments = {robotics},
+  agents = {two_agents},
+  evaluation = {qualitative, human},
+  other = {n/a},
+}
+
+@article{wiltshire2017enabling,
+  title={Enabling robotic social intelligence by engineering human social-cognitive mechanisms},
+  author={Wiltshire, Travis J and Warta, Samantha F and Barber, Daniel and Fiore, Stephen M},
+  journal={Cognitive Systems Research},
+  volume={43},
+  pages={190--207},
+  year={2017},
+  month={1},
+  url={https://www.sciencedirect.com/science/article/abs/pii/S1389041716300493},
+  publisher={Elsevier},
+  environments = {robotics},
+  agents = {two_agents},
+  evaluation = {qualitative, human},
+  other = {n/a},
+}
+
+@article{ligthart2021core,
+  title={Core elements of social interaction for constructive human-robot interaction},
+  author={Ligthart, Mike EU and Neerincx, Mark A and Hindriks, Koen V},
+  journal={arXiv preprint arXiv:2110.04054},
+  year={2021},
+  month={10},
+  url={https://arxiv.org/abs/2110.04054},
+  environments = {robotics},
+  agents = {two_agents},
+  evaluation = {qualitative, human},
+  other = {n/a},
+}
+
+@article{skantze2021turn,
+  title={Turn-taking in conversational systems and human-robot interaction: a review},
+  author={Skantze, Gabriel},
+  journal={Computer Speech \& Language},
+  volume={67},
+  pages={101178},
+  year={2021},
+  month={1},
+  url={https://www.sciencedirect.com/science/article/pii/S088523082030111X},
+  publisher={Elsevier},
+  environments = {robotics},
+  agents = {two_agents},
+  evaluation = {qualitative, human},
+  other = {n/a},
+}
+
+
 #### Human-Human Interaction
 @article{interactions/human,
   title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
@@ -3624,7 +3870,6 @@ url={https://openreview.net/forum?id=w_7JMpGZRh0},
   other = {human_agent}
 }
 
-
 @article{dai2021agent,
   title={Agent reasoning in AI-powered negotiation},
   author={Dai, Tinglong and Sycara, Katia and Zheng, Ronghuo},
@@ -3667,7 +3912,6 @@ url={https://openreview.net/forum?id=w_7JMpGZRh0},
   evaluation = {rule_based},
   other = {human_agent}
 }
-
 
 @INPROCEEDINGS{Seo2021towards,
   author={Seo, Sangwon and Kennedy-Metz, Lauren R. and Zenati, Marco A. and Shah, Julie A. and Dias, Roger D. and Unhelkar, Vaibhav V.},
@@ -3734,6 +3978,23 @@ url={https://openreview.net/forum?id=w_7JMpGZRh0},
   agents = {two_agents},
   evaluation = {human, rule_based},
   other = {human_agent, health}
+}
+
+@inproceedings{nyatsanga2023comprehensive,
+  title={A Comprehensive Review of Data-Driven Co-Speech Gesture Generation},
+  author={Nyatsanga, Simbarashe and Kucherenko, Taras and Ahuja, Chaitanya and Henter, Gustav Eje and Neff, Michael},
+  booktitle={Computer Graphics Forum},
+  volume={42},
+  number={2},
+  pages={569--596},
+  year={2023},
+  month={1},
+  url={https://arxiv.org/abs/2301.05339},
+  organization={Wiley Online Library},
+  environments = {virtual, embodied},
+  agents = {two_agents},
+  evaluation = {qualitative, human},
+  other = {n/a},
 }
 
 ### Challenges
@@ -3863,8 +4124,8 @@ url={https://openreview.net/forum?id=w_7JMpGZRh0},
       other = {human_agent, health},
       month={05},
       year={2023}, 
-      pages={20552076231173304} 
- }
+      pages={20552076231173304}
+}
 
  @misc{abbasian2024conversational,
       title={Conversational Health Agents: A Personalized LLM-Powered Agent Framework}, 
@@ -3878,7 +4139,106 @@ url={https://openreview.net/forum?id=w_7JMpGZRh0},
       eprint={2310.02374},
       archivePrefix={arXiv},
       primaryClass={cs.CL}
- }
+}
+
+@article{milne2020effectiveness,
+  title={The effectiveness of artificial intelligence conversational agents in health care: systematic review},
+  author={Milne-Ives, Madison and de Cock, Caroline and Lim, Ernest and Shehadeh, Melissa Harper and de Pennington, Nick and Mole, Guy and Normando, Eduardo and Meinert, Edward},
+  journal={Journal of medical Internet research},
+  volume={22},
+  number={10},
+  pages={e20346},
+  year={2020},
+  month={1},
+  url={https://www.jmir.org/2020/10/e20346/PDF},
+  publisher={JMIR Publications Toronto, Canada},
+  environments = {text, virtual},
+  agents = {two_agents},
+  evaluation = {qualitative, human},
+  other = {health},
+}
+
+@incollection{bickmore2022health,
+  title={Health-related applications of socially interactive agents},
+  author={Bickmore, Timothy},
+  booktitle={The Handbook on Socially Interactive Agents: 20 years of Research on Embodied Conversational Agents, Intelligent Virtual Agents, and Social Robotics Volume 2: Interactivity, Platforms, Application},
+  pages={403--436},
+  year={2022},
+  month={1},
+  url={https://dl.acm.org/doi/abs/10.1145/3563659.3563672},
+  environments = {text, virtual},
+  agents = {two_agents},
+  evaluation = {qualitative, human},
+  other = {health},
+}
+
+@article{gillani2021intelligent,
+  title={Intelligent sensing technologies for the diagnosis, monitoring and therapy of alzheimer’s disease: A systematic review},
+  author={Gillani, Nazia and Arslan, Tughrul},
+  journal={Sensors},
+  volume={21},
+  number={12},
+  pages={4249},
+  year={2021},
+  month={1},
+  url={https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8234801/#B23-sensors-21-04249},
+  publisher={MDPI},
+  environments = {text, virtual},
+  agents = {two_agents},
+  evaluation = {qualitative, human},
+  other = {health},
+}
+
+@article{moor2023foundation,
+  title={Foundation models for generalist medical artificial intelligence},
+  author={Moor, Michael and Banerjee, Oishi and Abad, Zahra Shakeri Hossein and Krumholz, Harlan M and Leskovec, Jure and Topol, Eric J and Rajpurkar, Pranav},
+  journal={Nature},
+  volume={616},
+  number={7956},
+  pages={259--265},
+  year={2023},
+  month={1},
+  url={https://www.nature.com/articles/s41586-023-05881-4},
+  publisher={Nature Publishing Group UK London},
+  environments = {text, virtual, embodied},
+  agents = {prompting_and_in_context_learning, finetuning, pretraining, two_agents},
+  evaluation = {qualitative, human},
+  other = {health},
+}
+
+@article{esmaeilzadeh2021patients,
+  title={Patients’ perceptions toward human--artificial intelligence interaction in health care: experimental study},
+  author={Esmaeilzadeh, Pouyan and Mirzaei, Tala and Dharanikota, Spurthy},
+  journal={Journal of medical Internet research},
+  volume={23},
+  number={11},
+  pages={e25856},
+  year={2021},
+  month={1},
+  url={https://www.jmir.org/2021/11/e25856/},
+  publisher={JMIR Publications Toronto, Canada},
+  environments = {text, virtual, embodied},
+  agents = {two_agents},
+  evaluation = {qualitative, human},
+  other = {health},
+}
+
+@article{pee2019artificial,
+  title={Artificial intelligence in healthcare robots: A social informatics study of knowledge embodiment},
+  author={Pee, Loo G and Pan, Shan L and Cui, Lili},
+  journal={Journal of the Association for Information Science and Technology},
+  volume={70},
+  number={4},
+  pages={351--369},
+  year={2019},
+  month={1},
+  url={https://asistdl.onlinelibrary.wiley.com/doi/pdf/10.1002/asi.24145?casa_token=T2fVrVRwmt0AAAAA:IT7GOCcygCdBuckrO5UqRg0hlWXOU3YUx1UPqi2kVG8XxxQfNxMDY6JBm5Kcz1XuO5Xsjo9H7KzCOOv-},
+  publisher={Wiley Online Library},
+  environments = {robotics},
+  agents = {two_agents},
+  evaluation = {qualitative, human},
+  other = {health},
+}
 
 
 #### Policy
@@ -3966,12 +4326,69 @@ month = {8}
 }
 
 
+@misc{2004.13332,
+  author = {Stephan Zheng, Alexander Trott, Sunil Srinivasa, Nikhil Naik, Melvin Gruesbeck, David C. Parkes, Richard Socher},
+  title = {The AI Economist: Improving Equality and Productivity with AI-Driven Tax Policies},
+  year = {2020},
+  month = {4},
+  url = {https://arxiv.org/abs/2004.13332},
+  journal = {arXiv},
+  environments = {text, mixed_objectives},
+  agents = {more_than_three_agents},
+  evaluation = {human, rule_based},
+  other = {policy},
+}
+
+@article{zheng2021ai,
+  title={The ai economist: Optimal economic policy design via two-level deep reinforcement learning},
+  author={Zheng, Stephan and Trott, Alexander and Srinivasa, Sunil and Parkes, David C and Socher, Richard},
+  journal={arXiv preprint arXiv:2108.02755},
+  year={2021},
+  month={8},
+  url={https://arxiv.org/abs/2108.02755},
+  environments = {text, mixed_objectives},
+  agents = {more_than_three_agents, reinforcement_learning},
+  evaluation = {human, rule_based},
+  other = {policy},
+}
+
+@misc{trott2021building,
+    title={Building a Foundation for Data-Driven, Interpretable, and Robust Policy Design using the AI Economist}, 
+    author={Alexander Trott and Sunil Srinivasa and Douwe van der Wal and Sebastien Haneuse and Stephan Zheng},
+    year={2021},
+    month={8},
+    eprint={2108.02904},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG},
+    url={https://arxiv.org/abs/2108.02904},
+    environments = {text, mixed_objectives},
+    agents = {more_than_three_agents, reinforcement_learning},
+    evaluation = {human, rule_based},
+    other = {policy},
+}
+
 
 #### Education
 @article{applications/education,
   title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
   author = {specical entry},
 }
+
+@article{zhai2023ai,
+  title={AI for Students with Learning Disabilities: A Systematic Review},
+  author={Zhai, Xiaoming and Panjwani-Charania, Sahrish},
+  year={2023},
+  journal={n/a},
+  publisher={Panjwani-Charani, S. \& Zhai, X.(in press). AI for Students with Learning},
+  month={1},
+  url={https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4617715},
+  environments = {text, virtual},
+  agents = {two_agents, more_than_three_agents},
+  evaluation = {human},
+  other = {education},
+}
+
+
 
 ### Concerns
 

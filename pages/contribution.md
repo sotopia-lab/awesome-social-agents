@@ -20,7 +20,7 @@ In next.config.js. you should set the basepath to "" in your local machine, but 
 
 1. Fork the repository.
 3. Add each paper to the `main.bib` file, under the section you are working on. You could pick one section that fits the paper the most. This file will sync with the Overleaf project `main.bib` file after your PR is merged. **Don't add the papers that are already in the `main.bib`**.
-4. Add four new fields for each paper you added: `environments`, `agents`, `evaluation`, and `other`. The acceptable tags for these four fields are in [taxonomy](https://sotopia-lab.github.io/awesome-social-agents/taxonomy/).
+4. Add four new fields for each paper you added: `environments`, `agents`, `evaluation`, and `other`. The acceptable tags for these four fields are in [taxonomy](https://sotopia-lab.github.io/awesome-social-agents/taxonomy).
 5. **Update the `./docs/paper_table.md` file:**
     - Run `python bibtex_to_table.py` to update the `./docs/paper_table.md` file.
     - Double-check the output Markdown file and ensure the table is updated correctly.

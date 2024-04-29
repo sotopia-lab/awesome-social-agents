@@ -4,9 +4,11 @@ import {
   ChevronDownIcon,
   DotsHorizontalIcon,
 } from "@radix-ui/react-icons"
+import { Badge } from "@/components/ui/badge"
 import {
   ColumnDef,
   ColumnFiltersState,
+  Row,
   SortingState,
   VisibilityState,
   flexRender,
@@ -45,12 +47,28 @@ import Link from "next/link"
 
 import { options } from "./data/data"
 
+const renderCell = (row: Row<Paper>, row_name: string, backgroundColor:string) => {
+  const environments:string = row.getValue(row_name);
+  const environmentList = environments.split(",").map(environment => environment.trim()).sort();
+  return (
+    <div className="flex flex-wrap">
+      {environmentList.map((environment, index) => (
+        <div key={index} className={`rounded-full bg-clip-border ${backgroundColor} m-1 px-2 py-1`}>
+          {environment.trim()}
+        </div>
+      ))}
+    </div>
+  );
+};
+
 export const columns: ColumnDef<Paper>[] = [
     {
       accessorKey: "title",
       header: "Title",
       cell: ({ row }) => (
-        <Link href={`${row.getValue("url")}`}><div className="">{row.getValue("title")}</div></Link>
+        <Link href={`${row.getValue("url")}`} className="text-blue-500 hover:text-blue-700">
+          <div className="">{row.getValue("title")}
+        </div></Link>
       ),
     },
     
@@ -67,6 +85,19 @@ export const columns: ColumnDef<Paper>[] = [
           </Button>
         )
       },
+      sortingFn: (rowA, rowB) => {
+        const dateA: string = rowA.getValue("date");
+        const dateB: string = rowB.getValue("date");
+        const monthA = parseInt(dateA.split("/")[0], 10);
+        const monthB = parseInt(dateB.split("/")[0], 10);
+        const yearA = parseInt(dateA.split("/")[1], 10);
+        const yearB = parseInt(dateB.split("/")[1], 10);
+    
+        if (yearA === yearB) {
+          return monthA - monthB;
+        }
+        return yearA - yearB;
+      },
       cell: ({ row }) => <div className="lowercase">{row.getValue("date")}</div>,
     },
     {
@@ -82,9 +113,9 @@ export const columns: ColumnDef<Paper>[] = [
           </Button>
         )
       },
-      cell: ({ row }) => (
-        <div className="">{row.getValue("environments")}</div>
-      ),
+      cell: ({ row }) => {
+        return renderCell(row, "environments", "bg-lime-200")
+      },
     },
     {
       accessorKey: "agents",
@@ -100,7 +131,7 @@ export const columns: ColumnDef<Paper>[] = [
         )
       },
       cell: ({ row }) => (
-        <div className="">{row.getValue("agents")}</div>
+        renderCell(row, "agents", "bg-violet-200")
       ),
     },
     {
@@ -117,7 +148,7 @@ export const columns: ColumnDef<Paper>[] = [
         )
       },
       cell: ({ row }) => (
-        <div className="">{row.getValue("evaluation")}</div>
+        renderCell(row, "evaluation", "bg-sky-200")
       ),
     },
     {
@@ -134,7 +165,7 @@ export const columns: ColumnDef<Paper>[] = [
         )
       },
       cell: ({ row }) => (
-        <div className="">{row.getValue("other")}</div>
+        renderCell(row, "other", "bg-rose-200")
       ),
     },
     {
