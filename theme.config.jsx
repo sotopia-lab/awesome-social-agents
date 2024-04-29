@@ -1,5 +1,17 @@
 export default {
-    logo: <span>🗣️👥 Awesome Social Agents</span>,
+    logo: <span className="flex items-center"> 
+    <svg className="h-5 mx-2 dark:text-sky-300 dark:drop-shadow-[0_3px_10px_#bae6fd]"
+        viewBox="0 0 300 300"
+        fill="primary"
+        xmlns="http://www.w3.org/2000/svg"
+        href="https://sotopia.world"
+    >
+        <path d="M250,200c-55.23,0-100-44.77-100-100S194.77,0,250,0"/>
+        <path d="M50,100c55.23,0,100,44.77,100,100S105.23,300,50,300"/>
+        <path d="M50,0l100,0c0,55.23-44.77,100-100,100"/>
+        <path d="M250,300l-100,0c0-55.23,44.77-100,100-100"/>
+    </svg>
+    <span className="text-2xl font-bold">Awesome Social Agents</span></span>,
     project: {
       link: 'https://github.com/sotopia-lab/awesome-social-agents',
     },
@@ -20,7 +32,8 @@ export default {
     },
     head: (
       <>
-        <link rel="icon" href="/favicon.ico" type="image/ico" />
+        <link rel="icon" href="/awesome-social-agents/favicon.ico" type="image/ico" />
+        <link rel="icon" href="/awesome-social-agents/favicon.svg" type="image/svg" />
       </>
     ),
     footer: {
