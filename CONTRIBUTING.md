@@ -37,5 +37,4 @@ In next.config.js. you should set the basepath to "" in your local machine, but 
     - Congratulations! 🎉
 
 ### Notes
-
 - If you have any questions, feel free to ask in the Slack channel or create an issue in the repository.
