@@ -1,6 +1,6 @@
 export default {
-    logo: <span className="flex items-center"> 
-    <svg className="h-5 mx-2 dark:text-sky-300 dark:drop-shadow-[0_3px_10px_#bae6fd]"
+    logo: <div className="flex items-center"> 
+    <svg className="h-4 mx-2 dark:text-sky-300 dark:drop-shadow-[0_3px_10px_#bae6fd]"
         viewBox="0 0 300 300"
         fill="primary"
         xmlns="http://www.w3.org/2000/svg"
@@ -11,7 +11,7 @@ export default {
         <path d="M50,0l100,0c0,55.23-44.77,100-100,100"/>
         <path d="M250,300l-100,0c0-55.23,44.77-100,100-100"/>
     </svg>
-    <span className="text-2xl font-bold">Awesome Social Agents</span></span>,
+    <span className="text-2xl font-bold">Awesome Social Agents</span></div>,
     project: {
       link: 'https://github.com/sotopia-lab/awesome-social-agents',
     },
