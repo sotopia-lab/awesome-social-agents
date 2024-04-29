@@ -1,3 +1,7 @@
+[4, 2024] [Advancing Social Intelligence in AI Agents: Technical Challenges and Open Questions](https://arxiv.org/abs/2404.11023), Leena Mathur et al., arXiv preprint arXiv:2404.11023
+
+[4, 2024] [Social Skill Training with Large Language Models](https://arxiv.org/abs/2404.04204), Diyi Yang et al., arXiv preprint arXiv:2404.04204
+
 [07, 2023] [Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924), Chen Qian et al., arXiv
 
 ### environments/language

@@ -24,7 +24,29 @@ export const data: Paper[] = [
     evaluation: "rule_based",
     other: "n/a",
     url: "https://arxiv.org/abs/2307.07924",
-    bibtex: "@misc{qian2023communicative,\n      title={Communicative Agents for Software Development}, \n      author={Chen Qian and Xin Cong and Wei Liu and Cheng Yang and Weize Chen and Yusheng Su and Yufan Dang and Jiahao Li and Juyuan Xu and Dahai Li and Zhiyuan Liu and Maosong Sun},\n      year={2023},\n      url={https://arxiv.org/abs/2307.07924},\n      environments = {collaboration, embodied},\n      agents = {prompting_and_in_context_learning, more_than_three_agents},\n      evaluation = {rule_based},\n      other = {n/a},\n      eprint={2307.07924},\n      archivePrefix={arXiv},\n      primaryClass={cs.SE},\n}",
+    bibtex: "@misc{qian2023communicative,\n      title={Communicative Agents for Software Development}, \n      author={Chen Qian and Xin Cong and Wei Liu and Cheng Yang and Weize Chen and Yusheng Su and Yufan Dang and Jiahao Li and Juyuan Xu and Dahai Li and Zhiyuan Liu and Maosong Sun},\n      year={2023},\n      month={7},\n      url={https://arxiv.org/abs/2307.07924},\n      environments = {collaboration, embodied},\n      agents = {prompting_and_in_context_learning, more_than_three_agents},\n      evaluation = {rule_based},\n      other = {n/a},\n      eprint={2307.07924},\n      archivePrefix={arXiv},\n      primaryClass={cs.SE},\n}",
+},
+        
+ 
+{ title: "Advancing Social Intelligence in AI Agents: Technical Challenges and Open Questions",
+    date: "04/2024",
+    environments: "collaboration, competition, mixed_objectives, text, embodied, virtual, robotics",
+    agents: "two_agents, reinforcement_learning, agents_with_personas",
+    evaluation: "human",
+    other: "n/a",
+    url: "https://arxiv.org/abs/2404.11023",
+    bibtex: "@article{mathur2024advancing,\n  title        = {Advancing Social Intelligence in AI Agents: Technical Challenges and Open Questions},\n  author       = {Mathur, Leena and Liang, Paul Pu and Morency, Louis-Philippe},\n  url          = {https://arxiv.org/abs/2404.11023},\n  journal      = {arXiv preprint arXiv:2404.11023},\n  year         = {2024},\n  month        = {4},\n  environments = {collaboration, competition, mixed_objectives, text, embodied, virtual, robotics},\n  agents       = {two_agents, reinforcement_learning, agents_with_personas},\n  evaluation   = {human},\n  other        = {n/a},\n}",
+},
+        
+ 
+{ title: "Social Skill Training with Large Language Models",
+    date: "04/2024",
+    environments: "collaboration, competition, mixed_objectives, text",
+    agents: "two_agents, reinforcement_learning, agents_with_personas",
+    evaluation: "human, rule_based",
+    other: "n/a",
+    url: "https://arxiv.org/abs/2404.04204",
+    bibtex: "@article{yang2024social,\n  title        = {Social Skill Training with Large Language Models},\n  author       = {Yang, Diyi and Ziems, Caleb and Held, William and Shaikh, Omar and Bernstein, Michael S and Mitchell, John},\n  journal      = {arXiv preprint arXiv:2404.04204},\n  url          = {https://arxiv.org/abs/2404.04204},\n  year         = {2024},\n  month        = {4},\n  environments = {collaboration, competition, mixed_objectives, text},\n  agents       = {two_agents, reinforcement_learning, agents_with_personas},\n  evaluation   = {human, rule_based},\n  other        = {n/a},\n}",
 },
         
  
