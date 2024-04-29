@@ -1,0 +1,22 @@
+import Link from 'next/link'
+import { Lumiflex } from 'uvcanvas'
+import { Button } from "../components/ui/button"
+import { MoveRight } from "lucide-react"
+import Charts from "./charts"
+
+export default function Home() {
+  return (
+    <div className="home-content">
+      <div className="content-container">
+        <div className="flex flex-col items-left">
+          <div className="font-thin mb-2">Welcome to check out our collection of</div>
+          <div className="font-bold mb-4">awesome social agents.</div>
+          <Link href="/paper_table"><Button className="group">  <div>Get Started</div>  <MoveRight className="translate-x-1 group-hover:translate-x-2"/></Button></Link>
+        </div>
+        <Charts />
+      </div>
+    </div>
+  )
+}
+
+<Home />
