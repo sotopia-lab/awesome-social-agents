@@ -580,6 +580,10 @@
 
 [6, 2024] [Generating Situated Reflection Triggers About Alternative Solution Paths: A Case Study in Generative {AI} for Computer-Supported Collaborative Learning](http://arxiv.org/), Atharva Naik et al., International Conference on Artificial Intelligence in Education
 
+[3, 2024] [Generative {AI} and {K}-12 {Education}: An {MIT} {Perspective}](https://mit-genai.pubpub.org/pub/4k9msp17/release/1), Eric Klopfer et al., An MIT Exploration of Generative AI
+
+[3, 2024] [Doodlebot: An Educational Robot for Creativity and AI Literacy](https://doi.org/10.1145/3610977.3634950), Randi Williams et al., Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction
+
 [01, 2024] [{CodeAid}: Evaluating a Classroom Deployment of an {LLM-based} Programming Assistant that Balances Student and Educator Needs](http://arxiv.org/abs/2401.11314), Majeed Kazemitabaar et al., arXiv
 
 [01, 2024] [Learning Agent-based Modeling with {LLM} Companions: Experiences of Novices and Experts Using {ChatGPT} \& {NetLogo} Chat](http://arxiv.org/abs/2401.17163), John Chen et al., arXiv
@@ -594,7 +598,22 @@
 
 [05, 2023] [{CLASS} Meet {SPOCK}: An Education Tutoring Chatbot based on Learning Science Principles](http://arxiv.org/abs/2305.13272), Shashank Sonkar et al., arXiv
 
+[3, 2023] [A Social Robot Reading Partner for Explorative Guidance](https://dl.acm.org/doi/10.1145/3568162.3576968), Xiajie Zhang et al., Proceedings of the 2023 {ACM/IEEE} International Conference on
+               {Human-Robot} Interaction
+
 [1, 2023] [AI for Students with Learning Disabilities: A Systematic Review](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4617715), Xiaoming Zhai et al., n/a
+
+[11, 2022] [Pedagogical Agents](https://dl.acm.org/doi/10.1145/3563659.3563669), H Chad Lane et al., The Handbook on Socially Interactive Agents: 20 years of
+               Research on Embodied Conversational Agents, Intelligent Virtual
+               Agents, and Social Robotics Volume 2: Interactivity, Platforms,
+               Application
+
+[11, 2022] [Socially Interactive Agents as Peers](https://dl.acm.org/doi/10.1145/3563659.3563670), Justine Cassell et al., The Handbook on Socially Interactive Agents: 20 years of
+               Research on Embodied Conversational Agents, Intelligent Virtual
+               Agents, and Social Robotics Volume 2: Interactivity, Platforms,
+               Application
+
+[6, 2022] [Escape!Bot: Social Robots as Creative Problem-Solving Partners](https://doi.org/10.1145/3527927.3532793), Safinah Ali et al., Proceedings of the 14th Conference on Creativity and Cognition
 
 [5, 2022] [Designing {PairBuddy---A} Conversational Agent for Pair Programming](https://doi.org/10.1145/3498326), Peter Robe et al., ACM Trans. Comput.-Hum. Interact.
 
@@ -602,9 +621,17 @@
 
 [6, 2020] [Investigating differential error types between human and simulated learners](https://link.springer.com/chapter/10.1007/978-3-030-52237-7_47), D Weitekamp et al., Artif. Intell.
 
+[6, 2018] [Automated Pitch Convergence Improves Learning in a Social,
+               Teachable Robot for Middle School Mathematics](https://link.springer.com/chapter/10.1007/978-3-319-93843-1_21), Nichola Lubold et al., Artificial Intelligence in Education
+
 [11, 2013] [Cognitive anatomy of tutor learning: Lessons learned with {SimStudent}](http://dx.doi.org/10.1037/a0031955), Noboru Matsuda et al., J. Educ. Psychol.
 
 [7, 2013] [How Effective are Pedagogical Agents for Learning? A {Meta-Analytic} Review](https://doi.org/10.2190/EC.49.1.a), Noah L Schroeder et al., Journal of Educational Computing Research
+
+[1, 2011] [Architecture for Building Conversational Agents that Support Collaborative Learning](https://ieeexplore.ieee.org/document/5669250), Rohit Kumar et al., IEEE Transactions on Learning Technologies
+
+[3, 2010] [Using Intelligent Tutor Technology to Implement Adaptive Support
+              for Student Collaboration](https://link.springer.com/article/10.1007/s10648-009-9116-9), Dejana Diziol et al., Educ. Psychol. Rev.
 
 [4, 1985] [Intelligent tutoring systems](http://dx.doi.org/10.1126/science.228.4698.456), J R Anderson et al., Science
 
