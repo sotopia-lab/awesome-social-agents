@@ -72,6 +72,10 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 ### Surveys and Overview
 [June, 2023] [Socially intelligent machines that learn from humans and help humans learn](https://royalsocietypublishing.org/doi/10.1098/rsta.2022.0048), Gweon et al., arXiv
 
+[4, 2024] [Advancing Social Intelligence in AI Agents: Technical Challenges and Open Questions](https://arxiv.org/abs/2404.11023), Leena Mathur et al., arXiv preprint arXiv:2404.11023
+
+[4, 2024] [Social Skill Training with Large Language Models](https://arxiv.org/abs/2404.04204), Diyi Yang et al., arXiv preprint arXiv:2404.04204
+
 ### Environments
 
 #### Text and Speech Environments
