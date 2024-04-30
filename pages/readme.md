@@ -147,15 +147,6 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 
 
 #### Virtual Environments
-
-[4, 2024] [Using an llm to help with code understanding](https://doi.org/10.1145/3597503.3639187), Daye Nam et al., Proceedings of the IEEE/ACM 46th International Conference on Software Engineering
-
-[2, 2024] [UFO: A UI-Focused Agent for Windows OS Interaction](https://arxiv.org/abs/2402.07939), Chaoyun Zhang et al., arXiv preprint arXiv:2402.07939
-
-[2, 2024] [Os-copilot: Towards generalist computer agents with self-improvement](https://arxiv.org/abs/2402.07456), Zhiyong Wu et al., arXiv preprint arXiv:2402.07456
-
-[1, 2024] [Mobile-Agent: Autonomous multi-modal mobile device agent with visual perception](https://arxiv.org/abs/2401.16158), Junyang Wang et al., arXiv preprint arXiv:2401.16158
-
 [1, 2024] [Visualwebarena: Evaluating multimodal agents on realistic visual web tasks](https://arxiv.org/abs/2401.13649), Jing Yu Koh et al., arXiv preprint arXiv:2401.13649
 
 [1, 2024] [Mind2web: Towards a generalist agent for the web](https://arxiv.org/abs/2306.06070), Xiang Deng et al., Advances in Neural Information Processing Systems
@@ -172,9 +163,13 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 
 [12, 2022] [Webshop: Towards scalable real-world web interaction with grounded language agents](https://proceedings.neurips.cc/paper_files/paper/2022/file/82ad13ec01f9fe44c01cb91814fd7b8c-Paper-Conference.pdf), Shunyu Yao et al., Advances in Neural Information Processing Systems
 
+[8, 2022] [Minedojo: Building open-ended embodied agents with internet-scale knowledge](https://arxiv.org/abs/2206.08853), Linxi Fan et al., Advances in Neural Information Processing Systems
+
 [7, 2022] [A data-driven approach for learning to control computers](https://arxiv.org/abs/2202.08137), Peter C Humphreys et al., International Conference on Machine Learning
 
 [2, 2022] [A dataset for interactive vision-language navigation with unknown command feasibility](https://arxiv.org/abs/2202.02312), Andrea Burns et al., European Conference on Computer Vision
+
+[2, 2022] [Scienceworld: Is your agent smarter than a 5th grader?](https://arxiv.org/abs/2203.07540), Ruoyao Wang et al., arXiv preprint arXiv:2203.07540
 
 [5, 2021] [Androidenv: A reinforcement learning platform for android](https://arxiv.org/abs/2105.13231), Daniel Toyama et al., arXiv preprint arXiv:2105.13231
 
@@ -184,13 +179,21 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 
 [5, 2020] [Mapping natural language instructions to mobile UI action sequences](https://arxiv.org/abs/2005.03776), Yang Li et al., arXiv preprint arXiv:2005.03776
 
+[4, 2020] [The nethack learning environment](https://arxiv.org/abs/2006.13760), Heinrich K{\"u}ttler et al., Advances in Neural Information Processing Systems
+
 [3, 2019] [Pumice: A multi-modal agent that learns concepts and conditionals from natural language and demonstrations](https://dl.acm.org/doi/10.1145/3332165.3347899), Toby Jia-Jun Li et al., Proceedings of the 32nd annual ACM symposium on user interface software and technology
+
+[1, 2019] [Textworld: A learning environment for text-based games](https://arxiv.org/abs/1806.11532), Marc-Alexandre C{\^o}t{\'e} et al., Computer Games: 7th Workshop, CGW 2018, Held in Conjunction with the 27th International Conference on Artificial Intelligence, IJCAI 2018, Stockholm, Sweden, July 13, 2018, Revised Selected Papers 7
+
+[6, 2018] [Virtualhome: Simulating household activities via programs](https://openaccess.thecvf.com/content_cvpr_2018/html/Puig_VirtualHome_Simulating_Household_CVPR_2018_paper.html), Xavier Puig et al., Proceedings of the IEEE conference on computer vision and pattern recognition
 
 [3, 2018] [Appinite: A multi-modal interface for specifying data descriptions in programming by demonstration using natural language instructions](https://ieeexplore.ieee.org/document/8506506), Toby Jia-Jun Li et al., 2018 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC)
 
 [2, 2018] [Reinforcement learning on web interfaces using workflow-guided exploration](https://arxiv.org/abs/1802.08802), Evan Zheran Liu et al., arXiv preprint arXiv:1802.08802
 
 [8, 2017] [World of bits: An open-domain platform for web-based agents](https://proceedings.mlr.press/v70/shi17a/shi17a.pdf), Tianlin Shi et al., International Conference on Machine Learning
+
+[5, 2017] [Ai2-thor: An interactive 3d environment for visual ai](https://arxiv.org/abs/1712.05474), Eric Kolve et al., arXiv preprint arXiv:1712.05474
 
 [8, 2009] [Reinforcement learning for mapping instructions to actions](https://aclanthology.org/P09-1010/), Satchuthananthavale RK Branavan et al., Proceedings of the Joint Conference of the 47th Annual Meeting of the ACL and the 4th International Joint Conference on Natural Language Processing of the AFNLP
 
