@@ -38,10 +38,10 @@ export default class AreaPlot extends PureComponent<{}, State> {
     return (
     <div className='flex flex-col items-center justify-center'>
         <div className="flex flex-row gap-3 py-4">
-            <Button variant="ghost" className={activeButton ==='Environment' ? "bg-teal-100 hover:bg-teal-200 font-bold" : "hover:bg-teal-200 font-bold"} onClick={() => this.handleButtonClick('Environment')}>Environment</Button>
-            <Button variant="ghost" className={activeButton ==='Agents' ? "bg-teal-100 hover:bg-teal-200 font-bold" : "hover:bg-teal-200 font-bold"} onClick={() => this.handleButtonClick('Agents')}>Agents</Button>
-            <Button variant="ghost" className={activeButton ==='Evaluation' ? "bg-teal-100 hover:bg-teal-200 font-bold" : "hover:bg-teal-200 font-bold"} onClick={() => this.handleButtonClick('Evaluation')}>Evaluation</Button>
-            <Button variant="ghost" className={activeButton ==='Other' ? "bg-teal-100 hover:bg-teal-200 font-bold" : "hover:bg-teal-200 font-bold"} onClick={() => this.handleButtonClick('Other')}>Other</Button>
+            <Button variant="ghost" className={activeButton ==='Environment' ? "bg-teal-100 hover:bg-teal-200 font-bold dark:bg-teal-500" : "hover:bg-teal-200 font-bold"} onClick={() => this.handleButtonClick('Environment')}>Environment</Button>
+            <Button variant="ghost" className={activeButton ==='Agents' ? "bg-teal-100 hover:bg-teal-200 font-bold dark:bg-teal-500" : "hover:bg-teal-200 font-bold"} onClick={() => this.handleButtonClick('Agents')}>Agents</Button>
+            <Button variant="ghost" className={activeButton ==='Evaluation' ? "bg-teal-100 hover:bg-teal-200 font-bold dark:bg-teal-500" : "hover:bg-teal-200 font-bold"} onClick={() => this.handleButtonClick('Evaluation')}>Evaluation</Button>
+            <Button variant="ghost" className={activeButton ==='Other' ? "bg-teal-100 hover:bg-teal-200 font-bold dark:bg-teal-500" : "hover:bg-teal-200 font-bold"} onClick={() => this.handleButtonClick('Other')}>Other</Button>
         </div>
         <ResponsiveContainer width="100%" height={300}>
         <AreaChart
@@ -57,7 +57,7 @@ export default class AreaPlot extends PureComponent<{}, State> {
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" />
-          <YAxis />
+          <YAxis label={{ value: '#Papers', angle: -90, position: 'insideLeft' }}/>
           <Tooltip />
           <Legend />
           {keys.map((key: string, index: number) => (
