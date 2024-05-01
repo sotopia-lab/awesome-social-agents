@@ -2767,6 +2767,83 @@ export const data: Paper[] = [
 },
         
  
+{ title: "Leveraging {AI} for democratic discourse: {Chat} interventions can improve online political conversations at scale",
+    date: "10/2023",
+    environments: "virtual",
+    agents: "agent_teams, two_agents",
+    evaluation: "human, rule_based, model_based",
+    other: "human_agent",
+    url: "https://www.pnas.org/doi/abs/10.1073/pnas.2311627120",
+    bibtex: "@article{argyle_leveraging_2023,\n\ttitle = {Leveraging {AI} for democratic discourse: {Chat} interventions can improve online political conversations at scale},\n\tvolume = {120},\n\tshorttitle = {Leveraging {AI} for democratic discourse},\n\turl = {https://www.pnas.org/doi/abs/10.1073/pnas.2311627120},\n\tdoi = {10.1073/pnas.2311627120},\n\tnumber = {41},\n\tjournal = {Proceedings of the National Academy of Sciences},\n\tauthor = {Argyle, Lisa P. and Bail, Christopher A. and Busby, Ethan C. and Gubler, Joshua R. and Howe, Thomas and Rytting, Christopher and Sorensen, Taylor and Wingate, David},\n\tmonth = oct,\n\tyear = {2023},\n\tpages = {e2311627120},\n\tenvironments = {virtual},\n\tagents = {agent_teams, two_agents},\n\tevaluation = {human, rule_based, model_based},\n\tother = {human_agent}\n}",
+},
+        
+ 
+{ title: "Help {Me} {Reflect}: {Leveraging} {Self}-{Reflection} {Interface} {Nudges} to {Enhance} {Deliberativeness} on {Online} {Deliberation} {Platforms}",
+    date: "01/2024",
+    environments: "virtual",
+    agents: "two_agents, more_than_three_agents, agent_teams",
+    evaluation: "human, rule_based",
+    other: "human_agent",
+    url: "http://arxiv.org/abs/2401.10820",
+    bibtex: "@misc{yeo_help_2024,\n\ttitle = {Help {Me} {Reflect}: {Leveraging} {Self}-{Reflection} {Interface} {Nudges} to {Enhance} {Deliberativeness} on {Online} {Deliberation} {Platforms}},\n\tshorttitle = {Help {Me} {Reflect}},\n\turl = {http://arxiv.org/abs/2401.10820},\n\tpublisher = {arXiv},\n\tauthor = {Yeo, Shun Yi and Lim, Gionnieve and Gao, Jie and Zhang, Weiyu and Perrault, Simon Tangi},\n\tmonth = jan,\n\tyear = {2024},\n\tdoi = {10.48550/arXiv.2401.10820},\n\teprint = {2401.10820},\n\tenvironments = {virtual},\n\tagents = {two_agents, more_than_three_agents, agent_teams},\n\tevaluation = {human, rule_based},\n\tother = {human_agent}\n}",
+},
+        
+ 
+{ title: "{IMBUE}: {Improving} {Interpersonal} {Effectiveness} through {Simulation} and {Just}-in-time {Feedback} with {Human}-{Language} {Model} {Interaction}",
+    date: "02/2024",
+    environments: "virtual",
+    agents: "two_agents",
+    evaluation: "human, rule_based, model_based",
+    other: "human_agent",
+    url: "http://arxiv.org/abs/2402.12556",
+    bibtex: "@misc{lin_imbue_2024,\n\ttitle = {{IMBUE}: {Improving} {Interpersonal} {Effectiveness} through {Simulation} and {Just}-in-time {Feedback} with {Human}-{Language} {Model} {Interaction}},\n\tshorttitle = {{IMBUE}},\n\turl = {http://arxiv.org/abs/2402.12556},\n\tpublisher = {arXiv},\n\tauthor = {Lin, Inna Wanyin and Sharma, Ashish and Rytting, Christopher Michael and Miner, Adam S. and Suh, Jina and Althoff, Tim},\n\tmonth = feb,\n\tyear = {2024},\n\tdoi = {10.48550/arXiv.2402.12556},\n\teprint = {2402.12556},\n\tenvironments = {virtual},\n\tagents = {two_agents},\n\tevaluation = {human, rule_based, model_based},\n\tother = {human_agent}\n}",
+},
+        
+ 
+{ title: "From {Text} to {Self}: {Users}' {Perceptions} of {Potential} of {AI} on {Interpersonal} {Communication} and {Self}",
+    date: "10/2024",
+    environments: "virtual",
+    agents: "two_agents, agent_teams",
+    evaluation: "qualitative, human",
+    other: "human_agent",
+    url: "http://arxiv.org/abs/2310.03976",
+    bibtex: "@misc{fu_text_2024,\n\ttitle = {From {Text} to {Self}: {Users}' {Perceptions} of {Potential} of {AI} on {Interpersonal} {Communication} and {Self}},\n\tshorttitle = {From {Text} to {Self}},\n\turl = {http://arxiv.org/abs/2310.03976},\n\tauthor = {Fu, Yue and Foell, Sami and Xu, Xuhai and Hiniker, Alexis},\n\tmonth = mar,\n\tyear = {2024},\n\tdoi = {10.1145/3613904.3641955},\n\teprint = {2310.03976},\n\tenvironments = {virtual},\n\tagents = {two_agents, agent_teams},\n\tevaluation = {qualitative, human},\n\tother = {human_agent}\n}",
+},
+        
+ 
+{ title: "Human\u2013{AI} collaboration enables more empathic conversations in text-based peer-to-peer mental health support",
+    date: "01/2023",
+    environments: "virtual, collaboration",
+    agents: "two_agents, agent_teams",
+    evaluation: "human, model_based",
+    other: "human_agent",
+    url: "https://www.nature.com/articles/s42256-022-00593-2",
+    bibtex: "@article{sharma_humanai_2023,\n\ttitle = {Human\u2013{AI} collaboration enables more empathic conversations in text-based peer-to-peer mental health support},\n\tvolume = {5},\n\tcopyright = {2023 The Author(s), under exclusive licence to Springer Nature Limited},\n\tissn = {2522-5839},\n\turl = {https://www.nature.com/articles/s42256-022-00593-2},\n\tdoi = {10.1038/s42256-022-00593-2},\n\tlanguage = {en},\n\tnumber = {1},\n\tjournal = {Nature Machine Intelligence},\n\tauthor = {Sharma, Ashish and Lin, Inna W. and Miner, Adam S. and Atkins, David C. and Althoff, Tim},\n\tmonth = jan,\n\tyear = {2023},\n\tnote = {Publisher: Nature Publishing Group},\n\tpages = {46--57},\n\tenvironments = {virtual, collaboration},\n\tagents = {two_agents, agent_teams},\n\tevaluation = {human, model_based},\n\tother = {human_agent}\n}",
+},
+        
+ 
+{ title: "{AI}-{Mediated} {Communication}: {Language} {Use} and {Interpersonal} {Effects} in a {Referential} {Communication} {Task}",
+    date: "04/2021",
+    environments: "virtual",
+    agents: "two_agents, agent_teams",
+    evaluation: "human, qualitative",
+    other: "human_agent",
+    url: "https://dl.acm.org/doi/10.1145/3449091",
+    bibtex: "@article{mieczkowski_ai-mediated_2021,\n\ttitle = {{AI}-{Mediated} {Communication}: {Language} {Use} and {Interpersonal} {Effects} in a {Referential} {Communication} {Task}},\n\tvolume = {5},\n\tshorttitle = {{AI}-{Mediated} {Communication}},\n\turl = {https://dl.acm.org/doi/10.1145/3449091},\n\tdoi = {10.1145/3449091},\n\tnumber = {CSCW1},\n\turldate = {2024-05-01},\n\tjournal = {Proceedings of the ACM on Human-Computer Interaction},\n\tauthor = {Mieczkowski, Hannah and Hancock, Jeffrey T. and Naaman, Mor and Jung, Malte and Hohenstein, Jess},\n\tmonth = apr,\n\tyear = {2021},\n\tpages = {17:1--17:14},\n\tenvironments = {virtual},\n\tagents = {two_agents, agent_teams},\n\tevaluation = {human, qualitative},\n\tother = {human_agent}\n}",
+},
+        
+ 
+{ title: "Thread {With} {Caution}: {Proactively} {Helping} {Users} {Assess} and {Deescalate} {Tension} in {Their} {Online} {Discussions}",
+    date: "11/2022",
+    environments: "virtual",
+    agents: "two_agents, more_than_three_agents, agent_teams",
+    evaluation: "human, rule_based",
+    other: "human_agent",
+    url: "https://dl.acm.org/doi/10.1145/3555603",
+    bibtex: "@article{chang_thread_2022,\n\ttitle = {Thread {With} {Caution}: {Proactively} {Helping} {Users} {Assess} and {Deescalate} {Tension} in {Their} {Online} {Discussions}},\n\tvolume = {6},\n\tshorttitle = {Thread {With} {Caution}},\n\turl = {https://dl.acm.org/doi/10.1145/3555603},\n\tdoi = {10.1145/3555603},\n\tnumber = {CSCW2},\n\turldate = {2024-05-01},\n\tjournal = {Proceedings of the ACM on Human-Computer Interaction},\n\tauthor = {Chang, Jonathan P. and Schluger, Charlotte and Danescu-Niculescu-Mizil, Cristian},\n\tmonth = nov,\n\tyear = {2022},\n\tpages = {545:1--545:37},\n\tenvironments = {virtual},\n\tagents = {two_agents, more_than_three_agents, agent_teams},\n\tevaluation = {human, rule_based},\n\tother = {human_agent}\n}",
+},
+        
+ 
 { title: "Polaris: A Safety-focused LLM Constellation Architecture for Healthcare",
     date: "03/2024",
     environments: "mixed_objectives, virtual",

@@ -506,11 +506,23 @@
 
 ### interactions/human
 
+[10, 2024] [From {Text} to {Self}: {Users}' {Perceptions} of {Potential} of {AI} on {Interpersonal} {Communication} and {Self}](http://arxiv.org/abs/2310.03976), Yue Fu et al., arXiv
+
 [4, 2024] [NegotiAge](https://www.negotiage.com/), Lee Lindquist et al., NegotiAge
+
+[02, 2024] [{IMBUE}: {Improving} {Interpersonal} {Effectiveness} through {Simulation} and {Just}-in-time {Feedback} with {Human}-{Language} {Model} {Interaction}](http://arxiv.org/abs/2402.12556), Inna Wanyin Lin et al., arXiv
+
+[01, 2024] [Help {Me} {Reflect}: {Leveraging} {Self}-{Reflection} {Interface} {Nudges} to {Enhance} {Deliberativeness} on {Online} {Deliberation} {Platforms}](http://arxiv.org/abs/2401.10820), Shun Yi Yeo et al., arXiv
+
+[10, 2023] [Leveraging {AI} for democratic discourse: {Chat} interventions can improve online political conversations at scale](https://www.pnas.org/doi/abs/10.1073/pnas.2311627120), Lisa P. Argyle et al., Proceedings of the National Academy of Sciences
 
 [9, 2023] [Rehearsal: Simulating conflict to teach conflict resolution](https://arxiv.org/pdf/2309.12309.pdf), Omar Shaikh et al., arXiv preprint arXiv:2309.12309
 
 [1, 2023] [A Comprehensive Review of Data-Driven Co-Speech Gesture Generation](https://arxiv.org/abs/2301.05339), Simbarashe Nyatsanga et al., Computer Graphics Forum
+
+[1, 2023] [Human–{AI} collaboration enables more empathic conversations in text-based peer-to-peer mental health support](https://www.nature.com/articles/s42256-022-00593-2), Ashish Sharma et al., Nature Machine Intelligence
+
+[11, 2022] [Thread {With} {Caution}: {Proactively} {Helping} {Users} {Assess} and {Deescalate} {Tension} in {Their} {Online} {Discussions}](https://dl.acm.org/doi/10.1145/3555603), Jonathan P. Chang et al., Proceedings of the ACM on Human-Computer Interaction
 
 [6, 2022] [Ego4D: Around the {W}orld in 3,000 {H}ours of {E}gocentric {V}ideo](https://ego4d-data.org/), Kristen Grauman et al., IEEE/CVF Computer Vision and Pattern Recognition (CVPR)
 
@@ -521,6 +533,8 @@
 [10, 2021] [Artificial intelligence coaches for sales agents: Caveats and solutions](https://journals.sagepub.com/doi/full/10.1177/0022242920956676), Xueming Luo et al., Journal of Marketing
 
 [5, 2021] [Towards an AI Coach to Infer Team Mental Model Alignment in Healthcare](https://ieeexplore.ieee.org/document/9475925), Sangwon Seo et al., 2021 IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA)
+
+[4, 2021] [{AI}-{Mediated} {Communication}: {Language} {Use} and {Interpersonal} {Effects} in a {Referential} {Communication} {Task}](https://dl.acm.org/doi/10.1145/3449091), Hannah Mieczkowski et al., Proceedings of the ACM on Human-Computer Interaction
 
 [10, 2020] [A chatbot-based coaching intervention for adolescents to promote life skills: pilot study](https://humanfactors.jmir.org/2020/1/e16762), Silvia Gabrielli et al., JMIR human factors
 
