@@ -1,18 +1,19 @@
-import React from 'react'; // Import React
 import { LineChart, Line } from 'recharts';
+import { render } from "react-dom";
+import React from 'react';
 
-const data = [{ name: 'Page A', uv: 400, pv: 2400, amt: 2400 },
-    { name: 'Page A', uv: 800, pv: 2400, amt: 2400 },
-    { name: 'Page A', uv: 100, pv: 2400, amt: 2400 },
-    { name: 'Page A', uv: 200, pv: 2400, amt: 2400 },
-    {name: 'Page A', uv: 300, pv: 2400, amt: 2400}
-    
-];
+import BarPlot from '@/components/bar-charts';
+import AreaPlot from '@/components/area-charts';
 
 export default function Charts() {
     return (
-        <LineChart width={400} height={400} data={data}>
-        <Line type="monotone" dataKey="uv" stroke="#8884d8" />
-      </LineChart>
+        <div className='flex flex-col xl:flex-row gap-10' style={{ width: '80vw', height: '90vh' }}>
+        <div className="basis-1/2">
+        <BarPlot />
+        </div>
+        <div className="basis-1/2">
+        <AreaPlot />
+        </div>
+    </div>
     )
 }
