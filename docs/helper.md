@@ -510,8 +510,6 @@
 
 [4, 2024] [NegotiAge](https://www.negotiage.com/), Lee Lindquist et al., NegotiAge
 
-[04, 2024] [Social {Skill} {Training} with {Large} {Language} {Models}](http://arxiv.org/abs/2404.04204), Diyi Yang et al., arXiv
-
 [02, 2024] [{IMBUE}: {Improving} {Interpersonal} {Effectiveness} through {Simulation} and {Just}-in-time {Feedback} with {Human}-{Language} {Model} {Interaction}](http://arxiv.org/abs/2402.12556), Inna Wanyin Lin et al., arXiv
 
 [01, 2024] [Help {Me} {Reflect}: {Leveraging} {Self}-{Reflection} {Interface} {Nudges} to {Enhance} {Deliberativeness} on {Online} {Deliberation} {Platforms}](http://arxiv.org/abs/2401.10820), Shun Yi Yeo et al., arXiv

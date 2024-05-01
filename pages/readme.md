@@ -475,7 +475,7 @@ May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigatio
 
 [October, 2024] [From {Text} to {Self}: {Users}' {Perceptions} of {Potential} of {AI} on {Interpersonal} {Communication} and {Self}](http://arxiv.org/abs/2310.03976), Yue Fu et al., arXiv
 
-[April, 2024] [Social {Skill} {Training} with {Large} {Language} {Models}](http://arxiv.org/abs/2404.04204), Diyi Yang et al., arXiv
+[April, 2024] [Social Skill Training with Large Language Models](https://arxiv.org/abs/2404.04204), Diyi Yang et al., arXiv preprint arXiv:2404.04204
 
 [February, 2024] [{IMBUE}: {Improving} {Interpersonal} {Effectiveness} through {Simulation} and {Just}-in-time {Feedback} with {Human}-{Language} {Model} {Interaction}](http://arxiv.org/abs/2402.12556), Inna Wanyin Lin et al., arXiv
 

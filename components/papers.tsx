@@ -2767,17 +2767,6 @@ export const data: Paper[] = [
 },
         
  
-{ title: "Social {Skill} {Training} with {Large} {Language} {Models}",
-    date: "04/2024",
-    environments: "virtual, collaboration",
-    agents: "agent_teams, two_agents",
-    evaluation: "human, rule_based, model_based",
-    other: "human_agent",
-    url: "http://arxiv.org/abs/2404.04204",
-    bibtex: "@misc{yang_social_2024,\n\ttitle = {Social {Skill} {Training} with {Large} {Language} {Models}},\n\turl = {http://arxiv.org/abs/2404.04204},\n\turldate = {2024-04-29},\n\tpublisher = {arXiv},\n\tauthor = {Yang, Diyi and Ziems, Caleb and Held, William and Shaikh, Omar and Bernstein, Michael S. and Mitchell, John},\n\tmonth = apr,\n\tyear = {2024},\n\tdoi = {10.48550/arXiv.2404.04204},\n\teprint = {2404.04204},\n\tenvironments = {virtual, collaboration},\n\tagents = {agent_teams, two_agents},\n\tevaluation = {human, rule_based, model_based},\n\tother = {human_agent}\n}",
-},
-        
- 
 { title: "Leveraging {AI} for democratic discourse: {Chat} interventions can improve online political conversations at scale",
     date: "10/2023",
     environments: "virtual",
