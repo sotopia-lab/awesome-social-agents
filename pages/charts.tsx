@@ -40,7 +40,7 @@ export default function Charts() {
         </div>
 
     </div>
-     <p className="text-md italic bg-slate-100 dark:bg-slate-700 rounded-lg p-3 my-4">Paper stats of domains (text, virtual, embodied, robotics) and years with respect to different dimensions. 
+     <p className="text-md italic bg-slate-100 dark:bg-slate-700 rounded-lg p-3 my-4">Paper stats acrosss domains (text, virtual, embodied, robotics) and last 10 years with respect to different dimensions. 
      Please check out the <Link href="/taxonomy" className="text-teal-500 font-bold">taxonomy</Link> for more details about dimensions.
      </p>
     </div>
