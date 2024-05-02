@@ -690,12 +690,100 @@ export const data: Paper[] = [
  
 { title: "Grounding open-domain instructions to automate web support tasks",
     date: "03/2021",
-    environments: "virtual",
+    environments: "virtual, embodied",
     agents: "finetuning",
     evaluation: "rule_based",
     other: "n/a",
     url: "https://arxiv.org/abs/2103.16057",
-    bibtex: "@article{xu2021grounding,\n  title={Grounding open-domain instructions to automate web support tasks},\n  author={Xu, Nancy and Masling, Sam and Du, Michael and Campagna, Giovanni and Heck, Larry and Landay, James and Lam, Monica S},\n  journal={arXiv preprint arXiv:2103.16057},\n  year={2021},\n  month={3},\n  url={https://arxiv.org/abs/2103.16057},\n  environments={virtual},\n  agents={finetuning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    bibtex: "@article{xu2021grounding,\n  title={Grounding open-domain instructions to automate web support tasks},\n  author={Xu, Nancy and Masling, Sam and Du, Michael and Campagna, Giovanni and Heck, Larry and Landay, James and Lam, Monica S},\n  journal={arXiv preprint arXiv:2103.16057},\n  year={2021},\n  month={3},\n  url={https://arxiv.org/abs/2103.16057},\n  environments={virtual, embodied},\n  agents={finetuning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+},
+        
+ 
+{ title: "Ai2-thor: An interactive 3d environment for visual ai",
+    date: "05/2017",
+    environments: "virtual",
+    agents: "n/a",
+    evaluation: "rule_based",
+    other: "n/a",
+    url: "https://arxiv.org/abs/1712.05474",
+    bibtex: "@article{kolve2017ai2,\n  title={Ai2-thor: An interactive 3d environment for visual ai},\n  author={Kolve, Eric and Mottaghi, Roozbeh and Han, Winson and VanderBilt, Eli and Weihs, Luca and Herrasti, Alvaro and Deitke, Matt and Ehsani, Kiana and Gordon, Daniel and Zhu, Yuke and others},\n  journal={arXiv preprint arXiv:1712.05474},\n  year={2017},\n  month={5},\n  url = {https://arxiv.org/abs/1712.05474},\n  environments={virtual},\n  agents = {n/a},\n  evaluation = {rule_based},\n  other= {n/a},\n}",
+},
+        
+ 
+{ title: "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
+    date: "04/2024",
+    environments: "virtual",
+    agents: "prompting_and_in_context_learning",
+    evaluation: "rule_based",
+    other: "n/a",
+    url: "https://arxiv.org/abs/2404.07972",
+    bibtex: "@misc{OSWorld,\n    title={OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments},\n    author={Tianbao Xie and Danyang Zhang and Jixuan Chen and Xiaochuan Li and Siheng Zhao and Ruisheng Cao and Toh Jing Hua and Zhoujun Cheng and Dongchan Shin and Fangyu Lei and Yitao Liu and Yiheng Xu and Shuyan Zhou and Silvio Savarese and Caiming Xiong and Victor Zhong and Tao Yu},\n    journal={arXiv preprint arXiv:2404.07972},\n    year={2024},\n    month={4},\n    url = {https://arxiv.org/abs/2404.07972},\n    environments={virtual},\n    agents = {prompting_and_in_context_learning},\n    evaluation = {rule_based},\n    other = {n/a}\n}",
+},
+        
+ 
+{ title: "WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks?",
+    date: "03/2024",
+    environments: "virtual",
+    agents: "prompting_and_in_context_learning",
+    evaluation: "rule_based",
+    other: "n/a",
+    url: "https://arxiv.org/abs/2403.07718",
+    bibtex: "@article{drouin2024workarena,\n  title={WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks?},\n  author={Drouin, Alexandre and Gasse, Maxime and Caccia, Massimo and Laradji, Issam H and Del Verme, Manuel and Marty, Tom and Boisvert, L{\\'e}o and Thakkar, Megh and Cappart, Quentin and Vazquez, David and others},\n  journal={arXiv preprint arXiv:2403.07718},\n  year={2024},\n  month={3},\n  url = {https://arxiv.org/abs/2403.07718},\n  environments={virtual},\n  agents = {prompting_and_in_context_learning},\n  evaluation = {rule_based},\n  other = {n/a}\n}",
+},
+        
+ 
+{ title: "Virtualhome: Simulating household activities via programs",
+    date: "06/2018",
+    environments: "virtual, embodied",
+    agents: "n/a",
+    evaluation: "rule_based",
+    other: "n/a",
+    url: "https://openaccess.thecvf.com/content_cvpr_2018/html/Puig_VirtualHome_Simulating_Household_CVPR_2018_paper.html",
+    bibtex: "@inproceedings{puig2018virtualhome,\n  title={Virtualhome: Simulating household activities via programs},\n  author={Puig, Xavier and Ra, Kevin and Boben, Marko and Li, Jiaman and Wang, Tingwu and Fidler, Sanja and Torralba, Antonio},\n  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},\n  pages={8494--8502},\n  year={2018},\n  month={6},\n  url = {https://openaccess.thecvf.com/content_cvpr_2018/html/Puig_VirtualHome_Simulating_Household_CVPR_2018_paper.html},\n  environments={virtual, embodied},\n  agents = {n/a},\n  evaluation = {rule_based},\n  other= {n/a},\n}",
+},
+        
+ 
+{ title: "The nethack learning environment",
+    date: "04/2020",
+    environments: "virtual",
+    agents: "reinforcement_learning",
+    evaluation: "rule_based",
+    other: "n/a",
+    url: "https://arxiv.org/abs/2006.13760",
+    bibtex: "@article{kuttler2020nethack,\n  title={The nethack learning environment},\n  author={K{\\\"u}ttler, Heinrich and Nardelli, Nantas and Miller, Alexander and Raileanu, Roberta and Selvatici, Marco and Grefenstette, Edward and Rockt{\\\"a}schel, Tim},\n  journal={Advances in Neural Information Processing Systems},\n  volume={33},\n  pages={7671--7684},\n  year={2020},\n  month={4},\n  url = {https://arxiv.org/abs/2006.13760},\n  environments={virtual},\n  agents = {reinforcement_learning},\n  evaluation = {rule_based},\n  other= {n/a},\n}",
+},
+        
+ 
+{ title: "Textworld: A learning environment for text-based games",
+    date: "01/2019",
+    environments: "virtual, text",
+    agents: "n/a",
+    evaluation: "rule_based",
+    other: "n/a",
+    url: "https://arxiv.org/abs/1806.11532",
+    bibtex: "@inproceedings{cote2019textworld,\n  title={Textworld: A learning environment for text-based games},\n  author={C{\\^o}t{\\'e}, Marc-Alexandre and K{\\'a}d{\\'a}r, Akos and Yuan, Xingdi and Kybartas, Ben and Barnes, Tavian and Fine, Emery and Moore, James and Hausknecht, Matthew and El Asri, Layla and Adada, Mahmoud and others},\n  booktitle={Computer Games: 7th Workshop, CGW 2018, Held in Conjunction with the 27th International Conference on Artificial Intelligence, IJCAI 2018, Stockholm, Sweden, July 13, 2018, Revised Selected Papers 7},\n  pages={41--75},\n  year={2019},\n  month={1},\n  organization={Springer},\n  url = {https://arxiv.org/abs/1806.11532},\n  environments={virtual, text},\n  agents = {n/a},\n  evaluation = {rule_based},\n  other= {n/a},\n}",
+},
+        
+ 
+{ title: "Scienceworld: Is your agent smarter than a 5th grader?",
+    date: "02/2022",
+    environments: "virtual",
+    agents: "finetuning",
+    evaluation: "rule_based",
+    other: "n/a",
+    url: "https://arxiv.org/abs/2203.07540",
+    bibtex: "@article{wang2022scienceworld,\n  title={Scienceworld: Is your agent smarter than a 5th grader?},\n  author={Wang, Ruoyao and Jansen, Peter and C{\\^o}t{\\'e}, Marc-Alexandre and Ammanabrolu, Prithviraj},\n  journal={arXiv preprint arXiv:2203.07540},\n  year={2022},\n  month={2},\n  url={https://arxiv.org/abs/2203.07540},\n  environments={virtual},\n  agents = {finetuning},\n  evaluation = {rule_based},\n  other= {n/a}, \n}",
+},
+        
+ 
+{ title: "Minedojo: Building open-ended embodied agents with internet-scale knowledge",
+    date: "08/2022",
+    environments: "virtual, embodied",
+    agents: "reinforcement_learning",
+    evaluation: "rule_based",
+    other: "n/a",
+    url: "https://arxiv.org/abs/2206.08853",
+    bibtex: "@article{fan2022minedojo,\n  title={Minedojo: Building open-ended embodied agents with internet-scale knowledge},\n  author={Fan, Linxi and Wang, Guanzhi and Jiang, Yunfan and Mandlekar, Ajay and Yang, Yuncong and Zhu, Haoyi and Tang, Andrew and Huang, De-An and Zhu, Yuke and Anandkumar, Anima},\n  journal={Advances in Neural Information Processing Systems},\n  volume={35},\n  pages={18343--18362},\n  year={2022},\n  month={8},\n  url={https://arxiv.org/abs/2206.08853},\n  environments = {virtual, embodied},\n  agents = {reinforcement_learning},\n  evaluation = {rule_based},\n  other = {n/a},\n}",
 },
         
  
