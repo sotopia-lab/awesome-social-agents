@@ -72,6 +72,10 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 ### Surveys and Overview
 [June, 2023] [Socially intelligent machines that learn from humans and help humans learn](https://royalsocietypublishing.org/doi/10.1098/rsta.2022.0048), Gweon et al., arXiv
 
+[4, 2024] [Advancing Social Intelligence in AI Agents: Technical Challenges and Open Questions](https://arxiv.org/abs/2404.11023), Leena Mathur et al., arXiv preprint arXiv:2404.11023
+
+[4, 2024] [Social Skill Training with Large Language Models](https://arxiv.org/abs/2404.04204), Diyi Yang et al., arXiv preprint arXiv:2404.04204
+
 ### Environments
 
 #### Text and Speech Environments
@@ -472,7 +476,23 @@ May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigatio
 
 #### Human-Human Interaction
 
+[October, 2024] [From {Text} to {Self}: {Users}' {Perceptions} of {Potential} of {AI} on {Interpersonal} {Communication} and {Self}](http://arxiv.org/abs/2310.03976), Yue Fu et al., arXiv
+
+[April, 2024] [Social Skill Training with Large Language Models](https://arxiv.org/abs/2404.04204), Diyi Yang et al., arXiv preprint arXiv:2404.04204
+
+[February, 2024] [{IMBUE}: {Improving} {Interpersonal} {Effectiveness} through {Simulation} and {Just}-in-time {Feedback} with {Human}-{Language} {Model} {Interaction}](http://arxiv.org/abs/2402.12556), Inna Wanyin Lin et al., arXiv
+
+[January, 2024] [Help {Me} {Reflect}: {Leveraging} {Self}-{Reflection} {Interface} {Nudges} to {Enhance} {Deliberativeness} on {Online} {Deliberation} {Platforms}](http://arxiv.org/abs/2401.10820), Shun Yi Yeo et al., arXiv
+
+[October, 2023] [Leveraging {AI} for democratic discourse: {Chat} interventions can improve online political conversations at scale](https://www.pnas.org/doi/abs/10.1073/pnas.2311627120), Lisa P. Argyle et al., Proceedings of the National Academy of Sciences
+
 [January, 2023] [A Comprehensive Review of Data-Driven Co-Speech Gesture Generation](https://arxiv.org/abs/2301.05339), Simbarashe Nyatsanga et al., Computer Graphics Forum
+
+[January, 2023] [Human–{AI} collaboration enables more empathic conversations in text-based peer-to-peer mental health support](https://www.nature.com/articles/s42256-022-00593-2), Ashish Sharma et al., Nature Machine Intelligence
+
+[November, 2022] [Thread {With} {Caution}: {Proactively} {Helping} {Users} {Assess} and {Deescalate} {Tension} in {Their} {Online} {Discussions}](https://dl.acm.org/doi/10.1145/3555603), Jonathan P. Chang et al., Proceedings of the ACM on Human-Computer Interaction
+
+[April, 2021] [{AI}-{Mediated} {Communication}: {Language} {Use} and {Interpersonal} {Effects} in a {Referential} {Communication} {Task}](https://dl.acm.org/doi/10.1145/3449091), Hannah Mieczkowski et al., Proceedings of the ACM on Human-Computer Interaction
 
 ### Challenges
 
