@@ -1,3 +1,7 @@
+[4, 2024] [Advancing Social Intelligence in AI Agents: Technical Challenges and Open Questions](https://arxiv.org/abs/2404.11023), Leena Mathur et al., arXiv preprint arXiv:2404.11023
+
+[4, 2024] [Social Skill Training with Large Language Models](https://arxiv.org/abs/2404.04204), Diyi Yang et al., arXiv preprint arXiv:2404.04204
+
 [07, 2023] [Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924), Chen Qian et al., arXiv
 
 ### environments/language
@@ -82,7 +86,11 @@
 
 ### environments/virtual
 
+[4, 2024] [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://arxiv.org/abs/2404.07972), Tianbao Xie et al., arXiv preprint arXiv:2404.07972
+
 [4, 2024] [Using an llm to help with code understanding](https://doi.org/10.1145/3597503.3639187), Daye Nam et al., Proceedings of the IEEE/ACM 46th International Conference on Software Engineering
+
+[3, 2024] [WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks?](https://arxiv.org/abs/2403.07718), Alexandre Drouin et al., arXiv preprint arXiv:2403.07718
 
 [2, 2024] [UFO: A UI-Focused Agent for Windows OS Interaction](https://arxiv.org/abs/2402.07939), Chaoyun Zhang et al., arXiv preprint arXiv:2402.07939
 
@@ -106,9 +114,13 @@
 
 [12, 2022] [Webshop: Towards scalable real-world web interaction with grounded language agents](https://proceedings.neurips.cc/paper_files/paper/2022/file/82ad13ec01f9fe44c01cb91814fd7b8c-Paper-Conference.pdf), Shunyu Yao et al., Advances in Neural Information Processing Systems
 
+[8, 2022] [Minedojo: Building open-ended embodied agents with internet-scale knowledge](https://arxiv.org/abs/2206.08853), Linxi Fan et al., Advances in Neural Information Processing Systems
+
 [7, 2022] [A data-driven approach for learning to control computers](https://arxiv.org/abs/2202.08137), Peter C Humphreys et al., International Conference on Machine Learning
 
 [2, 2022] [A dataset for interactive vision-language navigation with unknown command feasibility](https://arxiv.org/abs/2202.02312), Andrea Burns et al., European Conference on Computer Vision
+
+[2, 2022] [Scienceworld: Is your agent smarter than a 5th grader?](https://arxiv.org/abs/2203.07540), Ruoyao Wang et al., arXiv preprint arXiv:2203.07540
 
 [5, 2021] [Androidenv: A reinforcement learning platform for android](https://arxiv.org/abs/2105.13231), Daniel Toyama et al., arXiv preprint arXiv:2105.13231
 
@@ -118,13 +130,21 @@
 
 [5, 2020] [Mapping natural language instructions to mobile UI action sequences](https://arxiv.org/abs/2005.03776), Yang Li et al., arXiv preprint arXiv:2005.03776
 
+[4, 2020] [The nethack learning environment](https://arxiv.org/abs/2006.13760), Heinrich K{\"u}ttler et al., Advances in Neural Information Processing Systems
+
 [3, 2019] [Pumice: A multi-modal agent that learns concepts and conditionals from natural language and demonstrations](https://dl.acm.org/doi/10.1145/3332165.3347899), Toby Jia-Jun Li et al., Proceedings of the 32nd annual ACM symposium on user interface software and technology
+
+[1, 2019] [Textworld: A learning environment for text-based games](https://arxiv.org/abs/1806.11532), Marc-Alexandre C{\^o}t{\'e} et al., Computer Games: 7th Workshop, CGW 2018, Held in Conjunction with the 27th International Conference on Artificial Intelligence, IJCAI 2018, Stockholm, Sweden, July 13, 2018, Revised Selected Papers 7
+
+[6, 2018] [Virtualhome: Simulating household activities via programs](https://openaccess.thecvf.com/content_cvpr_2018/html/Puig_VirtualHome_Simulating_Household_CVPR_2018_paper.html), Xavier Puig et al., Proceedings of the IEEE conference on computer vision and pattern recognition
 
 [3, 2018] [Appinite: A multi-modal interface for specifying data descriptions in programming by demonstration using natural language instructions](https://ieeexplore.ieee.org/document/8506506), Toby Jia-Jun Li et al., 2018 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC)
 
 [2, 2018] [Reinforcement learning on web interfaces using workflow-guided exploration](https://arxiv.org/abs/1802.08802), Evan Zheran Liu et al., arXiv preprint arXiv:1802.08802
 
 [8, 2017] [World of bits: An open-domain platform for web-based agents](https://proceedings.mlr.press/v70/shi17a/shi17a.pdf), Tianlin Shi et al., International Conference on Machine Learning
+
+[5, 2017] [Ai2-thor: An interactive 3d environment for visual ai](https://arxiv.org/abs/1712.05474), Eric Kolve et al., arXiv preprint arXiv:1712.05474
 
 [8, 2009] [Reinforcement learning for mapping instructions to actions](https://aclanthology.org/P09-1010/), Satchuthananthavale RK Branavan et al., Proceedings of the Joint Conference of the 47th Annual Meeting of the ACL and the 4th International Joint Conference on Natural Language Processing of the AFNLP
 
@@ -502,11 +522,23 @@
 
 ### interactions/human
 
+[10, 2024] [From {Text} to {Self}: {Users}' {Perceptions} of {Potential} of {AI} on {Interpersonal} {Communication} and {Self}](http://arxiv.org/abs/2310.03976), Yue Fu et al., arXiv
+
 [4, 2024] [NegotiAge](https://www.negotiage.com/), Lee Lindquist et al., NegotiAge
+
+[02, 2024] [{IMBUE}: {Improving} {Interpersonal} {Effectiveness} through {Simulation} and {Just}-in-time {Feedback} with {Human}-{Language} {Model} {Interaction}](http://arxiv.org/abs/2402.12556), Inna Wanyin Lin et al., arXiv
+
+[01, 2024] [Help {Me} {Reflect}: {Leveraging} {Self}-{Reflection} {Interface} {Nudges} to {Enhance} {Deliberativeness} on {Online} {Deliberation} {Platforms}](http://arxiv.org/abs/2401.10820), Shun Yi Yeo et al., arXiv
+
+[10, 2023] [Leveraging {AI} for democratic discourse: {Chat} interventions can improve online political conversations at scale](https://www.pnas.org/doi/abs/10.1073/pnas.2311627120), Lisa P. Argyle et al., Proceedings of the National Academy of Sciences
 
 [9, 2023] [Rehearsal: Simulating conflict to teach conflict resolution](https://arxiv.org/pdf/2309.12309.pdf), Omar Shaikh et al., arXiv preprint arXiv:2309.12309
 
 [1, 2023] [A Comprehensive Review of Data-Driven Co-Speech Gesture Generation](https://arxiv.org/abs/2301.05339), Simbarashe Nyatsanga et al., Computer Graphics Forum
+
+[1, 2023] [Human–{AI} collaboration enables more empathic conversations in text-based peer-to-peer mental health support](https://www.nature.com/articles/s42256-022-00593-2), Ashish Sharma et al., Nature Machine Intelligence
+
+[11, 2022] [Thread {With} {Caution}: {Proactively} {Helping} {Users} {Assess} and {Deescalate} {Tension} in {Their} {Online} {Discussions}](https://dl.acm.org/doi/10.1145/3555603), Jonathan P. Chang et al., Proceedings of the ACM on Human-Computer Interaction
 
 [6, 2022] [Ego4D: Around the {W}orld in 3,000 {H}ours of {E}gocentric {V}ideo](https://ego4d-data.org/), Kristen Grauman et al., IEEE/CVF Computer Vision and Pattern Recognition (CVPR)
 
@@ -517,6 +549,8 @@
 [10, 2021] [Artificial intelligence coaches for sales agents: Caveats and solutions](https://journals.sagepub.com/doi/full/10.1177/0022242920956676), Xueming Luo et al., Journal of Marketing
 
 [5, 2021] [Towards an AI Coach to Infer Team Mental Model Alignment in Healthcare](https://ieeexplore.ieee.org/document/9475925), Sangwon Seo et al., 2021 IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA)
+
+[4, 2021] [{AI}-{Mediated} {Communication}: {Language} {Use} and {Interpersonal} {Effects} in a {Referential} {Communication} {Task}](https://dl.acm.org/doi/10.1145/3449091), Hannah Mieczkowski et al., Proceedings of the ACM on Human-Computer Interaction
 
 [10, 2020] [A chatbot-based coaching intervention for adolescents to promote life skills: pilot study](https://humanfactors.jmir.org/2020/1/e16762), Silvia Gabrielli et al., JMIR human factors
 
@@ -580,6 +614,10 @@
 
 [6, 2024] [Generating Situated Reflection Triggers About Alternative Solution Paths: A Case Study in Generative {AI} for Computer-Supported Collaborative Learning](https://arxiv.org/abs/2404.18262), Atharva Naik et al., International Conference on Artificial Intelligence in Education
 
+[3, 2024] [Generative {AI} and {K}-12 {Education}: An {MIT} {Perspective}](https://mit-genai.pubpub.org/pub/4k9msp17/release/1), Eric Klopfer et al., An MIT Exploration of Generative AI
+
+[3, 2024] [Doodlebot: An Educational Robot for Creativity and AI Literacy](https://doi.org/10.1145/3610977.3634950), Randi Williams et al., Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction
+
 [01, 2024] [{CodeAid}: Evaluating a Classroom Deployment of an {LLM-based} Programming Assistant that Balances Student and Educator Needs](http://arxiv.org/abs/2401.11314), Majeed Kazemitabaar et al., arXiv
 
 [01, 2024] [Learning Agent-based Modeling with {LLM} Companions: Experiences of Novices and Experts Using {ChatGPT} \& {NetLogo} Chat](http://arxiv.org/abs/2401.17163), John Chen et al., arXiv
@@ -594,7 +632,22 @@
 
 [05, 2023] [{CLASS} Meet {SPOCK}: An Education Tutoring Chatbot based on Learning Science Principles](http://arxiv.org/abs/2305.13272), Shashank Sonkar et al., arXiv
 
+[3, 2023] [A Social Robot Reading Partner for Explorative Guidance](https://dl.acm.org/doi/10.1145/3568162.3576968), Xiajie Zhang et al., Proceedings of the 2023 {ACM/IEEE} International Conference on
+               {Human-Robot} Interaction
+
 [1, 2023] [AI for Students with Learning Disabilities: A Systematic Review](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4617715), Xiaoming Zhai et al., n/a
+
+[11, 2022] [Pedagogical Agents](https://dl.acm.org/doi/10.1145/3563659.3563669), H Chad Lane et al., The Handbook on Socially Interactive Agents: 20 years of
+               Research on Embodied Conversational Agents, Intelligent Virtual
+               Agents, and Social Robotics Volume 2: Interactivity, Platforms,
+               Application
+
+[11, 2022] [Socially Interactive Agents as Peers](https://dl.acm.org/doi/10.1145/3563659.3563670), Justine Cassell et al., The Handbook on Socially Interactive Agents: 20 years of
+               Research on Embodied Conversational Agents, Intelligent Virtual
+               Agents, and Social Robotics Volume 2: Interactivity, Platforms,
+               Application
+
+[6, 2022] [Escape!Bot: Social Robots as Creative Problem-Solving Partners](https://doi.org/10.1145/3527927.3532793), Safinah Ali et al., Proceedings of the 14th Conference on Creativity and Cognition
 
 [5, 2022] [Designing {PairBuddy---A} Conversational Agent for Pair Programming](https://doi.org/10.1145/3498326), Peter Robe et al., ACM Trans. Comput.-Hum. Interact.
 
@@ -602,9 +655,17 @@
 
 [6, 2020] [Investigating differential error types between human and simulated learners](https://link.springer.com/chapter/10.1007/978-3-030-52237-7_47), D Weitekamp et al., Artif. Intell.
 
+[6, 2018] [Automated Pitch Convergence Improves Learning in a Social,
+               Teachable Robot for Middle School Mathematics](https://link.springer.com/chapter/10.1007/978-3-319-93843-1_21), Nichola Lubold et al., Artificial Intelligence in Education
+
 [11, 2013] [Cognitive anatomy of tutor learning: Lessons learned with {SimStudent}](http://dx.doi.org/10.1037/a0031955), Noboru Matsuda et al., J. Educ. Psychol.
 
 [7, 2013] [How Effective are Pedagogical Agents for Learning? A {Meta-Analytic} Review](https://doi.org/10.2190/EC.49.1.a), Noah L Schroeder et al., Journal of Educational Computing Research
+
+[1, 2011] [Architecture for Building Conversational Agents that Support Collaborative Learning](https://ieeexplore.ieee.org/document/5669250), Rohit Kumar et al., IEEE Transactions on Learning Technologies
+
+[3, 2010] [Using Intelligent Tutor Technology to Implement Adaptive Support
+              for Student Collaboration](https://link.springer.com/article/10.1007/s10648-009-9116-9), Dejana Diziol et al., Educ. Psychol. Rev.
 
 [4, 1985] [Intelligent tutoring systems](http://dx.doi.org/10.1126/science.228.4698.456), J R Anderson et al., Science
 

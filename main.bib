@@ -3,6 +3,7 @@
       title={Communicative Agents for Software Development}, 
       author={Chen Qian and Xin Cong and Wei Liu and Cheng Yang and Weize Chen and Yusheng Su and Yufan Dang and Jiahao Li and Juyuan Xu and Dahai Li and Zhiyuan Liu and Maosong Sun},
       year={2023},
+      month={7},
       url={https://arxiv.org/abs/2307.07924},
       environments = {collaboration, embodied},
       agents = {prompting_and_in_context_learning, more_than_three_agents},
@@ -14,6 +15,31 @@
 }
 ## Papers
 ### Surveys and Overview
+@article{mathur2024advancing,
+  title        = {Advancing Social Intelligence in AI Agents: Technical Challenges and Open Questions},
+  author       = {Mathur, Leena and Liang, Paul Pu and Morency, Louis-Philippe},
+  url          = {https://arxiv.org/abs/2404.11023},
+  journal      = {arXiv preprint arXiv:2404.11023},
+  year         = {2024},
+  month        = {4},
+  environments = {collaboration, competition, mixed_objectives, text, embodied, virtual, robotics},
+  agents       = {two_agents, reinforcement_learning, agents_with_personas},
+  evaluation   = {human},
+  other        = {n/a},
+}
+
+@article{yang2024social,
+  title        = {Social Skill Training with Large Language Models},
+  author       = {Yang, Diyi and Ziems, Caleb and Held, William and Shaikh, Omar and Bernstein, Michael S and Mitchell, John},
+  journal      = {arXiv preprint arXiv:2404.04204},
+  url          = {https://arxiv.org/abs/2404.04204},
+  year         = {2024},
+  month        = {4},
+  environments = {collaboration, competition, mixed_objectives, text},
+  agents       = {two_agents, reinforcement_learning, agents_with_personas},
+  evaluation   = {human, rule_based},
+  other        = {n/a},
+}
 
 ### Environments
 
@@ -964,12 +990,123 @@ url={https://openreview.net/forum?id=4znwzG92CE},
   year={2021},
   month={3},
   url={https://arxiv.org/abs/2103.16057},
-  environments={virtual},
+  environments={virtual, embodied},
   agents={finetuning},
   evaluation={rule_based},
   other={n/a}
 }
 
+
+@article{kolve2017ai2,
+  title={Ai2-thor: An interactive 3d environment for visual ai},
+  author={Kolve, Eric and Mottaghi, Roozbeh and Han, Winson and VanderBilt, Eli and Weihs, Luca and Herrasti, Alvaro and Deitke, Matt and Ehsani, Kiana and Gordon, Daniel and Zhu, Yuke and others},
+  journal={arXiv preprint arXiv:1712.05474},
+  year={2017},
+  month={5},
+  url = {https://arxiv.org/abs/1712.05474},
+  environments={virtual},
+  agents = {n/a},
+  evaluation = {rule_based},
+  other= {n/a},
+}
+
+@misc{OSWorld,
+    title={OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments},
+    author={Tianbao Xie and Danyang Zhang and Jixuan Chen and Xiaochuan Li and Siheng Zhao and Ruisheng Cao and Toh Jing Hua and Zhoujun Cheng and Dongchan Shin and Fangyu Lei and Yitao Liu and Yiheng Xu and Shuyan Zhou and Silvio Savarese and Caiming Xiong and Victor Zhong and Tao Yu},
+    journal={arXiv preprint arXiv:2404.07972},
+    year={2024},
+    month={4},
+    url = {https://arxiv.org/abs/2404.07972},
+    environments={virtual},
+    agents = {prompting_and_in_context_learning},
+    evaluation = {rule_based},
+    other = {n/a}
+}
+
+@article{drouin2024workarena,
+  title={WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks?},
+  author={Drouin, Alexandre and Gasse, Maxime and Caccia, Massimo and Laradji, Issam H and Del Verme, Manuel and Marty, Tom and Boisvert, L{\'e}o and Thakkar, Megh and Cappart, Quentin and Vazquez, David and others},
+  journal={arXiv preprint arXiv:2403.07718},
+  year={2024},
+  month={3},
+  url = {https://arxiv.org/abs/2403.07718},
+  environments={virtual},
+  agents = {prompting_and_in_context_learning},
+  evaluation = {rule_based},
+  other = {n/a}
+}
+
+@inproceedings{puig2018virtualhome,
+  title={Virtualhome: Simulating household activities via programs},
+  author={Puig, Xavier and Ra, Kevin and Boben, Marko and Li, Jiaman and Wang, Tingwu and Fidler, Sanja and Torralba, Antonio},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={8494--8502},
+  year={2018},
+  month={6},
+  url = {https://openaccess.thecvf.com/content_cvpr_2018/html/Puig_VirtualHome_Simulating_Household_CVPR_2018_paper.html},
+  environments={virtual, embodied},
+  agents = {n/a},
+  evaluation = {rule_based},
+  other= {n/a},
+}
+
+@article{kuttler2020nethack,
+  title={The nethack learning environment},
+  author={K{\"u}ttler, Heinrich and Nardelli, Nantas and Miller, Alexander and Raileanu, Roberta and Selvatici, Marco and Grefenstette, Edward and Rockt{\"a}schel, Tim},
+  journal={Advances in Neural Information Processing Systems},
+  volume={33},
+  pages={7671--7684},
+  year={2020},
+  month={4},
+  url = {https://arxiv.org/abs/2006.13760},
+  environments={virtual},
+  agents = {reinforcement_learning},
+  evaluation = {rule_based},
+  other= {n/a},
+}
+
+@inproceedings{cote2019textworld,
+  title={Textworld: A learning environment for text-based games},
+  author={C{\^o}t{\'e}, Marc-Alexandre and K{\'a}d{\'a}r, Akos and Yuan, Xingdi and Kybartas, Ben and Barnes, Tavian and Fine, Emery and Moore, James and Hausknecht, Matthew and El Asri, Layla and Adada, Mahmoud and others},
+  booktitle={Computer Games: 7th Workshop, CGW 2018, Held in Conjunction with the 27th International Conference on Artificial Intelligence, IJCAI 2018, Stockholm, Sweden, July 13, 2018, Revised Selected Papers 7},
+  pages={41--75},
+  year={2019},
+  month={1},
+  organization={Springer},
+  url = {https://arxiv.org/abs/1806.11532},
+  environments={virtual, text},
+  agents = {n/a},
+  evaluation = {rule_based},
+  other= {n/a},
+}
+
+@article{wang2022scienceworld,
+  title={Scienceworld: Is your agent smarter than a 5th grader?},
+  author={Wang, Ruoyao and Jansen, Peter and C{\^o}t{\'e}, Marc-Alexandre and Ammanabrolu, Prithviraj},
+  journal={arXiv preprint arXiv:2203.07540},
+  year={2022},
+  month={2},
+  url={https://arxiv.org/abs/2203.07540},
+  environments={virtual},
+  agents = {finetuning},
+  evaluation = {rule_based},
+  other= {n/a}, 
+}
+
+@article{fan2022minedojo,
+  title={Minedojo: Building open-ended embodied agents with internet-scale knowledge},
+  author={Fan, Linxi and Wang, Guanzhi and Jiang, Yunfan and Mandlekar, Ajay and Yang, Yuncong and Zhu, Haoyi and Tang, Andrew and Huang, De-An and Zhu, Yuke and Anandkumar, Anima},
+  journal={Advances in Neural Information Processing Systems},
+  volume={35},
+  pages={18343--18362},
+  year={2022},
+  month={8},
+  url={https://arxiv.org/abs/2206.08853},
+  environments = {virtual, embodied},
+  agents = {reinforcement_learning},
+  evaluation = {rule_based},
+  other = {n/a},
+}
 
 # human-virtual agent interaction, IDE, SE, Programming assistant, or others
 
@@ -4089,6 +4226,131 @@ url={https://openreview.net/forum?id=w_7JMpGZRh0},
   other = {n/a},
 }
 
+@article{argyle_leveraging_2023,
+	title = {Leveraging {AI} for democratic discourse: {Chat} interventions can improve online political conversations at scale},
+	volume = {120},
+	shorttitle = {Leveraging {AI} for democratic discourse},
+	url = {https://www.pnas.org/doi/abs/10.1073/pnas.2311627120},
+	doi = {10.1073/pnas.2311627120},
+	number = {41},
+	journal = {Proceedings of the National Academy of Sciences},
+	author = {Argyle, Lisa P. and Bail, Christopher A. and Busby, Ethan C. and Gubler, Joshua R. and Howe, Thomas and Rytting, Christopher and Sorensen, Taylor and Wingate, David},
+	month = oct,
+	year = {2023},
+	pages = {e2311627120},
+	environments = {virtual},
+	agents = {agent_teams, two_agents},
+	evaluation = {human, rule_based, model_based},
+	other = {human_agent}
+}
+
+@misc{yeo_help_2024,
+	title = {Help {Me} {Reflect}: {Leveraging} {Self}-{Reflection} {Interface} {Nudges} to {Enhance} {Deliberativeness} on {Online} {Deliberation} {Platforms}},
+	shorttitle = {Help {Me} {Reflect}},
+	url = {http://arxiv.org/abs/2401.10820},
+	publisher = {arXiv},
+	author = {Yeo, Shun Yi and Lim, Gionnieve and Gao, Jie and Zhang, Weiyu and Perrault, Simon Tangi},
+	month = jan,
+	year = {2024},
+	doi = {10.48550/arXiv.2401.10820},
+	eprint = {2401.10820},
+	environments = {virtual},
+	agents = {two_agents, more_than_three_agents, agent_teams},
+	evaluation = {human, rule_based},
+	other = {human_agent}
+}
+
+@misc{lin_imbue_2024,
+	title = {{IMBUE}: {Improving} {Interpersonal} {Effectiveness} through {Simulation} and {Just}-in-time {Feedback} with {Human}-{Language} {Model} {Interaction}},
+	shorttitle = {{IMBUE}},
+	url = {http://arxiv.org/abs/2402.12556},
+	publisher = {arXiv},
+	author = {Lin, Inna Wanyin and Sharma, Ashish and Rytting, Christopher Michael and Miner, Adam S. and Suh, Jina and Althoff, Tim},
+	month = feb,
+	year = {2024},
+	doi = {10.48550/arXiv.2402.12556},
+	eprint = {2402.12556},
+	environments = {virtual},
+	agents = {two_agents},
+	evaluation = {human, rule_based, model_based},
+	other = {human_agent}
+}
+
+@misc{fu_text_2024,
+	title = {From {Text} to {Self}: {Users}' {Perceptions} of {Potential} of {AI} on {Interpersonal} {Communication} and {Self}},
+	shorttitle = {From {Text} to {Self}},
+	url = {http://arxiv.org/abs/2310.03976},
+	author = {Fu, Yue and Foell, Sami and Xu, Xuhai and Hiniker, Alexis},
+	month = mar,
+	year = {2024},
+	doi = {10.1145/3613904.3641955},
+	eprint = {2310.03976},
+	environments = {virtual},
+	agents = {two_agents, agent_teams},
+	evaluation = {qualitative, human},
+	other = {human_agent}
+}
+
+@article{sharma_humanai_2023,
+	title = {Human–{AI} collaboration enables more empathic conversations in text-based peer-to-peer mental health support},
+	volume = {5},
+	copyright = {2023 The Author(s), under exclusive licence to Springer Nature Limited},
+	issn = {2522-5839},
+	url = {https://www.nature.com/articles/s42256-022-00593-2},
+	doi = {10.1038/s42256-022-00593-2},
+	language = {en},
+	number = {1},
+	journal = {Nature Machine Intelligence},
+	author = {Sharma, Ashish and Lin, Inna W. and Miner, Adam S. and Atkins, David C. and Althoff, Tim},
+	month = jan,
+	year = {2023},
+	note = {Publisher: Nature Publishing Group},
+	pages = {46--57},
+	environments = {virtual, collaboration},
+	agents = {two_agents, agent_teams},
+	evaluation = {human, model_based},
+	other = {human_agent}
+}
+
+@article{mieczkowski_ai-mediated_2021,
+	title = {{AI}-{Mediated} {Communication}: {Language} {Use} and {Interpersonal} {Effects} in a {Referential} {Communication} {Task}},
+	volume = {5},
+	shorttitle = {{AI}-{Mediated} {Communication}},
+	url = {https://dl.acm.org/doi/10.1145/3449091},
+	doi = {10.1145/3449091},
+	number = {CSCW1},
+	urldate = {2024-05-01},
+	journal = {Proceedings of the ACM on Human-Computer Interaction},
+	author = {Mieczkowski, Hannah and Hancock, Jeffrey T. and Naaman, Mor and Jung, Malte and Hohenstein, Jess},
+	month = apr,
+	year = {2021},
+	pages = {17:1--17:14},
+	environments = {virtual},
+	agents = {two_agents, agent_teams},
+	evaluation = {human, qualitative},
+	other = {human_agent}
+}
+
+@article{chang_thread_2022,
+	title = {Thread {With} {Caution}: {Proactively} {Helping} {Users} {Assess} and {Deescalate} {Tension} in {Their} {Online} {Discussions}},
+	volume = {6},
+	shorttitle = {Thread {With} {Caution}},
+	url = {https://dl.acm.org/doi/10.1145/3555603},
+	doi = {10.1145/3555603},
+	number = {CSCW2},
+	urldate = {2024-05-01},
+	journal = {Proceedings of the ACM on Human-Computer Interaction},
+	author = {Chang, Jonathan P. and Schluger, Charlotte and Danescu-Niculescu-Mizil, Cristian},
+	month = nov,
+	year = {2022},
+	pages = {545:1--545:37},
+	environments = {virtual},
+	agents = {two_agents, more_than_three_agents, agent_teams},
+	evaluation = {human, rule_based},
+	other = {human_agent}
+}
+
+
 ### Challenges
 
 #### Theory of Mind
@@ -4753,6 +5015,183 @@ month = {8}
   other = {education, simulated_humans, more_omniscient},
 }
 
+@INCOLLECTION{Lane2022-cw,
+  title     = "Pedagogical Agents",
+  booktitle = "The Handbook on Socially Interactive Agents: 20 years of
+               Research on Embodied Conversational Agents, Intelligent Virtual
+               Agents, and Social Robotics Volume 2: Interactivity, Platforms,
+               Application",
+  author    = "Lane, H Chad and Schroeder, Noah L",
+  publisher = "Association for Computing Machinery",
+  volume    =  48,
+  pages     = "307-330",
+  edition   =  1,
+  month     =  nov,
+  year      =  2022,
+  address   = "New York, NY, USA",
+  url = "https://dl.acm.org/doi/10.1145/3563659.3563669",
+  environments = {mixed_objectives, virtual},
+  agents = {two_agents, more_than_three_agents},
+  evaluation = {human, rule_based},
+  other = {education}
+}
+
+
+@INCOLLECTION{Cassell2022-wb,
+  title     = "Socially Interactive Agents as Peers",
+  booktitle = "The Handbook on Socially Interactive Agents: 20 years of
+               Research on Embodied Conversational Agents, Intelligent Virtual
+               Agents, and Social Robotics Volume 2: Interactivity, Platforms,
+               Application",
+  author    = "Cassell, Justine",
+  publisher = "Association for Computing Machinery",
+  volume    =  48,
+  pages     = "331--366",
+  edition   =  1,
+  month     =  nov,
+  year      =  2022,
+  address   = "New York, NY, USA",
+  url = "https://dl.acm.org/doi/10.1145/3563659.3563670",
+  environments = {mixed_objectives, virtual},
+  agents = {two_agents, more_than_three_agents},
+  evaluation = {human, rule_based},
+  other = {education}
+}
+
+@article{Klopfer2024Generative,
+  author = {Klopfer, Eric and Reich, Justin and Abelson, Hal and Breazeal, Cynthia},
+  journal = {An MIT Exploration of Generative AI},
+  year = {2024},
+  month = {March},
+  note = {https://mit-genai.pubpub.org/pub/4k9msp17},
+  publisher = {MIT},
+  title = {Generative {AI} and {K}-12 {Education}: An {MIT} {Perspective}},
+  url = "https://mit-genai.pubpub.org/pub/4k9msp17/release/1",
+  environments = {mixed_objectives},
+  agents = {two_agents},
+  evaluation = {human, rule_based},
+  other = {education}
+}
+
+@ARTICLE{Kumar2011-ConvAgents,
+  author={Kumar, Rohit and Rosé, Carolyn P.},
+  journal={IEEE Transactions on Learning Technologies}, 
+  title={Architecture for Building Conversational Agents that Support Collaborative Learning}, 
+  month={Jan},
+  year={2011},
+  volume={4},
+  number={1},
+  pages={21-34},
+  keywords={Collaborative work;Computer architecture;Buildings;Object oriented modeling;Architecture;Cognition;Collaboration;Collaborative learning;intelligent agents;natural language interfaces;software architectures.},
+  doi={10.1109/TLT.2010.41},
+  url = "https://ieeexplore.ieee.org/document/5669250",
+  environments = {mixed_objectives, virtual},
+  agents = {more_than_three_agents},
+  evaluation = {human, rule_based},
+  other = {education, more_omniscient}
+}
+
+@ARTICLE{Diziol2010-ua,
+  title    = "Using Intelligent Tutor Technology to Implement Adaptive Support
+              for Student Collaboration",
+  author   = "Diziol, Dejana and Walker, Erin and Rummel, Nikol and Koedinger,
+              Kenneth R",
+  journal  = "Educ. Psychol. Rev.",
+  volume   =  22,
+  number   =  1,
+  pages    = "89-102",
+  month    =  mar,
+  year     =  2010,
+  url = "https://link.springer.com/article/10.1007/s10648-009-9116-9",
+  environments = {mixed_objectives, virtual},
+  agents = {more_than_three_agents},
+  evaluation = {human, rule_based},
+  other = {education, more_omniscient}
+}
+
+@inproceedings{Williams2024-doodlebot,
+  author = {Williams, Randi and Ali, Safinah and Alcantara, Ra\'{u}l and Burghleh, Tasneem and Alghowinem, Sharifa and Breazeal, Cynthia},
+  title = {Doodlebot: An Educational Robot for Creativity and AI Literacy},
+  month = {March},
+  year = {2024},
+  isbn = {9798400703225},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3610977.3634950},
+  doi = {10.1145/3610977.3634950},
+  abstract = {Today, Artificial Intelligence (AI) is prevalent in everyday life, with emerging technologies like AI companions, autonomous vehicles, and AI art tools poised to significantly transform the future. The development of AI curricula that shows people how AI works and what they can do with it is a powerful way to prepare everyone, and especially young learners, for an increasingly AI-driven world. Educators often employ robotic toolkits in the classroom to boost engagement and learning. However, these platforms are generally unsuitable for young learners and learners without programming expertise. Moreover, these platforms often serve as either programmable artifacts or pedagogical agents, rarely capitalizing on the opportunity to support students in both capacities. We designed Doodlebot, a mobile social robot for hands-on AI education to address these gaps. Doodlebot is an effective tool for exploring AI with grade school (K-12) students, promoting their understanding of AI concepts such as perception, representation, reasoning and generation. We begin by elaborating Doodlebot's design, highlighting its reliability, user-friendliness, and versatility. Then, we demonstrate Doodlebot's versatility through example curricula about AI character design, autonomous robotics, and generative AI accessible to young learners. Finally, we share the results of a preliminary user study with elementary school youth where we found that the physical Doodlebot platform was as effective and user-friendly as the virtual version. This work offers insights into designing interactive educational robots that can inform future AI curricula and tools.},
+  booktitle = {Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction},
+  pages = {772–780},
+  numpages = {9},
+  keywords = {collaboration, creativity, education, social robots},
+  location = {<conf-loc>, <city>Boulder</city>, <state>CO</state>, <country>USA</country>, </conf-loc>},
+  series = {HRI '24},
+  environments = {mixed_objectives, virtual, robotics},
+  agents = {more_than_three_agents},
+  evaluation = {human, rule_based},
+  other = {education, more_omniscient}
+}
+
+@INPROCEEDINGS{Zhang2023-wg,
+  title     = "A Social Robot Reading Partner for Explorative Guidance",
+  booktitle = "Proceedings of the 2023 {ACM/IEEE} International Conference on
+               {Human-Robot} Interaction",
+  author    = "Zhang, Xiajie and Breazeal, Cynthia and Park, Hae Won",
+  publisher = "Association for Computing Machinery",
+  pages     = "341-349",
+  series    = "HRI '23",
+  month     =  mar,
+  year      =  2023,
+  address   = "New York, NY, USA",
+  keywords  = "ai-guided education, child-centered pedagogy, child-robot
+               interaction, educational technology, social robot",
+  url = "https://dl.acm.org/doi/10.1145/3568162.3576968",
+  environments = {mixed_objectives, robotics},
+  agents = {two_agents},
+  evaluation = {human, rule_based},
+  other = {education, more_omniscient}
+}
+
+@inproceedings{Ali2022-EscapeBot,
+  author = {Ali, Safinah and Devasia, Nisha Elizabeth and Breazeal, Cynthia},
+  title = {Escape!Bot: Social Robots as Creative Problem-Solving Partners},
+  month = {June},
+  year = {2022},
+  isbn = {9781450393270},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3527927.3532793},
+  doi = {10.1145/3527927.3532793},
+  abstract = {In this work, we explore the effect of a social robot’s embodiment and creativity scaffolding on children’s creative problem solving skills in the context of a digital creative problem-solving game called Escape!Bot. Children aged 5-11 years played the video game, which involved assembling contraptions to escape a digital world, and the robot Jibo acted as a collaborative peer that offered questions, reflective prompts, challenges, and ideas. In order to evaluate the role of the robot’s co-presence and creativity scaffolding, we ran a 2x2 experiment to determine the factorial efficacy of the robot’s embodiment and creativity scaffolding behaviors. We observed mixed results, with the robot’s creativity scaffolding having a positive influence on the time taken to complete the game, but not on the overall use of novel objects or reuse of objects. We present the system design, user study and findings from Escape!Bot to investigate the feasibility of designing social robots to support creative problem solving.},
+  booktitle = {Proceedings of the 14th Conference on Creativity and Cognition},
+  pages = {275–283},
+  numpages = {9},
+  keywords = {social robots, divergent thinking, creativity, collaboration, child-robot interaction},
+  location = {Venice, Italy},
+  series = {C&C '22},
+  environments = {mixed_objectives, robotics},
+  agents = {two_agents},
+  evaluation = {human, rule_based},
+  other = {education, more_omniscient}
+}
+
+@INPROCEEDINGS{Lubold2018-em,
+  title     = "Automated Pitch Convergence Improves Learning in a Social,
+               Teachable Robot for Middle School Mathematics",
+  booktitle = "Artificial Intelligence in Education",
+  author    = "Lubold, Nichola and Walker, Erin and Pon-Barry, Heather and
+               Ogan, Amy",
+  publisher = "Springer International Publishing",
+  pages     = "282-296",
+  month = {June},
+  year      =  2018,
+  url = "https://link.springer.com/chapter/10.1007/978-3-319-93843-1_21",
+  environments = {mixed_objectives, robotics},
+  agents = {two_agents},
+  evaluation = {human, rule_based},
+  other = {education, more_omniscient}
+}
+
 ### END Education papers ###
 
 
@@ -5325,3 +5764,4 @@ month = {8}
   evaluation = {model_based},
   other = {n/a},
 }
+

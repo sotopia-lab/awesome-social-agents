@@ -21,7 +21,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "cmdk": "^1.0.0",
-    "lucide-react": "^0.371.0",
+    "lucide-react": "^0.376.0",
     "moment": "^2.30.1",
     "next": "^14.2.2",
     "next-themes": "^0.3.0",
@@ -29,8 +29,10 @@
     "nextra-theme-docs": "^2.13.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "recharts": "^2.12.6",
     "tailwind-merge": "^2.2.2",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "uvcanvas": "^0.2.1"
   },
   "devDependencies": {
     "typescript": "^5",
