@@ -612,7 +612,7 @@
 
 [6, 2024] [How to Teach Programming in the {AI} Era? Using {LLM}s as a Teachable Agent for Debugging](https://arxiv.org/abs/2310.05292), Qianou Ma et al., International Conference on Artificial Intelligence in Education
 
-[6, 2024] [Generating Situated Reflection Triggers About Alternative Solution Paths: A Case Study in Generative {AI} for Computer-Supported Collaborative Learning](http://arxiv.org/), Atharva Naik et al., International Conference on Artificial Intelligence in Education
+[6, 2024] [Generating Situated Reflection Triggers About Alternative Solution Paths: A Case Study in Generative {AI} for Computer-Supported Collaborative Learning](https://arxiv.org/abs/2404.18262), Atharva Naik et al., International Conference on Artificial Intelligence in Education
 
 [3, 2024] [Generative {AI} and {K}-12 {Education}: An {MIT} {Perspective}](https://mit-genai.pubpub.org/pub/4k9msp17/release/1), Eric Klopfer et al., An MIT Exploration of Generative AI
 

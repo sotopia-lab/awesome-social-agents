@@ -3224,8 +3224,8 @@ export const data: Paper[] = [
     agents: "more_than_three_agents, prompting_and_in_context_learning",
     evaluation: "qualitative, human, rule_based",
     other: "education, human_agent, simulated_humans, more_omniscient",
-    url: "http://arxiv.org/",
-    bibtex: "@INPROCEEDINGS{Naik2024generating,\n  title       = \"Generating Situated Reflection Triggers About Alternative Solution Paths: A Case Study in Generative {AI} for Computer-Supported Collaborative Learning\",\n  booktitle   = \"International Conference on Artificial Intelligence in Education\",\n  author      = {Naik, Atharva and Yin, Jessica Ruhan and Kamath, Anusha and Ma, Qianou and Wu, Sherry Tongshuang and Murray, Charles and Bogart, Christopher and Sakr, Majd and Rose, Carolyn P.},\n  institution = \"Springer\",\n  year        =  2024,\n  month       =  6,\n  url         = \"http://arxiv.org/\", \n  environments = {mixed_objectives, virtual},\n  agents = {more_than_three_agents, prompting_and_in_context_learning},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+    url: "https://arxiv.org/abs/2404.18262",
+    bibtex: "@INPROCEEDINGS{Naik2024generating,\n  title       = \"Generating Situated Reflection Triggers About Alternative Solution Paths: A Case Study in Generative {AI} for Computer-Supported Collaborative Learning\",\n  booktitle   = \"International Conference on Artificial Intelligence in Education\",\n  author      = {Naik, Atharva and Yin, Jessica Ruhan and Kamath, Anusha and Ma, Qianou and Wu, Sherry Tongshuang and Murray, Charles and Bogart, Christopher and Sakr, Majd and Rose, Carolyn P.},\n  institution = \"Springer\",\n  year        =  2024,\n  month       =  6,\n  url         = \"https://arxiv.org/abs/2404.18262\", \n  environments = {mixed_objectives, virtual},\n  agents = {more_than_three_agents, prompting_and_in_context_learning},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
 },
         
  
