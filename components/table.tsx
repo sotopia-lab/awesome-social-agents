@@ -47,13 +47,13 @@ import Link from "next/link"
 
 import { options } from "./data/data"
 
-const renderCell = (row: Row<Paper>, row_name: string, backgroundColor:string) => {
+const renderCell = (row: Row<Paper>, row_name: string, backgroundColor:string, backgroundColorDark:string) => {
   const environments:string = row.getValue(row_name);
   const environmentList = environments.split(",").map(environment => environment.trim()).sort();
   return (
     <div className="flex flex-wrap">
       {environmentList.map((environment, index) => (
-        <div key={index} className={`rounded-full bg-clip-border ${backgroundColor} m-1 px-2 py-1`}>
+        <div key={index} className={`rounded-full bg-clip-border ${backgroundColor} dark:${backgroundColorDark} m-1 px-2 py-1`}>
           {environment.trim()}
         </div>
       ))}
@@ -114,7 +114,7 @@ export const columns: ColumnDef<Paper>[] = [
         )
       },
       cell: ({ row }) => {
-        return renderCell(row, "environments", "bg-lime-200")
+        return renderCell(row, "environments", "bg-lime-200", "bg-lime-500")
       },
     },
     {
@@ -131,7 +131,7 @@ export const columns: ColumnDef<Paper>[] = [
         )
       },
       cell: ({ row }) => (
-        renderCell(row, "agents", "bg-violet-200")
+        renderCell(row, "agents", "bg-violet-200", "bg-violet-500")
       ),
     },
     {
@@ -148,7 +148,7 @@ export const columns: ColumnDef<Paper>[] = [
         )
       },
       cell: ({ row }) => (
-        renderCell(row, "evaluation", "bg-sky-200")
+        renderCell(row, "evaluation", "bg-sky-200", "bg-sky-500")
       ),
     },
     {
@@ -165,7 +165,7 @@ export const columns: ColumnDef<Paper>[] = [
         )
       },
       cell: ({ row }) => (
-        renderCell(row, "other", "bg-rose-200")
+        renderCell(row, "other", "bg-rose-200", "bg-rose-500")
       ),
     },
     {

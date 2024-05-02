@@ -27,9 +27,6 @@ export default {
     feedback: {
         content: null,
     },
-    edit: {
-        content: null,
-    },
     head: (
       <>
         <link rel="icon" href="/awesome-social-agents/favicon.ico" type="image/ico" />
