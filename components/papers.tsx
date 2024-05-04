@@ -13,7 +13,7 @@ export type Paper = {
     other: string
     url: string
     bibtex: string
-    subsection: string
+    subsection: string|null
 }
 
 export const data: Paper[] = [
