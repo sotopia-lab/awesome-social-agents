@@ -228,7 +228,9 @@ export const columns: ColumnDef<Paper>[] = [
   ]
 
 export function DataTableDemo() {
-  const [sorting, setSorting] = React.useState<SortingState>([])
+  const [sorting, setSorting] = React.useState<SortingState>([
+    { id: 'date', desc: true }  // This sets the default sorting to descending on the 'date' column
+  ]);
   const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>(
     []
   )

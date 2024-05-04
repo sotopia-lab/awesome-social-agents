@@ -438,13 +438,13 @@ export const data: Paper[] = [
         
  
 { title: "Habitat 3.0: A Co-Habitat for Humans, Avatars, and Robots",
-    date: "10/2024",
+    date: "10/2023",
     environments: "mixed_objectives, embodied",
     agents: "reinforcement_learning",
     evaluation: "rule_based",
     other: "human_agent, simulated_humans",
     url: "https://openreview.net/forum?id=4znwzG92CE",
-    bibtex: "@inproceedings{puig2024habitat,\ntitle={Habitat 3.0: A Co-Habitat for Humans, Avatars, and Robots},\nauthor={Xavier Puig and Eric Undersander and Andrew Szot and Mikael Dallaire Cote and Tsung-Yen Yang and Ruslan Partsey and Ruta Desai and Alexander Clegg and Michal Hlavac and So Yeon Min and Vladim{\\'\\i}r Vondru{\\v{s}} and Theophile Gervet and Vincent-Pierre Berges and John M Turner and Oleksandr Maksymets and Zsolt Kira and Mrinal Kalakrishnan and Jitendra Malik and Devendra Singh Chaplot and Unnat Jain and Dhruv Batra and Akshara Rai and Roozbeh Mottaghi},\nbooktitle={The Twelfth International Conference on Learning Representations},\nyear={2024},\nmonth={10},\nurl={https://openreview.net/forum?id=4znwzG92CE},\n  environments={mixed_objectives, embodied},\n  agents={reinforcement_learning},\n  evaluation={rule_based},\n  other={human_agent, simulated_humans}\n}",
+    bibtex: "@inproceedings{puig2024habitat,\ntitle={Habitat 3.0: A Co-Habitat for Humans, Avatars, and Robots},\nauthor={Xavier Puig and Eric Undersander and Andrew Szot and Mikael Dallaire Cote and Tsung-Yen Yang and Ruslan Partsey and Ruta Desai and Alexander Clegg and Michal Hlavac and So Yeon Min and Vladim{\\'\\i}r Vondru{\\v{s}} and Theophile Gervet and Vincent-Pierre Berges and John M Turner and Oleksandr Maksymets and Zsolt Kira and Mrinal Kalakrishnan and Jitendra Malik and Devendra Singh Chaplot and Unnat Jain and Dhruv Batra and Akshara Rai and Roozbeh Mottaghi},\nbooktitle={The Twelfth International Conference on Learning Representations},\nyear={2023},\nmonth={10},\nurl={https://openreview.net/forum?id=4znwzG92CE},\n  environments={mixed_objectives, embodied},\n  agents={reinforcement_learning},\n  evaluation={rule_based},\n  other={human_agent, simulated_humans}\n}",
     subsection: "environments/embodied",
 },
         
@@ -1122,7 +1122,7 @@ export const data: Paper[] = [
         
  
 { title: "Co-GAIL: Learning Diverse Strategies for Human-Robot Collaboration",
-    date: "08/2023",
+    date: "08/2021",
     environments: "collaboration, mixed_objectives, robotics",
     agents: "two_agents, reinforcement_learning",
     evaluation: "human",
@@ -1266,7 +1266,7 @@ export const data: Paper[] = [
         
  
 { title: "LASER: LLM Agent with State-Space Exploration for Web Navigation",
-    date: "09/2024",
+    date: "09/2023",
     environments: "mixed_objectives, implicit_objectives, virtual",
     agents: "prompting_and_in_context_learning, agents_with_memory",
     evaluation: "rule_based",
@@ -1434,7 +1434,7 @@ export const data: Paper[] = [
         
  
 { title: "Understanding HTML with Large Language Models",
-    date: "10/2023",
+    date: "10/2022",
     environments: "mixed_objectives, implicit_objectives, virtual",
     agents: "prompting_and_in_context_learning, finetuning",
     evaluation: "rule_based",
@@ -1458,7 +1458,7 @@ export const data: Paper[] = [
         
  
 { title: "ReAct: Synergizing Reasoning and Acting in Language Models",
-    date: "10/2023",
+    date: "10/2022",
     environments: "mixed_objectives, implicit_objectives, virtual",
     agents: "prompting_and_in_context_learning, finetuning, agents_with_memory",
     evaluation: "rule_based",
@@ -1566,7 +1566,7 @@ export const data: Paper[] = [
         
  
 { title: "Context-Aware Planning and Environment-Aware Memory for Instruction Following Embodied Agents",
-    date: "08/2024",
+    date: "08/2023",
     environments: "collaboration, embodied",
     agents: "finetuning, two_agents",
     evaluation: "rule_based",
@@ -1878,13 +1878,13 @@ export const data: Paper[] = [
         
  
 { title: "SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents",
-    date: "10/2024",
+    date: "01/2024",
     environments: "mixed_objectives, text",
     agents: "prompting_and_in_context_learning, two_agents",
     evaluation: "model_based, human",
     other: "human_agent",
     url: "https://openreview.net/forum?id=mM7VurbA4r",
-    bibtex: "@inproceedings{zhou2024sotopia,\n  title={SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents},\n  author={Xuhui Zhou and Hao Zhu and Leena Mathur and Ruohong Zhang and Haofei Yu and Zhengyang Qi and Louis-Philippe Morency and Yonatan Bisk and Daniel Fried and Graham Neubig and Maarten Sap},\n  booktitle={ICLR},\n  environments = {mixed_objectives, text},\n  agents = {prompting_and_in_context_learning, two_agents},\n  evaluation = {model_based, human},\n  other = {human_agent},\n  year={2024},\n  month = {10},\n  url={https://openreview.net/forum?id=mM7VurbA4r}\n}",
+    bibtex: "@inproceedings{zhou2024sotopia,\n  title={SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents},\n  author={Xuhui Zhou and Hao Zhu and Leena Mathur and Ruohong Zhang and Haofei Yu and Zhengyang Qi and Louis-Philippe Morency and Yonatan Bisk and Daniel Fried and Graham Neubig and Maarten Sap},\n  booktitle={ICLR},\n  environments = {mixed_objectives, text},\n  agents = {prompting_and_in_context_learning, two_agents},\n  evaluation = {model_based, human},\n  other = {human_agent},\n  year={2024},\n  month = {01},\n  url={https://openreview.net/forum?id=mM7VurbA4r}\n}",
     subsection: "evaluation/language",
 },
         
@@ -2562,13 +2562,13 @@ export const data: Paper[] = [
         
  
 { title: "\" It's the only thing I can trust\": Envisioning Large Language Model Use by Autistic Workers for Communication Assistance",
-    date: "05/2024",
+    date: "03/2024",
     environments: "text",
     agents: "prompting_and_in_context_learning",
     evaluation: "qualitative, human",
     other: "human_agent",
     url: "https://arxiv.org/pdf/2403.03297.pdf",
-    bibtex: "@inproceedings{jang2024s,\n  title={\" It's the only thing I can trust\": Envisioning Large Language Model Use by Autistic Workers for Communication Assistance},\n  author={Jang, JiWoong and Moharana, Sanika and Carrington, Patrick and Begel, Andrew},\n  journal={arXiv preprint arXiv:2403.03297},\n  booktitle={Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems},\n  month={5},\n  year={2024},\n  url={https://arxiv.org/pdf/2403.03297.pdf},\n  environments = {text},\n  agents = {prompting_and_in_context_learning},\n  evaluation = {qualitative, human},\n  other = {human_agent}\n}",
+    bibtex: "@inproceedings{jang2024s,\n  title={\" It's the only thing I can trust\": Envisioning Large Language Model Use by Autistic Workers for Communication Assistance},\n  author={Jang, JiWoong and Moharana, Sanika and Carrington, Patrick and Begel, Andrew},\n  journal={arXiv preprint arXiv:2403.03297},\n  booktitle={Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems},\n  month={3},\n  year={2024},\n  url={https://arxiv.org/pdf/2403.03297.pdf},\n  environments = {text},\n  agents = {prompting_and_in_context_learning},\n  evaluation = {qualitative, human},\n  other = {human_agent}\n}",
     subsection: "interactions/text",
 },
         
@@ -3150,7 +3150,7 @@ export const data: Paper[] = [
         
  
 { title: "From {Text} to {Self}: {Users}' {Perceptions} of {Potential} of {AI} on {Interpersonal} {Communication} and {Self}",
-    date: "10/2024",
+    date: "10/2023",
     environments: "virtual",
     agents: "two_agents, agent_teams",
     evaluation: "qualitative, human",
@@ -3294,7 +3294,7 @@ export const data: Paper[] = [
         
  
 { title: "Conversational Health Agents: A Personalized LLM-Powered Agent Framework",
-    date: "10/2024",
+    date: "10/2023",
     environments: "mixed_objectives, text",
     agents: "prompting_and_in_context_learning, more_than_three_agents",
     evaluation: "rule_based",
@@ -3390,7 +3390,7 @@ export const data: Paper[] = [
         
  
 { title: "Do LLMs exhibit human-like response biases? A case study in survey design",
-    date: "11/2024",
+    date: "11/2023",
     environments: "text",
     agents: "prompting_and_in_context_learning",
     evaluation: "human, model_based",
@@ -3486,13 +3486,13 @@ export const data: Paper[] = [
         
  
 { title: "How to Teach Programming in the {AI} Era? Using {LLM}s as a Teachable Agent for Debugging",
-    date: "06/2024",
+    date: "04/2024",
     environments: "mixed_objectives, virtual",
     agents: "two_agents, prompting_and_in_context_learning",
     evaluation: "qualitative, human, rule_based",
     other: "education, human_agent, simulated_humans, more_omniscient",
     url: "https://arxiv.org/abs/2310.05292",
-    bibtex: "@INPROCEEDINGS{Ma2024-li,\n  title       = \"How to Teach Programming in the {AI} Era? Using {LLM}s as a Teachable Agent for Debugging\",\n  booktitle   = \"International Conference on Artificial Intelligence in Education\",\n  author      = \"Ma, Qianou and Shen, Hua and Koedinger, Kenneth and Wu,\n                 Tongshuang\",\n  institution = \"Springer\",\n  year        =  2024,\n  month       =  6,\n  url         = \"https://arxiv.org/abs/2310.05292\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents, prompting_and_in_context_learning},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+    bibtex: "@INPROCEEDINGS{Ma2024-li,\n  title       = \"How to Teach Programming in the {AI} Era? Using {LLM}s as a Teachable Agent for Debugging\",\n  booktitle   = \"International Conference on Artificial Intelligence in Education\",\n  author      = \"Ma, Qianou and Shen, Hua and Koedinger, Kenneth and Wu,\n                 Tongshuang\",\n  institution = \"Springer\",\n  year        =  2024,\n  month       =  4,\n  url         = \"https://arxiv.org/abs/2310.05292\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents, prompting_and_in_context_learning},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
     subsection: "applications/education",
 },
         
@@ -3510,13 +3510,13 @@ export const data: Paper[] = [
         
  
 { title: "Generating Situated Reflection Triggers About Alternative Solution Paths: A Case Study in Generative {AI} for Computer-Supported Collaborative Learning",
-    date: "06/2024",
+    date: "04/2024",
     environments: "mixed_objectives, virtual",
     agents: "more_than_three_agents, prompting_and_in_context_learning",
     evaluation: "qualitative, human, rule_based",
     other: "education, human_agent, simulated_humans, more_omniscient",
     url: "https://arxiv.org/abs/2404.18262",
-    bibtex: "@INPROCEEDINGS{Naik2024generating,\n  title       = \"Generating Situated Reflection Triggers About Alternative Solution Paths: A Case Study in Generative {AI} for Computer-Supported Collaborative Learning\",\n  booktitle   = \"International Conference on Artificial Intelligence in Education\",\n  author      = {Naik, Atharva and Yin, Jessica Ruhan and Kamath, Anusha and Ma, Qianou and Wu, Sherry Tongshuang and Murray, Charles and Bogart, Christopher and Sakr, Majd and Rose, Carolyn P.},\n  institution = \"Springer\",\n  year        =  2024,\n  month       =  6,\n  url         = \"https://arxiv.org/abs/2404.18262\", \n  environments = {mixed_objectives, virtual},\n  agents = {more_than_three_agents, prompting_and_in_context_learning},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+    bibtex: "@INPROCEEDINGS{Naik2024generating,\n  title       = \"Generating Situated Reflection Triggers About Alternative Solution Paths: A Case Study in Generative {AI} for Computer-Supported Collaborative Learning\",\n  booktitle   = \"International Conference on Artificial Intelligence in Education\",\n  author      = {Naik, Atharva and Yin, Jessica Ruhan and Kamath, Anusha and Ma, Qianou and Wu, Sherry Tongshuang and Murray, Charles and Bogart, Christopher and Sakr, Majd and Rose, Carolyn P.},\n  institution = \"Springer\",\n  year        =  2024,\n  month       =  4,\n  url         = \"https://arxiv.org/abs/2404.18262\", \n  environments = {mixed_objectives, virtual},\n  agents = {more_than_three_agents, prompting_and_in_context_learning},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
     subsection: "applications/education",
 },
         

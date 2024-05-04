@@ -70,13 +70,13 @@
 
 ### environments/embodied
 
-[10, 2024] [Habitat 3.0: A Co-Habitat for Humans, Avatars, and Robots](https://openreview.net/forum?id=4znwzG92CE), Xavier Puig et al., The Twelfth International Conference on Learning Representations
-
 [4, 2024] [Scaling Instructable Agents Across Many Simulated Worlds](https://arxiv.org/abs/2404.10179v2), SIMA Team et al., arXiv preprint arXiv:2404.10179
 
 [3, 2024] [Evaluate LLMs in real time with Street Fighter III](https://github.com/OpenGenerativeAI/llm-colosseum), OpenGenerativeAI team et al., n/a
 
 [12, 2023] [Large language models play starcraft ii: Benchmarks and a chain of summarization approach](https://arxiv.org/abs/2312.11865), Weiyu Ma et al., arXiv preprint arXiv:2312.11865
+
+[10, 2023] [Habitat 3.0: A Co-Habitat for Humans, Avatars, and Robots](https://openreview.net/forum?id=4znwzG92CE), Xavier Puig et al., The Twelfth International Conference on Learning Representations
 
 [10, 2023] [CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents](https://arxiv.org/abs/2310.17512), Qinlin Zhao et al., arXiv
 
@@ -170,8 +170,6 @@
 
 [9, 2023] [How to Prompt Your Robot: A PromptBook for Manipulation Skills with Code as Policies](https://openreview.net/forum?id=T8AiZj1QdN), Montserrat Gonzalez Arenas et al., 2nd Workshop on Language and Robot Learning: Language as Grounding
 
-[08, 2023] [Co-GAIL: Learning Diverse Strategies for Human-Robot Collaboration](https://arxiv.org/abs/2108.06038), Chen Wang et al., arXiv
-
 [7, 2023] [MUTEX: Learning Unified Policies from Multimodal Task Specifications](https://openreview.net/forum?id=PwqiqaaEzJ), Rutav Shah et al., 7th Annual Conference on Robot Learning
 
 [7, 2023] [Robotic vision for human-robot interaction and collaboration: A survey and systematic review](https://arxiv.org/abs/2307.15363), Nicole Robinson et al., ACM Transactions on Human-Robot Interaction
@@ -198,6 +196,8 @@
 
 [6, 2022] [Inner Monologue: Embodied Reasoning through Planning with Language Models](https://arxiv.org/abs/2207.05608), Wenlong Huang et al., arXiv preprint arXiv:2207.05608
 
+[08, 2021] [Co-GAIL: Learning Diverse Strategies for Human-Robot Collaboration](https://arxiv.org/abs/2108.06038), Chen Wang et al., arXiv
+
 [6, 2021] [A taxonomy to structure and analyze human--robot interaction](https://link.springer.com/article/10.1007/s12369-020-00666-5), Linda Onnasch et al., International Journal of Social Robotics
 
 [3, 2020] [Threedworld: A platform for interactive multi-modal physical simulation](https://www.threedworld.org/), Chuang Gan et al., arXiv preprint arXiv:2007.04954
@@ -210,8 +210,6 @@
 
 ### modeling/in-context-learning
 
-[09, 2024] [LASER: LLM Agent with State-Space Exploration for Web Navigation](https://arxiv.org/abs/2309.08172), Kaixin Ma et al., arXiv
-
 [3, 2024] [AutoGuide: Automated Generation and Selection of State-Aware Guidelines for Large Language Model Agents](https://arxiv.org/abs/2403.08978), Yao Fu et al., arXiv preprint arXiv:2403.08978
 
 [3, 2024] [ProAgent: Building Proactive Cooperative Agents with Large Language Models](https://ojs.aaai.org/index.php/AAAI/article/view/29710), Ceyao Zhang et al., Proceedings of the AAAI Conference on Artificial Intelligence
@@ -221,6 +219,8 @@
 [11, 2023] [AdaPlanner: Adaptive Planning from Feedback with Language Models](https://openreview.net/forum?id=rnKgbKmelt), Haotian Sun et al., Thirty-seventh Conference on Neural Information Processing Systems
 
 [11, 2023] [JARVIS-1: Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models](https://arxiv.org/abs/2311.05997), Zihao Wang et al., arXiv
+
+[09, 2023] [LASER: LLM Agent with State-Space Exploration for Web Navigation](https://arxiv.org/abs/2309.08172), Kaixin Ma et al., arXiv
 
 [09, 2023] [An Appraisal-Based Chain-Of-Emotion Architecture for Affective Language Model Game Agents](https://arxiv.org/abs/2309.05076), Maximilian Croissant et al., arXiv
 
@@ -240,8 +240,6 @@
 
 ### modeling/finetuning
 
-[08, 2024] [Context-Aware Planning and Environment-Aware Memory for Instruction Following Embodied Agents](https://arxiv.org/abs/2308.07241), Byeonghwi Kim et al., arXiv
-
 [4, 2024] [AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent](https://arxiv.org/abs/2404.03648), Hanyu Lai et al., arXiv preprint arXiv:2404.03648
 
 [04, 2024] [Learning Social Navigation from Demonstrations with Deep Neural Networks](https://arxiv.org/abs/2404.11246), Yigit Yildirim et al., arXiv
@@ -258,15 +256,17 @@
 
 [11, 2023] [From Pixels to {UI} Actions: Learning to Follow Instructions via Graphical User Interfaces](https://openreview.net/forum?id=3PjCt4kmRx), Peter Shaw et al., Thirty-seventh Conference on Neural Information Processing Systems
 
-[10, 2023] [Understanding HTML with Large Language Models](https://arxiv.org/abs/2210.03945), Izzeddin Gur et al., arXiv
-
-[10, 2023] [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629), Shunyu Yao et al., arXiv
-
 [10, 2023] [HandMeThat: Human-Robot Communication in Physical and Social Environments](https://arxiv.org/abs/2310.03779), Yanming Wan et al., arXiv
+
+[08, 2023] [Context-Aware Planning and Environment-Aware Memory for Instruction Following Embodied Agents](https://arxiv.org/abs/2308.07241), Byeonghwi Kim et al., arXiv
 
 [5, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigation](https://openreview.net/forum?id=oLc9sGOBbc), Hiroki Furuta et al., ICLR 2023 Workshop on Mathematical and Empirical Understanding of Foundation Models
 
 [3, 2023] [Offline pre-trained multi-agent decision transformer](https://link.springer.com/article/10.1007/s11633-022-1383-7), Linghui Meng et al., Machine Intelligence Research
+
+[10, 2022] [Understanding HTML with Large Language Models](https://arxiv.org/abs/2210.03945), Izzeddin Gur et al., arXiv
+
+[10, 2022] [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629), Shunyu Yao et al., arXiv
 
 [10, 2022] [Socially CompliAnt Navigation Dataset (SCAND): A Large-Scale Dataset Of Demonstrations For Social Navigation](https://www.cs.utexas.edu/~xiao/SCAND/SCAND.html), Haresh Karnan et al., IEEE Robotics and Automation Letters
 
@@ -308,8 +308,6 @@
 
 ### evaluation/language
 
-[10, 2024] [SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents](https://openreview.net/forum?id=mM7VurbA4r), Xuhui Zhou et al., ICLR
-
 [03, 2024] [RoleInteract: Evaluating the Social Interaction of Role-Playing Agents](https://arxiv.org/abs/2403.13679), Hongzhan Chen et al., arXiv
 
 [03, 2024] [How Far Are We on the Decision-Making of LLMs? Evaluating LLMs' Gaming Ability in Multi-Agent Environments](https://arxiv.org/abs/2403.11807), Jen-tse Huang et al., arXiv
@@ -319,6 +317,8 @@
 [02, 2024] [How Well Can LLMs Negotiate? NegotiationArena Platform and Analysis](https://arxiv.org/abs/2402.05863), Federico Bianchi et al., arXiv
 
 [2, 2024] [Can Large Language Model Agents Simulate Human Trust Behaviors?](https://api.semanticscholar.org/CorpusID:267523076), Chengxing Xie et al., ArXiv
+
+[1, 2024] [SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents](https://openreview.net/forum?id=mM7VurbA4r), Xuhui Zhou et al., ICLR
 
 [1, 2024] [LLM Harmony: Multi-Agent Communication for Problem Solving](https://api.semanticscholar.org/CorpusID:266725580), Sumedh Rasal et al., ArXiv
 
@@ -440,9 +440,9 @@
 
 ### interactions/text
 
-[5, 2024] [" It's the only thing I can trust": Envisioning Large Language Model Use by Autistic Workers for Communication Assistance](https://arxiv.org/pdf/2403.03297.pdf), JiWoong Jang et al., arXiv preprint arXiv:2403.03297
-
 [3, 2024] [AI Comes Out of the Closet: Using AI-Generated Virtual Characters to Help Individuals Practice LGBTQIA+ Advocacy](https://dl.acm.org/doi/pdf/10.1145/3640543.3645213), Daniel Pillis et al., Proceedings of the 29th International Conference on Intelligent User Interfaces
+
+[3, 2024] [" It's the only thing I can trust": Envisioning Large Language Model Use by Autistic Workers for Communication Assistance](https://arxiv.org/pdf/2403.03297.pdf), JiWoong Jang et al., arXiv preprint arXiv:2403.03297
 
 [3, 2024] [Take It, Leave It, or Fix It: Measuring Productivity and Trust in Human-AI Collaboration](https://dl.acm.org/doi/pdf/10.1145/3640543.3645198), Crystal Qian et al., Proceedings of the 29th International Conference on Intelligent User Interfaces
 
@@ -522,8 +522,6 @@
 
 ### interactions/human
 
-[10, 2024] [From {Text} to {Self}: {Users}' {Perceptions} of {Potential} of {AI} on {Interpersonal} {Communication} and {Self}](http://arxiv.org/abs/2310.03976), Yue Fu et al., arXiv
-
 [4, 2024] [NegotiAge](https://www.negotiage.com/), Lee Lindquist et al., NegotiAge
 
 [02, 2024] [{IMBUE}: {Improving} {Interpersonal} {Effectiveness} through {Simulation} and {Just}-in-time {Feedback} with {Human}-{Language} {Model} {Interaction}](http://arxiv.org/abs/2402.12556), Inna Wanyin Lin et al., arXiv
@@ -531,6 +529,8 @@
 [01, 2024] [Help {Me} {Reflect}: {Leveraging} {Self}-{Reflection} {Interface} {Nudges} to {Enhance} {Deliberativeness} on {Online} {Deliberation} {Platforms}](http://arxiv.org/abs/2401.10820), Shun Yi Yeo et al., arXiv
 
 [10, 2023] [Leveraging {AI} for democratic discourse: {Chat} interventions can improve online political conversations at scale](https://www.pnas.org/doi/abs/10.1073/pnas.2311627120), Lisa P. Argyle et al., Proceedings of the National Academy of Sciences
+
+[10, 2023] [From {Text} to {Self}: {Users}' {Perceptions} of {Potential} of {AI} on {Interpersonal} {Communication} and {Self}](http://arxiv.org/abs/2310.03976), Yue Fu et al., arXiv
 
 [9, 2023] [Rehearsal: Simulating conflict to teach conflict resolution](https://arxiv.org/pdf/2309.12309.pdf), Omar Shaikh et al., arXiv preprint arXiv:2309.12309
 
@@ -560,8 +560,6 @@
 
 ### applications/health
 
-[10, 2024] [Conversational Health Agents: A Personalized LLM-Powered Agent Framework](https://arxiv.org/abs/2310.02374), Mahyar Abbasian et al., arXiv
-
 [03, 2024] [Polaris: A Safety-focused LLM Constellation Architecture for Healthcare](https://arxiv.org/abs/2403.13313), Subhabrata Mukherjee et al., arXiv
 
 [02, 2024] [Benchmarking Large Language Models on Communicative Medical Coaching: a Novel System and Dataset](https://arxiv.org/abs/2402.05547), Hengguan Huang et al., arXiv
@@ -571,6 +569,8 @@
 [02, 2024] [COCOA: CBT-based Conversational Counseling Agent using Memory Specialized in Cognitive Distortions and Dynamic Prompt](https://arxiv.org/abs/2402.17546), Suyeon Lee et al., arXiv
 
 [01, 2024] [Enhancing Diagnostic Accuracy through Multi-Agent Conversations: Using Large Language Models to Mitigate Cognitive Bias](https://arxiv.org/abs/2401.14589), Yu He Ke et al., arXiv
+
+[10, 2023] [Conversational Health Agents: A Personalized LLM-Powered Agent Framework](https://arxiv.org/abs/2310.02374), Mahyar Abbasian et al., arXiv
 
 [05, 2023] [Helping the Helper: Supporting Peer Counselors via AI-Empowered Practice and Feedback](https://arxiv.org/abs/2305.08982), Shang-Ling Hsu et al., arXiv
 
@@ -592,13 +592,13 @@
 
 ### applications/policy
 
-[11, 2024] [Do LLMs exhibit human-like response biases? A case study in survey design](https://arxiv.org/abs/2311.04076), Lindia Tjuatja et al., arXiv
-
 [03, 2024] [From Skepticism to Acceptance: Simulating the Attitude Dynamics Toward Fake News](https://arxiv.org/abs/2403.09498), Yuhan Liu et al., arXiv
 
 [02, 2024] [Large language models cannot replace human participants because they cannot portray identity groups](https://arxiv.org/abs/2402.01908), Angelina Wang et al., arXiv
 
 [02, 2024] [Unveiling the Truth and Facilitating Change: Towards Agent-based Large-scale Social Movement Simulation](https://arxiv.org/abs/2402.16333), Xinyi Mou et al., arXiv
+
+[11, 2023] [Do LLMs exhibit human-like response biases? A case study in survey design](https://arxiv.org/abs/2311.04076), Lindia Tjuatja et al., arXiv
 
 [8, 2022] [Social Simulacra: Creating Populated Prototypes for Social Computing Systems](https://doi.org/10.1145/3526113.3545616), Joon Sung Park et al., Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology
 
@@ -610,9 +610,9 @@
 
 ### applications/education
 
-[6, 2024] [How to Teach Programming in the {AI} Era? Using {LLM}s as a Teachable Agent for Debugging](https://arxiv.org/abs/2310.05292), Qianou Ma et al., International Conference on Artificial Intelligence in Education
+[4, 2024] [How to Teach Programming in the {AI} Era? Using {LLM}s as a Teachable Agent for Debugging](https://arxiv.org/abs/2310.05292), Qianou Ma et al., International Conference on Artificial Intelligence in Education
 
-[6, 2024] [Generating Situated Reflection Triggers About Alternative Solution Paths: A Case Study in Generative {AI} for Computer-Supported Collaborative Learning](https://arxiv.org/abs/2404.18262), Atharva Naik et al., International Conference on Artificial Intelligence in Education
+[4, 2024] [Generating Situated Reflection Triggers About Alternative Solution Paths: A Case Study in Generative {AI} for Computer-Supported Collaborative Learning](https://arxiv.org/abs/2404.18262), Atharva Naik et al., International Conference on Artificial Intelligence in Education
 
 [3, 2024] [Generative {AI} and {K}-12 {Education}: An {MIT} {Perspective}](https://mit-genai.pubpub.org/pub/4k9msp17/release/1), Eric Klopfer et al., An MIT Exploration of Generative AI
 

@@ -254,6 +254,7 @@ def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> None:
     
     if "eprint" in entry:
         entry["month"] = entry["eprint"].split(".")[0][2:]
+        entry["year"] = "20"+entry["eprint"].split(".")[0][:2]
     
     if entry.get("month", ""):
         # month_name = datetime.date(1900, int(entry["month"]), 1).strftime('%B').lower()
