@@ -1,18 +1,5 @@
-# Tags that you can add to each field
-We ask you to add four additional fields to each bibtex entry. The format of a bibtex you should add to `main.bib` is as follows
-
-```bibtex
-@misc{Nobody37,
-    author = "Nobody Jr",
-    title = "The last missing piece of AGI",
-    year = "2037",
-    url = "https://pdf.agi.org",
-    environments = {mixed_objectives, implicit_objectives, robotics},
-    agents = {agent_teams, more_than_three_agents, agents_with_memory, agents_with_personas},
-    evaluation = {model_based},
-    other = {human_involvement}
-}
-```
+# Taxonomy for Awesome Social Agents
+We aim to categorize the papers in the Awesome Social Agents repository based on the following criteria:
 
 ## 1 Environments and Tasks
 Here are acceptable tags for `environments` field:
@@ -84,3 +71,20 @@ n/a
 `more_information_asymmetrical` means agents have various of different information sources that other agents do not have.
 
 Here you can use `n/a` if none of the above tags fits the paper.
+
+
+## Contribution Example
+We ask you to add four additional fields to each bibtex entry. The format of a bibtex you should add to `main.bib` is as follows
+
+```bibtex
+@misc{Nobody37,
+    author = "Nobody Jr",
+    title = "The last missing piece of AGI",
+    year = "2037",
+    url = "https://pdf.agi.org",
+    environments = {mixed_objectives, implicit_objectives, robotics},
+    agents = {agent_teams, more_than_three_agents, agents_with_memory, agents_with_personas},
+    evaluation = {model_based},
+    other = {human_involvement}
+}
+```
