@@ -169,6 +169,23 @@ export const columns: ColumnDef<Paper>[] = [
       ),
     },
     {
+      accessorKey: "subsection",
+      header: ({ column }) => {
+        return (
+          <Button
+            variant="ghost"
+            onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+          >
+            Subsection
+            <CaretSortIcon className="ml-2 h-4 w-4" />
+          </Button>
+        )
+      },
+      cell: ({ row }) => (
+        row.getValue("subsection")
+      ),
+    },
+    {
       accessorKey: "url",
       header: "URL",
       cell: ({ row }) => (
@@ -245,6 +262,7 @@ export function DataTableDemo() {
     table.getColumn("evaluation")?.toggleVisibility(false) ?? {};
     table.getColumn("other")?.toggleVisibility(false) ?? {};
     table.getColumn("url")?.toggleVisibility(false) ?? {};
+    table.getColumn("subsection")?.toggleVisibility(false) ?? {};
   }, [])
   
   return (
@@ -252,7 +270,7 @@ export function DataTableDemo() {
       <div className="flex flex-row">
         <div className="flex py-4 space-x-2">
           <Input
-            placeholder="Input keywords to search..."
+            placeholder="Filter across all columns ..."
             value={(filterInput as string) ?? ""}
             onChange={(event) => {
                 setFilterInput(event.target.value);

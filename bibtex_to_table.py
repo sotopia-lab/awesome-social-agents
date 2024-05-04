@@ -329,6 +329,7 @@ export const data: Paper[] = [""", file=file)
     other: "{entry['other']}",
     url: "{entry['url']}",
     bibtex: {json.dumps(entry['bibtex'])},
+    subsection: "{entry['subsection']}",
 {"},"}
         """
         print(paper_entry, file=file)
