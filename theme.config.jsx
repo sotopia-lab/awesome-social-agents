@@ -50,7 +50,7 @@ export default {
     key: 'cmu-agent-workshop-1',
     text: (
       <Link href="/contribution" target="_blank">
-        Want to contribute to this project? ✨ Click here to learn more.
+        Want to contribute to this project? ✨ Click here to learn more. 📝 We are also working on a related survey paper. Stay tuned for updates!
       </Link>
     )
   },
