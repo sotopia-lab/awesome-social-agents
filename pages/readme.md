@@ -70,9 +70,11 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 
 ## Papers
 ### Surveys and Overview
-[June, 2023] [Socially intelligent machines that learn from humans and help humans learn](https://royalsocietypublishing.org/doi/10.1098/rsta.2022.0048), Gweon et al., arXiv
+[6, 2023] [Socially intelligent machines that learn from humans and help humans learn](https://royalsocietypublishing.org/doi/10.1098/rsta.2022.0048), Gweon et al., arXiv
 
 [4, 2024] [Advancing Social Intelligence in AI Agents: Technical Challenges and Open Questions](https://arxiv.org/abs/2404.11023), Leena Mathur et al., arXiv preprint arXiv:2404.11023
+
+[2, 2024] [Social Intelligence Data Infrastructure: Structuring the Present and Navigating the Future](https://arxiv.org/abs/2403.14659), Minzhi Li et al., arXiv preprint arXiv:2403.14659
 
 [4, 2024] [Social Skill Training with Large Language Models](https://arxiv.org/abs/2404.04204), Diyi Yang et al., arXiv preprint arXiv:2404.04204
 
@@ -214,6 +216,8 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 
 [03, 2024] [Yell At Your Robot: Improving On-the-Fly from Language Corrections](https://arxiv.org/abs/2403.12910), Lucy Xiaoyang Shi et al., arXiv
 
+[3, 2024] [RABBIT: A Robot-Assisted Bed Bathing System with Multimodal Perception and Integrated Compliance](https://dl.acm.org/doi/abs/10.1145/3610977.3634989?casa_token=a6V3l5hdBikAAAAA:uYgKkWI2ccP7P9oeg-frTNCa4SzU4s77rIYzvo4IxzaVZv9sqrl-tYeXvkksYr1uAp7IdjgNF0Etvw), Rishabh Madan et al., Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction
+
 [12, 2023] [Toward General-Purpose Robots via Foundation Models: A Survey and Meta-Analysis](https://robotics-fm-survey.github.io/), Yafei Hu et al., arXiv preprint: arXiv:2312.08782 
 
 [12, 2023] [RoboTube: Learning Household Manipulation from Human Videos with Simulated Twin Environments](https://proceedings.mlr.press/v205/xiong23a.html), Haoyu Xiong et al., Proceedings of The 6th Conference on Robot Learning
@@ -247,6 +251,8 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 [12, 2022] [Transformers Are Adaptable Task Planners](https://openreview.net/forum?id=Eal_lL08v_l), Vidhi Jain et al., 6th Annual Conference on Robot Learning
 
 [10, 2022] [A survey of multi-agent Human--Robot Interaction systems](https://arxiv.org/abs/2212.05286), Abhinav Dahiya et al., Robotics and Autonomous Systems
+
+[10, 2022] [Rcare world: A human-centric simulation world for caregiving robots](https://ieeexplore.ieee.org/abstract/document/9982244?casa_token=FSGmJuwmfKYAAAAA:i8sR8Icc86I1DBMR58AexWGSUUjefJlKReaJ8CCEz9y2jJQyWqxxpxGqyBkMStIx2PMzM7jnyA), Ruolin Ye et al., 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
 
 [8, 2022] [Do As I Can and Not As I Say: Grounding Language in Robotic Affordances](https://say-can.github.io/), Michael Ahn et al., arXiv preprint arXiv:2204.01691
 
@@ -464,7 +470,11 @@ May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigatio
 
 [October, 2021] [Core elements of social interaction for constructive human-robot interaction](https://arxiv.org/abs/2110.04054), Mike EU Ligthart et al., arXiv preprint arXiv:2110.04054
 
+[9, 2021] [Modeling user empathy elicited by a robot storyteller](https://ieeexplore.ieee.org/abstract/document/9597416?casa_token=4fjR0n805JUAAAAA:nDXszwzYANcmCWf3susQltBqeKo7AQioDEK879xPBHGiy4koXs7dNXAq1U2nk35dR3O97RI6AQ), Leena Mathur et al., 2021 9th International Conference on Affective Computing and Intelligent Interaction (ACII)
+
 [August, 2021] [Formalizing and guaranteeing human-robot interaction](https://arxiv.org/abs/2006.16732), Hadas Kress-Gazit et al., Communications of the ACM
+
+[8, 2021] [A theory of social agency for human-robot interaction](https://www.frontiersin.org/articles/10.3389/frobt.2021.687726/full), Ryan Blake Jackson et al., Frontiers in Robotics and AI
 
 [January, 2021] [A taxonomy of social errors in human-robot interaction](https://dl.acm.org/doi/abs/10.1145/3439720), Leimin Tian et al., ACM Transactions on Human-Robot Interaction (THRI)
 
@@ -474,9 +484,21 @@ May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigatio
 
 [January, 2017] [Enabling robotic social intelligence by engineering human social-cognitive mechanisms](https://www.sciencedirect.com/science/article/abs/pii/S1389041716300493), Travis J Wiltshire et al., Cognitive Systems Research
 
+[8, 2005] [Effects of nonverbal communication on efficiency and robustness in human-robot teamwork](https://ieeexplore.ieee.org/abstract/document/1545011?casa_token=z47EAc9MSzQAAAAA:us7xcTS86GLcCCd5gQAh-LA5MFN2Yi9KSqgaKIGAa1zimtUBrHu1ZSjct-3ZPYnn86RQ_659kg), Cynthia Breazeal et al., 2005 IEEE/RSJ international conference on intelligent robots and systems
+
+[6, 2005] [Defining socially assistive robotics](https://ieeexplore.ieee.org/abstract/document/1501143?casa_token=J_pDQmgcrBgAAAAA:YLmWY_KxfUmkaozwlAFaPhGiBaU4hbgHwGvHY_lSAVLYFrTwmIoVw3nCsDtAji0bMGW-fSP_tg), David Feil-Seifer et al., 9th International Conference on Rehabilitation Robotics, 2005. ICORR 2005.
+
+[5, 2004] [Social interactions in HRI: the robot view](https://ieeexplore.ieee.org/abstract/document/1291665?casa_token=r2fEm_o5xWcAAAAA:b3DSFrP1u4Gnfi0xlK3AwTrX7lgmFAtVoBfjbfSNEK6VijV97E6Neb-X2U2gsVuetq1OnfXmpg), Cynthia Breazeal et al., IEEE transactions on systems, man, and cybernetics, part C (applications and reviews)
+
+[1, 2004] [Designing sociable robots](https://books.google.com/books?hl=en&lr=&id=402dquhxSTQC&oi=fnd&pg=PR15&dq=Designing+sociable+robots&ots=oCRnuTx7Fk&sig=K5VP1UsSlq-8LeKIvW7dfy4qils#v=onepage&q=Designing%20sociable%20robots&f=false), Cynthia Breazeal et al., Designing sociable robots
+
+[1, 1998] [A motivational system for regulating human-robot interaction](https://cdn.aaai.org/AAAI/1998/AAAI98-008.pdf), Cynthia Breazeal et al., AAAI
+
 #### Human-Human Interaction
 
 [October, 2024] [From {Text} to {Self}: {Users}' {Perceptions} of {Potential} of {AI} on {Interpersonal} {Communication} and {Self}](http://arxiv.org/abs/2310.03976), Yue Fu et al., arXiv
+
+[4, 2024] [Modeling Multimodal Social Interactions: New Challenges and Baselines with Densely Aligned Representations](https://arxiv.org/abs/2403.02090), Sangmin Lee et al., arXiv preprint arXiv:2403.02090
 
 [April, 2024] [Social Skill Training with Large Language Models](https://arxiv.org/abs/2404.04204), Diyi Yang et al., arXiv preprint arXiv:2404.04204
 
@@ -525,6 +547,8 @@ May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigatio
 
 [January, 2023] [Foundation models for generalist medical artificial intelligence](https://www.nature.com/articles/s41586-023-05881-4), Michael Moor et al., Nature
 
+[8, 2022] [Can robots help in the evaluation of mental wellbeing in children? an empirical study](https://ieeexplore.ieee.org/abstract/document/9900843?casa_token=jOdy7sIRjzkAAAAA:8cWuFA-woc9y6zJ3sdFIFjtn-o5tU0gNGQV5Kp2zASlRspes10KQP3Io6EvGOjxwz06OU1Qv-A), Nida Itrat Abbasi et al., 2022 31st IEEE international conference on robot and human interactive communication (RO-MAN)
+
 [January, 2022] [Health-related applications of socially interactive agents](https://dl.acm.org/doi/abs/10.1145/3563659.3563672), Timothy Bickmore et al., The Handbook on Socially Interactive Agents: 20 years of Research on Embodied Conversational Agents, Intelligent Virtual Agents, and Social Robotics Volume 2: Interactivity, Platforms, Application
 
 [January, 2021] [Intelligent sensing technologies for the diagnosis, monitoring and therapy of alzheimer’s disease: A systematic review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8234801/#B23-sensors-21-04249), Nazia Gillani et al., Sensors
@@ -534,6 +558,12 @@ May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigatio
 [January, 2020] [The effectiveness of artificial intelligence conversational agents in health care: systematic review](https://www.jmir.org/2020/10/e20346/PDF), Madison Milne-Ives et al., Journal of medical Internet research
 
 [January, 2019] [Artificial intelligence in healthcare robots: A social informatics study of knowledge embodiment](https://asistdl.onlinelibrary.wiley.com/doi/pdf/10.1002/asi.24145?casa_token=T2fVrVRwmt0AAAAA:IT7GOCcygCdBuckrO5UqRg0hlWXOU3YUx1UPqi2kVG8XxxQfNxMDY6JBm5Kcz1XuO5Xsjo9H7KzCOOv-), Loo G Pee et al., Journal of the Association for Information Science and Technology
+
+[6, 2018] [Personalized machine learning for robot perception of affect and engagement in autism therapy](https://www.science.org/doi/full/10.1126/scirobotics.aao6760?casa_token=_j3wU-emDEsAAAAA%3AvNVp58F1dqbzR-L09jHatPxzPq7Z6k8f2Fu-Pnswt1b0pLJtvW5kZLE3chqezzEf6Mi8_WiPIjF83fk), Ognjen Rudovic et al., Science Robotics
+
+[6, 2013] [A socially assistive robot exercise coach for the elderly](https://dl.acm.org/doi/abs/10.5898/JHRI.2.2.Fasola), Juan Fasola et al., Journal of Human-Robot Interaction
+
+[8, 2012] [Robots for use in autism research](https://www.annualreviews.org/content/journals/10.1146/annurev-bioeng-071811-150036), Brian Scassellati et al., Annual review of biomedical engineering
 
 #### Policy
 [August, 2022] [Social Simulacra: Creating Populated Prototypes for Social Computing Systems](https://doi.org/10.1145/3526113.3545616), Joon Sung Park et al., Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology
@@ -574,6 +604,8 @@ May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigatio
 [6, 2021] [Going Online: A Simulated Student Approach for Evaluating Knowledge Tracing in the Context of Mastery Learning](http://files.eric.ed.gov/fulltext/ED615518.pdf), Qiao Zhang et al., International Educational Data Mining Society
 
 [6, 2020] [Investigating differential error types between human and simulated learners](https://link.springer.com/chapter/10.1007/978-3-030-52237-7_47), D Weitekamp et al., Artif. Intell.
+
+[3, 2016] [Affective personalization of a social robot tutor for children’s second language skills](https://ojs.aaai.org/index.php/AAAI/article/view/9914), Goren Gordon et al., Proceedings of the AAAI conference on artificial intelligence
 
 [11, 2013] [Cognitive anatomy of tutor learning: Lessons learned with {SimStudent}](http://dx.doi.org/10.1037/a0031955), Noboru Matsuda et al., J. Educ. Psychol.
 
