@@ -240,6 +240,8 @@
 
 ### modeling/finetuning
 
+[11, 2024] [Self-chained image-language model for video localization and question answering](https://proceedings.neurips.cc/paper_files/paper/2023/file/f22a9af8dbb348952b08bd58d4734b50-Paper-Conference.pdf), Shoubin Yu et al., Advances in Neural Information Processing Systems
+
 [4, 2024] [AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent](https://arxiv.org/abs/2404.03648), Hanyu Lai et al., arXiv preprint arXiv:2404.03648
 
 [04, 2024] [Learning Social Navigation from Demonstrations with Deep Neural Networks](https://arxiv.org/abs/2404.11246), Yigit Yildirim et al., arXiv
@@ -250,6 +252,10 @@
 
 [02, 2024] [Dual-View Visual Contextualization for Web Navigation](https://arxiv.org/abs/2402.04476), Jihyung Kil et al., arXiv
 
+[02, 2024] [EntGPT: Linking Generative Large Language Models with Knowledge Bases](https://arxiv.org/pdf/2402.06738), Yifan Ding et al., arXiv
+
+[02, 2024] [LLMs Meet Long Video: Advancing Long Video Comprehension with An Interactive Visual Adapter in LLMs](https://arxiv.org/pdf/2402.13546), Yunxin Li et al., arXiv
+
 [1, 2024] [A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis](https://openreview.net/forum?id=9JQtrumvg8), Izzeddin Gur et al., The Twelfth International Conference on Learning Representations
 
 [01, 2024] [GPT-4V(ision) is a Generalist Web Agent, if Grounded](https://arxiv.org/abs/2401.01614), Boyuan Zheng et al., arXiv
@@ -257,6 +263,8 @@
 [11, 2023] [From Pixels to {UI} Actions: Learning to Follow Instructions via Graphical User Interfaces](https://openreview.net/forum?id=3PjCt4kmRx), Peter Shaw et al., Thirty-seventh Conference on Neural Information Processing Systems
 
 [10, 2023] [HandMeThat: Human-Robot Communication in Physical and Social Environments](https://arxiv.org/abs/2310.03779), Yanming Wan et al., arXiv
+
+[10, 2023] [Multi-Modal Correlated Network with Emotional Reasoning Knowledge for Social Intelligence Question-Answering](https://openaccess.thecvf.com/content/ICCV2023W/ASI/papers/Xie_Multi-Modal_Correlated_Network_with_Emotional_Reasoning_Knowledge_for_Social_Intelligence_ICCVW_2023_paper.pdf), Baijun Xie et al., Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops
 
 [08, 2023] [Context-Aware Planning and Environment-Aware Memory for Instruction Following Embodied Agents](https://arxiv.org/abs/2308.07241), Byeonghwi Kim et al., arXiv
 
@@ -284,15 +292,29 @@
 
 [4, 2024] [Autonomous Evaluation and Refinement of Digital Agents](https://arxiv.org/abs/2404.06474v2), Jiayi Pan et al., arXiv preprint arXiv:2404.06474
 
+[04, 2024] [EventLens: Leveraging Event-Aware Pretraining and Cross-modal Linking Enhances Visual Commonsense Reasoning](https://arxiv.org/pdf/2404.13847), Mingjie Ma et al., arXiv
+
 [03, 2024] [SOTOPIA-$\pi$: Interactive Learning of Socially Intelligent Language Agents](https://arxiv.org/abs/2403.08715), Ruiyi Wang et al., arXiv
 
 [3, 2024] [TacticAI: an AI assistant for football tactics](https://doi.org/10.1038/s41467-024-45965-x), Zhe Wang et al., Nature Communications
+
+[03, 2024] [Modeling Multimodal Social Interactions: New Challenges and Baselines with Densely Aligned Representations](https://arxiv.org/pdf/2403.02090), Sangmin Lee et al., arXiv
+
+[03, 2024] [Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM](https://arxiv.org/pdf/2403.07816), Sainbayar Sukhbaatar et al., arXiv
+
+[12, 2023] [Difference-Masking: Choosing What to Mask in Continued Pretraining](https://aclanthology.org/2023.findings-emnlp.881), Wilf et al., Findings of the Association for Computational Linguistics: EMNLP 2023
+
+[11, 2023] [Examining Consistency of Visual Commonsense Reasoning based on Person Grounding](https://aclanthology.org/2023.ijcnlp-main.66), Kim et al., Proceedings of the 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)
+
+[5, 2023] [Face-to-face contrastive learning for social intelligence question-answering](https://arxiv.org/pdf/2208.01036), Alex Wilf et al., 2023 IEEE 17th International Conference on Automatic Face and Gesture Recognition (FG)
 
 [03, 2023] [Computational Language Acquisition with Theory of Mind](https://arxiv.org/abs/2303.01502), Andy Liu et al., arXiv
 
 [7, 2022] [Language Learning from Communicative Goals and Linguistic Input](https://escholarship.org/uc/item/7p65n371), Hao Zhu et al., Proceedings of the Annual Meeting of the Cognitive Science Society
 
 [4, 2022] [Language games meet multi-agent reinforcement learning: A case study for the naming game](https://academic.oup.com/jole/article/7/2/213/7128304), Paul Van Eecke et al., Journal of Language Evolution
+
+[11, 2020] [Incorporating Commonsense Knowledge Graph in Pretrained Models for Social Commonsense Tasks](https://aclanthology.org/2020.deelio-1.9), Chang et al., Proceedings of Deep Learning Inside Out (DeeLIO): The First Workshop on Knowledge Extraction and Integration for Deep Learning Architectures
 
 [11, 2019] [{EGG}: a toolkit for research on Emergence of lan{G}uage in Games](https://aclanthology.org/D19-3010), Kharitonov et al., Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP): System Demonstrations
 
@@ -525,6 +547,8 @@
 [4, 2024] [NegotiAge](https://www.negotiage.com/), Lee Lindquist et al., NegotiAge
 
 [02, 2024] [{IMBUE}: {Improving} {Interpersonal} {Effectiveness} through {Simulation} and {Just}-in-time {Feedback} with {Human}-{Language} {Model} {Interaction}](http://arxiv.org/abs/2402.12556), Inna Wanyin Lin et al., arXiv
+
+[02, 2024] [TV-TREES: Multimodal Entailment Trees for Neuro-Symbolic Video Reasoning](https://api.semanticscholar.org/CorpusID:268091324), Kate Sanders et al., arXiv
 
 [01, 2024] [Help {Me} {Reflect}: {Leveraging} {Self}-{Reflection} {Interface} {Nudges} to {Enhance} {Deliberativeness} on {Online} {Deliberation} {Platforms}](http://arxiv.org/abs/2401.10820), Shun Yi Yeo et al., arXiv
 

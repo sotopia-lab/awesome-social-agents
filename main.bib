@@ -2103,6 +2103,65 @@ url={https://openreview.net/forum?id=4znwzG92CE},
   other = {n/a}
 }
 
+@misc{ding2024entgpt,
+    title={EntGPT: Linking Generative Large Language Models with Knowledge Bases}, 
+    author={Yifan Ding and Amrit Poudel and Qingkai Zeng and Tim Weninger and Balaji Veeramani and Sanmitra Bhattacharya},
+    year={2024},
+    month={2},
+    eprint={2402.06738},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    url = "https://arxiv.org/pdf/2402.06738",
+    environments = {text},
+    agents = {pretraining, finetuning},
+    evaluation = {model_based},
+    other = {n/a},
+}
+
+@article{yu2024self,
+  title={Self-chained image-language model for video localization and question answering},
+  author={Yu, Shoubin and Cho, Jaemin and Yadav, Prateek and Bansal, Mohit},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  year={2024},
+  month={11},
+  url = "https://proceedings.neurips.cc/paper_files/paper/2023/file/f22a9af8dbb348952b08bd58d4734b50-Paper-Conference.pdf",
+  environments = {text, virtual},
+  agents = {pretraining, finetuning},
+  evaluation = {model_based},
+  other = {n/a},
+}
+
+@misc{li2024llms,
+      title={LLMs Meet Long Video: Advancing Long Video Comprehension with An Interactive Visual Adapter in LLMs}, 
+      author={Yunxin Li and Xinyu Chen and Baotain Hu and Min Zhang},
+      year={2024},
+      month={2},
+      eprint={2402.13546},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url = "https://arxiv.org/pdf/2402.13546",
+      environments = {text, virtual},
+  agents = {pretraining, finetuning},
+  evaluation = {model_based},
+  other = {n/a},
+}
+
+@InProceedings{Xie_2023_ICCV,
+    author    = {Xie, Baijun and Park, Chung Hyuk},
+    title     = {Multi-Modal Correlated Network with Emotional Reasoning Knowledge for Social Intelligence Question-Answering},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+    month     = {October},
+    year      = {2023},
+    pages     = {3075-3081},
+    url = "https://openaccess.thecvf.com/content/ICCV2023W/ASI/papers/Xie_Multi-Modal_Correlated_Network_with_Emotional_Reasoning_Knowledge_for_Social_Intelligence_ICCVW_2023_paper.pdf",
+    environments = {text, virtual},
+  agents = {pretraining, finetuning},
+  evaluation = {model_based},
+  other = {n/a},
+}
+
+
 #### Reinforcement learning
 @article{modeling/reinforcement-learning,
   title = {This is a specical entry for us to automatically determine the subsection of the paper, please put the real entry below this one},
@@ -2306,6 +2365,152 @@ url={https://openreview.net/forum?id=4znwzG92CE},
   agents = {reinforcement_learning},
   evaluation = {rule_based},
   other = {n/a}
+}
+
+#### Pretraining
+
+@inproceedings{wilf2023face,
+  title={Face-to-face contrastive learning for social intelligence question-answering},
+  author={Wilf, Alex and Ma, Martin Q and Liang, Paul Pu and Zadeh, Amir and Morency, Louis-Philippe},
+  booktitle={2023 IEEE 17th International Conference on Automatic Face and Gesture Recognition (FG)},
+  pages={1--7},
+  year={2023},
+  month={5},
+  organization={IEEE},
+  url = "https://arxiv.org/pdf/2208.01036",
+  environments = {text, virtual},
+  agents = {pretraining, finetuning},
+  evaluation = {model_based},
+  other = {n/a},
+}
+
+@inproceedings{wilf-etal-2023-difference,
+    title = "Difference-Masking: Choosing What to Mask in Continued Pretraining",
+    author = "Wilf, Alex  and
+      Akter, Syeda  and
+      Mathur, Leena  and
+      Liang, Paul  and
+      Mathew, Sheryl  and
+      Shou, Mengrou  and
+      Nyberg, Eric  and
+      Morency, Louis-Philippe",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.881",
+    doi = "10.18653/v1/2023.findings-emnlp.881",
+    pages = "13222--13234",
+    abstract = "The self-supervised objective of masked prediction has led to promising performance gains on a variety of downstream tasks. However, while most approaches randomly mask tokens, there is strong intuition that deciding what to mask can substantially improve learning outcomes. We investigate this in continued pretraining setting in which pretrained models continue to pretrain on domain-specific data before performing some downstream task. We introduce Difference-Masking, a masking strategy that automatically chooses what to mask during continued pretraining by considering what makes a task domain different from the pretraining domain. Empirically, we find that Difference-Masking outperforms baselines on continued pretraining settings across four diverse language-only and multimodal video tasks.",
+    environments = {text, virtual},
+    agents = {pretraining, finetuning},
+    evaluation = {model_based},
+    other = {n/a},
+}
+
+
+@misc{lee2024modeling,
+  title={Modeling Multimodal Social Interactions: New Challenges and Baselines with Densely Aligned Representations}, 
+  author={Sangmin Lee and Bolin Lai and Fiona Ryan and Bikram Boote and James M. Rehg},
+  year={2024},
+  month={4},
+  eprint={2403.02090},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url = "https://arxiv.org/pdf/2403.02090",
+  environments = {text, virtual},
+  agents = {pretraining, finetuning},
+  evaluation = {model_based},
+  other = {n/a},
+}
+
+
+@inproceedings{chang-etal-2020-incorporating,
+    title = "Incorporating Commonsense Knowledge Graph in Pretrained Models for Social Commonsense Tasks",
+    author = "Chang, Ting-Yun  and
+      Liu, Yang  and
+      Gopalakrishnan, Karthik  and
+      Hedayatnia, Behnam  and
+      Zhou, Pei  and
+      Hakkani-Tur, Dilek",
+    editor = "Agirre, Eneko  and
+      Apidianaki, Marianna  and
+      Vuli{\'c}, Ivan",
+    booktitle = "Proceedings of Deep Learning Inside Out (DeeLIO): The First Workshop on Knowledge Extraction and Integration for Deep Learning Architectures",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.deelio-1.9",
+    doi = "10.18653/v1/2020.deelio-1.9",
+    pages = "74--79",
+    abstract = "Pretrained language models have excelled at many NLP tasks recently; however, their social intelligence is still unsatisfactory. To enable this, machines need to have a more general understanding of our complicated world and develop the ability to perform commonsense reasoning besides fitting the specific downstream tasks. External commonsense knowledge graphs (KGs), such as ConceptNet, provide rich information about words and their relationships. Thus, towards general commonsense learning, we propose two approaches to implicitly and explicitly infuse such KGs into pretrained language models. We demonstrate our proposed methods perform well on SocialIQA, a social commonsense reasoning task, in both limited and full training data regimes.",
+    environments = {text, virtual},
+    agents = {pretraining, finetuning},
+    evaluation = {model_based},
+    other = {n/a},
+}
+
+
+@inproceedings{kim-etal-2023-examining,
+    title = "Examining Consistency of Visual Commonsense Reasoning based on Person Grounding",
+    author = "Kim, Huiju  and
+      Kang, Youjin  and
+      Lee, SangKeun",
+    editor = "Park, Jong C.  and
+      Arase, Yuki  and
+      Hu, Baotian  and
+      Lu, Wei  and
+      Wijaya, Derry  and
+      Purwarianti, Ayu  and
+      Krisnadhi, Adila Alfa",
+    booktitle = "Proceedings of the 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = nov,
+    year = "2023",
+    address = "Nusa Dua, Bali",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.ijcnlp-main.66",
+    doi = "10.18653/v1/2023.ijcnlp-main.66",
+    pages = "1026--1039",
+    environments = {text, virtual},
+    agents = {pretraining, finetuning},
+    evaluation = {model_based},
+    other = {n/a},
+}
+
+@misc{ma2024eventlens,
+    title={EventLens: Leveraging Event-Aware Pretraining and Cross-modal Linking Enhances Visual Commonsense Reasoning}, 
+    author={Mingjie Ma and Zhihuan Yu and Yichao Ma and Guohui Li},
+    year={2024},
+    month={4},
+    eprint={2404.13847},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV},
+    url = "https://arxiv.org/pdf/2404.13847",
+    environments = {text, virtual},
+    agents = {pretraining, finetuning},
+    evaluation = {model_based},
+    other = {n/a},
+}
+
+
+@misc{sukhbaatar2024branchtrainmix,
+    title={Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM}, 
+    author={Sainbayar Sukhbaatar and Olga Golovneva and Vasu Sharma and Hu Xu and Xi Victoria Lin and Baptiste Rozière and Jacob Kahn and Daniel Li and Wen-tau Yih and Jason Weston and Xian Li},
+    year={2024},
+    month={3},
+    eprint={2403.07816},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    url = "https://arxiv.org/pdf/2403.07816",
+    environments = {text},
+    agents = {pretraining, finetuning},
+    evaluation = {model_based},
+    other = {n/a},
 }
 
 ### Evaluating social agents
@@ -4355,6 +4560,21 @@ url={https://openreview.net/forum?id=w_7JMpGZRh0},
 
 #### Theory of Mind
 
+@misc{sanders2024tvtrees,
+      title={TV-TREES: Multimodal Entailment Trees for Neuro-Symbolic Video Reasoning}, 
+      author={Kate Sanders and Nathaniel Weir and Benjamin Van Durme},
+      year={2024},
+      month={2},
+      eprint={2402.19467},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://api.semanticscholar.org/CorpusID:268091324},
+      environments = {text, virtual},
+  agents = {pretraining, finetuning},
+  evaluation = {model_based},
+  other = {n/a},
+}
+
 #### Social Learning
 
 #### Simultaneous Interaction
@@ -5765,3 +5985,6 @@ month = {8}
   other = {n/a},
 }
 
+
+
+ main
