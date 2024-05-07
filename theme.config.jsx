@@ -58,22 +58,22 @@ export default {
       return {
         titleTemplate: '%s – Awesome Social Agents',
         description: '',
-        // openGraph: {
-        //     type: 'website',
-        //     images: [
-        //       {
-        //         url: '',
-        //       }
-        //     ],
-        //     locale: 'en_US',
-        //     url: 'https://cmu-agent-workshop.github.io/',
-        //     siteName: 'LLM Agents workshop at CMU May 2-3',
-        //     description: 'We are hosting LLM Agents workshop at Carnegie Mellon University, Pittsburgh, PA, USA on May 2-3.',
-        // },
-        // twitter: {
-        //     cardType: 'summary_large_image',
-        //     image: 'https://cmu-agent-workshop.github.io/cover.jpg',
-        // },
+        openGraph: {
+            type: 'website',
+            images: [
+              {
+                url: '',
+              }
+            ],
+            locale: 'en_US',
+            url: 'https://sotopia-lab.github.io/awesome-social-agents',
+            siteName: 'Awesome Social Agents',
+            description: 'Please check out our curated list of awesome social agents.',
+        },
+        twitter: {
+            cardType: 'summary_large_image',
+            image: 'https://sotopia-lab.github.io/awesome-social-agents/preview.png',
+        },
       }
       
   },
