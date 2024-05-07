@@ -68,6 +68,7 @@ export default {
             locale: 'en_US',
             url: 'https://sotopia-lab.github.io/awesome-social-agents',
             siteName: 'Awesome Social Agents',
+            title: 'Awesome Social Agents',
             description: 'Please check out our curated list of awesome social agents.',
         },
         twitter: {
