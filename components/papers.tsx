@@ -54,6 +54,18 @@ export const data: Paper[] = [
 },
         
  
+{ title: "Social Intelligence Data Infrastructure: Structuring the Present and Navigating the Future",
+    date: "02/2024",
+    environments: "text",
+    agents: "n/a",
+    evaluation: "human",
+    other: "n/a",
+    url: "https://arxiv.org/abs/2403.14659",
+    bibtex: "@article{li2024social,\n  title={Social Intelligence Data Infrastructure: Structuring the Present and Navigating the Future},\n  author={Li, Minzhi and Shi, Weiyan and Ziems, Caleb and Yang, Diyi},\n  journal={arXiv preprint arXiv:2403.14659},\n  url = {https://arxiv.org/abs/2403.14659},\n  year={2024},\n  month={2},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {human},\n  other = {n/a},\n  \n}",
+    subsection: "",
+},
+        
+ 
 { title: "The Hanabi challenge: A new frontier for AI research",
     date: "03/2020",
     environments: "collaboration, text",
@@ -1021,7 +1033,7 @@ export const data: Paper[] = [
     evaluation: "human, qualitative",
     other: "human_agent",
     url: "https://openreview.net/forum?id=T8AiZj1QdN",
-    bibtex: "@inproceedings{\n  arenas2023how,\n  title={How to Prompt Your Robot: A PromptBook for Manipulation Skills with Code as Policies},\n  author={Montserrat Gonzalez Arenas and Ted Xiao and Sumeet Singh and Vidhi Jain and Allen Z. Ren and Quan Vuong and Jake Varley and Alexander Herzog and Isabel Leal and Sean Kirmani and Dorsa Sadigh and Vikas Sindhwani and Kanishka Rao and Jacky Liang and Andy Zeng},\n  booktitle={2nd Workshop on Language and Robot Learning: Language as Grounding},\n  year={2023},\n  month={9},\n  url={https://openreview.net/forum?id=T8AiZj1QdN},\n  environments = {robotics},\n  agents = {prompting_and_in_context_learning},\n  evaluation = {human, qualitative},\n  other = {human_agent},\n}",
+    bibtex: "@inproceedings{arenas2023how,\n  title={How to Prompt Your Robot: A PromptBook for Manipulation Skills with Code as Policies},\n  author={Montserrat Gonzalez Arenas and Ted Xiao and Sumeet Singh and Vidhi Jain and Allen Z. Ren and Quan Vuong and Jake Varley and Alexander Herzog and Isabel Leal and Sean Kirmani and Dorsa Sadigh and Vikas Sindhwani and Kanishka Rao and Jacky Liang and Andy Zeng},\n  booktitle={2nd Workshop on Language and Robot Learning: Language as Grounding},\n  year={2023},\n  month={9},\n  url={https://openreview.net/forum?id=T8AiZj1QdN},\n  environments = {robotics},\n  agents = {prompting_and_in_context_learning},\n  evaluation = {human, qualitative},\n  other = {human_agent},\n}",
     subsection: "environments/robotics",
 },
         
@@ -1045,7 +1057,7 @@ export const data: Paper[] = [
     evaluation: "human, qualitative",
     other: "human_agent",
     url: "https://openreview.net/forum?id=b-cto-fetlz",
-    bibtex: "@inproceedings{\n  yenamandra2023homerobot,\n  title={HomeRobot: Open-Vocabulary Mobile Manipulation},\n  author={Sriram Yenamandra and Arun Ramachandran and Karmesh Yadav and Austin S Wang and Mukul Khanna and Theophile Gervet and Tsung-Yen Yang and Vidhi Jain and Alexander Clegg and John M Turner and Zsolt Kira and Manolis Savva and Angel X Chang and Devendra Singh Chaplot and Dhruv Batra and Roozbeh Mottaghi and Yonatan Bisk and Chris Paxton},\n  booktitle={7th Annual Conference on Robot Learning},\n  year={2023},\n    month={6},\n  url={https://openreview.net/forum?id=b-cto-fetlz},\n  environments = {robotics},\n  agents = {n/a},\n  evaluation = {human, qualitative},\n  other = {human_agent},\n}",
+    bibtex: "@inproceedings{yenamandra2023homerobot,\n  title={HomeRobot: Open-Vocabulary Mobile Manipulation},\n  author={Sriram Yenamandra and Arun Ramachandran and Karmesh Yadav and Austin S Wang and Mukul Khanna and Theophile Gervet and Tsung-Yen Yang and Vidhi Jain and Alexander Clegg and John M Turner and Zsolt Kira and Manolis Savva and Angel X Chang and Devendra Singh Chaplot and Dhruv Batra and Roozbeh Mottaghi and Yonatan Bisk and Chris Paxton},\n  booktitle={7th Annual Conference on Robot Learning},\n  year={2023},\n    month={6},\n  url={https://openreview.net/forum?id=b-cto-fetlz},\n  environments = {robotics},\n  agents = {n/a},\n  evaluation = {human, qualitative},\n  other = {human_agent},\n}",
     subsection: "environments/robotics",
 },
         
@@ -1226,6 +1238,30 @@ export const data: Paper[] = [
     other: "simulated_humans, fully_omniscient",
     url: "https://www.ifaamas.org/Proceedings/aamas2018/pdfs/p883.pdf",
     bibtex: "@inproceedings{de2018towards,\n  title={Towards a robust interactive and learning social robot},\n  author={De Jong, Michiel and Zhang, Kevin and Roth, Aaron M and Rhodes, Travers and Schmucker, Robin and Zhou, Chenghui and Ferreira, Sofia and Cartucho, Jo{\\~a}o and Veloso, Manuela},\n  booktitle={Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems},\n  pages={883--891},\n  year={2018},\n  month={7},\n  url=\"https://www.ifaamas.org/Proceedings/aamas2018/pdfs/p883.pdf\",\n  environments = {implicit_objectives, robotics},\n  agents = {two_agents},\n  evaluation = {rule_based},\n  other = {simulated_humans, fully_omniscient},\n}",
+    subsection: "environments/robotics",
+},
+        
+ 
+{ title: "RABBIT: A Robot-Assisted Bed Bathing System with Multimodal Perception and Integrated Compliance",
+    date: "03/2024",
+    environments: "robotics",
+    agents: "n/a",
+    evaluation: "human, qualitative",
+    other: "human_agent, health",
+    url: "https://dl.acm.org/doi/abs/10.1145/3610977.3634989?casa_token=a6V3l5hdBikAAAAA:uYgKkWI2ccP7P9oeg-frTNCa4SzU4s77rIYzvo4IxzaVZv9sqrl-tYeXvkksYr1uAp7IdjgNF0Etvw",
+    bibtex: "@inproceedings{madan2024rabbit,\n  title={RABBIT: A Robot-Assisted Bed Bathing System with Multimodal Perception and Integrated Compliance},\n  author={Madan, Rishabh and Valdez, Skyler and Kim, David and Fang, Sujie and Zhong, Luoyan and Virtue, Diego T and Bhattacharjee, Tapomayukh},\n  booktitle={Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction},\n  pages={472--481},\n  url={https://dl.acm.org/doi/abs/10.1145/3610977.3634989?casa_token=a6V3l5hdBikAAAAA:uYgKkWI2ccP7P9oeg-frTNCa4SzU4s77rIYzvo4IxzaVZv9sqrl-tYeXvkksYr1uAp7IdjgNF0Etvw},\n  year={2024},\n  month={3},\n  environments = {robotics},\n  agents = {n/a},\n  evaluation = {human, qualitative},\n  other = {human_agent, health}\n}",
+    subsection: "environments/robotics",
+},
+        
+ 
+{ title: "Rcare world: A human-centric simulation world for caregiving robots",
+    date: "10/2022",
+    environments: "embodied, robotics",
+    agents: "two_agents",
+    evaluation: "human",
+    other: "human_agent, health",
+    url: "https://ieeexplore.ieee.org/abstract/document/9982244?casa_token=FSGmJuwmfKYAAAAA:i8sR8Icc86I1DBMR58AexWGSUUjefJlKReaJ8CCEz9y2jJQyWqxxpxGqyBkMStIx2PMzM7jnyA",
+    bibtex: "@inproceedings{ye2022rcare,\n  title={Rcare world: A human-centric simulation world for caregiving robots},\n  author={Ye, Ruolin and Xu, Wenqiang and Fu, Haoyuan and Jenamani, Rajat Kumar and Nguyen, Vy and Lu, Cewu and Dimitropoulou, Katherine and Bhattacharjee, Tapomayukh},\n  booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},\n  pages={33--40},\n  url={https://ieeexplore.ieee.org/abstract/document/9982244?casa_token=FSGmJuwmfKYAAAAA:i8sR8Icc86I1DBMR58AexWGSUUjefJlKReaJ8CCEz9y2jJQyWqxxpxGqyBkMStIx2PMzM7jnyA},\n  year={2022},\n  month={10},\n  organization={IEEE},\n  environments = {embodied, robotics},\n  agents = {two_agents},\n  evaluation = {human},\n  other = {human_agent, health}\n}",
     subsection: "environments/robotics",
 },
         
@@ -1850,18 +1886,6 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://aclanthology.org/2023.findings-emnlp.881",
     bibtex: "@inproceedings{wilf-etal-2023-difference,\n    title = \"Difference-Masking: Choosing What to Mask in Continued Pretraining\",\n    author = \"Wilf, Alex  and\n      Akter, Syeda  and\n      Mathur, Leena  and\n      Liang, Paul  and\n      Mathew, Sheryl  and\n      Shou, Mengrou  and\n      Nyberg, Eric  and\n      Morency, Louis-Philippe\",\n    editor = \"Bouamor, Houda  and\n      Pino, Juan  and\n      Bali, Kalika\",\n    booktitle = \"Findings of the Association for Computational Linguistics: EMNLP 2023\",\n    month = dec,\n    year = \"2023\",\n    address = \"Singapore\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2023.findings-emnlp.881\",\n    doi = \"10.18653/v1/2023.findings-emnlp.881\",\n    pages = \"13222--13234\",\n    abstract = \"The self-supervised objective of masked prediction has led to promising performance gains on a variety of downstream tasks. However, while most approaches randomly mask tokens, there is strong intuition that deciding what to mask can substantially improve learning outcomes. We investigate this in continued pretraining setting in which pretrained models continue to pretrain on domain-specific data before performing some downstream task. We introduce Difference-Masking, a masking strategy that automatically chooses what to mask during continued pretraining by considering what makes a task domain different from the pretraining domain. Empirically, we find that Difference-Masking outperforms baselines on continued pretraining settings across four diverse language-only and multimodal video tasks.\",\n    environments = {text, virtual},\n    agents = {pretraining, finetuning},\n    evaluation = {model_based},\n    other = {n/a},\n}",
-    subsection: "modeling/reinforcement-learning",
-},
-        
- 
-{ title: "Modeling Multimodal Social Interactions: New Challenges and Baselines with Densely Aligned Representations",
-    date: "03/2024",
-    environments: "text, virtual",
-    agents: "pretraining, finetuning",
-    evaluation: "model_based",
-    other: "n/a",
-    url: "https://arxiv.org/pdf/2403.02090",
-    bibtex: "@misc{lee2024modeling,\n  title={Modeling Multimodal Social Interactions: New Challenges and Baselines with Densely Aligned Representations}, \n  author={Sangmin Lee and Bolin Lai and Fiona Ryan and Bikram Boote and James M. Rehg},\n  year={2024},\n  month={4},\n  eprint={2403.02090},\n  archivePrefix={arXiv},\n  primaryClass={cs.CV},\n  url = \"https://arxiv.org/pdf/2403.02090\",\n  environments = {text, virtual},\n  agents = {pretraining, finetuning},\n  evaluation = {model_based},\n  other = {n/a},\n}",
     subsection: "modeling/reinforcement-learning",
 },
         
@@ -3114,6 +3138,90 @@ export const data: Paper[] = [
 },
         
  
+{ title: "A motivational system for regulating human-robot interaction",
+    date: "01/1998",
+    environments: "robotics, collaboration",
+    agents: "two_agents",
+    evaluation: "human, rule_based",
+    other: "human_agent",
+    url: "https://cdn.aaai.org/AAAI/1998/AAAI98-008.pdf",
+    bibtex: "@article{breazeal1998motivational,\n  title={A motivational system for regulating human-robot interaction},\n  author={Breazeal, Cynthia},\n  booktitle={AAAI},\n  pages={54--61},\n  url={https://cdn.aaai.org/AAAI/1998/AAAI98-008.pdf},\n  year={1998},\n  month={1},\n  environments = {robotics, collaboration},\n  agents = {two_agents},\n  evaluation = {human, rule_based},\n  other = {human_agent},\n}",
+    subsection: "interactions/robot",
+},
+        
+ 
+{ title: "Designing sociable robots",
+    date: "01/2004",
+    environments: "robotics",
+    agents: "n/a",
+    evaluation: "n/a",
+    other: "human_agent",
+    url: "https://books.google.com/books?hl=en&lr=&id=402dquhxSTQC&oi=fnd&pg=PR15&dq=Designing+sociable+robots&ots=oCRnuTx7Fk&sig=K5VP1UsSlq-8LeKIvW7dfy4qils#v=onepage&q=Designing%20sociable%20robots&f=false",
+    bibtex: "@book{breazeal2004designing,\n  title={Designing sociable robots},\n  booktitle={Designing sociable robots},\n  author={Breazeal, Cynthia},\n  year={2004},\n  month={1},\n  url={https://books.google.com/books?hl=en&lr=&id=402dquhxSTQC&oi=fnd&pg=PR15&dq=Designing+sociable+robots&ots=oCRnuTx7Fk&sig=K5VP1UsSlq-8LeKIvW7dfy4qils#v=onepage&q=Designing%20sociable%20robots&f=false},\n  environments = {robotics},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {human_agent},\n}",
+    subsection: "interactions/robot",
+},
+        
+ 
+{ title: "Social interactions in HRI: the robot view",
+    date: "05/2004",
+    environments: "robotics",
+    agents: "n/a",
+    evaluation: "n/a",
+    other: "human_agent",
+    url: "https://ieeexplore.ieee.org/abstract/document/1291665?casa_token=r2fEm_o5xWcAAAAA:b3DSFrP1u4Gnfi0xlK3AwTrX7lgmFAtVoBfjbfSNEK6VijV97E6Neb-X2U2gsVuetq1OnfXmpg",
+    bibtex: "@article{breazeal2004social,\n  title={Social interactions in HRI: the robot view},\n  author={Breazeal, Cynthia},\n  journal={IEEE transactions on systems, man, and cybernetics, part C (applications and reviews)},\n  volume={34},\n  number={2},\n  url={https://ieeexplore.ieee.org/abstract/document/1291665?casa_token=r2fEm_o5xWcAAAAA:b3DSFrP1u4Gnfi0xlK3AwTrX7lgmFAtVoBfjbfSNEK6VijV97E6Neb-X2U2gsVuetq1OnfXmpg},\n  pages={181--186},\n  year={2004},\n  month={5},\n  publisher={IEEE},\n  environments = {robotics},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {human_agent},\n}",
+    subsection: "interactions/robot",
+},
+        
+ 
+{ title: "Defining socially assistive robotics",
+    date: "06/2005",
+    environments: "robotics",
+    agents: "n/a",
+    evaluation: "n/a",
+    other: "human_agent, health, education",
+    url: "https://ieeexplore.ieee.org/abstract/document/1501143?casa_token=J_pDQmgcrBgAAAAA:YLmWY_KxfUmkaozwlAFaPhGiBaU4hbgHwGvHY_lSAVLYFrTwmIoVw3nCsDtAji0bMGW-fSP_tg",
+    bibtex: "@inproceedings{feil2005defining,\n  title={Defining socially assistive robotics},\n  booktitle={9th International Conference on Rehabilitation Robotics, 2005. ICORR 2005.},\n  author={Feil-Seifer, David and Mataric, Maja J},\n  pages={465--468},\n  year={2005},\n  month={6},\n  url={https://ieeexplore.ieee.org/abstract/document/1501143?casa_token=J_pDQmgcrBgAAAAA:YLmWY_KxfUmkaozwlAFaPhGiBaU4hbgHwGvHY_lSAVLYFrTwmIoVw3nCsDtAji0bMGW-fSP_tg},\n  organization={IEEE},\n  environments = {robotics},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {human_agent, health, education},\n}",
+    subsection: "interactions/robot",
+},
+        
+ 
+{ title: "A theory of social agency for human-robot interaction",
+    date: "08/2021",
+    environments: "robotics",
+    agents: "n/a",
+    evaluation: "n/a",
+    other: "human_agent",
+    url: "https://www.frontiersin.org/articles/10.3389/frobt.2021.687726/full",
+    bibtex: "@article{jackson2021theory,\n  title={A theory of social agency for human-robot interaction},\n  author={Jackson, Ryan Blake and Williams, Tom},\n  journal={Frontiers in Robotics and AI},\n  volume={8},\n  pages={687726},\n  year={2021},\n  month={8},\n  url={https://www.frontiersin.org/articles/10.3389/frobt.2021.687726/full},\n  publisher={Frontiers Media SA},\n  environments = {robotics},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {human_agent},\n}",
+    subsection: "interactions/robot",
+},
+        
+ 
+{ title: "Modeling user empathy elicited by a robot storyteller",
+    date: "09/2021",
+    environments: "robotics",
+    agents: "two_agents",
+    evaluation: "model_based",
+    other: "human_agent",
+    url: "https://ieeexplore.ieee.org/abstract/document/9597416?casa_token=4fjR0n805JUAAAAA:nDXszwzYANcmCWf3susQltBqeKo7AQioDEK879xPBHGiy4koXs7dNXAq1U2nk35dR3O97RI6AQ",
+    bibtex: "@inproceedings{mathur2021modeling,\n  title={Modeling user empathy elicited by a robot storyteller},\n  author={Mathur, Leena and Spitale, Micol and Xi, Hao and Li, Jieyun and Matari{\\'c}, Maja J},\n  booktitle={2021 9th International Conference on Affective Computing and Intelligent Interaction (ACII)},\n  pages={1--8},\n  year={2021},\n  month={9},\n  url={https://ieeexplore.ieee.org/abstract/document/9597416?casa_token=4fjR0n805JUAAAAA:nDXszwzYANcmCWf3susQltBqeKo7AQioDEK879xPBHGiy4koXs7dNXAq1U2nk35dR3O97RI6AQ},\n  organization={IEEE},\n  environments = {robotics},\n  agents = {two_agents},\n  evaluation = {model_based},\n  other = {human_agent},\n}",
+    subsection: "interactions/robot",
+},
+        
+ 
+{ title: "Effects of nonverbal communication on efficiency and robustness in human-robot teamwork",
+    date: "08/2005",
+    environments: "robotics, collaboration, implicit_objectives",
+    agents: "two_agents",
+    evaluation: "qualitative, human, rule_based",
+    other: "human_agent",
+    url: "https://ieeexplore.ieee.org/abstract/document/1545011?casa_token=z47EAc9MSzQAAAAA:us7xcTS86GLcCCd5gQAh-LA5MFN2Yi9KSqgaKIGAa1zimtUBrHu1ZSjct-3ZPYnn86RQ_659kg",
+    bibtex: "@inproceedings{breazeal2005effects,\n  title={Effects of nonverbal communication on efficiency and robustness in human-robot teamwork},\n  booktitle={2005 IEEE/RSJ international conference on intelligent robots and systems},\n  author={Breazeal, Cynthia and Kidd, Cory D and Thomaz, Andrea Lockerd and Hoffman, Guy and Berlin, Matt},\n  pages={708--713},\n  url={https://ieeexplore.ieee.org/abstract/document/1545011?casa_token=z47EAc9MSzQAAAAA:us7xcTS86GLcCCd5gQAh-LA5MFN2Yi9KSqgaKIGAa1zimtUBrHu1ZSjct-3ZPYnn86RQ_659kg},\n  year={2005},\n  month={8},\n  organization={IEEE},\n  environments = {robotics, collaboration, implicit_objectives},\n  agents = {two_agents},\n  evaluation = {qualitative, human, rule_based},\n  other = {human_agent},\n}",
+    subsection: "interactions/robot",
+},
+        
+ 
 { title: "Rehearsal: Simulating conflict to teach conflict resolution",
     date: "09/2023",
     environments: "implicit_objectives, text",
@@ -3330,6 +3438,18 @@ export const data: Paper[] = [
 },
         
  
+{ title: "Modeling Multimodal Social Interactions: New Challenges and Baselines with Densely Aligned Representations",
+    date: "04/2024",
+    environments: "virtual",
+    agents: "two_agents, more_than_three_agents, agent_teams",
+    evaluation: "model_based",
+    other: "n/a",
+    url: "https://arxiv.org/abs/2403.02090",
+    bibtex: "@article{lee2024modeling,\n  title={Modeling Multimodal Social Interactions: New Challenges and Baselines with Densely Aligned Representations},\n  author={Lee, Sangmin and Lai, Bolin and Ryan, Fiona and Boote, Bikram and Rehg, James M},\n  journal={arXiv preprint arXiv:2403.02090},\n  year={2024},\n  month={4},\n  url={https://arxiv.org/abs/2403.02090},\n  environments = {virtual},\n\tagents = {two_agents, more_than_three_agents, agent_teams},\n\tevaluation = {model_based},\n\tother = {n/a}\n}",
+    subsection: "interactions/human",
+},
+        
+ 
 { title: "TV-TREES: Multimodal Entailment Trees for Neuro-Symbolic Video Reasoning",
     date: "02/2024",
     environments: "text, virtual",
@@ -3518,6 +3638,54 @@ export const data: Paper[] = [
     other: "health",
     url: "https://asistdl.onlinelibrary.wiley.com/doi/pdf/10.1002/asi.24145?casa_token=T2fVrVRwmt0AAAAA:IT7GOCcygCdBuckrO5UqRg0hlWXOU3YUx1UPqi2kVG8XxxQfNxMDY6JBm5Kcz1XuO5Xsjo9H7KzCOOv-",
     bibtex: "@article{pee2019artificial,\n  title={Artificial intelligence in healthcare robots: A social informatics study of knowledge embodiment},\n  author={Pee, Loo G and Pan, Shan L and Cui, Lili},\n  journal={Journal of the Association for Information Science and Technology},\n  volume={70},\n  number={4},\n  pages={351--369},\n  year={2019},\n  month={1},\n  url={https://asistdl.onlinelibrary.wiley.com/doi/pdf/10.1002/asi.24145?casa_token=T2fVrVRwmt0AAAAA:IT7GOCcygCdBuckrO5UqRg0hlWXOU3YUx1UPqi2kVG8XxxQfNxMDY6JBm5Kcz1XuO5Xsjo9H7KzCOOv-},\n  publisher={Wiley Online Library},\n  environments = {robotics},\n  agents = {two_agents},\n  evaluation = {qualitative, human},\n  other = {health},\n}",
+    subsection: "applications/health",
+},
+        
+ 
+{ title: "Can robots help in the evaluation of mental wellbeing in children? an empirical study",
+    date: "08/2022",
+    environments: "robotics",
+    agents: "two_agents",
+    evaluation: "qualitative, human",
+    other: "health",
+    url: "https://ieeexplore.ieee.org/abstract/document/9900843?casa_token=jOdy7sIRjzkAAAAA:8cWuFA-woc9y6zJ3sdFIFjtn-o5tU0gNGQV5Kp2zASlRspes10KQP3Io6EvGOjxwz06OU1Qv-A",
+    bibtex: "@inproceedings{abbasi2022can,\n  title={Can robots help in the evaluation of mental wellbeing in children? an empirical study},\n  author={Abbasi, Nida Itrat and Spitale, Micol and Anderson, Joanna and Ford, Tamsin and Jones, Peter B and Gunes, Hatice},\n  booktitle={2022 31st IEEE international conference on robot and human interactive communication (RO-MAN)},\n  pages={1459--1466},\n  year={2022},\n  month={8},\n  url={https://ieeexplore.ieee.org/abstract/document/9900843?casa_token=jOdy7sIRjzkAAAAA:8cWuFA-woc9y6zJ3sdFIFjtn-o5tU0gNGQV5Kp2zASlRspes10KQP3Io6EvGOjxwz06OU1Qv-A}, \n  organization={IEEE},\n  environments = {robotics},\n  agents = {two_agents},\n  evaluation = {qualitative, human},\n  other = {health},\n}",
+    subsection: "applications/health",
+},
+        
+ 
+{ title: "Robots for use in autism research",
+    date: "08/2012",
+    environments: "robotics",
+    agents: "two_agents, more_than_three_agents, agent_teams",
+    evaluation: "n/a",
+    other: "health, human_agent",
+    url: "https://www.annualreviews.org/content/journals/10.1146/annurev-bioeng-071811-150036",
+    bibtex: "@article{scassellati2012robots,\n  title={Robots for use in autism research},\n  author={Scassellati, Brian and Admoni, Henny and Matari{\\'c}, Maja},\n  journal={Annual review of biomedical engineering},\n  volume={14},\n  pages={275--294},\n  year={2012},\n  month={8},\n  url={https://www.annualreviews.org/content/journals/10.1146/annurev-bioeng-071811-150036},\n  publisher={Annual Reviews},\n  environments = {robotics},\n  agents = {two_agents, more_than_three_agents, agent_teams},\n  evaluation = {n/a},\n  other = {health, human_agent},\n}",
+    subsection: "applications/health",
+},
+        
+ 
+{ title: "A socially assistive robot exercise coach for the elderly",
+    date: "06/2013",
+    environments: "robotics",
+    agents: "two_agents, more_than_three_agents, agent_teams",
+    evaluation: "human, qualitative, rule_based",
+    other: "health, human_agent",
+    url: "https://dl.acm.org/doi/abs/10.5898/JHRI.2.2.Fasola",
+    bibtex: "@article{fasola2013socially,\n  title={A socially assistive robot exercise coach for the elderly},\n  author={Fasola, Juan and Matari{\\'c}, Maja J},\n  journal={Journal of Human-Robot Interaction},\n  volume={2},\n  number={2},\n  pages={3--32},\n  year={2013},\n  month={6},\n  url={https://dl.acm.org/doi/abs/10.5898/JHRI.2.2.Fasola},\n  publisher={Journal of Human-Robot Interaction Steering Committee},\n  environments = {robotics},\n  agents = {two_agents, more_than_three_agents, agent_teams},\n  evaluation = {human, qualitative, rule_based},\n  other = {health, human_agent},\n}",
+    subsection: "applications/health",
+},
+        
+ 
+{ title: "Personalized machine learning for robot perception of affect and engagement in autism therapy",
+    date: "06/2018",
+    environments: "robotics",
+    agents: "two_agents",
+    evaluation: "model_based",
+    other: "health, human_agent",
+    url: "https://www.science.org/doi/full/10.1126/scirobotics.aao6760?casa_token=_j3wU-emDEsAAAAA%3AvNVp58F1dqbzR-L09jHatPxzPq7Z6k8f2Fu-Pnswt1b0pLJtvW5kZLE3chqezzEf6Mi8_WiPIjF83fk",
+    bibtex: "@article{rudovic2018personalized,\n  title={Personalized machine learning for robot perception of affect and engagement in autism therapy},\n  author={Rudovic, Ognjen and Lee, Jaeryoung and Dai, Miles and Schuller, Bj{\\\"o}rn and Picard, Rosalind W},\n  journal={Science Robotics},\n  volume={3},\n  number={19},\n  pages={eaao6760},\n  year={2018},\n  month={6},\n  url={https://www.science.org/doi/full/10.1126/scirobotics.aao6760?casa_token=_j3wU-emDEsAAAAA%3AvNVp58F1dqbzR-L09jHatPxzPq7Z6k8f2Fu-Pnswt1b0pLJtvW5kZLE3chqezzEf6Mi8_WiPIjF83fk},\n  publisher={American Association for the Advancement of Science},\n  environments = {robotics},\n  agents = {two_agents},\n  evaluation = {model_based},\n  other = {health, human_agent},\n}",
     subsection: "applications/health",
 },
         
@@ -3914,6 +4082,18 @@ export const data: Paper[] = [
     other: "education, more_omniscient",
     url: "https://link.springer.com/chapter/10.1007/978-3-319-93843-1_21",
     bibtex: "@INPROCEEDINGS{Lubold2018-em,\n  title     = \"Automated Pitch Convergence Improves Learning in a Social,\n               Teachable Robot for Middle School Mathematics\",\n  booktitle = \"Artificial Intelligence in Education\",\n  author    = \"Lubold, Nichola and Walker, Erin and Pon-Barry, Heather and\n               Ogan, Amy\",\n  publisher = \"Springer International Publishing\",\n  pages     = \"282-296\",\n  month = {June},\n  year      =  2018,\n  url = \"https://link.springer.com/chapter/10.1007/978-3-319-93843-1_21\",\n  environments = {mixed_objectives, robotics},\n  agents = {two_agents},\n  evaluation = {human, rule_based},\n  other = {education, more_omniscient}\n}",
+    subsection: "applications/education",
+},
+        
+ 
+{ title: "Affective personalization of a social robot tutor for children\u2019s second language skills",
+    date: "03/2016",
+    environments: "robotics, collaboration",
+    agents: "reinforcement_learning",
+    evaluation: "human, model_based, rule_based",
+    other: "human_agent, education",
+    url: "https://ojs.aaai.org/index.php/AAAI/article/view/9914",
+    bibtex: "@inproceedings{gordon2016affective,\n  title={Affective personalization of a social robot tutor for children\u2019s second language skills},\n  author={Gordon, Goren and Spaulding, Samuel and Westlund, Jacqueline Kory and Lee, Jin Joo and Plummer, Luke and Martinez, Marayna and Das, Madhurima and Breazeal, Cynthia},\n  booktitle={Proceedings of the AAAI conference on artificial intelligence},\n  volume={30},\n  number={1},\n  year={2016},\n  month={3},\n  url={https://ojs.aaai.org/index.php/AAAI/article/view/9914},\n  environments = {robotics, collaboration},\n  agents = {reinforcement_learning},\n  evaluation = {human, model_based, rule_based},\n  other = {human_agent, education},\n}",
     subsection: "applications/education",
 },
         
