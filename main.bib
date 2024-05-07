@@ -2367,6 +2367,152 @@ url={https://openreview.net/forum?id=4znwzG92CE},
   other = {n/a}
 }
 
+#### Pretraining
+
+@inproceedings{wilf2023face,
+  title={Face-to-face contrastive learning for social intelligence question-answering},
+  author={Wilf, Alex and Ma, Martin Q and Liang, Paul Pu and Zadeh, Amir and Morency, Louis-Philippe},
+  booktitle={2023 IEEE 17th International Conference on Automatic Face and Gesture Recognition (FG)},
+  pages={1--7},
+  year={2023},
+  month={5},
+  organization={IEEE},
+  url = "https://arxiv.org/pdf/2208.01036",
+  environments = {text, virtual},
+  agents = {pretraining, finetuning},
+  evaluation = {model_based},
+  other = {n/a},
+}
+
+@inproceedings{wilf-etal-2023-difference,
+    title = "Difference-Masking: Choosing What to Mask in Continued Pretraining",
+    author = "Wilf, Alex  and
+      Akter, Syeda  and
+      Mathur, Leena  and
+      Liang, Paul  and
+      Mathew, Sheryl  and
+      Shou, Mengrou  and
+      Nyberg, Eric  and
+      Morency, Louis-Philippe",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.881",
+    doi = "10.18653/v1/2023.findings-emnlp.881",
+    pages = "13222--13234",
+    abstract = "The self-supervised objective of masked prediction has led to promising performance gains on a variety of downstream tasks. However, while most approaches randomly mask tokens, there is strong intuition that deciding what to mask can substantially improve learning outcomes. We investigate this in continued pretraining setting in which pretrained models continue to pretrain on domain-specific data before performing some downstream task. We introduce Difference-Masking, a masking strategy that automatically chooses what to mask during continued pretraining by considering what makes a task domain different from the pretraining domain. Empirically, we find that Difference-Masking outperforms baselines on continued pretraining settings across four diverse language-only and multimodal video tasks.",
+    environments = {text, virtual},
+    agents = {pretraining, finetuning},
+    evaluation = {model_based},
+    other = {n/a},
+}
+
+
+@misc{lee2024modeling,
+  title={Modeling Multimodal Social Interactions: New Challenges and Baselines with Densely Aligned Representations}, 
+  author={Sangmin Lee and Bolin Lai and Fiona Ryan and Bikram Boote and James M. Rehg},
+  year={2024},
+  month={4},
+  eprint={2403.02090},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url = "https://arxiv.org/pdf/2403.02090",
+  environments = {text, virtual},
+  agents = {pretraining, finetuning},
+  evaluation = {model_based},
+  other = {n/a},
+}
+
+
+@inproceedings{chang-etal-2020-incorporating,
+    title = "Incorporating Commonsense Knowledge Graph in Pretrained Models for Social Commonsense Tasks",
+    author = "Chang, Ting-Yun  and
+      Liu, Yang  and
+      Gopalakrishnan, Karthik  and
+      Hedayatnia, Behnam  and
+      Zhou, Pei  and
+      Hakkani-Tur, Dilek",
+    editor = "Agirre, Eneko  and
+      Apidianaki, Marianna  and
+      Vuli{\'c}, Ivan",
+    booktitle = "Proceedings of Deep Learning Inside Out (DeeLIO): The First Workshop on Knowledge Extraction and Integration for Deep Learning Architectures",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.deelio-1.9",
+    doi = "10.18653/v1/2020.deelio-1.9",
+    pages = "74--79",
+    abstract = "Pretrained language models have excelled at many NLP tasks recently; however, their social intelligence is still unsatisfactory. To enable this, machines need to have a more general understanding of our complicated world and develop the ability to perform commonsense reasoning besides fitting the specific downstream tasks. External commonsense knowledge graphs (KGs), such as ConceptNet, provide rich information about words and their relationships. Thus, towards general commonsense learning, we propose two approaches to implicitly and explicitly infuse such KGs into pretrained language models. We demonstrate our proposed methods perform well on SocialIQA, a social commonsense reasoning task, in both limited and full training data regimes.",
+    environments = {text, virtual},
+    agents = {pretraining, finetuning},
+    evaluation = {model_based},
+    other = {n/a},
+}
+
+
+@inproceedings{kim-etal-2023-examining,
+    title = "Examining Consistency of Visual Commonsense Reasoning based on Person Grounding",
+    author = "Kim, Huiju  and
+      Kang, Youjin  and
+      Lee, SangKeun",
+    editor = "Park, Jong C.  and
+      Arase, Yuki  and
+      Hu, Baotian  and
+      Lu, Wei  and
+      Wijaya, Derry  and
+      Purwarianti, Ayu  and
+      Krisnadhi, Adila Alfa",
+    booktitle = "Proceedings of the 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = nov,
+    year = "2023",
+    address = "Nusa Dua, Bali",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.ijcnlp-main.66",
+    doi = "10.18653/v1/2023.ijcnlp-main.66",
+    pages = "1026--1039",
+    environments = {text, virtual},
+    agents = {pretraining, finetuning},
+    evaluation = {model_based},
+    other = {n/a},
+}
+
+@misc{ma2024eventlens,
+    title={EventLens: Leveraging Event-Aware Pretraining and Cross-modal Linking Enhances Visual Commonsense Reasoning}, 
+    author={Mingjie Ma and Zhihuan Yu and Yichao Ma and Guohui Li},
+    year={2024},
+    month={4},
+    eprint={2404.13847},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV},
+    url = "https://arxiv.org/pdf/2404.13847",
+    environments = {text, virtual},
+    agents = {pretraining, finetuning},
+    evaluation = {model_based},
+    other = {n/a},
+}
+
+
+@misc{sukhbaatar2024branchtrainmix,
+    title={Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM}, 
+    author={Sainbayar Sukhbaatar and Olga Golovneva and Vasu Sharma and Hu Xu and Xi Victoria Lin and Baptiste Rozière and Jacob Kahn and Daniel Li and Wen-tau Yih and Jason Weston and Xian Li},
+    year={2024},
+    month={3},
+    eprint={2403.07816},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    url = "https://arxiv.org/pdf/2403.07816",
+    environments = {text},
+    agents = {pretraining, finetuning},
+    evaluation = {model_based},
+    other = {n/a},
+}
+
 ### Evaluating social agents
 
 #### Evaluating text social agents
@@ -5839,150 +5985,6 @@ month = {8}
   other = {n/a},
 }
 
-#### Pretraining
 
-@inproceedings{wilf2023face,
-  title={Face-to-face contrastive learning for social intelligence question-answering},
-  author={Wilf, Alex and Ma, Martin Q and Liang, Paul Pu and Zadeh, Amir and Morency, Louis-Philippe},
-  booktitle={2023 IEEE 17th International Conference on Automatic Face and Gesture Recognition (FG)},
-  pages={1--7},
-  year={2023},
-  month={5},
-  organization={IEEE},
-  url = "https://arxiv.org/pdf/2208.01036",
-  environments = {text, virtual},
-  agents = {pretraining, finetuning},
-  evaluation = {model_based},
-  other = {n/a},
-}
-
-@inproceedings{wilf-etal-2023-difference,
-    title = "Difference-Masking: Choosing What to Mask in Continued Pretraining",
-    author = "Wilf, Alex  and
-      Akter, Syeda  and
-      Mathur, Leena  and
-      Liang, Paul  and
-      Mathew, Sheryl  and
-      Shou, Mengrou  and
-      Nyberg, Eric  and
-      Morency, Louis-Philippe",
-    editor = "Bouamor, Houda  and
-      Pino, Juan  and
-      Bali, Kalika",
-    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
-    month = dec,
-    year = "2023",
-    address = "Singapore",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2023.findings-emnlp.881",
-    doi = "10.18653/v1/2023.findings-emnlp.881",
-    pages = "13222--13234",
-    abstract = "The self-supervised objective of masked prediction has led to promising performance gains on a variety of downstream tasks. However, while most approaches randomly mask tokens, there is strong intuition that deciding what to mask can substantially improve learning outcomes. We investigate this in continued pretraining setting in which pretrained models continue to pretrain on domain-specific data before performing some downstream task. We introduce Difference-Masking, a masking strategy that automatically chooses what to mask during continued pretraining by considering what makes a task domain different from the pretraining domain. Empirically, we find that Difference-Masking outperforms baselines on continued pretraining settings across four diverse language-only and multimodal video tasks.",
-    environments = {text, virtual},
-    agents = {pretraining, finetuning},
-    evaluation = {model_based},
-    other = {n/a},
-}
-
-
-@misc{lee2024modeling,
-  title={Modeling Multimodal Social Interactions: New Challenges and Baselines with Densely Aligned Representations}, 
-  author={Sangmin Lee and Bolin Lai and Fiona Ryan and Bikram Boote and James M. Rehg},
-  year={2024},
-  month={4},
-  eprint={2403.02090},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV},
-  url = "https://arxiv.org/pdf/2403.02090",
-  environments = {text, virtual},
-  agents = {pretraining, finetuning},
-  evaluation = {model_based},
-  other = {n/a},
-}
-
-
-@inproceedings{chang-etal-2020-incorporating,
-    title = "Incorporating Commonsense Knowledge Graph in Pretrained Models for Social Commonsense Tasks",
-    author = "Chang, Ting-Yun  and
-      Liu, Yang  and
-      Gopalakrishnan, Karthik  and
-      Hedayatnia, Behnam  and
-      Zhou, Pei  and
-      Hakkani-Tur, Dilek",
-    editor = "Agirre, Eneko  and
-      Apidianaki, Marianna  and
-      Vuli{\'c}, Ivan",
-    booktitle = "Proceedings of Deep Learning Inside Out (DeeLIO): The First Workshop on Knowledge Extraction and Integration for Deep Learning Architectures",
-    month = nov,
-    year = "2020",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2020.deelio-1.9",
-    doi = "10.18653/v1/2020.deelio-1.9",
-    pages = "74--79",
-    abstract = "Pretrained language models have excelled at many NLP tasks recently; however, their social intelligence is still unsatisfactory. To enable this, machines need to have a more general understanding of our complicated world and develop the ability to perform commonsense reasoning besides fitting the specific downstream tasks. External commonsense knowledge graphs (KGs), such as ConceptNet, provide rich information about words and their relationships. Thus, towards general commonsense learning, we propose two approaches to implicitly and explicitly infuse such KGs into pretrained language models. We demonstrate our proposed methods perform well on SocialIQA, a social commonsense reasoning task, in both limited and full training data regimes.",
-    environments = {text, virtual},
-    agents = {pretraining, finetuning},
-    evaluation = {model_based},
-    other = {n/a},
-}
-
-
-@inproceedings{kim-etal-2023-examining,
-    title = "Examining Consistency of Visual Commonsense Reasoning based on Person Grounding",
-    author = "Kim, Huiju  and
-      Kang, Youjin  and
-      Lee, SangKeun",
-    editor = "Park, Jong C.  and
-      Arase, Yuki  and
-      Hu, Baotian  and
-      Lu, Wei  and
-      Wijaya, Derry  and
-      Purwarianti, Ayu  and
-      Krisnadhi, Adila Alfa",
-    booktitle = "Proceedings of the 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    month = nov,
-    year = "2023",
-    address = "Nusa Dua, Bali",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2023.ijcnlp-main.66",
-    doi = "10.18653/v1/2023.ijcnlp-main.66",
-    pages = "1026--1039",
-    environments = {text, virtual},
-    agents = {pretraining, finetuning},
-    evaluation = {model_based},
-    other = {n/a},
-}
-
-@misc{ma2024eventlens,
-    title={EventLens: Leveraging Event-Aware Pretraining and Cross-modal Linking Enhances Visual Commonsense Reasoning}, 
-    author={Mingjie Ma and Zhihuan Yu and Yichao Ma and Guohui Li},
-    year={2024},
-    month={4},
-    eprint={2404.13847},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV},
-    url = "https://arxiv.org/pdf/2404.13847",
-    environments = {text, virtual},
-    agents = {pretraining, finetuning},
-    evaluation = {model_based},
-    other = {n/a},
-}
-
-
-@misc{sukhbaatar2024branchtrainmix,
-    title={Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM}, 
-    author={Sainbayar Sukhbaatar and Olga Golovneva and Vasu Sharma and Hu Xu and Xi Victoria Lin and Baptiste Rozière and Jacob Kahn and Daniel Li and Wen-tau Yih and Jason Weston and Xian Li},
-    year={2024},
-    month={3},
-    eprint={2403.07816},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL},
-    url = "https://arxiv.org/pdf/2403.07816",
-    environments = {text},
-    agents = {pretraining, finetuning},
-    evaluation = {model_based},
-    other = {n/a},
-}
 
  main
