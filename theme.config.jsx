@@ -62,7 +62,7 @@ export default {
             type: 'website',
             images: [
               {
-                url: '',
+                url: 'https://sotopia-lab.github.io/awesome-social-agents/preview.png',
               }
             ],
             locale: 'en_US',
@@ -72,6 +72,7 @@ export default {
         },
         twitter: {
             cardType: 'summary_large_image',
+            title: 'Please check out our curated list of awesome social agents.',
             image: 'https://sotopia-lab.github.io/awesome-social-agents/preview.png',
         },
       }
