@@ -45,8 +45,8 @@ class PlotController extends PureComponent<{}, State> {
         />
           </div>
         </div>
-        <p className="text-md italic bg-slate-100 dark:bg-slate-700 rounded-lg p-5 my-4 mx-10 shadow-sm">Paper stats acrosss domains (text, virtual, embodied, robotics) and last 10 years with respect to different dimensions.
-        The interpretation of the numbers should be grounded by the nature of non-exhaustive search and onging efforts of adding papers.
+        <p className="text-md italic bg-slate-100 dark:bg-slate-700 rounded-lg p-5 my-4 mx-10 shadow-sm">Paper stats across domains (text, virtual, embodied, robotics) and last 10 years with respect to different dimensions.
+        The interpretation of these numbers should be informed by the limitations of non-exhaustive search methods and the ongoing efforts to include additional research papers.
         </p>
         <div className="antialiased rounded-lg bg-slate-100 dark:bg-slate-700 p-5 mx-10 shadow-sm">
             <p className="text-md italic rounded-lg p-3">
