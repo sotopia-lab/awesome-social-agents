@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default {
     logo: <div className="flex items-center"> 
     <svg className="h-8 mx-2 dark:text-sky-300 dark:drop-shadow-[0_3px_10px_#bae6fd]"
@@ -47,9 +49,9 @@ export default {
   banner: {
     key: 'cmu-agent-workshop-1',
     text: (
-      <a href="https://cmu-agent-workshop.github.io/social_agent" target="_blank">
-        🎉 Join our seminar at CMU Agent Workshop (10-12, May 3rd, CMU) →
-      </a>
+      <Link href="/contribution" target="_blank">
+        Want to contribute to this project? ✨ Click here to learn more.
+      </Link>
     )
   },
     useNextSeoProps() {
