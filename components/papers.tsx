@@ -1266,6 +1266,18 @@ export const data: Paper[] = [
 },
         
  
+{ title: "Pragmatic Instruction Following and Goal Assistance via Cooperative Language-Guided Inverse Planning",
+    date: "02/2024",
+    environments: "collaboration, mixed_objectives, implicit_objectives, embodied",
+    agents: "prompting_and_in_context_learning",
+    evaluation: "rule_based",
+    other: "simulated_humans",
+    url: "https://arxiv.org/abs/2402.17930",
+    bibtex: "@article{zhi2024pragmatic,\n  title={Pragmatic Instruction Following and Goal Assistance via Cooperative Language-Guided Inverse Planning},\n  author={Zhi-Xuan, Tan and Ying, Lance and Mansinghka, Vikash and Tenenbaum, Joshua B},\n  journal={arXiv preprint arXiv:2402.17930},\n  year={2024},\n  month={2},\n  url={https://arxiv.org/abs/2402.17930},\n  environments = {collaboration, mixed_objectives, implicit_objectives, embodied},\n  agents = {prompting_and_in_context_learning},\n  evaluation = {rule_based},\n  other = {simulated_humans}\n}",
+    subsection: "modeling/in-context-learning",
+},
+        
+ 
 { title: "AutoGuide: Automated Generation and Selection of State-Aware Guidelines for Large Language Model Agents",
     date: "03/2024",
     environments: "virtual",
