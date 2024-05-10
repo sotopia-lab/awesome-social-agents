@@ -316,6 +316,8 @@
 
 [10, 2023] [Language agents with reinforcement learning for strategic play in the werewolf game](https://arxiv.org/abs/2310.18940), Zelai Xu et al., arXiv preprint arXiv:2310.18940
 
+[5, 2023] [Asynchronous Multi-Agent Reinforcement Learning for Efficient Real-Time Multi-Robot Cooperative Exploration](https://dl.acm.org/doi/abs/10.5555/3545946.3598752), Chao Yu et al., Proceedings of the 2023 International Conference on Autonomous Agents and Multiagent Systems
+
 [5, 2023] [Face-to-face contrastive learning for social intelligence question-answering](https://arxiv.org/pdf/2208.01036), Alex Wilf et al., 2023 IEEE 17th International Conference on Automatic Face and Gesture Recognition (FG)
 
 [03, 2023] [Computational Language Acquisition with Theory of Mind](https://arxiv.org/abs/2303.01502), Andy Liu et al., arXiv

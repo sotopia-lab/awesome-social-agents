@@ -1758,6 +1758,18 @@ export const data: Paper[] = [
 },
         
  
+{ title: "Asynchronous Multi-Agent Reinforcement Learning for Efficient Real-Time Multi-Robot Cooperative Exploration",
+    date: "05/2023",
+    environments: "collaboration, competition, mixed_objectives, robotics",
+    agents: "reinforcement_learning, more_than_three_agents, agent_teams",
+    evaluation: "rule_based",
+    other: "n/a",
+    url: "https://dl.acm.org/doi/abs/10.5555/3545946.3598752",
+    bibtex: "@inproceedings{yu2023asynchronous,\n  title={Asynchronous Multi-Agent Reinforcement Learning for Efficient Real-Time Multi-Robot Cooperative Exploration},\n  author={Yu, Chao and Yang, Xinyi and Gao, Jiaxuan and Chen, Jiayu and Li, Yunfei and Liu, Jijia and Xiang, Yunfei and Huang, Ruixin and Yang, Huazhong and Wu, Yi and others},\n  booktitle={Proceedings of the 2023 International Conference on Autonomous Agents and Multiagent Systems},\n  pages={1107--1115},\n  year={2023},\n  month={5},\n  url={https://dl.acm.org/doi/abs/10.5555/3545946.3598752},\n  environments={collaboration, competition, mixed_objectives, robotics},\n  agents={reinforcement_learning, more_than_three_agents, agent_teams},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    subsection: "modeling/reinforcement-learning",
+},
+        
+ 
 { title: "Autonomous Evaluation and Refinement of Digital Agents",
     date: "04/2024",
     environments: "virtual",
