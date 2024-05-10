@@ -1770,6 +1770,18 @@ export const data: Paper[] = [
 },
         
  
+{ title: "Investigating partner diversification methods in cooperative multi-agent deep reinforcement learning",
+    date: "11/2020",
+    environments: "collaboration, virtual",
+    agents: "reinforcement_learning, two_agents",
+    evaluation: "rule_based",
+    other: "n/a",
+    url: "https://link.springer.com/chapter/10.1007/978-3-030-63823-8_46",
+    bibtex: "@inproceedings{charakorn2020investigating,\n  title={Investigating partner diversification methods in cooperative multi-agent deep reinforcement learning},\n  author={Charakorn, Rujikorn and Manoonpong, Poramate and Dilokthanakul, Nat},\n  booktitle={Neural Information Processing: 27th International Conference, ICONIP 2020, Bangkok, Thailand, November 18--22, 2020, Proceedings, Part V 27},\n  pages={395--402},\n  year={2020},\n  organization={Springer},\n  month={11},\n  url={https://link.springer.com/chapter/10.1007/978-3-030-63823-8_46},\n  environments={collaboration, virtual},\n  agents={reinforcement_learning, two_agents},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    subsection: "modeling/reinforcement-learning",
+},
+        
+ 
 { title: "Autonomous Evaluation and Refinement of Digital Agents",
     date: "04/2024",
     environments: "virtual",

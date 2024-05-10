@@ -326,6 +326,8 @@
 
 [4, 2022] [Language games meet multi-agent reinforcement learning: A case study for the naming game](https://academic.oup.com/jole/article/7/2/213/7128304), Paul Van Eecke et al., Journal of Language Evolution
 
+[11, 2020] [Investigating partner diversification methods in cooperative multi-agent deep reinforcement learning](https://link.springer.com/chapter/10.1007/978-3-030-63823-8_46), Rujikorn Charakorn et al., Neural Information Processing: 27th International Conference, ICONIP 2020, Bangkok, Thailand, November 18--22, 2020, Proceedings, Part V 27
+
 [11, 2020] [Incorporating Commonsense Knowledge Graph in Pretrained Models for Social Commonsense Tasks](https://aclanthology.org/2020.deelio-1.9), Chang et al., Proceedings of Deep Learning Inside Out (DeeLIO): The First Workshop on Knowledge Extraction and Integration for Deep Learning Architectures
 
 [11, 2019] [{EGG}: a toolkit for research on Emergence of lan{G}uage in Games](https://aclanthology.org/D19-3010), Kharitonov et al., Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP): System Demonstrations
