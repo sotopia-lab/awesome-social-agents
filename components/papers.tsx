@@ -1446,6 +1446,18 @@ export const data: Paper[] = [
 },
         
  
+{ title: "Werewolf among us: Multimodal resources for modeling persuasion behaviors in social deduction games",
+    date: "07/2023",
+    environments: "virtual, collaboration, competition, mixed_objectives",
+    agents: "finetuning",
+    evaluation: "rule_based, human",
+    other: "human_agent",
+    url: "https://aclanthology.org/2023.findings-acl.411/",
+    bibtex: "@inproceedings{lai2023werewolf,\n  title={Werewolf among us: Multimodal resources for modeling persuasion behaviors in social deduction games},\n  author={Lai, Bolin and Zhang, Hongxin and Liu, Miao and Pariani, Aryan and Ryan, Fiona and Jia, Wenqi and Hayati, Shirley Anugrah and Rehg, James and Yang, Diyi},\n  booktitle={Findings of the Association for Computational Linguistics: ACL 2023},\n  pages={6570--6588},\n  year={2023},\n  url={https://aclanthology.org/2023.findings-acl.411/},\n  month={7},\n  environments={virtual, collaboration, competition, mixed_objectives},\n  agents={finetuning},\n  evaluation={rule_based, human},\n  other={human_agent}\n}",
+    subsection: "modeling/finetuning",
+},
+        
+ 
 { title: "Trial and Error: Exploration-Based Trajectory Optimization for LLM Agents",
     date: "03/2024",
     environments: "virtual",
@@ -1731,6 +1743,18 @@ export const data: Paper[] = [
     url: "https://openaccess.thecvf.com/content/ICCV2023W/ASI/papers/Xie_Multi-Modal_Correlated_Network_with_Emotional_Reasoning_Knowledge_for_Social_Intelligence_ICCVW_2023_paper.pdf",
     bibtex: "@InProceedings{Xie_2023_ICCV,\n    author    = {Xie, Baijun and Park, Chung Hyuk},\n    title     = {Multi-Modal Correlated Network with Emotional Reasoning Knowledge for Social Intelligence Question-Answering},\n    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},\n    month     = {October},\n    year      = {2023},\n    pages     = {3075-3081},\n    url = \"https://openaccess.thecvf.com/content/ICCV2023W/ASI/papers/Xie_Multi-Modal_Correlated_Network_with_Emotional_Reasoning_Knowledge_for_Social_Intelligence_ICCVW_2023_paper.pdf\",\n    environments = {text, virtual},\n  agents = {pretraining, finetuning},\n  evaluation = {model_based},\n  other = {n/a},\n}",
     subsection: "modeling/finetuning",
+},
+        
+ 
+{ title: "Language agents with reinforcement learning for strategic play in the werewolf game",
+    date: "10/2023",
+    environments: "collaboration, competition, mixed_objectives, text",
+    agents: "reinforcement_learning, more_than_three_agents, agent_teams",
+    evaluation: "rule_based",
+    other: "n/a",
+    url: "https://arxiv.org/abs/2310.18940",
+    bibtex: "@article{xu2023language,\n  title={Language agents with reinforcement learning for strategic play in the werewolf game},\n  author={Xu, Zelai and Yu, Chao and Fang, Fei and Wang, Yu and Wu, Yi},\n  journal={arXiv preprint arXiv:2310.18940},\n  year={2023},\n  month={10},\n  url={https://arxiv.org/abs/2310.18940},\n  environments={collaboration, competition, mixed_objectives, text},\n  agents={reinforcement_learning, more_than_three_agents, agent_teams},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    subsection: "modeling/reinforcement-learning",
 },
         
  

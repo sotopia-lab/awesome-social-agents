@@ -276,6 +276,8 @@
 
 [08, 2023] [Context-Aware Planning and Environment-Aware Memory for Instruction Following Embodied Agents](https://arxiv.org/abs/2308.07241), Byeonghwi Kim et al., arXiv
 
+[7, 2023] [Werewolf among us: Multimodal resources for modeling persuasion behaviors in social deduction games](https://aclanthology.org/2023.findings-acl.411/), Bolin Lai et al., Findings of the Association for Computational Linguistics: ACL 2023
+
 [5, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigation](https://openreview.net/forum?id=oLc9sGOBbc), Hiroki Furuta et al., ICLR 2023 Workshop on Mathematical and Empirical Understanding of Foundation Models
 
 [3, 2023] [Offline pre-trained multi-agent decision transformer](https://link.springer.com/article/10.1007/s11633-022-1383-7), Linghui Meng et al., Machine Intelligence Research
@@ -311,6 +313,8 @@
 [12, 2023] [Difference-Masking: Choosing What to Mask in Continued Pretraining](https://aclanthology.org/2023.findings-emnlp.881), Wilf et al., Findings of the Association for Computational Linguistics: EMNLP 2023
 
 [11, 2023] [Examining Consistency of Visual Commonsense Reasoning based on Person Grounding](https://aclanthology.org/2023.ijcnlp-main.66), Kim et al., Proceedings of the 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)
+
+[10, 2023] [Language agents with reinforcement learning for strategic play in the werewolf game](https://arxiv.org/abs/2310.18940), Zelai Xu et al., arXiv preprint arXiv:2310.18940
 
 [5, 2023] [Face-to-face contrastive learning for social intelligence question-answering](https://arxiv.org/pdf/2208.01036), Alex Wilf et al., 2023 IEEE 17th International Conference on Automatic Face and Gesture Recognition (FG)
 
