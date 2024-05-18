@@ -224,20 +224,20 @@ def area_plot_analysis(df: pd.DataFrame) -> str:
     return format_json_data
 
 
-def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> None:
+def preprocess_entry(entry: dict, taxonomy: dict[str, list[str]]) -> None:
     entry["ID"] = entry.get("ID", "")
     
     if not entry.get("title", ""):
-        raise ValueError("Title field is missing")
+        raise ValueError(f"Title field is missing for {entry}")
 
     if not entry.get("author", ""):
-        raise ValueError("Author field is missing")
+        raise ValueError(f"Author field is missing for {entry}")
 
     if not entry.get("year", ""):
-        raise ValueError("Year field is missing")
+        raise ValueError(f"Year field is missing for {entry}")
     
     if not entry.get("url", ""):
-        raise ValueError("URL field is missing")
+        raise ValueError(f"URL field is missing for {entry}")
     
     authors_list = entry["author"].split(" and ")
     authors_processed = []
@@ -261,7 +261,7 @@ def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> None:
         # entry["month"] = month_name.capitalize()
         pass
     else:
-        raise ValueError(f"Month field is missing for paper {entry['title']}")
+        raise ValueError(f"Month field is missing for paper {entry}")
 
     # get the venue of the paper
     if "journal" in entry:
