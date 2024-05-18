@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default {
     logo: <div className="flex items-center"> 
     <svg className="h-8 mx-2 dark:text-sky-300 dark:drop-shadow-[0_3px_10px_#bae6fd]"
@@ -27,9 +29,6 @@ export default {
     feedback: {
         content: null,
     },
-    edit: {
-        content: null,
-    },
     head: (
       <>
         <link rel="icon" href="/awesome-social-agents/favicon.ico" type="image/ico" />
@@ -50,31 +49,33 @@ export default {
   banner: {
     key: 'cmu-agent-workshop-1',
     text: (
-      <a href="https://cmu-agent-workshop.github.io/social_agent" target="_blank">
-        🎉 Join our seminar at CMU Agent Workshop (10-12, May 3rd, CMU) →
-      </a>
+      <Link href="/contribution" target="_blank">
+        Want to contribute to this project? ✨ Click here to learn more. 📝 We are also working on a related survey paper. Stay tuned for updates!
+      </Link>
     )
   },
     useNextSeoProps() {
       return {
         titleTemplate: '%s – Awesome Social Agents',
         description: '',
-        // openGraph: {
-        //     type: 'website',
-        //     images: [
-        //       {
-        //         url: '',
-        //       }
-        //     ],
-        //     locale: 'en_US',
-        //     url: 'https://cmu-agent-workshop.github.io/',
-        //     siteName: 'LLM Agents workshop at CMU May 2-3',
-        //     description: 'We are hosting LLM Agents workshop at Carnegie Mellon University, Pittsburgh, PA, USA on May 2-3.',
-        // },
-        // twitter: {
-        //     cardType: 'summary_large_image',
-        //     image: 'https://cmu-agent-workshop.github.io/cover.jpg',
-        // },
+        openGraph: {
+            type: 'website',
+            images: [
+              {
+                url: 'https://sotopia-lab.github.io/awesome-social-agents/preview.png',
+              }
+            ],
+            locale: 'en_US',
+            url: 'https://sotopia-lab.github.io/awesome-social-agents',
+            siteName: 'Awesome Social Agents',
+            title: 'Awesome Social Agents',
+            description: 'Please check out our curated list of awesome social agents.',
+        },
+        twitter: {
+            cardType: 'summary_large_image',
+            title: 'Please check out our curated list of awesome social agents.',
+            image: 'https://sotopia-lab.github.io/awesome-social-agents/preview.png',
+        },
       }
       
   },

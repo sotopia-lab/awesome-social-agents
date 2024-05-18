@@ -6,7 +6,7 @@ from tabulate import tabulate # type: ignore
 import pandas as pd # type: ignore
 import re
 from pprint import pprint
-from collections import Counter
+from collections import Counter, defaultdict
 from itertools import groupby
 
 # Patch bibtextparser to exit with when the keys are repeated
@@ -146,6 +146,83 @@ def basic_stats(entries: list[dict]) -> str:
             markdown_string += f"{subsection}: {count}\n"
     return markdown_string
 
+def bar_chart_analysis(df: pd.DataFrame) -> str:
+    # Splitting the 'environments', 'agents', 'evaluation', and 'other' columns into lists
+    df['environments'] = df['environments'].str.split(', ')
+    df['agents'] = df['agents'].str.split(', ')
+    df['evaluation'] = df['evaluation'].str.split(', ')
+    df['other'] = df['other'].str.split(', ')
+
+    # Initialize JSON data dictionary
+    json_data = defaultdict(dict) # type: dict[str, dict[str, int]]
+
+    # Iterate through each row of the DataFrame
+    for index, row in df.iterrows():
+        # Check if 'text' is in the 'environments' column
+        if 'text' in row['environments']:
+            environment_type = 'Text'
+        elif 'virtual' in row['environments']:
+            environment_type = 'Virtual'
+        elif 'embodied' in row['environments']:
+            environment_type = 'Embodied'
+        elif 'robotics' in row['environments']:
+            environment_type = 'Robotics'
+
+        # Aggregate counts for each category
+        tags = row['environments'] + row['agents'] + row['evaluation'] + row['other'] 
+        for tag in tags:
+            if tag =='n/a':
+                tag = 'not_applicable'
+            json_data[environment_type][tag] = json_data[environment_type].get(tag, 0) + 1
+    format_json_data = "export const bar_data = [\n   "
+    for key in ['Text', 'Virtual', 'Embodied', 'Robotics']:
+        format_json_data += "{"
+        format_json_data += f"\n  name: '{key}',"
+        format_json_data += f"\n  overall: {json_data[key][key.lower()]},"
+        for sub_key in json_data[key].keys():
+            format_json_data += f"\n  {sub_key}: {json_data[key][sub_key]},"
+        format_json_data += "\n},\n"
+    format_json_data += "];"
+    return format_json_data
+
+def area_plot_analysis(df: pd.DataFrame) -> str:
+    # Splitting the 'environments', 'agents', 'evaluation', and 'other' columns into lists
+    df['environments'] = df['environments'].str.split(', ')
+    df['agents'] = df['agents'].str.split(', ')
+    df['evaluation'] = df['evaluation'].str.split(', ')
+    df['other'] = df['other'].str.split(', ')
+
+    # Initialize JSON data dictionary
+    json_data = defaultdict(dict) # type: dict[str, dict[str, int]]
+    tag_set = set()
+    # Iterate through each row of the DataFrame
+    for index, row in df.iterrows():
+        # get the year
+        year = row['Date'].split(", ")[1]
+        # Aggregate counts for each category
+        tags = row['environments'] + row['agents'] + row['evaluation'] + row['other'] 
+        for tag in tags:
+            if tag =='n/a':
+                tag = 'not_applicable'
+            json_data[year][tag] = json_data[year].get(tag, 0) + 1
+            tag_set.add(tag)
+    for year in json_data.keys():
+        for tag in tag_set:
+            if tag not in json_data[year]:
+                json_data[year][tag] = 0
+    # sort the dictionary by year
+    json_data = dict(sorted(json_data.items(), key=lambda x: x[0]))
+
+    format_json_data = "export const area_data = [\n   "
+    for key in list(json_data.keys())[-10:]:
+        format_json_data += "{"
+        format_json_data += f"\n  name: '{key}',"
+        for sub_key in json_data[key].keys():
+            format_json_data += f"\n  {sub_key}: {json_data[key][sub_key]},"
+        format_json_data += "\n},\n"
+    format_json_data += "];"
+    return format_json_data
+
 
 def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> None:
     entry["ID"] = entry.get("ID", "")
@@ -177,6 +254,7 @@ def preprocess_entry(entry: dict, taxonomy:dict[str, list[str]]) -> None:
     
     if "eprint" in entry:
         entry["month"] = entry["eprint"].split(".")[0][2:]
+        entry["year"] = "20"+entry["eprint"].split(".")[0][:2]
     
     if entry.get("month", ""):
         # month_name = datetime.date(1900, int(entry["month"]), 1).strftime('%B').lower()
@@ -217,6 +295,7 @@ def order_entries_by_date(entries: list[dict]) -> list[dict]:
     return sorted_entries
 
 output_paper_tsx = "./components/papers.tsx"
+output_chart_data = "./components/data/chartData.tsx"
 
 def bibtex_to_table(bibtex: str, taxonomy: dict[str, list[str]]) -> tuple[str, str]:
     entries = extract_bibtex_entries(bibtex)
@@ -236,6 +315,7 @@ export type Paper = {
     other: string
     url: string
     bibtex: string
+    subsection: string
 }
 
 export const data: Paper[] = [""", file=file)
@@ -251,6 +331,7 @@ export const data: Paper[] = [""", file=file)
     other: "{entry['other']}",
     url: "{entry['url']}",
     bibtex: {json.dumps(entry['bibtex'])},
+    subsection: "{entry['subsection']}",
 {"},"}
         """
         print(paper_entry, file=file)
@@ -275,6 +356,12 @@ export const data: Paper[] = [""", file=file)
         rows.append(row)
     
     df = pd.DataFrame(rows, columns=headers)
+    bar_json = bar_chart_analysis(df.__deepcopy__())
+    area_json = area_plot_analysis(df)
+    file = open(output_chart_data, "w")
+    print(bar_json, file=file)
+    print(area_json, file=file)
+    file.close()
 
     # Create a helper table
     markdown = df.to_markdown(index=False)
