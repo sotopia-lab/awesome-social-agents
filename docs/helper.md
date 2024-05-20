@@ -10,6 +10,8 @@
 
 ### environments/language
 
+[4, 2024] [To Tell The Truth: Language of Deception and Language Models](https://arxiv.org/abs/2311.07092), Bodhisattwa Prasad Majumder et al., arXiv preprint arXiv:2311.07092
+
 [3, 2024] [Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference](https://arxiv.org/abs/2403.04132), Wei-Lin Chiang et al., arXiv preprint arXiv:2403.04132
 
 [8, 2023] [{CALYPSO}: {LLMs} as Dungeon Masters' Assistants](https://arxiv.org/abs/2308.07540), Andrew Zhu et al., The 19th AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE 2023)
@@ -490,6 +492,8 @@
 
 [02, 2024] [CloChat: Understanding How People Customize, Interact, and Experience Personas in Large Language Models](https://arxiv.org/abs/2402.15265), Juhye Ha et al., arXiv
 
+[5, 2023] [Decision-oriented dialogue for human-ai collaboration](https://arxiv.org/abs/2305.20076), Jessy Lin et al., arXiv preprint arXiv:2305.20076
+
 [5, 2023] [The Effects of Engaging and Affective Behaviors of Virtual Agents in Group Decision-Making](https://arxiv.org/pdf/2308.10385.pdf), Hanseob Kim et al., Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems
 
 [4, 2023] [Collaborating with a Text-Based Chatbot: An Exploration of Real-World Collaboration Strategies Enacted during Human-Chatbot Interactions](https://dl.acm.org/doi/pdf/10.1145/3544548.3580995), Amon Rapp et al., Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
@@ -664,6 +668,8 @@
 
 [02, 2024] [Unveiling the Truth and Facilitating Change: Towards Agent-based Large-scale Social Movement Simulation](https://arxiv.org/abs/2402.16333), Xinyi Mou et al., arXiv
 
+[12, 2023] [Language agents as digital representatives in collective decision-making](https://openreview.net/pdf?id=sv7KZcUqu1), Daniel Jarrett et al., NeurIPS 2023 Foundation Models for Decision Making Workshop
+
 [11, 2023] [Do LLMs exhibit human-like response biases? A case study in survey design](https://arxiv.org/abs/2311.04076), Lindia Tjuatja et al., arXiv
 
 [8, 2022] [Social Simulacra: Creating Populated Prototypes for Social Computing Systems](https://doi.org/10.1145/3526113.3545616), Joon Sung Park et al., Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology
@@ -747,6 +753,8 @@
 
 [12, 2023] [Llama guard: Llm-based input-output safeguard for human-ai conversations](https://arxiv.org/abs/2312.06674), Hakan Inan et al., arXiv preprint arXiv:2312.06674
 
+[10, 2023] [Characterizing manipulation from AI systems](https://dl.acm.org/doi/10.1145/3617694.3623226), Micah Carroll et al., Proceedings of the 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+
 [9, 2023] [The rise and potential of large language model based agents: A survey](https://arxiv.org/abs/2309.07864), Zhiheng Xi et al., arXiv preprint arXiv:2309.07864
 
 [7, 2023] [Voice in the machine: Ethical considerations for language-capable robots](https://dl.acm.org/doi/fullHtml/10.1145/3604632), Tom Williams et al., Communications of the ACM
@@ -784,6 +792,8 @@
 [04, 2024] [Frontier AI Ethics: Anticipating and Evaluating the Societal Impacts of Generative Agents](https://api.semanticscholar.org/CorpusID:269033095), Seth Lazar et al., arXiv
 
 [1, 2024] [Deception and Manipulation in Generative AI](https://api.semanticscholar.org/CorpusID:267068787), Christian Tarsney et al., ArXiv
+
+[12, 2023] [Social Contract AI: Aligning AI Assistants with Implicit Group Norms](https://arxiv.org/abs/2310.17769), Jan-Philipp Fr{\"a}nken et al., Socially Responsible Language Modelling Research
 
 [10, 2023] [Towards Understanding Sycophancy in Language Models](https://api.semanticscholar.org/CorpusID:264405698), Mrinank Sharma et al., ArXiv
 

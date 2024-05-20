@@ -126,6 +126,18 @@ export const data: Paper[] = [
 },
         
  
+{ title: "To Tell The Truth: Language of Deception and Language Models",
+    date: "04/2024",
+    environments: "text, mixed_objectives",
+    agents: "more_than_three_agents",
+    evaluation: "rule_based",
+    other: "more_information_asymmetrical",
+    url: "https://arxiv.org/abs/2311.07092",
+    bibtex: "@article{majumder2023tell,\n  title={To Tell The Truth: Language of Deception and Language Models},\n  author={Majumder, Bodhisattwa Prasad and Hazra, Sanchaita},\n  journal={arXiv preprint arXiv:2311.07092},\n  year={2024},\n  month={4},\n  url={https://arxiv.org/abs/2311.07092},\n  environments={text, mixed_objectives},\n  agents={more_than_three_agents},\n  evaluation={rule_based},\n  other={more_information_asymmetrical}\n}",
+    subsection: "environments/language",
+},
+        
+ 
 { title: "It Takes Two to Lie: One to Lie, and One to Listen",
     date: "07/2020",
     environments: "text, mixed_objectives",
@@ -2766,6 +2778,18 @@ export const data: Paper[] = [
 },
         
  
+{ title: "Decision-oriented dialogue for human-ai collaboration",
+    date: "05/2023",
+    environments: "collaboration, text",
+    agents: "two_agents",
+    evaluation: "rule_based",
+    other: "human_agent",
+    url: "https://arxiv.org/abs/2305.20076",
+    bibtex: "@article{lin2023decision,\n  title={Decision-oriented dialogue for human-ai collaboration},\n  author={Lin, Jessy and Tomlin, Nicholas and Andreas, Jacob and Eisner, Jason},\n  journal={arXiv preprint arXiv:2305.20076},\n  year={2023},\n  month={5},\n  url={https://arxiv.org/abs/2305.20076},\n  environments={collaboration, text},\n  agents={two_agents},\n  evaluation={rule_based},\n  other={human_agent}\n}",
+    subsection: "interactions/text",
+},
+        
+ 
 { title: "Collaborating with a Text-Based Chatbot: An Exploration of Real-World Collaboration Strategies Enacted during Human-Chatbot Interactions",
     date: "04/2023",
     environments: "text",
@@ -3774,6 +3798,18 @@ export const data: Paper[] = [
 },
         
  
+{ title: "Language agents as digital representatives in collective decision-making",
+    date: "12/2023",
+    environments: "text, mixed_objectives",
+    agents: "more_than_three_agents, agents_with_personas, finetuning",
+    evaluation: "model_based",
+    other: "simulated_humans, policy",
+    url: "https://openreview.net/pdf?id=sv7KZcUqu1",
+    bibtex: "@inproceedings{jarrett2023language,\n  title={Language agents as digital representatives in collective decision-making},\n  author={Jarrett, Daniel and Pislar, Miruna and Bakker, Michiel A and Tessler, Michael Henry and Koster, Raphael and Balaguer, Jan and Elie, Romuald and Summerfield, Christopher and Tacchetti, Andrea},\n  booktitle={NeurIPS 2023 Foundation Models for Decision Making Workshop},\n  year={2023},\n  month={12},\n  url={https://openreview.net/pdf?id=sv7KZcUqu1},\n  environments = {text, mixed_objectives},\n  agents = {more_than_three_agents, agents_with_personas, finetuning},\n  evaluation = {model_based},\n  other = {simulated_humans, policy}\n}",
+    subsection: "applications/policy",
+},
+        
+ 
 { title: "Social Simulacra: Creating Populated Prototypes for Social Computing Systems",
     date: "08/2022",
     environments: "text, implicit_objectives",
@@ -4182,6 +4218,18 @@ export const data: Paper[] = [
 },
         
  
+{ title: "Characterizing manipulation from AI systems",
+    date: "10/2023",
+    environments: "n/a",
+    agents: "n/a",
+    evaluation: "n/a",
+    other: "n/a",
+    url: "https://dl.acm.org/doi/10.1145/3617694.3623226",
+    bibtex: "@inproceedings{carroll2023characterizing,\n  title={Characterizing manipulation from AI systems},\n  author={Carroll, Micah and Chan, Alan and Ashton, Henry and Krueger, David},\n  booktitle={Proceedings of the 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization},\n  pages={1--13},\n  year={2023},\n  month={10},\n  url={https://dl.acm.org/doi/10.1145/3617694.3623226},\n  environments = {n/a},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {n/a}\n}",
+    subsection: "concerns/risks",
+},
+        
+ 
 { title: "Two Types of AI Existential Risk: Decisive and Accumulative",
     date: "01/2024",
     environments: "n/a",
@@ -4419,6 +4467,18 @@ export const data: Paper[] = [
     url: "https://arxiv.org/abs/2309.07864",
     bibtex: "@article{xi2023rise,\n  title={The rise and potential of large language model based agents: A survey},\n  author={Xi, Zhiheng and Chen, Wenxiang and Guo, Xin and He, Wei and Ding, Yiwen and Hong, Boyang and Zhang, Ming and Wang, Junzhe and Jin, Senjie and Zhou, Enyu and others},\n  journal={arXiv preprint arXiv:2309.07864},\n  year={2023},\n  month={9},\n  url={https://arxiv.org/abs/2309.07864},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {n/a}\n}",
     subsection: "concerns/risks",
+},
+        
+ 
+{ title: "Social Contract AI: Aligning AI Assistants with Implicit Group Norms",
+    date: "12/2023",
+    environments: "text, mixed_objectives",
+    agents: "prompting_and_in_context_learning, more_than_three_agents",
+    evaluation: "rule_based",
+    other: "n/a",
+    url: "https://arxiv.org/abs/2310.17769",
+    bibtex: "@inproceedings{franken2023social,\n  title={Social Contract AI: Aligning AI Assistants with Implicit Group Norms},\n  author={Fr{\\\"a}nken, Jan-Philipp and Kwok, Samuel and Ye, Peixuan and Gandhi, Kanishk and Arumugam, Dilip and Moore, Jared and Tamkin, Alex and Gerstenberg, Tobias and Goodman, Noah},\n  booktitle={Socially Responsible Language Modelling Research},\n  year={2023},\n  month={12},\n  url={https://arxiv.org/abs/2310.17769},\n  environments={text, mixed_objectives},\n  agents={prompting_and_in_context_learning, more_than_three_agents},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    subsection: "concerns/safety",
 },
         
  
