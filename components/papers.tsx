@@ -78,6 +78,18 @@ export const data: Paper[] = [
 },
         
  
+{ title: "Simulating Opinion Dynamics with Networks of LLM-based Agents",
+    date: "11/2023",
+    environments: "text",
+    agents: "more_than_three_agents",
+    evaluation: "rule_based",
+    other: "n/a",
+    url: "https://arxiv.org/abs/2311.09618",
+    bibtex: "@misc{chuang2024simulating,\n      title={Simulating Opinion Dynamics with Networks of LLM-based Agents}, \n      author={Yun-Shiuan Chuang and Agam Goyal and Nikunj Harlalka and Siddharth Suresh and Robert Hawkins and Sijia Yang and Dhavan Shah and Junjie Hu and Timothy T. Rogers},\n      year={2024},\n      eprint={2311.09618},\n      archivePrefix={arXiv},\n      primaryClass={physics.soc-ph},\n      url={https://arxiv.org/abs/2311.09618},\n      environments = {text},\n      agents = {more_than_three_agents},\n      evaluation = {rule_based},\n      other = {n/a},\n}",
+    subsection: "environments/language",
+},
+        
+ 
 { title: "The Hanabi challenge: A new frontier for AI research",
     date: "03/2020",
     environments: "collaboration, text",
@@ -2678,6 +2690,18 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://openaccess.thecvf.com/content_CVPR_2019/html/Zadeh_Social-IQ_A_Question_Answering_Benchmark_for_Artificial_Social_Intelligence_CVPR_2019_paper.html",
     bibtex: "@inproceedings{zadeh2019social,\n  title={Social-iq: A question answering benchmark for artificial social intelligence},\n  author={Zadeh, Amir and Chan, Michael and Liang, Paul Pu and Tong, Edmund and Morency, Louis-Philippe},\n  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n  pages={8807--8817},\n  year={2019},\n  month={6},\n  url={https://openaccess.thecvf.com/content_CVPR_2019/html/Zadeh_Social-IQ_A_Question_Answering_Benchmark_for_Artificial_Social_Intelligence_CVPR_2019_paper.html},\n  environments = {text, virtual},\n  agents = {more_than_three_agents},\n  evaluation = {qualitative, human},\n  other = {n/a},\n}",
+    subsection: "evaluation/virtual",
+},
+        
+ 
+{ title: "ChatShop: Interactive Information Seeking with Language Agents",
+    date: "04/2024",
+    environments: "virtual",
+    agents: "prompting_and_in_context_learning",
+    evaluation: "rule_based",
+    other: "human_agent",
+    url: "https://arxiv.org/abs/2404.09911",
+    bibtex: "@misc{chen2024chatshop,\n      title={ChatShop: Interactive Information Seeking with Language Agents}, \n      author={Sanxing Chen and Sam Wiseman and Bhuwan Dhingra},\n      year={2024},\n      eprint={2404.09911},\n      archivePrefix={arXiv},\n      url          = {https://arxiv.org/abs/2404.09911},\n      environments = {virtual},\n      agents = {prompting_and_in_context_learning},\n      evaluation = {rule_based},\n      other = {human_agent},\n      primaryClass={cs.CL}\n}",
     subsection: "evaluation/virtual",
 },
         

@@ -14,6 +14,8 @@
 
 [3, 2024] [Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference](https://arxiv.org/abs/2403.04132), Wei-Lin Chiang et al., arXiv preprint arXiv:2403.04132
 
+[11, 2023] [Simulating Opinion Dynamics with Networks of LLM-based Agents](https://arxiv.org/abs/2311.09618), Yun-Shiuan Chuang et al., arXiv
+
 [8, 2023] [{CALYPSO}: {LLMs} as Dungeon Masters' Assistants](https://arxiv.org/abs/2308.07540), Andrew Zhu et al., The 19th AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE 2023)
 
 [7, 2023] [{I} Cast Detect Thoughts: Learning to Converse and Guide with Intents and Theory-of-Mind in Dungeons and Dragons](https://aclanthology.org/2023.acl-long.624), Zhou et al., Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
@@ -437,6 +439,8 @@
 [5, 2016] [Evaluation of starcraft artificial intelligence competition bots by experienced human players](https://dl.acm.org/doi/pdf/10.1145/2851581.2892305), Man-Je Kim et al., Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems
 
 ### evaluation/virtual
+
+[04, 2024] [ChatShop: Interactive Information Seeking with Language Agents](https://arxiv.org/abs/2404.09911), Sanxing Chen et al., arXiv
 
 [2, 2024] [WebLINX: Real-World Website Navigation with Multi-Turn Dialogue](https://arxiv.org/abs/2402.05930), Xing Han Lù et al., ArXiv
 
