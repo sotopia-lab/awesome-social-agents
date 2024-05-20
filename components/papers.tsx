@@ -30,6 +30,18 @@ export const data: Paper[] = [
 },
         
  
+{ title: "Persuasive technology: using computers to change what we think and do",
+    date: "12/2002",
+    environments: "n/a",
+    agents: "n/a",
+    evaluation: "n/a",
+    other: "n/a",
+    url: "https://dl.acm.org/doi/10.1145/764008.763957",
+    bibtex: "@article{fogg2002persuasive,\n  title={Persuasive technology: using computers to change what we think and do},\n  author={Fogg, Brian J},\n  journal={Ubiquity},\n  volume={2002},\n  number={December},\n  pages={2},\n  year={2002},\n  month={12},\n  publisher={ACM New York, NY, USA},\n  url={https://dl.acm.org/doi/10.1145/764008.763957},\n  environments = {n/a},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {n/a},\n}",
+    subsection: "",
+},
+        
+ 
 { title: "Advancing Social Intelligence in AI Agents: Technical Challenges and Open Questions",
     date: "04/2024",
     environments: "collaboration, competition, mixed_objectives, text, embodied, virtual, robotics",
@@ -446,6 +458,18 @@ export const data: Paper[] = [
     other: "more_omniscient",
     url: "http://arxiv.org/abs/2303.11366",
     bibtex: "@ARTICLE{Shinn2023-tt,\n  title         = \"Reflexion: Language Agents with Verbal Reinforcement Learning\",\n  author        = \"Shinn, Noah and Cassano, Federico and Labash, Beck and Gopinath, Ashwin and Narasimhan, Karthik and Yao, Shunyu\",\n  month         =  mar,\n  year          =  2023,\n  url           = \"http://arxiv.org/abs/2303.11366\",\n  archivePrefix = \"arXiv\",\n  eprint        = \"2303.11366\",\n  primaryClass  = \"cs.AI\",\n  arxivid       = \"2303.11366\",\n  environments = {mixed_objectives, text},\n  agents = {prompting_and_in_context_learning, reinforcement_learning, agents_with_memory},\n  evaluation = {rule_based},\n  other = {more_omniscient},\n}",
+    subsection: "environments/language",
+},
+        
+ 
+{ title: "AI wolf contest\u2014development of game AI using collective intelligence\u2014",
+    date: "04/2017",
+    environments: "text",
+    agents: "reinforcement_learning, agents_with_memory",
+    evaluation: "rule_based",
+    other: "human_agent",
+    url: "https://link.springer.com/chapter/10.1007/978-3-319-57969-6_8",
+    bibtex: "@inproceedings{toriumi2017ai,\n  title={AI wolf contest\u2014development of game AI using collective intelligence\u2014},\n  author={Toriumi, Fujio and Osawa, Hirotaka and Inaba, Michimasa and Katagami, Daisuke and Shinoda, Kosuke and Matsubara, Hitoshi},\n  booktitle={Computer Games: 5th Workshop on Computer Games, CGW 2016, and 5th Workshop on General Intelligence in Game-Playing Agents, GIGA 2016, Held in Conjunction with the 25th International Conference on Artificial Intelligence, IJCAI 2016, New York, USA, July 9-10, 2016, Revised Selected Papers 5},\n  pages={101--115},\n  year={2017},\n  month={4},\n  organization={Springer},\n  url={https://link.springer.com/chapter/10.1007/978-3-319-57969-6_8},\n  agents = {reinforcement_learning, agents_with_memory},\n  environments = {text},\n  evaluation = {rule_based},\n  other = {human_agent},\n}",
     subsection: "environments/language",
 },
         

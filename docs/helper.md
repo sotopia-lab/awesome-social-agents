@@ -6,6 +6,8 @@
 
 [07, 2023] [Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924), Chen Qian et al., arXiv
 
+[12, 2002] [Persuasive technology: using computers to change what we think and do](https://dl.acm.org/doi/10.1145/764008.763957), Brian J Fogg et al., Ubiquity
+
 ### environments/language
 
 [4, 2024] [To Tell The Truth: Language of Deception and Language Models](https://arxiv.org/abs/2311.07092), Bodhisattwa Prasad Majumder et al., arXiv preprint arXiv:2311.07092
@@ -63,6 +65,8 @@
 [3, 2018] [Towards empathetic human-robot interactions](https://link.springer.com/chapter/10.1007/978-3-319-75487-1_14), Pascale Fung et al., Computational Linguistics and Intelligent Text Processing: 17th International Conference, CICLing 2016, Konya, Turkey, April 3--9, 2016, Revised Selected Papers, Part II 17
 
 [9, 2017] [Deal or No Deal? End-to-End Learning of Negotiation Dialogues](https://aclanthology.org/D17-1259), Lewis et al., Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing
+
+[4, 2017] [AI wolf contest—development of game AI using collective intelligence—](https://link.springer.com/chapter/10.1007/978-3-319-57969-6_8), Fujio Toriumi et al., Computer Games: 5th Workshop on Computer Games, CGW 2016, and 5th Workshop on General Intelligence in Game-Playing Agents, GIGA 2016, Held in Conjunction with the 25th International Conference on Artificial Intelligence, IJCAI 2016, New York, USA, July 9-10, 2016, Revised Selected Papers 5
 
 [8, 2016] [A persona-based neural conversation model](https://aclanthology.org/P16-1094/), Jiwei Li et al., arXiv preprint arXiv:1603.06155
 
