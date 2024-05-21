@@ -686,6 +686,14 @@
 
 ### applications/education
 
+[5, 2024] [PeerGPT: Probing the Roles of LLM-based Peer Agents as Team Moderators and Participants in Children's Collaborative Learning](https://doi.org/10.1145/3613905.3651008), Jiawen Liu et al., Extended Abstracts of the 2024 CHI Conference on Human Factors in Computing Systems
+
+[5, 2024] [Prompt-Gaming: A Pilot Study on LLM-Evaluating Agent in a Meaningful Energy Game](https://doi.org/10.1145/3613905.3650774), Andr\'{e}s Isaza-Giraldo et al., Extended Abstracts of the 2024 CHI Conference on Human Factors in Computing Systems
+
+[5, 2024] [Advancing Knowledge Together: Integrating Large Language Model-based Conversational AI in Small Group Collaborative Learning](https://doi.org/10.1145/3613905.3650868), Zhenyao Cai et al., Extended Abstracts of the 2024 CHI Conference on Human Factors in Computing Systems
+
+[5, 2024] [Young Children's Creative Storytelling with ChatGPT vs. Parent: Comparing Interactive Styles](https://doi.org/10.1145/3613905.3650770), Jenna H Chin et al., Extended Abstracts of the 2024 CHI Conference on Human Factors in Computing Systems
+
 [4, 2024] [How to Teach Programming in the {AI} Era? Using {LLM}s as a Teachable Agent for Debugging](https://arxiv.org/abs/2310.05292), Qianou Ma et al., International Conference on Artificial Intelligence in Education
 
 [4, 2024] [Generating Situated Reflection Triggers About Alternative Solution Paths: A Case Study in Generative {AI} for Computer-Supported Collaborative Learning](https://arxiv.org/abs/2404.18262), Atharva Naik et al., International Conference on Artificial Intelligence in Education
@@ -693,6 +701,9 @@
 [3, 2024] [Generative {AI} and {K}-12 {Education}: An {MIT} {Perspective}](https://mit-genai.pubpub.org/pub/4k9msp17/release/1), Eric Klopfer et al., An MIT Exploration of Generative AI
 
 [3, 2024] [Doodlebot: An Educational Robot for Creativity and AI Literacy](https://doi.org/10.1145/3610977.3634950), Randi Williams et al., Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction
+
+[2, 2024] [Leveraging the Potential of Large Language Models in Education
+              Through Playful and {Game-Based} Learning](https://doi.org/10.1007/s10648-024-09868-z), Stefan E Huber et al., Educ. Psychol. Rev.
 
 [01, 2024] [{CodeAid}: Evaluating a Classroom Deployment of an {LLM-based} Programming Assistant that Balances Student and Educator Needs](http://arxiv.org/abs/2401.11314), Majeed Kazemitabaar et al., arXiv
 
@@ -707,6 +718,10 @@
 [7, 2023] [{GPTeach}: Interactive {TA} Training with {GPT-based} Students](https://doi.org/10.1145/3573051.3593393), Julia M Markel et al., Proceedings of the Tenth {ACM} Conference on Learning @ Scale
 
 [05, 2023] [{CLASS} Meet {SPOCK}: An Education Tutoring Chatbot based on Learning Science Principles](http://arxiv.org/abs/2305.13272), Shashank Sonkar et al., arXiv
+
+[5, 2023] [Traveling Bazaar: Portable Support for {Face-to-Face}
+                     Collaboration](https://par.nsf.gov/biblio/10437737-traveling-bazaar-portable-support-face-face-collaboration), R Vitiello et al., Proceedings of 3rd Annual Meeting of the International
+                     Society of the Learning Sciences ({ISLS})
 
 [3, 2023] [A Social Robot Reading Partner for Explorative Guidance](https://dl.acm.org/doi/10.1145/3568162.3576968), Xiajie Zhang et al., Proceedings of the 2023 {ACM/IEEE} International Conference on
                {Human-Robot} Interaction
@@ -729,6 +744,8 @@
 
 [6, 2021] [Going Online: A Simulated Student Approach for Evaluating Knowledge Tracing in the Context of Mastery Learning](http://files.eric.ed.gov/fulltext/ED615518.pdf), Qiao Zhang et al., International Educational Data Mining Society
 
+[7, 2020] [Agent-Based Dynamic Collaboration Support in a Smart Office Space](https://aclanthology.org/2020.sigdial-1.31), Wang et al., Proceedings of the 21th Annual Meeting of the Special Interest Group on Discourse and Dialogue
+
 [6, 2020] [Investigating differential error types between human and simulated learners](https://link.springer.com/chapter/10.1007/978-3-030-52237-7_47), D Weitekamp et al., Artif. Intell.
 
 [6, 2018] [Automated Pitch Convergence Improves Learning in a Social,
@@ -740,10 +757,14 @@
 
 [7, 2013] [How Effective are Pedagogical Agents for Learning? A {Meta-Analytic} Review](https://doi.org/10.2190/EC.49.1.a), Noah L Schroeder et al., Journal of Educational Computing Research
 
+[6, 2011] [Intelligent tutoring goes to the museum in the big city: a pedagogical agent for informal science education](https://doi.org/10.1007/978-3-642-21869-9_22), H. Chad Lane et al., Proceedings of the 15th International Conference on Artificial Intelligence in Education
+
 [1, 2011] [Architecture for Building Conversational Agents that Support Collaborative Learning](https://ieeexplore.ieee.org/document/5669250), Rohit Kumar et al., IEEE Transactions on Learning Technologies
 
 [3, 2010] [Using Intelligent Tutor Technology to Implement Adaptive Support
               for Student Collaboration](https://link.springer.com/article/10.1007/s10648-009-9116-9), Dejana Diziol et al., Educ. Psychol. Rev.
+
+[4, 2000] [Shared reality: physical collaboration with a virtual peer](https://doi.org/10.1145/633292.633443), J. Cassell et al., CHI '00 Extended Abstracts on Human Factors in Computing Systems
 
 [4, 1985] [Intelligent tutoring systems](http://dx.doi.org/10.1126/science.228.4698.456), J R Anderson et al., Science
 
