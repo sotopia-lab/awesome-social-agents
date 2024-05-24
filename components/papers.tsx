@@ -2074,10 +2074,10 @@ export const data: Paper[] = [
     date: "07/2020",
     environments: "text",
     agents: "n/a",
-    evaluation: "rule_based",
+    evaluation: "model_based",
     other: "human_agent",
     url: "https://aclanthology.org/2020.acl-srw.27",
-    bibtex: "@inproceedings{tsuta-etal-2020-ubleu,\n    title = \"u{BLEU}: Uncertainty-Aware Automatic Evaluation Method for Open-Domain Dialogue Systems\",\n    author = \"Tsuta, Yuma  and\n      Yoshinaga, Naoki  and\n      Toyoda, Masashi\",\n    editor = \"Rijhwani, Shruti  and\n      Liu, Jiangming  and\n      Wang, Yizhong  and\n      Dror, Rotem\",\n    booktitle = \"Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop\",\n    month = jul,\n    year = \"2020\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2020.acl-srw.27\",\n    doi = \"10.18653/v1/2020.acl-srw.27\",\n    pages = \"199--206\",\n    environments = {text},\n    agents = {n/a},\n    evaluation = {rule_based},\n    other = {human_agent}\n}",
+    bibtex: "@inproceedings{tsuta-etal-2020-ubleu,\n    title = \"u{BLEU}: Uncertainty-Aware Automatic Evaluation Method for Open-Domain Dialogue Systems\",\n    author = \"Tsuta, Yuma  and\n      Yoshinaga, Naoki  and\n      Toyoda, Masashi\",\n    editor = \"Rijhwani, Shruti  and\n      Liu, Jiangming  and\n      Wang, Yizhong  and\n      Dror, Rotem\",\n    booktitle = \"Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop\",\n    month = jul,\n    year = \"2020\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2020.acl-srw.27\",\n    doi = \"10.18653/v1/2020.acl-srw.27\",\n    pages = \"199--206\",\n    environments = {text},\n    agents = {n/a},\n    evaluation = {model_based},\n    other = {human_agent}\n}",
     subsection: "evaluation/language",
 },
         
