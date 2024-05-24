@@ -2242,10 +2242,10 @@ export const data: Paper[] = [
     date: "08/2023",
     environments: "collaboration, text",
     agents: "prompting_and_in_context_learning, more_than_three_agents",
-    evaluation: "rule_based",
+    evaluation: "model_based",
     other: "n/a",
     url: "https://arxiv.org/abs/2308.07201",
-    bibtex: "@misc{chan2023chateval,\n      title={ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate}, \n      author={Chi-Min Chan and Weize Chen and Yusheng Su and Jianxuan Yu and Wei Xue and Shanghang Zhang and Jie Fu and Zhiyuan Liu},\n      year={2023},\n      month={8},\n      eprint={2308.07201},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2308.07201},\n      environments = {collaboration, text},\n      agents = {prompting_and_in_context_learning, more_than_three_agents},\n      evaluation = {rule_based},\n      other = {n/a}\n}",
+    bibtex: "@misc{chan2023chateval,\n      title={ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate}, \n      author={Chi-Min Chan and Weize Chen and Yusheng Su and Jianxuan Yu and Wei Xue and Shanghang Zhang and Jie Fu and Zhiyuan Liu},\n      year={2023},\n      month={8},\n      eprint={2308.07201},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2308.07201},\n      environments = {collaboration, text},\n      agents = {prompting_and_in_context_learning, more_than_three_agents},\n      evaluation = {model_based},\n      other = {n/a}\n}",
     subsection: "evaluation/language",
 },
         
