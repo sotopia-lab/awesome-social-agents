@@ -71,6 +71,13 @@ export const columns: ColumnDef<Paper>[] = [
         </div></Link>
       ),
     },
+    {
+      accessorKey: "authors",
+      header: "Authors",
+      cell: ({ row }) => (
+        <div className="">{row.getValue("authors")}</div>
+      ),
+    },
     
     {
       accessorKey: "date",

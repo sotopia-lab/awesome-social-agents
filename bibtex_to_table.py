@@ -250,7 +250,7 @@ def preprocess_entry(entry: dict, taxonomy: dict[str, list[str]]) -> None:
             authors_processed.append(author)
     authors = ", ".join(authors_processed)
     entry["author"] = authors
-    entry["author_et_al"] = authors.split(",")[0] + " et al."
+    entry["author_et_al"] = authors.split(",")[0].split(" ")[-1] + " et al."
     
     if "eprint" in entry:
         entry["month"] = entry["eprint"].split(".")[0][2:]
@@ -315,6 +315,7 @@ export type Paper = {
     other: string
     url: string
     bibtex: string
+    authors: string
     subsection: string
 }
 
@@ -331,6 +332,7 @@ export const data: Paper[] = [""", file=file)
     other: "{entry['other']}",
     url: "{entry['url']}",
     bibtex: {json.dumps(entry['bibtex'])},
+    authors: "{entry['author_et_al']}",
     subsection: "{entry['subsection']}",
 {"},"}
         """
