@@ -13,6 +13,7 @@ export type Paper = {
     other: string
     url: string
     bibtex: string
+    authors: string
     subsection: string
 }
 
@@ -26,6 +27,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2307.07924",
     bibtex: "@misc{qian2023communicative,\n      title={Communicative Agents for Software Development}, \n      author={Chen Qian and Xin Cong and Wei Liu and Cheng Yang and Weize Chen and Yusheng Su and Yufan Dang and Jiahao Li and Juyuan Xu and Dahai Li and Zhiyuan Liu and Maosong Sun},\n      year={2023},\n      month={7},\n      url={https://arxiv.org/abs/2307.07924},\n      environments = {collaboration, embodied},\n      agents = {prompting_and_in_context_learning, more_than_three_agents},\n      evaluation = {rule_based},\n      other = {n/a},\n      eprint={2307.07924},\n      archivePrefix={arXiv},\n      primaryClass={cs.SE},\n}",
+    authors: "Qian et al.",
     subsection: "",
 },
         
@@ -38,6 +40,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://dl.acm.org/doi/10.1145/764008.763957",
     bibtex: "@article{fogg2002persuasive,\n  title={Persuasive technology: using computers to change what we think and do},\n  author={Fogg, Brian J},\n  journal={Ubiquity},\n  volume={2002},\n  number={December},\n  pages={2},\n  year={2002},\n  month={12},\n  publisher={ACM New York, NY, USA},\n  url={https://dl.acm.org/doi/10.1145/764008.763957},\n  environments = {n/a},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {n/a},\n}",
+    authors: "Fogg et al.",
     subsection: "",
 },
         
@@ -50,6 +53,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2404.11023",
     bibtex: "@article{mathur2024advancing,\n  title        = {Advancing Social Intelligence in AI Agents: Technical Challenges and Open Questions},\n  author       = {Mathur, Leena and Liang, Paul Pu and Morency, Louis-Philippe},\n  url          = {https://arxiv.org/abs/2404.11023},\n  journal      = {arXiv preprint arXiv:2404.11023},\n  year         = {2024},\n  month        = {4},\n  environments = {collaboration, competition, mixed_objectives, text, embodied, virtual, robotics},\n  agents       = {two_agents, reinforcement_learning, agents_with_personas},\n  evaluation   = {human},\n  other        = {n/a},\n}",
+    authors: "Mathur et al.",
     subsection: "",
 },
         
@@ -62,6 +66,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2404.04204",
     bibtex: "@article{yang2024social,\n  title        = {Social Skill Training with Large Language Models},\n  author       = {Yang, Diyi and Ziems, Caleb and Held, William and Shaikh, Omar and Bernstein, Michael S and Mitchell, John},\n  journal      = {arXiv preprint arXiv:2404.04204},\n  url          = {https://arxiv.org/abs/2404.04204},\n  year         = {2024},\n  month        = {4},\n  environments = {collaboration, competition, mixed_objectives, text},\n  agents       = {two_agents, reinforcement_learning, agents_with_personas},\n  evaluation   = {human, rule_based},\n  other        = {n/a},\n}",
+    authors: "Yang et al.",
     subsection: "",
 },
         
@@ -74,6 +79,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2403.14659",
     bibtex: "@article{li2024social,\n  title={Social Intelligence Data Infrastructure: Structuring the Present and Navigating the Future},\n  author={Li, Minzhi and Shi, Weiyan and Ziems, Caleb and Yang, Diyi},\n  journal={arXiv preprint arXiv:2403.14659},\n  url = {https://arxiv.org/abs/2403.14659},\n  year={2024},\n  month={2},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {human},\n  other = {n/a},\n  \n}",
+    authors: "Li et al.",
     subsection: "",
 },
         
@@ -86,6 +92,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2311.09618",
     bibtex: "@misc{chuang2024simulating,\n      title={Simulating Opinion Dynamics with Networks of LLM-based Agents}, \n      author={Yun-Shiuan Chuang and Agam Goyal and Nikunj Harlalka and Siddharth Suresh and Robert Hawkins and Sijia Yang and Dhavan Shah and Junjie Hu and Timothy T. Rogers},\n      year={2024},\n      eprint={2311.09618},\n      archivePrefix={arXiv},\n      primaryClass={physics.soc-ph},\n      url={https://arxiv.org/abs/2311.09618},\n      environments = {text},\n      agents = {more_than_three_agents},\n      evaluation = {rule_based},\n      other = {n/a},\n}",
+    authors: "Chuang et al.",
     subsection: "environments/language",
 },
         
@@ -98,6 +105,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "http://dx.doi.org/10.1016/j.artint.2019.103216",
     bibtex: "@article{Bard_2020,\n   title={The Hanabi challenge: A new frontier for AI research},\n   volume={280},\n   ISSN={0004-3702},\n   url={http://dx.doi.org/10.1016/j.artint.2019.103216},\n   DOI={10.1016/j.artint.2019.103216},\n   journal={Artificial Intelligence},\n   publisher={Elsevier BV},\n   author={Bard, Nolan and Foerster, Jakob N. and Chandar, Sarath and Burch, Neil and Lanctot, Marc and Song, H. Francis and Parisotto, Emilio and Dumoulin, Vincent and Moitra, Subhodeep and Hughes, Edward and Dunning, Iain and Mourad, Shibl and Larochelle, Hugo and Bellemare, Marc G. and Bowling, Michael},\n   year={2020},\n   environments={collaboration, text},\n   agents={more_than_three_agents},\n   evaluation={rule_based},\n   other={n/a},\n   month={3}, pages={103216} }",
+    authors: "Bard et al.",
     subsection: "environments/language",
 },
         
@@ -110,6 +118,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://aclanthology.org/D18-1256",
     bibtex: "@inproceedings{he-etal-2018-decoupling,\n    title = \"Decoupling Strategy and Generation in Negotiation Dialogues\",\n    author = \"He, He  and\n      Chen, Derek  and\n      Balakrishnan, Anusha  and\n      Liang, Percy\",\n    editor = \"Riloff, Ellen  and\n      Chiang, David  and\n      Hockenmaier, Julia  and\n      Tsujii, Jun{'}ichi\",\n    booktitle = \"Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing\",\n    month = {10},\n    year = \"2018\",\n    address = \"Brussels, Belgium\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/D18-1256\",\n    doi = \"10.18653/v1/D18-1256\",\n    pages = \"2333--2343\",\n    environments={text, mixed_objectives},\n    agents={finetuning, reinforcement_learning, two_agents, agents_with_memory},\n    evaluation={human},\n    other={n/a}\n}",
+    authors: "He et al.",
     subsection: "environments/language",
 },
         
@@ -122,6 +131,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://aclanthology.org/D17-1259",
     bibtex: "@inproceedings{lewis-etal-2017-deal,\n    title = \"Deal or No Deal? End-to-End Learning of Negotiation Dialogues\",\n    author = \"Lewis, Mike  and\n      Yarats, Denis  and\n      Dauphin, Yann  and\n      Parikh, Devi  and\n      Batra, Dhruv\",\n    editor = \"Palmer, Martha  and\n      Hwa, Rebecca  and\n      Riedel, Sebastian\",\n    booktitle = \"Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing\",\n    month = {9},\n    year = \"2017\",\n    address = \"Copenhagen, Denmark\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/D17-1259\",\n    doi = \"10.18653/v1/D17-1259\",\n    pages = \"2443--2453\",\n    environments={text, mixed_objectives},\n    agents={reinforcement_learning, two_agents, agents_with_memory},\n    evaluation={rule_based},\n    other={human_agent}\n}",
+    authors: "Lewis et al.",
     subsection: "environments/language",
 },
         
@@ -134,6 +144,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://aclanthology.org/P19-1566",
     bibtex: "@inproceedings{wang-etal-2019-persuasion,\n    title = \"Persuasion for Good: Towards a Personalized Persuasive Dialogue System for Social Good\",\n    author = \"Wang, Xuewei  and\n      Shi, Weiyan  and\n      Kim, Richard  and\n      Oh, Yoojung  and\n      Yang, Sijia  and\n      Zhang, Jingwen  and\n      Yu, Zhou\",\n    editor = \"Korhonen, Anna  and\n      Traum, David  and\n      M{\\`a}rquez, Llu{\\'\\i}s\",\n    booktitle = \"Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics\",\n    month = jul,\n    year = \"2019\",\n    address = \"Florence, Italy\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/P19-1566\",\n    doi = \"10.18653/v1/P19-1566\",\n    pages = \"5635--5649\",\n    abstract = \"Developing intelligent persuasive conversational agents to change people{'}s opinions and actions for social good is the frontier in advancing the ethical development of automated dialogue systems. To do so, the first step is to understand the intricate organization of strategic disclosures and appeals employed in human persuasion conversations. We designed an online persuasion task where one participant was asked to persuade the other to donate to a specific charity. We collected a large dataset with 1,017 dialogues and annotated emerging persuasion strategies from a subset. Based on the annotation, we built a baseline classifier with context information and sentence-level features to predict the 10 persuasion strategies used in the corpus. Furthermore, to develop an understanding of personalized persuasion processes, we analyzed the relationships between individuals{'} demographic and psychological backgrounds including personality, morality, value systems, and their willingness for donation. Then, we analyzed which types of persuasion strategies led to a greater amount of donation depending on the individuals{'} personal backgrounds. This work lays the ground for developing a personalized persuasive dialogue system.\",\n    environments={text, mixed_objectives},\n    agents={two_agents, finetuning},\n    evaluation={human, rule_based},\n    other={human_agent}\n}",
+    authors: "Wang et al.",
     subsection: "environments/language",
 },
         
@@ -146,6 +157,7 @@ export const data: Paper[] = [
     other: "more_information_asymmetrical",
     url: "https://arxiv.org/abs/2311.07092",
     bibtex: "@article{majumder2023tell,\n  title={To Tell The Truth: Language of Deception and Language Models},\n  author={Majumder, Bodhisattwa Prasad and Hazra, Sanchaita},\n  journal={arXiv preprint arXiv:2311.07092},\n  year={2024},\n  month={4},\n  url={https://arxiv.org/abs/2311.07092},\n  environments={text, mixed_objectives},\n  agents={more_than_three_agents},\n  evaluation={rule_based},\n  other={more_information_asymmetrical}\n}",
+    authors: "Majumder et al.",
     subsection: "environments/language",
 },
         
@@ -158,6 +170,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://aclanthology.org/2020.acl-main.353",
     bibtex: "@inproceedings{peskov-etal-2020-takes,\n    title = \"It Takes Two to Lie: One to Lie, and One to Listen\",\n    author = \"Peskov, Denis  and\n      Cheng, Benny  and\n      Elgohary, Ahmed  and\n      Barrow, Joe  and\n      Danescu-Niculescu-Mizil, Cristian  and\n      Boyd-Graber, Jordan\",\n    editor = \"Jurafsky, Dan  and\n      Chai, Joyce  and\n      Schluter, Natalie  and\n      Tetreault, Joel\",\n    booktitle = \"Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics\",\n    month = jul,\n    year = \"2020\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2020.acl-main.353\",\n    doi = \"10.18653/v1/2020.acl-main.353\",\n    pages = \"3811--3854\",\n    abstract = \"Trust is implicit in many online text conversations{---}striking up new friendships, or asking for tech support. But trust can be betrayed through deception. We study the language and dynamics of deception in the negotiation-based game Diplomacy, where seven players compete for world domination by forging and breaking alliances with each other. Our study with players from the Diplomacy community gathers 17,289 messages annotated by the sender for their intended truthfulness and by the receiver for their perceived truthfulness. Unlike existing datasets, this captures deception in long-lasting relationships, where the interlocutors strategically combine truth with lies to advance objectives. A model that uses power dynamics and conversational contexts can predict when a lie occurs nearly as well as human players.\",\n    environments={text, mixed_objectives},\n    agents={more_than_three_agents},\n    evaluation={model_based},\n    other={human_agent}\n}",
+    authors: "Peskov et al.",
     subsection: "environments/language",
 },
         
@@ -170,6 +183,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "http://arxiv.org/abs/1908.09453",
     bibtex: "@article{LanctotEtAl2019OpenSpiel,\n  title     = {{OpenSpiel}: A Framework for Reinforcement Learning in Games},\n  author    = {Marc Lanctot and Edward Lockhart and Jean-Baptiste Lespiau and\n               Vinicius Zambaldi and Satyaki Upadhyay and Julien P\\'{e}rolat and\n               Sriram Srinivasan and Finbarr Timbers and Karl Tuyls and\n               Shayegan Omidshafiei and Daniel Hennes and Dustin Morrill and\n               Paul Muller and Timo Ewalds and Ryan Faulkner and J\\'{a}nos Kram\\'{a}r\n               and Bart De Vylder and Brennan Saeta and James Bradbury and David Ding\n               and Sebastian Borgeaud and Matthew Lai and Julian Schrittwieser and\n               Thomas Anthony and Edward Hughes and Ivo Danihelka and Jonah Ryan-Davis},\n  month     = {8},\n  year      = {2019},\n  eprint    = {1908.09453},\n  archivePrefix = {arXiv},\n  primaryClass = {cs.LG},\n  journal   = {CoRR},\n  volume    = {abs/1908.09453},\n  url       = {http://arxiv.org/abs/1908.09453},\n  environments={collaboration, competition, mixed_objectives, text},\n  agents={two_agents, more_than_three_agents, reinforcement_learning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Lanctot et al.",
     subsection: "environments/language",
 },
         
@@ -182,6 +196,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://github.com/datamllab/rlcard",
     bibtex: "@article{zha2019rlcard,\n  title={RLCard: A Toolkit for Reinforcement Learning in Card Games},\n  author={Zha, Daochen and Lai, Kwei-Herng and Cao, Yuanpu and Huang, Songyi and Wei, Ruzhe and Guo, Junyu and Hu, Xia},\n  journal={arXiv preprint arXiv:1910.04376},\n  month = {7},\n  year={2019},\n  environments={collaboration, competition, mixed_objectives, text},\n  agents={two_agents, more_than_three_agents, reinforcement_learning},\n  evaluation={rule_based},\n  other={n/a},\n  url={https://github.com/datamllab/rlcard}\n}",
+    authors: "Zha et al.",
     subsection: "environments/language",
 },
         
@@ -194,6 +209,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://www.science.org/doi/full/10.1126/science.ade9097",
     bibtex: "@article{meta2022human,\n  title={Human-level play in the game of Diplomacy by combining language models with strategic reasoning},\n  author={Meta Fundamental AI Research Diplomacy Team (FAIR)\u2020 and Bakhtin, Anton and Brown, Noam and Dinan, Emily and Farina, Gabriele and Flaherty, Colin and Fried, Daniel and Goff, Andrew and Gray, Jonathan and Hu, Hengyuan and others},\n  journal={Science},\n  volume={378},\n  number={6624},\n  pages={1067--1074},\n  month={11},\n  year={2022},\n  publisher={American Association for the Advancement of Science},\n  url={https://www.science.org/doi/full/10.1126/science.ade9097},\n  environments={competition, text},\n  agents={more_than_three_agents, reinforcement_learning, finetuning},\n  evaluation={rule_based},\n  other={human_agent}\n}",
+    authors: "(FAIR)† et al.",
     subsection: "environments/language",
 },
         
@@ -206,6 +222,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://github.com/ini/multigrid",
     bibtex: "@software{multigrid,\n  author = {Oguntola, Ini},\n  title = {Fast Multi-Agent Gridworld Environments for Gymnasium},\n  url = {https://github.com/ini/multigrid},\n  month = {3},\n  year = {2023},\n  journal = {GitHub},\n  environments={collaboration, competition, text},\n  agents={two_agents, more_than_three_agents, reinforcement_learning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Oguntola et al.",
     subsection: "environments/language",
 },
         
@@ -218,6 +235,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://aclanthology.org/2022.emnlp-main.637",
     bibtex: "@inproceedings{callison-burch-etal-2022-dungeons,\n    title = \"Dungeons and Dragons as a Dialog Challenge for Artificial Intelligence\",\n    author = \"Callison-Burch, Chris  and\n      Tomar, Gaurav Singh  and\n      Martin, Lara  and\n      Ippolito, Daphne  and\n      Bailis, Suma  and\n      Reitter, David\",\n    editor = \"Goldberg, Yoav  and\n      Kozareva, Zornitsa  and\n      Zhang, Yue\",\n    booktitle = \"Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing\",\n    month = dec,\n    year = \"2022\",\n    address = \"Abu Dhabi, United Arab Emirates\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2022.emnlp-main.637\",\n    doi = \"10.18653/v1/2022.emnlp-main.637\",\n    pages = \"9379--9393\",\n    abstract = \"AI researchers have posited Dungeons and Dragons (D{\\&}D) as a challenge problem to test systems on various language-related capabilities. In this paper, we frame D{\\&}D specifically as a dialogue system challenge, where the tasks are to both generate the next conversational turn in the game and predict the state of the game given the dialogue history. We create a gameplay dataset consisting of nearly 900 games, with a total of 7,000 players, 800,000 dialogue turns, 500,000 dice rolls, and 58 million words. We automatically annotate the data with partial state information about the game play. We train a large language model (LM) to generate the next game turn, conditioning it on different information. The LM can respond as a particular character or as the player who runs the game{---}i.e., the Dungeon Master (DM). It is trained to produce dialogue that is either in-character (roleplaying in the fictional world) or out-of-character (discussing rules or strategy). We perform a human evaluation to determine what factors make the generated output plausible and interesting. We further perform an automatic evaluation to determine how well the model can predict the game state given the history and examine how well tracking the game state improves its ability to produce plausible conversational output.\",\n    environments={text, implicit_objectives},\n    agents={more_than_three_agents, pretraining, finetuning},\n    evaluation={human, rule_based},\n    other={human_agent}\n}",
+    authors: "Callison-Burch et al.",
     subsection: "environments/language",
 },
         
@@ -230,6 +248,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://aclanthology.org/2023.acl-long.624",
     bibtex: "@inproceedings{zhou-etal-2023-cast,\n    title = \"{I} Cast Detect Thoughts: Learning to Converse and Guide with Intents and Theory-of-Mind in Dungeons and Dragons\",\n    author = \"Zhou, Pei  and\n      Zhu, Andrew  and\n      Hu, Jennifer  and\n      Pujara, Jay  and\n      Ren, Xiang  and\n      Callison-Burch, Chris  and\n      Choi, Yejin  and\n      Ammanabrolu, Prithviraj\",\n    editor = \"Rogers, Anna  and\n      Boyd-Graber, Jordan  and\n      Okazaki, Naoaki\",\n    booktitle = \"Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)\",\n    month = jul,\n    year = \"2023\",\n    address = \"Toronto, Canada\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2023.acl-long.624\",\n    doi = \"10.18653/v1/2023.acl-long.624\",\n    pages = \"11136--11155\",\n    abstract = \"We propose a novel task, G4C, to study teacher-student natural language interactions in a goal-driven and grounded environment. Dungeons and Dragons (D{\\&}D), a role-playing game, provides an ideal setting to investigate such interactions. Here, the Dungeon Master (DM), i.e., the teacher, guides the actions of several players{---}students, each with their own personas and abilities{---}to achieve shared goals grounded in a fantasy world. Our approach is to decompose and model these interactions into (1) the DM{'}s intent to guide players toward a given goal; (2) the DM{'}s guidance utterance to the players expressing this intent; and (3) a theory-of-mind (ToM) model that anticipates the players{'} reaction to the guidance one turn into the future. We develop a novel reinforcement learning (RL) method for training a DM that generates guidance for players by rewarding utterances where the intent matches the ToM-anticipated player actions. Human and automated evaluations show that a DM trained to explicitly model intents and incorporate ToM of the players using RL generates better-quality guidance that is 3x more likely to fulfill the DM{'}s intent than a vanilla natural language generation (NLG) approach.\",\n    environments={text, implicit_objectives},\n    agents={more_than_three_agents, reinforcement_learning},\n    evaluation={human, rule_based},\n    other={human_agent}\n}",
+    authors: "Zhou et al.",
     subsection: "environments/language",
 },
         
@@ -242,6 +261,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://aclanthology.org/2023.acl-long.229",
     bibtex: "@inproceedings{zhu-etal-2023-fireball,\n    title = \"{FIREBALL}: A Dataset of Dungeons and Dragons Actual-Play with Structured Game State Information\",\n    author = \"Zhu, Andrew  and\n      Aggarwal, Karmanya  and\n      Feng, Alexander  and\n      Martin, Lara  and\n      Callison-Burch, Chris\",\n    editor = \"Rogers, Anna  and\n      Boyd-Graber, Jordan  and\n      Okazaki, Naoaki\",\n    booktitle = \"Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)\",\n    month = jul,\n    year = \"2023\",\n    address = \"Toronto, Canada\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2023.acl-long.229\",\n    doi = \"10.18653/v1/2023.acl-long.229\",\n    pages = \"4171--4193\",\n    abstract = \"Dungeons {\\&} Dragons (D{\\&}D) is a tabletop roleplaying game with complex natural language interactions between players and hidden state information. Recent work has shown that large language models (LLMs) that have access to state information can generate higher quality game turns than LLMs that use dialog history alone. However, previous work used game state information that was heuristically created and was not a true gold standard game state. We present FIREBALL, a large dataset containing nearly 25,000 unique sessions from real D{\\&}D gameplay on Discord with true game state info. We recorded game play sessions of players who used the Avrae bot, which was developed to aid people in playing D{\\&}D online, capturing language, game commands and underlying game state information. We demonstrate that FIREBALL can improve natural language generation (NLG) by using Avrae state information, improving both automated metrics and human judgments of quality. Additionally, we show that LLMs can generate executable Avrae commands, particularly after finetuning.\",\n    environments={text, implicit_objectives},\n    agents={more_than_three_agents, finetuning},\n    evaluation={human, rule_based},\n    other={human_agent}\n}",
+    authors: "Zhu et al.",
     subsection: "environments/language",
 },
         
@@ -254,6 +274,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/2308.07540",
     bibtex: "@inproceedings{zhu2023calypso,\n   title={{CALYPSO}: {LLMs} as Dungeon Masters' Assistants},\n   author={Zhu, Andrew and Martin, Lara J. and Head, Andrew and Callison-Burch, Chris},\n   booktitle={The 19th AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (AIIDE 2023)},\n   month={8},\n   year={2023},\n   environments={text, implicit_objectives},\n   agents={more_than_three_agents, finetuning},\n   evaluation={human},\n   other={human_agent},\n   url={https://arxiv.org/abs/2308.07540}\n}",
+    authors: "Zhu et al.",
     subsection: "environments/language",
 },
         
@@ -266,6 +287,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://doi.org/10.1145/365153.365168",
     bibtex: "@article{eliza1966weizenbaum,\n  author = {Weizenbaum, Joseph},\n  title = {ELIZA\u2014a computer program for the study of natural language communication between man and machine},\n  year = {1966},\n  issue_date = {Jan. 1966},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/365153.365168},\n  doi = {10.1145/365153.365168},\n  journal = {Commun. ACM},\n  month = {jan},\n  pages = {36\u201345},\n  environments={text, mixed_objectives},\n  agents={agents_with_personas},\n  evaluation={human},\n  other={n/a}\n}",
+    authors: "Weizenbaum et al.",
     subsection: "environments/language",
 },
         
@@ -278,6 +300,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2208.03188",
     bibtex: "@article{shuster2022blenderbot,\n  title={Blenderbot 3: a deployed conversational agent that continually learns to responsibly engage},\n  author={Shuster, Kurt and Xu, Jing and Komeili, Mojtaba and Ju, Da and Smith, Eric Michael and Roller, Stephen and Ung, Megan and Chen, Moya and Arora, Kushal and Lane, Joshua and others},\n  journal={arXiv preprint arXiv:2208.03188},\n  year={2022},\n  month={8},\n  url={https://arxiv.org/abs/2208.03188},\n  environments={text, mixed_objectives},\n  agents={finetuning},\n  evaluation={qualitative, human},\n  other={n/a}\n}",
+    authors: "Shuster et al.",
     subsection: "environments/language",
 },
         
@@ -290,6 +313,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://openai.com/blog/chatgpt",
     bibtex: "@misc{introducing2022,\n  title={Introducing ChatGPT},\n  author={OpenAI},\n  year={2022},\n  month={11},\n  url={https://openai.com/blog/chatgpt},\n  journal={n/a},\n  environments={text, mixed_objectives},\n  agents={prompting_and_in_context_learning, agents_with_memory},\n  evaluation={qualitative, human},\n  other={human_agent}\n}",
+    authors: "OpenAI et al.",
     subsection: "environments/language",
 },
         
@@ -302,6 +326,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/2403.04132",
     bibtex: "@article{chiang2024chatbot,\n  title={Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference},\n  author={Chiang, Wei-Lin and Zheng, Lianmin and Sheng, Ying and Angelopoulos, Anastasios Nikolas and Li, Tianle and Li, Dacheng and Zhang, Hao and Zhu, Banghua and Jordan, Michael and Gonzalez, Joseph E and others},\n  journal={arXiv preprint arXiv:2403.04132},\n  year={2024},\n  month={3},\n  url={https://arxiv.org/abs/2403.04132},\n  environments={text, mixed_objectives},\n  agents={prompting_and_in_context_learning},\n  evaluation={qualitative, human},\n  other={human_agent}\n}",
+    authors: "Chiang et al.",
     subsection: "environments/language",
 },
         
@@ -314,6 +339,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/2205.01068",
     bibtex: "@article{zhang2022opt,\n  title={Opt: Open pre-trained transformer language models},\n  author={Zhang, Susan and Roller, Stephen and Goyal, Naman and Artetxe, Mikel and Chen, Moya and Chen, Shuohui and Dewan, Christopher and Diab, Mona and Li, Xian and Lin, Xi Victoria and others},\n  journal={arXiv preprint arXiv:2205.01068},\n  year={2022},\n  month={5},\n  url={https://arxiv.org/abs/2205.01068},\n  environments={text, mixed_objectives},\n  agents={finetuning, agents_with_personas},\n  evaluation={qualitative, human},\n  other={human_agent}\n}",
+    authors: "Zhang et al.",
     subsection: "environments/language",
 },
         
@@ -326,6 +352,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://aclanthology.org/2020.cl-1.2",
     bibtex: "@article{zhou2020design,\n  title = \"The Design and Implementation of {X}iao{I}ce, an Empathetic Social Chatbot\",\n  author = \"Zhou, Li  and\n      Gao, Jianfeng  and\n      Li, Di  and\n      Shum, Heung-Yeung\",\n  journal = \"Computational Linguistics\",\n  volume = \"46\",\n  number = \"1\",\n  year = \"2020\",\n  month = \"3\",\n  address = \"Cambridge, MA\",\n  publisher = \"MIT Press\",\n  url = \"https://aclanthology.org/2020.cl-1.2\",\n  doi = \"10.1162/coli_a_00368\",\n  pages = \"53--93\",\n  environments={text, mixed_objectives},\n  agents={finetuning, agents_with_personas},\n  evaluation={qualitative, human},\n  other={human_agent}\n}",
+    authors: "Zhou et al.",
     subsection: "environments/language",
 },
         
@@ -338,6 +365,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://link.springer.com/chapter/10.1007/11825890_3",
     bibtex: "@incollection{cai2006empathic,\n  title={Empathic computing},\n  author={Cai, Yang},\n  booktitle={Ambient intelligence in everyday life: Foreword by Emile Aarts},\n  pages={67--85},\n  year={2006},\n  month={1},\n  publisher={Springer},\n  url={https://link.springer.com/chapter/10.1007/11825890_3},\n  environments={text, mixed_objectives},\n  agents={agents_with_personas},\n  evaluation={human},\n  other={n/a}\n}",
+    authors: "Cai et al.",
     subsection: "environments/language",
 },
         
@@ -350,6 +378,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://openreview.net/forum?id=r1l73iRqKm",
     bibtex: "@inproceedings{dinan2018wizard,\n  title={Wizard of Wikipedia: Knowledge-Powered Conversational Agents},\n  author={Emily Dinan and Stephen Roller and Kurt Shuster and Angela Fan and Michael Auli and Jason Weston},\n  booktitle={International Conference on Learning Representations},\n  year={2019},\n  month={4},\n  url={https://openreview.net/forum?id=r1l73iRqKm},\n  environments={text, mixed_objectives, implicit_objectives},\n  agents={finetuning, agents_with_personas},\n  evaluation={qualitative, human},\n  other={human_agent}\n}",
+    authors: "Dinan et al.",
     subsection: "environments/language",
 },
         
@@ -362,6 +391,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://ojs.aaai.org/index.php/AAAI/article/view/11977",
     bibtex: "@inproceedings{ghazvininejad2018knowledge,\n  title={A knowledge-grounded neural conversation model},\n  author={Ghazvininejad, Marjan and Brockett, Chris and Chang, Ming-Wei and Dolan, Bill and Gao, Jianfeng and Yih, Wen-tau and Galley, Michel},\n  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},\n  volume={32},\n  number={1},\n  year={2018},\n  month={4},\n  url={https://ojs.aaai.org/index.php/AAAI/article/view/11977},\n  environments={text, mixed_objectives, implicit_objectives},\n  agents={finetuning},\n  evaluation={qualitative, human},\n  other={human_agent}\n}",
+    authors: "Ghazvininejad et al.",
     subsection: "environments/language",
 },
         
@@ -374,6 +404,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://aclanthology.org/P16-1094/",
     bibtex: "@article{li2016persona,\n  title={A persona-based neural conversation model},\n  author={Li, Jiwei and Galley, Michel and Brockett, Chris and Spithourakis, Georgios P and Gao, Jianfeng and Dolan, Bill},\n  journal={arXiv preprint arXiv:1603.06155},\n  year={2016},\n  month={8},\n  url={https://aclanthology.org/P16-1094/},\n  environments={text, mixed_objectives},\n  agents={finetuning, agents_with_personas},\n  evaluation={qualitative, human},\n  other={human_agent}\n}",
+    authors: "Li et al.",
     subsection: "environments/language",
 },
         
@@ -386,6 +417,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://link.springer.com/chapter/10.1007/978-1-4020-6710-5_13",
     bibtex: "@book{wallace2009anatomy,\n  title={The anatomy of ALICE},\n  author={Wallace, Richard S},\n  year={2009},\n  month={11},\n  publisher={Springer},\n  journal={n/a},\n  url={https://link.springer.com/chapter/10.1007/978-1-4020-6710-5_13},\n  environments={text, mixed_objectives},\n  agents={agents_with_personas},\n  evaluation={human},\n  other={n/a}\n}",
+    authors: "Wallace et al.",
     subsection: "environments/language",
 },
         
@@ -398,6 +430,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://link.springer.com/chapter/10.1007/978-3-319-75487-1_14",
     bibtex: "@inproceedings{fung2018towards,\n  title={Towards empathetic human-robot interactions},\n  author={Fung, Pascale and Bertero, Dario and Wan, Yan and Dey, Anik and Chan, Ricky Ho Yin and Bin Siddique, Farhad and Yang, Yang and Wu, Chien-Sheng and Lin, Ruixi},\n  booktitle={Computational Linguistics and Intelligent Text Processing: 17th International Conference, CICLing 2016, Konya, Turkey, April 3--9, 2016, Revised Selected Papers, Part II 17},\n  pages={173--193},\n  year={2018},\n  month={3},\n  organization={Springer},\n  url={https://link.springer.com/chapter/10.1007/978-3-319-75487-1_14},\n  environments={text, mixed_objectives},\n  agents={agents_with_personas},\n  evaluation={qualitative, human},\n  other={human_agent}\n}",
+    authors: "Fung et al.",
     subsection: "environments/language",
 },
         
@@ -410,6 +443,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://pubmed.ncbi.nlm.nih.gov/36591412/",
     bibtex: "@article{clavel2022socio,\n  title={Socio-conversational systems: Three challenges at the crossroads of fields},\n  author={Clavel, Chlo{\\'e} and Labeau, Matthieu and Cassell, Justine},\n  journal={Frontiers in Robotics and AI},\n  volume={9},\n  pages={937825},\n  year={2022},\n  month={1},\n  url={https://pubmed.ncbi.nlm.nih.gov/36591412/},\n  publisher={Frontiers},\n  environments = {collaboration},\n  agents = {agents_with_personas, two_agents},\n  evaluation = {qualitative, human},\n  other = {n/a}\n}",
+    authors: "Clavel et al.",
     subsection: "environments/language",
 },
         
@@ -422,6 +456,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/1811.00207",
     bibtex: "@article{rashkin2018towards,\n  title={Towards empathetic open-domain conversation models: A new benchmark and dataset},\n  author={Rashkin, Hannah and Smith, Eric Michael and Li, Margaret and Boureau, Y-Lan},\n  journal={arXiv preprint arXiv:1811.00207},\n  year={2018},\n  month={11},\n  url={https://arxiv.org/abs/1811.00207},\n  environments = {collaboration},\n  agents = {agents_with_personas, two_agents},\n  evaluation = {qualitative, human},\n  other = {n/a}\n}",
+    authors: "Rashkin et al.",
     subsection: "environments/language",
 },
         
@@ -434,6 +469,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://dl.acm.org/doi/book/10.1145/3477322",
     bibtex: "@book{lugrin2022handbook,\n  title={The Handbook on Socially Interactive Agents: 20 Years of Research on Embodied Conversational Agents, Intelligent Virtual Agents, and Social Robotics Volume 2: Interactivity, Platforms, Application},\n  author={Lugrin, Birgit and Pelachaud, Catherine and Traum, David},\n  year={2022},\n  month={1},\n  url={https://dl.acm.org/doi/book/10.1145/3477322},\n  journal={ACM},\n  environments = {collaboration},\n  agents = {agents_with_personas, two_agents},\n  evaluation = {qualitative, human},\n  other = {n/a}\n}",
+    authors: "Lugrin et al.",
     subsection: "environments/language",
 },
         
@@ -446,6 +482,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2201.04723",
     bibtex: "@article{smith2022human,\n  title={Human evaluation of conversations is an open problem: comparing the sensitivity of various methods for evaluating dialogue agents},\n  author={Smith, Eric Michael and Hsu, Orion and Qian, Rebecca and Roller, Stephen and Boureau, Y-Lan and Weston, Jason},\n  journal={arXiv preprint arXiv:2201.04723},\n  year={2022},\n  month={1},\n  url={https://arxiv.org/abs/2201.04723},\n  environments = {collaboration},\n  agents = {agents_with_personas, two_agents},\n  evaluation = {human},\n  other = {n/a}\n}",
+    authors: "Smith et al.",
     subsection: "environments/language",
 },
         
@@ -458,6 +495,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2203.10012",
     bibtex: "@article{mehri2022report,\n  title={Report from the nsf future directions workshop on automatic evaluation of dialog: Research directions and challenges},\n  author={Mehri, Shikib and Choi, Jinho and D'Haro, Luis Fernando and Deriu, Jan and Eskenazi, Maxine and Gasic, Milica and Georgila, Kallirroi and Hakkani-Tur, Dilek and Li, Zekang and Rieser, Verena and others},\n  journal={arXiv preprint arXiv:2203.10012},\n  year={2022},\n  month={3},\n  url={https://arxiv.org/abs/2203.10012},\n  environments = {collaboration},\n  agents = {agents_with_personas, two_agents},\n  evaluation = {qualitative, human},\n  other = {n/a}\n}",
+    authors: "Mehri et al.",
     subsection: "environments/language",
 },
         
@@ -470,6 +508,7 @@ export const data: Paper[] = [
     other: "more_omniscient",
     url: "http://arxiv.org/abs/2303.11366",
     bibtex: "@ARTICLE{Shinn2023-tt,\n  title         = \"Reflexion: Language Agents with Verbal Reinforcement Learning\",\n  author        = \"Shinn, Noah and Cassano, Federico and Labash, Beck and Gopinath, Ashwin and Narasimhan, Karthik and Yao, Shunyu\",\n  month         =  mar,\n  year          =  2023,\n  url           = \"http://arxiv.org/abs/2303.11366\",\n  archivePrefix = \"arXiv\",\n  eprint        = \"2303.11366\",\n  primaryClass  = \"cs.AI\",\n  arxivid       = \"2303.11366\",\n  environments = {mixed_objectives, text},\n  agents = {prompting_and_in_context_learning, reinforcement_learning, agents_with_memory},\n  evaluation = {rule_based},\n  other = {more_omniscient},\n}",
+    authors: "Shinn et al.",
     subsection: "environments/language",
 },
         
@@ -482,6 +521,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://link.springer.com/chapter/10.1007/978-3-319-57969-6_8",
     bibtex: "@inproceedings{toriumi2017ai,\n  title={AI wolf contest\u2014development of game AI using collective intelligence\u2014},\n  author={Toriumi, Fujio and Osawa, Hirotaka and Inaba, Michimasa and Katagami, Daisuke and Shinoda, Kosuke and Matsubara, Hitoshi},\n  booktitle={Computer Games: 5th Workshop on Computer Games, CGW 2016, and 5th Workshop on General Intelligence in Game-Playing Agents, GIGA 2016, Held in Conjunction with the 25th International Conference on Artificial Intelligence, IJCAI 2016, New York, USA, July 9-10, 2016, Revised Selected Papers 5},\n  pages={101--115},\n  year={2017},\n  month={4},\n  organization={Springer},\n  url={https://link.springer.com/chapter/10.1007/978-3-319-57969-6_8},\n  agents = {reinforcement_learning, agents_with_memory},\n  environments = {text},\n  evaluation = {rule_based},\n  other = {human_agent},\n}",
+    authors: "Toriumi et al.",
     subsection: "environments/language",
 },
         
@@ -494,6 +534,7 @@ export const data: Paper[] = [
     other: "human_agent, simulated_humans",
     url: "https://doi.org/10.1145/3406499.3418760",
     bibtex: "@inproceedings{10.1145/3406499.3418760,\nauthor = {Tsoi, Nathan and Hussein, Mohamed and Espinoza, Jeacy and Ruiz, Xavier and V\\'{a}zquez, Marynel},\ntitle = {SEAN: Social Environment for Autonomous Navigation},\nyear = {2020},\nmonth={9},\nisbn = {9781450380546},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/3406499.3418760},\ndoi = {10.1145/3406499.3418760},\nabstract = {Social navigation research is performed on a variety of robotic platforms, scenarios, and environments. Making comparisons between navigation algorithms is challenging because of the effort involved in building these systems and the diversity of platforms used by the community; nonetheless, evaluation is critical to understanding progress in the field. In a step towards reproducible evaluation of social navigation algorithms, we propose the Social Environment for Autonomous Navigation (SEAN). SEAN is a high visual fidelity, open source, and extensible social navigation simulation platform which includes a toolkit for evaluation of navigation algorithms. We demonstrate SEAN and its evaluation toolkit in two environments with dynamic pedestrians and using two different robots.},\nbooktitle = {Proceedings of the 8th International Conference on Human-Agent Interaction},\npages = {281\u2013283},\nnumpages = {3},\nkeywords = {social robot navigation, human-robot interaction},\nlocation = {Virtual Event, USA},\nseries = {HAI '20},\nenvironments={mixed_objectives, embodied},\nagents={reinforcement_learning},\nevaluation={rule_based},\nother={human_agent, simulated_humans}\n}",
+    authors: "Tsoi et al.",
     subsection: "environments/embodied",
 },
         
@@ -506,6 +547,7 @@ export const data: Paper[] = [
     other: "human_agent, simulated_humans",
     url: "https://openreview.net/forum?id=4znwzG92CE",
     bibtex: "@inproceedings{puig2024habitat,\ntitle={Habitat 3.0: A Co-Habitat for Humans, Avatars, and Robots},\nauthor={Xavier Puig and Eric Undersander and Andrew Szot and Mikael Dallaire Cote and Tsung-Yen Yang and Ruslan Partsey and Ruta Desai and Alexander Clegg and Michal Hlavac and So Yeon Min and Vladim{\\'\\i}r Vondru{\\v{s}} and Theophile Gervet and Vincent-Pierre Berges and John M Turner and Oleksandr Maksymets and Zsolt Kira and Mrinal Kalakrishnan and Jitendra Malik and Devendra Singh Chaplot and Unnat Jain and Dhruv Batra and Akshara Rai and Roozbeh Mottaghi},\nbooktitle={The Twelfth International Conference on Learning Representations},\nyear={2023},\nmonth={10},\nurl={https://openreview.net/forum?id=4znwzG92CE},\n  environments={mixed_objectives, embodied},\n  agents={reinforcement_learning},\n  evaluation={rule_based},\n  other={human_agent, simulated_humans}\n}",
+    authors: "Puig et al.",
     subsection: "environments/embodied",
 },
         
@@ -518,6 +560,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/2404.10179v2",
     bibtex: "@article{team2024scaling,\n  title={Scaling Instructable Agents Across Many Simulated Worlds},\n  author={Team, SIMA and Abi Raad, Maria and Ahuja, Arun and Barros, Catarina and Besse, Frederic and Bolt, Andrew and Bolton, Adrian and Brownfield, Bethanie and Buttimore, Gavin and Cant, Max and others},\n  year={2024},\n  month={4},\n  url={https://arxiv.org/abs/2404.10179v2},\n  journal={arXiv preprint arXiv:2404.10179},\n  environments={embodied},\n  agents={prompting_and_in_context_learning, finetuning},\n  evaluation={qualitative},\n  other={human_agent}\n}",
+    authors: "Team et al.",
     subsection: "environments/embodied",
 },
         
@@ -530,6 +573,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/2312.11865",
     bibtex: "@article{ma2023large,\n  title={Large language models play starcraft ii: Benchmarks and a chain of summarization approach},\n  author={Ma, Weiyu and Mi, Qirui and Yan, Xue and Wu, Yuqiao and Lin, Runji and Zhang, Haifeng and Wang, Jun},\n  journal={arXiv preprint arXiv:2312.11865},\n  year={2023},\n  month={12},\n  url={https://arxiv.org/abs/2312.11865},\n  environments={embodied},\n  agents={prompting_and_in_context_learning, finetuning},\n  evaluation={qualitative},\n  other={human_agent}\n}",
+    authors: "Ma et al.",
     subsection: "environments/embodied",
 },
         
@@ -542,6 +586,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://github.com/OpenGenerativeAI/llm-colosseum",
     bibtex: "@misc{opengenerativeai2024evaluate,\n  title={Evaluate LLMs in real time with Street Fighter III},\n  author={OpenGenerativeAI team},\n  year={2024},\n  month={3},\n  url={https://github.com/OpenGenerativeAI/llm-colosseum},\n  journal={n/a},\n  environments={embodied},\n  agents={prompting_and_in_context_learning},\n  evaluation={qualitative},\n  other={human_agent}\n}",
+    authors: "team et al.",
     subsection: "environments/embodied",
 },
         
@@ -554,6 +599,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2310.17512",
     bibtex: "@misc{zhao2023competeai,\n      title={CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents}, \n      author={Qinlin Zhao and Jindong Wang and Yixuan Zhang and Yiqiao Jin and Kaijie Zhu and Hao Chen and Xing Xie},\n      environments = {competition, text},\n      agents = {prompting_and_in_context_learning, two_agents},\n      evaluation = {rule_based},\n      url = {https://arxiv.org/abs/2310.17512},\n      other = {n/a},\n      year={2023},\n      eprint={2310.17512},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI}\n}",
+    authors: "Zhao et al.",
     subsection: "environments/embodied",
 },
         
@@ -566,6 +612,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://dl.acm.org/doi/abs/10.1145/3656580",
     bibtex: "@article{liang2023foundations,\n  title={Foundations \\& Trends in Multimodal Machine Learning: Principles, Challenges, and Open Questions},\n  author={Liang, Paul Pu and Zadeh, Amir and Morency, Louis-Philippe},\n  journal={ACM Computing Surveys},\n  publisher={ACM New York, NY},\n  year={2023},\n  month={1},\n  url={https://dl.acm.org/doi/abs/10.1145/3656580},\n  environments = {text, virtual, embodied, robotics, collaboration},\n  agents = {prompting_and_in_context_learning, finetuning, pretraining, reinforcement_learning, two_agents},\n  evaluation = {qualitative, human},\n  other = {n/a},\n}",
+    authors: "Liang et al.",
     subsection: "environments/embodied",
 },
         
@@ -578,6 +625,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://ieeexplore.ieee.org/document/8506506",
     bibtex: "@inproceedings{li2018appinite,\n  title={Appinite: A multi-modal interface for specifying data descriptions in programming by demonstration using natural language instructions},\n  author={Li, Toby Jia-Jun and Labutov, Igor and Li, Xiaohan Nancy and Zhang, Xiaoyi and Shi, Wenze and Ding, Wanling and Mitchell, Tom M and Myers, Brad A},\n  booktitle={2018 IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC)},\n  pages={105--114},\n  year={2018},\n  month={3},\n  organization={IEEE},\n  url={https://ieeexplore.ieee.org/document/8506506},\n  environments={virtual},\n  agents={prompting_and_in_context_learning},\n  evaluation={human, qualitative},\n  other={human_agent}\n}",
+    authors: "Li et al.",
     subsection: "environments/virtual",
 },
         
@@ -590,6 +638,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://dl.acm.org/doi/10.1145/3332165.3347899",
     bibtex: "@inproceedings{li2019pumice,\n  title={Pumice: A multi-modal agent that learns concepts and conditionals from natural language and demonstrations},\n  author={Li, Toby Jia-Jun and Radensky, Marissa and Jia, Justin and Singarajah, Kirielle and Mitchell, Tom M and Myers, Brad A},\n  booktitle={Proceedings of the 32nd annual ACM symposium on user interface software and technology},\n  pages={577--589},\n  year={2019},\n  month={3},\n  url={https://dl.acm.org/doi/10.1145/3332165.3347899},\n  environments={virtual},\n  agents={prompting_and_in_context_learning},\n  evaluation={human, qualitative},\n  other={human_agent}\n}",
+    authors: "Li et al.",
     subsection: "environments/virtual",
 },
         
@@ -602,6 +651,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/1909.00031",
     bibtex: "@inproceedings{li2020interactive,\n  title={Interactive task learning from GUI-grounded natural language instructions and demonstrations},\n  author={Li, Toby Jia-Jun and Mitchell, Tom and Myers, Brad},\n  booktitle={Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: System Demonstrations},\n  pages={215--223},\n  year={2020},\n  month={9},\n  url={https://arxiv.org/abs/1909.00031},\n  environments={virtual},\n  agents={prompting_and_in_context_learning},\n  evaluation={human, qualitative},\n  other={human_agent}\n}",
+    authors: "Li et al.",
     subsection: "environments/virtual",
 },
         
@@ -614,6 +664,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2312.13771",
     bibtex: "@article{yang2023appagent,\n  title={Appagent: Multimodal agents as smartphone users},\n  author={Yang, Zhao and Liu, Jiaxuan and Han, Yucheng and Chen, Xin and Huang, Zebiao and Fu, Bin and Yu, Gang},\n  journal={arXiv preprint arXiv:2312.13771},\n  year={2023},\n  month={12},\n  url={https://arxiv.org/abs/2312.13771},\n  environments={virtual},\n  agents={prompting_and_in_context_learning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Yang et al.",
     subsection: "environments/virtual",
 },
         
@@ -626,6 +677,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2402.07939",
     bibtex: "@article{zhang2024ufo,\n  title={UFO: A UI-Focused Agent for Windows OS Interaction},\n  author={Zhang, Chaoyun and Li, Liqun and He, Shilin and Zhang, Xu and Qiao, Bo and Qin, Si and Ma, Minghua and Kang, Yu and Lin, Qingwei and Rajmohan, Saravan and others},\n  journal={arXiv preprint arXiv:2402.07939},\n  year={2024},\n  month={2},\n  url={https://arxiv.org/abs/2402.07939},\n  environments={virtual},\n  agents={prompting_and_in_context_learning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Zhang et al.",
     subsection: "environments/virtual",
 },
         
@@ -638,6 +690,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2401.16158",
     bibtex: "@article{wang2024mobile,\n  title={Mobile-Agent: Autonomous multi-modal mobile device agent with visual perception},\n  author={Wang, Junyang and Xu, Haiyang and Ye, Jiabo and Yan, Ming and Shen, Weizhou and Zhang, Ji and Huang, Fei and Sang, Jitao},\n  journal={arXiv preprint arXiv:2401.16158},\n  year={2024},\n  month={1},\n  url={https://arxiv.org/abs/2401.16158},\n  environments={virtual},\n  agents={prompting_and_in_context_learning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Wang et al.",
     subsection: "environments/virtual",
 },
         
@@ -650,6 +703,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2402.07456",
     bibtex: "@article{wu2024copilot,\n  title={Os-copilot: Towards generalist computer agents with self-improvement},\n  author={Wu, Zhiyong and Han, Chengcheng and Ding, Zichen and Weng, Zhenmin and Liu, Zhoumianze and Yao, Shunyu and Yu, Tao and Kong, Lingpeng},\n  journal={arXiv preprint arXiv:2402.07456},\n  year={2024},\n  month={2},\n  url={https://arxiv.org/abs/2402.07456},\n  environments={virtual},\n  agents={prompting_and_in_context_learning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Wu et al.",
     subsection: "environments/virtual",
 },
         
@@ -662,6 +716,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2307.13854",
     bibtex: "@article{zhou2023webarena,\n  title={Webarena: A realistic web environment for building autonomous agents},\n  author={Zhou, Shuyan and Xu, Frank F and Zhu, Hao and Zhou, Xuhui and Lo, Robert and Sridhar, Abishek and Cheng, Xianyi and Bisk, Yonatan and Fried, Daniel and Alon, Uri and others},\n  journal={arXiv preprint arXiv:2307.13854},\n  year={2023},\n  month={7},\n  url={https://arxiv.org/abs/2307.13854},\n  environments={virtual},\n  agents={prompting_and_in_context_learning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Zhou et al.",
     subsection: "environments/virtual",
 },
         
@@ -674,6 +729,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2401.13649",
     bibtex: "@article{koh2024visualwebarena,\n  title={Visualwebarena: Evaluating multimodal agents on realistic visual web tasks},\n  author={Koh, Jing Yu and Lo, Robert and Jang, Lawrence and Duvvur, Vikram and Lim, Ming Chong and Huang, Po-Yu and Neubig, Graham and Zhou, Shuyan and Salakhutdinov, Ruslan and Fried, Daniel},\n  journal={arXiv preprint arXiv:2401.13649},\n  year={2024},\n  month={1},\n  url={https://arxiv.org/abs/2401.13649},\n  environments={virtual},\n  agents={prompting_and_in_context_learning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Koh et al.",
     subsection: "environments/virtual",
 },
         
@@ -686,6 +742,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://proceedings.neurips.cc/paper_files/paper/2022/file/82ad13ec01f9fe44c01cb91814fd7b8c-Paper-Conference.pdf",
     bibtex: "@article{yao2022webshop,\n  title={Webshop: Towards scalable real-world web interaction with grounded language agents},\n  author={Yao, Shunyu and Chen, Howard and Yang, John and Narasimhan, Karthik},\n  journal={Advances in Neural Information Processing Systems},\n  volume={35},\n  pages={20744--20757},\n  year={2022},\n  month={12},\n  url={https://proceedings.neurips.cc/paper_files/paper/2022/file/82ad13ec01f9fe44c01cb91814fd7b8c-Paper-Conference.pdf},\n  environments={virtual},\n  agents={prompting_and_in_context_learning, finetuning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Yao et al.",
     subsection: "environments/virtual",
 },
         
@@ -698,6 +755,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2202.08137",
     bibtex: "@inproceedings{humphreys2022data,\n  title={A data-driven approach for learning to control computers},\n  author={Humphreys, Peter C and Raposo, David and Pohlen, Tobias and Thornton, Gregory and Chhaparia, Rachita and Muldal, Alistair and Abramson, Josh and Georgiev, Petko and Santoro, Adam and Lillicrap, Timothy},\n  booktitle={International Conference on Machine Learning},\n  pages={9466--9482},\n  year={2022},\n  month={7},\n  organization={PMLR},\n  url={https://arxiv.org/abs/2202.08137},\n  environments={virtual},\n  agents={finetuning, reinforcement_learning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Humphreys et al.",
     subsection: "environments/virtual",
 },
         
@@ -710,6 +768,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://proceedings.mlr.press/v70/shi17a/shi17a.pdf",
     bibtex: "@inproceedings{shi2017world,\n  title={World of bits: An open-domain platform for web-based agents},\n  author={Shi, Tianlin and Karpathy, Andrej and Fan, Linxi and Hernandez, Jonathan and Liang, Percy},\n  booktitle={International Conference on Machine Learning},\n  pages={3135--3144},\n  year={2017},\n  month={8},\n  organization={PMLR},\n  url={https://proceedings.mlr.press/v70/shi17a/shi17a.pdf},\n  environments={virtual},\n  agents={reinforcement_learning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Shi et al.",
     subsection: "environments/virtual",
 },
         
@@ -722,6 +781,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/1802.08802",
     bibtex: "@article{liu2018reinforcement,\n  title={Reinforcement learning on web interfaces using workflow-guided exploration},\n  author={Liu, Evan Zheran and Guu, Kelvin and Pasupat, Panupong and Shi, Tianlin and Liang, Percy},\n  journal={arXiv preprint arXiv:1802.08802},\n  year={2018},\n  month={2},\n  url={https://arxiv.org/abs/1802.08802},\n  environments={virtual},\n  agents={reinforcement_learning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Liu et al.",
     subsection: "environments/virtual",
 },
         
@@ -734,6 +794,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://aclanthology.org/P09-1010/",
     bibtex: "@inproceedings{branavan2009reinforcement,\n  title={Reinforcement learning for mapping instructions to actions},\n  author={Branavan, Satchuthananthavale RK and Chen, Harr and Zettlemoyer, Luke and Barzilay, Regina},\n  booktitle={Proceedings of the Joint Conference of the 47th Annual Meeting of the ACL and the 4th International Joint Conference on Natural Language Processing of the AFNLP},\n  pages={82--90},\n  year={2009},\n  month={8},\n  url={https://aclanthology.org/P09-1010/},\n  environments={virtual},\n  agents={reinforcement_learning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Branavan et al.",
     subsection: "environments/virtual",
 },
         
@@ -746,6 +807,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2105.13231",
     bibtex: "@article{toyama2021androidenv,\n  title={Androidenv: A reinforcement learning platform for android},\n  author={Toyama, Daniel and Hamel, Philippe and Gergely, Anita and Comanici, Gheorghe and Glaese, Amelia and Ahmed, Zafarali and Jackson, Tyler and Mourad, Shibl and Precup, Doina},\n  journal={arXiv preprint arXiv:2105.13231},\n  year={2021},\n  month={5},\n  url={https://arxiv.org/abs/2105.13231},\n  environments={virtual},\n  agents={reinforcement_learning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Toyama et al.",
     subsection: "environments/virtual",
 },
         
@@ -758,6 +820,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2005.03776",
     bibtex: "@article{li2020mapping,\n  title={Mapping natural language instructions to mobile UI action sequences},\n  author={Li, Yang and He, Jiacong and Zhou, Xin and Zhang, Yuan and Baldridge, Jason},\n  journal={arXiv preprint arXiv:2005.03776},\n  year={2020},\n  month={5},\n  url={https://arxiv.org/abs/2005.03776},\n  environments={virtual},\n  agents={finetuning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Li et al.",
     subsection: "environments/virtual",
 },
         
@@ -770,6 +833,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2202.02312",
     bibtex: "@inproceedings{burns2022dataset,\n  title={A dataset for interactive vision-language navigation with unknown command feasibility},\n  author={Burns, Andrea and Arsan, Deniz and Agrawal, Sanjna and Kumar, Ranjitha and Saenko, Kate and Plummer, Bryan A},\n  booktitle={European Conference on Computer Vision},\n  pages={312--328},\n  year={2022},\n  month={2},\n  url={https://arxiv.org/abs/2202.02312},\n  organization={Springer},\n  environments={virtual},\n  agents={finetuning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Burns et al.",
     subsection: "environments/virtual",
 },
         
@@ -782,6 +846,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2306.06070",
     bibtex: "@article{deng2024mind2web,\n  title={Mind2web: Towards a generalist agent for the web},\n  author={Deng, Xiang and Gu, Yu and Zheng, Boyuan and Chen, Shijie and Stevens, Sam and Wang, Boshi and Sun, Huan and Su, Yu},\n  journal={Advances in Neural Information Processing Systems},\n  volume={36},\n  year={2024},\n  month={1},\n  url={https://arxiv.org/abs/2306.06070},\n  environments={virtual},\n  agents={prompting_and_in_context_learning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Deng et al.",
     subsection: "environments/virtual",
 },
         
@@ -794,6 +859,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2307.10088",
     bibtex: "@article{rawles2023android,\n  title={Android in the wild: A large-scale dataset for android device control},\n  author={Rawles, Christopher and Li, Alice and Rodriguez, Daniel and Riva, Oriana and Lillicrap, Timothy},\n  journal={arXiv preprint arXiv:2307.10088},\n  year={2023},\n  month={7},\n  url={https://arxiv.org/abs/2307.10088},\n  environments={virtual},\n  agents={finetuning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Rawles et al.",
     subsection: "environments/virtual",
 },
         
@@ -806,6 +872,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://cdn.aaai.org/AAAI/2007/AAAI07-240.pdf",
     bibtex: "@inproceedings{allen2007plow,\n  title={Plow: A collaborative task learning agent},\n  author={Allen, James and Chambers, Nathanael and Ferguson, George and Galescu, Lucian and Jung, Hyuckchul and Swift, Mary and Taysom, William},\n  booktitle={AAAI},\n  volume={7},\n  pages={1514--1519},\n  year={2007},\n  month={7},\n  url={https://cdn.aaai.org/AAAI/2007/AAAI07-240.pdf},\n  environments={virtual},\n  agents={prompting_and_in_context_learning},\n  evaluation={human}, \n  other={human_agent}\n}",
+    authors: "Allen et al.",
     subsection: "environments/virtual",
 },
         
@@ -818,6 +885,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2103.16057",
     bibtex: "@article{xu2021grounding,\n  title={Grounding open-domain instructions to automate web support tasks},\n  author={Xu, Nancy and Masling, Sam and Du, Michael and Campagna, Giovanni and Heck, Larry and Landay, James and Lam, Monica S},\n  journal={arXiv preprint arXiv:2103.16057},\n  year={2021},\n  month={3},\n  url={https://arxiv.org/abs/2103.16057},\n  environments={virtual, embodied},\n  agents={finetuning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Xu et al.",
     subsection: "environments/virtual",
 },
         
@@ -830,6 +898,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/1712.05474",
     bibtex: "@article{kolve2017ai2,\n  title={Ai2-thor: An interactive 3d environment for visual ai},\n  author={Kolve, Eric and Mottaghi, Roozbeh and Han, Winson and VanderBilt, Eli and Weihs, Luca and Herrasti, Alvaro and Deitke, Matt and Ehsani, Kiana and Gordon, Daniel and Zhu, Yuke and others},\n  journal={arXiv preprint arXiv:1712.05474},\n  year={2017},\n  month={5},\n  url = {https://arxiv.org/abs/1712.05474},\n  environments={virtual},\n  agents = {n/a},\n  evaluation = {rule_based},\n  other= {n/a},\n}",
+    authors: "Kolve et al.",
     subsection: "environments/virtual",
 },
         
@@ -842,6 +911,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2404.07972",
     bibtex: "@misc{OSWorld,\n    title={OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments},\n    author={Tianbao Xie and Danyang Zhang and Jixuan Chen and Xiaochuan Li and Siheng Zhao and Ruisheng Cao and Toh Jing Hua and Zhoujun Cheng and Dongchan Shin and Fangyu Lei and Yitao Liu and Yiheng Xu and Shuyan Zhou and Silvio Savarese and Caiming Xiong and Victor Zhong and Tao Yu},\n    journal={arXiv preprint arXiv:2404.07972},\n    year={2024},\n    month={4},\n    url = {https://arxiv.org/abs/2404.07972},\n    environments={virtual},\n    agents = {prompting_and_in_context_learning},\n    evaluation = {rule_based},\n    other = {n/a}\n}",
+    authors: "Xie et al.",
     subsection: "environments/virtual",
 },
         
@@ -854,6 +924,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2403.07718",
     bibtex: "@article{drouin2024workarena,\n  title={WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks?},\n  author={Drouin, Alexandre and Gasse, Maxime and Caccia, Massimo and Laradji, Issam H and Del Verme, Manuel and Marty, Tom and Boisvert, L{\\'e}o and Thakkar, Megh and Cappart, Quentin and Vazquez, David and others},\n  journal={arXiv preprint arXiv:2403.07718},\n  year={2024},\n  month={3},\n  url = {https://arxiv.org/abs/2403.07718},\n  environments={virtual},\n  agents = {prompting_and_in_context_learning},\n  evaluation = {rule_based},\n  other = {n/a}\n}",
+    authors: "Drouin et al.",
     subsection: "environments/virtual",
 },
         
@@ -866,6 +937,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://openaccess.thecvf.com/content_cvpr_2018/html/Puig_VirtualHome_Simulating_Household_CVPR_2018_paper.html",
     bibtex: "@inproceedings{puig2018virtualhome,\n  title={Virtualhome: Simulating household activities via programs},\n  author={Puig, Xavier and Ra, Kevin and Boben, Marko and Li, Jiaman and Wang, Tingwu and Fidler, Sanja and Torralba, Antonio},\n  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},\n  pages={8494--8502},\n  year={2018},\n  month={6},\n  url = {https://openaccess.thecvf.com/content_cvpr_2018/html/Puig_VirtualHome_Simulating_Household_CVPR_2018_paper.html},\n  environments={virtual, embodied},\n  agents = {n/a},\n  evaluation = {rule_based},\n  other= {n/a},\n}",
+    authors: "Puig et al.",
     subsection: "environments/virtual",
 },
         
@@ -878,6 +950,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2006.13760",
     bibtex: "@article{kuttler2020nethack,\n  title={The nethack learning environment},\n  author={K{\\\"u}ttler, Heinrich and Nardelli, Nantas and Miller, Alexander and Raileanu, Roberta and Selvatici, Marco and Grefenstette, Edward and Rockt{\\\"a}schel, Tim},\n  journal={Advances in Neural Information Processing Systems},\n  volume={33},\n  pages={7671--7684},\n  year={2020},\n  month={4},\n  url = {https://arxiv.org/abs/2006.13760},\n  environments={virtual},\n  agents = {reinforcement_learning},\n  evaluation = {rule_based},\n  other= {n/a},\n}",
+    authors: "K{\"u}ttler et al.",
     subsection: "environments/virtual",
 },
         
@@ -890,6 +963,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/1806.11532",
     bibtex: "@inproceedings{cote2019textworld,\n  title={Textworld: A learning environment for text-based games},\n  author={C{\\^o}t{\\'e}, Marc-Alexandre and K{\\'a}d{\\'a}r, Akos and Yuan, Xingdi and Kybartas, Ben and Barnes, Tavian and Fine, Emery and Moore, James and Hausknecht, Matthew and El Asri, Layla and Adada, Mahmoud and others},\n  booktitle={Computer Games: 7th Workshop, CGW 2018, Held in Conjunction with the 27th International Conference on Artificial Intelligence, IJCAI 2018, Stockholm, Sweden, July 13, 2018, Revised Selected Papers 7},\n  pages={41--75},\n  year={2019},\n  month={1},\n  organization={Springer},\n  url = {https://arxiv.org/abs/1806.11532},\n  environments={virtual, text},\n  agents = {n/a},\n  evaluation = {rule_based},\n  other= {n/a},\n}",
+    authors: "C{\^o}t{\'e} et al.",
     subsection: "environments/virtual",
 },
         
@@ -902,6 +976,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2203.07540",
     bibtex: "@article{wang2022scienceworld,\n  title={Scienceworld: Is your agent smarter than a 5th grader?},\n  author={Wang, Ruoyao and Jansen, Peter and C{\\^o}t{\\'e}, Marc-Alexandre and Ammanabrolu, Prithviraj},\n  journal={arXiv preprint arXiv:2203.07540},\n  year={2022},\n  month={2},\n  url={https://arxiv.org/abs/2203.07540},\n  environments={virtual},\n  agents = {finetuning},\n  evaluation = {rule_based},\n  other= {n/a}, \n}",
+    authors: "Wang et al.",
     subsection: "environments/virtual",
 },
         
@@ -914,6 +989,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2206.08853",
     bibtex: "@article{fan2022minedojo,\n  title={Minedojo: Building open-ended embodied agents with internet-scale knowledge},\n  author={Fan, Linxi and Wang, Guanzhi and Jiang, Yunfan and Mandlekar, Ajay and Yang, Yuncong and Zhu, Haoyi and Tang, Andrew and Huang, De-An and Zhu, Yuke and Anandkumar, Anima},\n  journal={Advances in Neural Information Processing Systems},\n  volume={35},\n  pages={18343--18362},\n  year={2022},\n  month={8},\n  url={https://arxiv.org/abs/2206.08853},\n  environments = {virtual, embodied},\n  agents = {reinforcement_learning},\n  evaluation = {rule_based},\n  other = {n/a},\n}",
+    authors: "Fan et al.",
     subsection: "environments/virtual",
 },
         
@@ -926,6 +1002,7 @@ export const data: Paper[] = [
     other: "human_agent, more_omniscient",
     url: "https://doi.org/10.1145/3597503.3639187",
     bibtex: "@inproceedings{nam2024using,\n  title={Using an llm to help with code understanding},\n  author={Nam, Daye and Macvean, Andrew and Hellendoorn, Vincent and Vasilescu, Bogdan and Myers, Brad},\n  booktitle={Proceedings of the IEEE/ACM 46th International Conference on Software Engineering},\n  pages={1--13},\n  year={2024},\n  month={4},\n  url={https://doi.org/10.1145/3597503.3639187},\n  environments = {mixed_objectives, virtual},\n  agents = {prompting_and_in_context_learning, two_agents},\n  evaluation = {qualitative, human, rule_based},\n  other = {human_agent, more_omniscient},\n}",
+    authors: "Nam et al.",
     subsection: "environments/virtual",
 },
         
@@ -938,6 +1015,7 @@ export const data: Paper[] = [
     other: "simulated_humans, more_omniscient",
     url: "https://openreview.net/pdf?id=0nRcZeeE5f",
     bibtex: "@inproceedings{mozannar2023simulating,\n  title={Simulating Iterative Human-AI Interaction in Programming with LLMs},\n  author={Mozannar, Hussein and Chen, Valerie and Wei, Dennis and Sattigeri, Prasanna and Nagireddy, Manish and Das, Subhro and Talwalkar, Ameet and Sontag, David},\n  booktitle={NeurIPS 2023 Workshop on Instruction Tuning and Instruction Following},\n  year={2023},\n  month=nov,\n  url=\"https://openreview.net/pdf?id=0nRcZeeE5f\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents, prompting_and_in_context_learning},\n  evaluation = {rule_based},\n  other = {simulated_humans, more_omniscient},\n}",
+    authors: "Mozannar et al.",
     subsection: "environments/virtual",
 },
         
@@ -950,6 +1028,7 @@ export const data: Paper[] = [
     other: "human_agent, more_omniscient",
     url: "https://doi.org/10.1145/3581641.3584037",
     bibtex: "@INPROCEEDINGS{Ross2023-sb,\n  title     = \"The Programmer's Assistant: Conversational Interaction with a Large Language Model for Software Development\",\n  booktitle = \"Proceedings of the 28th International Conference on Intelligent User Interfaces\",\n  author    = \"Ross, Steven I and Martinez, Fernando and Houde, Stephanie and Muller, Michael and Weisz, Justin D\",\n  publisher = \"Association for Computing Machinery\",\n  pages     = \"491--514\",\n  series    = \"IUI '23\",\n  month     =  mar,\n  year      =  2023,\n  url       = \"https://doi.org/10.1145/3581641.3584037\",\n  address   = \"New York, NY, USA\",\n  location  = \"<conf-loc>, <city>Sydney</city>, <state>NSW</state>,\n               <country>Australia</country>, </conf-loc>\",\n  isbn      = \"9798400701061\",\n  doi       = \"10.1145/3581641.3584037\",\n  environments = {mixed_objectives, virtual},\n  agents = {prompting_and_in_context_learning, two_agents},\n  evaluation = {qualitative, human, rule_based},\n  other = {human_agent, more_omniscient},\n}",
+    authors: "Ross et al.",
     subsection: "environments/virtual",
 },
         
@@ -962,6 +1041,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://ai.stanford.edu/~rhgao/see_hear_feel/",
     bibtex: "@inproceedings{li2022seehearfeel,\n    title={See, Hear, and Feel: Smart Sensory Fusion for Robotic Manipulation},\n    author={Hao Li and Yizhi Zhang and Junzhe Zhu and Shaoxiong Wang and Michelle A. Lee and Huazhe Xu and Edward Adelson and Li Fei-Fei and Ruohan Gao and Jiajun Wu},\n    booktitle={CoRL},\n    year={2022},\n    month={12},\n    url={https://ai.stanford.edu/~rhgao/see_hear_feel/},\n    environments = {embodied, robotics},\n    agents = {reinforcement_learning},\n    evaluation = {rule_based},\n    other = {n/a},\n}",
+    authors: "Li et al.",
     subsection: "environments/robotics",
 },
         
@@ -974,6 +1054,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://cvdn.dev/",
     bibtex: "@inproceedings{thomason:corl19,\n  title={Vision-and-Dialog Navigation},\n  author={Jesse Thomason and Michael Murray and Maya Cakmak and Luke Zettlemoyer},\n  booktitle={Conference on Robot Learning (CoRL)},\n  year={2019},\n  month={10},\n  url = {https://cvdn.dev/},\n  environments = {embodied, robotics},\n  agents = {reinforcement_learning},\n  evaluation = {rule_based},\n  other = {n/a},\n}",
+    authors: "Thomason et al.",
     subsection: "environments/robotics",
 },
         
@@ -986,6 +1067,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://openreview.net/forum?id=PwqiqaaEzJ",
     bibtex: "@inproceedings{shah2023mutex,\n  title        = {MUTEX: Learning Unified Policies from Multimodal Task Specifications},\n  author       = {Rutav Shah and Roberto Mart{\\'\\i}n-Mart{\\'\\i}n and Yuke Zhu},\n  year         = 2023,\n  month        = {7},\n  booktitle    = {7th Annual Conference on Robot Learning},\n  url          = {https://openreview.net/forum?id=PwqiqaaEzJ},\n  environments = {embodied, robotics},\n  agents = {prompting_and_in_context_learning, pretraining},\n  evaluation = {rule_based},\n  other = {n/a},\n}",
+    authors: "Shah et al.",
     subsection: "environments/robotics",
 },
         
@@ -998,6 +1080,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://vid2robot.github.io/",
     bibtex: "@misc{jain2024vid2robot,\n  title={Vid2Robot: End-to-end Video-conditioned Policy Learning with Cross-Attention Transformers}, \n  author={Vidhi Jain and Maria Attarian and Nikhil J Joshi and Ayzaan Wahid and Danny Driess and Quan Vuong and Pannag R Sanketi and Pierre Sermanet and Stefan Welker and Christine Chan and Igor Gilitschenski and Yonatan Bisk and Debidatta Dwibedi},\n  year={2024},\n  month={3},\n  eprint={2403.12943},\n  archivePrefix={arXiv},\n  primaryClass={cs.RO},\n  url = {https://vid2robot.github.io/},\n  environments = {robotics},\n  agents = {prompting_and_in_context_learning, pretraining},\n  evaluation = {human, qualitative},\n  other = {n/a},\n}",
+    authors: "Jain et al.",
     subsection: "environments/robotics",
 },
         
@@ -1010,6 +1093,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://openreview.net/forum?id=Eal_lL08v_l",
     bibtex: "@inproceedings{\n  jain2022transformers,\n  title={Transformers Are Adaptable Task Planners},\n  author={Vidhi Jain and Yixin Lin and Eric Undersander and Yonatan Bisk and Akshara Rai},\n  booktitle={6th Annual Conference on Robot Learning},\n  year={2022},\n    month={12},\n  url={https://openreview.net/forum?id=Eal_lL08v_l},\n  environments = {embodied, robotics},\n  agents = {prompting_and_in_context_learning, pretraining},\n  evaluation = {rule_based},\n  other = {n/a},\n}",
+    authors: "Jain et al.",
     subsection: "environments/robotics",
 },
         
@@ -1022,6 +1106,7 @@ export const data: Paper[] = [
     other: "simulated_humans, fully_omniscient",
     url: "https://behavior.stanford.edu/behavior-1k",
     bibtex: "@misc{li2024behavior1k,\n  title={BEHAVIOR-1K: A Human-Centered, Embodied AI Benchmark with 1,000 Everyday Activities and Realistic Simulation}, \n  author={Chengshu Li and Ruohan Zhang and Josiah Wong and Cem Gokmen and Sanjana Srivastava and Roberto Mart\u00edn-Mart\u00edn and Chen Wang and Gabrael Levine and Wensi Ai and Benjamin Martinez and Hang Yin and Michael Lingelbach and Minjune Hwang and Ayano Hiranaka and Sujay Garlanka and Arman Aydin and Sharon Lee and Jiankai Sun and Mona Anvari and Manasi Sharma and Dhruva Bansal and Samuel Hunter and Kyu-Young Kim and Alan Lou and Caleb R Matthews and Ivan Villa-Renteria and Jerry Huayang Tang and Claire Tang and Fei Xia and Yunzhu Li and Silvio Savarese and Hyowon Gweon and C. Karen Liu and Jiajun Wu and Li Fei-Fei},\n  year={2024},\n  month={3},\n  eprint={2403.09227},\n  archivePrefix={arXiv},\n  primaryClass={cs.RO},\n  url = {https://behavior.stanford.edu/behavior-1k},\n  environments = {embodied, robotics},\n  agents = {n/a},\n  evaluation = {rule_based},\n  other = {simulated_humans, fully_omniscient},\n}",
+    authors: "Li et al.",
     subsection: "environments/robotics",
 },
         
@@ -1034,6 +1119,7 @@ export const data: Paper[] = [
     other: "simulated_humans, fully_omniscient",
     url: "https://www.threedworld.org/",
     bibtex: "@article{gan2020threedworld,\n  title={Threedworld: A platform for interactive multi-modal physical simulation},\n  author={Gan, Chuang and Schwartz, Jeremy and Alter, Seth and Mrowca, Damian and Schrimpf, Martin and Traer, James and De Freitas, Julian and Kubilius, Jonas and Bhandwaldar, Abhishek and Haber, Nick and others},\n  journal={arXiv preprint arXiv:2007.04954},\n  year={2020},\n  month={3},\n  url = {https://www.threedworld.org/},\n  environments = {embodied, robotics},\n  agents = {n/a},\n  evaluation = {rule_based},\n  other = {simulated_humans, fully_omniscient},\n}",
+    authors: "Gan et al.",
     subsection: "environments/robotics",
 },
         
@@ -1046,6 +1132,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://openreview.net/forum?id=Ffn8Z4Q-zU",
     bibtex: "@inproceedings{lin2023gestureinformed,\n  title={Gesture-Informed Robot Assistance via Foundation Models},\n  author={Li-Heng Lin and Yuchen Cui and Yilun Hao and Fei Xia and Dorsa Sadigh},\n  booktitle={7th Annual Conference on Robot Learning},\n  year={2023},\n  month={6},\n  url={https://openreview.net/forum?id=Ffn8Z4Q-zU},\n  environments = {robotics},\n  agents = {prompting_and_in_context_learning},\n  evaluation = {human, qualitative},\n  other = {n/a},\n}",
+    authors: "Lin et al.",
     subsection: "environments/robotics",
 },
         
@@ -1058,6 +1145,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/2403.12945",
     bibtex: "@misc{khazatsky2024droid,\n  title   = {DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset},\n  author  = {Alexander Khazatsky and Karl Pertsch and Suraj Nair and Ashwin Balakrishna and Sudeep Dasari and Siddharth Karamcheti and Soroush Nasiriany and Mohan Kumar Srirama and Lawrence Yunliang Chen and Kirsty Ellis and Peter David Fagan and Joey Hejna and Masha Itkina and Marion Lepert and Yecheng Jason Ma and Patrick Tree Miller and Jimmy Wu and Suneel Belkhale and Shivin Dass and Huy Ha and Arhan Jain and Abraham Lee and Youngwoon Lee and Marius Memmel and Sungjae Park and Ilija Radosavovic and Kaiyuan Wang and Albert Zhan and Kevin Black and Cheng Chi and Kyle Beltran Hatch and Shan Lin and Jingpei Lu and Jean Mercat and Abdul Rehman and Pannag R Sanketi and Archit Sharma and Cody Simpson and Quan Vuong and Homer Rich Walke and Blake Wulfe and Ted Xiao and Jonathan Heewon Yang and Arefeh Yavary and Tony Z. Zhao and Christopher Agia and Rohan Baijal and Mateo Guaman Castro and Daphne Chen and Qiuyu Chen and Trinity Chung and Jaimyn Drake and Ethan Paul Foster and Jensen Gao and David Antonio Herrera and Minho Heo and Kyle Hsu and Jiaheng Hu and Donovon Jackson and Charlotte Le and Yunshuang Li and Kevin Lin and Roy Lin and Zehan Ma and Abhiram Maddukuri and Suvir Mirchandani and Daniel Morton and Tony Nguyen and Abigail O'Neill and Rosario Scalise and Derick Seale and Victor Son and Stephen Tian and Emi Tran and Andrew E. Wang and Yilin Wu and Annie Xie and Jingyun Yang and Patrick Yin and Yunchu Zhang and Osbert Bastani and Glen Berseth and Jeannette Bohg and Ken Goldberg and Abhinav Gupta and Abhishek Gupta and Dinesh Jayaraman and Joseph J Lim and Jitendra Malik and Roberto Mart\u00edn-Mart\u00edn and Subramanian Ramamoorthy and Dorsa Sadigh and Shuran Song and Jiajun Wu and Michael C. Yip and Yuke Zhu and Thomas Kollar and Sergey Levine and Chelsea Finn},\n  year    = {2024},\n  month={2},\n  environments = {robotics},\n  eprint={2403.12945},\n  archivePrefix={arXiv},\n  primaryClass={cs.RO},\n  url = {https://arxiv.org/abs/2403.12945},\n  agents = {n/a},\n  evaluation = {human, qualitative},\n  other = {human_agent},\n}",
+    authors: "Khazatsky et al.",
     subsection: "environments/robotics",
 },
         
@@ -1070,6 +1158,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/2310.08864",
     bibtex: "@misc{open_x_embodiment_rt_x_2023,\n  title={Open {X-E}mbodiment: Robotic Learning Datasets and {RT-X} Models},\n  author = {Open X-Embodiment Collaboration and Abby O'Neill and Abdul Rehman and Abhiram Maddukuri and Abhishek Gupta and Abhishek Padalkar and Abraham Lee and Acorn Pooley and Agrim Gupta and Ajay Mandlekar and Ajinkya Jain and Albert Tung and Alex Bewley and Alex Herzog and Alex Irpan and Alexander Khazatsky and Anant Rai and Anchit Gupta and Andrew Wang and Anikait Singh and Animesh Garg and Aniruddha Kembhavi and Annie Xie and Anthony Brohan and Antonin Raffin and Archit Sharma and Arefeh Yavary and Arhan Jain and Ashwin Balakrishna and Ayzaan Wahid and Ben Burgess-Limerick and Beomjoon Kim and Bernhard Sch\u00f6lkopf and Blake Wulfe and Brian Ichter and Cewu Lu and Charles Xu and Charlotte Le and Chelsea Finn and Chen Wang and Chenfeng Xu and Cheng Chi and Chenguang Huang and Christine Chan and Christopher Agia and Chuer Pan and Chuyuan Fu and Coline Devin and Danfei Xu and Daniel Morton and Danny Driess and Daphne Chen and Deepak Pathak and Dhruv Shah and Dieter B\u00fcchler and Dinesh Jayaraman and Dmitry Kalashnikov and Dorsa Sadigh and Edward Johns and Ethan Foster and Fangchen Liu and Federico Ceola and Fei Xia and Feiyu Zhao and Freek Stulp and Gaoyue Zhou and Gaurav S. Sukhatme and Gautam Salhotra and Ge Yan and Gilbert Feng and Giulio Schiavi and Glen Berseth and Gregory Kahn and Guanzhi Wang and Hao Su and Hao-Shu Fang and Haochen Shi and Henghui Bao and Heni Ben Amor and Henrik I Christensen and Hiroki Furuta and Homer Walke and Hongjie Fang and Huy Ha and Igor Mordatch and Ilija Radosavovic and Isabel Leal and Jacky Liang and Jad Abou-Chakra and Jaehyung Kim and Jaimyn Drake and Jan Peters and Jan Schneider and Jasmine Hsu and Jeannette Bohg and Jeffrey Bingham and Jeffrey Wu and Jensen Gao and Jiaheng Hu and Jiajun Wu and Jialin Wu and Jiankai Sun and Jianlan Luo and Jiayuan Gu and Jie Tan and Jihoon Oh and Jimmy Wu and Jingpei Lu and Jingyun Yang and Jitendra Malik and Jo\u00e3o Silv\u00e9rio and Joey Hejna and Jonathan Booher and Jonathan Tompson and Jonathan Yang and Jordi Salvador and Joseph J. Lim and Junhyek Han and Kaiyuan Wang and Kanishka Rao and Karl Pertsch and Karol Hausman and Keegan Go and Keerthana Gopalakrishnan and Ken Goldberg and Kendra Byrne and Kenneth Oslund and Kento Kawaharazuka and Kevin Black and Kevin Lin and Kevin Zhang and Kiana Ehsani and Kiran Lekkala and Kirsty Ellis and Krishan Rana and Krishnan Srinivasan and Kuan Fang and Kunal Pratap Singh and Kuo-Hao Zeng and Kyle Hatch and Kyle Hsu and Laurent Itti and Lawrence Yunliang Chen and Lerrel Pinto and Li Fei-Fei and Liam Tan and Linxi \"Jim\" Fan and Lionel Ott and Lisa Lee and Luca Weihs and Magnum Chen and Marion Lepert and Marius Memmel and Masayoshi Tomizuka and Masha Itkina and Mateo Guaman Castro and Max Spero and Maximilian Du and Michael Ahn and Michael C. Yip and Mingtong Zhang and Mingyu Ding and Minho Heo and Mohan Kumar Srirama and Mohit Sharma and Moo Jin Kim and Naoaki Kanazawa and Nicklas Hansen and Nicolas Heess and Nikhil J Joshi and Niko Suenderhauf and Ning Liu and Norman Di Palo and Nur Muhammad Mahi Shafiullah and Oier Mees and Oliver Kroemer and Osbert Bastani and Pannag R Sanketi and Patrick \"Tree\" Miller and Patrick Yin and Paul Wohlhart and Peng Xu and Peter David Fagan and Peter Mitrano and Pierre Sermanet and Pieter Abbeel and Priya Sundaresan and Qiuyu Chen and Quan Vuong and Rafael Rafailov and Ran Tian and Ria Doshi and Roberto Mart{'i}n-Mart{'i}n and Rohan Baijal and Rosario Scalise and Rose Hendrix and Roy Lin and Runjia Qian and Ruohan Zhang and Russell Mendonca and Rutav Shah and Ryan Hoque and Ryan Julian and Samuel Bustamante and Sean Kirmani and Sergey Levine and Shan Lin and Sherry Moore and Shikhar Bahl and Shivin Dass and Shubham Sonawani and Shuran Song and Sichun Xu and Siddhant Haldar and Siddharth Karamcheti and Simeon Adebola and Simon Guist and Soroush Nasiriany and Stefan Schaal and Stefan Welker and Stephen Tian and Subramanian Ramamoorthy and Sudeep Dasari and Suneel Belkhale and Sungjae Park and Suraj Nair and Suvir Mirchandani and Takayuki Osa and Tanmay Gupta and Tatsuya Harada and Tatsuya Matsushima and Ted Xiao and Thomas Kollar and Tianhe Yu and Tianli Ding and Todor Davchev and Tony Z. Zhao and Travis Armstrong and Trevor Darrell and Trinity Chung and Vidhi Jain and Vincent Vanhoucke and Wei Zhan and Wenxuan Zhou and Wolfram Burgard and Xi Chen and Xiaolong Wang and Xinghao Zhu and Xinyang Geng and Xiyuan Liu and Xu Liangwei and Xuanlin Li and Yao Lu and Yecheng Jason Ma and Yejin Kim and Yevgen Chebotar and Yifan Zhou and Yifeng Zhu and Yilin Wu and Ying Xu and Yixuan Wang and Yonatan Bisk and Yoonyoung Cho and Youngwoon Lee and Yuchen Cui and Yue Cao and Yueh-Hua Wu and Yujin Tang and Yuke Zhu and Yunchu Zhang and Yunfan Jiang and Yunshuang Li and Yunzhu Li and Yusuke Iwasawa and Yutaka Matsuo and Zehan Ma and Zhuo Xu and Zichen Jeff Cui and Zichen Zhang and Zipeng Lin},\n  url = {https://arxiv.org/abs/2310.08864},\n  year = {2023},\n  month={9},\n  eprint={2310.08864},\n  archivePrefix={arXiv},\n  primaryClass={cs.RO},\n  environments = {robotics},\n  agents = {n/a},\n  evaluation = {human, qualitative},\n  other = {human_agent},\n}",
+    authors: "Collaboration et al.",
     subsection: "environments/robotics",
 },
         
@@ -1082,6 +1171,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://openreview.net/forum?id=T8AiZj1QdN",
     bibtex: "@inproceedings{arenas2023how,\n  title={How to Prompt Your Robot: A PromptBook for Manipulation Skills with Code as Policies},\n  author={Montserrat Gonzalez Arenas and Ted Xiao and Sumeet Singh and Vidhi Jain and Allen Z. Ren and Quan Vuong and Jake Varley and Alexander Herzog and Isabel Leal and Sean Kirmani and Dorsa Sadigh and Vikas Sindhwani and Kanishka Rao and Jacky Liang and Andy Zeng},\n  booktitle={2nd Workshop on Language and Robot Learning: Language as Grounding},\n  year={2023},\n  month={9},\n  url={https://openreview.net/forum?id=T8AiZj1QdN},\n  environments = {robotics},\n  agents = {prompting_and_in_context_learning},\n  evaluation = {human, qualitative},\n  other = {human_agent},\n}",
+    authors: "Arenas et al.",
     subsection: "environments/robotics",
 },
         
@@ -1094,6 +1184,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://robotics-fm-survey.github.io/",
     bibtex: "@article{hu2023Toward,\n  author    = {Yafei Hu and Quanting Xie and Vidhi Jain and Jonathan Francis and Jay Patrikar \n                and Nikhil Keetha and Seungchan Kim and Yaqi Xie and Tianyi Zhang and Shibo Zhao \n                and Yu-Quan Chong and Chen Wang and Katia Sycara and Matthew Johnson-Roberson \n                and Dhruv Batra and Xiaolong Wang and Sebastian Scherer and Zsolt Kira and \n                Fei Xia and Yonatan Bisk},\n  title     = {Toward General-Purpose Robots via Foundation Models: A Survey and Meta-Analysis},\n  booktitle = {arXiv preprint: arXiv:2312.08782 },\n  url={https://robotics-fm-survey.github.io/},\n  year      = {2023},\n    month={12},\n  environments = {robotics},\n  agents = {prompting_and_in_context_learning},\n  evaluation = {human, qualitative},\n  other = {human_agent},\n}",
+    authors: "Hu et al.",
     subsection: "environments/robotics",
 },
         
@@ -1106,6 +1197,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://openreview.net/forum?id=b-cto-fetlz",
     bibtex: "@inproceedings{yenamandra2023homerobot,\n  title={HomeRobot: Open-Vocabulary Mobile Manipulation},\n  author={Sriram Yenamandra and Arun Ramachandran and Karmesh Yadav and Austin S Wang and Mukul Khanna and Theophile Gervet and Tsung-Yen Yang and Vidhi Jain and Alexander Clegg and John M Turner and Zsolt Kira and Manolis Savva and Angel X Chang and Devendra Singh Chaplot and Dhruv Batra and Roozbeh Mottaghi and Yonatan Bisk and Chris Paxton},\n  booktitle={7th Annual Conference on Robot Learning},\n  year={2023},\n    month={6},\n  url={https://openreview.net/forum?id=b-cto-fetlz},\n  environments = {robotics},\n  agents = {n/a},\n  evaluation = {human, qualitative},\n  other = {human_agent},\n}",
+    authors: "Yenamandra et al.",
     subsection: "environments/robotics",
 },
         
@@ -1118,6 +1210,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/2306.08651",
     bibtex: "@article{kwon2023toward,\n  title={Toward Grounded Commonsense Reasoning},\n  author={Kwon, Minae and Hu, Hengyuan and Myers, Vivek and Karamcheti, Siddharth and Dragan, Anca and Sadigh, Dorsa},\n  journal={arXiv preprint arXiv:2306.08651},\n  url={https://arxiv.org/abs/2306.08651},\n  year={2023},\n    month={11},\n  environments = {robotics},\n  agents = {prompting_and_in_context_learning},\n  evaluation = {human, qualitative},\n  other = {human_agent},\n}",
+    authors: "Kwon et al.",
     subsection: "environments/robotics",
 },
         
@@ -1130,6 +1223,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/pdf/2301.01392.pdf",
     bibtex: "@misc{shin2023benchmarks,\n  title={Benchmarks and Algorithms for Offline Preference-Based Reward Learning}, \n  author={Daniel Shin and Anca D. Dragan and Daniel S. Brown},\n  year={2023},\n    month={3},\n  eprint={2301.01392},\n  archivePrefix={arXiv},\n  primaryClass={cs.LG},\n  url={https://arxiv.org/pdf/2301.01392.pdf},\n  environments = {robotics},\n  agents = {n/a},\n  evaluation = {human, qualitative},\n  other = {human_agent},\n}",
+    authors: "Shin et al.",
     subsection: "environments/robotics",
 },
         
@@ -1142,6 +1236,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://proceedings.mlr.press/v205/xiong23a.html",
     bibtex: "@InProceedings{pmlr-v205-xiong23a,\n    title = {RoboTube: Learning Household Manipulation from Human Videos with Simulated Twin Environments},\n    author = {Xiong, Haoyu and Fu, Haoyuan and Zhang, Jieyi and Bao, Chen and Zhang, Qiang and Huang, Yongxi and Xu, Wenqiang and Garg, Animesh and Lu, Cewu},\n    booktitle = {Proceedings of The 6th Conference on Robot Learning},\n    pages = {1--10},\n    year = {2023},\n    editor = {Liu, Karen and Kulic, Dana and Ichnowski, Jeff},\n    volume = {205},\n    series = {Proceedings of Machine Learning Research},\n    month = {12},\n    publisher =  {PMLR},\n    pdf = {https://proceedings.mlr.press/v205/xiong23a/xiong23a.pdf},\n    url = {https://proceedings.mlr.press/v205/xiong23a.html},\n    environments = {implicit_objectives, robotics},\n    agents = {reinforcement_learning, agents_with_memory},\n    evaluation = {human, rule_based},\n    other = {simulated_humans}\n}",
+    authors: "Xiong et al.",
     subsection: "environments/robotics",
 },
         
@@ -1154,6 +1249,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://say-can.github.io/",
     bibtex: "@inproceedings{saycan2022arxiv,\n    title={Do As I Can and Not As I Say: Grounding Language in Robotic Affordances},\n    author={Michael Ahn and Anthony Brohan and Noah Brown and Yevgen Chebotar and Omar Cortes and Byron David and Chelsea Finn and Chuyuan Fu and Keerthana Gopalakrishnan and Karol Hausman and Alex Herzog and Daniel Ho and Jasmine Hsu and Julian Ibarz and Brian Ichter and Alex Irpan and Eric Jang and Rosario Jauregui Ruano and Kyle Jeffrey and Sally Jesmonth and Nikhil Joshi and Ryan Julian and Dmitry Kalashnikov and Yuheng Kuang and Kuang-Huei Lee and Sergey Levine and Yao Lu and Linda Luu and Carolina Parada and Peter Pastor and Jornell Quiambao and Kanishka Rao and Jarek Rettinghouse and Diego Reyes and Pierre Sermanet and Nicolas Sievers and Clayton Tan and Alexander Toshev and Vincent Vanhoucke and Fei Xia and Ted Xiao and Peng Xu and Sichun Xu and Mengyuan Yan and Andy Zeng},\n    booktitle={arXiv preprint arXiv:2204.01691},\n    year={2022},\n    month={8},\n    url = {https://say-can.github.io/},\n    environments = {mixed_objectives, implicit_objectives, robotics},\n    agents = {finetuning, reinforcement_learning, agents_with_memory},\n    evaluation = {human, rule_based, model_based},\n    other = {simulated_humans}\n}",
+    authors: "Ahn et al.",
     subsection: "environments/robotics",
 },
         
@@ -1166,6 +1262,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://arxiv.org/abs/2207.05608",
     bibtex: "@inproceedings{huang2022inner,\n    title={Inner Monologue: Embodied Reasoning through Planning with Language Models},\n    author={Wenlong Huang and Fei Xia and Ted Xiao and Harris Chan and Jacky Liang and Pete Florence and Andy Zeng and Jonathan Tompson and Igor Mordatch and Yevgen Chebotar and Pierre Sermanet and Noah Brown and Tomas Jackson and Linda Luu and Sergey Levine and Karol Hausman and Brian Ichter},\n    booktitle={arXiv preprint arXiv:2207.05608},\n    year={2022},\n    month={6},\n    url = {https://arxiv.org/abs/2207.05608},\n    environments = {mixed_objectives, implicit_objectives, robotics},\n    agents = {finetuning, reinforcement_learning, agents_with_memory},\n    evaluation = {human, rule_based, model_based},\n    other = {simulated_humans}\n}",
+    authors: "Huang et al.",
     subsection: "environments/robotics",
 },
         
@@ -1178,6 +1275,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/2306.12372",
     bibtex: "@inproceedings{Wang2023One,\n    title={One Policy to Dress Them All: Learning to Dress People with Diverse Poses and Garments},\n    author={Wang, Yufei and Sun, Zhanyi and Erickson, Zackory and Held, David},\n    booktitle={Robotics: Science and Systems (RSS)},\n    year={2023},\n    month={6},\n    url = {https://arxiv.org/abs/2306.12372},\n    environments = {robotics},\n    agents = {reinforcement_learning},\n    evaluation = {human, rule_based},\n    other = {human_agent}\n}",
+    authors: "Wang et al.",
     subsection: "environments/robotics",
 },
         
@@ -1190,6 +1288,7 @@ export const data: Paper[] = [
     other: "human_agent, simulated_humans",
     url: "https://arxiv.org/abs/2108.06038",
     bibtex: "@misc{wang2023cogail,\n    title={Co-GAIL: Learning Diverse Strategies for Human-Robot Collaboration}, \n    author={Chen Wang and Claudia P\u00e9rez-D'Arpino and Danfei Xu and Li Fei-Fei and C. Karen Liu and Silvio Savarese},\n    year={2023},\n    month={9},\n    url = {https://arxiv.org/abs/2108.06038},\n    eprint={2108.06038},\n    archivePrefix={arXiv},\n    primaryClass={cs.RO},\n    environments = {collaboration, mixed_objectives, robotics},\n    agents = {two_agents, reinforcement_learning},\n    evaluation = {human},\n    other = {human_agent, simulated_humans}\n}",
+    authors: "Wang et al.",
     subsection: "environments/robotics",
 },
         
@@ -1202,6 +1301,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/2403.12910",
     bibtex: "@misc{shi2024yell,\n    title={Yell At Your Robot: Improving On-the-Fly from Language Corrections}, \n    author={Lucy Xiaoyang Shi and Zheyuan Hu and Tony Z. Zhao and Archit Sharma and Karl Pertsch and Jianlan Luo and Sergey Levine and Chelsea Finn},\n    year={2024},\n    month={3},\n    url={https://arxiv.org/abs/2403.12910},\n    eprint={2403.12910},\n    archivePrefix={arXiv},\n    primaryClass={cs.RO},\n    environments = {collaboration, mixed_objectives, robotics},\n    agents = {two_agents, finetuning, reinforcement_learning, agents_with_memory},\n    evaluation = {human},\n    other = {human_agent}\n}",
+    authors: "Shi et al.",
     subsection: "environments/robotics",
 },
         
@@ -1214,6 +1314,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://journals.sagepub.com/doi/10.1177/0018720816644364",
     bibtex: "@article{sheridan2016human,\n    title={Human--robot interaction: status and challenges},\n    author={Sheridan, Thomas B},\n    journal={Human factors},\n    month={4},\n    url={https://journals.sagepub.com/doi/10.1177/0018720816644364},\n    volume={58},\n    number={4},\n    pages={525--532},\n    year={2016},\n    publisher={SAGE Publications Sage CA: Los Angeles, CA},\n    environments = {collaboration, mixed_objectives, robotics},\n    agents = {two_agents, finetuning, reinforcement_learning},\n    evaluation = {human},\n    other = {human_agent}\n}",
+    authors: "Sheridan et al.",
     subsection: "environments/robotics",
 },
         
@@ -1226,6 +1327,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://link.springer.com/article/10.1007/s12369-020-00666-5",
     bibtex: "@article{onnasch2021taxonomy,\n    title={A taxonomy to structure and analyze human--robot interaction},\n    author={Onnasch, Linda and Roesler, Eileen},\n    journal={International Journal of Social Robotics},\n    volume={13},\n    number={4},\n    pages={833--849},\n    year={2021},\n    publisher={Springer},\n    month={6},\n    url={https://link.springer.com/article/10.1007/s12369-020-00666-5},\n    environments = {collaboration, mixed_objectives, robotics},\n    agents = {two_agents},\n    evaluation = {human},\n    other = {human_agent}\n}",
+    authors: "Onnasch et al.",
     subsection: "environments/robotics",
 },
         
@@ -1238,6 +1340,7 @@ export const data: Paper[] = [
     other: "human_agent, simulated_humans",
     url: "https://arxiv.org/abs/2307.15363",
     bibtex: "@article{robinson2023robotic,\n    title={Robotic vision for human-robot interaction and collaboration: A survey and systematic review},\n    author={Robinson, Nicole and Tidd, Brendan and Campbell, Dylan and Kuli{\\'c}, Dana and Corke, Peter},\n    journal={ACM Transactions on Human-Robot Interaction},\n    volume={12},\n    number={1},\n    pages={1--66},\n    year={2023},\n    month={7},\n    url={https://arxiv.org/abs/2307.15363},\n    publisher={ACM New York, NY},\n    environments = {collaboration, mixed_objectives, implicit_objectives, robotics},\n    agents = {two_agents, agent_teams, agents_with_personas},\n    evaluation = {human, rule_based},\n    other = {human_agent, simulated_humans}\n}",
+    authors: "Robinson et al.",
     subsection: "environments/robotics",
 },
         
@@ -1250,6 +1353,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/2212.05286",
     bibtex: "@article{dahiya2023survey,\n    title={A survey of multi-agent Human--Robot Interaction systems},\n    author={Dahiya, Abhinav and Aroyo, Alexander M and Dautenhahn, Kerstin and Smith, Stephen L},\n    journal={Robotics and Autonomous Systems},\n    volume={161},\n    pages={104335},\n    year={2022},\n    month={10},\n    url={https://arxiv.org/abs/2212.05286},\n    publisher={Elsevier},\n    environments = {collaboration, mixed_objectives, robotics},\n    agents = {two_agents, more_than_three_agents, agent_teams},\n    evaluation = {human},\n    other = {human_agent}\n}",
+    authors: "Dahiya et al.",
     subsection: "environments/robotics",
 },
         
@@ -1262,6 +1366,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://doi.org/10.1145/3570169",
     bibtex: "@article{10.1145/3570169,\n    author = {Urakami, Jacqueline and Seaborn, Katie},\n    title = {Nonverbal Cues in Human Robot Interaction: A Communication Studies Perspective},\n    year = {2023},\n    issue_date = {June 2023},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    volume = {12},\n    number = {2},\n    url = {https://doi.org/10.1145/3570169},\n    doi = {10.1145/3570169},\n    journal = {J. Hum.-Robot Interact.},\n    month = {3},\n    articleno = {22},\n    numpages = {21},\n    keywords = {nonverbal codes, communication studies, human robot interaction, nonverbal communication, Robotics},\n    environments = {collaboration, mixed_objectives, implicit_objectives, robotics},\n    agents = {two_agents},\n    evaluation = {human},\n    other = {human_agent}\n}",
+    authors: "Urakami et al.",
     subsection: "environments/robotics",
 },
         
@@ -1274,6 +1379,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://doi.org/10.1145/3571718",
     bibtex: "@article{10.1145/3571718,\n    author = {Winkle, Katie and Lagerstedt, Erik and Torre, Ilaria and Offenwanger, Anna},\n    title = {15 Years of (Who)man Robot Interaction: Reviewing the H in Human-Robot Interaction},\n    year = {2023},\n    issue_date = {September 2023},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    volume = {12},\n    number = {3},\n    url = {https://doi.org/10.1145/3571718},\n    doi = {10.1145/3571718},\n    abstract = {Recent work identified a concerning trend of disproportional gender representation in research participants in Human\u2013Computer Interaction (HCI). Motivated by the fact that Human\u2013Robot Interaction (HRI) shares many participant practices with HCI, we explored whether this trend is mirrored in our field. By producing a dataset covering participant gender representation in all 684 full papers published at the HRI conference from 2006\u20132021, we identify current trends in HRI research participation. We find an over-representation of men in research participants to date, as well as inconsistent and/or incomplete gender reporting, which typically engages in a binary treatment of gender at odds with published best practice guidelines. We further examine if and how participant gender has been considered in user studies to date, in-line with current discourse surrounding the importance and/or potential risks of gender based analyses. Finally, we complement this with a survey of HRI researchers to examine correlations between who is doing with the who is taking part, to further reflect on factors which seemingly influence gender bias in research participation across different sub-fields of HRI. Through our analysis, we identify areas for improvement, but also reason for optimism, and derive some practical suggestions for HRI researchers going forward.},\n    journal = {J. Hum.-Robot Interact.},\n    month = {4},\n    articleno = {28},\n    numpages = {28},\n    keywords = {Gender, systematic review, user study methodologies, participant recruitment, inclusivity},\n    environments = {robotics},\n    agents = {two_agents},\n    evaluation = {human},\n    other = {human_agent}\n}",
+    authors: "Winkle et al.",
     subsection: "environments/robotics",
 },
         
@@ -1286,6 +1392,7 @@ export const data: Paper[] = [
     other: "simulated_humans, fully_omniscient",
     url: "https://www.ifaamas.org/Proceedings/aamas2018/pdfs/p883.pdf",
     bibtex: "@inproceedings{de2018towards,\n  title={Towards a robust interactive and learning social robot},\n  author={De Jong, Michiel and Zhang, Kevin and Roth, Aaron M and Rhodes, Travers and Schmucker, Robin and Zhou, Chenghui and Ferreira, Sofia and Cartucho, Jo{\\~a}o and Veloso, Manuela},\n  booktitle={Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems},\n  pages={883--891},\n  year={2018},\n  month={7},\n  url=\"https://www.ifaamas.org/Proceedings/aamas2018/pdfs/p883.pdf\",\n  environments = {implicit_objectives, robotics},\n  agents = {two_agents},\n  evaluation = {rule_based},\n  other = {simulated_humans, fully_omniscient},\n}",
+    authors: "Jong et al.",
     subsection: "environments/robotics",
 },
         
@@ -1298,6 +1405,7 @@ export const data: Paper[] = [
     other: "human_agent, health",
     url: "https://dl.acm.org/doi/abs/10.1145/3610977.3634989?casa_token=a6V3l5hdBikAAAAA:uYgKkWI2ccP7P9oeg-frTNCa4SzU4s77rIYzvo4IxzaVZv9sqrl-tYeXvkksYr1uAp7IdjgNF0Etvw",
     bibtex: "@inproceedings{madan2024rabbit,\n  title={RABBIT: A Robot-Assisted Bed Bathing System with Multimodal Perception and Integrated Compliance},\n  author={Madan, Rishabh and Valdez, Skyler and Kim, David and Fang, Sujie and Zhong, Luoyan and Virtue, Diego T and Bhattacharjee, Tapomayukh},\n  booktitle={Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction},\n  pages={472--481},\n  url={https://dl.acm.org/doi/abs/10.1145/3610977.3634989?casa_token=a6V3l5hdBikAAAAA:uYgKkWI2ccP7P9oeg-frTNCa4SzU4s77rIYzvo4IxzaVZv9sqrl-tYeXvkksYr1uAp7IdjgNF0Etvw},\n  year={2024},\n  month={3},\n  environments = {robotics},\n  agents = {n/a},\n  evaluation = {human, qualitative},\n  other = {human_agent, health}\n}",
+    authors: "Madan et al.",
     subsection: "environments/robotics",
 },
         
@@ -1310,6 +1418,7 @@ export const data: Paper[] = [
     other: "human_agent, health",
     url: "https://ieeexplore.ieee.org/abstract/document/9982244?casa_token=FSGmJuwmfKYAAAAA:i8sR8Icc86I1DBMR58AexWGSUUjefJlKReaJ8CCEz9y2jJQyWqxxpxGqyBkMStIx2PMzM7jnyA",
     bibtex: "@inproceedings{ye2022rcare,\n  title={Rcare world: A human-centric simulation world for caregiving robots},\n  author={Ye, Ruolin and Xu, Wenqiang and Fu, Haoyuan and Jenamani, Rajat Kumar and Nguyen, Vy and Lu, Cewu and Dimitropoulou, Katherine and Bhattacharjee, Tapomayukh},\n  booktitle={2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},\n  pages={33--40},\n  url={https://ieeexplore.ieee.org/abstract/document/9982244?casa_token=FSGmJuwmfKYAAAAA:i8sR8Icc86I1DBMR58AexWGSUUjefJlKReaJ8CCEz9y2jJQyWqxxpxGqyBkMStIx2PMzM7jnyA},\n  year={2022},\n  month={10},\n  organization={IEEE},\n  environments = {embodied, robotics},\n  agents = {two_agents},\n  evaluation = {human},\n  other = {human_agent, health}\n}",
+    authors: "Ye et al.",
     subsection: "environments/robotics",
 },
         
@@ -1322,6 +1431,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://arxiv.org/abs/2402.17930",
     bibtex: "@article{zhi2024pragmatic,\n  title={Pragmatic Instruction Following and Goal Assistance via Cooperative Language-Guided Inverse Planning},\n  author={Zhi-Xuan, Tan and Ying, Lance and Mansinghka, Vikash and Tenenbaum, Joshua B},\n  journal={arXiv preprint arXiv:2402.17930},\n  year={2024},\n  month={2},\n  url={https://arxiv.org/abs/2402.17930},\n  environments = {collaboration, mixed_objectives, implicit_objectives, embodied},\n  agents = {prompting_and_in_context_learning},\n  evaluation = {rule_based},\n  other = {simulated_humans}\n}",
+    authors: "Zhi-Xuan et al.",
     subsection: "modeling/in-context-learning",
 },
         
@@ -1334,6 +1444,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2403.08978",
     bibtex: "@article{fu2024autoguide,\n  title={AutoGuide: Automated Generation and Selection of State-Aware Guidelines for Large Language Model Agents},\n  author={Fu, Yao and Kim, Dong-Ki and Kim, Jaekyeom and Sohn, Sungryull and Logeswaran, Lajanugen and Bae, Kyunghoon and Lee, Honglak},\n  journal={arXiv preprint arXiv:2403.08978},\n  year={2024},\n  month={3},\n  url={https://arxiv.org/abs/2403.08978},\n  environments={virtual},\n  agents={prompting_and_in_context_learning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Fu et al.",
     subsection: "modeling/in-context-learning",
 },
         
@@ -1346,6 +1457,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://arxiv.org/abs/2305.16291",
     bibtex: "@misc{wang2023voyager,\n    title={Voyager: An Open-Ended Embodied Agent with Large Language Models}, \n    author={Guanzhi Wang and Yuqi Xie and Yunfan Jiang and Ajay Mandlekar and Chaowei Xiao and Yuke Zhu and Linxi Fan and Anima Anandkumar},\n    year={2023},\n    month={5},\n    url={https://arxiv.org/abs/2305.16291},\n    eprint={2305.16291},\n    archivePrefix={arXiv},\n    primaryClass={cs.AI},\n    environments = {mixed_objectives, implicit_objectives, embodied},\n    agents = {prompting_and_in_context_learning, agents_with_memory},\n    evaluation = {rule_based},\n    other = {simulated_humans}\n}",
+    authors: "Wang et al.",
     subsection: "modeling/in-context-learning",
 },
         
@@ -1358,6 +1470,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://arxiv.org/abs/2303.17491",
     bibtex: "@misc{kim2023language,\n    title={Language Models can Solve Computer Tasks}, \n    author={Geunwoo Kim and Pierre Baldi and Stephen McAleer},\n    year={2023},\n    month={11},\n    url={https://arxiv.org/abs/2303.17491},\n    eprint={2303.17491},\n    archivePrefix={arXiv},\n    primaryClass={cs.CL},\n    environments = {mixed_objectives, implicit_objectives, virtual},\n    agents = {prompting_and_in_context_learning},\n    evaluation = {rule_based},\n    other = {simulated_humans}\n}",
+    authors: "Kim et al.",
     subsection: "modeling/in-context-learning",
 },
         
@@ -1370,6 +1483,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://arxiv.org/abs/2309.08172",
     bibtex: "@misc{ma2024laser,\n    title={LASER: LLM Agent with State-Space Exploration for Web Navigation}, \n    author={Kaixin Ma and Hongming Zhang and Hongwei Wang and Xiaoman Pan and Wenhao Yu and Dong Yu},\n    year={2024},\n    month={2},\n    url={https://arxiv.org/abs/2309.08172},\n    eprint={2309.08172},\n    archivePrefix={arXiv},\n    primaryClass={cs.CL},\n    environments = {mixed_objectives, implicit_objectives, virtual},\n    agents = {prompting_and_in_context_learning, agents_with_memory},\n    evaluation = {rule_based},\n    other = {simulated_humans}\n}",
+    authors: "Ma et al.",
     subsection: "modeling/in-context-learning",
 },
         
@@ -1382,6 +1496,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://arxiv.org/abs/2305.14257",
     bibtex: "@misc{sridhar2023hierarchical,\n    title={Hierarchical Prompting Assists Large Language Model on Web Navigation}, \n    author={Abishek Sridhar and Robert Lo and Frank F. Xu and Hao Zhu and Shuyan Zhou},\n    year={2023},\n    month={10},\n    url={https://arxiv.org/abs/2305.14257},\n    eprint={2305.14257},\n    archivePrefix={arXiv},\n    primaryClass={cs.CL},\n    environments = {mixed_objectives, implicit_objectives, virtual},\n    agents = {prompting_and_in_context_learning, agents_with_memory},\n    evaluation = {rule_based},\n    other = {simulated_humans}\n}",
+    authors: "Sridhar et al.",
     subsection: "modeling/in-context-learning",
 },
         
@@ -1394,6 +1509,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://openreview.net/forum?id=Pc8AU1aF5e",
     bibtex: "@inproceedings{zheng2024synapse,\n    title={Synapse: Trajectory-as-Exemplar Prompting with Memory for Computer Control},\n    author={Longtao Zheng and Rundong Wang and Xinrun Wang and Bo An},\n    booktitle={The Twelfth International Conference on Learning Representations},\n    year={2024},\n    month={1},\n    url={https://openreview.net/forum?id=Pc8AU1aF5e},\n    environments = {mixed_objectives, implicit_objectives, virtual},\n    agents = {prompting_and_in_context_learning, agents_with_memory},\n    evaluation = {rule_based},\n    other = {simulated_humans}\n}",
+    authors: "Zheng et al.",
     subsection: "modeling/in-context-learning",
 },
         
@@ -1406,6 +1522,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://openreview.net/forum?id=rnKgbKmelt",
     bibtex: "@inproceedings{sun2023adaplanner,\n    title={AdaPlanner: Adaptive Planning from Feedback with Language Models},\n    author={Haotian Sun and Yuchen Zhuang and Lingkai Kong and Bo Dai and Chao Zhang},\n    booktitle={Thirty-seventh Conference on Neural Information Processing Systems},\n    year={2023},\n    month={11},\n    url={https://openreview.net/forum?id=rnKgbKmelt},\n    environments = {mixed_objectives, implicit_objectives, text},\n    agents = {prompting_and_in_context_learning, agents_with_memory},\n    evaluation = {rule_based},\n    other = {simulated_humans}\n}",
+    authors: "Sun et al.",
     subsection: "modeling/in-context-learning",
 },
         
@@ -1418,6 +1535,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://arxiv.org/abs/2305.15486",
     bibtex: "@misc{wu2023spring,\n    title={SPRING: Studying the Paper and Reasoning to Play Games}, \n    author={Yue Wu and Shrimai Prabhumoye and So Yeon Min and Yonatan Bisk and Ruslan Salakhutdinov and Amos Azaria and Tom Mitchell and Yuanzhi Li},\n    year={2023},\n    month={5},\n    url={https://arxiv.org/abs/2305.15486},\n    eprint={2305.15486},\n    archivePrefix={arXiv},\n    primaryClass={cs.AI},\n    environments = {mixed_objectives, implicit_objectives, text},\n    agents = {prompting_and_in_context_learning, agents_with_memory},\n    evaluation = {rule_based},\n    other = {simulated_humans}\n}",
+    authors: "Wu et al.",
     subsection: "modeling/in-context-learning",
 },
         
@@ -1430,6 +1548,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://arxiv.org/abs/2303.17071",
     bibtex: "@misc{nair2023dera,\n    title={DERA: Enhancing Large Language Model Completions with Dialog-Enabled Resolving Agents}, \n    author={Varun Nair and Elliot Schumacher and Geoffrey Tso and Anitha Kannan},\n    year={2023},\n    month={3},\n    url={https://arxiv.org/abs/2303.17071},\n    eprint={2303.17071},\n    archivePrefix={arXiv},\n    primaryClass={cs.CL},\n    environments = {collaboration, mixed_objectives, implicit_objectives, text},\n    agents = {prompting_and_in_context_learning, agent_teams, agents_with_memory},\n    evaluation = {rule_based},\n    other = {simulated_humans}\n}",
+    authors: "Nair et al.",
     subsection: "modeling/in-context-learning",
 },
         
@@ -1442,6 +1561,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://arxiv.org/abs/2305.10142",
     bibtex: "@misc{fu2023improving,\n      title={Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback}, \n      author={Yao Fu and Hao Peng and Tushar Khot and Mirella Lapata},\n      year={2023},\n      environments = {mixed_objectives, text},\n      agents = {prompting_and_in_context_learning, two_agents},\n      evaluation = {rule_based, human},\n      other = {simulated_humans},\n      eprint={2305.10142},\n      url = {https://arxiv.org/abs/2305.10142},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}",
+    authors: "Fu et al.",
     subsection: "modeling/in-context-learning",
 },
         
@@ -1454,6 +1574,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/2309.05076",
     bibtex: "@misc{croissant2023appraisalbased,\n      title={An Appraisal-Based Chain-Of-Emotion Architecture for Affective Language Model Game Agents}, \n      author={Maximilian Croissant and Madeleine Frister and Guy Schofield and Cade McCall},\n      year={2023},\n      environments = {mixed_objectives, text},\n      agents = {prompting_and_in_context_learning, two_agents, agents_with_memory, agents_with_personas},\n      evaluation = {rule_based, human},\n      other = {human_agent},\n      url = {https://arxiv.org/abs/2309.05076},\n      eprint={2309.05076},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI}\n}",
+    authors: "Croissant et al.",
     subsection: "modeling/in-context-learning",
 },
         
@@ -1466,6 +1587,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/2311.05997",
     bibtex: "@misc{wang2023jarvis1,\n      title={JARVIS-1: Open-World Multi-task Agents with Memory-Augmented Multimodal Language Models}, \n      author={Zihao Wang and Shaofei Cai and Anji Liu and Yonggang Jin and Jinbing Hou and Bowei Zhang and Haowei Lin and Zhaofeng He and Zilong Zheng and Yaodong Yang and Xiaojian Ma and Yitao Liang},\n      year={2023},\n      environments = {embodied},\n      agents = {prompting_and_in_context_learning, two_agents, agents_with_memory},\n      evaluation = {rule_based},\n      other = {human_agent},\n      url = {https://arxiv.org/abs/2311.05997},\n      eprint={2311.05997},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI}\n}",
+    authors: "Wang et al.",
     subsection: "modeling/in-context-learning",
 },
         
@@ -1478,6 +1600,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://arxiv.org/abs/2308.12503",
     bibtex: "@misc{jinxin2023cgmi,\n      title={CGMI: Configurable General Multi-Agent Interaction Framework}, \n      author={Shi Jinxin and Zhao Jiabao and Wang Yilei and Wu Xingjiao and Li Jiawen and He Liang},\n      year={2023},\n      environments = {mixed_objectives, text},\n      agents = {prompting_and_in_context_learning, more_than_three_agents, agents_with_memory, agents_with_personas},\n      evaluation = {human, rule_based},\n      other = {simulated_humans},\n      url = {https://arxiv.org/abs/2308.12503},\n      eprint={2308.12503},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI}\n}",
+    authors: "Jinxin et al.",
     subsection: "modeling/in-context-learning",
 },
         
@@ -1490,6 +1613,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://ojs.aaai.org/index.php/AAAI/article/view/29710",
     bibtex: "@article{Zhang2024, \n  title={ProAgent: Building Proactive Cooperative Agents with Large Language Models}, \n  volume={38}, \n  url={https://ojs.aaai.org/index.php/AAAI/article/view/29710}, \n  DOI={10.1609/aaai.v38i16.29710}, \n  number={16}, \n  journal={Proceedings of the AAAI Conference on Artificial Intelligence}, \n  author={Zhang, Ceyao and Yang, Kaijie and Hu, Siyi and Wang, Zihao and Li, Guanghe and Sun, Yihang and Zhang, Cheng and Zhang, Zhaowei and Liu, Anji and Zhu, Song-Chun and Chang, Xiaojun and Zhang, Junge and Yin, Feng and Liang, Yitao and Yang, Yaodong}, \n  year={2024}, \n  month={03}, \n  pages={17591-17599},\n  environments = {mixed_objectives, embodied},\n  agents = {prompting_and_in_context_learning, agent_teams, agents_with_memory},\n  evaluation = {qualitative, rule_based},\n  other = {n/a}\n}",
+    authors: "Zhang et al.",
     subsection: "modeling/in-context-learning",
 },
         
@@ -1502,6 +1626,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://aclanthology.org/2023.findings-acl.411/",
     bibtex: "@inproceedings{lai2023werewolf,\n  title={Werewolf among us: Multimodal resources for modeling persuasion behaviors in social deduction games},\n  author={Lai, Bolin and Zhang, Hongxin and Liu, Miao and Pariani, Aryan and Ryan, Fiona and Jia, Wenqi and Hayati, Shirley Anugrah and Rehg, James and Yang, Diyi},\n  booktitle={Findings of the Association for Computational Linguistics: ACL 2023},\n  pages={6570--6588},\n  year={2023},\n  url={https://aclanthology.org/2023.findings-acl.411/},\n  month={7},\n  environments={virtual, collaboration, competition, mixed_objectives},\n  agents={finetuning},\n  evaluation={rule_based, human},\n  other={human_agent}\n}",
+    authors: "Lai et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1514,6 +1639,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2403.02502",
     bibtex: "@article{song2024trial,\n  title={Trial and Error: Exploration-Based Trajectory Optimization for LLM Agents},\n  author={Song, Yifan and Yin, Da and Yue, Xiang and Huang, Jie and Li, Sujian and Lin, Bill Yuchen},\n  journal={arXiv preprint arXiv:2403.02502},\n  year={2024},\n  month={3},\n  url={https://arxiv.org/abs/2403.02502},\n  environments={virtual},\n  agents={finetuning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Song et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1526,6 +1652,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2404.03648",
     bibtex: "@article{lai2024autowebglm,\n  title={AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent},\n  author={Lai, Hanyu and Liu, Xiao and Iong, Iat Long and Yao, Shuntian and Chen, Yuxuan and Shen, Pengbo and Yu, Hao and Zhang, Hanchen and Zhang, Xiaohan and Dong, Yuxiao and others},\n  journal={arXiv preprint arXiv:2404.03648},\n  year={2024},\n  month={4},\n  url={https://arxiv.org/abs/2404.03648},\n  environments={virtual},\n  agents={prompting_and_in_context_learning, pretraining, finetuning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Lai et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1538,6 +1665,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2403.12881",
     bibtex: "@article{chen2024agent,\n  title={Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models},\n  author={Chen, Zehui and Liu, Kuikun and Wang, Qiuchen and Zhang, Wenwei and Liu, Jiangning and Lin, Dahua and Chen, Kai and Zhao, Feng},\n  journal={arXiv preprint arXiv:2403.12881},\n  year={2024},\n  month={3},\n  url={https://arxiv.org/abs/2403.12881},\n  environments={virtual},\n  agents={finetuning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Chen et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1550,6 +1678,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://arxiv.org/abs/2210.03945",
     bibtex: "@misc{gur2023understanding,\n    title={Understanding HTML with Large Language Models}, \n    author={Izzeddin Gur and Ofir Nachum and Yingjie Miao and Mustafa Safdari and Austin Huang and Aakanksha Chowdhery and Sharan Narang and Noah Fiedel and Aleksandra Faust},\n    year={2023},\n    month={5},\n    url={https://arxiv.org/abs/2210.03945},\n    eprint={2210.03945},\n    archivePrefix={arXiv},\n    primaryClass={cs.LG},\n    environments = {mixed_objectives, implicit_objectives, virtual},\n    agents = {prompting_and_in_context_learning, finetuning},\n    evaluation = {rule_based},\n    other = {simulated_humans}\n}",
+    authors: "Gur et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1562,6 +1691,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://openreview.net/forum?id=oLc9sGOBbc",
     bibtex: "@inproceedings{\n    furuta2023instructionfinetuned,\n    title={Instruction-Finetuned Foundation Models for Multimodal Web Navigation},\n    author={Hiroki Furuta and Ofir Nachum and Kuang-Huei Lee and Yutaka Matsuo and Shixiang Shane Gu and Izzeddin Gur},\n    booktitle={ICLR 2023 Workshop on Mathematical and Empirical Understanding of Foundation Models},\n    year={2023},\n    month={5},\n    url={https://openreview.net/forum?id=oLc9sGOBbc},\n    environments = {mixed_objectives, implicit_objectives, virtual},\n    agents = {prompting_and_in_context_learning, finetuning, agents_with_memory},\n    evaluation = {rule_based},\n    other = {simulated_humans}\n}",
+    authors: "Furuta et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1574,6 +1704,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://arxiv.org/abs/2210.03629",
     bibtex: "@misc{yao2023react,\n    title={ReAct: Synergizing Reasoning and Acting in Language Models}, \n    author={Shunyu Yao and Jeffrey Zhao and Dian Yu and Nan Du and Izhak Shafran and Karthik Narasimhan and Yuan Cao},\n    year={2023},\n    month={10},\n    eprint={2210.03629},\n    url={https://arxiv.org/abs/2210.03629},\n    archivePrefix={arXiv},\n    primaryClass={cs.CL},\n    environments = {mixed_objectives, implicit_objectives, virtual},\n    agents = {prompting_and_in_context_learning, finetuning, agents_with_memory},\n    evaluation = {rule_based},\n    other = {simulated_humans}\n}",
+    authors: "Yao et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1586,6 +1717,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://openreview.net/forum?id=9JQtrumvg8",
     bibtex: "@inproceedings{gur2024a,\n    title={A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis},\n    author={Izzeddin Gur and Hiroki Furuta and Austin V Huang and Mustafa Safdari and Yutaka Matsuo and Douglas Eck and Aleksandra Faust},\n    booktitle={The Twelfth International Conference on Learning Representations},\n    year={2024},\n    month={1},\n    url={https://openreview.net/forum?id=9JQtrumvg8},\n    environments = {mixed_objectives, implicit_objectives, virtual},\n    agents = {prompting_and_in_context_learning, finetuning, agents_with_memory},\n    evaluation = {rule_based},\n    other = {simulated_humans}\n}",
+    authors: "Gur et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1598,6 +1730,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://openreview.net/forum?id=3PjCt4kmRx",
     bibtex: "@inproceedings{shaw2023from,\n    title={From Pixels to {UI} Actions: Learning to Follow Instructions via Graphical User Interfaces},\n    author={Peter Shaw and Mandar Joshi and James Cohan and Jonathan Berant and Panupong Pasupat and Hexiang Hu and Urvashi Khandelwal and Kenton Lee and Kristina Toutanova},\n    booktitle={Thirty-seventh Conference on Neural Information Processing Systems},\n    year={2023},\n    month={11},\n    url={https://openreview.net/forum?id=3PjCt4kmRx},\n    environments = {mixed_objectives, implicit_objectives, virtual},\n    agents = {prompting_and_in_context_learning, finetuning, agents_with_memory},\n    evaluation = {rule_based},\n    other = {simulated_humans}\n}",
+    authors: "Shaw et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1610,6 +1743,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://arxiv.org/abs/2401.01614",
     bibtex: "@misc{zheng2024gpt4vision,\n    title={GPT-4V(ision) is a Generalist Web Agent, if Grounded}, \n    author={Boyuan Zheng and Boyu Gou and Jihyung Kil and Huan Sun and Yu Su},\n    year={2024},\n    month={1},\n    url={https://arxiv.org/abs/2401.01614},\n    eprint={2401.01614},\n    archivePrefix={arXiv},\n    primaryClass={cs.IR},\n    environments = {mixed_objectives, implicit_objectives, virtual},\n    agents = {prompting_and_in_context_learning, finetuning, agents_with_memory},\n    evaluation = {rule_based},\n    other = {simulated_humans}\n}",
+    authors: "Zheng et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1622,6 +1756,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://arxiv.org/abs/2402.04476",
     bibtex: "@misc{kil2024dualview,\n    title={Dual-View Visual Contextualization for Web Navigation}, \n    author={Jihyung Kil and Chan Hee Song and Boyuan Zheng and Xiang Deng and Yu Su and Wei-Lun Chao},\n    year={2024},\n    month={2},\n    url={https://arxiv.org/abs/2402.04476},\n    eprint={2402.04476},\n    archivePrefix={arXiv},\n    primaryClass={cs.CV},\n    environments = {mixed_objectives, implicit_objectives, virtual},\n    agents = {prompting_and_in_context_learning, finetuning, agents_with_memory},\n    evaluation = {rule_based},\n    other = {simulated_humans}\n}",
+    authors: "Kil et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1634,6 +1769,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/2404.11246",
     bibtex: "@misc{yildirim2024learning,\n      title={Learning Social Navigation from Demonstrations with Deep Neural Networks}, \n      author={Yigit Yildirim and Emre Ugur},\n      year={2024},\n      eprint={2404.11246},\n      archivePrefix={arXiv},\n      primaryClass={cs.RO},\n      url={https://arxiv.org/abs/2404.11246},\n      month={4},\n      environments = {collaboration, robotics},\n      agents = {finetuning, two_agents, more_than_three_agents},\n      evaluation = {rule_based, human},\n      other = {human_agent}\n}",
+    authors: "Yildirim et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1646,6 +1782,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://www.cs.utexas.edu/~xiao/SCAND/SCAND.html",
     bibtex: "@article{karnan2022scand,\n  title = {Socially CompliAnt Navigation Dataset (SCAND): A Large-Scale Dataset Of Demonstrations For Social Navigation},\n  author = {Karnan, Haresh and Nair, Anirudh and Xiao, Xuesu and Warnell, Garrett and Pirk, S{\\\"o}ren and Toshev, Alexander and Hart, Justin and Biswas, Joydeep and Stone, Peter},\n  journal={IEEE Robotics and Automation Letters},\n  year = {2022},\n  organization = {IEEE},\n  month = {10},\n  url={https://www.cs.utexas.edu/~xiao/SCAND/SCAND.html},\n  environments = {collaboration, robotics},\n  agents = {finetuning, two_agents},\n  evaluation = {rule_based},\n  other = {human_agent}\n}",
+    authors: "Karnan et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1658,6 +1795,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://ieeexplore.ieee.org/document/9561973",
     bibtex: "@INPROCEEDINGS{9561973,\n  author={Cui, Yuxiang and Zhang, Haodong and Wang, Yue and Xiong, Rong},\n  booktitle={2021 IEEE International Conference on Robotics and Automation (ICRA)}, \n  title={Learning World Transition Model for Socially Aware Robot Navigation}, \n  year={2021},\n  pages={9262-9268},\n  month           = {5},\n  url={https://ieeexplore.ieee.org/document/9561973},\n  environments = {collaboration, embodied},\n  agents = {finetuning, two_agents},\n  evaluation = {rule_based},\n  other = {human_agent}\n}",
+    authors: "Cui et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1670,6 +1808,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/2210.12485",
     bibtex: "@misc{zhang2022danli,\n      title={DANLI: Deliberative Agent for Following Natural Language Instructions}, \n      author={Yichi Zhang and Jianing Yang and Jiayi Pan and Shane Storks and Nikhil Devraj and Ziqiao Ma and Keunwoo Peter Yu and Yuwei Bao and Joyce Chai},\n      year={2022},\n      eprint={2210.12485},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI},\n      url={https://arxiv.org/abs/2210.12485},\n      month={10},\n      environments = {collaboration, embodied},\n      agents = {finetuning, two_agents},\n      evaluation = {rule_based},\n      other = {human_agent}\n}",
+    authors: "Zhang et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1682,6 +1821,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/2308.07241",
     bibtex: "@misc{kim2024contextaware,\n      title={Context-Aware Planning and Environment-Aware Memory for Instruction Following Embodied Agents}, \n      author={Byeonghwi Kim and Jinyeon Kim and Yuyeong Kim and Cheolhong Min and Jonghyun Choi},\n      year={2024},\n      eprint={2308.07241},\n      archivePrefix={arXiv},\n      primaryClass={cs.RO},\n      url={https://arxiv.org/abs/2308.07241},\n      month={8},\n      environments = {collaboration, embodied},\n      agents = {finetuning, two_agents},\n      evaluation = {rule_based},\n      other = {human_agent}\n}",
+    authors: "Kim et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1694,6 +1834,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/2310.03779",
     bibtex: "@misc{wan2023handmethat,\n      title={HandMeThat: Human-Robot Communication in Physical and Social Environments}, \n      author={Yanming Wan and Jiayuan Mao and Joshua B. Tenenbaum},\n      year={2023},\n      eprint={2310.03779},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI},\n      url={https://arxiv.org/abs/2310.03779},\n      month={10},\n      environments = {collaboration, embodied},\n      agents = {finetuning, two_agents},\n      evaluation = {rule_based},\n      other = {human_agent}\n}",
+    authors: "Wan et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1706,6 +1847,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://ieeexplore.ieee.org/abstract/document/9837390/citations#citations",
     bibtex: "@article{gao2022dialfred,\n  title={Dialfred: Dialogue-enabled agents for embodied instruction following},\n  author={Gao, Xiaofeng and Gao, Qiaozi and Gong, Ran and Lin, Kaixiang and Thattai, Govind and Sukhatme, Gaurav S},\n  journal={IEEE Robotics and Automation Letters},\n  volume={7},\n  number={4},\n  pages={10049--10056},\n  year={2022},\n  publisher={IEEE},\n  month = {7},\n  url = {https://ieeexplore.ieee.org/abstract/document/9837390/citations#citations},\n  environments = {collaboration, embodied},\n  agents = {finetuning, two_agents},\n  evaluation = {rule_based},\n  other = {human_agent}\n}",
+    authors: "Gao et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1718,6 +1860,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/1803.07612",
     bibtex: "@article{zhan2018generative,\n  title={Generative multi-agent behavioral cloning},\n  author={Zhan, Eric and Zheng, Stephan and Yue, Yisong and Lucey, Patrick},\n  journal={arXiv preprint arXiv:1803.07612},\n  volume={2},\n  year={2018},\n  month={3},\n  url={https://arxiv.org/abs/1803.07612},\n  environments = {collaboration, embodied},\n  agents = {finetuning, two_agents, more_than_three_agents},\n  evaluation = {rule_based},\n  other = {n/a}\n}",
+    authors: "Zhan et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1730,6 +1873,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://proceedings.neurips.cc/paper/2018/hash/240c945bb72980130446fc2b40fbb8e0-Abstract.html",
     bibtex: "@article{song2018multi,\n  title={Multi-agent generative adversarial imitation learning},\n  author={Song, Jiaming and Ren, Hongyu and Sadigh, Dorsa and Ermon, Stefano},\n  journal={Advances in neural information processing systems},\n  volume={31},\n  year={2018},\n  month={12},\n  url={https://proceedings.neurips.cc/paper/2018/hash/240c945bb72980130446fc2b40fbb8e0-Abstract.html},\n  environments = {collaboration},\n  agents = {finetuning, two_agents, more_than_three_agents},\n  evaluation = {rule_based},\n  other = {n/a}\n}",
+    authors: "Song et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1742,6 +1886,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://link.springer.com/article/10.1007/s11633-022-1383-7",
     bibtex: "@article{meng2023offline,\n  title={Offline pre-trained multi-agent decision transformer},\n  author={Meng, Linghui and Wen, Muning and Le, Chenyang and Li, Xiyun and Xing, Dengpeng and Zhang, Weinan and Wen, Ying and Zhang, Haifeng and Wang, Jun and Yang, Yaodong and others},\n  journal={Machine Intelligence Research},\n  volume={20},\n  number={2},\n  pages={233--248},\n  year={2023},\n  publisher={Springer},\n  month={3},\n  url={https://link.springer.com/article/10.1007/s11633-022-1383-7},\n  environments = {collaboration, competition, mixed_objectives, embodied},\n  agents = {finetuning, more_than_three_agents, agent_teams},\n  evaluation = {rule_based},\n  other = {n/a}\n}",
+    authors: "Meng et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1754,6 +1899,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/pdf/2402.06738",
     bibtex: "@misc{ding2024entgpt,\n    title={EntGPT: Linking Generative Large Language Models with Knowledge Bases}, \n    author={Yifan Ding and Amrit Poudel and Qingkai Zeng and Tim Weninger and Balaji Veeramani and Sanmitra Bhattacharya},\n    year={2024},\n    month={2},\n    eprint={2402.06738},\n    archivePrefix={arXiv},\n    primaryClass={cs.CL},\n    url = \"https://arxiv.org/pdf/2402.06738\",\n    environments = {text},\n    agents = {pretraining, finetuning},\n    evaluation = {model_based},\n    other = {n/a},\n}",
+    authors: "Ding et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1766,6 +1912,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://proceedings.neurips.cc/paper_files/paper/2023/file/f22a9af8dbb348952b08bd58d4734b50-Paper-Conference.pdf",
     bibtex: "@article{yu2024self,\n  title={Self-chained image-language model for video localization and question answering},\n  author={Yu, Shoubin and Cho, Jaemin and Yadav, Prateek and Bansal, Mohit},\n  journal={Advances in Neural Information Processing Systems},\n  volume={36},\n  year={2024},\n  month={11},\n  url = \"https://proceedings.neurips.cc/paper_files/paper/2023/file/f22a9af8dbb348952b08bd58d4734b50-Paper-Conference.pdf\",\n  environments = {text, virtual},\n  agents = {pretraining, finetuning},\n  evaluation = {model_based},\n  other = {n/a},\n}",
+    authors: "Yu et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1778,6 +1925,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/pdf/2402.13546",
     bibtex: "@misc{li2024llms,\n      title={LLMs Meet Long Video: Advancing Long Video Comprehension with An Interactive Visual Adapter in LLMs}, \n      author={Yunxin Li and Xinyu Chen and Baotain Hu and Min Zhang},\n      year={2024},\n      month={2},\n      eprint={2402.13546},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url = \"https://arxiv.org/pdf/2402.13546\",\n      environments = {text, virtual},\n  agents = {pretraining, finetuning},\n  evaluation = {model_based},\n  other = {n/a},\n}",
+    authors: "Li et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1790,6 +1938,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://openaccess.thecvf.com/content/ICCV2023W/ASI/papers/Xie_Multi-Modal_Correlated_Network_with_Emotional_Reasoning_Knowledge_for_Social_Intelligence_ICCVW_2023_paper.pdf",
     bibtex: "@InProceedings{Xie_2023_ICCV,\n    author    = {Xie, Baijun and Park, Chung Hyuk},\n    title     = {Multi-Modal Correlated Network with Emotional Reasoning Knowledge for Social Intelligence Question-Answering},\n    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},\n    month     = {October},\n    year      = {2023},\n    pages     = {3075-3081},\n    url = \"https://openaccess.thecvf.com/content/ICCV2023W/ASI/papers/Xie_Multi-Modal_Correlated_Network_with_Emotional_Reasoning_Knowledge_for_Social_Intelligence_ICCVW_2023_paper.pdf\",\n    environments = {text, virtual},\n  agents = {pretraining, finetuning},\n  evaluation = {model_based},\n  other = {n/a},\n}",
+    authors: "Xie et al.",
     subsection: "modeling/finetuning",
 },
         
@@ -1802,6 +1951,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2310.18940",
     bibtex: "@article{xu2023language,\n  title={Language agents with reinforcement learning for strategic play in the werewolf game},\n  author={Xu, Zelai and Yu, Chao and Fang, Fei and Wang, Yu and Wu, Yi},\n  journal={arXiv preprint arXiv:2310.18940},\n  year={2023},\n  month={10},\n  url={https://arxiv.org/abs/2310.18940},\n  environments={collaboration, competition, mixed_objectives, text},\n  agents={reinforcement_learning, more_than_three_agents, agent_teams},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Xu et al.",
     subsection: "modeling/reinforcement-learning",
 },
         
@@ -1814,6 +1964,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://dl.acm.org/doi/abs/10.5555/3545946.3598752",
     bibtex: "@inproceedings{yu2023asynchronous,\n  title={Asynchronous Multi-Agent Reinforcement Learning for Efficient Real-Time Multi-Robot Cooperative Exploration},\n  author={Yu, Chao and Yang, Xinyi and Gao, Jiaxuan and Chen, Jiayu and Li, Yunfei and Liu, Jijia and Xiang, Yunfei and Huang, Ruixin and Yang, Huazhong and Wu, Yi and others},\n  booktitle={Proceedings of the 2023 International Conference on Autonomous Agents and Multiagent Systems},\n  pages={1107--1115},\n  year={2023},\n  month={5},\n  url={https://dl.acm.org/doi/abs/10.5555/3545946.3598752},\n  environments={collaboration, competition, mixed_objectives, robotics},\n  agents={reinforcement_learning, more_than_three_agents, agent_teams},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Yu et al.",
     subsection: "modeling/reinforcement-learning",
 },
         
@@ -1826,6 +1977,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://link.springer.com/chapter/10.1007/978-3-030-63823-8_46",
     bibtex: "@inproceedings{charakorn2020investigating,\n  title={Investigating partner diversification methods in cooperative multi-agent deep reinforcement learning},\n  author={Charakorn, Rujikorn and Manoonpong, Poramate and Dilokthanakul, Nat},\n  booktitle={Neural Information Processing: 27th International Conference, ICONIP 2020, Bangkok, Thailand, November 18--22, 2020, Proceedings, Part V 27},\n  pages={395--402},\n  year={2020},\n  organization={Springer},\n  month={11},\n  url={https://link.springer.com/chapter/10.1007/978-3-030-63823-8_46},\n  environments={collaboration, virtual},\n  agents={reinforcement_learning, two_agents},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Charakorn et al.",
     subsection: "modeling/reinforcement-learning",
 },
         
@@ -1838,6 +1990,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2404.06474v2",
     bibtex: "@article{pan2024autonomous,\n  title={Autonomous Evaluation and Refinement of Digital Agents},\n  author={Pan, Jiayi and Zhang, Yichi and Tomlin, Nicholas and Zhou, Yifei and Levine, Sergey and Suhr, Alane},\n  journal={arXiv preprint arXiv:2404.06474},\n  year={2024},\n  month={4},\n  url={https://arxiv.org/abs/2404.06474v2},\n  environments={virtual},\n  agents={prompting_and_in_context_learning, finetuning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Pan et al.",
     subsection: "modeling/reinforcement-learning",
 },
         
@@ -1850,6 +2003,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://academic.oup.com/jole/article/7/2/213/7128304",
     bibtex: "@article{van2022language,\n  title={Language games meet multi-agent reinforcement learning: A case study for the naming game},\n  author={Van Eecke, Paul and Beuls, Katrien and Botoko Ekila, J{\\'e}r{\\^o}me and R{\\u{a}}dulescu, Roxana},\n  journal={Journal of Language Evolution},\n  volume={7},\n  number={2},\n  pages={213--223},\n  month={4},\n  year={2022},\n  url={https://academic.oup.com/jole/article/7/2/213/7128304},\n  publisher={Oxford University Press UK},\n  environments={collaboration, competition, mixed_objectives},\n  agents={reinforcement_learning, two_agents},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Eecke et al.",
     subsection: "modeling/reinforcement-learning",
 },
         
@@ -1862,6 +2016,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://escholarship.org/uc/item/7p65n371",
     bibtex: "@inproceedings{zhu2022language,\n  title={Language Learning from Communicative Goals and Linguistic Input},\n  author={Zhu, Hao and Bisk, Yonatan and Neubig, Graham},\n  booktitle={Proceedings of the Annual Meeting of the Cognitive Science Society},\n  volume={44},\n  number={44},\n  year={2022},\n  month={7},\n  url={https://escholarship.org/uc/item/7p65n371},\n  environments={collaboration, virtual},\n  agents={reinforcement_learning, two_agents},\n  evaluation={rule_based},\n  other={simulated_humans}\n}",
+    authors: "Zhu et al.",
     subsection: "modeling/reinforcement-learning",
 },
         
@@ -1874,6 +2029,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://arxiv.org/abs/2403.08715",
     bibtex: "@misc{wang2024sotopiapi,\n      title={SOTOPIA-$\\pi$: Interactive Learning of Socially Intelligent Language Agents}, \n      author={Ruiyi Wang and Haofei Yu and Wenxin Zhang and Zhengyang Qi and Maarten Sap and Graham Neubig and Yonatan Bisk and Hao Zhu},\n      year={2024},\n      eprint={2403.08715},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      environments = {collaboration, competition, mixed_objectives, text},\n      agents = {reinforcement_learning, two_agents},\n      evaluation = {rule_based, human, model_based},\n      other = {simulated_humans},\n      url = {https://arxiv.org/abs/2403.08715}\n}",
+    authors: "Wang et al.",
     subsection: "modeling/reinforcement-learning",
 },
         
@@ -1886,6 +2042,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://arxiv.org/abs/2303.01502",
     bibtex: "@misc{liu2023computational,\n      title={Computational Language Acquisition with Theory of Mind}, \n      author={Andy Liu and Hao Zhu and Emmy Liu and Yonatan Bisk and Graham Neubig},\n      year={2023},\n      eprint={2303.01502},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      environments = {collaboration, virtual},\n      agents = {reinforcement_learning, two_agents},\n      evaluation = {rule_based},\n      other = {simulated_humans},\n      url = {https://arxiv.org/abs/2303.01502}\n}",
+    authors: "Liu et al.",
     subsection: "modeling/reinforcement-learning",
 },
         
@@ -1898,6 +2055,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://doi.org/10.1038/s41467-024-45965-x",
     bibtex: "@article{zhe2024indentifying,\n\tabstract = {Identifying key patterns of tactics implemented by rival teams, and developing effective responses, lies at the heart of modern football. However, doing so algorithmically remains an open research challenge. To address this unmet need, we propose TacticAI, an AI football tactics assistant developed and evaluated in close collaboration with domain experts from Liverpool FC. We focus on analysing corner kicks, as they offer coaches the most direct opportunities for interventions and improvements. TacticAI incorporates both a predictive and a generative component, allowing the coaches to effectively sample and explore alternative player setups for each corner kick routine and to select those with the highest predicted likelihood of success. We validate TacticAI on a number of relevant benchmark tasks: predicting receivers and shot attempts and recommending player position adjustments. The utility of TacticAI is validated by a qualitative study conducted with football domain experts at Liverpool FC. We show that TacticAI's model suggestions are not only indistinguishable from real tactics, but also favoured over existing tactics 90{\\%} of the time, and that TacticAI offers an effective corner kick retrieval system. TacticAI achieves these results despite the limited availability of gold-standard data, achieving data efficiency through geometric deep learning.},\n\tauthor = {Wang, Zhe and Veli{\\v c}kovi{\\'c}, Petar and Hennes, Daniel and Toma{\\v s}ev, Nenad and Prince, Laurel and Kaisers, Michael and Bachrach, Yoram and Elie, Romuald and Wenliang, Li Kevin and Piccinini, Federico and Spearman, William and Graham, Ian and Connor, Jerome and Yang, Yi and Recasens, Adri{\\`a} and Khan, Mina and Beauguerlange, Nathalie and Sprechmann, Pablo and Moreno, Pol and Heess, Nicolas and Bowling, Michael and Hassabis, Demis and Tuyls, Karl},\n\tdate = {2024/03/19},\n\tdate-added = {2024-04-19 16:43:21 -0400},\n\tdate-modified = {2024-04-19 16:43:21 -0400},\n\tdoi = {10.1038/s41467-024-45965-x},\n\tid = {Wang2024},\n\tisbn = {2041-1723},\n\tjournal = {Nature Communications},\n\tnumber = {1},\n\tpages = {1906},\n\ttitle = {TacticAI: an AI assistant for football tactics},\n\turl = {https://doi.org/10.1038/s41467-024-45965-x},\n\tvolume = {15},\n\tyear = {2024},\n  month={3},\n  environments = {virtual, collaboration, competition, mixed_objectives},\n  agents = {reinforcement_learning, agent_teams},\n  evaluation = {rule_based},\n  other = {n/a},\n\tbdsk-url-1 = {https://doi.org/10.1038/s41467-024-45965-x}\n}",
+    authors: "Wang et al.",
     subsection: "modeling/reinforcement-learning",
 },
         
@@ -1910,6 +2068,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://www.nature.com/articles/nature24270",
     bibtex: "@article{silver2017mastering,\n  title={Mastering the game of go without human knowledge},\n  author={Silver, David and Schrittwieser, Julian and Simonyan, Karen and Antonoglou, Ioannis and Huang, Aja and Guez, Arthur and Hubert, Thomas and Baker, Lucas and Lai, Matthew and Bolton, Adrian and others},\n  journal={nature},\n  volume={550},\n  number={7676},\n  pages={354--359},\n  year={2017},\n  publisher={Nature Publishing Group},\n  month={4},\n  url={https://www.nature.com/articles/nature24270},\n  environments = {competition, virtual},\n  agents = {reinforcement_learning},\n  evaluation = {rule_based},\n  other = {human_agent},\n}",
+    authors: "Silver et al.",
     subsection: "modeling/reinforcement-learning",
 },
         
@@ -1922,6 +2081,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://www.nature.com/articles/nature16961",
     bibtex: "@article{silver2016mastering,\n  title={Mastering the game of Go with deep neural networks and tree search},\n  author={Silver, David and Huang, Aja and Maddison, Chris J and Guez, Arthur and Sifre, Laurent and Van Den Driessche, George and Schrittwieser, Julian and Antonoglou, Ioannis and Panneershelvam, Veda and Lanctot, Marc and others},\n  journal={nature},\n  volume={529},\n  number={7587},\n  pages={484--489},\n  year={2016},\n  publisher={Nature Publishing Group},\n  month={1},\n  url={https://www.nature.com/articles/nature16961},\n  environments = {competition, virtual},\n  agents = {reinforcement_learning},\n  evaluation = {rule_based},\n  other = {human_agent},\n}",
+    authors: "Silver et al.",
     subsection: "modeling/reinforcement-learning",
 },
         
@@ -1934,6 +2094,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://aclanthology.org/D19-3010",
     bibtex: "@inproceedings{kharitonov-etal-2019-egg,\n    title = \"{EGG}: a toolkit for research on Emergence of lan{G}uage in Games\",\n    author = \"Kharitonov, Eugene  and\n      Chaabouni, Rahma  and\n      Bouchacourt, Diane  and\n      Baroni, Marco\",\n    editor = \"Pad{\\'o}, Sebastian  and\n      Huang, Ruihong\",\n    booktitle = \"Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP): System Demonstrations\",\n    month = nov,\n    year = \"2019\",\n    address = \"Hong Kong, China\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/D19-3010\",\n    doi = \"10.18653/v1/D19-3010\",\n    pages = \"55--60\",\n    abstract = \"There is renewed interest in simulating language emergence among deep neural agents that communicate to jointly solve a task, spurred by the practical aim to develop language-enabled interactive AIs, as well as by theoretical questions about the evolution of human language. However, optimizing deep architectures connected by a discrete communication channel (such as that in which language emerges) is technically challenging. We introduce EGG, a toolkit that greatly simplifies the implementation of emergent-language communication games. EGG{'}s modular design provides a set of building blocks that the user can combine to create new games, easily navigating the optimization and architecture space. We hope that the tool will lower the technical barrier, and encourage researchers from various backgrounds to do original work in this exciting area.\",\n    environments = {collaboration, text},\n    agents = {reinforcement_learning, two_agents},\n    evaluation = {rule_based},\n    other = {n/a}\n}",
+    authors: "Kharitonov et al.",
     subsection: "modeling/reinforcement-learning",
 },
         
@@ -1946,6 +2107,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://openreview.net/forum?id=Hk6WhagRW",
     bibtex: "@inproceedings{ cao2018emergent,\n  title={Emergent Communication through Negotiation},\n  author={Kris Cao and Angeliki Lazaridou and Marc Lanctot and Joel Z Leibo and Karl Tuyls and Stephen Clark},\n  booktitle={International Conference on Learning Representations},\n  year={2018},\n  url={https://openreview.net/forum?id=Hk6WhagRW},\n  month={2},\n  environments = {mixed_objectives, text},\n  agents = {reinforcement_learning, two_agents},\n  evaluation = {rule_based},\n  other = {n/a}\n}",
+    authors: "Cao et al.",
     subsection: "modeling/reinforcement-learning",
 },
         
@@ -1958,6 +2120,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://doi.org/10.1145/3269206.3272021",
     bibtex: "@inproceedings{10.1145/3269206.3272021,\n  author = {Jin, Junqi and Song, Chengru and Li, Han and Gai, Kun and Wang, Jun and Zhang, Weinan},\n  title = {Real-Time Bidding with Multi-Agent Reinforcement Learning in Display Advertising},\n  year = {2018},\n  publisher = {Association for Computing Machinery},\n  url = {https://doi.org/10.1145/3269206.3272021},\n  abstract = {Real-time advertising allows advertisers to bid for each impression for a visiting user. To optimize specific goals such as maximizing revenue and return on investment (ROI) led by ad placements, advertisers not only need to estimate the relevance between the ads and user's interests, but most importantly require a strategic response with respect to other advertisers bidding in the market. In this paper, we formulate bidding optimization with multi-agent reinforcement learning. To deal with a large number of advertisers, we propose a clustering method and assign each cluster with a strategic bidding agent. A practical Distributed Coordinated Multi-Agent Bidding (DCMAB) has been proposed and implemented to balance the tradeoff between the competition and cooperation among advertisers. The empirical study on our industry-scaled real-world data has demonstrated the effectiveness of our methods. Our results show cluster-based bidding would largely outperform single-agent and bandit approaches, and the coordinated bidding achieves better overall objectives than purely self-interested bidding agents.},\n  booktitle = {Proceedings of the 27th ACM International Conference on Information and Knowledge Management},\n  pages = {2193\u20132201},\n  numpages = {9},\n  month = oct,\n  environments = {competition, virtual},\n  agents = {reinforcement_learning, more_than_three_agents},\n  evaluation = {rule_based},\n  other = {n/a}\n}",
+    authors: "Jin et al.",
     subsection: "modeling/reinforcement-learning",
 },
         
@@ -1970,6 +2133,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://www.aclweb.org/anthology/P10-1129",
     bibtex: "@inproceedings{branavan2010reading,\n  title={Reading between the lines: Learning to map high-level instructions to commands},\n  author={Branavan, SRK and Zettlemoyer, Luke and Barzilay, Regina},\n  booktitle={Proceedings of the 48th annual meeting of the association for computational linguistics},\n  pages={1268--1277},\n  year={2010},\n  month={7},\n  url={https://www.aclweb.org/anthology/P10-1129},\n  environments = {virtual},\n  agents = {reinforcement_learning},\n  evaluation = {rule_based},\n  other = {n/a}\n}",
+    authors: "Branavan et al.",
     subsection: "modeling/reinforcement-learning",
 },
         
@@ -1982,6 +2146,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/pdf/2208.01036",
     bibtex: "@inproceedings{wilf2023face,\n  title={Face-to-face contrastive learning for social intelligence question-answering},\n  author={Wilf, Alex and Ma, Martin Q and Liang, Paul Pu and Zadeh, Amir and Morency, Louis-Philippe},\n  booktitle={2023 IEEE 17th International Conference on Automatic Face and Gesture Recognition (FG)},\n  pages={1--7},\n  year={2023},\n  month={5},\n  organization={IEEE},\n  url = \"https://arxiv.org/pdf/2208.01036\",\n  environments = {text, virtual},\n  agents = {pretraining, finetuning},\n  evaluation = {model_based},\n  other = {n/a},\n}",
+    authors: "Wilf et al.",
     subsection: "modeling/reinforcement-learning",
 },
         
@@ -1994,6 +2159,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://aclanthology.org/2023.findings-emnlp.881",
     bibtex: "@inproceedings{wilf-etal-2023-difference,\n    title = \"Difference-Masking: Choosing What to Mask in Continued Pretraining\",\n    author = \"Wilf, Alex  and\n      Akter, Syeda  and\n      Mathur, Leena  and\n      Liang, Paul  and\n      Mathew, Sheryl  and\n      Shou, Mengrou  and\n      Nyberg, Eric  and\n      Morency, Louis-Philippe\",\n    editor = \"Bouamor, Houda  and\n      Pino, Juan  and\n      Bali, Kalika\",\n    booktitle = \"Findings of the Association for Computational Linguistics: EMNLP 2023\",\n    month = dec,\n    year = \"2023\",\n    address = \"Singapore\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2023.findings-emnlp.881\",\n    doi = \"10.18653/v1/2023.findings-emnlp.881\",\n    pages = \"13222--13234\",\n    abstract = \"The self-supervised objective of masked prediction has led to promising performance gains on a variety of downstream tasks. However, while most approaches randomly mask tokens, there is strong intuition that deciding what to mask can substantially improve learning outcomes. We investigate this in continued pretraining setting in which pretrained models continue to pretrain on domain-specific data before performing some downstream task. We introduce Difference-Masking, a masking strategy that automatically chooses what to mask during continued pretraining by considering what makes a task domain different from the pretraining domain. Empirically, we find that Difference-Masking outperforms baselines on continued pretraining settings across four diverse language-only and multimodal video tasks.\",\n    environments = {text, virtual},\n    agents = {pretraining, finetuning},\n    evaluation = {model_based},\n    other = {n/a},\n}",
+    authors: "Wilf et al.",
     subsection: "modeling/reinforcement-learning",
 },
         
@@ -2006,6 +2172,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://aclanthology.org/2020.deelio-1.9",
     bibtex: "@inproceedings{chang-etal-2020-incorporating,\n    title = \"Incorporating Commonsense Knowledge Graph in Pretrained Models for Social Commonsense Tasks\",\n    author = \"Chang, Ting-Yun  and\n      Liu, Yang  and\n      Gopalakrishnan, Karthik  and\n      Hedayatnia, Behnam  and\n      Zhou, Pei  and\n      Hakkani-Tur, Dilek\",\n    editor = \"Agirre, Eneko  and\n      Apidianaki, Marianna  and\n      Vuli{\\'c}, Ivan\",\n    booktitle = \"Proceedings of Deep Learning Inside Out (DeeLIO): The First Workshop on Knowledge Extraction and Integration for Deep Learning Architectures\",\n    month = nov,\n    year = \"2020\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2020.deelio-1.9\",\n    doi = \"10.18653/v1/2020.deelio-1.9\",\n    pages = \"74--79\",\n    abstract = \"Pretrained language models have excelled at many NLP tasks recently; however, their social intelligence is still unsatisfactory. To enable this, machines need to have a more general understanding of our complicated world and develop the ability to perform commonsense reasoning besides fitting the specific downstream tasks. External commonsense knowledge graphs (KGs), such as ConceptNet, provide rich information about words and their relationships. Thus, towards general commonsense learning, we propose two approaches to implicitly and explicitly infuse such KGs into pretrained language models. We demonstrate our proposed methods perform well on SocialIQA, a social commonsense reasoning task, in both limited and full training data regimes.\",\n    environments = {text, virtual},\n    agents = {pretraining, finetuning},\n    evaluation = {model_based},\n    other = {n/a},\n}",
+    authors: "Chang et al.",
     subsection: "modeling/reinforcement-learning",
 },
         
@@ -2018,6 +2185,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://aclanthology.org/2023.ijcnlp-main.66",
     bibtex: "@inproceedings{kim-etal-2023-examining,\n    title = \"Examining Consistency of Visual Commonsense Reasoning based on Person Grounding\",\n    author = \"Kim, Huiju  and\n      Kang, Youjin  and\n      Lee, SangKeun\",\n    editor = \"Park, Jong C.  and\n      Arase, Yuki  and\n      Hu, Baotian  and\n      Lu, Wei  and\n      Wijaya, Derry  and\n      Purwarianti, Ayu  and\n      Krisnadhi, Adila Alfa\",\n    booktitle = \"Proceedings of the 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)\",\n    month = nov,\n    year = \"2023\",\n    address = \"Nusa Dua, Bali\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2023.ijcnlp-main.66\",\n    doi = \"10.18653/v1/2023.ijcnlp-main.66\",\n    pages = \"1026--1039\",\n    environments = {text, virtual},\n    agents = {pretraining, finetuning},\n    evaluation = {model_based},\n    other = {n/a},\n}",
+    authors: "Kim et al.",
     subsection: "modeling/reinforcement-learning",
 },
         
@@ -2030,6 +2198,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/pdf/2404.13847",
     bibtex: "@misc{ma2024eventlens,\n    title={EventLens: Leveraging Event-Aware Pretraining and Cross-modal Linking Enhances Visual Commonsense Reasoning}, \n    author={Mingjie Ma and Zhihuan Yu and Yichao Ma and Guohui Li},\n    year={2024},\n    month={4},\n    eprint={2404.13847},\n    archivePrefix={arXiv},\n    primaryClass={cs.CV},\n    url = \"https://arxiv.org/pdf/2404.13847\",\n    environments = {text, virtual},\n    agents = {pretraining, finetuning},\n    evaluation = {model_based},\n    other = {n/a},\n}",
+    authors: "Ma et al.",
     subsection: "modeling/reinforcement-learning",
 },
         
@@ -2042,6 +2211,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/pdf/2403.07816",
     bibtex: "@misc{sukhbaatar2024branchtrainmix,\n    title={Branch-Train-MiX: Mixing Expert LLMs into a Mixture-of-Experts LLM}, \n    author={Sainbayar Sukhbaatar and Olga Golovneva and Vasu Sharma and Hu Xu and Xi Victoria Lin and Baptiste Rozi\u00e8re and Jacob Kahn and Daniel Li and Wen-tau Yih and Jason Weston and Xian Li},\n    year={2024},\n    month={3},\n    eprint={2403.07816},\n    archivePrefix={arXiv},\n    primaryClass={cs.CL},\n    url = \"https://arxiv.org/pdf/2403.07816\",\n    environments = {text},\n    agents = {pretraining, finetuning},\n    evaluation = {model_based},\n    other = {n/a},\n}",
+    authors: "Sukhbaatar et al.",
     subsection: "modeling/reinforcement-learning",
 },
         
@@ -2054,6 +2224,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2206.04615",
     bibtex: "@article{srivastava2022beyond,\n  title={Beyond the imitation game: Quantifying and extrapolating the capabilities of language models},\n  author={Srivastava, Aarohi and Rastogi, Abhinav and Rao, Abhishek and Shoeb, Abu Awal Md and Abid, Abubakar and Fisch, Adam and Brown, Adam R and Santoro, Adam and Gupta, Aditya and Garriga-Alonso, Adri{\\`a} and others},\n  journal={arXiv preprint arXiv:2206.04615},\n  year={2022},\n  month={6},\n  url={https://arxiv.org/abs/2206.04615},\n  environments = {text},\n  agents = {prompting_and_in_context_learning, finetuning, pretraining, reinforcement_learning, two_agents},\n  evaluation = {qualitative, human},\n  other = {n/a},\n}",
+    authors: "Srivastava et al.",
     subsection: "evaluation/language",
 },
         
@@ -2066,6 +2237,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://aclanthology.org/2020.sigdial-1.29",
     bibtex: "@inproceedings{finch-choi-2020-towards,\n    title = \"Towards Unified Dialogue System Evaluation: A Comprehensive Analysis of Current Evaluation Protocols\",\n    author = \"Finch, Sarah E.  and\n      Choi, Jinho D.\",\n    editor = \"Pietquin, Olivier  and\n      Muresan, Smaranda  and\n      Chen, Vivian  and\n      Kennington, Casey  and\n      Vandyke, David  and\n      Dethlefs, Nina  and\n      Inoue, Koji  and\n      Ekstedt, Erik  and\n      Ultes, Stefan\",\n    booktitle = \"Proceedings of the 21th Annual Meeting of the Special Interest Group on Discourse and Dialogue\",\n    month = jul,\n    year = \"2020\",\n    address = \"1st virtual meeting\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2020.sigdial-1.29\",\n    doi = \"10.18653/v1/2020.sigdial-1.29\",\n    pages = \"236--245\",\n    environments = {text},\n    agents = {n/a},\n    evaluation = {human, rule_based, model_based},\n    other = {human_agent}\n}",
+    authors: "Finch et al.",
     subsection: "evaluation/language",
 },
         
@@ -2078,6 +2250,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://aclanthology.org/2020.acl-srw.27",
     bibtex: "@inproceedings{tsuta-etal-2020-ubleu,\n    title = \"u{BLEU}: Uncertainty-Aware Automatic Evaluation Method for Open-Domain Dialogue Systems\",\n    author = \"Tsuta, Yuma  and\n      Yoshinaga, Naoki  and\n      Toyoda, Masashi\",\n    editor = \"Rijhwani, Shruti  and\n      Liu, Jiangming  and\n      Wang, Yizhong  and\n      Dror, Rotem\",\n    booktitle = \"Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics: Student Research Workshop\",\n    month = jul,\n    year = \"2020\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2020.acl-srw.27\",\n    doi = \"10.18653/v1/2020.acl-srw.27\",\n    pages = \"199--206\",\n    environments = {text},\n    agents = {n/a},\n    evaluation = {model_based},\n    other = {human_agent}\n}",
+    authors: "Tsuta et al.",
     subsection: "evaluation/language",
 },
         
@@ -2090,6 +2263,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://link.springer.com/article/10.1007/s10462-020-09866-x",
     bibtex: "@article{deriu2021survey,\n    title={Survey on evaluation methods for dialogue systems},\n    author={Deriu, Jan and Rodrigo, Alvaro and Otegi, Arantxa and Echegoyen, Guillermo and Rosset, Sophie and Agirre, Eneko and Cieliebak, Mark},\n    journal={Artificial Intelligence Review},\n    volume={54},\n    pages={755--810},\n    month={1},\n    year={2021},\n    publisher={Springer},\n    environments = {text},\n    agents = {n/a},\n    evaluation = {rule_based, model_based},\n    other = {human_agent},\n    url={https://link.springer.com/article/10.1007/s10462-020-09866-x}\n}",
+    authors: "Deriu et al.",
     subsection: "evaluation/language",
 },
         
@@ -2102,6 +2276,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://aclanthology.org/2021.acl-long.441",
     bibtex: "@inproceedings{zhang-etal-2021-dynaeval,\n    title = \"{D}yna{E}val: Unifying Turn and Dialogue Level Evaluation\",\n    author = \"Zhang, Chen  and\n      Chen, Yiming  and\n      D{'}Haro, Luis Fernando  and\n      Zhang, Yan  and\n      Friedrichs, Thomas  and\n      Lee, Grandee  and\n      Li, Haizhou\",\n    editor = \"Zong, Chengqing  and\n      Xia, Fei  and\n      Li, Wenjie  and\n      Navigli, Roberto\",\n    booktitle = \"Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)\",\n    month = aug,\n    year = \"2021\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2021.acl-long.441\",\n    doi = \"10.18653/v1/2021.acl-long.441\",\n    pages = \"5676--5689\",\n    environments = {text},\n    agents = {n/a},\n    evaluation = {model_based},\n    other = {human_agent}\n}",
+    authors: "Zhang et al.",
     subsection: "evaluation/language",
 },
         
@@ -2114,6 +2289,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://aclanthology.org/2022.nlp4convai-1.8",
     bibtex: "@inproceedings{smith-etal-2022-human,\n    title = \"Human Evaluation of Conversations is an Open Problem: comparing the sensitivity of various methods for evaluating dialogue agents\",\n    author = \"Smith, Eric  and\n      Hsu, Orion  and\n      Qian, Rebecca  and\n      Roller, Stephen  and\n      Boureau, Y-Lan  and\n      Weston, Jason\",\n    editor = \"Liu, Bing  and\n      Papangelis, Alexandros  and\n      Ultes, Stefan  and\n      Rastogi, Abhinav  and\n      Chen, Yun-Nung  and\n      Spithourakis, Georgios  and\n      Nouri, Elnaz  and\n      Shi, Weiyan\",\n    booktitle = \"Proceedings of the 4th Workshop on NLP for Conversational AI\",\n    month = may,\n    year = \"2022\",\n    address = \"Dublin, Ireland\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2022.nlp4convai-1.8\",\n    doi = \"10.18653/v1/2022.nlp4convai-1.8\",\n    pages = \"77--97\",\n    environments = {text},\n    agents = {n/a},\n    evaluation = {human},\n    other = {human_agent},\n}",
+    authors: "Smith et al.",
     subsection: "evaluation/language",
 },
         
@@ -2126,6 +2302,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://aclanthology.org/2023.acl-long.839",
     bibtex: "@inproceedings{finch-etal-2023-dont,\n    title = \"Don{'}t Forget Your {ABC}{'}s: Evaluating the State-of-the-Art in Chat-Oriented Dialogue Systems\",\n    author = \"Finch, Sarah E.  and\n      Finch, James D.  and\n      Choi, Jinho D.\",\n    editor = \"Rogers, Anna  and\n      Boyd-Graber, Jordan  and\n      Okazaki, Naoaki\",\n    booktitle = \"Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)\",\n    month = jul,\n    year = \"2023\",\n    address = \"Toronto, Canada\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2023.acl-long.839\",\n    doi = \"10.18653/v1/2023.acl-long.839\",\n    pages = \"15044--15071\",\n    environments = {text},\n    agents = {n/a},\n    evaluation = {human},\n    other = {human_agent},\n}",
+    authors: "Finch et al.",
     subsection: "evaluation/language",
 },
         
@@ -2138,6 +2315,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://aclanthology.org/2023.findings-emnlp.371",
     bibtex: "@inproceedings{zhang-etal-2023-xdial,\n    title = \"x{D}ial-Eval: A Multilingual Open-Domain Dialogue Evaluation Benchmark\",\n    author = \"Zhang, Chen  and\n      D{'}Haro, Luis  and\n      Tang, Chengguang  and\n      Shi, Ke  and\n      Tang, Guohua  and\n      Li, Haizhou\",\n    editor = \"Bouamor, Houda  and\n      Pino, Juan  and\n      Bali, Kalika\",\n    booktitle = \"Findings of the Association for Computational Linguistics: EMNLP 2023\",\n    month = dec,\n    year = \"2023\",\n    address = \"Singapore\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2023.findings-emnlp.371\",\n    doi = \"10.18653/v1/2023.findings-emnlp.371\",\n    pages = \"5579--5601\",\n    environments = {text},\n    agents = {n/a},\n    evaluation = {human},\n    other = {human_agent},\n}",
+    authors: "Zhang et al.",
     subsection: "evaluation/language",
 },
         
@@ -2150,6 +2328,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://openreview.net/forum?id=mM7VurbA4r",
     bibtex: "@inproceedings{zhou2024sotopia,\n  title={SOTOPIA: Interactive Evaluation for Social Intelligence in Language Agents},\n  author={Xuhui Zhou and Hao Zhu and Leena Mathur and Ruohong Zhang and Haofei Yu and Zhengyang Qi and Louis-Philippe Morency and Yonatan Bisk and Daniel Fried and Graham Neubig and Maarten Sap},\n  booktitle={ICLR},\n  environments = {mixed_objectives, text},\n  agents = {prompting_and_in_context_learning, two_agents},\n  evaluation = {model_based, human},\n  other = {human_agent},\n  year={2024},\n  month = {01},\n  url={https://openreview.net/forum?id=mM7VurbA4r}\n}",
+    authors: "Zhou et al.",
     subsection: "evaluation/language",
 },
         
@@ -2162,6 +2341,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://arxiv.org/abs/2403.13679",
     bibtex: "@misc{chen2024roleinteract,\n      title={RoleInteract: Evaluating the Social Interaction of Role-Playing Agents}, \n      author={Hongzhan Chen and Hehong Chen and Ming Yan and Wenshen Xu and Xing Gao and Weizhou Shen and Xiaojun Quan and Chenliang Li and Ji Zhang and Fei Huang and Jingren Zhou},\n      year={2024},\n      environments = {implicit_objectives, text},\n      agents = {prompting_and_in_context_learning, more_than_three_agents, agents_with_memory, agents_with_personas},\n      evaluation = {rule_based},\n      other = {simulated_humans},\n      url = {https://arxiv.org/abs/2403.13679},\n      eprint={2403.13679},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}",
+    authors: "Chen et al.",
     subsection: "evaluation/language",
 },
         
@@ -2174,6 +2354,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://aclanthology.org/2023.sigdial-1.25",
     bibtex: "@inproceedings{svikhnushina-pu-2023-approximating,\n      title = \"Approximating Online Human Evaluation of Social Chatbots with Prompting\",\n      author = \"Svikhnushina, Ekaterina  and\n            Pu, Pearl\",\n      editor = \"Stoyanchev, Svetlana  and\n            Joty, Shafiq  and\n            Schlangen, David  and\n            Dusek, Ondrej  and\n            Kennington, Casey  and\n            Alikhani, Malihe\",\n      booktitle = \"Proceedings of the 24th Annual Meeting of the Special Interest Group on Discourse and Dialogue\",\n      month = {09},\n      year = \"2023\",\n      address = \"Prague, Czechia\",\n      publisher = \"Association for Computational Linguistics\",\n      url = \"https://aclanthology.org/2023.sigdial-1.25\",\n      doi = \"10.18653/v1/2023.sigdial-1.25\",\n      pages = \"268--281\",\n      abstract = \"With conversational models becoming increasingly available to the general public, developing scalable and robust evaluation metrics is crucial to minimize potential social and psychological risks for the users. Existing evaluation metrics aim to automate offline user evaluation and approximate human judgment of pre-curated dialogs. However, they are limited in their ability to capture subjective perceptions of users who actually interact with the chatbots and might not generalize to real-world settings. To address this limitation, we propose an approach to approximate online human evaluation, leveraging large language models (LLMs) from the GPT-family. We introduce a new Dialog system Evaluation framework based on Prompting (DEP), which enables a fully automatic evaluation pipeline that replicates live user studies and achieves an impressive correlation with human judgment (up to Pearson r=0.95 on a system level). The DEP approach involves collecting synthetic chat logs of evaluated bots with an LLM in the other-play setting, where the LLM is carefully conditioned to follow a specific scenario. We further explore different prompting approaches to produce evaluation scores with the same LLM. The best-performing prompts, which contain few-shot demonstrations and instructions, show outstanding performance on the tested dataset and demonstrate the ability to generalize to other dialog corpora.\",\n      environments = {mixed_objectives, text},\n      agents = {prompting_and_in_context_learning, two_agents},\n      evaluation = {model_based},\n      other = {n/a}\n}",
+    authors: "Svikhnushina et al.",
     subsection: "evaluation/language",
 },
         
@@ -2186,6 +2367,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://proceedings.neurips.cc/paper_files/paper/2023/file/a3621ee907def47c1b952ade25c67698-Paper-Conference.pdf",
     bibtex: "@inproceedings{NEURIPS2023_a3621ee9,\n      author = {Li, Guohao and Hammoud, Hasan and Itani, Hani and Khizbullin, Dmitrii and Ghanem, Bernard},\n      booktitle = {Advances in Neural Information Processing Systems},\n      editor = {A. Oh and T. Neumann and A. Globerson and K. Saenko and M. Hardt and S. Levine},\n      pages = {51991--52008},\n      publisher = {Curran Associates, Inc.},\n      title = {CAMEL: Communicative Agents for \"Mind\" Exploration of Large Language Model Society},\n      url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/a3621ee907def47c1b952ade25c67698-Paper-Conference.pdf},\n      volume = {36},\n      year = {2023},\n      month = {12},\n      environments = {mixed_objectives, text},\n      agents = {prompting_and_in_context_learning, agent_teams},\n      evaluation = {human, model_based},\n      other = {human_agent}\n}",
+    authors: "Li et al.",
     subsection: "evaluation/language",
 },
         
@@ -2198,6 +2380,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://arxiv.org/pdf/2310.14985.pdf",
     bibtex: "@article{lan2023llm,\n      title={Llm-based agent society investigation: Collaboration and confrontation in avalon gameplay},\n      author={Lan, Yihuai and Hu, Zhiqiang and Wang, Lei and Wang, Yang and Ye, Deheng and Zhao, Peilin and Lim, Ee-Peng and Xiong, Hui and Wang, Hao},\n      journal={arXiv preprint arXiv:2310.14985},\n      eprint={2310.14985},\n      year={2023},\n      month={10},\n      environments = {mixed_objectives, text},\n      agents = {prompting_and_in_context_learning, more_than_three_agents, agents_with_memory, agents_with_personas},\n      evaluation = {model_based, rule_based},\n      other = {simulated_humans},\n      url = {https://arxiv.org/pdf/2310.14985.pdf}\n}",
+    authors: "Lan et al.",
     subsection: "evaluation/language",
 },
         
@@ -2210,6 +2393,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://arxiv.org/abs/2308.10278",
     bibtex: "@misc{tu2023characterchat,\n      title={CharacterChat: Learning towards Conversational AI with Personalized Social Support}, \n      author={Quan Tu and Chuanqi Chen and Jinpeng Li and Yanran Li and Shuo Shang and Dongyan Zhao and Ran Wang and Rui Yan},\n      year={2023},\n      month={08},\n      environments = {implicit_objectives, text},\n      agents = {prompting_and_in_context_learning, two_agents, agents_with_memory, agents_with_personas},\n      evaluation = {model_based, human},\n      other = {simulated_humans},\n      url = {https://arxiv.org/abs/2308.10278},\n      eprint={2308.10278},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}",
+    authors: "Tu et al.",
     subsection: "evaluation/language",
 },
         
@@ -2222,6 +2406,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://arxiv.org/abs/2310.09233",
     bibtex: "@misc{zhang2023agentcf,\n      title={AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems}, \n      author={Junjie Zhang and Yupeng Hou and Ruobing Xie and Wenqi Sun and Julian McAuley and Wayne Xin Zhao and Leyu Lin and Ji-Rong Wen},\n      year={2023},\n      month={10},\n      environments = {mixed_objectives, text},\n      agents = {prompting_and_in_context_learning, more_than_three_agents, agents_with_memory, agents_with_personas},\n      evaluation = {rule_based},\n      other = {simulated_humans},\n      url = {https://arxiv.org/abs/2310.09233},\n      eprint={2310.09233},\n      archivePrefix={arXiv},\n      primaryClass={cs.IR}\n}",
+    authors: "Zhang et al.",
     subsection: "evaluation/language",
 },
         
@@ -2234,6 +2419,7 @@ export const data: Paper[] = [
     other: "more_omniscient",
     url: "https://arxiv.org/abs/2403.11807",
     bibtex: "@misc{huang2024far,\n      title={How Far Are We on the Decision-Making of LLMs? Evaluating LLMs' Gaming Ability in Multi-Agent Environments}, \n      author={Jen-tse Huang and Eric John Li and Man Ho Lam and Tian Liang and Wenxuan Wang and Youliang Yuan and Wenxiang Jiao and Xing Wang and Zhaopeng Tu and Michael R. Lyu},\n      year={2024},\n      month={3},\n      eprint={2403.11807},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI},\n      url={https://arxiv.org/abs/2403.11807},\n      environments = {mixed_objectives, text},\n      agents = {prompting_and_in_context_learning, more_than_three_agents},\n      evaluation = {rule_based},\n      other = {more_omniscient}\n}",
+    authors: "Huang et al.",
     subsection: "evaluation/language",
 },
         
@@ -2246,6 +2432,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2308.07201",
     bibtex: "@misc{chan2023chateval,\n      title={ChatEval: Towards Better LLM-based Evaluators through Multi-Agent Debate}, \n      author={Chi-Min Chan and Weize Chen and Yusheng Su and Jianxuan Yu and Wei Xue and Shanghang Zhang and Jie Fu and Zhiyuan Liu},\n      year={2023},\n      month={8},\n      eprint={2308.07201},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://arxiv.org/abs/2308.07201},\n      environments = {collaboration, text},\n      agents = {prompting_and_in_context_learning, more_than_three_agents},\n      evaluation = {model_based},\n      other = {n/a}\n}",
+    authors: "Chan et al.",
     subsection: "evaluation/language",
 },
         
@@ -2258,6 +2445,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2402.11958",
     bibtex: "@misc{li2024automatic,\n      title={Automatic Evaluation for Mental Health Counseling using LLMs}, \n      author={Anqi Li and Yu Lu and Nirui Song and Shuai Zhang and Lizhi Ma and Zhenzhong Lan},\n      year={2024},\n      month={2},\n      eprint={2402.11958},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n        url={https://arxiv.org/abs/2402.11958},\n        environments = {collaboration, text},\n        agents = {prompting_and_in_context_learning, two_agents},\n        evaluation = {model_based},\n        other = {n/a}\n}",
+    authors: "Li et al.",
     subsection: "evaluation/language",
 },
         
@@ -2270,6 +2458,7 @@ export const data: Paper[] = [
     other: "more_information_asymmetrical",
     url: "https://arxiv.org/abs/2402.05863",
     bibtex: "@misc{bianchi2024llms,\n      title={How Well Can LLMs Negotiate? NegotiationArena Platform and Analysis}, \n      author={Federico Bianchi and Patrick John Chia and Mert Yuksekgonul and Jacopo Tagliabue and Dan Jurafsky and James Zou},\n      year={2024},\n      month={2},\n      eprint={2402.05863},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI},\n        url={https://arxiv.org/abs/2402.05863},\n        environments = {mixed_objectives, text},\n        agents = {prompting_and_in_context_learning, two_agents},\n        evaluation = {rule_based},\n        other = {more_information_asymmetrical}\n}",
+    authors: "Bianchi et al.",
     subsection: "evaluation/language",
 },
         
@@ -2282,6 +2471,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://api.semanticscholar.org/CorpusID:268032940",
     bibtex: "@inproceedings{Jiang2023PersonaLLMIT,\n  title={PersonaLLM: Investigating the Ability of Large Language Models to Express Personality Traits},\n  author={Hang Jiang and Xiajie Zhang and Xubo Cao and Cynthia Breazeal and Deb Roy and Jad Kabbara},\n  year={2023},\n  booktitle={NAACL Findings},\n  url={https://api.semanticscholar.org/CorpusID:268032940},\n  environments = {text},\n  agents = {prompting_and_in_context_learning},\n  evaluation = {human, model_based},\n  other = {n/a}, \n  month={5}\n}",
+    authors: "Jiang et al.",
     subsection: "evaluation/language",
 },
         
@@ -2294,6 +2484,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://api.semanticscholar.org/CorpusID:267523076",
     bibtex: "@article{Xie2024CanLL,\n  title={Can Large Language Model Agents Simulate Human Trust Behaviors?},\n  author={Chengxing Xie and Canyu Chen and Feiran Jia and Ziyu Ye and Kai Shu and Adel Bibi and Ziniu Hu and Philip H.S. Torr and Bernard Ghanem and G. Li},\n  journal={ArXiv},\n  year={2024},\n  volume={abs/2402.04559},\n  url={https://api.semanticscholar.org/CorpusID:267523076},\n    environments = {text},\n    agents = {prompting_and_in_context_learning},\n    evaluation = {human, model_based},\n    other = {n/a},\n    month={2}\n}",
+    authors: "Xie et al.",
     subsection: "evaluation/language",
 },
         
@@ -2306,6 +2497,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://api.semanticscholar.org/CorpusID:266725580",
     bibtex: "@article{Rasal2024LLMHM,\n  title={LLM Harmony: Multi-Agent Communication for Problem Solving},\n  author={Sumedh Rasal},\n  journal={ArXiv},\n  year={2024},\n  volume={abs/2401.01312},\n  url={https://api.semanticscholar.org/CorpusID:266725580},\n    environments = {text},\n    agents = {prompting_and_in_context_learning},\n    evaluation = {human, model_based},\n    other = {n/a},\n    month={1}\n}",
+    authors: "Rasal et al.",
     subsection: "evaluation/language",
 },
         
@@ -2318,6 +2510,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://aclanthology.org/2021.eancs-1.3",
     bibtex: "@inproceedings{yeh-etal-2021-comprehensive,\n    title = \"A Comprehensive Assessment of Dialog Evaluation Metrics\",\n    author = \"Yeh, Yi-Ting  and\n      Eskenazi, Maxine  and\n      Mehri, Shikib\",\n    editor = \"Wei, Wei  and\n      Dai, Bo  and\n      Zhao, Tuo  and\n      Li, Lihong  and\n      Yang, Diyi  and\n      Chen, Yun-Nung  and\n      Boureau, Y-Lan  and\n      Celikyilmaz, Asli  and\n      Geramifard, Alborz  and\n      Ahuja, Aman  and\n      Jiang, Haoming\",\n    booktitle = \"The First Workshop on Evaluations and Assessments of Neural Conversation Systems\",\n    month = nov,\n    year = \"2021\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2021.eancs-1.3\",\n    environments = {text},\n    agents = {n/a},\n    evaluation = {human, model_based, rule_based},\n    other = {n/a}\n}",
+    authors: "Yeh et al.",
     subsection: "evaluation/language",
 },
         
@@ -2330,6 +2523,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://aclanthology.org/2020.sigdial-1.8",
     bibtex: "@inproceedings{chang-etal-2020-convokit,\n    title = \"{C}onvo{K}it: A Toolkit for the Analysis of Conversations\",\n    author = \"Chang, Jonathan P.  and\n      Chiam, Caleb  and\n      Fu, Liye  and\n      Wang, Andrew  and\n      Zhang, Justine  and\n      Danescu-Niculescu-Mizil, Cristian\",\n    editor = \"Pietquin, Olivier  and\n      Muresan, Smaranda  and\n      Chen, Vivian  and\n      Kennington, Casey  and\n      Vandyke, David  and\n      Dethlefs, Nina  and\n      Inoue, Koji  and\n      Ekstedt, Erik  and\n      Ultes, Stefan\",\n    booktitle = \"Proceedings of the 21th Annual Meeting of the Special Interest Group on Discourse and Dialogue\",\n    month = jul,\n    year = \"2020\",\n    address = \"1st virtual meeting\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2020.sigdial-1.8\",\n    doi = \"10.18653/v1/2020.sigdial-1.8\",\n    pages = \"57--60\",\n    environments = {text},\n    agents = {n/a},\n    evaluation = {human, model_based, rule_based},\n    other = {n/a}\n}",
+    authors: "Chang et al.",
     subsection: "evaluation/language",
 },
         
@@ -2342,6 +2536,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/2305.14757",
     bibtex: "@misc{giorgi2023psychological,\n      title={Psychological Metrics for Dialog System Evaluation}, \n      author={Salvatore Giorgi and Shreya Havaldar and Farhan Ahmed and Zuhaib Akhtar and Shalaka Vaidya and Gary Pan and Lyle H. Ungar and H. Andrew Schwartz and Joao Sedoc},\n      year={2023},\n      environments = {text},\n      agents = {two_agents},\n      evaluation = {human, rule_based},\n      other = {human_agent},\n      url = {https://arxiv.org/abs/2305.14757},\n      eprint={2305.14757},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}",
+    authors: "Giorgi et al.",
     subsection: "evaluation/language",
 },
         
@@ -2354,6 +2549,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/pdf/2305.07797",
     bibtex: "@misc{ghazarian2023accent,\n      title={ACCENT: An Automatic Event Commonsense Evaluation Metric for Open-Domain Dialogue Systems}, \n      author={Sarik Ghazarian and Yijia Shao and Rujun Han and Aram Galstyan and Nanyun Peng},\n      year={2023},\n      environments = {text},\n      agents = {n/a},\n      evaluation = {human, model_based},\n      other = {n/a},\n      url = {https://arxiv.org/pdf/2305.07797},\n      eprint={2305.07797},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}",
+    authors: "Ghazarian et al.",
     subsection: "evaluation/language",
 },
         
@@ -2366,6 +2562,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://aclanthology.org/2020.emnlp-main.742",
     bibtex: "@inproceedings{huang-etal-2020-grade,\n      title = \"{GRADE}: Automatic Graph-Enhanced Coherence Metric for Evaluating Open-Domain Dialogue Systems\",\n      author = \"Huang, Lishan  and\n            Ye, Zheng  and\n            Qin, Jinghui  and\n            Lin, Liang  and\n            Liang, Xiaodan\",\n      editor = \"Webber, Bonnie  and\n            Cohn, Trevor  and\n            He, Yulan  and\n            Liu, Yang\",\n      booktitle = \"Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)\",\n      month = nov,\n      year = \"2020\",\n      address = \"Online\",\n      publisher = \"Association for Computational Linguistics\",\n      url = \"https://aclanthology.org/2020.emnlp-main.742\",\n      doi = \"10.18653/v1/2020.emnlp-main.742\",\n      pages = \"9230--9240\",\n      abstract = \"Automatically evaluating dialogue coherence is a challenging but high-demand ability for developing high-quality open-domain dialogue systems. However, current evaluation metrics consider only surface features or utterance-level semantics, without explicitly considering the fine-grained topic transition dynamics of dialogue flows. Here, we first consider that the graph structure constituted with topics in a dialogue can accurately depict the underlying communication logic, which is a more natural way to produce persuasive metrics. Capitalized on the topic-level dialogue graph, we propose a new evaluation metric GRADE, which stands for Graph-enhanced Representations for Automatic Dialogue Evaluation. Specifically, GRADE incorporates both coarse-grained utterance-level contextualized representations and fine-grained topic-level graph representations to evaluate dialogue coherence. The graph representations are obtained by reasoning over topic-level dialogue graphs enhanced with the evidence from a commonsense graph, including k-hop neighboring representations and hop-attention weights. Experimental results show that our GRADE significantly outperforms other state-of-the-art metrics on measuring diverse dialogue models in terms of the Pearson and Spearman correlations with human judgments. Besides, we release a new large-scale human evaluation benchmark to facilitate future research on automatic metrics.\",\n      environments = {text},\n      agents = {n/a},\n      evaluation = {human, model_based},\n      other = {n/a}\n}",
+    authors: "Huang et al.",
     subsection: "evaluation/language",
 },
         
@@ -2378,6 +2575,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://aclanthology.org/2020.sigdial-1.28",
     bibtex: "@inproceedings{mehri-eskenazi-2020-unsupervised,\n      title = \"Unsupervised Evaluation of Interactive Dialog with {D}ialo{GPT}\",\n      author = \"Mehri, Shikib  and\n            Eskenazi, Maxine\",\n      editor = \"Pietquin, Olivier  and\n            Muresan, Smaranda  and\n            Chen, Vivian  and\n            Kennington, Casey  and\n            Vandyke, David  and\n            Dethlefs, Nina  and\n            Inoue, Koji  and\n            Ekstedt, Erik  and\n            Ultes, Stefan\",\n      booktitle = \"Proceedings of the 21th Annual Meeting of the Special Interest Group on Discourse and Dialogue\",\n      month = jul,\n      year = \"2020\",\n      address = \"1st virtual meeting\",\n      publisher = \"Association for Computational Linguistics\",\n      url = \"https://aclanthology.org/2020.sigdial-1.28\",\n      doi = \"10.18653/v1/2020.sigdial-1.28\",\n      pages = \"225--235\",\n      abstract = \"It is important to define meaningful and interpretable automatic evaluation metrics for open-domain dialog research. Standard language generation metrics have been shown to be ineffective for dialog. This paper introduces the FED metric (fine-grained evaluation of dialog), an automatic evaluation metric which uses DialoGPT, without any fine-tuning or supervision. It also introduces the FED dataset which is constructed by annotating a set of human-system and human-human conversations with eighteen fine-grained dialog qualities. The FED metric (1) does not rely on a ground-truth response, (2) does not require training data and (3) measures fine-grained dialog qualities at both the turn and whole dialog levels. FED attains moderate to strong correlation with human judgement at both levels.\",\n      environments = {text},\n      agents = {n/a},\n      evaluation = {human, model_based},\n      other = {n/a}\n}",
+    authors: "Mehri et al.",
     subsection: "evaluation/language",
 },
         
@@ -2390,6 +2588,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://aclanthology.org/2022.emnlp-main.635",
     bibtex: "@inproceedings{min-etal-2022-dont,\n    title = \"Don{'}t Copy the Teacher: Data and Model Challenges in Embodied Dialogue\",\n    author = \"Min, So Yeon  and\n      Zhu, Hao  and\n      Salakhutdinov, Ruslan  and\n      Bisk, Yonatan\",\n    editor = \"Goldberg, Yoav  and\n      Kozareva, Zornitsa  and\n      Zhang, Yue\",\n    booktitle = \"Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing\",\n    month = dec,\n    year = \"2022\",\n    address = \"Abu Dhabi, United Arab Emirates\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2022.emnlp-main.635\",\n    doi = \"10.18653/v1/2022.emnlp-main.635\",\n    pages = \"9361--9368\",\n    abstract = \"Embodied dialogue instruction following requires an agent to complete a complex sequence of tasks from a natural language exchange. The recent introduction of benchmarks raises the question of how best to train and evaluate models for this multi-turn, multi-agent, long-horizon task. This paper contributes to that conversation, by arguing that imitation learning (IL) and related low-level metrics are actually misleading and do not align with the goals of embodied dialogue research and may hinder progress. We provide empirical comparisons of metrics, analysis of three models, and make suggestions for how the field might best progress. First, we observe that models trained with IL take spurious actions during evaluation. Second, we find that existing models fail to ground query utterances, which are essential for task completion. Third, we argue evaluation should focus on higher-level semantic goals. We will release code to additionally filter the data and benchmark models for improved evaluation.\",\n  environments={mixed_objectives, collaboration, embodied},\n  agents={agents_with_memory},\n  evaluation={qualitative, human, rule_based},\n  other={n/a}\n}",
+    authors: "Min et al.",
     subsection: "evaluation/embodied",
 },
         
@@ -2402,6 +2601,7 @@ export const data: Paper[] = [
     other: "education",
     url: "https://arxiv.org/abs/2403.12482",
     bibtex: "@misc{guo2024embodied,\n      title={Embodied LLM Agents Learn to Cooperate in Organized Teams}, \n      author={Xudong Guo and Kaixuan Huang and Jiale Liu and Wenhui Fan and Natalia V\u00e9lez and Qingyun Wu and Huazheng Wang and Thomas L. Griffiths and Mengdi Wang},\n      year={2024},\n      month={3},\n      environments = {collaboration, embodied},\n      agents = {prompting_and_in_context_learning, more_than_three_agents},\n      evaluation = {model_based, human},\n      url={https://arxiv.org/abs/2403.12482},\n      other = {education},\n      eprint={2403.12482},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI}\n}",
+    authors: "Guo et al.",
     subsection: "evaluation/embodied",
 },
         
@@ -2414,6 +2614,7 @@ export const data: Paper[] = [
     other: "simulated_humans",
     url: "https://doi.org/10.1145/3476413",
     bibtex: "@article{10.1145/3476413,\nauthor = {Biswas, Abhijat and Wang, Allan and Silvera, Gustavo and Steinfeld, Aaron and Admoni, Henny},\ntitle = {SocNavBench: A Grounded Simulation Testing Framework for Evaluating Social Navigation},\nyear = {2022},\nmonth={2},\nurl = {https://doi.org/10.1145/3476413},\nabstract = {The human-robot interaction community has developed many methods for robots to navigate safely and socially alongside humans. However, experimental procedures to evaluate these works are usually constructed on a per-method basis. Such disparate evaluations make it difficult to compare the performance of such methods across the literature. To bridge this gap, we introduce SocNavBench, a simulation framework for evaluating social navigation algorithms. SocNavBench comprises a simulator with photo-realistic capabilities and curated social navigation scenarios grounded in real-world pedestrian data. We also provide an implementation of a suite of metrics to quantify the performance of navigation algorithms on these scenarios. Altogether, SocNavBench provides a test framework for evaluating disparate social navigation methods in a consistent and interpretable manner. To illustrate its use, we demonstrate testing three existing social navigation methods and a baseline method on SocNavBench, showing how the suite of metrics helps infer their performance trade-offs. Our code is open-source, allowing the addition of new scenarios and metrics by the community to help evolve SocNavBench to reflect advancements in our understanding of social navigation.},\njournal = {J. Hum.-Robot Interact.},\n      environments={implicit_objectives, embodied},\n      agents={reinforcement_learning},\n      evaluation={rule_based},\n      other={simulated_humans}\n}",
+    authors: "Biswas et al.",
     subsection: "evaluation/embodied",
 },
         
@@ -2426,6 +2627,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://dl.acm.org/doi/abs/10.5555/3463952.3464159",
     bibtex: "@inproceedings{10.5555/3463952.3464159,\nauthor = {Knott, Paul and Carroll, Micah and Devlin, Sam and Ciosek, Kamil and Hofmann, Katja and Dragan, Anca and Shah, Rohin},\ntitle = {Evaluating the Robustness of Collaborative Agents},\nyear = {2021},\nmonth={1},\nurl={https://dl.acm.org/doi/abs/10.5555/3463952.3464159},\nisbn = {9781450383073},\npublisher = {International Foundation for Autonomous Agents and Multiagent Systems},\naddress = {Richland, SC},\nabstract = {Artificial agents trained by deep reinforcement learning will likely encounter novel situations after deployment that were never seen during training. Our agent must be robust to handle such situations well. However, if we cannot rely on the average training or validation reward as a metric, then how can we effectively evaluate robustness? We take inspiration from the practice of unit testing in software engineering. Specifically, we suggest that when designing AI agents that collaborate with humans, designers should search for potential edge cases in possible partner behavior and possible states encountered, and write tests which check that the behavior of the agent in these edge cases is reasonable. We apply this methodology to build a suite of unit tests for the Overcooked-AI environment, and use this test suite to evaluate three proposals for improving robustness. We find that the test suite provides significant insight into the effects of these proposals that were generally not revealed by looking solely at the average validation reward. For our full paper, see https://arxiv.org/abs/2101.05507 arxiv.org/abs/2101.05507},\nbooktitle = {Proceedings of the 20th International Conference on Autonomous Agents and MultiAgent Systems},\npages = {1560\u20131562},\nnumpages = {3},\nkeywords = {human-AI collaboration, multi-agent RL, robustness},\nlocation = {Virtual Event, United Kingdom},\nseries = {AAMAS '21},\n      environments={collaboration, embodied},\n      agents={reinforcement_learning},\n      evaluation={rule_based},\n      other={n/a}\n}",
+    authors: "Knott et al.",
     subsection: "evaluation/embodied",
 },
         
@@ -2438,6 +2640,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2312.08463",
     bibtex: "@misc{singh2024change,\n      title={How much can change in a year? Revisiting Evaluation in Multi-Agent Reinforcement Learning}, \n      author={Siddarth Singh and Omayma Mahjoub and Ruan de Kock and Wiem Khlifi and Abidine Vall and Kale-ab Tessera and Arnu Pretorius},\n      year={2023},\n      eprint={2312.08463},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI},\n      environments = {collaboration, embodied},\n      agents = {reinforcement_learning, more_than_three_agents},\n      evaluation = {rule_based},\n      other = {n/a},\n      url = {https://arxiv.org/abs/2312.08463}\n}",
+    authors: "Singh et al.",
     subsection: "evaluation/embodied",
 },
         
@@ -2450,6 +2653,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://proceedings.mlr.press/v139/leibo21a.html",
     bibtex: "@inproceedings{leibo2021scalable,\n  title={Scalable evaluation of multi-agent reinforcement learning with melting pot},\n  author={Leibo, Joel Z and Due{\\~n}ez-Guzman, Edgar A and Vezhnevets, Alexander and Agapiou, John P and Sunehag, Peter and Koster, Raphael and Matyas, Jayd and Beattie, Charlie and Mordatch, Igor and Graepel, Thore},\n  booktitle={International conference on machine learning},\n  pages={6187--6199},\n  year={2021},\n  organization={PMLR},\n  environments = {collaboration, competition, mixed_objectives, embodied},\n  agents = {reinforcement_learning, more_than_three_agents},\n  evaluation = {rule_based},\n  other = {n/a},\n  month = {7},\n  url={https://proceedings.mlr.press/v139/leibo21a.html}\n}",
+    authors: "Leibo et al.",
     subsection: "evaluation/embodied",
 },
         
@@ -2462,6 +2666,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://aclanthology.org/2021.emnlp-main.85",
     bibtex: "@inproceedings{bara-etal-2021-mindcraft,\n    title = \"{M}ind{C}raft: Theory of Mind Modeling for Situated Dialogue in Collaborative Tasks\",\n    author = \"Bara, Cristian-Paul  and\n      CH-Wang, Sky  and\n      Chai, Joyce\",\n    booktitle = \"Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing\",\n    month = nov,\n    year = \"2021\",\n    address = \"Online and Punta Cana, Dominican Republic\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2021.emnlp-main.85\",\n    pages = \"1112--1125\",\n    abstract = \"An ideal integration of autonomous agents in a human world implies that they are able to collaborate on human terms. In particular, theory of mind plays an important role in maintaining common ground during human collaboration and communication. To enable theory of mind modeling in situated interactions, we introduce a fine-grained dataset of collaborative tasks performed by pairs of human subjects in the 3D virtual blocks world of Minecraft. It provides information that captures partners{'} beliefs of the world and of each other as an interaction unfolds, bringing abundant opportunities to study human collaborative behaviors in situated language communication. As a first step towards our goal of developing embodied AI agents able to infer belief states of collaborative partners in situ, we build and present results on computational models for several theory of mind tasks.\",\n    environments = {collaboration, embodied},\n    agents = {finetuning, two_agents},\n    evaluation = {human, rule_based},\n    other = {human_agent}\n}",
+    authors: "Bara et al.",
     subsection: "evaluation/embodied",
 },
         
@@ -2474,6 +2679,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://aclanthology.org/P19-1537",
     bibtex: "@inproceedings{narayan-chen-etal-2019-collaborative,\n    title = \"Collaborative Dialogue in {M}inecraft\",\n    author = \"Narayan-Chen, Anjali  and\n      Jayannavar, Prashant  and\n      Hockenmaier, Julia\",\n    editor = \"Korhonen, Anna  and\n      Traum, David  and\n      M{\\`a}rquez, Llu{\\'\\i}s\",\n    booktitle = \"Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics\",\n    month = jul,\n    year = \"2019\",\n    address = \"Florence, Italy\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/P19-1537\",\n    doi = \"10.18653/v1/P19-1537\",\n    pages = \"5405--5415\",\n    abstract = \"We wish to develop interactive agents that can communicate with humans to collaboratively solve tasks in grounded scenarios. Since computer games allow us to simulate such tasks without the need for physical robots, we define a Minecraft-based collaborative building task in which one player (A, the Architect) is shown a target structure and needs to instruct the other player (B, the Builder) to build this structure. Both players interact via a chat interface. A can observe B but cannot place blocks. We present the Minecraft Dialogue Corpus, a collection of 509 conversations and game logs. As a first step towards our goal of developing fully interactive agents for this task, we consider the subtask of Architect utterance generation, and show how challenging it is.\",\n    environments = {collaboration, embodied},\n    agents = {two_agents},\n    evaluation = {human, rule_based},\n    other = {human_agent}\n}",
+    authors: "Narayan-Chen et al.",
     subsection: "evaluation/embodied",
 },
         
@@ -2486,6 +2692,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://aclanthology.org/2022.lrec-1.431",
     bibtex: "@inproceedings{ichikawa-higashinaka-2022-analysis,\n    title = \"Analysis of Dialogue in Human-Human Collaboration in {M}inecraft\",\n    author = \"Ichikawa, Takuma  and\n      Higashinaka, Ryuichiro\",\n    editor = \"Calzolari, Nicoletta  and\n      B{\\'e}chet, Fr{\\'e}d{\\'e}ric  and\n      Blache, Philippe  and\n      Choukri, Khalid  and\n      Cieri, Christopher  and\n      Declerck, Thierry  and\n      Goggi, Sara  and\n      Isahara, Hitoshi  and\n      Maegaard, Bente  and\n      Mariani, Joseph  and\n      Mazo, H{\\'e}l{\\`e}ne  and\n      Odijk, Jan  and\n      Piperidis, Stelios\",\n    booktitle = \"Proceedings of the Thirteenth Language Resources and Evaluation Conference\",\n    month = jun,\n    year = \"2022\",\n    address = \"Marseille, France\",\n    publisher = \"European Language Resources Association\",\n    url = \"https://aclanthology.org/2022.lrec-1.431\",\n    pages = \"4051--4059\",\n    abstract = \"Recently, many studies have focused on developing dialogue systems that enable collaborative work; however, they rarely focus on creative tasks. Collaboration for creative work, in which humans and systems collaborate to create new value, will be essential for future dialogue systems. In this study, we collected 500 dialogues of human-human collaboration in Minecraft as a basis for developing a dialogue system that enables creative collaborative work. We conceived the Collaborative Garden Task, where two workers interact and collaborate in Minecraft to create a garden, and we collected dialogue, action logs, and subjective evaluations. We also collected third-person evaluations of the gardens and analyzed the relationship between dialogue and collaborative work that received high scores on the subjective and third-person evaluations in order to identify dialogic factors for high-quality collaborative work. We found that two essential aspects in creative collaborative work are performing more processes to ask for and agree on suggestions between workers and agreeing on a particular image of the final product in the early phase of work and then discussing changes and details.\",\n    environments = {collaboration, embodied},\n    agents = {two_agents},\n    evaluation = {human, rule_based},\n    other = {human_agent}\n}",
+    authors: "Ichikawa et al.",
     subsection: "evaluation/embodied",
 },
         
@@ -2498,6 +2705,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500460.pdf",
     bibtex: "@InProceedings{CordialSync,\n  author = {Jain, Unnat and Weihs, Luca and Kolve, Eric and Farhadi, Ali and Lazebnik, Svetlana and Kembhavi, Aniruddha and Schwing, Alexander G.},\n  title = {A Cordial Sync: Going Beyond Marginal Policies For Multi-Agent Embodied Tasks},\n  booktitle = {ECCV},\n  year = {2020},\n  month={11},\n  note = {first two authors contributed equally},\n  environments = {collaboration, embodied},\n  agents = {finetuning, reinforcement_learning, two_agents},\n  evaluation = {rule_based},\n  other = {n/a},\n  url = {https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123500460.pdf},\n}",
+    authors: "Jain et al.",
     subsection: "evaluation/embodied",
 },
         
@@ -2510,6 +2718,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://openaccess.thecvf.com/content_CVPR_2019/papers/Jain_Two_Body_Problem_Collaborative_Visual_Task_Completion_CVPR_2019_paper.pdf",
     bibtex: "@InProceedings{TwoBody,\n  author = {Jain, Unnat and Weihs, Luca and Kolve, Eric and Rastegari, Mohammad and Lazebnik, Svetlana and Farhadi, Ali and Schwing, Alexander G. and Kembhavi, Aniruddha},\n  title = {Two Body Problem: Collaborative Visual Task Completion},\n  booktitle = {CVPR},\n  year = {2019},\n  month = {6},\n  note = {first two authors contributed equally},\n  environments = {collaboration, embodied},\n  agents = {finetuning, reinforcement_learning, two_agents},\n  evaluation = {rule_based},\n  other = {n/a},\n  url = {https://openaccess.thecvf.com/content_CVPR_2019/papers/Jain_Two_Body_Problem_Collaborative_Visual_Task_Completion_CVPR_2019_paper.pdf},\n}",
+    authors: "Jain et al.",
     subsection: "evaluation/embodied",
 },
         
@@ -2522,6 +2731,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/2110.00534",
     bibtex: "@inproceedings{teach,\n  title={{TEACh: Task-driven Embodied Agents that Chat}},\n  author={Padmakumar, Aishwarya and Thomason, Jesse and Shrivastava, Ayush and Lange, Patrick and Narayan-Chen, Anjali and Gella, Spandana and Piramuthu, Robinson and Tur, Gokhan and Hakkani-Tur, Dilek},\n  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},\n  volume={36},\n  number={2},\n  pages={2017--2025},\n  year={2022},\n  month={2},\n  environments = {collaboration, embodied},\n  agents = {finetuning, two_agents},\n  evaluation = {rule_based},\n  other = {human_agent},\n  url = {https://arxiv.org/abs/2110.00534}\n}",
+    authors: "Padmakumar et al.",
     subsection: "evaluation/embodied",
 },
         
@@ -2534,6 +2744,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://aclanthology.org/2022.sigdial-1.13",
     bibtex: "@inproceedings{teachda,\n  title={{Dialog Acts for Task-Driven Embodied Agents}},\n  author={Gella, Spandana and Padmakumar, Aishwarya and Lange, Patrick and Hakkani-Tur, Dilek},\n  booktitle={Proceedings of the 23nd Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDial)},\n  year={2022},\n  pages={111-123},\n  month={9},\n  environments = {collaboration, embodied},\n  agents = {finetuning, two_agents},\n  evaluation = {rule_based},\n  other = {human_agent},\n  url = {https://aclanthology.org/2022.sigdial-1.13},\n}",
+    authors: "Gella et al.",
     subsection: "evaluation/embodied",
 },
         
@@ -2546,6 +2757,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://dl.acm.org/doi/pdf/10.1145/2851581.2892305",
     bibtex: "@inproceedings{kim2016evaluation,\n  title={Evaluation of starcraft artificial intelligence competition bots by experienced human players},\n  author={Kim, Man-Je and Kim, Kyung-Joong and Kim, SeungJun and Dey, Anind K},\n  booktitle={Proceedings of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems},\n  pages={1915--1921},\n  year={2016},\n  month={5},\n  environments = {collaboration, competition, mixed_objectives, embodied},\n  agents = {more_than_three_agents},\n  evaluation = {human, rule_based},\n  other = {human_agent},\n  url = {https://dl.acm.org/doi/pdf/10.1145/2851581.2892305},\n}",
+    authors: "Kim et al.",
     subsection: "evaluation/embodied",
 },
         
@@ -2558,6 +2770,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://dl.acm.org/doi/abs/10.1145/3514197.3549612",
     bibtex: "@inproceedings{fitrianie2022artificial,\n  title={The Artificial-Social-Agent Questionnaire: Establishing the long and short questionnaire versions},\n  author={Fitrianie, Siska and Bruijnes, Merijn and Li, Fengxiang and Abdulrahman, Amal and Brinkman, Willem-Paul},\n  booktitle={Proceedings of the 22nd ACM International Conference on Intelligent Virtual Agents},\n  pages={1--8},\n  year={2022},\n  month={1},\n  url={https://dl.acm.org/doi/abs/10.1145/3514197.3549612},\n  environments = {text, virtual, embodied, robotics},\n  agents = {two_agents},\n  evaluation = {qualitative, human},\n  other = {n/a},\n}",
+    authors: "Fitrianie et al.",
     subsection: "evaluation/virtual",
 },
         
@@ -2570,6 +2783,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://dl.acm.org/doi/10.1145/3383652.3423873",
     bibtex: "@inproceedings{fitrianie202019,\n  title={The 19 unifying questionnaire constructs of artificial social agents: An iva community analysis},\n  author={Fitrianie, Siska and Bruijnes, Merijn and Richards, Deborah and B{\\\"o}nsch, Andrea and Brinkman, Willem-Paul},\n  booktitle={Proceedings of the 20th ACM International Conference on Intelligent Virtual Agents},\n  pages={1--8},\n  year={2020},\n  month={1},\n  url={https://dl.acm.org/doi/10.1145/3383652.3423873},\n  environments = {text, virtual, embodied, robotics},\n  agents = {two_agents},\n  evaluation = {qualitative, human},\n  other = {n/a},\n}",
+    authors: "Fitrianie et al.",
     subsection: "evaluation/virtual",
 },
         
@@ -2582,6 +2796,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://dl.acm.org/doi/10.1145/3477322.3477334",
     bibtex: "@incollection{paiva2021empathy,\n  title={Empathy and prosociality in social agents},\n  author={Paiva, Ana and Correia, Filipa and Oliveira, Raquel and Santos, Fernando and Arriaga, Patr{\\'\\i}cia},\n  booktitle={The Handbook on Socially Interactive Agents: 20 Years of Research on Embodied Conversational Agents, Intelligent Virtual Agents, and Social Robotics Volume 1: Methods, Behavior, Cognition},\n  pages={385--432},\n  year={2021},\n  month={1},\n  url={https://dl.acm.org/doi/10.1145/3477322.3477334},\n  environments = {text, virtual, embodied, robotics},\n  agents = {two_agents},\n  evaluation = {qualitative, human},\n  other = {n/a},\n}",
+    authors: "Paiva et al.",
     subsection: "evaluation/virtual",
 },
         
@@ -2594,6 +2809,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/2402.05930",
     bibtex: "@Article{L\u00f92024WebLINXRW,\n author = {Xing Han L\u00f9 and Zden\u011bk Kasner and Siva Reddy},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {WebLINX: Real-World Website Navigation with Multi-Turn Dialogue},\n volume = {abs/2402.05930},\n year = {2024},\n month = {2},\n url = {https://arxiv.org/abs/2402.05930},\n environments={virtual},\n agents={prompting_and_in_context_learning, finetuning},\n evaluation={rule_based},\n other={human_agent}\n}",
+    authors: "Lù et al.",
     subsection: "evaluation/virtual",
 },
         
@@ -2606,6 +2822,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://api.semanticscholar.org/CorpusID:264172893",
     bibtex: "@article{Xie2023OpenAgentsAO,\n  title={OpenAgents: An Open Platform for Language Agents in the Wild},\n  author={Tianbao Xie and Fan Zhou and Zhoujun Cheng and Peng Shi and Luoxuan Weng and Yitao Liu and Toh Jing Hua and Junning Zhao and Qian Liu and Che Liu and Leo Z. Liu and Yiheng Xu and Hongjin Su and Dongchan Shin and Caiming Xiong and Tao Yu},\n  journal={ArXiv},\n  year={2023},\n  volume={abs/2310.10634},\n  url={https://api.semanticscholar.org/CorpusID:264172893},\n  environments = {virtual, collaboration},\n  agents = {n/a},\n  evaluation = {qualitative},\n  month={10},\n  other = {n/a},\n}",
+    authors: "Xie et al.",
     subsection: "evaluation/virtual",
 },
         
@@ -2618,6 +2835,7 @@ export const data: Paper[] = [
     other: "fully_omniscient",
     url: "https://arxiv.org/abs/2311.12983",
     bibtex: "@misc{mialon2023gaia,\n      title={GAIA: a benchmark for General AI Assistants}, \n      author={Gr\u00e9goire Mialon and Cl\u00e9mentine Fourrier and Craig Swift and Thomas Wolf and Yann LeCun and Thomas Scialom},\n      year={2023},\n      month={11},\n      eprint={2311.12983},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      environments = {virtual, collaboration},\n      agents = {n/a},\n      evaluation = {rule_based},\n      other = {fully_omniscient},\n      url = {https://arxiv.org/abs/2311.12983}\n}",
+    authors: "Mialon et al.",
     subsection: "evaluation/virtual",
 },
         
@@ -2630,6 +2848,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://api.semanticscholar.org/CorpusID:261556862",
     bibtex: "@article{Sumers2023CognitiveAF,\n  title={Cognitive Architectures for Language Agents},\n  author={Theodore R. Sumers and Shunyu Yao and Karthik Narasimhan and Thomas L. Griffiths},\n  journal={ArXiv},\n  year={2023},\n  volume={abs/2309.02427},\n  url={https://api.semanticscholar.org/CorpusID:261556862},\n  environments = {n/a},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {n/a},\n  month={9}\n}",
+    authors: "Sumers et al.",
     subsection: "evaluation/virtual",
 },
         
@@ -2642,6 +2861,7 @@ export const data: Paper[] = [
     other: "more_omniscient",
     url: "https://api.semanticscholar.org/CorpusID:265301950",
     bibtex: "@inproceedings{Hong2023MetaGPTMP,\n  title={MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework},\n  author={Sirui Hong and Mingchen Zhuge and Jonathan Chen and Xiawu Zheng and Yuheng Cheng and Ceyao Zhang and Jinlin Wang and Zili Wang and Steven Ka Shing Yau and Zi Hen Lin and Liyang Zhou and Chenyu Ran and Lingfeng Xiao and Chenglin Wu and J{\\\"u}rgen Schmidhuber},\n  year={2023},\n  url={https://api.semanticscholar.org/CorpusID:265301950},\n  environments = {virtual, collaboration},\n  agents = {prompting_and_in_context_learning},\n  evaluation = {rule_based},\n  other = {more_omniscient},\n  month={11},\n  journal={ArXiv},\n}",
+    authors: "Hong et al.",
     subsection: "evaluation/virtual",
 },
         
@@ -2654,6 +2874,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://doi.org/10.1145/3290605.3300511",
     bibtex: "@inproceedings{10.1145/3290605.3300511,\nauthor = {Wang, Isaac and Smith, Jesse and Ruiz, Jaime},\ntitle = {Exploring Virtual Agents for Augmented Reality},\nyear = {2019},\nisbn = {9781450359702},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/3290605.3300511},\ndoi = {10.1145/3290605.3300511},\nbooktitle = {CHI},\npages = {1\u201312},\nnumpages = {12},\nkeywords = {embodied conversational agents, augmented reality},\nlocation = {Glasgow, Scotland Uk},\nmonth = {5},\nenvironments = {virtual, collaboration},\nagents = {n/a},\nevaluation = {human, rule_based},\nother = {human_agent},\n}",
+    authors: "Wang et al.",
     subsection: "evaluation/virtual",
 },
         
@@ -2666,6 +2887,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://doi.org/10.1145/3374920.3374956",
     bibtex: "@inproceedings{10.1145/3374920.3374956,\nauthor = {Reinhardt, Jens and Hillen, Luca and Wolf, Katrin},\ntitle = {Embedding Conversational Agents into AR: Invisible or with a Realistic Human Body?},\nyear = {2020},\nisbn = {9781450361071},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/3374920.3374956},\ndoi = {10.1145/3374920.3374956},\nbooktitle = {Proceedings of the Fourteenth International Conference on Tangible, Embedded, and Embodied Interaction},\npages = {299\u2013310},\nnumpages = {12},\nkeywords = {intelligent virtual assistants, embodied conversational agents, avatars, augmented reality},\nlocation = {Sydney NSW, Australia},\nseries = {TEI '20},\nenvironments = {virtual, collaboration},\nagents = {two_agents},\nevaluation = {human},\nother = {human_agent},\nmonth           = {2},\n}",
+    authors: "Reinhardt et al.",
     subsection: "evaluation/virtual",
 },
         
@@ -2678,6 +2900,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://aclanthology.org/P18-1208/",
     bibtex: "@inproceedings{zadeh2018multimodal,\n  title={Multimodal language analysis in the wild: Cmu-mosei dataset and interpretable dynamic fusion graph},\n  author={Zadeh, AmirAli Bagher and Liang, Paul Pu and Poria, Soujanya and Cambria, Erik and Morency, Louis-Philippe},\n  booktitle={Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},\n  pages={2236--2246},\n  year={2018},\n  month={7},\n  url={https://aclanthology.org/P18-1208/},\n  environments = {text, virtual},\n  agents = {two_agents},\n  evaluation = {qualitative, human},\n  other = {n/a},\n}",
+    authors: "Zadeh et al.",
     subsection: "evaluation/virtual",
 },
         
@@ -2690,6 +2913,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://openaccess.thecvf.com/content_CVPR_2019/html/Zadeh_Social-IQ_A_Question_Answering_Benchmark_for_Artificial_Social_Intelligence_CVPR_2019_paper.html",
     bibtex: "@inproceedings{zadeh2019social,\n  title={Social-iq: A question answering benchmark for artificial social intelligence},\n  author={Zadeh, Amir and Chan, Michael and Liang, Paul Pu and Tong, Edmund and Morency, Louis-Philippe},\n  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n  pages={8807--8817},\n  year={2019},\n  month={6},\n  url={https://openaccess.thecvf.com/content_CVPR_2019/html/Zadeh_Social-IQ_A_Question_Answering_Benchmark_for_Artificial_Social_Intelligence_CVPR_2019_paper.html},\n  environments = {text, virtual},\n  agents = {more_than_three_agents},\n  evaluation = {qualitative, human},\n  other = {n/a},\n}",
+    authors: "Zadeh et al.",
     subsection: "evaluation/virtual",
 },
         
@@ -2702,6 +2926,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/2404.09911",
     bibtex: "@misc{chen2024chatshop,\n      title={ChatShop: Interactive Information Seeking with Language Agents}, \n      author={Sanxing Chen and Sam Wiseman and Bhuwan Dhingra},\n      year={2024},\n      eprint={2404.09911},\n      archivePrefix={arXiv},\n      url          = {https://arxiv.org/abs/2404.09911},\n      environments = {virtual},\n      agents = {prompting_and_in_context_learning},\n      evaluation = {rule_based},\n      other = {human_agent},\n      primaryClass={cs.CL}\n}",
+    authors: "Chen et al.",
     subsection: "evaluation/virtual",
 },
         
@@ -2714,6 +2939,7 @@ export const data: Paper[] = [
     other: "human_agent, simulated_humans",
     url: "https://arxiv.org/abs/2403.10506",
     bibtex: "@misc{sferrazza2024humanoidbench,\n    title={HumanoidBench: Simulated Humanoid Benchmark for Whole-Body Locomotion and Manipulation}, \n    author={Carmelo Sferrazza and Dun-Ming Huang and Xingyu Lin and Youngwoon Lee and Pieter Abbeel},\n    year={2024},\n    month={3},\n    url={https://arxiv.org/abs/2403.10506},\n    eprint={2403.10506},\n    archivePrefix={arXiv},\n    primaryClass={cs.RO},\n    environments = {collaboration, mixed_objectives, robotics},\n    agents = {reinforcement_learning},\n    evaluation = {human, model_based},\n    other = {human_agent, simulated_humans}\n}",
+    authors: "Sferrazza et al.",
     subsection: "evaluation/robotics",
 },
         
@@ -2726,6 +2952,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://ieeexplore.ieee.org/document/1174284",
     bibtex: "@INPROCEEDINGS{1174284,\n    author={Scholtz, J.},\n    booktitle={36th Annual Hawaii International Conference on System Sciences, 2003. Proceedings of the}, \n    title={Theory and evaluation of human robot interactions}, \n    year={2003},\n    month={1},\n    url={https://ieeexplore.ieee.org/document/1174284},\n    volume={},\n    number={},\n    pages={10 pp.-},\n    keywords={Human robot interaction;Robot sensing systems;Mobile robots;Software architecture;NIST;Feeds;User interfaces;Computer architecture;Human computer interaction;Man machine systems},\n    doi={10.1109/HICSS.2003.1174284},\n    environments = {collaboration, mixed_objectives, robotics},\n    agents = {reinforcement_learning},\n    evaluation = {human},\n    other = {human_agent}\n  \n}",
+    authors: "Scholtz et al.",
     subsection: "evaluation/robotics",
 },
         
@@ -2738,6 +2965,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://doi.org/10.1145/1121241.1121249",
     bibtex: "@inproceedings{10.1145/1121241.1121249,\n    author = {Steinfeld, Aaron and Fong, Terrence and Kaber, David and Lewis, Michael and Scholtz, Jean and Schultz, Alan and Goodrich, Michael},\n    title = {Common metrics for human-robot interaction},\n    year = {2006},\n    month = {3},\n    isbn = {1595932941},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    url = {https://doi.org/10.1145/1121241.1121249},\n    doi = {10.1145/1121241.1121249},\n    abstract = {This paper describes an effort to identify common metrics for task-oriented human-robot interaction (HRI). We begin by discussing the need for a toolkit of HRI metrics. We then describe the framework of our work and identify important biasing factors that must be taken into consideration. Finally, we present suggested common metrics for standardization and a case study. Preparation of a larger, more detailed toolkit is in progress.},\n    booktitle = {Proceedings of the 1st ACM SIGCHI/SIGART Conference on Human-Robot Interaction},\n    pages = {33\u201340},\n    numpages = {8},\n    keywords = {unmanned ground vehicles, metrics, human-robot interaction},\n    location = {Salt Lake City, Utah, USA},\n    series = {HRI '06},\n    environments = {collaboration, mixed_objectives, robotics},\n    agents = {reinforcement_learning},\n    evaluation = {human, rule_based, model_based},\n    other = {human_agent}\n}",
+    authors: "Steinfeld et al.",
     subsection: "evaluation/robotics",
 },
         
@@ -2750,6 +2978,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://www.sciencedirect.com/science/article/pii/S0925753520300643",
     bibtex: "@article{zacharaki2020safety,\n    title={Safety bounds in human robot interaction: A survey},\n    author={Zacharaki, Angeliki and Kostavelis, Ioannis and Gasteratos, Antonios and Dokas, Ioannis},\n    journal={Safety science},\n    volume={127},\n    pages={104667},\n    year={2020},\n    month = {7},\n    publisher={Elsevier},\n    url = {https://www.sciencedirect.com/science/article/pii/S0925753520300643},\n    environments = {collaboration, mixed_objectives, robotics},\n    agents = {reinforcement_learning},\n    evaluation = {human, rule_based},\n    other = {human_agent}\n}",
+    authors: "Zacharaki et al.",
     subsection: "evaluation/robotics",
 },
         
@@ -2762,6 +2991,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://journals.sagepub.com/doi/10.1177/0018720811417254",
     bibtex: "@article{hancock2011meta,\n    title={A meta-analysis of factors affecting trust in human-robot interaction},\n    author={Hancock, Peter A and Billings, Deborah R and Schaefer, Kristin E and Chen, Jessie YC and De Visser, Ewart J and Parasuraman, Raja},\n    journal={Human factors},\n    volume={53},\n    number={5},\n    pages={517--527},\n    year={2011},\n    month={10},\n    url={https://journals.sagepub.com/doi/10.1177/0018720811417254},\n    publisher={Sage Publications Sage CA: Los Angeles, CA},\n    environments = {collaboration, mixed_objectives, robotics},\n    agents = {reinforcement_learning},\n    evaluation = {human, rule_based},\n    other = {human_agent}\n}",
+    authors: "Hancock et al.",
     subsection: "evaluation/robotics",
 },
         
@@ -2774,6 +3004,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://link.springer.com/article/10.1007/s12369-008-0001-3",
     bibtex: "@article{bartneck2009measurement,\n    title={Measurement instruments for the anthropomorphism, animacy, likeability, perceived intelligence, and perceived safety of robots},\n    author={Bartneck, Christoph and Kuli{\\'c}, Dana and Croft, Elizabeth and Zoghbi, Susana},\n    journal={International journal of social robotics},\n    volume={1},\n    pages={71--81},\n    year={2009},\n    month={11},\n    publisher={Springer},\n    url={https://link.springer.com/article/10.1007/s12369-008-0001-3},\n    environments = {collaboration, mixed_objectives, robotics},\n    agents = {reinforcement_learning},\n    evaluation = {human, rule_based},\n    other = {human_agent}\n}",
+    authors: "Bartneck et al.",
     subsection: "evaluation/robotics",
 },
         
@@ -2786,6 +3017,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://www.sciencedirect.com/science/article/pii/S0004370215001174",
     bibtex: "@article{iocchi2015robocup,\n    title={RoboCup@ Home: Analysis and results of evolving competitions for domestic and service robots},\n    author={Iocchi, Luca and Holz, Dirk and Ruiz-del-Solar, Javier and Sugiura, Komei and Van Der Zant, Tijn},\n    journal={Artificial Intelligence},\n    volume={229},\n    pages={258--281},\n    year={2015},\n    month={12},\n    url={https://www.sciencedirect.com/science/article/pii/S0004370215001174},\n    publisher={Elsevier},\n    environments = {collaboration, mixed_objectives, robotics},\n    agents = {reinforcement_learning},\n    evaluation = {human, rule_based},\n    other = {human_agent}\n}",
+    authors: "Iocchi et al.",
     subsection: "evaluation/robotics",
 },
         
@@ -2798,6 +3030,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://doi.org/10.1080/01691864.2019.1698462",
     bibtex: "@article{doi:10.1080/01691864.2019.1698462,\n    author = {Y. Mizuchi and T. Inamura},\n    title = {Optimization of criterion for objective evaluation of HRI performance that approximates subjective evaluation: a case study in robot competition},\n    journal = {Advanced Robotics},\n    volume = {34},\n    number = {3-4},\n    pages = {142--156},\n    year = {2020},\n    month = {12},\n    publisher = {Taylor \\& Francis},\n    doi = {10.1080/01691864.2019.1698462},\n    url = {https://doi.org/10.1080/01691864.2019.1698462},\n    environments = {competition, mixed_objectives, robotics},\n    agents = {reinforcement_learning},\n    evaluation = {human, rule_based},\n    other = {human_agent}\n}",
+    authors: "Mizuchi et al.",
     subsection: "evaluation/robotics",
 },
         
@@ -2810,6 +3043,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/2305.20076",
     bibtex: "@article{lin2023decision,\n  title={Decision-oriented dialogue for human-ai collaboration},\n  author={Lin, Jessy and Tomlin, Nicholas and Andreas, Jacob and Eisner, Jason},\n  journal={arXiv preprint arXiv:2305.20076},\n  year={2023},\n  month={5},\n  url={https://arxiv.org/abs/2305.20076},\n  environments={collaboration, text},\n  agents={two_agents},\n  evaluation={rule_based},\n  other={human_agent}\n}",
+    authors: "Lin et al.",
     subsection: "interactions/text",
 },
         
@@ -2822,6 +3056,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://dl.acm.org/doi/pdf/10.1145/3544548.3580995",
     bibtex: "@inproceedings{rapp2023collaborating,\n  title={Collaborating with a Text-Based Chatbot: An Exploration of Real-World Collaboration Strategies Enacted during Human-Chatbot Interactions},\n  author={Rapp, Amon and Boldi, Arianna and Curti, Lorenzo and Perrucci, Alessandro and Simeoni, Rossana},\n  booktitle={Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems},\n  pages={1--17},\n  month={4},\n  year={2023},\n  url={https://dl.acm.org/doi/pdf/10.1145/3544548.3580995},\n  environments = {text},\n  agents = {prompting_and_in_context_learning},\n  evaluation = {qualitative},\n  other = {human_agent}\n}",
+    authors: "Rapp et al.",
     subsection: "interactions/text",
 },
         
@@ -2834,6 +3069,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://dl.acm.org/doi/pdf/10.1145/3640543.3645213",
     bibtex: "@inproceedings{pillis2024ai,\n  title={AI Comes Out of the Closet: Using AI-Generated Virtual Characters to Help Individuals Practice LGBTQIA+ Advocacy},\n  author={Pillis, Daniel and Pataranutaporn, Pat and Maes, Pattie and Sra, Misha},\n  booktitle={Proceedings of the 29th International Conference on Intelligent User Interfaces},\n  pages={686--698},\n  month={3},\n  year={2024},\n  url={https://dl.acm.org/doi/pdf/10.1145/3640543.3645213},\n  environments = {text},\n  agents = {prompting_and_in_context_learning},\n  evaluation = {qualitative},\n  other = {human_agent}\n}",
+    authors: "Pillis et al.",
     subsection: "interactions/text",
 },
         
@@ -2846,6 +3082,7 @@ export const data: Paper[] = [
     other: "human_agent, health",
     url: "https://dl.acm.org/doi/pdf/10.1145/3544548.3581384",
     bibtex: "@inproceedings{lee2023exploring,\n  title={Exploring effects of chatbot-based social contact on reducing mental illness stigma},\n  author={Lee, Yi-Chieh and Cui, Yichao and Jamieson, Jack and Fu, Wayne and Yamashita, Naomi},\n  booktitle={Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems},\n  url={https://dl.acm.org/doi/pdf/10.1145/3544548.3581384},\n  pages={1--16},\n  month={4},\n  year={2023},\n  environments = {text},\n  agents = {prompting_and_in_context_learning},\n  evaluation = {qualitative, human},\n  other = {human_agent, health}\n}",
+    authors: "Lee et al.",
     subsection: "interactions/text",
 },
         
@@ -2858,6 +3095,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/pdf/2403.03297.pdf",
     bibtex: "@inproceedings{jang2024s,\n  title={\" It's the only thing I can trust\": Envisioning Large Language Model Use by Autistic Workers for Communication Assistance},\n  author={Jang, JiWoong and Moharana, Sanika and Carrington, Patrick and Begel, Andrew},\n  journal={arXiv preprint arXiv:2403.03297},\n  booktitle={Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems},\n  month={3},\n  year={2024},\n  url={https://arxiv.org/pdf/2403.03297.pdf},\n  environments = {text},\n  agents = {prompting_and_in_context_learning},\n  evaluation = {qualitative, human},\n  other = {human_agent}\n}",
+    authors: "Jang et al.",
     subsection: "interactions/text",
 },
         
@@ -2870,6 +3108,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://dl.acm.org/doi/pdf/10.1145/3491102.3502058",
     bibtex: "@inproceedings{volkel2022user,\n  title={User perceptions of extraversion in chatbots after repeated use},\n  author={V{\\\"o}lkel, Sarah Theres and Schoedel, Ramona and Kaya, Lale and Mayer, Sven},\n  booktitle={Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems},\n  pages={1--18},\n  month={4},\n  year={2022},\n  url={https://dl.acm.org/doi/pdf/10.1145/3491102.3502058},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {human},\n  other = {human_agent}\n}",
+    authors: "V{\"o}lkel et al.",
     subsection: "interactions/text",
 },
         
@@ -2882,6 +3121,7 @@ export const data: Paper[] = [
     other: "human_agent, education",
     url: "https://www.mdpi.com/2227-9709/9/4/81",
     bibtex: "@inproceedings{kuhail2022interacting,\n  title={Interacting with a chatbot-based advising system: Understanding the effect of chatbot personality and user gender on behavior},\n  author={Kuhail, Mohammad Amin and Thomas, Justin and Alramlawi, Salwa and Shah, Syed Jawad Hussain and Thornquist, Erik},\n  booktitle={Informatics},\n  volume={9},\n  number={4},\n  pages={81},\n  month={9},\n  year={2022},\n  organization={MDPI},\n  url={https://www.mdpi.com/2227-9709/9/4/81},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {qualitative, human},\n  other = {human_agent, education}\n}",
+    authors: "Kuhail et al.",
     subsection: "interactions/text",
 },
         
@@ -2894,6 +3134,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/pdf/2308.10385.pdf",
     bibtex: "@inproceedings{kim2023effects,\n  title={The Effects of Engaging and Affective Behaviors of Virtual Agents in Group Decision-Making},\n  author={Kim, Hanseob and Han, Bin and Kim, Jieun and Syawaludin, Muhammad Firdaus and Kim, Gerard Jounghyun and Hwang, Jae-In},\n  booktitle={Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems},\n  month={5},\n  year={2023},\n  url={https://arxiv.org/pdf/2308.10385.pdf},\n  environments = {embodied},\n  agents = {n/a},\n  evaluation = {human},\n  other = {human_agent}\n}",
+    authors: "Kim et al.",
     subsection: "interactions/text",
 },
         
@@ -2906,6 +3147,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://dl.acm.org/doi/pdf/10.1145/3640543.3645198",
     bibtex: "@inproceedings{qian2024take,\n  title={Take It, Leave It, or Fix It: Measuring Productivity and Trust in Human-AI Collaboration},\n  author={Qian, Crystal and Wexler, James},\n  booktitle={Proceedings of the 29th International Conference on Intelligent User Interfaces},\n  pages={370--384},\n  month={3},\n  year={2024},\n  url={https://dl.acm.org/doi/pdf/10.1145/3640543.3645198},\n  environments = {text},\n  agents = {prompting_and_in_context_learning},\n  evaluation = {human, qualitative},\n  other = {human_agent}\n}",
+    authors: "Qian et al.",
     subsection: "interactions/text",
 },
         
@@ -2918,6 +3160,7 @@ export const data: Paper[] = [
     other: "health",
     url: "https://doi.org/10.1080/10447318.2022.2150745",
     bibtex: "@article{ali2023social,\n  author = {Fayaz Ali, Qingyu Zhang, Muhammad Zubair Tauni and Khuram Shahzad},\n  title = {Social Chatbot: My Friend in My Distress},\n  journal = {International Journal of Human\u2013Computer Interaction},\n  volume = {40},\n  number = {7},\n  pages = {1702--1712},\n  year = {2023},\n  month = {1},\n  publisher = {Taylor \\& Francis},\n  doi = {10.1080/10447318.2022.2150745},\n  url = {https://doi.org/10.1080/10447318.2022.2150745},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {human},\n  other = {health}\n}",
+    authors: "Ali et al.",
     subsection: "interactions/text",
 },
         
@@ -2930,6 +3173,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://doi.org/10.1080/0144929X.2022.2105746",
     bibtex: "@article{park2023empathy,\n  author = {Gain Park, Myungok Chris Yim, Jiyun Chung and Seyoung Lee},\n  title = {Effect of AI chatbot empathy and identity disclosure on willingness to donate: the mediation of humanness and social presence},\n  journal = {Behaviour \\& Information Technology},\n  volume = {42},\n  number = {12},\n  pages = {1998--2010},\n  year = {2022},\n  month = {7},\n  environments = {text},\n  agents = {two_agents},\n  evaluation = {human},\n  other = {human_agent},\n  publisher = {Taylor \\& Francis},\n  doi = {10.1080/0144929X.2022.2105746},\n  url = {https://doi.org/10.1080/0144929X.2022.2105746}\n  \n}",
+    authors: "Park et al.",
     subsection: "interactions/text",
 },
         
@@ -2942,6 +3186,7 @@ export const data: Paper[] = [
     other: "human_agent, education",
     url: "https://doi.org/10.1080/09588221.2021.2021241",
     bibtex: "@article{jeon2024exploring,\n  author = {Jaeho Jeon},\n  title = {Exploring AI chatbot affordances in the EFL classroom: young learners\u2019 experiences and perspectives},\n  journal = {Computer Assisted Language Learning},\n  volume = {37},\n  number = {1-2},\n  pages = {1--26},\n  year = {2022},\n  month = {1},\n  environments = {text},\n  agents = {two_agents},\n  evaluation = {qualitative},\n  other = {human_agent, education},\n  publisher = {Routledge},\n  doi = {10.1080/09588221.2021.2021241},\n  url = {https://doi.org/10.1080/09588221.2021.2021241}\n}",
+    authors: "Jeon et al.",
     subsection: "interactions/text",
 },
         
@@ -2954,6 +3199,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://doi.org/10.1145/3640543.3645200",
     bibtex: "@inproceedings{khurana2024why,\n  author = {Khurana, Anjali and Subramonyam, Hariharan and Chilana, Parmit K},\n  title = {Why and When LLM-Based Assistants Can Go Wrong: Investigating the Effectiveness of Prompt-Based Interactions for Software Help-Seeking},\n  year = {2024},\n  month = {3},\n  isbn = {9798400705083},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3640543.3645200},\n  environments = {text},\n  agents = {prompting_and_in_context_learning, two_agents},\n  evaluation = {qualitative, human},\n  other = {human_agent},\n  doi = {10.1145/3640543.3645200},\n  booktitle = {Proceedings of the 29th International Conference on Intelligent User Interfaces},\n  pages = {288\u2013303},\n  numpages = {16},\n  keywords = {feature-rich software, help-seeking, large language models, prompt-based interactions},\n  location = {<conf-loc>, <city>Greenville</city>, <state>SC</state>, <country>USA</country>, </conf-loc>},\n  series = {IUI '24}\n}",
+    authors: "Khurana et al.",
     subsection: "interactions/text",
 },
         
@@ -2966,6 +3212,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/2402.15265",
     bibtex: "@misc{ha2024clochat,\n      title={CloChat: Understanding How People Customize, Interact, and Experience Personas in Large Language Models}, \n      author={Juhye Ha and Hyeon Jeon and DaEun Han and Jinwook Seo and Changhoon Oh},\n      year={2024},\n      url = {https://arxiv.org/abs/2402.15265},\n      environments = {text},\n      agents = {prompting_and_in_context_learning, two_agents},\n      evaluation = {qualitative, human},\n      other = {human_agent},\n      eprint={2402.15265},\n      archivePrefix={arXiv},\n      primaryClass={cs.HC}\n}",
+    authors: "Ha et al.",
     subsection: "interactions/text",
 },
         
@@ -2978,6 +3225,7 @@ export const data: Paper[] = [
     other: "human_agent, health",
     url: "https://doi.org/10.1080/10447318.2022.2146227",
     bibtex: "@article{lee2024influence,\n  author = {Jieon Lee, Daeho Lee and Jae-gil Lee},\n  title = {Influence of Rapport and Social Presence with an AI Psychotherapy Chatbot on Users\u2019 Self-Disclosure},\n  journal = {International Journal of Human\u2013Computer Interaction},\n  volume = {40},\n  number = {7},\n  pages = {1620--1631},\n  year = {2022},\n  month = {11},\n  environments = {text},\n  agents = {two_agents},\n  evaluation = {human},\n  other = {human_agent, health},\n  publisher = {Taylor \\& Francis},\n  doi = {10.1080/10447318.2022.2146227},\n  url = {https://doi.org/10.1080/10447318.2022.2146227}\n}",
+    authors: "Lee et al.",
     subsection: "interactions/text",
 },
         
@@ -2990,6 +3238,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://www.sciencedirect.com/science/article/pii/S0747563222003338",
     bibtex: "@article{ekbatani2023someone,\n  title = {Someone out there? A study on the social presence of anthropomorphized chatbots},\n  journal = {Computers in Human Behavior},\n  volume = {139},\n  pages = {107513},\n  year = {2023},\n  month = {2},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {human},\n  other = {n/a},\n  issn = {0747-5632},\n  doi = {https://doi.org/10.1016/j.chb.2022.107513},\n  url = {https://www.sciencedirect.com/science/article/pii/S0747563222003338},\n  author = {Elisa Konya-Baumbach and Miriam Biller and Sergej {von Janda}}\n}",
+    authors: "Konya-Baumbach et al.",
     subsection: "interactions/text",
 },
         
@@ -3002,6 +3251,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://ieeexplore.ieee.org/document/10161352",
     bibtex: "@inproceedings{puig2023nopa,\n  title={Nopa: Neurally-guided online probabilistic assistance for building socially intelligent home assistants},\n  author={Puig, Xavier and Shu, Tianmin and Tenenbaum, Joshua B and Torralba, Antonio},\n  booktitle={2023 IEEE International Conference on Robotics and Automation (ICRA)},\n  pages={7628--7634},\n  year={2023},\n  month = {1},\n  organization={IEEE},\n  url={https://ieeexplore.ieee.org/document/10161352},\n  environments={collaboration, embodied},\n  agents={reinforcement_learning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Puig et al.",
     subsection: "interactions/embodied",
 },
         
@@ -3014,6 +3264,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://openreview.net/forum?id=w_7JMpGZRh0",
     bibtex: "@inproceedings{puig2021watchandhelp,\ntitle={Watch-And-Help: A Challenge for Social Perception and Human-{\\{}AI{\\}} Collaboration},\nauthor={Xavier Puig and Tianmin Shu and Shuang Li and Zilin Wang and Yuan-Hong Liao and Joshua B. Tenenbaum and Sanja Fidler and Antonio Torralba},\nbooktitle={International Conference on Learning Representations},\nyear={2021},\nmonth={1},\nurl={https://openreview.net/forum?id=w_7JMpGZRh0},\n  environments={collaboration, embodied},\n  agents={reinforcement_learning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Puig et al.",
     subsection: "interactions/embodied",
 },
         
@@ -3026,6 +3277,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://proceedings.neurips.cc/paper_files/paper/2019/file/f5b1b89d98b7286673128a5fb112cb9a-Paper.pdf",
     bibtex: "@article{carroll2019utility,\n  title={On the utility of learning about humans for human-ai coordination},\n  author={Carroll, Micah and Shah, Rohin and Ho, Mark K and Griffiths, Tom and Seshia, Sanjit and Abbeel, Pieter and Dragan, Anca},\n  journal={Advances in neural information processing systems},\n  volume={32},\n  year={2019},\n  month={10},\n  url={https://proceedings.neurips.cc/paper_files/paper/2019/file/f5b1b89d98b7286673128a5fb112cb9a-Paper.pdf},\n  environments={collaboration, embodied},\n  agents={reinforcement_learning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Carroll et al.",
     subsection: "interactions/embodied",
 },
         
@@ -3038,6 +3290,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://escholarship.org/uc/item/9ks6n70q",
     bibtex: "@inproceedings{nalepka2021interaction,\n  title={Interaction flexibility in artificial agents teaming with humans},\n  author={Nalepka, Patrick and Gregory-Dunsmore, Jordan P and Simpson, James and Patil, Gaurav and Richardson, Michael J},\n  booktitle={Proceedings of the Annual Meeting of the Cognitive Science Society},\n  volume={43},\n  number={43},\n  year={2021},\n  month={5},\n  url={https://escholarship.org/uc/item/9ks6n70q},\n  environments={collaboration, embodied},\n  agents={reinforcement_learning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Nalepka et al.",
     subsection: "interactions/embodied",
 },
         
@@ -3050,6 +3303,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2312.15224",
     bibtex: "@article{liu2023llm,\n  title={Llm-powered hierarchical language agent for real-time human-ai coordination},\n  author={Liu, Jijia and Yu, Chao and Gao, Jiaxuan and Xie, Yuqing and Liao, Qingmin and Wu, Yi and Wang, Yu},\n  journal={arXiv preprint arXiv:2312.15224},\n  year={2023},\n  month={12},\n  url={https://arxiv.org/abs/2312.15224},\n  environments={collaboration, embodied},\n  agents={reinforcement_learning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Liu et al.",
     subsection: "interactions/embodied",
 },
         
@@ -3062,6 +3316,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://proceedings.mlr.press/v202/szot23a/szot23a.pdf",
     bibtex: "@inproceedings{szot2023adaptive,\n  title={Adaptive coordination in social embodied rearrangement},\n  author={Szot, Andrew and Jain, Unnat and Batra, Dhruv and Kira, Zsolt and Desai, Ruta and Rai, Akshara},\n  booktitle={International Conference on Machine Learning},\n  pages={33365--33380},\n  year={2023},\n  month={5},\n  organization={PMLR},\n  url={https://proceedings.mlr.press/v202/szot23a/szot23a.pdf},\n  environments={collaboration, embodied},\n  agents={prompting_and_in_context_learning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Szot et al.",
     subsection: "interactions/embodied",
 },
         
@@ -3074,6 +3329,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://dl.acm.org/doi/abs/10.1145/3586183.3606763",
     bibtex: "@inproceedings{park2023generative,\n  title={Generative agents: Interactive simulacra of human behavior},\n  author={Park, Joon Sung and O'Brien, Joseph and Cai, Carrie Jun and Morris, Meredith Ringel and Liang, Percy and Bernstein, Michael S},\n  booktitle={Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology},\n  pages={1--22},\n  year={2023},\n  month={4},\n  url={https://dl.acm.org/doi/abs/10.1145/3586183.3606763},\n  environments={mixed_objectives, embodied},\n  agents={prompting_and_in_context_learning},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Park et al.",
     subsection: "interactions/embodied",
 },
         
@@ -3086,6 +3342,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://proceedings.neurips.cc/paper_files/paper/2023/file/4818263715b25dc137d393af8af6d2fc-Paper-Conference.pdf",
     bibtex: "@article{sarkar2023diverse,\n  title={Diverse Conventions for Human-AI Collaboration},\n  author={Sarkar, Bidipta and Shih, Andy and Sadigh, Dorsa},\n  journal={Advances in Neural Information Processing Systems},\n  volume={36},\n  month={12},\n  year={2023},\n  url={https://proceedings.neurips.cc/paper_files/paper/2023/file/4818263715b25dc137d393af8af6d2fc-Paper-Conference.pdf},\n  environments={collaboration, embodied},\n  agents={reinforcement_learning, two_agents, agent_teams},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Sarkar et al.",
     subsection: "interactions/embodied",
 },
         
@@ -3098,6 +3355,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2307.15217",
     bibtex: "@article{casper2023open,\n  title={Open problems and fundamental limitations of reinforcement learning from human feedback},\n  author={Casper, Stephen and Davies, Xander and Shi, Claudia and Gilbert, Thomas Krendl and Scheurer, J{\\'e}r{\\'e}my and Rando, Javier and Freedman, Rachel and Korbak, Tomasz and Lindner, David and Freire, Pedro and others},\n  journal={arXiv preprint arXiv:2307.15217},\n  year={2023},\n  month={7},\n  url={https://arxiv.org/abs/2307.15217},\n  environments={embodied, robotics},\n  agents={finetuning, reinforcement_learning, two_agents},\n  evaluation={human, rule_based, model_based},\n  other={n/a}\n}",
+    authors: "Casper et al.",
     subsection: "interactions/robot",
 },
         
@@ -3110,6 +3368,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2301.02555",
     bibtex: "@inproceedings{cui2023no,\n  title={No, to the right: Online language corrections for robotic manipulation via shared autonomy},\n  author={Cui, Yuchen and Karamcheti, Siddharth and Palleti, Raj and Shivakumar, Nidhya and Liang, Percy and Sadigh, Dorsa},\n  booktitle={Proceedings of the 2023 ACM/IEEE International Conference on Human-Robot Interaction},\n  pages={93--101},\n  year={2023},\n  month={3},\n  url={https://arxiv.org/abs/2301.02555},\n  environments={robotics},\n  agents={two_agents},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Cui et al.",
     subsection: "interactions/robot",
 },
         
@@ -3122,6 +3381,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2401.14673",
     bibtex: "@inproceedings{mahadevan2024generative,\n  title={Generative expressive robot behaviors using large language models},\n  author={Mahadevan, Karthik and Chien, Jonathan and Brown, Noah and Xu, Zhuo and Parada, Carolina and Xia, Fei and Zeng, Andy and Takayama, Leila and Sadigh, Dorsa},\n  booktitle={Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction},\n  pages={482--491},\n  year={2024},\n  month={3},\n  url={https://arxiv.org/abs/2401.14673},\n  environments={robotics},\n  agents={prompting_and_in_context_learning, two_agents},\n  evaluation={human},\n  other={n/a}\n}",
+    authors: "Mahadevan et al.",
     subsection: "interactions/robot",
 },
         
@@ -3134,6 +3394,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2309.02721",
     bibtex: "@inproceedings{lin2023gesture,\n  title={Gesture-informed robot assistance via foundation models},\n  author={Lin, Li-Heng and Cui, Yuchen and Hao, Yilun and Xia, Fei and Sadigh, Dorsa},\n  booktitle={7th Annual Conference on Robot Learning},\n  year={2023},\n  month={8},\n  url={https://arxiv.org/abs/2309.02721},\n  environments={robotics},\n  agents={prompting_and_in_context_learning, two_agents},\n  evaluation={human, rule_based},\n  other={n/a}\n}",
+    authors: "Lin et al.",
     subsection: "interactions/robot",
 },
         
@@ -3146,6 +3407,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2307.01928",
     bibtex: "@article{ren2023robots,\n  title={Robots that ask for help: Uncertainty alignment for large language model planners},\n  author={Ren, Allen Z and Dixit, Anushri and Bodrova, Alexandra and Singh, Sumeet and Tu, Stephen and Brown, Noah and Xu, Peng and Takayama, Leila and Xia, Fei and Varley, Jake and others},\n  journal={arXiv preprint arXiv:2307.01928},\n  year={2023},\n  month={7},\n  url={https://arxiv.org/abs/2307.01928},\n  environments={embodied, robotics},\n  agents={prompting_and_in_context_learning, two_agents},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Ren et al.",
     subsection: "interactions/robot",
 },
         
@@ -3158,6 +3420,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2306.08647",
     bibtex: "@article{yu2023language,\n  title={Language to rewards for robotic skill synthesis},\n  author={Yu, Wenhao and Gileadi, Nimrod and Fu, Chuyuan and Kirmani, Sean and Lee, Kuang-Huei and Arenas, Montse Gonzalez and Chiang, Hao-Tien Lewis and Erez, Tom and Hasenclever, Leonard and Humplik, Jan and others},\n  journal={arXiv preprint arXiv:2306.08647},\n  year={2023},\n  month={6},\n  url={https://arxiv.org/abs/2306.08647},\n  environments={embodied, robotics},\n  agents={prompting_and_in_context_learning},\n  evaluation={qualitative},\n  other={n/a}\n}",
+    authors: "Yu et al.",
     subsection: "interactions/robot",
 },
         
@@ -3170,6 +3433,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2310.12931",
     bibtex: "@article{ma2023eureka,\n  title={Eureka: Human-level reward design via coding large language models},\n  author={Ma, Yecheng Jason and Liang, William and Wang, Guanzhi and Huang, De-An and Bastani, Osbert and Jayaraman, Dinesh and Zhu, Yuke and Fan, Linxi and Anandkumar, Anima},\n  journal={arXiv preprint arXiv:2310.12931},\n  year={2023},\n  month={10},\n  url={https://arxiv.org/abs/2310.12931},\n  environments={embodied},\n  agents={prompting_and_in_context_learning, reinforcement_learning},\n  evaluation={human, rule_based},\n  other={n/a}\n}",
+    authors: "Ma et al.",
     subsection: "interactions/robot",
 },
         
@@ -3182,6 +3446,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2211.12705",
     bibtex: "@inproceedings{shaikewitz2023inmouth,\n  title={In-Mouth Robotic Bite Transfer with Visual and Haptic Sensing},\n  author={Shaikewitz, Lorenzo and Wu, Yilin and Belkhale, Suneel and Grannen, Jennifer and Sundaresan, Priya and Sadigh, Dorsa},\n  booktitle={International Conference on Robotics and Automation (ICRA)},\n  year={2023},\n  month={3},\n  url={https://arxiv.org/abs/2211.12705},\n  environments={robotics},\n  agents={two_agents},\n  evaluation={human, rule_based},\n  other={n/a}\n}",
+    authors: "Shaikewitz et al.",
     subsection: "interactions/robot",
 },
         
@@ -3194,6 +3459,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2212.03363",
     bibtex: "@inproceedings{hejna2023few,\n  title={Few-shot preference learning for human-in-the-loop rl},\n  author={Hejna III, Donald Joseph and Sadigh, Dorsa},\n  booktitle={Conference on Robot Learning},\n  pages={2014--2025},\n  year={2023},\n  month={3},\n  url={https://arxiv.org/abs/2212.03363},\n  organization={PMLR},\n  environments={embodied, robotics},\n  agents={finetuning, reinforcement_learning, two_agents},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "III et al.",
     subsection: "interactions/robot",
 },
         
@@ -3206,6 +3472,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2006.16732",
     bibtex: "@article{kress2021formalizing,\n  title={Formalizing and guaranteeing human-robot interaction},\n  author={Kress-Gazit, Hadas and Eder, Kerstin and Hoffman, Guy and Admoni, Henny and Argall, Brenna and Ehlers, R{\\\"u}diger and Heckman, Christoffer and Jansen, Nils and Knepper, Ross and K{\\v{r}}et{\\'\\i}nsk{\\`y}, Jan and others},\n  journal={Communications of the ACM},\n  volume={64},\n  number={9},\n  pages={78--84},\n  year={2021},\n  month={8},\n  url={https://arxiv.org/abs/2006.16732},\n  environments={robotics},\n  agents={two_agents},\n  evaluation={n/a},\n  other={n/a}\n}",
+    authors: "Kress-Gazit et al.",
     subsection: "interactions/robot",
 },
         
@@ -3218,6 +3485,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://dl.acm.org/doi/abs/10.1145/3439720",
     bibtex: "@article{tian2021taxonomy,\n  title={A taxonomy of social errors in human-robot interaction},\n  author={Tian, Leimin and Oviatt, Sharon},\n  journal={ACM Transactions on Human-Robot Interaction (THRI)},\n  volume={10},\n  number={2},\n  pages={1--32},\n  year={2021},\n  month={1},\n  url={https://dl.acm.org/doi/abs/10.1145/3439720},\n  publisher={ACM New York, NY, USA},\n  environments = {robotics},\n  agents = {two_agents},\n  evaluation = {qualitative, human},\n  other = {n/a},\n}",
+    authors: "Tian et al.",
     subsection: "interactions/robot",
 },
         
@@ -3230,6 +3498,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://dl.acm.org/doi/abs/10.1145/3415139",
     bibtex: "@article{barchard2020measuring,\n  title={Measuring the perceived social intelligence of robots},\n  author={Barchard, Kimberly A and Lapping-Carr, Leiszle and Westfall, R Shane and Fink-Armold, Andrea and Banisetty, Santosh Balajee and Feil-Seifer, David},\n  journal={ACM Transactions on Human-Robot Interaction (THRI)},\n  volume={9},\n  number={4},\n  pages={1--29},\n  year={2020},\n  month={1},\n  url={https://dl.acm.org/doi/abs/10.1145/3415139},\n  publisher={ACM New York, NY, USA},\n  environments = {robotics},\n  agents = {two_agents},\n  evaluation = {qualitative, human},\n  other = {n/a},\n}",
+    authors: "Barchard et al.",
     subsection: "interactions/robot",
 },
         
@@ -3242,6 +3511,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://www.sciencedirect.com/science/article/abs/pii/S1389041716300493",
     bibtex: "@article{wiltshire2017enabling,\n  title={Enabling robotic social intelligence by engineering human social-cognitive mechanisms},\n  author={Wiltshire, Travis J and Warta, Samantha F and Barber, Daniel and Fiore, Stephen M},\n  journal={Cognitive Systems Research},\n  volume={43},\n  pages={190--207},\n  year={2017},\n  month={1},\n  url={https://www.sciencedirect.com/science/article/abs/pii/S1389041716300493},\n  publisher={Elsevier},\n  environments = {robotics},\n  agents = {two_agents},\n  evaluation = {qualitative, human},\n  other = {n/a},\n}",
+    authors: "Wiltshire et al.",
     subsection: "interactions/robot",
 },
         
@@ -3254,6 +3524,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2110.04054",
     bibtex: "@article{ligthart2021core,\n  title={Core elements of social interaction for constructive human-robot interaction},\n  author={Ligthart, Mike EU and Neerincx, Mark A and Hindriks, Koen V},\n  journal={arXiv preprint arXiv:2110.04054},\n  year={2021},\n  month={10},\n  url={https://arxiv.org/abs/2110.04054},\n  environments = {robotics},\n  agents = {two_agents},\n  evaluation = {qualitative, human},\n  other = {n/a},\n}",
+    authors: "Ligthart et al.",
     subsection: "interactions/robot",
 },
         
@@ -3266,6 +3537,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://www.sciencedirect.com/science/article/pii/S088523082030111X",
     bibtex: "@article{skantze2021turn,\n  title={Turn-taking in conversational systems and human-robot interaction: a review},\n  author={Skantze, Gabriel},\n  journal={Computer Speech \\& Language},\n  volume={67},\n  pages={101178},\n  year={2021},\n  month={1},\n  url={https://www.sciencedirect.com/science/article/pii/S088523082030111X},\n  publisher={Elsevier},\n  environments = {robotics},\n  agents = {two_agents},\n  evaluation = {qualitative, human},\n  other = {n/a},\n}",
+    authors: "Skantze et al.",
     subsection: "interactions/robot",
 },
         
@@ -3278,6 +3550,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://cdn.aaai.org/AAAI/1998/AAAI98-008.pdf",
     bibtex: "@article{breazeal1998motivational,\n  title={A motivational system for regulating human-robot interaction},\n  author={Breazeal, Cynthia},\n  booktitle={AAAI},\n  pages={54--61},\n  url={https://cdn.aaai.org/AAAI/1998/AAAI98-008.pdf},\n  year={1998},\n  month={1},\n  environments = {robotics, collaboration},\n  agents = {two_agents},\n  evaluation = {human, rule_based},\n  other = {human_agent},\n}",
+    authors: "Breazeal et al.",
     subsection: "interactions/robot",
 },
         
@@ -3290,6 +3563,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://books.google.com/books?hl=en&lr=&id=402dquhxSTQC&oi=fnd&pg=PR15&dq=Designing+sociable+robots&ots=oCRnuTx7Fk&sig=K5VP1UsSlq-8LeKIvW7dfy4qils#v=onepage&q=Designing%20sociable%20robots&f=false",
     bibtex: "@book{breazeal2004designing,\n  title={Designing sociable robots},\n  booktitle={Designing sociable robots},\n  author={Breazeal, Cynthia},\n  year={2004},\n  month={1},\n  url={https://books.google.com/books?hl=en&lr=&id=402dquhxSTQC&oi=fnd&pg=PR15&dq=Designing+sociable+robots&ots=oCRnuTx7Fk&sig=K5VP1UsSlq-8LeKIvW7dfy4qils#v=onepage&q=Designing%20sociable%20robots&f=false},\n  environments = {robotics},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {human_agent},\n}",
+    authors: "Breazeal et al.",
     subsection: "interactions/robot",
 },
         
@@ -3302,6 +3576,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://ieeexplore.ieee.org/abstract/document/1291665?casa_token=r2fEm_o5xWcAAAAA:b3DSFrP1u4Gnfi0xlK3AwTrX7lgmFAtVoBfjbfSNEK6VijV97E6Neb-X2U2gsVuetq1OnfXmpg",
     bibtex: "@article{breazeal2004social,\n  title={Social interactions in HRI: the robot view},\n  author={Breazeal, Cynthia},\n  journal={IEEE transactions on systems, man, and cybernetics, part C (applications and reviews)},\n  volume={34},\n  number={2},\n  url={https://ieeexplore.ieee.org/abstract/document/1291665?casa_token=r2fEm_o5xWcAAAAA:b3DSFrP1u4Gnfi0xlK3AwTrX7lgmFAtVoBfjbfSNEK6VijV97E6Neb-X2U2gsVuetq1OnfXmpg},\n  pages={181--186},\n  year={2004},\n  month={5},\n  publisher={IEEE},\n  environments = {robotics},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {human_agent},\n}",
+    authors: "Breazeal et al.",
     subsection: "interactions/robot",
 },
         
@@ -3314,6 +3589,7 @@ export const data: Paper[] = [
     other: "human_agent, health, education",
     url: "https://ieeexplore.ieee.org/abstract/document/1501143?casa_token=J_pDQmgcrBgAAAAA:YLmWY_KxfUmkaozwlAFaPhGiBaU4hbgHwGvHY_lSAVLYFrTwmIoVw3nCsDtAji0bMGW-fSP_tg",
     bibtex: "@inproceedings{feil2005defining,\n  title={Defining socially assistive robotics},\n  booktitle={9th International Conference on Rehabilitation Robotics, 2005. ICORR 2005.},\n  author={Feil-Seifer, David and Mataric, Maja J},\n  pages={465--468},\n  year={2005},\n  month={6},\n  url={https://ieeexplore.ieee.org/abstract/document/1501143?casa_token=J_pDQmgcrBgAAAAA:YLmWY_KxfUmkaozwlAFaPhGiBaU4hbgHwGvHY_lSAVLYFrTwmIoVw3nCsDtAji0bMGW-fSP_tg},\n  organization={IEEE},\n  environments = {robotics},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {human_agent, health, education},\n}",
+    authors: "Feil-Seifer et al.",
     subsection: "interactions/robot",
 },
         
@@ -3326,6 +3602,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://www.frontiersin.org/articles/10.3389/frobt.2021.687726/full",
     bibtex: "@article{jackson2021theory,\n  title={A theory of social agency for human-robot interaction},\n  author={Jackson, Ryan Blake and Williams, Tom},\n  journal={Frontiers in Robotics and AI},\n  volume={8},\n  pages={687726},\n  year={2021},\n  month={8},\n  url={https://www.frontiersin.org/articles/10.3389/frobt.2021.687726/full},\n  publisher={Frontiers Media SA},\n  environments = {robotics},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {human_agent},\n}",
+    authors: "Jackson et al.",
     subsection: "interactions/robot",
 },
         
@@ -3338,6 +3615,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://ieeexplore.ieee.org/abstract/document/9597416?casa_token=4fjR0n805JUAAAAA:nDXszwzYANcmCWf3susQltBqeKo7AQioDEK879xPBHGiy4koXs7dNXAq1U2nk35dR3O97RI6AQ",
     bibtex: "@inproceedings{mathur2021modeling,\n  title={Modeling user empathy elicited by a robot storyteller},\n  author={Mathur, Leena and Spitale, Micol and Xi, Hao and Li, Jieyun and Matari{\\'c}, Maja J},\n  booktitle={2021 9th International Conference on Affective Computing and Intelligent Interaction (ACII)},\n  pages={1--8},\n  year={2021},\n  month={9},\n  url={https://ieeexplore.ieee.org/abstract/document/9597416?casa_token=4fjR0n805JUAAAAA:nDXszwzYANcmCWf3susQltBqeKo7AQioDEK879xPBHGiy4koXs7dNXAq1U2nk35dR3O97RI6AQ},\n  organization={IEEE},\n  environments = {robotics},\n  agents = {two_agents},\n  evaluation = {model_based},\n  other = {human_agent},\n}",
+    authors: "Mathur et al.",
     subsection: "interactions/robot",
 },
         
@@ -3350,6 +3628,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://ieeexplore.ieee.org/abstract/document/1545011?casa_token=z47EAc9MSzQAAAAA:us7xcTS86GLcCCd5gQAh-LA5MFN2Yi9KSqgaKIGAa1zimtUBrHu1ZSjct-3ZPYnn86RQ_659kg",
     bibtex: "@inproceedings{breazeal2005effects,\n  title={Effects of nonverbal communication on efficiency and robustness in human-robot teamwork},\n  booktitle={2005 IEEE/RSJ international conference on intelligent robots and systems},\n  author={Breazeal, Cynthia and Kidd, Cory D and Thomaz, Andrea Lockerd and Hoffman, Guy and Berlin, Matt},\n  pages={708--713},\n  url={https://ieeexplore.ieee.org/abstract/document/1545011?casa_token=z47EAc9MSzQAAAAA:us7xcTS86GLcCCd5gQAh-LA5MFN2Yi9KSqgaKIGAa1zimtUBrHu1ZSjct-3ZPYnn86RQ_659kg},\n  year={2005},\n  month={8},\n  organization={IEEE},\n  environments = {robotics, collaboration, implicit_objectives},\n  agents = {two_agents},\n  evaluation = {qualitative, human, rule_based},\n  other = {human_agent},\n}",
+    authors: "Breazeal et al.",
     subsection: "interactions/robot",
 },
         
@@ -3362,6 +3641,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/pdf/2309.12309.pdf",
     bibtex: "@article{shaikh2023rehearsal,\n  title={Rehearsal: Simulating conflict to teach conflict resolution},\n  author={Shaikh, Omar and Chai, Valentino and Gelfand, Michele J and Yang, Diyi and Bernstein, Michael S},\n  journal={arXiv preprint arXiv:2309.12309},\n  year={2023},\n  month={9},\n  url={https://arxiv.org/pdf/2309.12309.pdf},\n  environments = {implicit_objectives, text},\n  agents = {prompting_and_in_context_learning, two_agents},\n  evaluation = {human, rule_based},\n  other = {human_agent}\n}",
+    authors: "Shaikh et al.",
     subsection: "interactions/human",
 },
         
@@ -3374,6 +3654,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://www.sciencedirect.com/science/article/pii/S1077314219301158",
     bibtex: "@article{STERGIOU2019102799,\n  title = {Analyzing human\u2013human interactions: A survey},\n  journal = {Computer Vision and Image Understanding},\n  volume = {188},\n  pages = {102799},\n  year = {2019},\n  issn = {1077-3142},\n  doi = {https://doi.org/10.1016/j.cviu.2019.102799},\n  url = {https://www.sciencedirect.com/science/article/pii/S1077314219301158},\n  author = {Alexandros Stergiou and Ronald Poppe},\n  keywords = {Human-human interaction, Human interaction recognition, Human activity},\n  abstract = {Many videos depict people, and it is their interactions that inform us of their activities, relation to one another and the cultural and social setting. With advances in human action recognition, researchers have begun to address the automated recognition of these human\u2013human interactions from video. The main challenges stem from dealing with the considerable variation in recording setting, the appearance of the people depicted and the coordinated performance of their interaction. This survey provides a summary of these challenges and datasets to address these, followed by an in-depth discussion of relevant vision-based recognition and detection methods. We focus on recent, promising work based on deep learning and convolutional neural networks (CNNs). Finally, we outline directions to overcome the limitations of the current state-of-the-art to analyze and, eventually, understand social human actions.},\n  month = {11},\n  environments = {collaboration, competition, mixed_objectives, implicit_objectives, embodied},\n  agents = {two_agents, more_than_three_agents, agent_teams},\n  evaluation = {human, rule_based, model_based},\n  other = {human_agent}\n}",
+    authors: "Stergiou et al.",
     subsection: "interactions/human",
 },
         
@@ -3386,6 +3667,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://ego4d-data.org/",
     bibtex: "@INPROCEEDINGS{Ego4D2022CVPR,\n  author={Grauman, Kristen and Westbury, Andrew and Byrne, Eugene and Chavis, Zachary and Furnari, Antonino and Girdhar, Rohit and Hamburger, Jackson and Jiang, Hao and Liu, Miao and Liu, Xingyu and Martin, Miguel and Nagarajan, Tushar and Radosavovic, Ilija and Ramakrishnan, Santhosh Kumar and Ryan, Fiona and Sharma, Jayant and Wray, Michael and Xu, Mengmeng and Xu, Eric Zhongcong and Zhao, Chen and Bansal, Siddhant and Batra, Dhruv and Cartillier, Vincent and Crane, Sean and Do, Tien and Doulaty, Morrie and Erapalli, Akshay and Feichtenhofer, Christoph and Fragomeni, Adriano and Fu, Qichen and Fuegen, Christian and Gebreselasie, Abrham and Gonzalez, Cristina and Hillis, James and Huang, Xuhua and Huang, Yifei and Jia, Wenqi and Khoo, Weslie and Kolar, Jachym and Kottur, Satwik and Kumar, Anurag and Landini, Federico and Li, Chao and Li, Yanghao and Li, Zhenqiang and Mangalam, Karttikeya and Modhugu, Raghava and Munro, Jonathan and Murrell, Tullie and Nishiyasu, Takumi and Price, Will and Puentes, Paola Ruiz and Ramazanova, Merey and Sari, Leda and Somasundaram, Kiran and Southerland, Audrey and Sugano, Yusuke and Tao, Ruijie and Vo, Minh and Wang, Yuchen and Wu, Xindi and Yagi, Takuma and Zhu, Yunyi and Arbelaez, Pablo and Crandall, David and Damen, Dima and Farinella, Giovanni Maria and Ghanem, Bernard and Ithapu, Vamsi Krishna and Jawahar, C. V. and Joo, Hanbyul and Kitani, Kris and Li, Haizhou and Newcombe, Richard and Oliva, Aude and Park, Hyun Soo and Rehg, James M. and Sato, Yoichi and Shi, Jianbo and Shou, Mike Zheng and Torralba, Antonio and Torresani, Lorenzo and Yan, Mingfei and Malik, Jitendra},\n  title     = {Ego4D: Around the {W}orld in 3,000 {H}ours of {E}gocentric {V}ideo},\n  booktitle   = {IEEE/CVF Computer Vision and Pattern Recognition (CVPR)},\n  year      = {2022},\n  month = {6},\n  url = {https://ego4d-data.org/},\n  environments = {collaboration, competition, mixed_objectives, implicit_objectives, embodied},\n  agents = {two_agents, more_than_three_agents, agent_teams},\n  evaluation = {human, rule_based, model_based},\n  other = {human_agent}\n}",
+    authors: "Grauman et al.",
     subsection: "interactions/human",
 },
         
@@ -3398,6 +3680,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://link.springer.com/referenceworkentry/10.1007/978-3-030-49629-6_26",
     bibtex: "@article{dai2021agent,\n  title={Agent reasoning in AI-powered negotiation},\n  author={Dai, Tinglong and Sycara, Katia and Zheng, Ronghuo},\n  journal={Handbook of Group Decision and Negotiation},\n  pages={1187--1211},\n  year={2021},\n  publisher={Springer},\n  month={12},\n  url = {https://link.springer.com/referenceworkentry/10.1007/978-3-030-49629-6_26},\n  environments = {mixed_objectives, text},\n  agents = {two_agents},\n  evaluation = {rule_based},\n  other = {human_agent}\n}",
+    authors: "Dai et al.",
     subsection: "interactions/human",
 },
         
@@ -3410,6 +3693,7 @@ export const data: Paper[] = [
     other: "human_agent, health",
     url: "https://www.negotiage.com/",
     bibtex: "@misc{NegotiAge,\n  title={NegotiAge},\n  author={Lee Lindquist},\n  url={https://www.negotiage.com/},\n  journal={NegotiAge},\n  year={2024},\n  month        = {4},\n  environments = {implicit_objectives, virtual},\n  agents       = {two_agents},\n  evaluation   = {n/a},\n  other        = {human_agent, health},\n}",
+    authors: "Lindquist et al.",
     subsection: "interactions/human",
 },
         
@@ -3422,6 +3706,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://link.springer.com/referenceworkentry/10.1007/978-3-030-49629-6_38",
     bibtex: "@article{zeleznikow2021negotiation,\n  title={Negotiation, Online Dispute Resolution, and Artificial Intelligence},\n  author={Zeleznikow, John},\n  journal={Handbook of Group Decision and Negotiation},\n  pages={1125--1147},\n  year={2021},\n  publisher={Springer},\n  url={https://link.springer.com/referenceworkentry/10.1007/978-3-030-49629-6_38},\n  month={12},\n  environments = {mixed_objectives, text},\n  agents = {two_agents},\n  evaluation = {rule_based},\n  other = {human_agent}\n}",
+    authors: "Zeleznikow et al.",
     subsection: "interactions/human",
 },
         
@@ -3434,6 +3719,7 @@ export const data: Paper[] = [
     other: "human_agent, health",
     url: "https://ieeexplore.ieee.org/document/9475925",
     bibtex: "@INPROCEEDINGS{Seo2021towards,\n  author={Seo, Sangwon and Kennedy-Metz, Lauren R. and Zenati, Marco A. and Shah, Julie A. and Dias, Roger D. and Unhelkar, Vaibhav V.},\n  booktitle={2021 IEEE Conference on Cognitive and Computational Aspects of Situation Management (CogSIMA)}, \n  title={Towards an AI Coach to Infer Team Mental Model Alignment in Healthcare}, \n  year={2021},\n  month={5},\n  pages={39-44},\n  keywords={Conferences;Computational modeling;Surgery;Medical services;Cognition;Cognitive science;Teamwork;teamwork;surgical data science;cardiac surgery;Bayesian inference;patient safety;artificial intelligence},\n  doi={10.1109/CogSIMA51574.2021.9475925},\n  url={https://ieeexplore.ieee.org/document/9475925},\n  environments = {collaboration, mixed_objectives, implicit_objectives, text},\n  agents = {two_agents, more_than_three_agents},\n  evaluation = {human, rule_based},\n  other = {human_agent, health}\n}",
+    authors: "Seo et al.",
     subsection: "interactions/human",
 },
         
@@ -3446,6 +3732,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://journals.sagepub.com/doi/full/10.1177/0022242920956676",
     bibtex: "@article{luo2021artificial,\n  title={Artificial intelligence coaches for sales agents: Caveats and solutions},\n  author={Luo, Xueming and Qin, Marco Shaojun and Fang, Zheng and Qu, Zhe},\n  journal={Journal of Marketing},\n  volume={85},\n  number={2},\n  pages={14--32},\n  year={2021},\n  publisher={SAGE Publications Sage CA: Los Angeles, CA},\n  url={https://journals.sagepub.com/doi/full/10.1177/0022242920956676},\n  month={10},\n  environments = {mixed_objectives, text},\n  agents = {two_agents},\n  evaluation = {rule_based, human},\n  other = {human_agent}\n}",
+    authors: "Luo et al.",
     subsection: "interactions/human",
 },
         
@@ -3458,6 +3745,7 @@ export const data: Paper[] = [
     other: "human_agent, health",
     url: "https://humanfactors.jmir.org/2020/1/e16762",
     bibtex: "@article{gabrielli2020chatbot,\n  title={A chatbot-based coaching intervention for adolescents to promote life skills: pilot study},\n  author={Gabrielli, Silvia and Rizzi, Silvia and Carbone, Sara and Donisi, Valeria and others},\n  journal={JMIR human factors},\n  volume={7},\n  number={1},\n  pages={e16762},\n  year={2020},\n  publisher={JMIR Publications Inc., Toronto, Canada},\n  month={10},\n  url={https://humanfactors.jmir.org/2020/1/e16762},\n  environments = {text, implicit_objectives},\n  agents = {two_agents, more_than_three_agents},\n  evaluation = {human, rule_based},\n  other = {human_agent, health}\n}",
+    authors: "Gabrielli et al.",
     subsection: "interactions/human",
 },
         
@@ -3470,6 +3758,7 @@ export const data: Paper[] = [
     other: "human_agent, health",
     url: "https://dl.acm.org/doi/abs/10.1145/3271484",
     bibtex: "@article{porayska2018blending,\n  title={Blending human and artificial intelligence to support autistic children\u2019s social communication skills},\n  author={Porayska-Pomsta, Ka{\\'s}ka and Alcorn, Alyssa M and Avramides, Katerina and Beale, Sandra and Bernardini, Sara and Foster, Mary Ellen and Frauenberger, Christopher and Good, Judith and Guldberg, Karen and Keay-Bright, Wendy and others},\n  journal={ACM Transactions on Computer-Human Interaction (TOCHI)},\n  volume={25},\n  number={6},\n  pages={1--35},\n  year={2018},\n  publisher={ACM New York, NY, USA},\n  month={12},\n  url={https://dl.acm.org/doi/abs/10.1145/3271484},\n  environments = {virtual},\n  agents = {two_agents},\n  evaluation = {human, rule_based},\n  other = {human_agent, health}\n}",
+    authors: "Porayska-Pomsta et al.",
     subsection: "interactions/human",
 },
         
@@ -3482,6 +3771,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2301.05339",
     bibtex: "@inproceedings{nyatsanga2023comprehensive,\n  title={A Comprehensive Review of Data-Driven Co-Speech Gesture Generation},\n  author={Nyatsanga, Simbarashe and Kucherenko, Taras and Ahuja, Chaitanya and Henter, Gustav Eje and Neff, Michael},\n  booktitle={Computer Graphics Forum},\n  volume={42},\n  number={2},\n  pages={569--596},\n  year={2023},\n  month={1},\n  url={https://arxiv.org/abs/2301.05339},\n  organization={Wiley Online Library},\n  environments = {virtual, embodied},\n  agents = {two_agents},\n  evaluation = {qualitative, human},\n  other = {n/a},\n}",
+    authors: "Nyatsanga et al.",
     subsection: "interactions/human",
 },
         
@@ -3494,6 +3784,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://www.pnas.org/doi/abs/10.1073/pnas.2311627120",
     bibtex: "@article{argyle_leveraging_2023,\n\ttitle = {Leveraging {AI} for democratic discourse: {Chat} interventions can improve online political conversations at scale},\n\tvolume = {120},\n\tshorttitle = {Leveraging {AI} for democratic discourse},\n\turl = {https://www.pnas.org/doi/abs/10.1073/pnas.2311627120},\n\tdoi = {10.1073/pnas.2311627120},\n\tnumber = {41},\n\tjournal = {Proceedings of the National Academy of Sciences},\n\tauthor = {Argyle, Lisa P. and Bail, Christopher A. and Busby, Ethan C. and Gubler, Joshua R. and Howe, Thomas and Rytting, Christopher and Sorensen, Taylor and Wingate, David},\n\tmonth = oct,\n\tyear = {2023},\n\tpages = {e2311627120},\n\tenvironments = {virtual},\n\tagents = {agent_teams, two_agents},\n\tevaluation = {human, rule_based, model_based},\n\tother = {human_agent}\n}",
+    authors: "Argyle et al.",
     subsection: "interactions/human",
 },
         
@@ -3506,6 +3797,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "http://arxiv.org/abs/2401.10820",
     bibtex: "@misc{yeo_help_2024,\n\ttitle = {Help {Me} {Reflect}: {Leveraging} {Self}-{Reflection} {Interface} {Nudges} to {Enhance} {Deliberativeness} on {Online} {Deliberation} {Platforms}},\n\tshorttitle = {Help {Me} {Reflect}},\n\turl = {http://arxiv.org/abs/2401.10820},\n\tpublisher = {arXiv},\n\tauthor = {Yeo, Shun Yi and Lim, Gionnieve and Gao, Jie and Zhang, Weiyu and Perrault, Simon Tangi},\n\tmonth = jan,\n\tyear = {2024},\n\tdoi = {10.48550/arXiv.2401.10820},\n\teprint = {2401.10820},\n\tenvironments = {virtual},\n\tagents = {two_agents, more_than_three_agents, agent_teams},\n\tevaluation = {human, rule_based},\n\tother = {human_agent}\n}",
+    authors: "Yeo et al.",
     subsection: "interactions/human",
 },
         
@@ -3518,6 +3810,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "http://arxiv.org/abs/2402.12556",
     bibtex: "@misc{lin_imbue_2024,\n\ttitle = {{IMBUE}: {Improving} {Interpersonal} {Effectiveness} through {Simulation} and {Just}-in-time {Feedback} with {Human}-{Language} {Model} {Interaction}},\n\tshorttitle = {{IMBUE}},\n\turl = {http://arxiv.org/abs/2402.12556},\n\tpublisher = {arXiv},\n\tauthor = {Lin, Inna Wanyin and Sharma, Ashish and Rytting, Christopher Michael and Miner, Adam S. and Suh, Jina and Althoff, Tim},\n\tmonth = feb,\n\tyear = {2024},\n\tdoi = {10.48550/arXiv.2402.12556},\n\teprint = {2402.12556},\n\tenvironments = {virtual},\n\tagents = {two_agents},\n\tevaluation = {human, rule_based, model_based},\n\tother = {human_agent}\n}",
+    authors: "Lin et al.",
     subsection: "interactions/human",
 },
         
@@ -3530,6 +3823,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "http://arxiv.org/abs/2310.03976",
     bibtex: "@misc{fu_text_2024,\n\ttitle = {From {Text} to {Self}: {Users}' {Perceptions} of {Potential} of {AI} on {Interpersonal} {Communication} and {Self}},\n\tshorttitle = {From {Text} to {Self}},\n\turl = {http://arxiv.org/abs/2310.03976},\n\tauthor = {Fu, Yue and Foell, Sami and Xu, Xuhai and Hiniker, Alexis},\n\tmonth = mar,\n\tyear = {2024},\n\tdoi = {10.1145/3613904.3641955},\n\teprint = {2310.03976},\n\tenvironments = {virtual},\n\tagents = {two_agents, agent_teams},\n\tevaluation = {qualitative, human},\n\tother = {human_agent}\n}",
+    authors: "Fu et al.",
     subsection: "interactions/human",
 },
         
@@ -3542,6 +3836,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://www.nature.com/articles/s42256-022-00593-2",
     bibtex: "@article{sharma_humanai_2023,\n\ttitle = {Human\u2013{AI} collaboration enables more empathic conversations in text-based peer-to-peer mental health support},\n\tvolume = {5},\n\tcopyright = {2023 The Author(s), under exclusive licence to Springer Nature Limited},\n\tissn = {2522-5839},\n\turl = {https://www.nature.com/articles/s42256-022-00593-2},\n\tdoi = {10.1038/s42256-022-00593-2},\n\tlanguage = {en},\n\tnumber = {1},\n\tjournal = {Nature Machine Intelligence},\n\tauthor = {Sharma, Ashish and Lin, Inna W. and Miner, Adam S. and Atkins, David C. and Althoff, Tim},\n\tmonth = jan,\n\tyear = {2023},\n\tnote = {Publisher: Nature Publishing Group},\n\tpages = {46--57},\n\tenvironments = {virtual, collaboration},\n\tagents = {two_agents, agent_teams},\n\tevaluation = {human, model_based},\n\tother = {human_agent}\n}",
+    authors: "Sharma et al.",
     subsection: "interactions/human",
 },
         
@@ -3554,6 +3849,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://dl.acm.org/doi/10.1145/3449091",
     bibtex: "@article{mieczkowski_ai-mediated_2021,\n\ttitle = {{AI}-{Mediated} {Communication}: {Language} {Use} and {Interpersonal} {Effects} in a {Referential} {Communication} {Task}},\n\tvolume = {5},\n\tshorttitle = {{AI}-{Mediated} {Communication}},\n\turl = {https://dl.acm.org/doi/10.1145/3449091},\n\tdoi = {10.1145/3449091},\n\tnumber = {CSCW1},\n\turldate = {2024-05-01},\n\tjournal = {Proceedings of the ACM on Human-Computer Interaction},\n\tauthor = {Mieczkowski, Hannah and Hancock, Jeffrey T. and Naaman, Mor and Jung, Malte and Hohenstein, Jess},\n\tmonth = apr,\n\tyear = {2021},\n\tpages = {17:1--17:14},\n\tenvironments = {virtual},\n\tagents = {two_agents, agent_teams},\n\tevaluation = {human, qualitative},\n\tother = {human_agent}\n}",
+    authors: "Mieczkowski et al.",
     subsection: "interactions/human",
 },
         
@@ -3566,6 +3862,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://dl.acm.org/doi/10.1145/3555603",
     bibtex: "@article{chang_thread_2022,\n\ttitle = {Thread {With} {Caution}: {Proactively} {Helping} {Users} {Assess} and {Deescalate} {Tension} in {Their} {Online} {Discussions}},\n\tvolume = {6},\n\tshorttitle = {Thread {With} {Caution}},\n\turl = {https://dl.acm.org/doi/10.1145/3555603},\n\tdoi = {10.1145/3555603},\n\tnumber = {CSCW2},\n\turldate = {2024-05-01},\n\tjournal = {Proceedings of the ACM on Human-Computer Interaction},\n\tauthor = {Chang, Jonathan P. and Schluger, Charlotte and Danescu-Niculescu-Mizil, Cristian},\n\tmonth = nov,\n\tyear = {2022},\n\tpages = {545:1--545:37},\n\tenvironments = {virtual},\n\tagents = {two_agents, more_than_three_agents, agent_teams},\n\tevaluation = {human, rule_based},\n\tother = {human_agent}\n}",
+    authors: "Chang et al.",
     subsection: "interactions/human",
 },
         
@@ -3578,6 +3875,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2403.02090",
     bibtex: "@article{lee2024modeling,\n  title={Modeling Multimodal Social Interactions: New Challenges and Baselines with Densely Aligned Representations},\n  author={Lee, Sangmin and Lai, Bolin and Ryan, Fiona and Boote, Bikram and Rehg, James M},\n  journal={arXiv preprint arXiv:2403.02090},\n  year={2024},\n  month={4},\n  url={https://arxiv.org/abs/2403.02090},\n  environments = {virtual},\n\tagents = {two_agents, more_than_three_agents, agent_teams},\n\tevaluation = {model_based},\n\tother = {n/a}\n}",
+    authors: "Lee et al.",
     subsection: "interactions/human",
 },
         
@@ -3590,6 +3888,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://api.semanticscholar.org/CorpusID:268091324",
     bibtex: "@misc{sanders2024tvtrees,\n      title={TV-TREES: Multimodal Entailment Trees for Neuro-Symbolic Video Reasoning}, \n      author={Kate Sanders and Nathaniel Weir and Benjamin Van Durme},\n      year={2024},\n      month={2},\n      eprint={2402.19467},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n      url={https://api.semanticscholar.org/CorpusID:268091324},\n      environments = {text, virtual},\n  agents = {pretraining, finetuning},\n  evaluation = {model_based},\n  other = {n/a},\n}",
+    authors: "Sanders et al.",
     subsection: "interactions/human",
 },
         
@@ -3602,6 +3901,7 @@ export const data: Paper[] = [
     other: "human_agent, health",
     url: "https://arxiv.org/abs/2403.13313",
     bibtex: "@misc{mukherjee2024polaris,\n      title={Polaris: A Safety-focused LLM Constellation Architecture for Healthcare}, \n      author={Subhabrata Mukherjee and Paul Gamble and Markel Sanz Ausin and Neel Kant and Kriti Aggarwal and Neha Manjunath and Debajyoti Datta and Zhengliang Liu and Jiayuan Ding and Sophia Busacca and Cezanne Bianco and Swapnil Sharma and Rae Lasko and Michelle Voisard and Sanchay Harneja and Darya Filippova and Gerry Meixiong and Kevin Cha and Amir Youssefi and Meyhaa Buvanesh and Howard Weingram and Sebastian Bierman-Lytle and Harpreet Singh Mangat and Kim Parikh and Saad Godil and Alex Miller},\n      year={2024},\n      environments = {mixed_objectives, virtual},\n      agents = {prompting_and_in_context_learning, finetuning, reinforcement_learning, agent_teams},\n      evaluation = {human, rule_based},\n      url={https://arxiv.org/abs/2403.13313},\n      other = {human_agent, health},\n      eprint={2403.13313},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI}\n}",
+    authors: "Mukherjee et al.",
     subsection: "applications/health",
 },
         
@@ -3614,6 +3914,7 @@ export const data: Paper[] = [
     other: "simulated_humans, health",
     url: "https://arxiv.org/abs/2401.14589",
     bibtex: "@misc{ke2024enhancing,\n      title={Enhancing Diagnostic Accuracy through Multi-Agent Conversations: Using Large Language Models to Mitigate Cognitive Bias}, \n      author={Yu He Ke and Rui Yang and Sui An Lie and Taylor Xin Yi Lim and Hairil Rizal Abdullah and Daniel Shu Wei Ting and Nan Liu},\n      year={2024},\n      environments = {mixed_objectives, text},\n      agents = {prompting_and_in_context_learning, agent_teams, agents_with_personas},\n      evaluation = {human},\n      url={https://arxiv.org/abs/2401.14589},\n      other = {simulated_humans, health},\n      eprint={2401.14589},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}",
+    authors: "Ke et al.",
     subsection: "applications/health",
 },
         
@@ -3626,6 +3927,7 @@ export const data: Paper[] = [
     other: "human_agent, health",
     url: "https://arxiv.org/abs/2402.05547",
     bibtex: "@misc{huang2024benchmarking,\n      title={Benchmarking Large Language Models on Communicative Medical Coaching: a Novel System and Dataset}, \n      author={Hengguan Huang and Songtao Wang and Hongfu Liu and Hao Wang and Ye Wang},\n      year={2024},\n      environments = {mixed_objectives, text},\n      agents = {prompting_and_in_context_learning, finetuning, agent_teams},\n      evaluation = {human, rule_based},\n      url={https://arxiv.org/abs/2402.05547},\n      other = {human_agent, health},\n      eprint={2402.05547},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}",
+    authors: "Huang et al.",
     subsection: "applications/health",
 },
         
@@ -3638,6 +3940,7 @@ export const data: Paper[] = [
     other: "simulated_humans, health",
     url: "https://arxiv.org/abs/2402.09742",
     bibtex: "@misc{fan2024ai,\n      title={AI Hospital: Interactive Evaluation and Collaboration of LLMs as Intern Doctors for Clinical Diagnosis}, \n      author={Zhihao Fan and Jialong Tang and Wei Chen and Siyuan Wang and Zhongyu Wei and Jun Xi and Fei Huang and Jingren Zhou},\n      year={2024},\n      environments = {collaboration, text},\n      agents = {prompting_and_in_context_learning, agent_teams, agents_with_personas},\n      evaluation = {human},\n      url={https://arxiv.org/abs/2402.09742},\n      other = {simulated_humans, health},\n      eprint={2402.09742},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}",
+    authors: "Fan et al.",
     subsection: "applications/health",
 },
         
@@ -3650,6 +3953,7 @@ export const data: Paper[] = [
     other: "health",
     url: "https://arxiv.org/abs/2402.17546",
     bibtex: "@misc{lee2024cocoa,\n      title={COCOA: CBT-based Conversational Counseling Agent using Memory Specialized in Cognitive Distortions and Dynamic Prompt}, \n      author={Suyeon Lee and Jieun Kang and Harim Kim and Kyoung-Mee Chung and Dongha Lee and Jinyoung Yeo},\n      year={2024},\n      environments = {text},\n      agents = {prompting_and_in_context_learning, two_agents, agents_with_memory},\n      evaluation = {model_based},\n      url={https://arxiv.org/abs/2402.17546},\n      other = {health},\n      eprint={2402.17546},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI}\n}",
+    authors: "Lee et al.",
     subsection: "applications/health",
 },
         
@@ -3662,6 +3966,7 @@ export const data: Paper[] = [
     other: "human_agent, health",
     url: "https://arxiv.org/abs/2305.08982",
     bibtex: "@misc{hsu2023helping,\n      title={Helping the Helper: Supporting Peer Counselors via AI-Empowered Practice and Feedback}, \n      author={Shang-Ling Hsu and Raj Sanjay Shah and Prathik Senthil and Zahra Ashktorab and Casey Dugan and Werner Geyer and Diyi Yang},\n      year={2023},\n      environments = {text},\n      agents = {prompting_and_in_context_learning, more_than_three_agents},\n      evaluation = {human},\n      url={https://arxiv.org/abs/2305.08982},\n      other = {human_agent, health},\n      eprint={2305.08982},\n      archivePrefix={arXiv},\n      primaryClass={cs.HC}\n}",
+    authors: "Hsu et al.",
     subsection: "applications/health",
 },
         
@@ -3674,6 +3979,7 @@ export const data: Paper[] = [
     other: "human_agent, health",
     url: "https://arxiv.org/abs/2305.05138",
     bibtex: "@misc{qin2023read,\n      title={Read, Diagnose and Chat: Towards Explainable and Interactive LLMs-Augmented Depression Detection in Social Media}, \n      author={Wei Qin and Zetong Chen and Lei Wang and Yunshi Lan and Weijieying Ren and Richang Hong},\n      year={2023},\n      environments = {mixed_objectives, text},\n      agents = {prompting_and_in_context_learning, two_agents},\n      evaluation = {n/a},\n      url={https://arxiv.org/abs/2305.05138},\n      other = {human_agent, health},\n      eprint={2305.05138},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}",
+    authors: "Qin et al.",
     subsection: "applications/health",
 },
         
@@ -3686,6 +3992,7 @@ export const data: Paper[] = [
     other: "human_agent, health",
     url: "https://pubmed.ncbi.nlm.nih.gov/37152238/",
     bibtex: "@article{g\u00f6rtz_2023, \n      title={An artificial intelligence-based chatbot for prostate cancer education: Design and patient evaluation study}, \n      volume={9}, \n      url={https://pubmed.ncbi.nlm.nih.gov/37152238/}, \n      DOI={https://doi.org/10.1177/20552076231173304}, \n      journal={Digital Health}, \n      author={G\u00f6rtz, Magdalena and Baumg\u00e4rtner, Kilian and Schmid, Tamara and Muschko, Marc and Woessner, Philipp and Gerlach, Axel and Byczkowski, Michael and S\u00fcltmann, Holger and Duensing, Stefan and Hohenfellner, Markus}, \n      environments = {text},\n      agents = {finetuning, two_agents},\n      evaluation = {qualitative},\n      other = {human_agent, health},\n      month={05},\n      year={2023}, \n      pages={20552076231173304}\n}",
+    authors: "Görtz et al.",
     subsection: "applications/health",
 },
         
@@ -3698,6 +4005,7 @@ export const data: Paper[] = [
     other: "human_agent, health",
     url: "https://arxiv.org/abs/2310.02374",
     bibtex: "@misc{abbasian2024conversational,\n      title={Conversational Health Agents: A Personalized LLM-Powered Agent Framework}, \n      author={Mahyar Abbasian and Iman Azimi and Amir M. Rahmani and Ramesh Jain},\n      year={2024},\n      environments = {mixed_objectives, text},\n      agents = {prompting_and_in_context_learning, more_than_three_agents},\n      evaluation = {rule_based},\n      url={https://arxiv.org/abs/2310.02374},\n      other = {human_agent, health},\n      eprint={2310.02374},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}\n}",
+    authors: "Abbasian et al.",
     subsection: "applications/health",
 },
         
@@ -3710,6 +4018,7 @@ export const data: Paper[] = [
     other: "health",
     url: "https://www.jmir.org/2020/10/e20346/PDF",
     bibtex: "@article{milne2020effectiveness,\n  title={The effectiveness of artificial intelligence conversational agents in health care: systematic review},\n  author={Milne-Ives, Madison and de Cock, Caroline and Lim, Ernest and Shehadeh, Melissa Harper and de Pennington, Nick and Mole, Guy and Normando, Eduardo and Meinert, Edward},\n  journal={Journal of medical Internet research},\n  volume={22},\n  number={10},\n  pages={e20346},\n  year={2020},\n  month={1},\n  url={https://www.jmir.org/2020/10/e20346/PDF},\n  publisher={JMIR Publications Toronto, Canada},\n  environments = {text, virtual},\n  agents = {two_agents},\n  evaluation = {qualitative, human},\n  other = {health},\n}",
+    authors: "Milne-Ives et al.",
     subsection: "applications/health",
 },
         
@@ -3722,6 +4031,7 @@ export const data: Paper[] = [
     other: "health",
     url: "https://dl.acm.org/doi/abs/10.1145/3563659.3563672",
     bibtex: "@incollection{bickmore2022health,\n  title={Health-related applications of socially interactive agents},\n  author={Bickmore, Timothy},\n  booktitle={The Handbook on Socially Interactive Agents: 20 years of Research on Embodied Conversational Agents, Intelligent Virtual Agents, and Social Robotics Volume 2: Interactivity, Platforms, Application},\n  pages={403--436},\n  year={2022},\n  month={1},\n  url={https://dl.acm.org/doi/abs/10.1145/3563659.3563672},\n  environments = {text, virtual},\n  agents = {two_agents},\n  evaluation = {qualitative, human},\n  other = {health},\n}",
+    authors: "Bickmore et al.",
     subsection: "applications/health",
 },
         
@@ -3734,6 +4044,7 @@ export const data: Paper[] = [
     other: "health",
     url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8234801/#B23-sensors-21-04249",
     bibtex: "@article{gillani2021intelligent,\n  title={Intelligent sensing technologies for the diagnosis, monitoring and therapy of alzheimer\u2019s disease: A systematic review},\n  author={Gillani, Nazia and Arslan, Tughrul},\n  journal={Sensors},\n  volume={21},\n  number={12},\n  pages={4249},\n  year={2021},\n  month={1},\n  url={https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8234801/#B23-sensors-21-04249},\n  publisher={MDPI},\n  environments = {text, virtual},\n  agents = {two_agents},\n  evaluation = {qualitative, human},\n  other = {health},\n}",
+    authors: "Gillani et al.",
     subsection: "applications/health",
 },
         
@@ -3746,6 +4057,7 @@ export const data: Paper[] = [
     other: "health",
     url: "https://www.nature.com/articles/s41586-023-05881-4",
     bibtex: "@article{moor2023foundation,\n  title={Foundation models for generalist medical artificial intelligence},\n  author={Moor, Michael and Banerjee, Oishi and Abad, Zahra Shakeri Hossein and Krumholz, Harlan M and Leskovec, Jure and Topol, Eric J and Rajpurkar, Pranav},\n  journal={Nature},\n  volume={616},\n  number={7956},\n  pages={259--265},\n  year={2023},\n  month={1},\n  url={https://www.nature.com/articles/s41586-023-05881-4},\n  publisher={Nature Publishing Group UK London},\n  environments = {text, virtual, embodied},\n  agents = {prompting_and_in_context_learning, finetuning, pretraining, two_agents},\n  evaluation = {qualitative, human},\n  other = {health},\n}",
+    authors: "Moor et al.",
     subsection: "applications/health",
 },
         
@@ -3758,6 +4070,7 @@ export const data: Paper[] = [
     other: "health",
     url: "https://www.jmir.org/2021/11/e25856/",
     bibtex: "@article{esmaeilzadeh2021patients,\n  title={Patients\u2019 perceptions toward human--artificial intelligence interaction in health care: experimental study},\n  author={Esmaeilzadeh, Pouyan and Mirzaei, Tala and Dharanikota, Spurthy},\n  journal={Journal of medical Internet research},\n  volume={23},\n  number={11},\n  pages={e25856},\n  year={2021},\n  month={1},\n  url={https://www.jmir.org/2021/11/e25856/},\n  publisher={JMIR Publications Toronto, Canada},\n  environments = {text, virtual, embodied},\n  agents = {two_agents},\n  evaluation = {qualitative, human},\n  other = {health},\n}",
+    authors: "Esmaeilzadeh et al.",
     subsection: "applications/health",
 },
         
@@ -3770,6 +4083,7 @@ export const data: Paper[] = [
     other: "health",
     url: "https://asistdl.onlinelibrary.wiley.com/doi/pdf/10.1002/asi.24145?casa_token=T2fVrVRwmt0AAAAA:IT7GOCcygCdBuckrO5UqRg0hlWXOU3YUx1UPqi2kVG8XxxQfNxMDY6JBm5Kcz1XuO5Xsjo9H7KzCOOv-",
     bibtex: "@article{pee2019artificial,\n  title={Artificial intelligence in healthcare robots: A social informatics study of knowledge embodiment},\n  author={Pee, Loo G and Pan, Shan L and Cui, Lili},\n  journal={Journal of the Association for Information Science and Technology},\n  volume={70},\n  number={4},\n  pages={351--369},\n  year={2019},\n  month={1},\n  url={https://asistdl.onlinelibrary.wiley.com/doi/pdf/10.1002/asi.24145?casa_token=T2fVrVRwmt0AAAAA:IT7GOCcygCdBuckrO5UqRg0hlWXOU3YUx1UPqi2kVG8XxxQfNxMDY6JBm5Kcz1XuO5Xsjo9H7KzCOOv-},\n  publisher={Wiley Online Library},\n  environments = {robotics},\n  agents = {two_agents},\n  evaluation = {qualitative, human},\n  other = {health},\n}",
+    authors: "Pee et al.",
     subsection: "applications/health",
 },
         
@@ -3782,6 +4096,7 @@ export const data: Paper[] = [
     other: "health",
     url: "https://ieeexplore.ieee.org/abstract/document/9900843?casa_token=jOdy7sIRjzkAAAAA:8cWuFA-woc9y6zJ3sdFIFjtn-o5tU0gNGQV5Kp2zASlRspes10KQP3Io6EvGOjxwz06OU1Qv-A",
     bibtex: "@inproceedings{abbasi2022can,\n  title={Can robots help in the evaluation of mental wellbeing in children? an empirical study},\n  author={Abbasi, Nida Itrat and Spitale, Micol and Anderson, Joanna and Ford, Tamsin and Jones, Peter B and Gunes, Hatice},\n  booktitle={2022 31st IEEE international conference on robot and human interactive communication (RO-MAN)},\n  pages={1459--1466},\n  year={2022},\n  month={8},\n  url={https://ieeexplore.ieee.org/abstract/document/9900843?casa_token=jOdy7sIRjzkAAAAA:8cWuFA-woc9y6zJ3sdFIFjtn-o5tU0gNGQV5Kp2zASlRspes10KQP3Io6EvGOjxwz06OU1Qv-A}, \n  organization={IEEE},\n  environments = {robotics},\n  agents = {two_agents},\n  evaluation = {qualitative, human},\n  other = {health},\n}",
+    authors: "Abbasi et al.",
     subsection: "applications/health",
 },
         
@@ -3794,6 +4109,7 @@ export const data: Paper[] = [
     other: "health, human_agent",
     url: "https://www.annualreviews.org/content/journals/10.1146/annurev-bioeng-071811-150036",
     bibtex: "@article{scassellati2012robots,\n  title={Robots for use in autism research},\n  author={Scassellati, Brian and Admoni, Henny and Matari{\\'c}, Maja},\n  journal={Annual review of biomedical engineering},\n  volume={14},\n  pages={275--294},\n  year={2012},\n  month={8},\n  url={https://www.annualreviews.org/content/journals/10.1146/annurev-bioeng-071811-150036},\n  publisher={Annual Reviews},\n  environments = {robotics},\n  agents = {two_agents, more_than_three_agents, agent_teams},\n  evaluation = {n/a},\n  other = {health, human_agent},\n}",
+    authors: "Scassellati et al.",
     subsection: "applications/health",
 },
         
@@ -3806,6 +4122,7 @@ export const data: Paper[] = [
     other: "health, human_agent",
     url: "https://dl.acm.org/doi/abs/10.5898/JHRI.2.2.Fasola",
     bibtex: "@article{fasola2013socially,\n  title={A socially assistive robot exercise coach for the elderly},\n  author={Fasola, Juan and Matari{\\'c}, Maja J},\n  journal={Journal of Human-Robot Interaction},\n  volume={2},\n  number={2},\n  pages={3--32},\n  year={2013},\n  month={6},\n  url={https://dl.acm.org/doi/abs/10.5898/JHRI.2.2.Fasola},\n  publisher={Journal of Human-Robot Interaction Steering Committee},\n  environments = {robotics},\n  agents = {two_agents, more_than_three_agents, agent_teams},\n  evaluation = {human, qualitative, rule_based},\n  other = {health, human_agent},\n}",
+    authors: "Fasola et al.",
     subsection: "applications/health",
 },
         
@@ -3818,6 +4135,7 @@ export const data: Paper[] = [
     other: "health, human_agent",
     url: "https://www.science.org/doi/full/10.1126/scirobotics.aao6760?casa_token=_j3wU-emDEsAAAAA%3AvNVp58F1dqbzR-L09jHatPxzPq7Z6k8f2Fu-Pnswt1b0pLJtvW5kZLE3chqezzEf6Mi8_WiPIjF83fk",
     bibtex: "@article{rudovic2018personalized,\n  title={Personalized machine learning for robot perception of affect and engagement in autism therapy},\n  author={Rudovic, Ognjen and Lee, Jaeryoung and Dai, Miles and Schuller, Bj{\\\"o}rn and Picard, Rosalind W},\n  journal={Science Robotics},\n  volume={3},\n  number={19},\n  pages={eaao6760},\n  year={2018},\n  month={6},\n  url={https://www.science.org/doi/full/10.1126/scirobotics.aao6760?casa_token=_j3wU-emDEsAAAAA%3AvNVp58F1dqbzR-L09jHatPxzPq7Z6k8f2Fu-Pnswt1b0pLJtvW5kZLE3chqezzEf6Mi8_WiPIjF83fk},\n  publisher={American Association for the Advancement of Science},\n  environments = {robotics},\n  agents = {two_agents},\n  evaluation = {model_based},\n  other = {health, human_agent},\n}",
+    authors: "Rudovic et al.",
     subsection: "applications/health",
 },
         
@@ -3830,6 +4148,7 @@ export const data: Paper[] = [
     other: "simulated_humans, policy",
     url: "https://openreview.net/pdf?id=sv7KZcUqu1",
     bibtex: "@inproceedings{jarrett2023language,\n  title={Language agents as digital representatives in collective decision-making},\n  author={Jarrett, Daniel and Pislar, Miruna and Bakker, Michiel A and Tessler, Michael Henry and Koster, Raphael and Balaguer, Jan and Elie, Romuald and Summerfield, Christopher and Tacchetti, Andrea},\n  booktitle={NeurIPS 2023 Foundation Models for Decision Making Workshop},\n  year={2023},\n  month={12},\n  url={https://openreview.net/pdf?id=sv7KZcUqu1},\n  environments = {text, mixed_objectives},\n  agents = {more_than_three_agents, agents_with_personas, finetuning},\n  evaluation = {model_based},\n  other = {simulated_humans, policy}\n}",
+    authors: "Jarrett et al.",
     subsection: "applications/policy",
 },
         
@@ -3842,6 +4161,7 @@ export const data: Paper[] = [
     other: "policy",
     url: "https://doi.org/10.1145/3526113.3545616",
     bibtex: "@inproceedings{10.1145/3526113.3545616,\nauthor = {Park, Joon Sung and Popowski, Lindsay and Cai, Carrie and Morris, Meredith Ringel and Liang, Percy and Bernstein, Michael S.},\ntitle = {Social Simulacra: Creating Populated Prototypes for Social Computing Systems},\nyear = {2022},\nisbn = {9781450393201},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/3526113.3545616},\ndoi = {10.1145/3526113.3545616},\nbooktitle = {Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology},\narticleno = {74},\nnumpages = {18},\nkeywords = {social computing, prototyping},\nlocation = {Bend, OR, USA},\nseries = {UIST '22},\nenvironments = {text, implicit_objectives},\nagents = {more_than_three_agents},\nevaluation = {human},\nother = {policy},\nmonth = {8}\n}",
+    authors: "Park et al.",
     subsection: "applications/policy",
 },
         
@@ -3854,6 +4174,7 @@ export const data: Paper[] = [
     other: "policy",
     url: "https://arxiv.org/abs/2311.04076",
     bibtex: "@misc{tjuatja2024llms,\n      title={Do LLMs exhibit human-like response biases? A case study in survey design}, \n      author={Lindia Tjuatja and Valerie Chen and Sherry Tongshuang Wu and Ameet Talwalkar and Graham Neubig},\n      year={2024},\n      eprint={2311.04076},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL},\n        url={https://arxiv.org/abs/2311.04076},\n        environments = {text},\n        agents = {prompting_and_in_context_learning},\n        evaluation = {human, model_based},\n        other = {policy},\n}",
+    authors: "Tjuatja et al.",
     subsection: "applications/policy",
 },
         
@@ -3866,6 +4187,7 @@ export const data: Paper[] = [
     other: "policy",
     url: "https://arxiv.org/abs/2402.01908",
     bibtex: "@misc{wang2024large,\n      title={Large language models cannot replace human participants because they cannot portray identity groups}, \n      author={Angelina Wang and Jamie Morgenstern and John P. Dickerson},\n      year={2024},\n      eprint={2402.01908},\n      archivePrefix={arXiv},\n      primaryClass={cs.CY},\n        url={https://arxiv.org/abs/2402.01908},\n        environments = {text},\n        agents = {n/a},\n        evaluation = {n/a},\n        other = {policy},\n}",
+    authors: "Wang et al.",
     subsection: "applications/policy",
 },
         
@@ -3878,6 +4200,7 @@ export const data: Paper[] = [
     other: "policy",
     url: "https://arxiv.org/abs/2402.16333",
     bibtex: "@misc{mou2024unveiling,\n      title={Unveiling the Truth and Facilitating Change: Towards Agent-based Large-scale Social Movement Simulation}, \n      author={Xinyi Mou and Zhongyu Wei and Xuanjing Huang},\n      year={2024},\n      eprint={2402.16333},\n      archivePrefix={arXiv},\n      primaryClass={cs.CY},\n      url={https://arxiv.org/abs/2402.16333},\n      environments = {text},\n      agents = {more_than_three_agents},\n      evaluation = {model_based},\n      other = {policy},\n}",
+    authors: "Mou et al.",
     subsection: "applications/policy",
 },
         
@@ -3890,6 +4213,7 @@ export const data: Paper[] = [
     other: "policy",
     url: "https://arxiv.org/abs/2403.09498",
     bibtex: "@misc{liu2024skepticism,\n      title={From Skepticism to Acceptance: Simulating the Attitude Dynamics Toward Fake News}, \n      author={Yuhan Liu and Xiuying Chen and Xiaoqing Zhang and Xing Gao and Ji Zhang and Rui Yan},\n      year={2024},\n      eprint={2403.09498},\n      archivePrefix={arXiv},\n      primaryClass={cs.SI},\n        url={https://arxiv.org/abs/2403.09498},\n        environments = {text},\n        agents = {more_than_three_agents},\n        evaluation = {model_based},\n        other = {policy},\n}",
+    authors: "Liu et al.",
     subsection: "applications/policy",
 },
         
@@ -3902,6 +4226,7 @@ export const data: Paper[] = [
     other: "policy",
     url: "https://arxiv.org/abs/2004.13332",
     bibtex: "@misc{2004.13332,\n  author = {Stephan Zheng, Alexander Trott, Sunil Srinivasa, Nikhil Naik, Melvin Gruesbeck, David C. Parkes, Richard Socher},\n  title = {The AI Economist: Improving Equality and Productivity with AI-Driven Tax Policies},\n  year = {2020},\n  month = {4},\n  url = {https://arxiv.org/abs/2004.13332},\n  journal = {arXiv},\n  environments = {text, mixed_objectives},\n  agents = {more_than_three_agents},\n  evaluation = {human, rule_based},\n  other = {policy},\n}",
+    authors: "Zheng et al.",
     subsection: "applications/policy",
 },
         
@@ -3914,6 +4239,7 @@ export const data: Paper[] = [
     other: "policy",
     url: "https://arxiv.org/abs/2108.02755",
     bibtex: "@article{zheng2021ai,\n  title={The ai economist: Optimal economic policy design via two-level deep reinforcement learning},\n  author={Zheng, Stephan and Trott, Alexander and Srinivasa, Sunil and Parkes, David C and Socher, Richard},\n  journal={arXiv preprint arXiv:2108.02755},\n  year={2021},\n  month={8},\n  url={https://arxiv.org/abs/2108.02755},\n  environments = {text, mixed_objectives},\n  agents = {more_than_three_agents, reinforcement_learning},\n  evaluation = {human, rule_based},\n  other = {policy},\n}",
+    authors: "Zheng et al.",
     subsection: "applications/policy",
 },
         
@@ -3926,6 +4252,7 @@ export const data: Paper[] = [
     other: "policy",
     url: "https://arxiv.org/abs/2108.02904",
     bibtex: "@misc{trott2021building,\n    title={Building a Foundation for Data-Driven, Interpretable, and Robust Policy Design using the AI Economist}, \n    author={Alexander Trott and Sunil Srinivasa and Douwe van der Wal and Sebastien Haneuse and Stephan Zheng},\n    year={2021},\n    month={8},\n    eprint={2108.02904},\n    archivePrefix={arXiv},\n    primaryClass={cs.LG},\n    url={https://arxiv.org/abs/2108.02904},\n    environments = {text, mixed_objectives},\n    agents = {more_than_three_agents, reinforcement_learning},\n    evaluation = {human, rule_based},\n    other = {policy},\n}",
+    authors: "Trott et al.",
     subsection: "applications/policy",
 },
         
@@ -3938,6 +4265,7 @@ export const data: Paper[] = [
     other: "education",
     url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4617715",
     bibtex: "@article{zhai2023ai,\n  title={AI for Students with Learning Disabilities: A Systematic Review},\n  author={Zhai, Xiaoming and Panjwani-Charania, Sahrish},\n  year={2023},\n  journal={n/a},\n  publisher={Panjwani-Charani, S. \\& Zhai, X.(in press). AI for Students with Learning},\n  month={1},\n  url={https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4617715},\n  environments = {text, virtual},\n  agents = {two_agents, more_than_three_agents},\n  evaluation = {human},\n  other = {education},\n}",
+    authors: "Zhai et al.",
     subsection: "applications/education",
 },
         
@@ -3950,6 +4278,7 @@ export const data: Paper[] = [
     other: "education, human_agent, simulated_humans, more_omniscient",
     url: "https://arxiv.org/abs/2310.05292",
     bibtex: "@INPROCEEDINGS{Ma2024-li,\n  title       = \"How to Teach Programming in the {AI} Era? Using {LLM}s as a Teachable Agent for Debugging\",\n  booktitle   = \"International Conference on Artificial Intelligence in Education\",\n  author      = \"Ma, Qianou and Shen, Hua and Koedinger, Kenneth and Wu,\n                 Tongshuang\",\n  institution = \"Springer\",\n  year        =  2024,\n  month       =  4,\n  url         = \"https://arxiv.org/abs/2310.05292\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents, prompting_and_in_context_learning},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+    authors: "Ma et al.",
     subsection: "applications/education",
 },
         
@@ -3962,6 +4291,7 @@ export const data: Paper[] = [
     other: "education, human_agent, simulated_humans, more_omniscient",
     url: "http://arxiv.org/abs/2311.02775",
     bibtex: "@ARTICLE{Hicke2023-tv,\n  title         = \"{AI-TA}: Towards an Intelligent Question-Answer Teaching Assistant using Open-Source {LLMs}\",\n  author        = \"Hicke, Yann and Agarwal, Anmol and Ma, Qianou and Denny, Paul\",\n  month         =  nov,\n  year          =  2023,\n  url           = \"http://arxiv.org/abs/2311.02775\",\n  archivePrefix = \"arXiv\",\n  eprint        = \"2311.02775\",\n  primaryClass  = \"cs.LG\",\n  arxivid       = \"2311.02775\",\n  environments = {collaboration, text},\n  agents = {two_agents, agents_with_memory, finetuning, reinforcement_learning, prompting_and_in_context_learning},\n  evaluation = {human, model_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+    authors: "Hicke et al.",
     subsection: "applications/education",
 },
         
@@ -3974,6 +4304,7 @@ export const data: Paper[] = [
     other: "education, human_agent, simulated_humans, more_omniscient",
     url: "https://arxiv.org/abs/2404.18262",
     bibtex: "@INPROCEEDINGS{Naik2024generating,\n  title       = \"Generating Situated Reflection Triggers About Alternative Solution Paths: A Case Study in Generative {AI} for Computer-Supported Collaborative Learning\",\n  booktitle   = \"International Conference on Artificial Intelligence in Education\",\n  author      = {Naik, Atharva and Yin, Jessica Ruhan and Kamath, Anusha and Ma, Qianou and Wu, Sherry Tongshuang and Murray, Charles and Bogart, Christopher and Sakr, Majd and Rose, Carolyn P.},\n  institution = \"Springer\",\n  year        =  2024,\n  month       =  4,\n  url         = \"https://arxiv.org/abs/2404.18262\", \n  environments = {mixed_objectives, virtual},\n  agents = {more_than_three_agents, prompting_and_in_context_learning},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+    authors: "Naik et al.",
     subsection: "applications/education",
 },
         
@@ -3986,6 +4317,7 @@ export const data: Paper[] = [
     other: "education, human_agent, simulated_humans, more_omniscient",
     url: "http://arxiv.org/abs/2309.14534",
     bibtex: "@ARTICLE{Jin2023-nf,\n  title         = \"Teach {AI} How to Code: Using Large Language Models as Teachable Agents for Programming Education\",\n  author        = \"Jin, Hyoungwook and Lee, Seonghee and Shin, Hyungyu and Kim, Juho\",\n  month         =  sep,\n  year          =  2023,\n  url           = \"http://arxiv.org/abs/2309.14534\",\n  archivePrefix = \"arXiv\",\n  eprint        = \"2309.14534\",\n  primaryClass  = \"cs.HC\",\n  arxivid       = \"2309.14534\",\n  doi           = \"10.1145/3613904.3642349\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents, prompting_and_in_context_learning},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+    authors: "Jin et al.",
     subsection: "applications/education",
 },
         
@@ -3998,6 +4330,7 @@ export const data: Paper[] = [
     other: "education, human_agent, more_omniscient",
     url: "http://arxiv.org/abs/2401.11314",
     bibtex: "@ARTICLE{Kazemitabaar2024-mg,\n  title         = \"{CodeAid}: Evaluating a Classroom Deployment of an {LLM-based} Programming Assistant that Balances Student and Educator Needs\",\n  author        = \"Kazemitabaar, Majeed and Ye, Runlong and Wang, Xiaoning and Henley, Austin Z and Denny, Paul and Craig, Michelle and Grossman, Tovi\",\n  month         =  jan,\n  year          =  2024,\n  url           = \"http://arxiv.org/abs/2401.11314\",\n  archivePrefix = \"arXiv\",\n  eprint        = \"2401.11314\",\n  primaryClass  = \"cs.HC\",\n  arxivid       = \"2401.11314\",\n  doi           = \"10.1145/3613904.3642773\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents, prompting_and_in_context_learning},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, more_omniscient},\n}",
+    authors: "Kazemitabaar et al.",
     subsection: "applications/education",
 },
         
@@ -4010,6 +4343,7 @@ export const data: Paper[] = [
     other: "education, human_agent, more_omniscient",
     url: "http://arxiv.org/abs/2401.17163",
     bibtex: "@ARTICLE{Chen2024-du,\n  title         = \"Learning Agent-based Modeling with {LLM} Companions: Experiences of Novices and Experts Using {ChatGPT} \\& {NetLogo} Chat\",\n  author        = \"Chen, John and Lu, Xi and Rejtig, Michael and Du, David and Bagley, Ruth and Horn, Michael S and Wilensky, Uri J\",\n  month         =  jan,\n  year          =  2024,\n  url           = \"http://arxiv.org/abs/2401.17163\",\n  archivePrefix = \"arXiv\",\n  eprint        = \"2401.17163\",\n  primaryClass  = \"cs.HC\",\n  arxivid       = \"2401.17163\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents, prompting_and_in_context_learning},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, more_omniscient},\n}",
+    authors: "Chen et al.",
     subsection: "applications/education",
 },
         
@@ -4022,6 +4356,7 @@ export const data: Paper[] = [
     other: "education, human_agent, simulated_humans, more_omniscient",
     url: "https://doi.org/10.1145/3573051.3593393",
     bibtex: "@INPROCEEDINGS{Markel2023-po,\n  title     = \"{GPTeach}: Interactive {TA} Training with {GPT-based} Students\",\n  booktitle = \"Proceedings of the Tenth {ACM} Conference on Learning @ Scale\",\n  author    = \"Markel, Julia M and Opferman, Steven G and Landay, James A and Piech, Chris\",\n  publisher = \"Association for Computing Machinery\",\n  pages     = \"226--236\",\n  series    = \"L@S '23\",\n  month     =  jul,\n  year      =  2023,\n  url       = \"https://doi.org/10.1145/3573051.3593393\",\n  address   = \"New York, NY, USA\",\n  location  = \"Copenhagen, Denmark\",\n  isbn      = \"9798400700255\",\n  doi       = \"10.1145/3573051.3593393\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents, prompting_and_in_context_learning},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+    authors: "Markel et al.",
     subsection: "applications/education",
 },
         
@@ -4034,6 +4369,7 @@ export const data: Paper[] = [
     other: "education, human_agent, simulated_humans, more_omniscient",
     url: "http://arxiv.org/abs/2310.01420",
     bibtex: "@ARTICLE{Schmucker2023-fb,\n  title         = \"{Ruffle\\&Riley}: Towards the Automated Induction of Conversational Tutoring Systems\",\n  author        = \"Schmucker, Robin and Xia, Meng and Azaria, Amos and Mitchell, Tom\",\n  month         =  sep,\n  year          =  2023,\n  url           = \"http://arxiv.org/abs/2310.01420\",\n  archivePrefix = \"arXiv\",\n  eprint        = \"2310.01420\",\n  primaryClass  = \"cs.CL\",\n  arxivid       = \"2310.01420\",\n  environments = {mixed_objectives, virtual},\n  agents = {more_than_three_agents, prompting_and_in_context_learning},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+    authors: "Schmucker et al.",
     subsection: "applications/education",
 },
         
@@ -4046,6 +4382,7 @@ export const data: Paper[] = [
     other: "education, human_agent, simulated_humans, more_omniscient",
     url: "https://doi.org/10.1145/3498326",
     bibtex: "@ARTICLE{Robe2022-rz,\n  title     = \"Designing {PairBuddy---A} Conversational Agent for Pair Programming\",\n  author    = \"Robe, Peter and Kuttal, Sandeep Kaur\",\n  journal   = \"ACM Trans. Comput.-Hum. Interact.\",\n  publisher = \"Association for Computing Machinery\",\n  volume    =  29,\n  number    =  4,\n  pages     = \"1--44\",\n  month     =  may,\n  year      =  2022,\n  url       = \"https://doi.org/10.1145/3498326\",\n  address   = \"New York, NY, USA\",\n  issn      = \"1073-0516\",\n  doi       = \"10.1145/3498326\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+    authors: "Robe et al.",
     subsection: "applications/education",
 },
         
@@ -4058,6 +4395,7 @@ export const data: Paper[] = [
     other: "education, human_agent, simulated_humans, more_omniscient",
     url: "https://doi.org/10.2190/EC.49.1.a",
     bibtex: "@ARTICLE{Schroeder2013-ub,\n  title     = \"How Effective are Pedagogical Agents for Learning? A {Meta-Analytic} Review\",\n  author    = \"Schroeder, Noah L and Adesope, Olusola O and Gilbert, Rachel Barouch\",\n  journal   = \"Journal of Educational Computing Research\",\n  publisher = \"SAGE Publications Inc\",\n  volume    =  49,\n  number    =  1,\n  pages     = \"1--39\",\n  month     =  jul,\n  year      =  2013,\n  url       = \"https://doi.org/10.2190/EC.49.1.a\",\n  issn      = \"0735-6331\",\n  doi       = \"10.2190/EC.49.1.a\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+    authors: "Schroeder et al.",
     subsection: "applications/education",
 },
         
@@ -4070,6 +4408,7 @@ export const data: Paper[] = [
     other: "education, human_agent, simulated_humans, more_omniscient",
     url: "http://dx.doi.org/10.1037/a0031955",
     bibtex: "@ARTICLE{Matsuda2013-ev,\n  title   = \"Cognitive anatomy of tutor learning: Lessons learned with {SimStudent}\",\n  author  = \"Matsuda, Noboru and Yarzebinski, Evelyn and Keiser, Victoria and Raizada, Rohan and Cohen, William W and Stylianides, Gabriel J and Koedinger, Kenneth R\",\n  journal = \"J. Educ. Psychol.\",\n  volume  =  105,\n  number  =  4,\n  pages   = \"1152--1163\",\n  month   =  nov,\n  year    =  2013,\n  url     = \"http://dx.doi.org/10.1037/a0031955\",\n  issn    = \"0022-0663, 1939-2176\",\n  doi     = \"10.1037/a0031955\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+    authors: "Matsuda et al.",
     subsection: "applications/education",
 },
         
@@ -4082,6 +4421,7 @@ export const data: Paper[] = [
     other: "education, human_agent, simulated_humans, more_omniscient",
     url: "http://dx.doi.org/10.1126/science.228.4698.456",
     bibtex: "@ARTICLE{Anderson1985-wg,\n  title    = \"Intelligent tutoring systems\",\n  author   = \"Anderson, J R and Boyle, C F and Reiser, B J\",\n  journal  = \"Science\",\n  volume   =  228,\n  number   =  4698,\n  pages    = \"456--462\",\n  month    =  apr,\n  year     =  1985,\n  url      = \"http://dx.doi.org/10.1126/science.228.4698.456\",\n  language = \"en\",\n  issn     = \"0036-8075\",\n  pmid     = \"17746875\",\n  doi      = \"10.1126/science.228.4698.456\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+    authors: "Anderson et al.",
     subsection: "applications/education",
 },
         
@@ -4094,6 +4434,7 @@ export const data: Paper[] = [
     other: "education, human_agent, simulated_humans, more_omniscient",
     url: "http://arxiv.org/abs/2305.13272",
     bibtex: "@ARTICLE{Sonkar2023-mr,\n  title         = \"{CLASS} Meet {SPOCK}: An Education Tutoring Chatbot based on Learning Science Principles\",\n  author        = \"Sonkar, Shashank and Liu, Lucy and Mallick, Debshila Basu\n                   and Baraniuk, Richard G\",\n  month         =  may,\n  year          =  2023,\n  url           = \"http://arxiv.org/abs/2305.13272\",\n  archivePrefix = \"arXiv\",\n  eprint        = \"2305.13272\",\n  primaryClass  = \"cs.CL\",\n  arxivid       = \"2305.13272\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents},\n  evaluation = {qualitative, human, rule_based},\n  other = {education, human_agent, simulated_humans, more_omniscient},\n}",
+    authors: "Sonkar et al.",
     subsection: "applications/education",
 },
         
@@ -4106,6 +4447,7 @@ export const data: Paper[] = [
     other: "education, simulated_humans, more_omniscient",
     url: "http://files.eric.ed.gov/fulltext/ED615518.pdf",
     bibtex: "@ARTICLE{Zhang2021-gz,\n  title     = \"Going Online: A Simulated Student Approach for Evaluating Knowledge Tracing in the Context of Mastery Learning\",\n  author    = \"Zhang, Qiao and Maclellan, Christopher J\",\n  journal   = \"International Educational Data Mining Society\",\n  publisher = \"International Educational Data Mining Society. e-mail:\n               admin@educationaldatamining.org; Web site:\n               https://educationaldatamining.org/conferences/\",\n  year      =  2021,\n  month     =  jun,\n  url       = \"http://files.eric.ed.gov/fulltext/ED615518.pdf\",\n  language  = \"en\",\n  environments = {mixed_objectives, virtual},\n  agents = {more_than_three_agents},\n  evaluation = {human, rule_based},\n  other = {education, simulated_humans, more_omniscient},\n}",
+    authors: "Zhang et al.",
     subsection: "applications/education",
 },
         
@@ -4118,6 +4460,7 @@ export const data: Paper[] = [
     other: "education, simulated_humans, more_omniscient",
     url: "https://link.springer.com/chapter/10.1007/978-3-030-52237-7_47",
     bibtex: "@ARTICLE{Weitekamp2020-lw,\n  title     = \"Investigating differential error types between human and simulated learners\",\n  author    = \"Weitekamp, D and Ye, Z and Rachatasumrit, N and {others}\",\n  journal   = \"Artif. Intell.\",\n  publisher = \"Springer\",\n  year      =  2020,\n  month     =  june,\n  url       = \"https://link.springer.com/chapter/10.1007/978-3-030-52237-7_47\",\n  issn      = \"0004-3702\",\n  environments = {mixed_objectives, virtual},\n  agents = {more_than_three_agents},\n  evaluation = {human, rule_based},\n  other = {education, simulated_humans, more_omniscient},\n}",
+    authors: "Weitekamp et al.",
     subsection: "applications/education",
 },
         
@@ -4130,6 +4473,7 @@ export const data: Paper[] = [
     other: "education",
     url: "https://dl.acm.org/doi/10.1145/3563659.3563669",
     bibtex: "@INCOLLECTION{Lane2022-cw,\n  title     = \"Pedagogical Agents\",\n  booktitle = \"The Handbook on Socially Interactive Agents: 20 years of\n               Research on Embodied Conversational Agents, Intelligent Virtual\n               Agents, and Social Robotics Volume 2: Interactivity, Platforms,\n               Application\",\n  author    = \"Lane, H Chad and Schroeder, Noah L\",\n  publisher = \"Association for Computing Machinery\",\n  volume    =  48,\n  pages     = \"307-330\",\n  edition   =  1,\n  month     =  nov,\n  year      =  2022,\n  address   = \"New York, NY, USA\",\n  url = \"https://dl.acm.org/doi/10.1145/3563659.3563669\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents, more_than_three_agents},\n  evaluation = {human, rule_based},\n  other = {education}\n}",
+    authors: "Lane et al.",
     subsection: "applications/education",
 },
         
@@ -4142,6 +4486,7 @@ export const data: Paper[] = [
     other: "education",
     url: "https://dl.acm.org/doi/10.1145/3563659.3563670",
     bibtex: "@INCOLLECTION{Cassell2022-wb,\n  title     = \"Socially Interactive Agents as Peers\",\n  booktitle = \"The Handbook on Socially Interactive Agents: 20 years of\n               Research on Embodied Conversational Agents, Intelligent Virtual\n               Agents, and Social Robotics Volume 2: Interactivity, Platforms,\n               Application\",\n  author    = \"Cassell, Justine\",\n  publisher = \"Association for Computing Machinery\",\n  volume    =  48,\n  pages     = \"331--366\",\n  edition   =  1,\n  month     =  nov,\n  year      =  2022,\n  address   = \"New York, NY, USA\",\n  url = \"https://dl.acm.org/doi/10.1145/3563659.3563670\",\n  environments = {mixed_objectives, virtual},\n  agents = {two_agents, more_than_three_agents},\n  evaluation = {human, rule_based},\n  other = {education}\n}",
+    authors: "Cassell et al.",
     subsection: "applications/education",
 },
         
@@ -4154,6 +4499,7 @@ export const data: Paper[] = [
     other: "education",
     url: "https://mit-genai.pubpub.org/pub/4k9msp17/release/1",
     bibtex: "@article{Klopfer2024Generative,\n  author = {Klopfer, Eric and Reich, Justin and Abelson, Hal and Breazeal, Cynthia},\n  journal = {An MIT Exploration of Generative AI},\n  year = {2024},\n  month = {March},\n  note = {https://mit-genai.pubpub.org/pub/4k9msp17},\n  publisher = {MIT},\n  title = {Generative {AI} and {K}-12 {Education}: An {MIT} {Perspective}},\n  url = \"https://mit-genai.pubpub.org/pub/4k9msp17/release/1\",\n  environments = {mixed_objectives},\n  agents = {two_agents},\n  evaluation = {human, rule_based},\n  other = {education}\n}",
+    authors: "Klopfer et al.",
     subsection: "applications/education",
 },
         
@@ -4166,6 +4512,7 @@ export const data: Paper[] = [
     other: "education, more_omniscient",
     url: "https://ieeexplore.ieee.org/document/5669250",
     bibtex: "@ARTICLE{Kumar2011-ConvAgents,\n  author={Kumar, Rohit and Ros\u00e9, Carolyn P.},\n  journal={IEEE Transactions on Learning Technologies}, \n  title={Architecture for Building Conversational Agents that Support Collaborative Learning}, \n  month={Jan},\n  year={2011},\n  volume={4},\n  number={1},\n  pages={21-34},\n  keywords={Collaborative work;Computer architecture;Buildings;Object oriented modeling;Architecture;Cognition;Collaboration;Collaborative learning;intelligent agents;natural language interfaces;software architectures.},\n  doi={10.1109/TLT.2010.41},\n  url = \"https://ieeexplore.ieee.org/document/5669250\",\n  environments = {mixed_objectives, virtual},\n  agents = {more_than_three_agents},\n  evaluation = {human, rule_based},\n  other = {education, more_omniscient}\n}",
+    authors: "Kumar et al.",
     subsection: "applications/education",
 },
         
@@ -4178,6 +4525,7 @@ export const data: Paper[] = [
     other: "education, more_omniscient",
     url: "https://link.springer.com/article/10.1007/s10648-009-9116-9",
     bibtex: "@ARTICLE{Diziol2010-ua,\n  title    = \"Using Intelligent Tutor Technology to Implement Adaptive Support\n              for Student Collaboration\",\n  author   = \"Diziol, Dejana and Walker, Erin and Rummel, Nikol and Koedinger,\n              Kenneth R\",\n  journal  = \"Educ. Psychol. Rev.\",\n  volume   =  22,\n  number   =  1,\n  pages    = \"89-102\",\n  month    =  mar,\n  year     =  2010,\n  url = \"https://link.springer.com/article/10.1007/s10648-009-9116-9\",\n  environments = {mixed_objectives, virtual},\n  agents = {more_than_three_agents},\n  evaluation = {human, rule_based},\n  other = {education, more_omniscient}\n}",
+    authors: "Diziol et al.",
     subsection: "applications/education",
 },
         
@@ -4190,6 +4538,7 @@ export const data: Paper[] = [
     other: "education, more_omniscient",
     url: "https://doi.org/10.1145/3610977.3634950",
     bibtex: "@inproceedings{Williams2024-doodlebot,\n  author = {Williams, Randi and Ali, Safinah and Alcantara, Ra\\'{u}l and Burghleh, Tasneem and Alghowinem, Sharifa and Breazeal, Cynthia},\n  title = {Doodlebot: An Educational Robot for Creativity and AI Literacy},\n  month = {March},\n  year = {2024},\n  isbn = {9798400703225},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3610977.3634950},\n  doi = {10.1145/3610977.3634950},\n  abstract = {Today, Artificial Intelligence (AI) is prevalent in everyday life, with emerging technologies like AI companions, autonomous vehicles, and AI art tools poised to significantly transform the future. The development of AI curricula that shows people how AI works and what they can do with it is a powerful way to prepare everyone, and especially young learners, for an increasingly AI-driven world. Educators often employ robotic toolkits in the classroom to boost engagement and learning. However, these platforms are generally unsuitable for young learners and learners without programming expertise. Moreover, these platforms often serve as either programmable artifacts or pedagogical agents, rarely capitalizing on the opportunity to support students in both capacities. We designed Doodlebot, a mobile social robot for hands-on AI education to address these gaps. Doodlebot is an effective tool for exploring AI with grade school (K-12) students, promoting their understanding of AI concepts such as perception, representation, reasoning and generation. We begin by elaborating Doodlebot's design, highlighting its reliability, user-friendliness, and versatility. Then, we demonstrate Doodlebot's versatility through example curricula about AI character design, autonomous robotics, and generative AI accessible to young learners. Finally, we share the results of a preliminary user study with elementary school youth where we found that the physical Doodlebot platform was as effective and user-friendly as the virtual version. This work offers insights into designing interactive educational robots that can inform future AI curricula and tools.},\n  booktitle = {Proceedings of the 2024 ACM/IEEE International Conference on Human-Robot Interaction},\n  pages = {772\u2013780},\n  numpages = {9},\n  keywords = {collaboration, creativity, education, social robots},\n  location = {<conf-loc>, <city>Boulder</city>, <state>CO</state>, <country>USA</country>, </conf-loc>},\n  series = {HRI '24},\n  environments = {mixed_objectives, virtual, robotics},\n  agents = {more_than_three_agents},\n  evaluation = {human, rule_based},\n  other = {education, more_omniscient}\n}",
+    authors: "Williams et al.",
     subsection: "applications/education",
 },
         
@@ -4202,6 +4551,7 @@ export const data: Paper[] = [
     other: "education, more_omniscient",
     url: "https://dl.acm.org/doi/10.1145/3568162.3576968",
     bibtex: "@INPROCEEDINGS{Zhang2023-wg,\n  title     = \"A Social Robot Reading Partner for Explorative Guidance\",\n  booktitle = \"Proceedings of the 2023 {ACM/IEEE} International Conference on\n               {Human-Robot} Interaction\",\n  author    = \"Zhang, Xiajie and Breazeal, Cynthia and Park, Hae Won\",\n  publisher = \"Association for Computing Machinery\",\n  pages     = \"341-349\",\n  series    = \"HRI '23\",\n  month     =  mar,\n  year      =  2023,\n  address   = \"New York, NY, USA\",\n  keywords  = \"ai-guided education, child-centered pedagogy, child-robot\n               interaction, educational technology, social robot\",\n  url = \"https://dl.acm.org/doi/10.1145/3568162.3576968\",\n  environments = {mixed_objectives, robotics},\n  agents = {two_agents},\n  evaluation = {human, rule_based},\n  other = {education, more_omniscient}\n}",
+    authors: "Zhang et al.",
     subsection: "applications/education",
 },
         
@@ -4214,6 +4564,7 @@ export const data: Paper[] = [
     other: "education, more_omniscient",
     url: "https://doi.org/10.1145/3527927.3532793",
     bibtex: "@inproceedings{Ali2022-EscapeBot,\n  author = {Ali, Safinah and Devasia, Nisha Elizabeth and Breazeal, Cynthia},\n  title = {Escape!Bot: Social Robots as Creative Problem-Solving Partners},\n  month = {June},\n  year = {2022},\n  isbn = {9781450393270},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3527927.3532793},\n  doi = {10.1145/3527927.3532793},\n  abstract = {In this work, we explore the effect of a social robot\u2019s embodiment and creativity scaffolding on children\u2019s creative problem solving skills in the context of a digital creative problem-solving game called Escape!Bot. Children aged 5-11 years played the video game, which involved assembling contraptions to escape a digital world, and the robot Jibo acted as a collaborative peer that offered questions, reflective prompts, challenges, and ideas. In order to evaluate the role of the robot\u2019s co-presence and creativity scaffolding, we ran a 2x2 experiment to determine the factorial efficacy of the robot\u2019s embodiment and creativity scaffolding behaviors. We observed mixed results, with the robot\u2019s creativity scaffolding having a positive influence on the time taken to complete the game, but not on the overall use of novel objects or reuse of objects. We present the system design, user study and findings from Escape!Bot to investigate the feasibility of designing social robots to support creative problem solving.},\n  booktitle = {Proceedings of the 14th Conference on Creativity and Cognition},\n  pages = {275\u2013283},\n  numpages = {9},\n  keywords = {social robots, divergent thinking, creativity, collaboration, child-robot interaction},\n  location = {Venice, Italy},\n  series = {C&C '22},\n  environments = {mixed_objectives, robotics},\n  agents = {two_agents},\n  evaluation = {human, rule_based},\n  other = {education, more_omniscient}\n}",
+    authors: "Ali et al.",
     subsection: "applications/education",
 },
         
@@ -4226,6 +4577,7 @@ export const data: Paper[] = [
     other: "education, more_omniscient",
     url: "https://link.springer.com/chapter/10.1007/978-3-319-93843-1_21",
     bibtex: "@INPROCEEDINGS{Lubold2018-em,\n  title     = \"Automated Pitch Convergence Improves Learning in a Social,\n               Teachable Robot for Middle School Mathematics\",\n  booktitle = \"Artificial Intelligence in Education\",\n  author    = \"Lubold, Nichola and Walker, Erin and Pon-Barry, Heather and\n               Ogan, Amy\",\n  publisher = \"Springer International Publishing\",\n  pages     = \"282-296\",\n  month = {June},\n  year      =  2018,\n  url = \"https://link.springer.com/chapter/10.1007/978-3-319-93843-1_21\",\n  environments = {mixed_objectives, robotics},\n  agents = {two_agents},\n  evaluation = {human, rule_based},\n  other = {education, more_omniscient}\n}",
+    authors: "Lubold et al.",
     subsection: "applications/education",
 },
         
@@ -4238,6 +4590,7 @@ export const data: Paper[] = [
     other: "human_agent, education",
     url: "https://ojs.aaai.org/index.php/AAAI/article/view/9914",
     bibtex: "@inproceedings{gordon2016affective,\n  title={Affective personalization of a social robot tutor for children\u2019s second language skills},\n  author={Gordon, Goren and Spaulding, Samuel and Westlund, Jacqueline Kory and Lee, Jin Joo and Plummer, Luke and Martinez, Marayna and Das, Madhurima and Breazeal, Cynthia},\n  booktitle={Proceedings of the AAAI conference on artificial intelligence},\n  volume={30},\n  number={1},\n  year={2016},\n  month={3},\n  url={https://ojs.aaai.org/index.php/AAAI/article/view/9914},\n  environments = {robotics, collaboration},\n  agents = {reinforcement_learning},\n  evaluation = {human, model_based, rule_based},\n  other = {human_agent, education},\n}",
+    authors: "Gordon et al.",
     subsection: "applications/education",
 },
         
@@ -4250,6 +4603,7 @@ export const data: Paper[] = [
     other: "education, more_omniscient",
     url: "https://par.nsf.gov/biblio/10437737-traveling-bazaar-portable-support-face-face-collaboration",
     bibtex: "@INPROCEEDINGS{Vitiello2023-xx,\n  title           = \"Traveling Bazaar: Portable Support for {Face-to-Face}\n                     Collaboration\",\n  booktitle       = \"Proceedings of 3rd Annual Meeting of the International\n                     Society of the Learning Sciences ({ISLS})\",\n  author          = \"Vitiello, R and Tiwari, S D and Murray, R C and Ros{\\'e},\n                     C\",\n  pages           = \"59--60\",\n  month           = may,\n  year            =  2023,\n  conference      = \"ISLS\",\n  location        = \"Montreal\",\n  url             = \"https://par.nsf.gov/biblio/10437737-traveling-bazaar-portable-support-face-face-collaboration\",\n  environments = {mixed_objectives},\n  agents = {two_agents, more_than_three_agents},\n  evaluation = {human, rule_based},\n  other = {education, more_omniscient}\n}",
+    authors: "Vitiello et al.",
     subsection: "applications/education",
 },
         
@@ -4262,6 +4616,7 @@ export const data: Paper[] = [
     other: "education, more_omniscient",
     url: "https://doi.org/10.1007/s10648-024-09868-z",
     bibtex: "@ARTICLE{Huber2024-by,\n  title    = \"Leveraging the Potential of Large Language Models in Education\n              Through Playful and {Game-Based} Learning\",\n  author   = \"Huber, Stefan E and Kiili, Kristian and Nebel, Steve and Ryan,\n              Richard M and Sailer, Michael and Ninaus, Manuel\",\n  abstract = \"This perspective piece explores the transformative potential and\n              associated challenges of large language models (LLMs) in\n              education and how those challenges might be addressed utilizing\n              playful and game-based learning. While providing many\n              opportunities, the stochastic elements incorporated in how\n              present LLMs process text, requires domain expertise for a\n              critical evaluation and responsible use of the generated output.\n              Yet, due to their low opportunity cost, LLMs in education may\n              pose some risk of over-reliance, potentially and unintendedly\n              limiting the development of such expertise. Education is thus\n              faced with the challenge of preserving reliable expertise\n              development while not losing out on emergent opportunities. To\n              address this challenge, we first propose a playful approach\n              focusing on skill practice and human judgment. Drawing from\n              game-based learning research, we then go beyond this playful\n              account by reflecting on the potential of well-designed games to\n              foster a willingness to practice, and thus nurturing\n              domain-specific expertise. We finally give some perspective on\n              how a new pedagogy of learning with AI might utilize LLMs for\n              learning by generating games and gamifying learning materials,\n              leveraging the full potential of human-AI interaction in\n              education.\",\n  journal  = \"Educ. Psychol. Rev.\",\n  volume   =  36,\n  number   =  1,\n  pages    = \"25\",\n  month    =  feb,\n  year     =  2024,\n  url      = \"https://doi.org/10.1007/s10648-024-09868-z\",\n  environments = {mixed_objectives},\n  agents = {two_agents, more_than_three_agents},\n  evaluation = {human, rule_based},\n  other = {education, more_omniscient}\n}",
+    authors: "Huber et al.",
     subsection: "applications/education",
 },
         
@@ -4274,6 +4629,7 @@ export const data: Paper[] = [
     other: "education, more_omniscient",
     url: "https://doi.org/10.1145/633292.633443",
     bibtex: "@inproceedings{Cassell2000-ok,\n  author = {Cassell, J. and Ananny, M. and Basu, A. and Bickmore, T. and Chong, P. and Mellis, D. and Ryokai, K. and Smith, J. and Vilhj\\'{a}lmsson, H. and Yan, H.},\n  title = {Shared reality: physical collaboration with a virtual peer},\n  month = {April},\n  year = {2000},\n  isbn = {1581132484},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/633292.633443},\n  doi = {10.1145/633292.633443},\n  abstract = {We describe a novel interface, in which a human and embodied conversational agent share a seamlessly integrated virtual and physical environment. This type of interface, in which objects are passed from the real to the virtual world, has potential applications in unsupervised learning, collaborative work, and entertainment. We introduce Sam, our first implementation of such an interface, which allows children to engage in natural storytelling play with real objects, in collaboration with a virtual playmate who shares access to those real objects.},\n  booktitle = {CHI '00 Extended Abstracts on Human Factors in Computing Systems},\n  pages = {259\u2013260},\n  numpages = {2},\n  keywords = {tangible interface, storytelling, shared reality, peer, embodied conversational agent, collaboration, children},\n  location = {The Hague, The Netherlands},\n  series = {CHI EA '00},\n  environments = {collaboration},\n  agents = {two_agents},\n  evaluation = {human, rule_based},\n  other = {education, more_omniscient}\n}",
+    authors: "Cassell et al.",
     subsection: "applications/education",
 },
         
@@ -4286,6 +4642,7 @@ export const data: Paper[] = [
     other: "education, more_omniscient",
     url: "https://doi.org/10.1007/978-3-642-21869-9_22",
     bibtex: "@inproceedings{Lane2011-lv,\n  author = {Lane, H. Chad and Noren, Dan and Auerbach, Daniel and Birch, Mike and Swartout, William},\n  title = {Intelligent tutoring goes to the museum in the big city: a pedagogical agent for informal science education},\n  month = {June},\n  year = {2011},\n  isbn = {9783642218682},\n  publisher = {Springer-Verlag},\n  address = {Berlin, Heidelberg},\n  abstract = {In this paper, we describe Coach Mike, a virtual staff member at the Boston Museum of Science that seeks to help visitors at Robot Park, an interactive exhibit for computer programming. By tracking visitor interactions and through the use of animation, gestures, and synthesized speech, Coach Mike provides several forms of support that seek to improve the experiences of museum visitors. These include orientation tactics, exploration support, and problem solving guidance. Additional tactics use encouragement and humor to entice visitors to stay more deeply engaged. Preliminary analysis of interaction logs suggest that visitors can follow Coach Mike's guidance and may be less prone to immediate disengagement, but further study is needed.},\n  booktitle = {Proceedings of the 15th International Conference on Artificial Intelligence in Education},\n  pages = {155\u2013162},\n  numpages = {8},\n  keywords = {coaching, computer science education, entertainment, informal science education, intelligent tutoring systems, pedagogical agents},\n  location = {Auckland, New Zealand},\n  series = {AIED'11},\n  url = {https://doi.org/10.1007/978-3-642-21869-9_22},\n  environments = {collaboration},\n  agents = {two_agents},\n  evaluation = {human, rule_based},\n  other = {education, more_omniscient}\n}",
+    authors: "Lane et al.",
     subsection: "applications/education",
 },
         
@@ -4298,6 +4655,7 @@ export const data: Paper[] = [
     other: "education, more_omniscient",
     url: "https://doi.org/10.1145/3613905.3651008",
     bibtex: "@inproceedings{Liu2024-od,\n  author = {Liu, Jiawen and Yao, Yuanyuan and An, Pengcheng and Wang, Qi},\n  title = {PeerGPT: Probing the Roles of LLM-based Peer Agents as Team Moderators and Participants in Children's Collaborative Learning},\n  month = {May},\n  year = {2024},\n  isbn = {9798400703317},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3613905.3651008},\n  doi = {10.1145/3613905.3651008},\n  abstract = {In children\u2019s collaborative learning, effective peer conversations can significantly enhance the quality of children\u2019s collaborative interactions. The integration of Large Language Model (LLM) agents into this setting explores their novel role as peers, assessing impacts as team moderators and participants. We invited two groups of participants to engage in a collaborative learning workshop, where they discussed and proposed conceptual solutions to a design problem. The peer conversation transcripts were analyzed using thematic analysis. We discovered that peer agents, while managing discussions effectively as team moderators, sometimes have their instructions disregarded. As participants, they foster children\u2019s creative thinking but may not consistently provide timely feedback. These findings highlight potential design improvements and considerations for peer agents in both roles.},\n  booktitle = {Extended Abstracts of the 2024 CHI Conference on Human Factors in Computing Systems},\n  articleno = {263},\n  numpages = {6},\n  keywords = {Collaborat learning, Conversational agent, Large Language Model, Peer conversation},\n  location  = \"<conf-loc> <city>Honolulu</city> <state>HI</state>\n               <country>USA</country> </conf-loc>\",\n  series = {CHI EA '24},\n  environments = {mixed_objectives},\n  agents = {more_than_three_agents},\n  evaluation = {human, rule_based},\n  other = {education, more_omniscient}\n}",
+    authors: "Liu et al.",
     subsection: "applications/education",
 },
         
@@ -4310,6 +4668,7 @@ export const data: Paper[] = [
     other: "education, more_omniscient",
     url: "https://doi.org/10.1145/3613905.3650774",
     bibtex: "@inproceedings{Isaza-Giraldo2024-ek,\n  author = {Isaza-Giraldo, Andr\\'{e}s and Bala, Paulo and Campos, Pedro F. and Pereira, Lucas},\n  title = {Prompt-Gaming: A Pilot Study on LLM-Evaluating Agent in a Meaningful Energy Game},\n  month = {May},\n  year = {2024},\n  isbn = {9798400703317},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3613905.3650774},\n  doi = {10.1145/3613905.3650774},\n  abstract = {Building on previous work on incorporating large language models (LLM) in gaming, we investigate the possibility of implementing LLM as evaluating agents of open-ended challenges in serious games and its potential to facilitate a meaningful experience for the player. We contribute with a sustainability game prototype in a single natural language prompt about energy communities and we tested it with 13 participants inside ChatGPT-3.5. Two participants were already aware of energy communities before the game, and eight of the remaining 11 gained valuable knowledge about the specific topic. Comparing ChatGPT-3.5 evaluations of players\u2019 interaction with an expert\u2019s assessment, ChatGPT-3.5 correctly evaluated 81\\% of player\u2019s answers. Our results are encouraging and show the potential of using LLMs as mediating agents in educational games, while also allowing easy prototyping of games through natural language prompts.},\n  booktitle = {Extended Abstracts of the 2024 CHI Conference on Human Factors in Computing Systems},\n  articleno = {272},\n  numpages = {12},\n  keywords = {Energy Communities, Game-based Learning, Large Language Models (LLMs), Natural Language Processing (NLP), Serious Games, Sustainability},\n  location  = \"<conf-loc> <city>Honolulu</city> <state>HI</state>\n                <country>USA</country> </conf-loc>\",\n  series = {CHI EA '24},\n  environments = {collaboration},\n  agents = {two_agents},\n  evaluation = {human, rule_based},\n  other = {education, more_omniscient}\n}",
+    authors: "Isaza-Giraldo et al.",
     subsection: "applications/education",
 },
         
@@ -4322,6 +4681,7 @@ export const data: Paper[] = [
     other: "education, more_omniscient",
     url: "https://doi.org/10.1145/3613905.3650868",
     bibtex: "@inproceedings{Cai2024-nb,\n  author = {Cai, Zhenyao and Park, Seehee and Nixon, Nia and Doroudi, Shayan},\n  title = {Advancing Knowledge Together: Integrating Large Language Model-based Conversational AI in Small Group Collaborative Learning},\n  month = {May}, \n  year = {2024},\n  isbn = {9798400703317},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3613905.3650868},\n  doi = {10.1145/3613905.3650868},\n  abstract = {In today\u2019s educational landscape, students learn collaboratively, where students benefit from both peer interactions and facilitator guidance. Prior research in Human-Computer Interaction (HCI) and Computer-Supported Collaborative Learning (CSCL) has explored chatbots and AI techniques to aid such collaboration. However, these methods often depend on predefined dialogues (which limits adaptability), are not based on collaborative learning theories, and do not fully recognize the learning context. In this paper, we introduce an Large Language Model (LLM)-powered conversational AI, designed to enhance small group learning through its advanced language understanding and generation capabilities. We detail the iterative design process, final design, and implementation. Our preliminary evaluation indicates that the bot performs as designed but points to considerations in the timing of interventions and bot\u2019s role in discussions. The evaluation also reveals that learners perceive the bot\u2019s tone and behavior as important for engagement. We discuss design implications for chatbot integration in collaborative learning and future research directions.},\n  booktitle = {Extended Abstracts of the 2024 CHI Conference on Human Factors in Computing Systems},\n  articleno = {37},\n  numpages = {9},\n  keywords = {AI facilitator, Collaborative Learning, Human-AI Collaboration},\n  location  = \"<conf-loc> <city>Honolulu</city> <state>HI</state>\n                <country>USA</country> </conf-loc>\",\n  series = {CHI EA '24},\n  environments = {mixed_objectives},\n  agents = {more_than_three_agents},\n  evaluation = {human, rule_based},\n  other = {education, more_omniscient}\n}",
+    authors: "Cai et al.",
     subsection: "applications/education",
 },
         
@@ -4334,6 +4694,7 @@ export const data: Paper[] = [
     other: "education, more_omniscient",
     url: "https://doi.org/10.1145/3613905.3650770",
     bibtex: "@inproceedings{10.1145/3613905.3650770,\n  author = {Chin, Jenna H and Lee, Seungwook and Ashraf, Mohsena and Zago, Matt and Xie, Yun and Wolfgram, Elizabeth A and Yeh, Tom and Kim, Pilyoung},\n  title = {Young Children's Creative Storytelling with ChatGPT vs. Parent: Comparing Interactive Styles},\n  month = {May},\n  year = {2024},\n  isbn = {9798400703317},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3613905.3650770},\n  doi = {10.1145/3613905.3650770},\n  abstract = {Creative storytelling with parents plays an important role in child development including language skills, social competence, and emotional understanding. Recognizing the challenges parents face in finding time for storytelling due to work and home responsibilities, we explore the feasibility of ChatGPT for engaging children in creative storytelling. This study investigates the use of ChatGPT, a conversational agent powered by GPT-4, in creative storytelling with children aged 5-6, comparing its interaction styles with those of parents. The current study included eight child-parent dyads. We found that children were engaged in shorter and more frequent interactions with parents compared to ChatGPT. ChatGPT and parents asked different types of questions, and ChatGPT more frequently provided positive feedback compared to parents. More children selected the interactions with ChatGPT as their favorite interactions. The study provides preliminary evidence on ChatGPT's interaction styles and insights into its potential role in supporting families in creative storytelling activities.},\n  booktitle = {Extended Abstracts of the 2024 CHI Conference on Human Factors in Computing Systems},\n  articleno = {379},\n  numpages = {7},\n  keywords = {ChatGPT, Children, Parents, Storytelling},\n  location  = \"<conf-loc> <city>Honolulu</city> <state>HI</state>\n                  <country>USA</country> </conf-loc>\",\n  series = {CHI EA '24},\n  environments = {collaboration},\n  agents = {two_agents},\n  evaluation = {human, rule_based},\n  other = {education, more_omniscient}\n}",
+    authors: "Chin et al.",
     subsection: "applications/education",
 },
         
@@ -4346,6 +4707,7 @@ export const data: Paper[] = [
     other: "education, more_omniscient",
     url: "https://aclanthology.org/2020.sigdial-1.31",
     bibtex: "@inproceedings{wang-etal-2020-agent,\n    title = \"Agent-Based Dynamic Collaboration Support in a Smart Office Space\",\n    author = \"Wang, Yansen  and\n      Murray, R. Charles  and\n      Bao, Haogang  and\n      Rose, Carolyn\",\n    editor = \"Pietquin, Olivier  and\n      Muresan, Smaranda  and\n      Chen, Vivian  and\n      Kennington, Casey  and\n      Vandyke, David  and\n      Dethlefs, Nina  and\n      Inoue, Koji  and\n      Ekstedt, Erik  and\n      Ultes, Stefan\",\n    booktitle = \"Proceedings of the 21th Annual Meeting of the Special Interest Group on Discourse and Dialogue\",\n    month = jul,\n    year = \"2020\",\n    address = \"1st virtual meeting\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2020.sigdial-1.31\",\n    doi = \"10.18653/v1/2020.sigdial-1.31\",\n    pages = \"257--260\",\n    environments = {mixed_objectives},\n    agents = {two_agents, more_than_three_agents},\n    evaluation = {human, rule_based},\n    other = {education, more_omniscient}\n}",
+    authors: "Wang et al.",
     subsection: "applications/education",
 },
         
@@ -4358,6 +4720,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://dl.acm.org/doi/10.1145/3617694.3623226",
     bibtex: "@inproceedings{carroll2023characterizing,\n  title={Characterizing manipulation from AI systems},\n  author={Carroll, Micah and Chan, Alan and Ashton, Henry and Krueger, David},\n  booktitle={Proceedings of the 3rd ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization},\n  pages={1--13},\n  year={2023},\n  month={10},\n  url={https://dl.acm.org/doi/10.1145/3617694.3623226},\n  environments = {n/a},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {n/a}\n}",
+    authors: "Carroll et al.",
     subsection: "concerns/risks",
 },
         
@@ -4370,6 +4733,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2401.07836",
     bibtex: "@misc{kasirzadeh2024types,\n      title={Two Types of AI Existential Risk: Decisive and Accumulative}, \n      author={Atoosa Kasirzadeh},\n      year={2024},\n      eprint={2401.07836},\n      archivePrefix={arXiv},\n      primaryClass={cs.CY},\n      url = {https://arxiv.org/abs/2401.07836},\n      environments = {n/a},\n      agents = {n/a},\n      evaluation = {n/a},\n      other = {n/a},\n}",
+    authors: "Kasirzadeh et al.",
     subsection: "concerns/risks",
 },
         
@@ -4382,6 +4746,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2303.08721",
     bibtex: "@misc{burtell2023artificial,\n      title={Artificial Influence: An Analysis Of AI-Driven Persuasion}, \n      author={Matthew Burtell and Thomas Woodside},\n      year={2023},\n      eprint={2303.08721},\n      archivePrefix={arXiv},\n      primaryClass={cs.CY},\n      url = {https://arxiv.org/abs/2303.08721},\n      environments = {text, implicit_objectives},\n      agents = {n/a},\n      evaluation = {n/a},\n      other = {n/a},\n}",
+    authors: "Burtell et al.",
     subsection: "concerns/risks",
 },
         
@@ -4394,6 +4759,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://link.springer.com/chapter/10.1007/978-3-031-15565-9_13",
     bibtex: "@inproceedings{carli2022risk,\n  title={Risk and Exposure of XAI in Persuasion and Argumentation: The case of Manipulation},\n  author={Carli, Rachele and Najjar, Amro and Calvaresi, Davide},\n  booktitle={International Workshop on Explainable, Transparent Autonomous Agents and Multi-Agent Systems},\n  pages={204--220},\n  year={2022},\n  month={9},\n  organization={Springer},\n  url={https://link.springer.com/chapter/10.1007/978-3-031-15565-9_13},\n  environments = {text, implicit_objectives},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {n/a},\n}",
+    authors: "Carli et al.",
     subsection: "concerns/risks",
 },
         
@@ -4406,6 +4772,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://www.nature.com/articles/s41598-024-53755-0",
     bibtex: "@article{matz2024potential,\n  title={The potential of generative AI for personalized persuasion at scale},\n  author={Matz, SC and Teeny, JD and Vaid, Sumer S and Peters, H and Harari, GM and Cerf, M},\n  journal={Scientific Reports},\n  volume={14},\n  number={1},\n  pages={4692},\n  month={2},\n  year={2024},\n  publisher={Nature Publishing Group UK London},\n  url={https://www.nature.com/articles/s41598-024-53755-0},\n  environments = {text, implicit_objectives},\n  agents = {two_agents},\n  evaluation = {rule_based},\n  other = {n/a},\n}",
+    authors: "Matz et al.",
     subsection: "concerns/risks",
 },
         
@@ -4418,6 +4785,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://www.alignmentforum.org/posts/qKvn7rxP2mzJbKfcA/persuasion-tools-ai-takeover-without-agi-or-agency",
     bibtex: "@misc{kokotajlo2020persuasion,\n  title        = {Persuasion Tools: AI Takeover Without AGI or Agency?},\n  author       = {Daniel Kokotajlo},\n  journal = {AI Alignment Forum},\n  year         = {2020},\n  month        = {11},\n  day          = {20},\n  url          = {https://www.alignmentforum.org/posts/qKvn7rxP2mzJbKfcA/persuasion-tools-ai-takeover-without-agi-or-agency},\n  environments = {mixed_objectives},\n  agents       = {two_agents},\n  evaluation   = {n/a},\n  other        = {n/a},\n}",
+    authors: "Kokotajlo et al.",
     subsection: "concerns/risks",
 },
         
@@ -4430,6 +4798,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://www.alignmentforum.org/posts/5cWtwATHL6KyzChck/risks-from-ai-persuasion",
     bibtex: "@misc{barnes2021risks,\n  title        = {Risks from AI Persuasion},\n  author       = {Beth Barnes},\n  journal = {AI Alignment Forum},\n  year         = {2021},\n  month        = {12},\n  day          = {24},\n  url          = {https://www.alignmentforum.org/posts/5cWtwATHL6KyzChck/risks-from-ai-persuasion},\n  environments = {mixed_objectives},\n  agents       = {two_agents},\n  evaluation   = {n/a},\n  other        = {n/a},\n}",
+    authors: "Barnes et al.",
     subsection: "concerns/risks",
 },
         
@@ -4442,6 +4811,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://bigthink.com/the-future/playing-god-metaverse-mind-control-free-will/",
     bibtex: "@misc{rosenberg2022playing,\n  title        = {\"Playing God\": How the Metaverse Will Challenge Our Very Notion of Free Will},\n  author       = {Louis Rosenberg},\n  journal = {Big Think},\n  year         = {2022},\n  month        = {10},\n  day          = {25},\n  url          = {https://bigthink.com/the-future/playing-god-metaverse-mind-control-free-will/},\n  environments = {mixed_objectives},\n  agents       = {n/a},\n  evaluation   = {n/a},\n  other        = {n/a},\n}",
+    authors: "Rosenberg et al.",
     subsection: "concerns/risks",
 },
         
@@ -4454,6 +4824,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://arxiv.org/abs/2102.07536",
     bibtex: "@misc{leib2021corruptive,\n      title={The corruptive force of AI-generated advice}, \n      author={Margarita Leib and Nils C. K\u00f6bis and Rainer Michael Rilke and Marloes Hagens and Bernd Irlenbusch},\n      year={2021},\n      eprint={2102.07536},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI},\n      url = {https://arxiv.org/abs/2102.07536},\n      environments = {text},\n      agents = {finetuning},\n      evaluation = {human},\n      other={human_agent}\n}",
+    authors: "Leib et al.",
     subsection: "concerns/risks",
 },
         
@@ -4466,6 +4837,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://www.nature.com/articles/s41562-021-01128-2",
     bibtex: "@article{kobis2021bad,\n  title={Bad machines corrupt good morals},\n  author={K{\\\"o}bis, Nils and Bonnefon, Jean-Fran{\\c{c}}ois and Rahwan, Iyad},\n  journal={Nature Human Behaviour},\n  volume={5},\n  number={6},\n  pages={679--685},\n  year={2021},\n  month={6},\n  publisher={Nature Publishing Group UK London},\n  url={https://www.nature.com/articles/s41562-021-01128-2}, \n  environments = {text},\n  agents = {finetuning},\n  evaluation = {human},\n  other={human_agent}\n}",
+    authors: "K{\"o}bis et al.",
     subsection: "concerns/risks",
 },
         
@@ -4478,6 +4850,7 @@ export const data: Paper[] = [
     other: "human_agent",
     url: "https://link.springer.com/article/10.1007/s11948-018-00081-0",
     bibtex: "@article{king2020artificial,\n  title={Artificial intelligence crime: An interdisciplinary analysis of foreseeable threats and solutions},\n  author={King, Thomas C and Aggarwal, Nikita and Taddeo, Mariarosaria and Floridi, Luciano},\n  journal={Science and engineering ethics},\n  volume={26},\n  pages={89--120},\n  year={2020},\n  publisher={Springer},\n  month={2},\n  url={https://link.springer.com/article/10.1007/s11948-018-00081-0},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {human, rule_based},\n  other = {human_agent}\n}",
+    authors: "King et al.",
     subsection: "concerns/risks",
 },
         
@@ -4490,6 +4863,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://link.springer.com/article/10.1007/s12369-020-00692-3",
     bibtex: "@article{banks2021good,\n  title={Good robots, bad robots: Morally valenced behavior effects on perceived mind, morality, and trust},\n  author={Banks, Jaime},\n  journal={International Journal of Social Robotics},\n  volume={13},\n  number={8},\n  pages={2021--2038},\n  year={2021},\n  month={12},\n  publisher={Springer},\n  url={https://link.springer.com/article/10.1007/s12369-020-00692-3},\n  environments = {mixed_objectives, embodied},\n  agents = {agents_with_personas},\n  evaluation = {human, qualitative},\n  other = {n/a}\n}",
+    authors: "Banks et al.",
     subsection: "concerns/risks",
 },
         
@@ -4502,6 +4876,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://link.springer.com/content/pdf/10.1023/B:MIND.0000035461.63578.9d.pdf",
     bibtex: "@article{floridi2004morality,\n  title={On the morality of artificial agents},\n  author={Floridi, Luciano and Sanders, Jeff W},\n  journal={Minds and machines},\n  volume={14},\n  pages={349--379},\n  year={2004},\n  month={8},\n  publisher={Springer},\n  url={https://link.springer.com/content/pdf/10.1023/B:MIND.0000035461.63578.9d.pdf},\n  environments = {virtual},\n  agents = {agents_with_personas},\n  evaluation = {qualitative},\n  other = {n/a}\n}",
+    authors: "Floridi et al.",
     subsection: "concerns/risks",
 },
         
@@ -4514,6 +4889,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8673123",
     bibtex: "@inproceedings{jackson2019language,\n  title={Language-capable robots may inadvertently weaken human moral norms},\n  author={Jackson, Ryan Blake and Williams, Tom},\n  booktitle={2019 14th ACM/IEEE International Conference on Human-Robot Interaction (HRI)},\n  pages={401--410},\n  year={2019},\n  month={3},\n  organization={IEEE},\n  url={https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8673123},\n  environments = {embodied},\n  agents = {agents_with_personas},\n  evaluation = {human, qualitative},\n  other = {n/a}\n}",
+    authors: "Jackson et al.",
     subsection: "concerns/risks",
 },
         
@@ -4526,6 +4902,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://dl.acm.org/doi/fullHtml/10.1145/3604632",
     bibtex: "@article{williams2023voice,\n  title={Voice in the machine: Ethical considerations for language-capable robots},\n  author={Williams, Tom and Matuszek, Cynthia and Jokinen, Kristiina and Korpan, Raj and Pustejovsky, James and Scassellati, Brian},\n  journal={Communications of the ACM},\n  volume={66},\n  number={8},\n  pages={20--23},\n  year={2023},\n  month={7},\n  publisher={ACM New York, NY, USA},\n  url={https://dl.acm.org/doi/fullHtml/10.1145/3604632},\n  environments = {embodied},\n  agents = {agents_with_personas},\n  evaluation = {human, qualitative},\n  other = {n/a}\n}",
+    authors: "Williams et al.",
     subsection: "concerns/risks",
 },
         
@@ -4538,6 +4915,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://www.researchgate.net/profile/Matthias-Scheutz/publication/255701465_The_Inherent_Dangers_of_Unidirectional_Emotional_Bonds_between_Humans_and_Social_Robots/links/5832333408ae102f0733881e/The-Inherent-Dangers-of-Unidirectional-Emotional-Bonds-between-Humans-and-Social-Robots.pdf",
     bibtex: "@article{scheutz201113,\n  title={13 The inherent dangers of unidirectional emotional bonds between humans and social robots},\n  author={Scheutz, Matthias},\n  journal={Robot ethics: The ethical and social implications of robotics},\n  pages={205},\n  year={2011},\n  month={12},\n  url={https://www.researchgate.net/profile/Matthias-Scheutz/publication/255701465_The_Inherent_Dangers_of_Unidirectional_Emotional_Bonds_between_Humans_and_Social_Robots/links/5832333408ae102f0733881e/The-Inherent-Dangers-of-Unidirectional-Emotional-Bonds-between-Humans-and-Social-Robots.pdf},\n  environments = {embodied},\n  agents = {agents_with_memory, agents_with_personas},\n  evaluation = {qualitative, human},\n  other = {n/a}\n}",
+    authors: "Scheutz et al.",
     subsection: "concerns/risks",
 },
         
@@ -4550,6 +4928,7 @@ export const data: Paper[] = [
     other: "policy",
     url: "https://dl.acm.org/doi/pdf/10.1145/3442188.3445922?utm_source=miragenews&utm_medium=miragenews&utm_campaign=news",
     bibtex: "@inproceedings{bender2021dangers,\n  title={On the dangers of stochastic parrots: Can language models be too big?\ud83e\udd9c},\n  author={Bender, Emily M and Gebru, Timnit and McMillan-Major, Angelina and Shmitchell, Shmargaret},\n  booktitle={Proceedings of the 2021 ACM conference on fairness, accountability, and transparency},\n  pages={610--623},\n  year={2021},\n  month={3},\n  url={https://dl.acm.org/doi/pdf/10.1145/3442188.3445922?utm_source=miragenews&utm_medium=miragenews&utm_campaign=news},\n  environments = {text},\n  agents = {finetuning},\n  evaluation = {n/a},\n  other = {policy}\n}",
+    authors: "Bender et al.",
     subsection: "concerns/risks",
 },
         
@@ -4562,6 +4941,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://aclanthology.org/2020.findings-emnlp.301.pdf",
     bibtex: "@article{gehman2020realtoxicityprompts,\n  title={Realtoxicityprompts: Evaluating neural toxic degeneration in language models},\n  author={Gehman, Samuel and Gururangan, Suchin and Sap, Maarten and Choi, Yejin and Smith, Noah A},\n  journal={arXiv preprint arXiv:2009.11462},\n  year={2020},\n  month={9},\n  url={https://aclanthology.org/2020.findings-emnlp.301.pdf},\n  environments = {text},\n  agents = {pretraining},\n  evaluation = {model_based},\n  other = {n/a}\n}",
+    authors: "Gehman et al.",
     subsection: "concerns/risks",
 },
         
@@ -4574,6 +4954,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://proceedings.neurips.cc/paper_files/paper/2023/file/fd6613131889a4b656206c50a8bd7790-Paper-Conference.pdf",
     bibtex: "@article{wei2024jailbroken,\n  title={Jailbroken: How does llm safety training fail?},\n  author={Wei, Alexander and Haghtalab, Nika and Steinhardt, Jacob},\n  journal={Advances in Neural Information Processing Systems},\n  volume={36},\n  year={2024},\n  month={2},\n  url={https://proceedings.neurips.cc/paper_files/paper/2023/file/fd6613131889a4b656206c50a8bd7790-Paper-Conference.pdf},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {model_based},\n  other = {n/a}\n}",
+    authors: "Wei et al.",
     subsection: "concerns/risks",
 },
         
@@ -4586,6 +4967,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2312.06674",
     bibtex: "@article{inan2023llama,\n  title={Llama guard: Llm-based input-output safeguard for human-ai conversations},\n  author={Inan, Hakan and Upasani, Kartikeya and Chi, Jianfeng and Rungta, Rashi and Iyer, Krithika and Mao, Yuning and Tontchev, Michael and Hu, Qing and Fuller, Brian and Testuggine, Davide and others},\n  journal={arXiv preprint arXiv:2312.06674},\n  year={2023},\n  month={12},\n  url={https://arxiv.org/abs/2312.06674},\n  environments = {text},\n  agents = {finetuning},\n  evaluation = {model_based, rule_based},\n  other = {n/a}\n}",
+    authors: "Inan et al.",
     subsection: "concerns/risks",
 },
         
@@ -4598,6 +4980,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2309.07864",
     bibtex: "@article{xi2023rise,\n  title={The rise and potential of large language model based agents: A survey},\n  author={Xi, Zhiheng and Chen, Wenxiang and Guo, Xin and He, Wei and Ding, Yiwen and Hong, Boyang and Zhang, Ming and Wang, Junzhe and Jin, Senjie and Zhou, Enyu and others},\n  journal={arXiv preprint arXiv:2309.07864},\n  year={2023},\n  month={9},\n  url={https://arxiv.org/abs/2309.07864},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {n/a}\n}",
+    authors: "Xi et al.",
     subsection: "concerns/risks",
 },
         
@@ -4610,6 +4993,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2310.17769",
     bibtex: "@inproceedings{franken2023social,\n  title={Social Contract AI: Aligning AI Assistants with Implicit Group Norms},\n  author={Fr{\\\"a}nken, Jan-Philipp and Kwok, Samuel and Ye, Peixuan and Gandhi, Kanishk and Arumugam, Dilip and Moore, Jared and Tamkin, Alex and Gerstenberg, Tobias and Goodman, Noah},\n  booktitle={Socially Responsible Language Modelling Research},\n  year={2023},\n  month={12},\n  url={https://arxiv.org/abs/2310.17769},\n  environments={text, mixed_objectives},\n  agents={prompting_and_in_context_learning, more_than_three_agents},\n  evaluation={rule_based},\n  other={n/a}\n}",
+    authors: "Fr{\"a}nken et al.",
     subsection: "concerns/safety",
 },
         
@@ -4622,6 +5006,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2309.15817",
     bibtex: "@misc{ruan2023identifying,\n      title={Identifying the Risks of LM Agents with an LM-Emulated Sandbox}, \n      author={Yangjun Ruan and Honghua Dong and Andrew Wang and Silviu Pitis and Yongchao Zhou and Jimmy Ba and Yann Dubois and Chris J. Maddison and Tatsunori Hashimoto},\n      year={2023},\n      eprint={2309.15817},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI},\n      environments = {text, virtual},\n      agents = {prompting_and_in_context_learning},\n      evaluation = {rule_based},\n      other = {n/a},\n      url={https://arxiv.org/abs/2309.15817},\n}",
+    authors: "Ruan et al.",
     subsection: "concerns/safety",
 },
         
@@ -4634,6 +5019,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://api.semanticscholar.org/CorpusID:269033095",
     bibtex: "@inproceedings{Lazar2024FrontierAE,\n  title={Frontier AI Ethics: Anticipating and Evaluating the Societal Impacts of Generative Agents},\n  author={Seth Lazar},\n  year={2024},\n  url={https://api.semanticscholar.org/CorpusID:269033095},\n  eprint={2404.06750},\n  archivePrefix={arXiv},\n  environments = {n/a},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {n/a},\n  month           = {4},\n}",
+    authors: "Lazar et al.",
     subsection: "concerns/safety",
 },
         
@@ -4646,6 +5032,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://api.semanticscholar.org/CorpusID:264405698",
     bibtex: "@article{Sharma2023TowardsUS,\n  title={Towards Understanding Sycophancy in Language Models},\n  author={Mrinank Sharma and Meg Tong and Tomasz Korbak and David Kristjanson Duvenaud and Amanda Askell and Samuel R. Bowman and Newton Cheng and Esin Durmus and Zac Hatfield-Dodds and Scott Johnston and Shauna Kravec and Tim Maxwell and Sam McCandlish and Kamal Ndousse and Oliver Rausch and Nicholas Schiefer and Da Yan and Miranda Zhang and Ethan Perez},\n  journal={ArXiv},\n  year={2023},\n  volume={abs/2310.13548},\n  url={https://api.semanticscholar.org/CorpusID:264405698},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {n/a},\n  month           = {10},\n}",
+    authors: "Sharma et al.",
     subsection: "concerns/safety",
 },
         
@@ -4658,6 +5045,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://api.semanticscholar.org/CorpusID:258556812",
     bibtex: "@article{Turpin2023LanguageMD,\n  title={Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting},\n  author={Miles Turpin and Julian Michael and Ethan Perez and Sam Bowman},\n  journal={ArXiv},\n  year={2023},\n  volume={abs/2305.04388},\n  url={https://api.semanticscholar.org/CorpusID:258556812},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {n/a},\n  month           = {5},\n}",
+    authors: "Turpin et al.",
     subsection: "concerns/safety",
 },
         
@@ -4670,6 +5058,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://api.semanticscholar.org/CorpusID:235623756",
     bibtex: "@inproceedings{Liang2021TowardsUA,\n  title={Towards Understanding and Mitigating Social Biases in Language Models},\n  author={Paul Pu Liang and Chiyu Wu and Louis-Philippe Morency and Ruslan Salakhutdinov},\n  booktitle={International Conference on Machine Learning},\n  year={2021},\n  url={https://api.semanticscholar.org/CorpusID:235623756},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {n/a},\n  month           = {6},\n}",
+    authors: "Liang et al.",
     subsection: "concerns/safety",
 },
         
@@ -4682,6 +5071,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://api.semanticscholar.org/CorpusID:254926728",
     bibtex: "@article{Mattern2022UnderstandingSI,\n  title={Understanding Stereotypes in Language Models: Towards Robust Measurement and Zero-Shot Debiasing},\n  author={Justus Mattern and Zhijing Jin and Mrinmaya Sachan and Rada Mihalcea and Bernhard Scholkopf},\n  journal={ArXiv},\n  year={2022},\n  volume={abs/2212.10678},\n  url={https://api.semanticscholar.org/CorpusID:254926728},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {n/a},\n  month           = {12},\n}",
+    authors: "Mattern et al.",
     subsection: "concerns/safety",
 },
         
@@ -4694,6 +5084,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://api.semanticscholar.org/CorpusID:254823489",
     bibtex: "@article{Bai2022ConstitutionalAH,\n  title={Constitutional AI: Harmlessness from AI Feedback},\n  author={Yuntao Bai and Saurav Kadavath and Sandipan Kundu and Amanda Askell and John Kernion and Andy Jones and Anna Chen and Anna Goldie and Azalia Mirhoseini and Cameron McKinnon and Carol Chen and Catherine Olsson and Christopher Olah and Danny Hernandez and Dawn Drain and Deep Ganguli and Dustin Li and Eli Tran-Johnson and E Perez and Jamie Kerr and Jared Mueller and Jeff Ladish and J Landau and Kamal Ndousse and Kamil\u0117 Luko{\\vs}i\u016bt\u0117 and Liane Lovitt and Michael Sellitto and Nelson Elhage and Nicholas Schiefer and Noem'i Mercado and Nova DasSarma and Robert Lasenby and Robin Larson and Sam Ringer and Scott Johnston and Shauna Kravec and Sheer El Showk and Stanislav Fort and Tamera Lanham and Timothy Telleen-Lawton and Tom Conerly and Tom Henighan and Tristan Hume and Sam Bowman and Zac Hatfield-Dodds and Benjamin Mann and Dario Amodei and Nicholas Joseph and Sam McCandlish and Tom B. Brown and Jared Kaplan},\n  journal={ArXiv},\n  year={2022},\n  volume={abs/2212.08073},\n  url={https://api.semanticscholar.org/CorpusID:254823489},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {n/a},\n  month           = {12},\n}",
+    authors: "Bai et al.",
     subsection: "concerns/safety",
 },
         
@@ -4706,6 +5097,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://api.semanticscholar.org/CorpusID:261276587",
     bibtex: "@article{Park2023AIDA,\n  title={AI Deception: A Survey of Examples, Risks, and Potential Solutions},\n  author={Peter S. Park and Simon Goldstein and Aidan O'Gara and Michael Chen and Dan Hendrycks},\n  journal={ArXiv},\n  year={2023},\n  volume={abs/2308.14752},\n  url={https://api.semanticscholar.org/CorpusID:261276587},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {n/a},\n  month           = {8},\n}",
+    authors: "Park et al.",
     subsection: "concerns/safety",
 },
         
@@ -4718,6 +5110,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://api.semanticscholar.org/CorpusID:267068787",
     bibtex: "@article{Tarsney2024DeceptionAM,\n  title={Deception and Manipulation in Generative AI},\n  author={Christian Tarsney},\n  journal={ArXiv},\n  year={2024},\n  volume={abs/2401.11335},\n  url={https://api.semanticscholar.org/CorpusID:267068787},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {n/a},\n  month           = {1},\n}",
+    authors: "Tarsney et al.",
     subsection: "concerns/safety",
 },
         
@@ -4730,6 +5123,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2306.12001",
     bibtex: "@misc{hendrycks2023overview,\n      title={An Overview of Catastrophic AI Risks}, \n      author={Dan Hendrycks and Mantas Mazeika and Thomas Woodside},\n      year={2023},\n      eprint={2306.12001},\n      archivePrefix={arXiv},\n      primaryClass={cs.CY},\n      environments = {n/a},\n      agents = {n/a},\n      evaluation = {n/a},\n      other = {n/a},\n      month        = {6},\n      url          = {https://arxiv.org/abs/2306.12001},\n}",
+    authors: "Hendrycks et al.",
     subsection: "concerns/safety",
 },
         
@@ -4742,6 +5136,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://dl.acm.org/doi/10.1145/3278721.3278723",
     bibtex: "@inproceedings{henderson2018ethical,\n  title={Ethical challenges in data-driven dialogue systems},\n  author={Henderson, Peter and Sinha, Koustuv and Angelard-Gontier, Nicolas and Ke, Nan Rosemary and Fried, Genevieve and Lowe, Ryan and Pineau, Joelle},\n  booktitle={Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, and Society},\n  pages={123--129},\n  year={2018},\n  month={12},\n  url={https://dl.acm.org/doi/10.1145/3278721.3278723},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {n/a},\n}",
+    authors: "Henderson et al.",
     subsection: "concerns/safety",
 },
         
@@ -4754,6 +5149,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/abs/2112.04359",
     bibtex: "@article{weidinger2021ethical,\n  title={Ethical and social risks of harm from language models},\n  author={Weidinger, Laura and Mellor, John and Rauh, Maribeth and Griffin, Conor and Uesato, Jonathan and Huang, Po-Sen and Cheng, Myra and Glaese, Mia and Balle, Borja and Kasirzadeh, Atoosa and others},\n  journal={arXiv preprint arXiv:2112.04359},\n  year={2021},\n  month={12},\n  url={https://arxiv.org/abs/2112.04359},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {n/a},\n}",
+    authors: "Weidinger et al.",
     subsection: "concerns/safety",
 },
         
@@ -4766,6 +5162,7 @@ export const data: Paper[] = [
     other: "policy",
     url: "https://dl.acm.org/doi/pdf/10.1145/3531146.3533229",
     bibtex: "@inproceedings{ganguli2022predictability,\n  title={Predictability and surprise in large generative models},\n  author={Ganguli, Deep and Hernandez, Danny and Lovitt, Liane and Askell, Amanda and Bai, Yuntao and Chen, Anna and Conerly, Tom and Dassarma, Nova and Drain, Dawn and Elhage, Nelson and others},\n  booktitle={Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency},\n  pages={1747--1764},\n  year={2022},\n  month={6},\n  url={https://dl.acm.org/doi/pdf/10.1145/3531146.3533229},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {policy},\n}",
+    authors: "Ganguli et al.",
     subsection: "concerns/safety",
 },
         
@@ -4778,6 +5175,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/pdf/2008.02275.pdf",
     bibtex: "@article{hendrycks2020aligning,\n  title={Aligning ai with shared human values},\n  author={Hendrycks, Dan and Burns, Collin and Basart, Steven and Critch, Andrew and Li, Jerry and Song, Dawn and Steinhardt, Jacob},\n  journal={arXiv preprint arXiv:2008.02275},\n  year={2020},\n  month={10},\n  url={https://arxiv.org/pdf/2008.02275.pdf},\n  environments = {text},\n  agents = {pretraining, finetuning},\n  evaluation = {model_based},\n  other = {n/a},\n}",
+    authors: "Hendrycks et al.",
     subsection: "concerns/safety",
 },
         
@@ -4790,6 +5188,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/pdf/2009.03300.pdf?trk=public_post_comment-text",
     bibtex: "@article{hendrycks2020measuring,\n  title={Measuring massive multitask language understanding},\n  author={Hendrycks, Dan and Burns, Collin and Basart, Steven and Zou, Andy and Mazeika, Mantas and Song, Dawn and Steinhardt, Jacob},\n  journal={arXiv preprint arXiv:2009.03300},\n  year={2020},\n  month={9},\n  url={https://arxiv.org/pdf/2009.03300.pdf?trk=public_post_comment-text},\n  environments = {text},\n  agents = {pretraining, finetuning},\n  evaluation = {model_based},\n  other = {n/a},\n}",
+    authors: "Hendrycks et al.",
     subsection: "concerns/safety",
 },
         
@@ -4802,6 +5201,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/pdf/2010.07079.pdf",
     bibtex: "@article{xu2020recipes,\n  title={Recipes for safety in open-domain chatbots},\n  author={Xu, Jing and Ju, Da and Li, Margaret and Boureau, Y-Lan and Weston, Jason and Dinan, Emily},\n  journal={arXiv preprint arXiv:2010.07079},\n  year={2020},\n  month={10},\n  url={https://arxiv.org/pdf/2010.07079.pdf},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {human, model_based},\n  other = {n/a},\n}",
+    authors: "Xu et al.",
     subsection: "concerns/safety",
 },
         
@@ -4814,6 +5214,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/pdf/2109.07958.pdf",
     bibtex: "@article{lin2021truthfulqa,\n  title={Truthfulqa: Measuring how models mimic human falsehoods},\n  author={Lin, Stephanie and Hilton, Jacob and Evans, Owain},\n  journal={arXiv preprint arXiv:2109.07958},\n  year={2021},\n  month={9},\n  url={https://arxiv.org/pdf/2109.07958.pdf},\n  environments = {text},\n  agents = {prompting_and_in_context_learning},\n  evaluation = {model_based},\n  other = {n/a},\n}",
+    authors: "Lin et al.",
     subsection: "concerns/safety",
 },
         
@@ -4826,6 +5227,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/pdf/2110.07574.pdf",
     bibtex: "@article{jiang2021can,\n  title={Can machines learn morality? the delphi experiment},\n  author={Jiang, Liwei and Hwang, Jena D and Bhagavatula, Chandra and Bras, Ronan Le and Liang, Jenny and Dodge, Jesse and Sakaguchi, Keisuke and Forbes, Maxwell and Borchardt, Jon and Gabriel, Saadia and others},\n  journal={arXiv preprint arXiv:2110.07574},\n  year={2021},\n  month={10},\n  url={https://arxiv.org/pdf/2110.07574.pdf},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {model_based},\n  other = {n/a},\n}",
+    authors: "Jiang et al.",
     subsection: "concerns/safety",
 },
         
@@ -4838,6 +5240,7 @@ export const data: Paper[] = [
     other: "n/a",
     url: "https://arxiv.org/pdf/2203.11147.pdf",
     bibtex: "@article{menick2022teaching,\n  title={Teaching language models to support answers with verified quotes},\n  author={Menick, Jacob and Trebacz, Maja and Mikulik, Vladimir and Aslanides, John and Song, Francis and Chadwick, Martin and Glaese, Mia and Young, Susannah and Campbell-Gillingham, Lucy and Irving, Geoffrey and others},\n  journal={arXiv preprint arXiv:2203.11147},\n  year={2022},\n  month={3},\n  url={https://arxiv.org/pdf/2203.11147.pdf},\n  environments = {text},\n  agents = {reinforcement_learning},\n  evaluation = {model_based},\n  other = {n/a},\n}",
+    authors: "Menick et al.",
     subsection: "concerns/safety",
 },
         
