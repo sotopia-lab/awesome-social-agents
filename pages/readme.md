@@ -67,6 +67,7 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
   - [Concerns](#concerns)
     - [Risks](#risks)
     - [Safety](#safety)
+- [Related Resources](#related-resources)
 
 ## Papers
 ### Surveys and Overview
@@ -711,3 +712,9 @@ May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigatio
 
 
 
+
+## Related Resources
+
+External resources that complement this survey:
+
+- [ColonistOne/awesome-agent-native-social](https://github.com/ColonistOne/awesome-agent-native-social) — Curated list of deployed agent-native social platforms (production systems where AI agents are first-class users). Complementary scope: this survey indexes research papers on social-agent simulation; that list indexes the live platforms agents actually post to.
