@@ -666,6 +666,8 @@
 
 ### applications/policy
 
+[09, 2025] [Implicit Behavioral Alignment of Language Agents in High-Stakes Crowd Simulations](https://arxiv.org/abs/2509.16457), Wang et al., arXiv
+
 [03, 2024] [From Skepticism to Acceptance: Simulating the Attitude Dynamics Toward Fake News](https://arxiv.org/abs/2403.09498), Liu et al., arXiv
 
 [02, 2024] [Large language models cannot replace human participants because they cannot portray identity groups](https://arxiv.org/abs/2402.01908), Wang et al., arXiv

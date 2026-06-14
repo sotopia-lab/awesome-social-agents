@@ -4257,6 +4257,19 @@ export const data: Paper[] = [
 },
         
  
+{ title: "Implicit Behavioral Alignment of Language Agents in High-Stakes Crowd Simulations",
+    date: "09/2025",
+    environments: "text",
+    agents: "more_than_three_agents, agents_with_personas, prompting_and_in_context_learning",
+    evaluation: "model_based, human",
+    other: "simulated_humans, policy",
+    url: "https://arxiv.org/abs/2509.16457",
+    bibtex: "@misc{wang2025implicit,\n      title={Implicit Behavioral Alignment of Language Agents in High-Stakes Crowd Simulations},\n      author={Yunzhe Wang and Gale M. Lucas and Burcin Becerik-Gerber and Volkan Ustun},\n      year={2025},\n      eprint={2509.16457},\n      archivePrefix={arXiv},\n      primaryClass={cs.MA},\n      url={https://arxiv.org/abs/2509.16457},\n      environments = {text},\n      agents = {more_than_three_agents, agents_with_personas, prompting_and_in_context_learning},\n      evaluation = {model_based, human},\n      other = {simulated_humans, policy},\n}",
+    authors: "Wang et al.",
+    subsection: "applications/policy",
+},
+        
+ 
 { title: "AI for Students with Learning Disabilities: A Systematic Review",
     date: "01/2023",
     environments: "text, virtual",
@@ -4563,7 +4576,7 @@ export const data: Paper[] = [
     evaluation: "human, rule_based",
     other: "education, more_omniscient",
     url: "https://doi.org/10.1145/3527927.3532793",
-    bibtex: "@inproceedings{Ali2022-EscapeBot,\n  author = {Ali, Safinah and Devasia, Nisha Elizabeth and Breazeal, Cynthia},\n  title = {Escape!Bot: Social Robots as Creative Problem-Solving Partners},\n  month = {June},\n  year = {2022},\n  isbn = {9781450393270},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3527927.3532793},\n  doi = {10.1145/3527927.3532793},\n  abstract = {In this work, we explore the effect of a social robot\u2019s embodiment and creativity scaffolding on children\u2019s creative problem solving skills in the context of a digital creative problem-solving game called Escape!Bot. Children aged 5-11 years played the video game, which involved assembling contraptions to escape a digital world, and the robot Jibo acted as a collaborative peer that offered questions, reflective prompts, challenges, and ideas. In order to evaluate the role of the robot\u2019s co-presence and creativity scaffolding, we ran a 2x2 experiment to determine the factorial efficacy of the robot\u2019s embodiment and creativity scaffolding behaviors. We observed mixed results, with the robot\u2019s creativity scaffolding having a positive influence on the time taken to complete the game, but not on the overall use of novel objects or reuse of objects. We present the system design, user study and findings from Escape!Bot to investigate the feasibility of designing social robots to support creative problem solving.},\n  booktitle = {Proceedings of the 14th Conference on Creativity and Cognition},\n  pages = {275\u2013283},\n  numpages = {9},\n  keywords = {social robots, divergent thinking, creativity, collaboration, child-robot interaction},\n  location = {Venice, Italy},\n  series = {C&C '22},\n  environments = {mixed_objectives, robotics},\n  agents = {two_agents},\n  evaluation = {human, rule_based},\n  other = {education, more_omniscient}\n}",
+    bibtex: "@inproceedings{Ali2022-EscapeBot,\n  author = {Ali, Safinah and Devasia, Nisha Elizabeth and Breazeal, Cynthia},\n  title = {Escape!Bot: Social Robots as Creative Problem-Solving Partners},\n  month = {June},\n  year = {2022},\n  isbn = {9781450393270},\n  publisher = {Association for Computing Machinery},\n  address = {New York, NY, USA},\n  url = {https://doi.org/10.1145/3527927.3532793},\n  doi = {10.1145/3527927.3532793},\n  abstract = {In this work, we explore the effect of a social robot\u2019s embodiment and creativity scaffolding on children\u2019s creative problem solving skills in the context of a digital creative problem-solving game called Escape!Bot. Children aged 5-11 years played the video game, which involved assembling contraptions to escape a digital world, and the robot Jibo acted as a collaborative peer that offered questions, reflective prompts, challenges, and ideas. In order to evaluate the role of the robot\u2019s co-presence and creativity scaffolding, we ran a 2x2 experiment to determine the factorial efficacy of the robot\u2019s embodiment and creativity scaffolding behaviors. We observed mixed results, with the robot\u2019s creativity scaffolding having a positive influence on the time taken to complete the game, but not on the overall use of novel objects or reuse of objects. We present the system design, user study and findings from Escape!Bot to investigate the feasibility of designing social robots to support creative problem solving.},\n  booktitle = {Proceedings of the 14th Conference on Creativity and Cognition},\n  pages = {275\u2013283},\n  numpages = {9},\n  keywords = {social robots, divergent thinking, creativity, collaboration, child-robot interaction},\n  location = {Venice, Italy},\n  series = {C\\&C '22},\n  environments = {mixed_objectives, robotics},\n  agents = {two_agents},\n  evaluation = {human, rule_based},\n  other = {education, more_omniscient}\n}",
     authors: "Ali et al.",
     subsection: "applications/education",
 },
