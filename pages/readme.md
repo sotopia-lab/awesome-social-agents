@@ -4,10 +4,10 @@
   <a href="https://awesome.re">
     <img src="https://awesome.re/badge.svg" alt="Awesome">
   </a>&nbsp;
-  <a href="/contribution">
+  <a href="https://github.com/sotopia-lab/awesome-social-agents/blob/main/CONTRIBUTING.md">
     <img src="https://img.shields.io/badge/PRs-Welcome-blue" alt="PRs Welcome">
   </a>&nbsp;
-  <a href="https://arxiv-coming-soon">
+  <a href="https://sotopia-lab.github.io/awesome-social-agents/">
     <img src="https://img.shields.io/badge/arXiv-Coming soon-b31b1b.svg" alt="arXiv">
   </a>
 </div>
@@ -27,8 +27,8 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 > <li>To understand whether an entity is a (social) agent, we have to situate it in an environment. It is not possible to discuss an agent outside of an environment. </li>
 > <li>We acknowledge there are many types of definitions for social agents. Our defitions here help narrow down the scope of our survey.</li>
 
-🗂️ *Check out the [examples](examples.md) of social agents.*
-📚 *Check out the table format of the collected papers [here](paper_table.md).*
+🗂️ *Check out the [examples](https://sotopia-lab.github.io/awesome-social-agents/examples) of social agents.*
+📚 *Check out the table format of the collected papers [here](https://sotopia-lab.github.io/awesome-social-agents/paper_table).*
 
 📝 *We are currently working on a survey paper related to content of this repository. Stay tuned for updates!*
 
@@ -77,6 +77,8 @@ Our goal is to offer insights crucial for understanding and harnessing **social 
 [2, 2024] [Social Intelligence Data Infrastructure: Structuring the Present and Navigating the Future](https://arxiv.org/abs/2403.14659), Minzhi Li et al., arXiv preprint arXiv:2403.14659
 
 [4, 2024] [Social Skill Training with Large Language Models](https://arxiv.org/abs/2404.04204), Diyi Yang et al., arXiv preprint arXiv:2404.04204
+
+[12, 2024] [From Individual to Society: A Survey on Social Simulation Driven by Large Language Model-based Agents](https://arxiv.org/abs/2412.03563), Mou et al., arXiv preprint arXiv:2412.03563
 
 ### Environments
 

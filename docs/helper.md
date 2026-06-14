@@ -1,3 +1,5 @@
+[12, 2024] [From Individual to Society: A Survey on Social Simulation Driven by Large Language Model-based Agents](https://arxiv.org/abs/2412.03563), Mou et al., arXiv preprint arXiv:2412.03563
+
 [4, 2024] [Advancing Social Intelligence in AI Agents: Technical Challenges and Open Questions](https://arxiv.org/abs/2404.11023), Mathur et al., arXiv preprint arXiv:2404.11023
 
 [4, 2024] [Social Skill Training with Large Language Models](https://arxiv.org/abs/2404.04204), Yang et al., arXiv preprint arXiv:2404.04204
