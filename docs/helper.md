@@ -486,6 +486,8 @@
 
 ### interactions/text
 
+[3, 2026] [GroupGPT: A Token-efficient and Privacy-preserving Agentic Framework for Multi-User Chat Assistant](https://arxiv.org/abs/2603.01059), Shen et al., arXiv preprint arXiv:2603.01059
+
 [3, 2024] [AI Comes Out of the Closet: Using AI-Generated Virtual Characters to Help Individuals Practice LGBTQIA+ Advocacy](https://dl.acm.org/doi/pdf/10.1145/3640543.3645213), Pillis et al., Proceedings of the 29th International Conference on Intelligent User Interfaces
 
 [3, 2024] [" It's the only thing I can trust": Envisioning Large Language Model Use by Autistic Workers for Communication Assistance](https://arxiv.org/pdf/2403.03297.pdf), Jang et al., arXiv preprint arXiv:2403.03297

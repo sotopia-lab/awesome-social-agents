@@ -3243,6 +3243,19 @@ export const data: Paper[] = [
 },
         
  
+{ title: "GroupGPT: A Token-efficient and Privacy-preserving Agentic Framework for Multi-User Chat Assistant",
+    date: "03/2026",
+    environments: "implicit_objectives, virtual",
+    agents: "finetuning, prompting_and_in_context_learning, more_than_three_agents, agents_with_memory",
+    evaluation: "human, model_based",
+    other: "human_agent, more_omniscient",
+    url: "https://arxiv.org/abs/2603.01059",
+    bibtex: "@article{shen2026groupgpt,\n  title={GroupGPT: A Token-efficient and Privacy-preserving Agentic Framework for Multi-User Chat Assistant},\n  author={Shen, Zhuokang and Wang, Yifan and Chen, Hanyu and Huang, Wenxuan and Lin, Shaohui},\n  journal={arXiv preprint arXiv:2603.01059},\n  year={2026},\n  month={3},\n  url={https://arxiv.org/abs/2603.01059},\n  environments={implicit_objectives, virtual},\n  agents={finetuning, prompting_and_in_context_learning, more_than_three_agents, agents_with_memory},\n  evaluation={human, model_based},\n  other={human_agent, more_omniscient}\n}",
+    authors: "Shen et al.",
+    subsection: "interactions/text",
+},
+        
+ 
 { title: "Nopa: Neurally-guided online probabilistic assistance for building socially intelligent home assistants",
     date: "01/2023",
     environments: "collaboration, embodied",
