@@ -584,6 +584,8 @@ May, 2023] [Instruction-Finetuned Foundation Models for Multimodal Web Navigatio
 
 [March, 2024] [From Skepticism to Acceptance: Simulating the Attitude Dynamics Toward Fake News](https://arxiv.org/abs/2403.09498), Yuhan Liu et al., arXiv                
 
+[September, 2025] [Implicit Behavioral Alignment of Language Agents in High-Stakes Crowd Simulations](https://arxiv.org/abs/2509.16457), Yunzhe Wang et al., EMNLP 2025
+
 #### Education
 
 

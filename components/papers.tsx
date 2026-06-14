@@ -4270,6 +4270,19 @@ export const data: Paper[] = [
 },
         
  
+{ title: "Implicit Behavioral Alignment of Language Agents in High-Stakes Crowd Simulations",
+    date: "09/2025",
+    environments: "text",
+    agents: "more_than_three_agents, agents_with_personas, prompting_and_in_context_learning",
+    evaluation: "model_based, human",
+    other: "simulated_humans, policy",
+    url: "https://arxiv.org/abs/2509.16457",
+    bibtex: "@misc{wang2025implicit,\n      title={Implicit Behavioral Alignment of Language Agents in High-Stakes Crowd Simulations},\n      author={Yunzhe Wang and Gale M. Lucas and Burcin Becerik-Gerber and Volkan Ustun},\n      year={2025},\n      eprint={2509.16457},\n      archivePrefix={arXiv},\n      primaryClass={cs.MA},\n      url={https://arxiv.org/abs/2509.16457},\n      environments = {text},\n      agents = {more_than_three_agents, agents_with_personas, prompting_and_in_context_learning},\n      evaluation = {model_based, human},\n      other = {simulated_humans, policy},\n}",
+    authors: "Wang et al.",
+    subsection: "applications/policy",
+},
+        
+ 
 { title: "AI for Students with Learning Disabilities: A Systematic Review",
     date: "01/2023",
     environments: "text, virtual",
