@@ -22,13 +22,8 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: pip install mkdocs-material
-      - run: pip install mike
-      - run: pip install markdown-callouts
-      - run: pip install mkdocs-callouts
-      - run: pip install mkdocs-click
-      - run: pip install pillow cairosvg
-      - run: pip install --pre bibtexparser 
+      # Smoke-check that the paper-table generator runs cleanly against main.bib.
+      - run: pip install --pre bibtexparser
       - run: pip install tabulate
       - run: pip install pandas
       - run: python bibtex_to_table.py

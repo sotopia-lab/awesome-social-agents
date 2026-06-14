@@ -78,8 +78,21 @@ export const data: Paper[] = [
     evaluation: "human",
     other: "n/a",
     url: "https://arxiv.org/abs/2403.14659",
-    bibtex: "@article{li2024social,\n  title={Social Intelligence Data Infrastructure: Structuring the Present and Navigating the Future},\n  author={Li, Minzhi and Shi, Weiyan and Ziems, Caleb and Yang, Diyi},\n  journal={arXiv preprint arXiv:2403.14659},\n  url = {https://arxiv.org/abs/2403.14659},\n  year={2024},\n  month={2},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {human},\n  other = {n/a},\n  \n}",
+    bibtex: "@article{li2024social,\n  title={Social Intelligence Data Infrastructure: Structuring the Present and Navigating the Future},\n  author={Li, Minzhi and Shi, Weiyan and Ziems, Caleb and Yang, Diyi},\n  journal={arXiv preprint arXiv:2403.14659},\n  url = {https://arxiv.org/abs/2403.14659},\n  year={2024},\n  month={2},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {human},\n  other = {n/a},\n\n}",
     authors: "Li et al.",
+    subsection: "",
+},
+        
+ 
+{ title: "From Individual to Society: A Survey on Social Simulation Driven by Large Language Model-based Agents",
+    date: "12/2024",
+    environments: "text",
+    agents: "n/a",
+    evaluation: "n/a",
+    other: "n/a",
+    url: "https://arxiv.org/abs/2412.03563",
+    bibtex: "@article{mou2024individual,\n  title={From Individual to Society: A Survey on Social Simulation Driven by Large Language Model-based Agents},\n  author={Mou, Xinyi and Ding, Xuanwen and He, Qi and Wang, Liang and Liang, Jingcong and Zhang, Xinnong and Sun, Libo and Lin, Jiayu and Zhou, Jie and Huang, Xuanjing and Wei, Zhongyu},\n  journal={arXiv preprint arXiv:2412.03563},\n  url = {https://arxiv.org/abs/2412.03563},\n  year={2024},\n  month={12},\n  environments = {text},\n  agents = {n/a},\n  evaluation = {n/a},\n  other = {n/a},\n}",
+    authors: "Mou et al.",
     subsection: "",
 },
         

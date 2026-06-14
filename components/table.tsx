@@ -47,13 +47,15 @@ import Link from "next/link"
 
 import { options } from "./data/data"
 
-const renderCell = (row: Row<Paper>, row_name: string, backgroundColor:string, backgroundColorDark:string) => {
+// colorClasses must be a full, static class string (incl. dark: variants) so Tailwind's
+// JIT can detect and compile them — dynamic `dark:${var}` interpolation is never emitted.
+const renderCell = (row: Row<Paper>, row_name: string, colorClasses:string) => {
   const environments:string = row.getValue(row_name);
   const environmentList = environments.split(",").map(environment => environment.trim()).sort();
   return (
     <div className="flex flex-wrap">
       {environmentList.map((environment, index) => (
-        <div key={index} className={`rounded-full bg-clip-border ${backgroundColor} dark:${backgroundColorDark} m-1 px-2 py-1`}>
+        <div key={index} className={`rounded-full bg-clip-border ${colorClasses} m-1 px-2 py-1`}>
           {environment.trim()}
         </div>
       ))}
@@ -121,7 +123,7 @@ export const columns: ColumnDef<Paper>[] = [
         )
       },
       cell: ({ row }) => {
-        return renderCell(row, "environments", "bg-lime-200", "bg-lime-500")
+        return renderCell(row, "environments", "bg-lime-200 text-lime-900 dark:bg-lime-800 dark:text-lime-100")
       },
     },
     {
@@ -138,7 +140,7 @@ export const columns: ColumnDef<Paper>[] = [
         )
       },
       cell: ({ row }) => (
-        renderCell(row, "agents", "bg-violet-200", "bg-violet-500")
+        renderCell(row, "agents", "bg-violet-200 text-violet-900 dark:bg-violet-800 dark:text-violet-100")
       ),
     },
     {
@@ -155,7 +157,7 @@ export const columns: ColumnDef<Paper>[] = [
         )
       },
       cell: ({ row }) => (
-        renderCell(row, "evaluation", "bg-sky-200", "bg-sky-500")
+        renderCell(row, "evaluation", "bg-sky-200 text-sky-900 dark:bg-sky-800 dark:text-sky-100")
       ),
     },
     {
@@ -172,7 +174,7 @@ export const columns: ColumnDef<Paper>[] = [
         )
       },
       cell: ({ row }) => (
-        renderCell(row, "other", "bg-rose-200", "bg-rose-500")
+        renderCell(row, "other", "bg-rose-200 text-rose-900 dark:bg-rose-800 dark:text-rose-100")
       ),
     },
     {
